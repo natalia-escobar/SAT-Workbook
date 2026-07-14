@@ -1255,17 +1255,32 @@ const parabola = {
           { text: "[Problem 4]", setup: "[Setup 4]" },
         ]
       },
- 
+
       // Problem 21
       {
-        problem: `Function \\(f\\) is a quadratic function. The graph of \\( y = f(x)\\) in the xy-plane has a vertex at \\((4, -6)\\), contains the point \\((3, -8)\\), and has a y-intercept at \\((0, a)\\). The graph of \\(y = 5 \\cdot f(x)\\) has a y-intercept at \\((0,b)\\). What is the positive difference between \\(a\\) and \\(b\\)?`,
+        problem: `
+        The function \\(p\\) is a quadratic function. The graph of \\(y = p(x)\\) has a vertex at \\((-1,2)\\), contains the point \\((1,10)\\), and has a y-intercept at \\((0,m)\\). The graph of \\(y = 3p(x) - 5\\) has a y-intercept at \\((0,n)\\). What is the value of \\(m+n\\)?
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( x^2 + 5 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( x^2 + 3x + 5 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( x^2 + 4x + 5 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 2x^2 + 3x + 5\\)</span>
+        </div>
+        </div>`,
         steps: [
-          { text: "Input the vertex into Desmos as separate variables, \\(h = 4\\) and \\(k = -6\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782161535/parabola17-step1_w2gved.mov" },
-          { text: "Input the given point as separate variables, \\(x_1 = 3\\) and \\(y_1 = -8\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782161537/parabola17-step2_vuzy0m.mov" },
-          { text: "Since you know the function is quadratic, use the standard form of the quadratic function to find the missing variable a. Type \\(y_1\\) ~ \\(a(x_1 - h)^2 + k\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782161538/parabola17-step3_dec23q.mov" },
-          { text: "With a, declare the complete function \\(f\\) in a new line", note: "You can write it directly as \\(f(x) = a(x-h)^2 + k\\) since \\(a\\),\\(h\\), and \\(k\\) were declared already", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782161540/parabola17-step4_kgssgy.mov" },
-          { text: "Declare a new function \\(g(x) = 5 \\cdot f(x)\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782161543/parabola17-step6_um6sx5.mov" },
-          { text: "Since the question is asking for the positive difference of the y-intercept for \\(f(x)\\) and \\(g(x)\\), type abs(\\(g(0)-f(0)\\)) to get the answer 152", note: "Since the question is asking for the positive difference, you need to take the absolute value of the difference", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782161543/parabola17-step6_um6sx5.mov" },
+          { text: "Type 'table' into Desmos and input the given values", note: "", gif: "", video: "" },
+          { text: "Click Add Regression. As the problem mentions they have a quadratic relationship, change the regression from linear to quadratic. The equation produced will give you the answer", note: "", gif: "", video: "" },
         ],
         guidedProblem: "[Guided problem for Topic 2]",
         guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
