@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import MathContent from "./MathContent";
+import VideoPlayer from "./VideoPlayer";
 
 export default function StepNavigator({ steps }) {
   const isMultiApproach = !Array.isArray(steps);
@@ -58,7 +59,7 @@ export default function StepNavigator({ steps }) {
       {step.note && <MathContent text={step.note} className="step-note" />}
 
       {step.video ? (
-        <video controls className="video-player" src={step.video} />
+        <VideoPlayer src={step.video} />
       ) : (
         <div className="media-slot">
           <span className="media-slot-icon">🎬</span>
