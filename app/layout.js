@@ -2,8 +2,8 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
-  title: "ACT/SAT Workbook",
-  description: "Parabola practice workbook",
+  title: "SAT Workbook",
+  description: "Interative Workbook",
 };
 
 export default function RootLayout({ children }) {
