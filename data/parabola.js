@@ -1195,7 +1195,7 @@ const parabola = {
  
       // Problem 19
       {
-        problem: `The function \\(g\\) is defined by \\(g(x) = (x+17)(t-x)\\), where \\(t\\) is a constant. In the xy-plane, the graph of \\(y = g(x)\\) passes through the point \\((23, 0)\\). What is the value of \\(g(0)\\)?`,
+        problem: `THIS IS AN SAT QUESTION NEED TO CHANGE - The function \\(g\\) is defined by \\(g(x) = (x+17)(t-x)\\), where \\(t\\) is a constant. In the xy-plane, the graph of \\(y = g(x)\\) passes through the point \\((23, 0)\\). What is the value of \\(g(0)\\)?`,
         steps: [
           { text: "Type the point \\((23,0)\\) into Desmos as separate variables, \\(x_1 = 23\\) and \\(y_1 = 0\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782159543/parabola15-step1_usml8e.mov" },
           { text: "Use ~ to find \\(t\\) by typing \\(y_1\\) ~ \\((x_1 + 17)(t-x_1)\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782159545/parabola15-step2_haaviu.mov" },
@@ -1215,23 +1215,30 @@ const parabola = {
  
       // Problem 20
       {
-        problem: `The variables \\(x\\) and \\(y\\) have a quadratic relationship. When \\(x = 0\\), \\(y = 45\\), when \\(x = 6\\), \\(y = 81\\), and when \\(x = 15\\), \\(y = 0\\). Which equation represents this relationship?
+        problem: `
+        <table class="xy-table" style="margin:0 auto 16px auto">
+            <tr><td>x</td><td>f(x)</td></tr>
+            <tr><td>-3</td><td>14</td></tr>
+            <tr><td>0</td><td>5</td></tr>
+            <tr><td>4</td><td>21</td></tr>
+        </table>
+        The quadratic function passes through the following points. Which function passes through the points listed in the table above?
         <div class="mc-choices">
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">A</span>
-        <span>\\( y = x^2 - 18x + 45 \\)</span>
+        <span>\\( x^2 + 5 \\)</span>
         </div>
         <div class="mc-choice correct">
         <span class="mc-label">B</span>
-        <span>\\( y = -x^2 + 12x + 45 \\)</span>
+        <span>\\( x^2 + 3x + 5 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( y = x^2 + 45 \\)</span>
+        <span>\\( x^2 + 4x + 5 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( y = -3x^2 + 48x - 45\\)</span>
+        <span>\\( 2x^2 + 3x + 5\\)</span>
         </div>
         </div>`,
         steps: [
