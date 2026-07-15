@@ -56,19 +56,19 @@ const parabola = {
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
-              <span>\\( \\frac{3 \\pm \\sqrt{16}}{2} \\)</span>
+              <span>\\( \\frac{3 - \\sqrt{16}}{2} \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">B</span>
-              <span>\\( \\frac{-3 \\pm \\sqrt{16}}{2}  \\)</span>
+              <span>\\( \\frac{-3 + \\sqrt{16}}{2}  \\)</span>
             </div>
             <div class="mc-choice correct">
               <span class="mc-label">C</span>
-              <span>\\( \\frac{3 \\pm \\sqrt{14}}{2}  \\)</span>
+              <span>\\( \\frac{3 - \\sqrt{14}}{2}  \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
-              <span>\\(\\frac{-3 \\pm \\sqrt{14}}{2} \\)</span>
+              <span>\\(\\frac{-3 + \\sqrt{14}}{2} \\)</span>
             </div>
           </div>`,
         steps: [
