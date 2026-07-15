@@ -956,25 +956,25 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Declare the solution given in the equation, type \\(k_1 = \\frac{-9 + \\sqrt{481}}{10}\\)", note: "", gif: "", video: "" },
-          { text: "When this solution is plugged into the equation above, it should return 0, so type \\(y_1 = 0\\)", note: "", gif: "", video: "" },
-          { text: "Use ~ to determine m, by typing into Desmos \\(y_1\\) ~ \\(5k_1^2+9k_1-m\\) which will return that m is 20", note: "", gif: "", video: "" },
+          { text: "Declare the solution given in the equation, type \\(k_1 = \\frac{-9 + \\sqrt{481}}{10}\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784158305/parabola14-step1_whfvhg.mov" },
+          { text: "When this solution is plugged into the equation above, it should return \\(0\\), so type \\(y_1 = 0\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784158341/parabola14-step2_zt1utp.mov" },
+          { text: "Use ~ to determine \\(m\\), by typing into Desmos \\(y_1\\) ~ \\(5k_1^2+9k_1-m\\) which will return that \\(m\\) is \\(20\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784158408/parabola14-step3_dvybue.mov" },
         ],
         guidedProblem: `<p style="text-align:center;margin-bottom:12px">
           \\(3t^2 + bt - 8 = 0 \\)
         </p>
         <p>The equation above has one solution that can be written as \\(\\frac{-11+\\sqrt{217}}{6}\\). What is the value of \\(b\\)?</p>`     
         , guidedSteps: ["Declare the solution given in the equation, using \\(b_1\\)", "Declare \\(y_1\\)", "Use ~ to determine \\(b\\)"],
-        guidedAnswer: "The Answer is 11", guidedScreenshot: "",
+        guidedAnswer: "The Answer is \\(11\\)", guidedAnswerValue: "11", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784158294/parabola14-gp_sr77gi.png",
         practice: [
           { text: `<p style="text-align:center;margin-bottom:12px">
             \\(ax^2 + 9x - 4 = 0 \\)
             </p>
-            <p>The equation shown has one solution that can be written as \\(\\frac{-9+\\sqrt{209}}{16}\\). What is the value of \\(a\\)?</p>`, setup: "The Answer is 8", screenshot: "" },
+            <p>The equation shown has one solution that can be written as \\(\\frac{-9+\\sqrt{209}}{16}\\). What is the value of \\(a\\)?</p>`, setup: "The Answer is \\(8\\)", answer:"8", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784158298/parabola14-pp1_bnct6z.png" },
           { text: `<p style="text-align:center;margin-bottom:12px">
-            \\(5x^2 + 7x + n = 0 \\)
+            \\(5x^2 - 7x + n = 0 \\)
             </p>
-            <p>In the equation above, \\(n\\) is constant. One solution is \\(\\frac{7+\\sqrt{169}}{10}\\). What is the value of \\(n\\)?</p>`, setup: "The Answer is -6" },  
+            <p>In the equation above, \\(n\\) is constant. One solution is \\(\\frac{7+\\sqrt{169}}{10}\\). What is the value of \\(n\\)?</p>`, setup: "The Answer is \\(-6\\)", answer: "-6", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784158301/parabola14-pp2_kco888.png", },  
       ]
       },
  
