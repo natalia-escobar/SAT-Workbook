@@ -202,7 +202,8 @@ const parabola = {
             </div>
           </div>`,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer"],
-        guidedAnswer: "The Answer is A", guidedScreenshot: "",
+        guidedAnswer: "The Answer is A", guidedScreenshot: "", 
+        guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784133239/parabola5-gp_pxpitn.png",
         practice: [
           { text: `Which expression is equivalent to \\(5(x - 6)(x + \\frac{1}{2}) - 4(x-3) \\)?
         <div class="mc-choices">
@@ -212,7 +213,7 @@ const parabola = {
             </div>
             <div class="mc-choice correct">
               <span class="mc-label">B</span>
-              <span>\\( 5x^2 + \\frac{63}{2}x - 3 \\)</span>
+              <span>\\( 5x^2 - \\frac{63}{2}x - 3 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">C</span>
@@ -222,7 +223,7 @@ const parabola = {
               <span class="mc-label">D</span>
               <span>\\( 5x^2 - \\frac{67}{2}x + 12 \\)</span>
             </div>
-          </div>`, setup: "The Answer is B" },
+          </div>`, setup: "The Answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784133242/parabola5-pp1_irg9tr.png" },
           { text: `Which expression is equivalent to \\(4(x - \\frac{3}{2})^2 + 5 \\)?
         <div class="mc-choices">
             <div class="mc-choice correct">
@@ -241,12 +242,12 @@ const parabola = {
               <span class="mc-label">D</span>
               <span>\\( 4x^2 - 6x + 9 \\)</span>
             </div>
-          </div>`, setup: "The Answer is A" },
+          </div>`, setup: "The Answer is A", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784133245/parabola5-pp2_bqsypm.png" },
           { text: `Which expression is equivalent to \\(3(x - \\frac{1}{2})(x + 6) - 2(x-9) \\)?
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
-              <span>\\( 3x^2 - \\frac{29}{2}x + 9 \\)</span>
+              <span>\\( 3x^2 + \\frac{33}{2}x + 9 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">B</span>
@@ -254,13 +255,13 @@ const parabola = {
             </div>
             <div class="mc-choice correct">
               <span class="mc-label">C</span>
-              <span>\\( 3x^2 + \\frac{29}{2}x  - 9 \\)</span>
+              <span>\\( 3x^2 + \\frac{29}{2}x  + 9 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
               <span>\\( 3x^2 + \\frac{25}{2}x - 9 \\)</span>
             </div>
-          </div>`, setup: "The Answer is C" },
+          </div>`, setup: "The Answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784133247/parabola5-pp3_pxxvmx.png" },
         ]
       },
  
