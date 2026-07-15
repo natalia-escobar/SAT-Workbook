@@ -580,8 +580,8 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Type \\(f(x)\\) into Desmos", note: "", gif: "", video: "" },
-          { text: "Type \\(g(x) = f(x+7)\\), you can visually see the minimum value from the graph produced", note: "", gif: "", video: "" },
+          { text: "Type \\(f(x)\\) into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784144886/parabola9-step1_yfbhev.mov" },
+          { text: "Type \\(g(x) = f(x+7)\\), you can visually see the minimum value from the graph produced", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784144886/parabola9-step1_yfbhev.mov" },
         ],
         guidedProblem: `<p style="text-align:center;margin-bottom:12px">
           \\(h(x) = -2x^2 + 16x - 29\\)
@@ -592,7 +592,7 @@ const parabola = {
         <span class="mc-label">A</span>
         <span>\\( 1 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( 3 \\)</span>
         </div>
@@ -606,11 +606,11 @@ const parabola = {
         </div>
         </div>`,
         guidedSteps: ["Type \\(h(x)\\) into Desmos", "Type \\(k(x) = h(x+3)\\), you can visually see the maximum value from the graph produced"],
-        guidedAnswer: "The Answer is B", guidedScreenshot: "",
+        guidedAnswer: "The Answer is B", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784144877/parabola9-gp_s10vtl.png",
         practice: [
           { text: `The quadratic \\(t(x) = 2x^2 - 12x + 25 \\) is rewritten as \\(u(x) = t(x-1) + 4\\). What is the minimum value of \\(u(x)\\)?`, 
-          setup: "The Answer is 11", screenshot: "" },
-          { text: `The function \\(r(x) = 5x^2 - 50x + 132 \\). A new function is \\(s(x) = r(x + 2) - 10\\). What is the y-value of the lowest point of \\(s(x)\\)?`, setup: "The Answer is -3", screenshot: "" },
+          setup: "The Answer is 11", answer: "11", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784144879/parabola9-pp1_zcvayy.png" },
+          { text: `The function \\(r(x) = 5x^2 - 50x + 132 \\). A new function is \\(s(x) = r(x + 2) - 10\\). What is the y-value of the lowest point of \\(s(x)\\)?`, setup: "The Answer is -3", answer: "-3", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784144882/parabola9-pp2_weuxwf.png" },
         ]
       },
  
