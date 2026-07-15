@@ -719,11 +719,11 @@ const parabola = {
       {
         problem: `The \\(y\\)-intercept of the graph \\( g(x) = \\frac{1}{4}(x - 6)^2 + 2\\) in the xy-plane is \\((0,y)\\). What is the value of \\(y\\)?`,
         steps: [
-          { text: "Plug in \\(g(x)\\) into Desmos. You can determine the y-intercept by visually looking at the produced graph and see that it is 11", note: "", gif: "", video: "" },
+          { text: "Plug in \\(g(x)\\) into Desmos. You can determine the y-intercept by visually looking at the produced graph and see that it is 11", note: "", gif: "", answer: "11" , video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784151339/parabola11-step1_ltwuxv.mov" },
         ],
         guidedProblem: `The y-intercept of the graph \\(g(x) = -\\frac{3}{4}(x-8)^2 - 56\\) in the xy-plane is \\(0, g(0)\\). What is the value of the \\(g(0)\\)?`,
         guidedSteps: ["Plug in \\(z(x)\\). You can determine the y-intercept visually"],
-        guidedAnswer: "The answer is -104", guidedScreenshot: "",
+        guidedAnswer: "The answer is -104", guidedAnswer:"-104", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784151277/parabola11-gp_fmnj5o.png",
         practice: [
           { text: `At a community science fair, the height \\(h\\), in feet, of a model rocket \\(t\\) after launch is modeled by \\(h(t) = -9t^2 + 72 \\). Based on the model, what was the height of the rocket at the moment it was launched??</p>
             <div class="mc-choices">
@@ -739,19 +739,19 @@ const parabola = {
             <span class="mc-label">C</span>
             <span>\\( 63 \\) feet</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">D</span>
             <span>\\( 72 \\) feet</span>
             </div>
             </div>`
-            , setup: "The Answer is D", screenshot: "" },
+            , setup: "The Answer is D", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784151280/parabola11-pp1_sar5kk.png" },
           { text: `A firework is launched from a platform. Its height, \\(H\\), in meters, \\(t\\) seconds after launch is modeled by \\(H(t) = -4.9t^2 + 22.4t + 3.6 \\). What was the initial height, in meters, of the firework?</p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
             <span>\\( -4.9 \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">B</span>
             <span>\\( 3.6 \\)</span>
             </div>
@@ -763,7 +763,7 @@ const parabola = {
             <span class="mc-label">D</span>
             <span>\\( 26.0 \\)</span>
             </div>
-            </div>`, setup: `The Answer is B`},
+            </div>`, setup: `The Answer is B`, screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784151284/parabola11-pp2_i1jlau.png"},
           { text: `The height, in centimeters, of a plant is modeled by \\(H(w) = -0.4w^2 + 6w + 14 \\), where \\(w\\) is the number of weeks after the plant was first measured. What was the height of the plant when the observations began?</p>
             <div class="mc-choices">
             <div class="mc-choice">
@@ -774,7 +774,7 @@ const parabola = {
             <span class="mc-label">B</span>
             <span>\\( 6 \\) cm </span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\( 14 \\) cm</span>
             </div>
@@ -782,10 +782,10 @@ const parabola = {
             <span class="mc-label">D</span>
             <span>\\( 20 \\) cm</span>
             </div>
-            </div>`, setup: `The Answer is C`},
+            </div>`, setup: `The Answer is C`, screenshot:"https://res.cloudinary.com/dnyaptowc/image/upload/v1784151332/parabola11-pp3_vskha1.png"},
           { text: `The function \\(h(x) = 2x^2 + 7x - 4 \\) is transformed into \\(k(x) = 3h(x) - 8\\). What is the y-coordinate of the point where the graph of \\(k\\) intersects the y-axis?</p>
             <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\( -20 \\) </span>
             </div>
@@ -802,7 +802,7 @@ const parabola = {
             <span>\\( 4 \\) </span>
             </div>
             </div>`
-            , setup: "The Answer is A", screenshot: "" }
+            , setup: "The Answer is A", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784151335/parabola11-pp4_eroikg.png" }
             
         ]
       },
