@@ -719,9 +719,9 @@ const parabola = {
       {
         problem: `The \\(y\\)-intercept of the graph \\( g(x) = \\frac{1}{4}(x - 6)^2 + 2\\) in the xy-plane is \\((0,y)\\). What is the value of \\(y\\)?`,
         steps: [
-          { text: "Plug in \\(g(x)\\) into Desmos. You can determine the y-intercept by visually looking at the produced graph and see that it is 11", note: "", gif: "", answer: "11" , video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784151339/parabola11-step1_ltwuxv.mov" },
+          { text: "Plug in \\(g(x)\\) into Desmos. You can determine the \\(y\\)-intercept by visually looking at the produced graph and see that it is 11", note: "", gif: "", answer: "11" , video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784151339/parabola11-step1_ltwuxv.mov" },
         ],
-        guidedProblem: `The y-intercept of the graph \\(g(x) = -\\frac{3}{4}(x-8)^2 - 56\\) in the xy-plane is \\(0, g(0)\\). What is the value of the \\(g(0)\\)?`,
+        guidedProblem: `The \\(y\\)-intercept of the graph \\(g(x) = -\\frac{3}{4}(x-8)^2 - 56\\) in the xy-plane is \\(0, g(0)\\). What is the value of the \\(g(0)\\)?`,
         guidedSteps: ["Plug in \\(z(x)\\). You can determine the y-intercept visually"],
         guidedAnswer: "The answer is -104", guidedAnswerValue:"-104", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784151277/parabola11-gp_fmnj5o.png",
         practice: [
@@ -811,30 +811,30 @@ const parabola = {
       {
         problem: `A parabolic function predicts the number of math practice problems a student solves during a tutoring session at Beck College Prep in terms of time, in minutes, after a tutor begins the teaching session. According to the function, the student had solved \\(0\\) problems at the start of the session and reached the most questions out of \\(200\\) problems \\(10\\) minutes after the session began. Based on the function, how many math problems did the student solve \\(6\\) minutes after the session began?`,
         steps: [
-          { text: "Type \\(h = 10\\) and \\(k = 200\\) into Desmos, both on separate lines", note: "", gif: "", video: "" },
-          { text: "Type \\(x_1 = 0\\) and \\(y_1 = 0\\)", note: "", gif: "", video: "" },
-          { text: "As you know the function is quadratic, you can use the vertex form of the quadratic function to determine the function, so type \\(y_1\\) ~ \\(a(x_1 - h)^2 + k\\) into Desmos. This gives you a, so now you know the function", note: "", gif: "", video: "" },
-          { text: "Declare the function in a new line, type \\(f(x) = -2(x-h)^2+ k\\)", note: "", gif: "", video: "" },
-          { text: "Plug 6 into the function by typing \\(f(6)\\) into Desmos to find the answer is 168", note: "", gif: "", video: "" },
+          { text: "Type \\(h = 10\\) and \\(k = 200\\) into Desmos, both on separate lines", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154715/parabola12-step1_uxn4jp.mov" },
+          { text: "Type \\(x_1 = 0\\) and \\(y_1 = 0\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154718/parabola12-step2_b8s2ax.mov" },
+          { text: "As you know the function is quadratic, you can use the vertex form of the quadratic function to determine the function, so type \\(y_1\\) ~ \\(a(x_1 - h)^2 + k\\) into Desmos. This gives you a, so now you know the function", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154721/parabola12-step3_tbspfx.mov" },
+          { text: "Declare the function in a new line, type \\(f(x) = -2(x-h)^2+ k\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154725/parabola12-step4_koqi7b.mov" },
+          { text: "Plug 6 into the function by typing \\(f(6)\\) into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154727/parabola12-step5_jngu0e.mov" },
         ],
         guidedProblem: "A parabolic function forecasts the number of diagnostic tests organized by Ingrid, the Beck College Prep proctor, depending on the number of student folders she prepares. When \\(5\\) folders are prepared, \\(150\\) diagnostics are ready. The model shows that the maximum number of diagnostics prepared is \\(200\\) when \\(10\\) folders are prepared. Based on the function, how many diagnostics are ready when 18 folders are prepared?",
         guidedSteps: [
-          "Declare h and k into Desmos",
+          "Declare \\(h\\) and \\(k\\) into Desmos",
           "Declare \\(x_1\\) and \\(y_1\\) into Desmos",
           "Use the standard form of the quadratic function to determine a, the only missing parameter",
           "Now that you have a, declare the quadratic function in a new line",
-          "Plug in 18 to the quadratic function and it will return the answer"
+          "Plug in \\(18\\) to the quadratic function and it will return the answer"
         ],
-        guidedAnswer: "The Answer is 72", guidedScreenshot: "",
+        guidedAnswer: "The Answer is \\(72\\)", guidedAnswerValue: "72", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784154705/parabola12-gp_zsmxn3.png",
         practice: [
-          { text: `At Beck College Prep, a quadratic model estimates a student's study efficiency score based on the number of practice sets completed. The model predicts an efficiency score of 0 when no practice sets have been completed. The highest predicted efficiency score is \\(150\\) when \\(40\\) practice sets have been completed. According to the model, what is the predicted efficiency score when \\(4\\) practice sets have been completed?`, setup: "The Answer is 28.5", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1782513023/parabola8-pp3_swvv3b.png" },
+          { text: `At Beck College Prep, a quadratic model estimates a student's study efficiency score based on the number of practice sets completed. The model predicts an efficiency score of 0 when no practice sets have been completed. The highest predicted efficiency score is \\(150\\) when \\(40\\) practice sets have been completed. According to the model, what is the predicted efficiency score when \\(4\\) practice sets have been completed?`, setup: "The Answer is 28.5", answer:"28.5", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784154708/parabola12-pp1_tj3amd.png" },
           { text: `<p>A quadratic model gives the height, in feet, of a skier above the ground \\(x\\) seconds after leaving a jump. The model predicts that the skier is at ground level when \\(x=0\\). The skier reaches a maximum height of \\(180\\) feet after \\(6\\) seconds. According to the model, what is the skier's height after \\(2\\) seconds?</p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
             <span>\\( 80 \\) feet</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">B</span>
             <span>\\( 100 \\) feet</span>
             </div>
@@ -846,7 +846,7 @@ const parabola = {
             <span class="mc-label">D</span>
             <span>\\( 160 \\) feet</span>
             </div>
-            </div>`, setup: "The Answer is B", screenshot: "" },
+            </div>`, setup: "The Answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784154711/parabola12-pp2_ylnc8l.png" },
         ]
       },
  
