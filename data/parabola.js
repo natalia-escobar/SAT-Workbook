@@ -107,8 +107,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos. The x-values where it crosses the x-axis are two potential values for x", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784127954/parabola3-step1_qlrj6s.mov" },
-          { text: "Plug in both x-values, the one where \\(14x - 6 > 0\\) will give the correct value of \\(14x - 6\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784127955/parabola3-step2_nguhr4.mov" },
+          { text: "Type the expression into Desmos. The \\(x\\)-values where it crosses the \\(x\\)-axis are two potential values for \\(x\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784127954/parabola3-step1_qlrj6s.mov" },
+          { text: "Plug in both \\(x\\)-values, the one where \\(14x - 6 > 0\\) will give the correct value of \\(14x - 6\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784127955/parabola3-step2_nguhr4.mov" },
         ],
         guidedProblem: ``,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer"],
@@ -143,7 +143,7 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "On a scratch piece of paper, write the expression that matches the question <i>the square of positve number and a number that is \\(9\\) greater than \\(10\\) times the number</i>. Type that expression into Desmos, and where the x-values cross the x-axis are potential values for x, choose the answer choice that is 1 of these values", note: "", gif: "", video: "" },
+          { text: "On a scratch piece of paper, write the expression that matches the question <i>the square of positve number and a number that is \\(9\\) greater than \\(10\\) times the number</i>. Type that expression into Desmos, and where the \\(x\\)-values cross the \\(x\\)-axis are potential values for \\(x\\), choose the answer choice that is 1 of these values", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784130131/parabola4-step1_bwualm.mov" },
         ],
         guidedProblem: ``,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer"],
