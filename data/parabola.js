@@ -9,8 +9,8 @@ const parabola = {
           \\(f(x) = -0.004125x^2 + 16.842x - 17420\\)</p>
           <p>A planning committee at Beck College Prep is reviewing enrollment trends. The number of students expected to participate in September tutoring programs \\(f(x)\\) is estimated by the equation shown above, where \\(x\\) is the year. Using the model, determine the absolute change in the model's estimated enrollment between September \\(2021\\) and September \\(2022\\) to the nearest thousandth.</p>`,
         steps: [
-          { text: "Declare the function into Desmos, exactly as it is shown in the question", note: "", gif: "", video: "" },
-          { text: "The question asks for the positive difference between \\(f(2022)\\) and \\(f(2021)\\), so type that into Desmos", note: "", gif: "", video: "" },
+          { text: "Declare the function into Desmos, exactly as it is shown in the question", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784124160/parabola1-step1_yq17rc.mov" },
+          { text: "The question asks for the positive difference between \\(f(2022)\\) and \\(f(2021)\\), so type that into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784124160/parabola1-step2_pf8dz1.mov" },
         ],
         guidedProblem: `<p style="text-align:center;margin-bottom:12px">
           \\(T(x) = -0.006x^2 + 24.3x - 24500\\)</p>
