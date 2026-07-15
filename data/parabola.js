@@ -814,7 +814,7 @@ const parabola = {
           { text: "Type \\(h = 10\\) and \\(k = 200\\) into Desmos, both on separate lines", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154715/parabola12-step1_uxn4jp.mov" },
           { text: "Type \\(x_1 = 0\\) and \\(y_1 = 0\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154718/parabola12-step2_b8s2ax.mov" },
           { text: "As you know the function is quadratic, you can use the vertex form of the quadratic function to determine the function, so type \\(y_1\\) ~ \\(a(x_1 - h)^2 + k\\) into Desmos. This gives you a, so now you know the function", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154721/parabola12-step3_tbspfx.mov" },
-          { text: "Declare the function in a new line, type \\(f(x) = -2(x-h)^2+ k\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154725/parabola12-step4_koqi7b.mov" },
+          { text: "Declare the function in a new line, type \\(f(x) = a(x-h)^2+ k\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154725/parabola12-step4_koqi7b.mov" },
           { text: "Plug 6 into the function by typing \\(f(6)\\) into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154727/parabola12-step5_jngu0e.mov" },
         ],
         guidedProblem: "A parabolic function forecasts the number of diagnostic tests organized by Ingrid, the Beck College Prep proctor, depending on the number of student folders she prepares. When \\(5\\) folders are prepared, \\(150\\) diagnostics are ready. The model shows that the maximum number of diagnostics prepared is \\(200\\) when \\(10\\) folders are prepared. Based on the function, how many diagnostics are ready when 18 folders are prepared?",
@@ -857,7 +857,7 @@ const parabola = {
         </p>
         <p>How many distinct real solutions does the equation have?</p>`,
         steps: [
-          { text: "Type function into Desmos. The graph never touches the x-axis, so there are zero real solutions", note: "", gif: "", video: "" },
+          { text: "Type equation into Desmos. The graph doesn't appear, so type in \\(y = (x-3)^2+10\\) to see the graph of the function. Notice that it never touches the x-axis, so there are \\(0\\) real solutions", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784156094/parabola13-step1_clu1wr.mov" },
         ],
         guidedProblem: `<p style="text-align:center;margin-bottom:12px">
           \\( 4(2x - 3)^2 - 120 = -3(2x + 5)^2\\)
@@ -868,7 +868,7 @@ const parabola = {
           <span class="mc-label">A</span>
           <span>Exactly one</span>
           </div>
-          <div class="mc-choice">
+          <div class="mc-choice correct">
           <span class="mc-label">B</span>
           <span>Exactly two</span>
           </div>
@@ -881,8 +881,8 @@ const parabola = {
           <span>Zero</span>
           </div>
           </div>`,
-        guidedSteps: ["Type function into desmos, exactly as it is written. You can determine the answer by seeing how many times it crosses the x-axis, if any"],
-        guidedAnswer: "The Answer is B", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1782685788/parabola9-gp_ap2pjk.png",
+        guidedSteps: ["Type function into desmos, exactly as it is written. You can determine the answer by seeing how many times it crosses the \\(x\\)-axis, if any"],
+        guidedAnswer: "The Answer is B", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784156054/parabola13-gp_dkb94b.png",
         practice: [
           { text: `<p style="text-align:center;margin-bottom:12px">
           \\( 4(x + 3) = 2(x - 1)(x + 4) \\)
@@ -897,7 +897,7 @@ const parabola = {
           <span class="mc-label">B</span>
           <span>One</span>
           </div>
-          <div class="mc-choice">
+          <div class="mc-choice correct">
           <span class="mc-label">C</span>
           <span>Two</span>
           </div>
@@ -905,13 +905,13 @@ const parabola = {
           <span class="mc-label">D</span>
           <span>More than two</span>
           </div>
-          </div>`, setup: "The Answer is C", screenshot: "" },
+          </div>`, setup: "The Answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784156057/parabola13-pp1_ni44w1.png" },
         { text: `<p style="text-align:center;margin-bottom:12px">
           \\( \\sqrt{4x - 13} = x - 1 \\)
           </p>
           <p>How many distinct real solutions does the equation have?</p>
           <div class="mc-choices">
-          <div class="mc-choice">
+          <div class="mc-choice correct">
           <span class="mc-label">A</span>
           <span>Zero</span>
           </div>
@@ -927,7 +927,7 @@ const parabola = {
           <span class="mc-label">D</span>
           <span>More than two</span>
           </div>
-          </div>`, setup: `The Answer is C`,}
+          </div>`, setup: `The Answer is A`, screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784156060/parabola13-pp2_wbqcxf.png",}
         ]
       },
  
