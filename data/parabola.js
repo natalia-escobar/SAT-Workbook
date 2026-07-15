@@ -283,7 +283,7 @@ const parabola = {
         </div>
         <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( \\frac{11}{5}x^2 + \\frac{127}{5}x - 36 \\)</span>
+        <span>\\( \\frac{6}{5}x^2 + \\frac{127}{5}x - 36 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
@@ -291,9 +291,9 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Type in \\(m(x)\\) and \\(n(x)\\) into Desmos", note: "", gif: "", video: "" },
-          { text: "Type in \\(m(x) \\cdot n(x)\\)", note: "To avoid confusion, only graph this, remove m(x) and n(x) from being shown on the graph", gif: "", video: "" },
-          { text: "Type each answer choice, whichever one perfectly overlaps \\(m(x) \\cdot n(x)\\) is the answer", note: "", gif: "", video: "" },
+          { text: "Type in \\(m(x)\\) and \\(n(x)\\) into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784138113/parabola6-step1_jubjg5.mov" },
+          { text: "Type in \\(m(x) \\cdot n(x)\\)", note: "To avoid confusion, only graph this, remove m(x) and n(x) from being shown on the graph", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784138114/parabola6-step2_gophie.mov" },
+          { text: "Type each answer choice, whichever one perfectly overlaps \\(m(x) \\cdot n(x)\\) is the answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784138118/parabola6-step3_viq3op.mov" },
         ],
         guidedProblem: `<p style="text-align:center;margin-bottom:12px">
           \\(f(x) = 5 - \\frac{2}{3}x\\)<br><br>
@@ -319,11 +319,11 @@ const parabola = {
         </div>
         </div>`,
         guidedSteps: ["Type in \\(f(x)\\) and \\(g(x)\\) into Desmos", "Type in \\(f(x) \\cdot g(x)\\)", "Type each answer choice, whichever one perfectly overlaps \\(f(x) \\cdot g(x)\\) is the answer"],
-        guidedAnswer: "The Answer is D", guidedScreenshot: "",
+        guidedAnswer: "The Answer is D", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784138107/parabola6-gp_i95vza.png",
         practice: [
           { text: `<p style="text-align:center;margin-bottom:12px">
           \\(p(x) = \\frac{3}{4}x - 8 \\)<br><br>
-          \\(q(x) = 2x - frac{5}{3} \\)
+          \\(q(x) = 2x - \\frac{5}{3} \\)
         </p>
         <p>The functions p and q are defined by the equations shown. Which expression is equivalent to \\(p(x) \\cdot q(x)\\)?</p>
         <div class="mc-choices">
@@ -343,7 +343,7 @@ const parabola = {
         <span class="mc-label">D</span>
         <span>\\( -\\frac{3}{2}x^2 - \\frac{69}{4}x + \\frac{40}{3} \\)</span>
         </div>
-        </div>`, setup: "The Answer is A", screenshot: "" },
+        </div>`, setup: "The Answer is A", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784138108/parabola6-pp1_tiabzz.png" },
           { text: `<p style="text-align:center;margin-bottom:12px">
           \\(u(x) -\\frac{1}{2}x = 9 \\) <br><br>
           \\(v(x) + 5 = 2x \\)
@@ -364,9 +364,9 @@ const parabola = {
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( x^2 \\frac{31}{2}x^2 - 45 \\)</span>
+        <span>\\( 2x^2 + \\frac{31}{2}x^2 - 45 \\)</span>
         </div>
-        </div>`, setup: "The Answer is C", screenshot: "" },
+        </div>`, setup: "The Answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784138111/parabola6-pp2_bmbvzt.png" },
         ]
       },
  
