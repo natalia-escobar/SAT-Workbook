@@ -639,9 +639,9 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Type \\(g(t)\\) into Desmos", note: "", gif: "", video: "" },
-          { text: "Type \\(h(t) = g(t) - 5 \\) and from this, you can determine the minimum value", note: "", gif: "", video: "" },
-          { text: "Plug in each answer choice. Pick the answer that matches the minimum value", note: "", gif: "", video: "" },
+          { text: "Type \\(g(t)\\) into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784147899/parabola10-step1_a34mvn.mov" },
+          { text: "Type \\(h(t) = g(t) - 5 \\) and from this, you can determine the minimum value", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784147902/parabola10-step2_fadt09.mov" },
+          { text: "Plug in each answer choice. Pick the answer that matches the minimum value", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784147906/parabola10-step3_y7aalh.mov" },
         ],
         guidedProblem: `<p style="text-align:center;margin-bottom:12px">
           \\(p(x) = 40x - 5x^2\\)
@@ -652,7 +652,7 @@ const parabola = {
         <span class="mc-label">A</span>
         <span>\\( \\frac{40^2}{4*5} - 7 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( \\frac{40^2}{4*5} + 7 \\)</span>
         </div>
@@ -666,14 +666,14 @@ const parabola = {
         </div>
         </div>`,
         guidedSteps: ["Type \\(p(x)\\) into Desmos", "Type \\(q(x) = p(x+ 2) + 7 \\) and from this, you can determine the minimum value", "Plug in each answer choice. Pick the answer that matches the minimum value"],
-        guidedAnswer: "The Answer is B", guidedScreenshot: "",
+        guidedAnswer: "The Answer is B", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784147881/parabola10-gp_zg0njk.png",
         practice: [
           { text: `<p style="text-align:center;margin-bottom:12px">
           \\(p(x) = -4x^2 + 56x - 91\\)
         </p>
         <p>A tutoring center models the increase in a student's math score after attending review sessions with \\(p(x)\\), where \\(x\\) is the number of review sessions attended. A new model is defined by \\(q(x)\\) is defined by \\(q(x) = p(x) - 8\\). Which expression represents the maximum value of \\(q(x)\\)?</p>
         <div class="mc-choices">
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( \\frac{56^2}{4*4} - 91 - 8 \\)</span>
         </div>
@@ -689,7 +689,7 @@ const parabola = {
         <span class="mc-label">D</span>
         <span>\\( (\\frac{56}{8})^2 - 91 - 8 \\)</span>
         </div>
-        </div>`, setup: "The Answer is A" },
+        </div>`, setup: "The Answer is A", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784147887/parabola10-pp2_el4ure.png" },
           { text: `<p style="text-align:center;margin-bottom:12px">
           \\(v(m) = -4m^2 + 32m + 9\\)
         </p>
@@ -703,15 +703,15 @@ const parabola = {
         <span class="mc-label">B</span>
         <span>\\( -\\frac{(32 - 3)^2}{-4*4} + 9 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( -\\frac{32^2}{-4*4} + 9 - 3 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( -\\frac{(32 - 3)^2}{-4*4} + 9 \\)</span>
+        <span>\\( -\\frac{32^2}{-4*4} + 9 \\)</span>
         </div>
-        </div>`, setup: "The Answer is C" },
+        </div>`, setup: "The Answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784147887/parabola10-pp2_el4ure.png" },
         ]
       },
  
