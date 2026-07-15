@@ -313,7 +313,7 @@ const parabola = {
         <span class="mc-label">C</span>
         <span>\\( \\frac{8}{3}x^2 + \\frac{58}{3}x + 5 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">D</span>
         <span>\\( -\\frac{8}{3}x^2 + \\frac{58}{3}x + 5 \\)</span>
         </div>
@@ -327,7 +327,7 @@ const parabola = {
         </p>
         <p>The functions p and q are defined by the equations shown. Which expression is equivalent to \\(p(x) \\cdot q(x)\\)?</p>
         <div class="mc-choices">
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( \\frac{3}{2}x^2 - \\frac{69}{4}x + \\frac{40}{3} \\)</span>
         </div>
@@ -358,7 +358,7 @@ const parabola = {
         <span class="mc-label">B</span>
         <span>\\( x^2 + \\frac{13}{2}x - 45 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( x^2 + \\frac{31}{2}x - 45 \\)</span>
         </div>
