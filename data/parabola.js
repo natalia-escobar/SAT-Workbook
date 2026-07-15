@@ -723,7 +723,7 @@ const parabola = {
         ],
         guidedProblem: `The y-intercept of the graph \\(g(x) = -\\frac{3}{4}(x-8)^2 - 56\\) in the xy-plane is \\(0, g(0)\\). What is the value of the \\(g(0)\\)?`,
         guidedSteps: ["Plug in \\(z(x)\\). You can determine the y-intercept visually"],
-        guidedAnswer: "The answer is -104", guidedAnswer:"-104", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784151277/parabola11-gp_fmnj5o.png",
+        guidedAnswer: "The answer is -104", guidedAnswerValue:"-104", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784151277/parabola11-gp_fmnj5o.png",
         practice: [
           { text: `At a community science fair, the height \\(h\\), in feet, of a model rocket \\(t\\) after launch is modeled by \\(h(t) = -9t^2 + 72 \\). Based on the model, what was the height of the rocket at the moment it was launched??</p>
             <div class="mc-choices">
