@@ -395,7 +395,7 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Type the given equation into Desmos. You can find the minimum visually on the graph", note: "", gif: "", video: "" },
+          { text: "Type the given equation into Desmos. You can find the minimum visually on the graph", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784139931/parabola7-step1_nxbjoj.mov" },
         ],
         guidedProblem: `<p style="text-align:center;margin-bottom:12px">
           \\(f(x) = -2x^2 + 6x - 13\\)
@@ -410,7 +410,7 @@ const parabola = {
         <span class="mc-label">B</span>
         <span>\\( -8.5 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( 1.5 \\)</span>
         </div>
@@ -420,11 +420,11 @@ const parabola = {
         </div>
         </div>`, 
         guidedSteps: ["Type the given equation into Desmos. You can find the maximum visually on the graph"],
-        guidedAnswer: "The Answer is C", guidedScreenshot: "",
+        guidedAnswer: "The Answer is C", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784139923/parabola7-gp_c8q7lm.png",
         practice: [
           { text: `<p>For the quadratic function \\(f(x) = 6x^2 - 48x + 107\\), which value of \\(x\\) is associated with the minimum value of the function?</p>
         <div class="mc-choices">
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( 4 \\)</span>
         </div>
@@ -440,12 +440,12 @@ const parabola = {
         <span class="mc-label">D</span>
         <span>\\( 48 \\)</span>
         </div>
-        </div>`, setup: "The Answer is A", screenshot: "" },
+        </div>`, setup: "The Answer is A", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784139925/parabola7-pp1_ugmi2u.png" },
           { text: `<p style="text-align:center;margin-bottom:12px">
           \\(M(x) = 6(x - 3)(x - 11) + 25\\)
         </p>
         <p>A manufacturing company models the average production cost by \\(M(x)\\), where \\(x\\) is the number of production cycles completed. For what value of \\(x\\) is the predicted production cost the least?</p>`, 
-        setup: "The Answer is 7", screenshot: "" },
+        setup: "The Answer is 7", answer:"7", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784139928/parabola7-pp2_qopig2.png" },
         ]
       },
  
