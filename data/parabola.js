@@ -474,14 +474,14 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Type the given function into Desmos. From the graph, you can find the minimum value", note: "The answer choice that includes the minimum value is the answer", gif: "", video: "" },
+          { text: "Type the given function into Desmos. From the graph, you can find the minimum value", note: "The answer choice that includes the minimum value is the answer", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784142540/parabola8-step1_hwv7qm.mov" },
         ],
         guidedProblem: `<p style="text-align:center;margin-bottom:12px">
           \\(R(x) = 2x^2 - 20x + 47\\)
         </p>
         <p>Marian models the average number of questions a student misses on weekly reading quizzes with the function, \\(R(x)\\), where \\(x\\) is the number of weeks since tutoring began. Which equivalent form of the equation displays the minimum predicted number of missed questions as a constant? </p>
         <div class="mc-choices">
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( R(x) = 2(x - 5)(x - 5) - 6 \\)</span>
         </div>
@@ -499,7 +499,7 @@ const parabola = {
         </div>
         </div>`,
         guidedSteps: ["Type the given function into Desmos. From the graph, you can find the minimum value"],
-        guidedAnswer: "The Answer is A", guidedScreenshot: "",
+        guidedAnswer: "The Answer is A", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784142532/parabola8-gp_dziogs.png",
         practice: [
           { text: `<p style="text-align:center;margin-bottom:12px">
           \\(f(x) = -2x^2 + 12x + 8\\)
@@ -510,7 +510,7 @@ const parabola = {
             <span class="mc-label">A</span>
             <span>\\( f(x) = -2(x + 3)^2 + 26 \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">B</span>
             <span>\\( f(x) = -2(x - 3)^2 + 26 \\)</span>
             </div>
@@ -528,7 +528,7 @@ const parabola = {
                 {latex: "y = -2x^2 + 12x + 8", color: "#1a1a1a"} 
               ], bounds: {left: - 6, right: 10 , bottom: -20 , top: 45}
 
-          }, setup: "The correct answer is B" },
+          }, setup: "The correct answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784142535/parabola8-pp1_xtqfv7.png" },
           { text: `<p style="text-align:center;margin-bottom:12px">
             \\(g(x) = -3x^2 + 18x + 7\\)
             </p>
@@ -542,7 +542,7 @@ const parabola = {
             <span class="mc-label">B</span>
             <span>\\( \\frac{1}{3}y - 10 = -(x - 3)^2 \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\( y - 34 = -3(x - 3)^2 \\)</span>
             </div>
@@ -551,7 +551,7 @@ const parabola = {
             <span>\\( y = -3x(x - 6) + 7 \\)</span>
             </div>
             </div>`
-            , setup: "The correct answer is C" },
+            , setup: "The correct answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784142538/parabola8-pp2_woxt1y.png" },
         ]
       },
  
