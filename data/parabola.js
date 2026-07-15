@@ -72,8 +72,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos. The x-value(s) where it crosses the x-axis is the solution", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784126575/parabola2-step1_lfbkaw.mov" },
-          { text: "Type each answer choice into Desmos. The answer choice that is exactly the same as the x-value is the answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784126576/parabola2-step2_iqndme.mov" },
+          { text: "Type the expression into Desmos. The \\(x\\)-value(s) where it crosses the \\(x\\)-axis is the solution", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784126575/parabola2-step1_lfbkaw.mov" },
+          { text: "Type each answer choice into Desmos. The answer choice that is exactly the same as the \\(x\\)-value is the answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784126576/parabola2-step2_iqndme.mov" },
         ],
         guidedProblem: ``,
         guidedSteps: ["Type the expression into Desmos. The x-value(s) where it crosses the x-axis is the solution", "Type each answer choice into Desmos. Remember to note that the answer choices are the \\(k\\) values when plugging in."],
@@ -107,8 +107,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos. The x-values where it crosses the x-axis are two potential values for x", note: "", gif: "", video: "" },
-          { text: "Plug in both x-values, the one where \\(14x - 6 > 0\\) will give the correct value of \\(14x - 6\\)", note: "", gif: "", video: "" },
+          { text: "Type the expression into Desmos. The x-values where it crosses the x-axis are two potential values for x", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784127954/parabola3-step1_qlrj6s.mov" },
+          { text: "Plug in both x-values, the one where \\(14x - 6 > 0\\) will give the correct value of \\(14x - 6\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784127955/parabola3-step2_nguhr4.mov" },
         ],
         guidedProblem: ``,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer"],
