@@ -179,8 +179,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer", note: "", gif: "", video: "" },
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784131954/parabola5-step1_thkq2v.mov" },
+          { text: "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784131955/parabola5-step2_elrgcu.mov" },
         ],
         guidedProblem: `Which expression is equivalent to \\(3(x-\\frac{5}{2})(x+4) + 7x\\)?
         <div class="mc-choices">
