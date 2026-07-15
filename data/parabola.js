@@ -72,8 +72,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos. The x-value(s) where it crosses the x-axis is the solution", note: "", gif: "", video: "" },
-          { text: "Type each answer choice into Desmos. The answer choice that is exactly the same as the x-value is the answer", note: "", gif: "", video: "" },
+          { text: "Type the expression into Desmos. The x-value(s) where it crosses the x-axis is the solution", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784126575/parabola2-step1_lfbkaw.mov" },
+          { text: "Type each answer choice into Desmos. The answer choice that is exactly the same as the x-value is the answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784126576/parabola2-step2_iqndme.mov" },
         ],
         guidedProblem: ``,
         guidedSteps: ["Type the expression into Desmos. The x-value(s) where it crosses the x-axis is the solution", "Type each answer choice into Desmos. Remember to note that the answer choices are the \\(k\\) values when plugging in."],
