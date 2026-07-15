@@ -10,20 +10,17 @@ const parabola = {
           <p>A planning committee at Beck College Prep is reviewing enrollment trends. The number of students expected to participate in September tutoring programs \\(f(x)\\) is estimated by the equation shown above, where \\(x\\) is the year. Using the model, determine the absolute change in the model's estimated enrollment between September \\(2021\\) and September \\(2022\\) to the nearest thousandth.</p>`,
         steps: [
           { text: "Declare the function into Desmos, exactly as it is shown in the question", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784124160/parabola1-step1_yq17rc.mov" },
-          { text: "The question asks for the positive difference between \\(f(2022)\\) and \\(f(2021)\\), so type that into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784124160/parabola1-step2_pf8dz1.mov" },
+          { text: "The question asks for the positive difference between \\(f(2022)\\) and \\(f(2021)\\), so type that into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784125469/parabola1-step2_hwpuf1.mov" },
         ],
         guidedProblem: `<p style="text-align:center;margin-bottom:12px">
           \\(T(x) = -0.006x^2 + 24.3x - 24500\\)</p>
           <p>A landscaping company models the number of trees planted each year using the function \\(T(x)\\), where \\(x\\) represents a year. According to the model, what is the absolute change in the estimated number of trees planted from \\(2024\\) to \\(2026\\), to the nearest tenth?</p>`,
         guidedSteps: ["Declare the function into Desmos", "Find the positive difference between \\(T(2026)\\) and \\(T(2024)\\)"],
-        guidedAnswer: "The Answer is 0", guidedAnswerValue: "0", guidedScreenshot: "",
+        guidedAnswer: "The Answer is 0", guidedAnswerValue: "0", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784125513/parabola1-gp_bvhpya.png",
         practice: [
           { text: `<p style="text-align:center;margin-bottom:12px">
-          \\(C(t) = 0.018t^2 - 1.24t + 56.8\\)</p>
-          <p>A laboratory models the concentration of a chemical using the function \\(C(t)\\), where \\(t\\) is measured in hours. Which value is closest to the average rate of change of the concentration from \\(t = 8\\) to \\(t = 12\\)?</p>`, setup: "The Answer is \\(-0.88\\)", answer: "-0.88" },
-          { text: `<p style="text-align:center;margin-bottom:12px">
           \\(P(x) = -0.015x^2 + 60x - 59800\\)</p>
-          <p>The monthly profit (in thousands of dollars) for a company is modeled by \\(P(x)\\), where \\(x\\) represents the year. By approximately how many thousand dollars does the model predict the monthly profit changes between \\(2027\\) and \\(2028\\)?</p>`, setup: "The Answer is 0.825", answer: "0.825" },
+          <p>The monthly profit (in thousands of dollars) for a company is modeled by \\(P(x)\\), where \\(x\\) represents the year. By approximately how many thousand dollars does the model predict the monthly profit changes between \\(2027\\) and \\(2028\\)?</p>`, setup: "The Answer is 0.825", answer: "0.825", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784125513/parabola1-pp1_itdcwh.png" },
           { text: `<p style="text-align:center;margin-bottom:12px">
           \\(h(t) = 0.042t^2 + 3.6t + 12 \\)</p>
           <p>The average height of a species of plant is modeled by \\(h(t)\\), where \\(t\\) is measured in weeks. Between which two consecutive weeks is the greatest increase predicted?</p>
@@ -44,7 +41,10 @@ const parabola = {
               <span class="mc-label">D</span>
               <span>Weeks \\(6\\) and \\(7\\)</span>
             </div>
-          </div>`, setup: "The Answer is D" },
+          </div>`, setup: "The Answer is D", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784125515/parabola1-pp2_heehux.png" },
+          { text: `<p style="text-align:center;margin-bottom:12px">
+          \\(C(t) = 0.018t^2 - 1.24t + 56.8\\)</p>
+          <p>A laboratory models the concentration of a chemical using the function \\(C(t)\\), where \\(t\\) is measured in hours. Which value is closest to the average rate of change of the concentration from \\(t = 8\\) to \\(t = 12\\)?</p>`, setup: "The Answer is \\(-0.88\\)", answer: "-0.88", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784125515/parabola1-pp3_m7lfv2.png" },
         ]
       },
 
