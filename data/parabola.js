@@ -1024,7 +1024,7 @@ const parabola = {
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( g(t) = 2(x - 2)(x - 20)\\)</span>
+        <span>\\( f(x) = 2(x - 2)(x - 20)\\)</span>
         </div>
         </div>`,
         guidedSteps: ["Type the function into Desmos. From the graph produced, you can find the zeroes of the function"],
@@ -1125,8 +1125,8 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Type the equation into Desmos. From the graph produced, you can visually see the two possible solutions", note: "", gif: "", video: "" },
-          { text: "Type each answer choice into Desmos and the one that returns one of the solutions is the correct answer", note: "", gif: "", video: "" },
+          { text: "Type the equation into Desmos. From the graph produced, you can visually see the two possible solutions", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784213236/parabola16-step1_cg8lxt.mov" },
+          { text: "Type each answer choice into Desmos and the one that returns one of the solutions is the correct answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784213236/parabola16-step2_j7txa8.mov" },
         ],
         guidedProblem: ``,
         guidedSteps: ["Type the equation into Desmos. From the graph produced, you can visually see the positive solution"],
