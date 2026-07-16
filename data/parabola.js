@@ -1232,7 +1232,7 @@ const parabola = {
         <span class="mc-label">A</span>
         <span>\\( x^2 + 5 \\)</span>
         </div>
-        <div class="mc-choice correct">
+        <div class="mc-choice">
         <span class="mc-label">B</span>
         <span>\\( x^2 + 3x + 5 \\)</span>
         </div>
@@ -1267,19 +1267,19 @@ const parabola = {
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
-        <span>\\( x^2 + 5 \\)</span>
+        <span>\\( 7 \\)</span>
         </div>
-        <div class="mc-choice correct">
+        <div class="mc-choice">
         <span class="mc-label">B</span>
-        <span>\\( x^2 + 3x + 5 \\)</span>
+        <span>\\( 11 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( x^2 + 4x + 5 \\)</span>
+        <span>\\( 15 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( 2x^2 + 3x + 5\\)</span>
+        <span>\\( 19 \\)</span>
         </div>
         </div>`,
         steps: [
