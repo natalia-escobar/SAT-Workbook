@@ -1003,7 +1003,7 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Type the function into Desmos. From the graph produced, you can find the zeroes of the function", note: "", gif: "", video: "" },
+          { text: "Type the function into Desmos. From the graph produced, you can find the zeroes of the function", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784212603/parabola15-step1_dwjdok.mov" },
         ],
         guidedProblem: `<p style="text-align:center;margin-bottom:12px">
           \\(f(x) = 2x^2 - 26x + 80\\)
@@ -1028,16 +1028,16 @@ const parabola = {
         </div>
         </div>`,
         guidedSteps: ["Type the function into Desmos. From the graph produced, you can find the zeroes of the function"],
-        guidedAnswer: "The Answer is A", guidedScreenshot: "",
+        guidedAnswer: "The Answer is A", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784212602/parabola15-gp_y2vsds.png",
         practice: [
           { text: `<p style="text-align:center;margin-bottom:12px">
             \\(h(x) = 3x^2 - 42x + 126\\)
             </p>
-            <p>The function \\(h\\) is defined by the equation above. Which equation below displays the roots of \\(f\\) as constants or coefficients?</p>
+            <p>The function \\(h\\) is defined by the equation above. Which equation below displays the roots of \\(h\\) as constants or coefficients?</p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
-            <span>\\( h(x) - 9 = 3x^2 - 42x + 126 \\)</span>
+            <span>\\( h(x) - 9 = 3x^2 - 42x + 135 \\)</span>
             </div>
             <div class="mc-choice correct">
             <span class="mc-label">B</span>
@@ -1052,11 +1052,11 @@ const parabola = {
             <span>\\( h(x) = 3(x - 7)^2 - 12\\)</span>
             </div>
             </div>`
-            , setup: "The Answer is B" },
+            , setup: "The Answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784212602/parabola15-pp1_beuxj3.png" },
           { text: `<p style="text-align:center;margin-bottom:12px">
             \\(x - 3y^2 + 18y  - 15 = 0\\)
             </p>
-            <p>The function in the xy-plane has the equation shown above. Which equation displays the roots of the quadratic function as coefficients or constants?</p>
+            <p>The function in the \\(xy\\)-plane has the equation shown above. Which equation displays the roots of the quadratic function in \\(y\\) as coefficients or constants?</p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -1064,7 +1064,7 @@ const parabola = {
             </div>
             <div class="mc-choice">
             <span class="mc-label">B</span>
-            <span>\\( x + 12 = 3(y - 3)^2 \\)</span>
+            <span>\\( x = 3(y - 1)(y-5) \\)</span>
             </div>
             <div class="mc-choice">
             <span class="mc-label">C</span>
@@ -1074,11 +1074,11 @@ const parabola = {
             <span class="mc-label">D</span>
             <span>\\( x = 3y^2 - 18y + 15\\)</span>
             </div>
-            </div>`, setup: "The Answer is D" },
+            </div>`, setup: "The Answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784212602/parabola15-pp2_bsnyao.png" },
           { text: `<p style="text-align:center;margin-bottom:12px">
-            \\(h(x) = 2x^2 - 26x + 80\\)
+            \\(p(x) = 2x^2 - 26x + 80\\)
             </p>
-            <p>The function p is defined by the equation above. Which equation displays the solutions of \\(p\\) as constants or coefficients?</p>
+            <p>The function \\(p\\) is defined by the equation above. Which equation displays the solutions of \\(p\\) as constants or coefficients?</p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -1090,13 +1090,13 @@ const parabola = {
             </div>
             <div class="mc-choice">
             <span class="mc-label">C</span>
-            <span>\\( p(x) = 3x(x - 13) + 80 \\)</span>
+            <span>\\( p(x) = 2x(x - 13) + 80 \\)</span>
             </div>
             <div class="mc-choice">
             <span class="mc-label">D</span>
             <span>\\( p(x) = 2(x - 6.5)^2 - \\frac{9}{2}\\)</span>
             </div>
-            </div>`, setup: "The Answer is B" },
+            </div>`, setup: "The Answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784212602/parabola15-pp3_ejstuu.png" },
         ]
       },
  
