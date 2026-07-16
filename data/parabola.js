@@ -1125,8 +1125,8 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Type the equation into Desmos. From the graph produced, you can visually see the two possible solutions", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784213236/parabola16-step1_cg8lxt.mov" },
-          { text: "Type each answer choice into Desmos and the one that returns one of the solutions is the correct answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784213948/parabola16-step2_ewrvvm.mov" },
+          { text: "Type the equation into Desmos. From the graph produced, you can visually see the two possible solutions", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227789/parabola16-step1_t8p8sg.mov" },
+          { text: "Type each answer choice into Desmos and the one that returns one of the solutions is the correct answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227790/parabola16-step2_qbwu1z.mov" },
         ],
         guidedProblem: ``,
         guidedSteps: ["Type the equation into Desmos. From the graph produced, you can visually see the positive solution"],
@@ -1161,13 +1161,13 @@ const parabola = {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\(h(t) = -16t^2 + 8t + a\\)
         </p>
-        <p>DOUBLE CHECK DESMOS SOLUTION - MIGHT NEED TO MODIFY QUESTION The height of a launched firework is modeled by \\(h(t)\\). The firework reaches a maximum height of \\(97\\) feet. According to the model, how many seconds after ped at \\(t = 0\\). How many seconds after launch will the fireworks hit the ground?</p>
+        <p>The height of a launched firework is modeled by \\(h(t)\\). The firework reaches a maximum height of \\(97\\) feet. According to the model, how many seconds after ped at \\(t = 0\\). How many seconds after launch will the fireworks hit the ground?</p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
         <span>\\( 2.0 \\)</span>
         </div>
-        <div class="mc-choice correct">
+        <div class="mc-choice">
         <span class="mc-label">B</span>
         <span>\\( 2.2 \\)</span>
         </div>
@@ -1175,13 +1175,16 @@ const parabola = {
         <span class="mc-label">C</span>
         <span>\\( 2.5 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">D</span>
         <span>\\( 2.7 \\)</span>
         </div>
         </div>`,
         steps: [
-          { text: "Type the function into Desmos with b = 40.96. From the produced graph, you can see the solution is \\(x = 1.6\\)", note: "", gif: "", video: "" },
+          { text: "It is given that the maximum value is \\(97\\). Remember that the maximum value is equivalent to the vertex, so to find the x-value of the vertex use the formula \\(x = -b/2a\\), where \\(b = 8\\) and \\(a = -16\\) to find \\(x\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227749/parabola18-step1_rtycfi.mov" },
+          { text: "With the x-value of the vertex, declare the vertex using the variables \\(t_1\\) and \\(h_1\\), so \\(t_1 = 0.25\\) and \\(h_1 = 97\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227750/parabola18-step2_u8n5u1.mov" },
+          { text: "Use ~ to find \\(a\\), so type h_1 ~ -16t_1^2 + 8t_1 + a", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227750/parabola18-step3_p7dcca.mov" },
+          { text: "With \\(a\\), declare the function \\(h\\) in a new line and visually see the roots", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227775/parabola18-step4_kb4fon.mov" },
         ],
         guidedProblem: "[Guided problem for Topic 2]",
         guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
