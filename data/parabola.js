@@ -1246,8 +1246,10 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Type 'table' into Desmos and input the given values", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782160436/parabola16-step1_fgver4.mov" },
-          { text: "Click Add Regression. As the problem mentions they have a quadratic relationship, change the regression from linear to quadratic. The equation produced will give you the answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782160548/parabola16-step2_nxdiw9.mov" },
+          { text: "Type 'table' into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233130/parabola20-step1_wfb4ww.mov" },
+          { text: "Input the given values", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233130/parabola20-step2_tlt6dk.mov" },
+          { text: "Click Add Regression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233133/parabola20-step3_bkks2k.mov" },
+          { text: ". As the problem mentions they have a quadratic relationship, change the regression from linear to quadratic. The equation produced will give you the answer", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233131/parabola20-step4_nyol3s.mov" }
         ],
         guidedProblem: "[Guided problem for Topic 2]",
         guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
@@ -1265,11 +1267,11 @@ const parabola = {
         problem: `
         The function \\(p\\) is a quadratic function. The graph of \\(y = p(x)\\) has a vertex at \\((-1,2)\\), contains the point \\((1,10)\\), and has a y-intercept at \\((0,m)\\). The graph of \\(y = 3p(x) - 5\\) has a y-intercept at \\((0,n)\\). What is the value of \\(m+n\\)?
         <div class="mc-choices">
-        <div class="mc-choice correct">
+        <div class="mc-choice">
         <span class="mc-label">A</span>
         <span>\\( 7 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( 11 \\)</span>
         </div>
