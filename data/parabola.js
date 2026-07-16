@@ -1113,7 +1113,7 @@ const parabola = {
         </div>
         <div class="mc-choice">
         <span class="mc-label">B</span>
-        <span>\\( \\frac{-33 + \\sqrt{16}}{2}  \\)</span>
+        <span>\\( \\frac{-3 + \\sqrt{16}}{2}  \\)</span>
         </div>
         <div class="mc-choice correct">
         <span class="mc-label">C</span>
@@ -1126,7 +1126,7 @@ const parabola = {
         </div>`,
         steps: [
           { text: "Type the equation into Desmos. From the graph produced, you can visually see the two possible solutions", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784213236/parabola16-step1_cg8lxt.mov" },
-          { text: "Type each answer choice into Desmos and the one that returns one of the solutions is the correct answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784213236/parabola16-step2_j7txa8.mov" },
+          { text: "Type each answer choice into Desmos and the one that returns one of the solutions is the correct answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784213948/parabola16-step2_ewrvvm.mov" },
         ],
         guidedProblem: ``,
         guidedSteps: ["Type the equation into Desmos. From the graph produced, you can visually see the positive solution"],
