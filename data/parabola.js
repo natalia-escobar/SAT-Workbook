@@ -1287,7 +1287,7 @@ const parabola = {
         steps: [
           { text: "Declare the vertex, using \\(h = -1\\) and \\(k=2\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233133/parabola21-step1_tedqxl.mov" },
           { text: "Declare the point, using \\(x_1 = 1\\) and \\(y_1= 10\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233135/parabola21-step2_lprpja.mov" },
-          { text: "Find the equation of the vertex, using ~ and typing \\(y_1 ~ a(x_1-h)^2 + k\\) to find \\(a\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233137/parabola21-step3_ihuqyy.mov" },
+          { text: "Find the equation of the vertex, using ~ and typing \\(y_1\\) ~ \\(a(x_1-h)^2 + k\\) to find \\(a\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233137/parabola21-step3_ihuqyy.mov" },
           { text: "Declare the function in the new line and set \\(m = p(0)\\), as \\(m\\) is the \\(y\\)-intercept", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233139/parabola21-step4_jvdhf5.mov" },
           { text: "Declare \\(y\\) in a new line, using any function, the example uses \\(q\\). Set \\(n\\) to the y-intercept of this new function", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233140/parabola21-step5_w796dy.mov" },
           {text: "Type m+n to find the answer", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233140/parabola21-step6_xmeuwx.mov"}
