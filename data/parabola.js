@@ -123,33 +123,52 @@ const parabola = {
 
       // Problem 4
       {
-        problem: `The square of a positive number is \\(9\\) greater than \\(10\\) times the number. What is the value of the positive number?
+        problem: `Which equation is NOT an equivalent form of \\(g(t)=40t² -8t-8\\)?
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
-              <span>\\( 4.169 \\)</span>
+              <span>\\( g(t) = 8(5t^2-t-1) \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">B</span>
-              <span>\\( 9.000 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">C</span>
-              <span>\\( 10.831 \\)</span>
+              <span>\\( g(t) = 40(t-\\frac{1 + \\sqrt{21}}{10})(t-\\frac{1 - \\sqrt{21}}{10}) \\)</span>
             </div>
             <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( g(t) = 40(t - \\frac{1}{10})^2-\\frac{42}{5} \\)</span>
+            </div>
+            <div class="mc-choice correct">
               <span class="mc-label">D</span>
-              <span>\\( 15.831 \\)</span>
+              <span>\\( g(t) = 40(t + \\frac{1}{10})^2 - frac{42}{5} \\)</span>
             </div>
           </div>`,
         steps: [
-          { text: "On a scratch piece of paper, write the expression that matches the question <i>the square of positve number and a number that is \\(9\\) greater than \\(10\\) times the number</i>. Type that expression into Desmos, and where the \\(x\\)-values cross the \\(x\\)-axis are potential values for \\(x\\), choose the answer choice that is 1 of these values", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784130131/parabola4-step1_bwualm.mov" },
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
+          { text: "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer", note: "", gif: "", video: "" },
         ],
-        guidedProblem: ``,
+        guidedProblem: `Which equation is NOT an equivalent form of \\( f(x)=18x² -36x-90 \\)?
+        <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( f(x) = 18(x^2 - 2x - 5) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( f(x) = 18(x - 1)^2 - 108 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">C</span>
+              <span>\\( f(x) = 18(x + 1)^2 - 72 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( f(x) = 18(x - (1 + \\sqrt{6}))(x - (1 - \\sqrt{6})) \\)</span>
+            </div>
+          </div>`,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer"],
         guidedAnswer: "", guidedScreenshot: "",
         practice: [
-          { text: "[Problem 1]", setup: "[Setup 1]" },
+          { text: ``
+            , setup: "[Setup 1]" },
           { text: "[Problem 2]", setup: "[Setup 2]" },
           { text: "[Problem 3]", setup: "[Setup 3]" },
           { text: "[Problem 4]", setup: "[Setup 4]" },
