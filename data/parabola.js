@@ -870,7 +870,7 @@ const parabola = {
       },
  
  
-      // Problem 14
+      // Problem 13
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\(5k^2 + 9k - m = 0\\)
@@ -917,7 +917,7 @@ const parabola = {
       ]
       },
  
-      // Problem 15
+      // Problem 14
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\(g(t) = -3t^2 + 126t - 240\\)
@@ -1039,7 +1039,7 @@ const parabola = {
         ]
       },
  
-      // Problem 16
+      // Problem 15
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\( 4x(x - 3) = 5\\)
@@ -1075,7 +1075,7 @@ const parabola = {
           { text: ``, setup: "The Answer is ", screenshot: "" }]
       },
  
-      // Problem 17
+      // Problem 16
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\((3x-8)^2 - 11(3x-8) + 28 = 0\\)
@@ -1083,6 +1083,27 @@ const parabola = {
         <p>THIS IS AN SAT QUESTION - NEED TO CHANGE What is a solution to the given equation?</p>`,
         steps: [
           { text: "Type the given equation into Desmos. From the graph produced, you can visually see that the solutions are at \\(x=4\\) and \\(x=5\\). Either answer is acceptable", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782158476/parabola13-step1_irmbst.mov" },
+        ],
+        guidedProblem: "[Guided problem for Topic 2]",
+        guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
+        guidedAnswer: "[Desmos setup and answer]",
+        practice: [
+          { text: "[Problem 1]", setup: "[Setup 1]" },
+          { text: "[Problem 2]", setup: "[Setup 2]" },
+          { text: "[Problem 3]", setup: "[Setup 3]" },
+          { text: "[Problem 4]", setup: "[Setup 4]" },
+        ]
+      },
+
+      // Problem 17
+      {
+        problem: `<p style="text-align:center;margin-bottom:12px">
+          \\((x^2 - 5x - 24 = 0\\)
+        </p>
+        <p>THIS IS AN SAT QUESTION - NEED TO CHANGE What is the sum of the solutions to the given equation?</p>`,
+        steps: [
+          { text: "Type the given equation into Desmos. From the graph produced, you can visually see the solutions on the \\(x\\)-axis", note: "", gif: "", video: "" },
+          { text: "Add the solutions", note: "", gif: "", video: "" },
         ],
         guidedProblem: "[Guided problem for Topic 2]",
         guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
