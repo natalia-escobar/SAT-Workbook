@@ -1118,6 +1118,46 @@ const parabola = {
 
       // Problem 18
       {
+        problem: `<p style="text-align:center;margin-bottom:12px">
+          \\( -2x^2 + 20x + c = 0\\)
+        </p>
+        <p>THIS IS AN SAT QUESTION - NEED TO CHANGE In the given equation \\(c\\) is a constant. The equation has exactly one solution. What is the value of \\(c\\)?</p>
+        <div class="mc-choices">
+          <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span> \\( -68 \\)</span>
+          </div>
+          <div class="mc-choice correct">
+          <span class="mc-label">B</span>
+          <span>\\( -50\\)</span>
+          </div>
+          <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\( -32 \\)</span>
+          </div>
+          <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\( 0 \\)</span>
+          </div>
+          </div>`,
+        steps: [
+          { text: "Type the given equation into Desmos", note: "", gif: "", video: "" },
+          { text: "Create a slider for \\(c\\)", note: "", gif: "", video: "" },
+          { text: "Plug in each answer choice as a value for \\(c\\)", note: "The value that results in crossing the x-axis once is the solution", gif: "", video: "" },
+        ],
+        guidedProblem: "[Guided problem for Topic 2]",
+        guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
+        guidedAnswer: "[Desmos setup and answer]",
+        practice: [
+          { text: "[Problem 1]", setup: "[Setup 1]" },
+          { text: "[Problem 2]", setup: "[Setup 2]" },
+          { text: "[Problem 3]", setup: "[Setup 3]" },
+          { text: "[Problem 4]", setup: "[Setup 4]" },
+        ]
+      },
+
+      // Problem 19
+      {
         problem: `<p>THIS IS AN SAT QUESTION - NEED TO CHANGE Which quadratic equation has exactly one distinct real solution?</p>
         <div class="mc-choices">
           <div class="mc-choice">
@@ -1152,7 +1192,7 @@ const parabola = {
         ]
       },
 
-      // moved this - need to adjust Problem 13
+      // Problem 20
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\( (x - 3)^2 + 10 = 0\\)
@@ -1232,8 +1272,104 @@ const parabola = {
           </div>`, setup: `The Answer is A`, screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784156060/parabola13-pp2_wbqcxf.png",}
         ]
       },
+
+
  
-      // Problem 18
+      // Problem 21
+      {
+        problem: `<p>During a celebration along the Malecón Habanero in Havana, a firework is lit from the lobby. An AI creates a quadratic model, which tracks that \\(2.4\\) seconds after the firework is launched, it reaches the highest point in the air at \\(81\\) feet above the lobby. Which equation represents this model, where \\(h(s)\\) is the firework’s height, in feet, above the lobby, \\(s\\) seconds after it was lit?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( h(s) = -14(s - 2.4)^2 + 81 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( h(s) = 14(s + 2.4)^2 + 81 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( h(s) = -14(s + 2.4)^2 + 81 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( h(s) = 14(s - 2.4)^2 + 81 \\)</span>
+        </div>
+        </div>`,
+        steps: [
+          { text: "", note: "", gif: "", video: "" },
+          { text: "", note: "", gif: "", video: "" },
+          { text: "", note: "", gif: "", video: "" },
+          { text: "", note: "", gif: "", video: "" },
+        ],
+        guidedProblem: `<p>During a nighttime drone show, a drone follows a parabolic path. The drone reaches its highest point \\(5\\) seconds after launch at a height of \\(120\\) feet. Which equation could represent the model, where \\(d(t)\\) is the drone’s height, in feet, \\(t\\) seconds after launch?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( d(t) = -6(t - 5)^2 + 120 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( d(t) = 6(t + 5)^2 + 120 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( d(t) = -6(t + 5)^2 + 120 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( d(t) = 6(t - 5)^2 + 120 \\)</span>
+        </div>
+        </div>`,
+        guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
+        guidedAnswer: "[Desmos setup and answer]",
+        practice: [
+          { text: `<p>A water fountain sprays a stream of water into the air. The stream reaches a maximum height of \\(64\\) inches when it is \\(3\\) feet horizontally from the fountain nozzle. Which equation could represent the model, where \\(w(x)\\) is the height, in inches, of the water when it is \\(x\\) feet from the nozzle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( w(x) = 4(x - 3)^2 + 64 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( w(x)= -4(x + 3)^2+ 64 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( w(x) = -4(x - 3)^2 + 64 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( w(x) = 4(x + 3)^2 + 64 \\)</span>
+        </div>
+        </div>`
+            , setup: "[Setup 1]" },
+          { text: `<p>During a basketball game, a player shoots the ball toward the basket. The ball reaches its highest point \\(2.5\\) seconds after it leaves the player's hands, at a height of \\(18\\) feet. Which equation could represent this situation, where \\(b(t)\\) is the height, in feet, of the basketball \\(t\\) seconds after it is released?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( b(t)= -3(t + 2.5)^2 + 18 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( b(t) = 3(t - 2.5)^2 + 18 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( b(t) = -3(t - 2.5)^2 + 18 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( b(t) = 3(t + 2.5)^2 + 18 \\)</span>
+        </div>
+        </div>`
+            , setup: "[Setup 2]" },
+          { text: "[Problem 3]", setup: "[Setup 3]" },
+          { text: "[Problem 4]", setup: "[Setup 4]" },
+        ]
+      },
+
+      // Problem 22
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\(h(t) = -16t^2 + 8t + a\\)
@@ -1274,7 +1410,7 @@ const parabola = {
         ]
       },
  
-      // Problem 19
+      // Problem 23
       {
         problem: `THIS IS AN SAT QUESTION NEED TO CHANGE - The function \\(g\\) is defined by \\(g(x) = (x+17)(t-x)\\), where \\(t\\) is a constant. In the xy-plane, the graph of \\(y = g(x)\\) passes through the point \\((23, 0)\\). What is the value of \\(g(0)\\)?`,
         steps: [
@@ -1294,7 +1430,7 @@ const parabola = {
         ]
       },
  
-      // Problem 20
+      // Problem 24
       {
         problem: `
         <table class="xy-table" style="margin:0 auto 16px auto">
@@ -1339,7 +1475,7 @@ const parabola = {
         ]
       },
 
-      // Problem 21
+      // Problem 25
       {
         problem: `
         The function \\(p\\) is a quadratic function. The graph of \\(y = p(x)\\) has a vertex at \\((-1,2)\\), contains the point \\((1,10)\\), and has a y-intercept at \\((0,m)\\). The graph of \\(y = 3p(x) - 5\\) has a y-intercept at \\((0,n)\\). What is the value of \\(m+n\\)?
