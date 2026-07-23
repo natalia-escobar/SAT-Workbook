@@ -1334,47 +1334,6 @@ const parabola = {
 
       // Problem 21
       {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\(h(t) = -16t^2 + 8t + a\\)
-        </p>
-        <p>The height of a launched firework is modeled by \\(h(t)\\). The firework reaches a maximum height of \\(97\\) feet. According to the model, how many seconds after ped at \\(t = 0\\). How many seconds after launch will the fireworks hit the ground?</p>
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( 2.0 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( 2.2 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 2.5 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">D</span>
-        <span>\\( 2.7 \\)</span>
-        </div>
-        </div>`,
-        steps: [
-          { text: "It is given that the maximum value is \\(97\\). Remember that the maximum value is equivalent to the vertex, so to find the x-value of the vertex use the formula \\(x = -b/2a\\), where \\(b = 8\\) and \\(a = -16\\) to find \\(x\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227749/parabola18-step1_rtycfi.mov" },
-          { text: "With the x-value of the vertex, declare the vertex using the variables \\(t_1\\) and \\(h_1\\), so \\(t_1 = 0.25\\) and \\(h_1 = 97\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227750/parabola18-step2_u8n5u1.mov" },
-          { text: "Use ~ to find \\(a\\), so type h_1 ~ -16t_1^2 + 8t_1 + a", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227750/parabola18-step3_p7dcca.mov" },
-          { text: "With \\(a\\), declare the function \\(h\\) in a new line and visually see the roots", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227775/parabola18-step4_kb4fon.mov" },
-        ],
-        guidedProblem: "[Guided problem for Topic 2]",
-        guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
-        guidedAnswer: "[Desmos setup and answer]",
-        practice: [
-          { text: "[Problem 1]", setup: "[Setup 1]" },
-          { text: "[Problem 2]", setup: "[Setup 2]" },
-          { text: "[Problem 3]", setup: "[Setup 3]" },
-          { text: "[Problem 4]", setup: "[Setup 4]" },
-        ]
-      },
- 
-      // Problem 22
-      {
         problem: `THIS IS AN SAT QUESTION NEED TO CHANGE - The function \\(g\\) is defined by \\(g(x) = (x+17)(t-x)\\), where \\(t\\) is a constant. In the xy-plane, the graph of \\(y = g(x)\\) passes through the point \\((23, 0)\\). What is the value of \\(g(0)\\)?`,
         steps: [
           { text: "Type the point \\((23,0)\\) into Desmos as separate variables, \\(x_1 = 23\\) and \\(y_1 = 0\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782159543/parabola15-step1_usml8e.mov" },
@@ -1393,7 +1352,7 @@ const parabola = {
         ]
       },
  
-      // Problem 23
+      // Problem 22
       {
         problem: `
         <table class="xy-table" style="margin:0 auto 16px auto">
@@ -1438,7 +1397,7 @@ const parabola = {
         ]
       },
 
-      // Problem 24
+      // Problem 23
       {
         problem: `
         The function \\(p\\) is a quadratic function. The graph of \\(y = p(x)\\) has a vertex at \\((-1,2)\\), contains the point \\((1,10)\\), and has a y-intercept at \\((0,m)\\). The graph of \\(y = 3p(x) - 5\\) has a y-intercept at \\((0,n)\\). What is the value of \\(m+n\\)?
