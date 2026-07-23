@@ -120,63 +120,8 @@ const parabola = {
           { text: "[Problem 4]", setup: "[Setup 4]" },
         ]
       },
-
+  
       // Problem 4
-      {
-        problem: `Which equation is NOT an equivalent form of \\(g(t)=40t² -8t-8\\)?
-        <div class="mc-choices">
-            <div class="mc-choice">
-              <span class="mc-label">A</span>
-              <span>\\( g(t) = 8(5t^2-t-1) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( g(t) = 40(t-\\frac{1 + \\sqrt{21}}{10})(t-\\frac{1 - \\sqrt{21}}{10}) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">C</span>
-              <span>\\( g(t) = 40(t - \\frac{1}{10})^2-\\frac{42}{5} \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">D</span>
-              <span>\\( g(t) = 40(t + \\frac{1}{10})^2 - frac{42}{5} \\)</span>
-            </div>
-          </div>`,
-        steps: [
-          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer", note: "", gif: "", video: "" },
-        ],
-        guidedProblem: `Which equation is NOT an equivalent form of \\( f(x)=18x² -36x-90 \\)?
-        <div class="mc-choice">
-              <span class="mc-label">A</span>
-              <span>\\( f(x) = 18(x^2 - 2x - 5) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( f(x) = 18(x - 1)^2 - 108 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">C</span>
-              <span>\\( f(x) = 18(x + 1)^2 - 72 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( f(x) = 18(x - (1 + \\sqrt{6}))(x - (1 - \\sqrt{6})) \\)</span>
-            </div>
-          </div>`,
-        guidedSteps: ["Type the expression into Desmos", "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer"],
-        guidedAnswer: "", guidedScreenshot: "",
-        practice: [
-          { text: ``
-            , setup: "[Setup 1]" },
-          { text: "[Problem 2]", setup: "[Setup 2]" },
-          { text: "[Problem 3]", setup: "[Setup 3]" },
-          { text: "[Problem 4]", setup: "[Setup 4]" },
-        ]
-      },
- 
- 
-      // Problem 5
       {
         problem: `Which expression is equivalent to \\(4(x+\\frac{3}{2})(x-7) - 5x\\)?
         <div class="mc-choices">
@@ -281,6 +226,60 @@ const parabola = {
               <span>\\( 3x^2 + \\frac{25}{2}x - 9 \\)</span>
             </div>
           </div>`, setup: "The Answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784133247/parabola5-pp3_pxxvmx.png" },
+        ]
+      },
+
+      // Problem 5
+      {
+        problem: `Which equation is NOT an equivalent form of \\(g(t)=40t² -8t-8\\)?
+        <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( g(t) = 8(5t^2-t-1) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( g(t) = 40(t-\\frac{1 + \\sqrt{21}}{10})(t-\\frac{1 - \\sqrt{21}}{10}) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( g(t) = 40(t - \\frac{1}{10})^2-\\frac{42}{5} \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">D</span>
+              <span>\\( g(t) = 40(t + \\frac{1}{10})^2 - frac{42}{5} \\)</span>
+            </div>
+          </div>`,
+        steps: [
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
+          { text: "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer", note: "", gif: "", video: "" },
+        ],
+        guidedProblem: `Which equation is NOT an equivalent form of \\( f(x)=18x² -36x-90 \\)?
+        <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( f(x) = 18(x^2 - 2x - 5) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( f(x) = 18(x - 1)^2 - 108 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">C</span>
+              <span>\\( f(x) = 18(x + 1)^2 - 72 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( f(x) = 18(x - (1 + \\sqrt{6}))(x - (1 - \\sqrt{6})) \\)</span>
+            </div>
+          </div>`,
+        guidedSteps: ["Type the expression into Desmos", "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer"],
+        guidedAnswer: "", guidedScreenshot: "",
+        practice: [
+          { text: ``
+            , setup: "[Setup 1]" },
+          { text: "[Problem 2]", setup: "[Setup 2]" },
+          { text: "[Problem 3]", setup: "[Setup 3]" },
+          { text: "[Problem 4]", setup: "[Setup 4]" },
         ]
       },
  
