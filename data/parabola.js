@@ -1103,7 +1103,43 @@ const parabola = {
         <p>THIS IS AN SAT QUESTION - NEED TO CHANGE What is the sum of the solutions to the given equation?</p>`,
         steps: [
           { text: "Type the given equation into Desmos. From the graph produced, you can visually see the solutions on the \\(x\\)-axis", note: "", gif: "", video: "" },
-          { text: "Add the solutions", note: "", gif: "", video: "" },
+          { text: "Add the solutions to find the sum", note: "", gif: "", video: "" },
+        ],
+        guidedProblem: "[Guided problem for Topic 2]",
+        guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
+        guidedAnswer: "[Desmos setup and answer]",
+        practice: [
+          { text: "[Problem 1]", setup: "[Setup 1]" },
+          { text: "[Problem 2]", setup: "[Setup 2]" },
+          { text: "[Problem 3]", setup: "[Setup 3]" },
+          { text: "[Problem 4]", setup: "[Setup 4]" },
+        ]
+      },
+
+      // Problem 18
+      {
+        problem: `<p>THIS IS AN SAT QUESTION - NEED TO CHANGE Which quadratic equation has exactly one distinct real solution?</p>
+        <div class="mc-choices">
+          <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span> \\( x^2 - 16 = 0 \\)</span>
+          </div>
+          <div class="mc-choice correct">
+          <span class="mc-label">B</span>
+          <span>\\( x^2 + 16 = 0 \\)</span>
+          </div>
+          <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(x^2 - 16x + 56 = 0 \\)</span>
+          </div>
+          <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\( x^2 - 16x + 64 = 0 \\)</span>
+          </div>
+          </div>`,
+        steps: [
+          { text: "Type each answer choice into Desmos. From the graph produced, you can visually see the number of solutions produced", note: "", gif: "", video: "" },
+          { text: "Add the solutions to find the sum", note: "", gif: "", video: "" },
         ],
         guidedProblem: "[Guided problem for Topic 2]",
         guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
