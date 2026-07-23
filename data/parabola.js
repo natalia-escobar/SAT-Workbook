@@ -869,86 +869,6 @@ const parabola = {
         ]
       },
  
-      // Problem 13
-      {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\( (x - 3)^2 + 10 = 0\\)
-        </p>
-        <p>How many distinct real solutions does the equation have?</p>`,
-        steps: [
-          { text: "Type equation into Desmos. The graph doesn't appear, so type in \\(y = (x-3)^2+10\\) to see the graph of the function. Notice that it never touches the x-axis, so there are \\(0\\) real solutions", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784156094/parabola13-step1_clu1wr.mov" },
-        ],
-        guidedProblem: `<p style="text-align:center;margin-bottom:12px">
-          \\( 4(2x - 3)^2 - 120 = -3(2x + 5)^2\\)
-          </p>
-          <p>How many distinct real solutions does the equation have?</p>
-          <div class="mc-choices">
-          <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>Exactly one</span>
-          </div>
-          <div class="mc-choice correct">
-          <span class="mc-label">B</span>
-          <span>Exactly two</span>
-          </div>
-          <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>Infinitely many</span>
-          </div>
-          <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>Zero</span>
-          </div>
-          </div>`,
-        guidedSteps: ["Type function into desmos, exactly as it is written. You can determine the answer by seeing how many times it crosses the \\(x\\)-axis, if any"],
-        guidedAnswer: "The Answer is B", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784156054/parabola13-gp_dkb94b.png",
-        practice: [
-          { text: `<p style="text-align:center;margin-bottom:12px">
-          \\( 4(x + 3) = 2(x - 1)(x + 4) \\)
-          </p>
-          <p>How many distinct real solutions does the equation have?</p>
-          <div class="mc-choices">
-          <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>Zero</span>
-          </div>
-          <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>One</span>
-          </div>
-          <div class="mc-choice correct">
-          <span class="mc-label">C</span>
-          <span>Two</span>
-          </div>
-          <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>More than two</span>
-          </div>
-          </div>`, setup: "The Answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784156057/parabola13-pp1_ni44w1.png" },
-        { text: `<p style="text-align:center;margin-bottom:12px">
-          \\( \\sqrt{4x - 13} = x - 1 \\)
-          </p>
-          <p>How many distinct real solutions does the equation have?</p>
-          <div class="mc-choices">
-          <div class="mc-choice correct">
-          <span class="mc-label">A</span>
-          <span>Zero</span>
-          </div>
-          <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>One</span>
-          </div>
-          <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>Two</span>
-          </div>
-          <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>More than two</span>
-          </div>
-          </div>`, setup: `The Answer is A`, screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784156060/parabola13-pp2_wbqcxf.png",}
-        ]
-      },
  
       // Problem 14
       {
@@ -1172,6 +1092,87 @@ const parabola = {
           { text: "[Problem 2]", setup: "[Setup 2]" },
           { text: "[Problem 3]", setup: "[Setup 3]" },
           { text: "[Problem 4]", setup: "[Setup 4]" },
+        ]
+      },
+
+      // moved this - need to adjust Problem 13
+      {
+        problem: `<p style="text-align:center;margin-bottom:12px">
+          \\( (x - 3)^2 + 10 = 0\\)
+        </p>
+        <p>How many distinct real solutions does the equation have?</p>`,
+        steps: [
+          { text: "Type equation into Desmos. The graph doesn't appear, so type in \\(y = (x-3)^2+10\\) to see the graph of the function. Notice that it never touches the x-axis, so there are \\(0\\) real solutions", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784156094/parabola13-step1_clu1wr.mov" },
+        ],
+        guidedProblem: `<p style="text-align:center;margin-bottom:12px">
+          \\( 4(2x - 3)^2 - 120 = -3(2x + 5)^2\\)
+          </p>
+          <p>How many distinct real solutions does the equation have?</p>
+          <div class="mc-choices">
+          <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>Exactly one</span>
+          </div>
+          <div class="mc-choice correct">
+          <span class="mc-label">B</span>
+          <span>Exactly two</span>
+          </div>
+          <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>Infinitely many</span>
+          </div>
+          <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>Zero</span>
+          </div>
+          </div>`,
+        guidedSteps: ["Type function into desmos, exactly as it is written. You can determine the answer by seeing how many times it crosses the \\(x\\)-axis, if any"],
+        guidedAnswer: "The Answer is B", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784156054/parabola13-gp_dkb94b.png",
+        practice: [
+          { text: `<p style="text-align:center;margin-bottom:12px">
+          \\( 4(x + 3) = 2(x - 1)(x + 4) \\)
+          </p>
+          <p>How many distinct real solutions does the equation have?</p>
+          <div class="mc-choices">
+          <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>Zero</span>
+          </div>
+          <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>One</span>
+          </div>
+          <div class="mc-choice correct">
+          <span class="mc-label">C</span>
+          <span>Two</span>
+          </div>
+          <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>More than two</span>
+          </div>
+          </div>`, setup: "The Answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784156057/parabola13-pp1_ni44w1.png" },
+        { text: `<p style="text-align:center;margin-bottom:12px">
+          \\( \\sqrt{4x - 13} = x - 1 \\)
+          </p>
+          <p>How many distinct real solutions does the equation have?</p>
+          <div class="mc-choices">
+          <div class="mc-choice correct">
+          <span class="mc-label">A</span>
+          <span>Zero</span>
+          </div>
+          <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>One</span>
+          </div>
+          <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>Two</span>
+          </div>
+          <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>More than two</span>
+          </div>
+          </div>`, setup: `The Answer is A`, screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784156060/parabola13-pp2_wbqcxf.png",}
         ]
       },
  
