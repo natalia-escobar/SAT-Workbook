@@ -1061,7 +1061,7 @@ const parabola = {
       // Problem 16
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
-          \\((x^2 - 5x - 24 = 0\\)
+          \\(x^2 - 5x - 24 = 0\\)
         </p>
         <p>THIS IS AN SAT QUESTION - NEED TO CHANGE What is the sum of the solutions to the given equation?</p>`,
         steps: [
