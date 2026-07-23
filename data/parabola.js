@@ -1041,42 +1041,6 @@ const parabola = {
       // Problem 15
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
-          \\( 4x(x - 3) = 5\\)
-        </p>
-        <p>Which of the following is a solution to the given equation?</p>
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( \\frac{3 - \\sqrt{16}}{2} \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( \\frac{-3 + \\sqrt{16}}{2}  \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">C</span>
-        <span>\\( \\frac{3 - \\sqrt{14}}{2}  \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( \\frac{-3 + \\sqrt{14}}{2} \\)</span>
-        </div>
-        </div>`,
-        steps: [
-          { text: "Type the equation into Desmos. From the graph produced, you can visually see the two possible solutions", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227789/parabola16-step1_t8p8sg.mov" },
-          { text: "Type each answer choice into Desmos and the one that returns one of the solutions is the correct answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784227790/parabola16-step2_qbwu1z.mov" },
-        ],
-        guidedProblem: ``,
-        guidedSteps: ["Type the equation into Desmos. From the graph produced, you can visually see the positive solution"],
-        guidedAnswer: "The Answer is ", guidedScreenshot: "", 
-        practice: [
-          { text: ``, setup: "The Answer is ", screenshot: "" },
-          { text: ``, setup: "The Answer is ", screenshot: "" }]
-      },
- 
-      // Problem 16
-      {
-        problem: `<p style="text-align:center;margin-bottom:12px">
           \\((3x-8)^2 - 11(3x-8) + 28 = 0\\)
         </p>
         <p>THIS IS AN SAT QUESTION - NEED TO CHANGE What is a solution to the given equation?</p>`,
@@ -1094,7 +1058,7 @@ const parabola = {
         ]
       },
 
-      // Problem 17
+      // Problem 16
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\((x^2 - 5x - 24 = 0\\)
@@ -1115,7 +1079,7 @@ const parabola = {
         ]
       },
 
-      // Problem 18
+      // Problem 17
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\( -2x^2 + 20x + c = 0\\)
@@ -1155,7 +1119,7 @@ const parabola = {
         ]
       },
 
-      // Problem 19
+      // Problem 18
       {
         problem: `<p>THIS IS AN SAT QUESTION - NEED TO CHANGE Which quadratic equation has exactly one distinct real solution?</p>
         <div class="mc-choices">
@@ -1191,7 +1155,7 @@ const parabola = {
         ]
       },
 
-      // Problem 20
+      // Problem 19
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\( (x - 3)^2 + 10 = 0\\)
@@ -1274,7 +1238,7 @@ const parabola = {
 
 
  
-      // Problem 21
+      // Problem 20
       {
         problem: `<p>During a celebration along the Malecón Habanero in Havana, a firework is lit from the lobby. An AI creates a quadratic model, which tracks that \\(2.4\\) seconds after the firework is launched, it reaches the highest point in the air at \\(81\\) feet above the lobby. Which equation represents this model, where \\(h(s)\\) is the firework’s height, in feet, above the lobby, \\(s\\) seconds after it was lit?</p>
         <div class="mc-choices">
@@ -1368,7 +1332,7 @@ const parabola = {
         ]
       },
 
-      // Problem 22
+      // Problem 21
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\(h(t) = -16t^2 + 8t + a\\)
@@ -1409,7 +1373,7 @@ const parabola = {
         ]
       },
  
-      // Problem 23
+      // Problem 22
       {
         problem: `THIS IS AN SAT QUESTION NEED TO CHANGE - The function \\(g\\) is defined by \\(g(x) = (x+17)(t-x)\\), where \\(t\\) is a constant. In the xy-plane, the graph of \\(y = g(x)\\) passes through the point \\((23, 0)\\). What is the value of \\(g(0)\\)?`,
         steps: [
@@ -1429,7 +1393,7 @@ const parabola = {
         ]
       },
  
-      // Problem 24
+      // Problem 23
       {
         problem: `
         <table class="xy-table" style="margin:0 auto 16px auto">
@@ -1474,7 +1438,7 @@ const parabola = {
         ]
       },
 
-      // Problem 25
+      // Problem 24
       {
         problem: `
         The function \\(p\\) is a quadratic function. The graph of \\(y = p(x)\\) has a vertex at \\((-1,2)\\), contains the point \\((1,10)\\), and has a y-intercept at \\((0,m)\\). The graph of \\(y = 3p(x) - 5\\) has a y-intercept at \\((0,n)\\). What is the value of \\(m+n\\)?
