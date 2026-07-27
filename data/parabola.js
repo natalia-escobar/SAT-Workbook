@@ -1041,20 +1041,67 @@ const parabola = {
       // Problem 15
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
-          \\((3x-8)^2 - 11(3x-8) + 28 = 0\\)
+          \\( (5x-4)^2 = 9(5x - 4) + 10 \\)
         </p>
-        <p>THIS IS AN SAT QUESTION - NEED TO CHANGE What is a solution to the given equation?</p>`,
+        <p> Which value is the least solution to the equation?</p>
+        <div class="mc-choices">
+            <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{3}{5} \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( 0 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( \\frac{2}{5} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{6}{5}\\)</span>
+            </div>
+        </div>`,
         steps: [
-          { text: "Type the given equation into Desmos. From the graph produced, you can visually see that the solutions are at \\(x=4\\) and \\(x=5\\). Either answer is acceptable", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1782158476/parabola13-step1_irmbst.mov" },
+          { text: "Type the given equation into Desmos", note: "From the graph produced, you can visually see that the solutions are at \\( x = 0.6 \\) and \\( x = 2.8 \\)", gif: "", video: "" },
         ],
-        guidedProblem: "[Guided problem for Topic 2]",
-        guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
+        guidedProblem: `Given that, 
+        <p style="text-align:center;margin-bottom:12px">
+          \\( (6x-5)^2 - 7(6x - 5) + 12 = 0 \\)
+        </p>
+        <p> What is the least possible value of \\(12x - 10\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( 2 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( 4 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( 6 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 8 \\)</span>
+            </div>
+        </div>`,
+        guidedSteps: ["Type the given equation into Desmos", "Plug the smaller \\( x \\) value into the expression \\( 12x - 10\\) "],
         guidedAnswer: "[Desmos setup and answer]",
         practice: [
-          { text: "[Problem 1]", setup: "[Setup 1]" },
-          { text: "[Problem 2]", setup: "[Setup 2]" },
-          { text: "[Problem 3]", setup: "[Setup 3]" },
-          { text: "[Problem 4]", setup: "[Setup 4]" },
+          { text: `<p style="text-align:center;margin-bottom:12px">
+          \\( 25 = (2x + 9)^2 - 3(2x + 9) \\)
+        </p>
+        <p> Which value is the least solution to the equation?</p>`
+            , answer: "-3/2",setup: "The Answer is \\( -\\frac{3}{2} \\)" },
+          { text: `Given that, 
+        <p style="text-align:center;margin-bottom:12px">
+          \\( (4x-3)^2 - 9(4x - 3) + 18 = 0 \\)
+        </p>
+        <p> What is the greatest possible value of \\(8x - 6\\)?</p>`
+            , answer:"12",setup: "[Setup 2]" },
         ]
       },
 
