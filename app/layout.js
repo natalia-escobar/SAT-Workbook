@@ -1,5 +1,6 @@
 import Script from "next/script";
 import "./globals.css";
+import DesmosCalculator from "@/components/DesmosCalculator";
 
 export const metadata = {
   title: "SAT Workbook",
@@ -22,7 +23,7 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{
           __html: `window.MathJax = { tex: { inlineMath: [["\\\\(","\\\\)"], ["$","$"]], displayMath: [["\\\\[","\\\\]"], ["$$","$$"]] } };`
         }}
-/>
+        />
         <Script
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
           strategy="beforeInteractive"
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
           strategy="beforeInteractive"
         />
         {children}
+        <DesmosCalculator />
       </body>
     </html>
   );

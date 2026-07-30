@@ -143,3 +143,19 @@
   .nav-btn{padding:4px 10px;border:0.5px solid #e0e0de;border-radius:6px;background:#fff;cursor:pointer;font-size:12px;color:#555}
   .nav-btn:disabled{opacity:.35;cursor:default}
   .nav-btn:not(:disabled):hover{background:#f5f5f3}
+
+  /* ── FLOATING DESMOS CALCULATOR ── */
+.calc-fab{position:fixed;bottom:24px;right:24px;width:48px;height:48px;border-radius:50%;background:#534AB7;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:1000;transition:transform .15s}
+.calc-fab:hover{transform:scale(1.1)}
+.calc-fab i{font-size:22px;color:#fff}
+.calc-overlay{display:none;position:fixed;bottom:84px;right:24px;width:480px;height:420px;border-radius:12px;border:0.5px solid #bbb;background:#fff;z-index:1001;overflow:hidden}
+.calc-overlay.open{display:flex;flex-direction:column}
+.calc-drag{padding:8px 12px;background:#f5f5f3;border-bottom:0.5px solid #e0e0de;display:flex;align-items:center;justify-content:space-between;cursor:grab;user-select:none}
+.calc-drag:active{cursor:grabbing}
+.calc-drag-left{display:flex;align-items:center;gap:8px}
+.calc-drag-left i{font-size:14px;color:#aaa}
+.calc-drag-left span{font-size:12px;font-weight:500;color:#888}
+.calc-close{width:24px;height:24px;border-radius:6px;border:none;background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.calc-close:hover{background:#e8e8e5}
+.calc-close i{font-size:14px;color:#888}
+.calc-body{flex:1;overflow:hidden}
