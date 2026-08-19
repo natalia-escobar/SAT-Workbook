@@ -247,7 +247,7 @@ const parabola = {
             </div>
             <div class="mc-choice correct">
               <span class="mc-label">D</span>
-              <span>\\( g(t) = 40(t + \\frac{1}{10})^2 - frac{42}{5} \\)</span>
+              <span>\\( g(t) = 40(t + \\frac{1}{10})^2 - \\frac{42}{5} \\)</span>
             </div>
           </div>`,
         steps: [
@@ -556,11 +556,11 @@ const parabola = {
             <span class="mc-label">A</span>
             <span>\\( y = -3(x^2 - 6x) + 7 \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">B</span>
             <span>\\( \\frac{1}{3}y - 10 = -(x - 3)^2 \\)</span>
             </div>
-            <div class="mc-choice correct">
+            <div class="mc-choice">
             <span class="mc-label">C</span>
             <span>\\( y - 34 = -3(x - 3)^2 \\)</span>
             </div>
