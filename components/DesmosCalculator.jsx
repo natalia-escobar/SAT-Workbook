@@ -17,6 +17,8 @@ export default function DesmosCalculator() {
         zoomButtons: true,
         border: false,
         expressionsTopbar: true,
+        expressionsCollapsed: false,
+        links: false,
       });
     }
   }, [open]);
