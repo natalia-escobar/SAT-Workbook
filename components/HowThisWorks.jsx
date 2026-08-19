@@ -1,8 +1,8 @@
 export default function HowThisWorks() {
   const steps = [
     {
-      title: "Click the Calculator Icon",
-      body: "This will open Desmos."
+      title: "Click the Calculator Icon to Open Desmos",
+      body: ""
     },
     {
       title: "Watch the worked example",
