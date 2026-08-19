@@ -4,26 +4,8 @@ import { useState, useRef, useEffect } from "react";
 
 export default function DesmosCalculator() {
   const [open, setOpen] = useState(false);
-  const calcRef = useRef(null);
-  const instanceRef = useRef(null);
   const overlayRef = useRef(null);
 
-  useEffect(() => {
-    if (open && !instanceRef.current && calcRef.current && window.Desmos) {
-      instanceRef.current = window.Desmos.GraphingCalculator(calcRef.current, {
-        keypad: true,
-        expressions: true,
-        settingsMenu: true,
-        zoomButtons: true,
-        border: false,
-        expressionsTopbar: true,
-        expressionsCollapsed: false,
-        links: false,
-      });
-    }
-  }, [open]);
-
-  // drag logic
   useEffect(() => {
     const overlay = overlayRef.current;
     if (!overlay) return;
@@ -80,7 +62,15 @@ export default function DesmosCalculator() {
             <i className="ti ti-x" />
           </button>
         </div>
-        <div className="calc-body" ref={calcRef} />
+        <div className="calc-body">
+          {open && (
+            <iframe
+              src="https://www.desmos.com/calculator"
+              style={{ width: "100%", height: "100%", border: "none" }}
+              title="Desmos Calculator"
+            />
+          )}
+        </div>
       </div>
     </>
   );
