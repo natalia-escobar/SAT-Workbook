@@ -1049,7 +1049,7 @@ const parabola = {
             <span class="mc-label">A</span>
             <span>\\( \\frac{3}{5} \\)</span>
             </div>
-            <div class="mc-choice correct">
+            <div class="mc-choice">
             <span class="mc-label">B</span>
             <span>\\( 0 \\)</span>
             </div>
