@@ -1,8 +1,8 @@
 export default function HowThisWorks() {
   const steps = [
     {
-      title: "Click the Calculator Icon to Open Desmos",
-      body: ""
+      title: "Open Desmos",
+      body: "Click the calculator icon in the bottom-right corner of the page. A fully interactive Desmos calculator will open that you can drag and resize."
     },
     {
       title: "Watch the worked example",
