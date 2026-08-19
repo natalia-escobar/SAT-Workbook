@@ -11,7 +11,6 @@ export default function StepNavigator({ steps }) {
   const [approach, setApproach] = useState(isMultiApproach ? approachNames[0] : null);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // if the steps prop changes (new problem selected), reset back to the first approach/step
   useEffect(() => {
     setApproach(isMultiApproach ? approachNames[0] : null);
     setCurrentIndex(0);
@@ -24,7 +23,7 @@ export default function StepNavigator({ steps }) {
 
   const switchApproach = (name) => {
     setApproach(name);
-    setCurrentIndex(0); // different approaches can have different step counts
+    setCurrentIndex(0);
   };
 
   return (
@@ -45,13 +44,14 @@ export default function StepNavigator({ steps }) {
 
       <div className="step-nav">
         <span className="step-nav-label">Step {currentIndex + 1} of {currentSteps.length}</span>
-        <div className="step-nav-btns">
-          <button className="step-nav-btn" onClick={() => setCurrentIndex((i) => i - 1)} disabled={isFirst}>
-            &larr;
-          </button>
-          <button className="step-nav-btn" onClick={() => setCurrentIndex((i) => i + 1)} disabled={isLast}>
-            &rarr;
-          </button>
+        <div className="step-dots">
+          {currentSteps.map((_, i) => (
+            <button
+              key={i}
+              className={`step-dot ${i === currentIndex ? "active" : ""} ${i < currentIndex ? "done" : ""}`}
+              onClick={() => setCurrentIndex(i)}
+            />
+          ))}
         </div>
       </div>
 
@@ -65,6 +65,12 @@ export default function StepNavigator({ steps }) {
           <span className="media-slot-icon">🎬</span>
           <span className="media-slot-label">Video coming soon</span>
         </div>
+      )}
+
+      {!isLast && (
+        <button className="next-step-btn" onClick={() => setCurrentIndex((i) => i + 1)}>
+          Next step <span style={{ marginLeft: "4px" }}>→</span>
+        </button>
       )}
     </div>
   );

@@ -21,19 +21,28 @@ export default function VideoPlayer({ src }) {
   };
 
   return (
-    <div className={`video-player ${ended ? "ended" : ""}`} onClick={handlePlay}>
-      <video ref={videoRef} src={src} onEnded={handleEnded} />
-      <div className={`video-overlay ${playing ? "hidden" : ""}`}>
-        <button
-          className="video-overlay-btn"
-          onClick={(e) => {
-            e.stopPropagation();
-            handlePlay();
-          }}
-        >
-          <i className={`ti ${ended ? "ti-refresh" : "ti-player-play-filled"}`} />
-        </button>
-      </div>
+    <div className={`video-player ${ended ? "ended" : ""}`}>
+      <video
+        ref={videoRef}
+        src={src}
+        onEnded={handleEnded}
+        onPause={() => setPlaying(false)}
+        onPlay={() => setPlaying(true)}
+        controls={playing}
+      />
+      {!playing && (
+        <div className="video-overlay" onClick={handlePlay}>
+          <button
+            className="video-overlay-btn"
+            onClick={(e) => {
+              e.stopPropagation();
+              handlePlay();
+            }}
+          >
+            <i className={`ti ${ended ? "ti-refresh" : "ti-player-play-filled"}`} />
+          </button>
+        </div>
+      )}
     </div>
   );
 }
