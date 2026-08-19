@@ -1,16 +1,8 @@
 export default function HowThisWorks() {
   const steps = [
     {
-      title: "Open Desmos in another tab",
-      body: (
-        <>
-          Go to{" "}
-          <a href="https://www.desmos.com/calculator" target="_blank" rel="noreferrer" style={{ color: "#D13B31", textDecoration: "none" }}>
-            desmos.com/calculator
-          </a>{" "}
-          and keep it open side by side with this page.
-        </>
-      ),
+      title: "Click the Calculator Icon",
+      body: "This will open Desmos."
     },
     {
       title: "Watch the worked example",
