@@ -63,7 +63,7 @@
 
   /* ── GUIDED PRACTICE SPLIT ── */
   .guided-grid{display:grid;grid-template-columns:2fr 3fr;border:0.5px solid #AFA9EC;border-radius:12px;overflow:hidden;min-height:300px;background:#EEEDFE}
-  .guided-grid-left{padding:16px;border-right:0.5px solid #AFA9EC;overflow-y:auto}
+  .guided-grid-left{padding:16px;border-right:0.5px solid #E38686;overflow-y:auto}
   .guided-grid-right{padding:16px;background:rgba(255,255,255,.5);display:flex;flex-direction:column}
   .guided-grid-right .steps-list{flex:1}
   .guided-answer-panel{margin-top:12px;padding:12px;background:rgba(255,255,255,.7);border:0.5px solid #AFA9EC;border-radius:8px;display:none}
