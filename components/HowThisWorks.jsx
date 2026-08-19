@@ -5,7 +5,7 @@ export default function HowThisWorks() {
       body: (
         <>
           Go to{" "}
-          <a href="https://www.desmos.com/calculator" target="_blank" rel="noreferrer" style={{ color: "#534AB7", textDecoration: "none" }}>
+          <a href="https://www.desmos.com/calculator" target="_blank" rel="noreferrer" style={{ color: "#D13B31", textDecoration: "none" }}>
             desmos.com/calculator
           </a>{" "}
           and keep it open side by side with this page.
@@ -32,7 +32,7 @@ export default function HowThisWorks() {
       <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
         {steps.map((step, i) => (
           <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: "12px" }}>
-            <div style={{ minWidth: "24px", height: "24px", borderRadius: "50%", background: "#EEEDFE", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "12px", fontWeight: 500, color: "#534AB7", marginTop: "1px" }}>
+            <div style={{ minWidth: "24px", height: "24px", borderRadius: "50%", background: "#EEEDFE", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "12px", fontWeight: 500, color: "#D13B31", marginTop: "1px" }}>
               {i + 1}
             </div>
             <div>

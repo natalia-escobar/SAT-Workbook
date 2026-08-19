@@ -23,7 +23,7 @@ export default function DesmosGraph({ graph }) {
     if (graph.bounds) calc.setMathBounds(graph.bounds);
 
     (graph.expressions || []).forEach((expr, i) => {
-      calc.setExpression({ id: "e" + i, latex: expr.latex, color: expr.color || "#534AB7" });
+      calc.setExpression({ id: "e" + i, latex: expr.latex, color: expr.color || "#D13B31" });
     });
 
     calculatorRef.current = calc;

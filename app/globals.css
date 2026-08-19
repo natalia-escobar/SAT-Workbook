@@ -9,7 +9,7 @@
   .topic-header{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;cursor:pointer;user-select:none}
   .topic-header:hover{background:#f5f5f3}
   .topic-left{display:flex;align-items:center;gap:12px}
-  .topic-icon{width:32px;height:32px;border-radius:8px;background:#EEEDFE;display:flex;align-items:center;justify-content:center;font-size:16px;color:#534AB7;flex-shrink:0}
+  .topic-icon{width:32px;height:32px;border-radius:8px;background:#FCE8E8;display:flex;align-items:center;justify-content:center;font-size:16px;color:#D13B31;flex-shrink:0}
   .topic-name{font-size:15px;font-weight:500}
   .topic-meta{font-size:12px;color:#888;margin-top:1px}
   .topic-chevron{font-size:18px;color:#aaa;transition:transform .2s}
@@ -35,13 +35,13 @@
   .approach-tabs{display:flex;gap:6px;margin-bottom:12px}
   .approach-tab{padding:6px 14px;border:0.5px solid #e0e0de;border-radius:6px;background:#fff;cursor:pointer;font-size:12px;color:#555;transition:all .15s}
   .approach-tab:hover{background:#f5f5f3}
-  .approach-tab.active{background:#EEEDFE;border-color:#AFA9EC;color:#534AB7;font-weight:500}
+  .approach-tab.active{background:#FCE8E8;border-color:#E38686;color:#D13B31;font-weight:500}
 
-  .step-nav-label{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;color:#534AB7}
+  .step-nav-label{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;color:#D13B31}
   .step-nav-btns{display:flex;gap:6px}
-  .step-nav-btn{padding:3px 8px;border:0.5px solid #534AB7;border-radius:5px;background:#534AB7;cursor:pointer;font-size:11px;color:#fff}
-  .step-nav-btn:hover{background:#3C3489;border-color:#3C3489}
-  .step-nav-btn:disabled{opacity:.35;cursor:default;background:#534AB7;border-color:#534AB7}
+  .step-nav-btn{padding:3px 8px;border:0.5px solid #D13B31;border-radius:5px;background:#D13B31;cursor:pointer;font-size:11px;color:#fff}
+  .step-nav-btn:hover{background:#A62D25;border-color:#A62D25}
+  .step-nav-btn:disabled{opacity:.35;cursor:default;background:#D13B31;border-color:#D13B31}
   .step-nav-btn:disabled{opacity:.3;cursor:default}
   .step-nav-btn:not(:disabled):hover{background:#f5f5f3}
   .step-content{flex:1;display:flex;flex-direction:column}
@@ -56,13 +56,13 @@
   .video-overlay.hidden{opacity:0;pointer-events:none}
   .video-overlay-btn{width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,0.9);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.15);transition:transform .15s}
   .video-overlay-btn:hover{transform:scale(1.1)}
-  .video-overlay-btn i{font-size:20px;color:#534AB7;margin-left:2px}
+  .video-overlay-btn i{font-size:20px;color:#D13B31;margin-left:2px}
   .video-player.ended .video-overlay{background:rgba(0,0,0,0.3)}
   .step-video-wrap img{width:100%;object-fit:contain;border-radius:6px}
   .step-video-wrap .media-slot{min-height:180px}
 
   /* ── GUIDED PRACTICE SPLIT ── */
-  .guided-grid{display:grid;grid-template-columns:2fr 3fr;border:0.5px solid #E38686;border-radius:12px;overflow:hidden;min-height:300px;background:#EEEDFE}
+  .guided-grid{display:grid;grid-template-columns:2fr 3fr;border:0.5px solid #E38686;border-radius:12px;overflow:hidden;min-height:300px;background:#FCE8E8}
   .guided-grid-left{padding:16px;border-right:0.5px solid #E38686;overflow-y:auto}
   .guided-grid-right{padding:16px;background:rgba(255,255,255,.5);display:flex;flex-direction:column}
   .guided-grid-right .steps-list{flex:1}
@@ -89,7 +89,7 @@
   .worked-steps{display:flex;flex-direction:column;gap:10px}
   .worked-step{display:grid;grid-template-columns:1fr 1fr;border:0.5px solid #e0e0de;border-radius:8px;overflow:hidden;background:#f9f9f8}
   .ws-left{padding:14px 16px}
-  .ws-step-num{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;color:#534AB7;margin-bottom:5px}
+  .ws-step-num{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;color:#D13B31;margin-bottom:5px}
   .ws-step-text{font-size:14px;line-height:1.6}
   .ws-step-note{font-size:12px;color:#777;margin-top:6px;line-height:1.5}
   .ws-right{border-left:0.5px solid #e0e0de;background:#fff;display:flex;align-items:center;justify-content:center}
@@ -99,22 +99,22 @@
   .media-slot-label{font-size:12px;color:#aaa}
   .media-slot-hint{font-size:11px;color:#bbb;font-style:italic;line-height:1.4}
   .step-video{width:100%;display:block;border-radius:0;max-height:200px;object-fit:contain;background:#000}
-  .guided-problem{border:0.5px solid #AFA9EC;border-radius:8px;background:#EEEDFE;padding:14px 16px;margin-bottom:8px}
-  .guided-label{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;color:#3C3489;margin-bottom:8px}
-  .guided-text{font-size:14px;color:#26215C;line-height:1.65;margin-bottom:12px}
+  .guided-problem{border:0.5px solid #E38686;border-radius:8px;background:#FCE8E8;padding:14px 16px;margin-bottom:8px}
+  .guided-label{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;color:#A62D25;margin-bottom:8px}
+  .guided-text{font-size:14px;color:#5C1A16;line-height:1.65;margin-bottom:12px}
   .steps-list{display:flex;flex-direction:column;gap:6px}
   .step-row{display:flex;align-items:flex-start;gap:10px;padding:8px 10px;background:rgba(255,255,255,.6);border-radius:8px;cursor:pointer}
   .step-row:hover{background:rgba(255,255,255,.85)}
   .step-row.checked{opacity:.6}
-  .step-check{width:20px;height:20px;border-radius:5px;border:1.5px solid #7F77DD;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;background:transparent;transition:all .15s}
-  .step-row.checked .step-check{background:#534AB7;border-color:#534AB7}
+  .step-check{width:20px;height:20px;border-radius:5px;border:1.5px solid #E06060;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;background:transparent;transition:all .15s}
+  .step-row.checked .step-check{background:#D13B31;border-color:#D13B31}
   .step-check-icon{font-size:11px;color:transparent}
   .step-row.checked .step-check-icon{color:#fff}
-  .step-text{font-size:15px;color:#26215C;line-height:1.5}
-  .step-row.checked .step-text{text-decoration:line-through;color:#7F77DD}
-  .reveal-btn{width:100%;padding:9px 14px;border:0.5px solid #AFA9EC;border-radius:8px;background:rgba(255,255,255,.5);cursor:pointer;font-size:13px;color:#3C3489;display:flex;align-items:center;justify-content:center;gap:6px;margin-top:10px}
+  .step-text{font-size:15px;color:#5C1A16;line-height:1.5}
+  .step-row.checked .step-text{text-decoration:line-through;color:#E06060}
+  .reveal-btn{width:100%;padding:9px 14px;border:0.5px solid #E38686;border-radius:8px;background:rgba(255,255,255,.5);cursor:pointer;font-size:13px;color:#A62D25;display:flex;align-items:center;justify-content:center;gap:6px;margin-top:10px}
   .reveal-btn:hover{background:rgba(255,255,255,.85)}
-  .reveal-panel{display:none;padding:12px 14px;border-radius:8px;margin-top:6px;border:0.5px solid #AFA9EC;background:rgba(255,255,255,.7)}
+  .reveal-panel{display:none;padding:12px 14px;border-radius:8px;margin-top:6px;border:0.5px solid #E38686;background:rgba(255,255,255,.7)}
   .reveal-panel.shown{display:block}
   .reveal-panel-label{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;color:#085041;margin-bottom:4px}
   .reveal-panel-text{font-size:13px;color:#04342C;line-height:1.6}
@@ -145,7 +145,7 @@
   .nav-btn:not(:disabled):hover{background:#f5f5f3}
 
   /* ── FLOATING DESMOS CALCULATOR ── */
-.calc-fab{position:fixed;bottom:24px;right:24px;width:48px;height:48px;border-radius:50%;background:#534AB7;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:1000;transition:transform .15s}
+.calc-fab{position:fixed;bottom:24px;right:24px;width:48px;height:48px;border-radius:50%;background:#D13B31;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:1000;transition:transform .15s}
 .calc-fab:hover{transform:scale(1.1)}
 .calc-fab i{font-size:22px;color:#fff}
 .calc-overlay{display:none;position:fixed;bottom:84px;right:24px;width:640px;height:520px;border-radius:12px;border:0.5px solid #bbb;background:#fff;z-index:1001;overflow:open;resize:both}

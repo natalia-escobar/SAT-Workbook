@@ -56,7 +56,7 @@ export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswe
       </div>
 
       <div className="guided-grid-right">
-        <div style={{ fontSize: "11px", fontWeight: 500, textTransform: "uppercase", letterSpacing: ".05em", color: "#3C3489", marginBottom: "12px" }}>
+        <div style={{ fontSize: "11px", fontWeight: 500, textTransform: "uppercase", letterSpacing: ".05em", color: "#A62D25", marginBottom: "12px" }}>
             Follow these steps in Desmos
         </div>
         
