@@ -13,9 +13,10 @@ export default function DesmosCalculator() {
       instanceRef.current = window.Desmos.GraphingCalculator(calcRef.current, {
         keypad: true,
         expressions: true,
-        settingsMenu: false,
+        settingsMenu: true,
         zoomButtons: true,
         border: false,
+        expressionsTopbar: true,
       });
     }
   }, [open]);
