@@ -28,6 +28,27 @@ export default function Home() {
           </Link>
         ))}
       </div>
+
+      <h2 style={{ fontSize: "1.2rem", fontWeight: 600, marginTop: "2rem", marginBottom: "12px" }}>
+        Quizzes
+      </h2>
+      
+      <Link
+      href="/quiz/parabola"
+      style={{
+        display: "block",
+        padding: "16px 20px",
+        border: "0.5px solid #e0e0de",
+        borderRadius: "10px",
+        textDecoration: "none",
+        color: "#1a1a1a",
+        }}
+      >
+        <div style={{ fontSize: "16px", fontWeight: 600 }}>Parabola Quiz</div>
+        <div style={{ fontSize: "13px", color: "#888", marginTop: "4px" }}>
+          5 questions · 15 minutes
+          </div>
+      </Link>
     </main>
   );
 }
