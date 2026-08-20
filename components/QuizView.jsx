@@ -31,7 +31,7 @@ export default function QuizView({ title, timeMinutes, questions }) {
 
   const isMultipleChoice = (q) => q.problem.includes("mc-choice");
 
-  const handleChoiceClick = (e, qIndex) => {
+const handleChoiceClick = (e, qIndex) => {
     if (answers[qIndex]) return;
     const choice = e.target.closest(".mc-choice");
     if (!choice) return;
@@ -44,24 +44,18 @@ export default function QuizView({ title, timeMinutes, questions }) {
       if (c === choice) clickedLabel = labels[i];
     });
 
+    // highlight selected choice in neutral color
+    choices.forEach((c) => {
+      c.style.borderColor = "";
+      c.style.background = "";
+    });
+    choice.style.borderColor = "#D13B31";
+    choice.style.background = "#FCE8E8";
+
     const q = questions[qIndex];
     const isCorrect = clickedLabel === q.correctChoice;
-
-    choice.style.borderColor = isCorrect ? "#1D9E75" : "#b3452e";
-    choice.style.background = isCorrect ? "#E1F5EE" : "#FBEAE5";
-
-    if (isCorrect) {
-      choices.forEach((c) => {
-        if (c !== choice) c.style.opacity = "0.4";
-      });
-      setAnswers((prev) => ({ ...prev, [qIndex]: { selected: clickedLabel, correct: true } }));
-    } else {
-      setTimeout(() => {
-        choice.style.borderColor = "";
-        choice.style.background = "";
-      }, 600);
-    }
-  };
+    setAnswers((prev) => ({ ...prev, [qIndex]: { selected: clickedLabel, correct: isCorrect } }));
+};
 
   const handleWriteInCorrect = (qIndex) => {
     setAnswers((prev) => ({ ...prev, [qIndex]: { correct: true } }));
@@ -163,11 +157,6 @@ export default function QuizView({ title, timeMinutes, questions }) {
             correctAnswer={q.correctAnswer}
             onSubmit={() => handleWriteInCorrect(currentIndex)}
           />
-        )}
-        {answers[currentIndex] && (
-          <div className="quiz-answer-reveal">
-            <MathContent text={q.answer} className="quiz-answer-text" />
-          </div>
         )}
       </div>
 
