@@ -31,7 +31,7 @@ export default function QuizView({ title, timeMinutes, questions }) {
 
   const isMultipleChoice = (q) => q.problem.includes("mc-choice");
 
-const handleChoiceClick = (e, qIndex) => {
+  const handleChoiceClick = (e, qIndex) => {
     if (answers[qIndex]) return;
     const choice = e.target.closest(".mc-choice");
     if (!choice) return;
@@ -44,18 +44,15 @@ const handleChoiceClick = (e, qIndex) => {
       if (c === choice) clickedLabel = labels[i];
     });
 
-    // highlight selected choice in neutral color
     choices.forEach((c) => {
-      c.style.borderColor = "";
-      c.style.background = "";
+      c.style.outline = "";
     });
-    choice.style.borderColor = "#D13B31";
-    choice.style.background = "#FCE8E8";
+    choice.style.outline = "2px solid #1a1a1a";
 
     const q = questions[qIndex];
     const isCorrect = clickedLabel === q.correctChoice;
     setAnswers((prev) => ({ ...prev, [qIndex]: { selected: clickedLabel, correct: isCorrect } }));
-};
+  };
 
   const handleWriteInCorrect = (qIndex) => {
     setAnswers((prev) => ({ ...prev, [qIndex]: { correct: true } }));
