@@ -150,10 +150,29 @@ export default function QuizView({ title, timeMinutes, questions }) {
           <MathContent html={q.problem} className="quiz-problem-text" />
         </div>
         {!isMultipleChoice(q) && (
-          <WriteInAnswer
-            correctAnswer={q.correctAnswer}
-            onSubmit={() => handleWriteInCorrect(currentIndex)}
-          />
+          <div style={{ display: "flex", justifyContent: "center", marginTop: "16px" }}>
+            <input
+              type="text"
+              placeholder="Type your answer"
+              value={answers[currentIndex]?.selected || ""}
+              onChange={(e) => {
+                const val = e.target.value;
+                const q = questions[currentIndex];
+                setAnswers((prev) => ({
+                  ...prev,
+                  [currentIndex]: { selected: val, correct: val.trim() === q.correctAnswer?.trim() },
+                }));
+              }}
+              style={{
+                padding: "10px 14px",
+                border: "1.5px solid #e0e0de",
+                borderRadius: "8px",
+                fontSize: "14px",
+                width: "220px",
+                textAlign: "center",
+              }}
+            />
+          </div>
         )}
       </div>
 
