@@ -119,38 +119,89 @@ const parabola = {
 
       // Problem 2
       {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\(4x(x-3) = 5\\)</p>
-        <p>Which is one of the roots to the equation above?</p>
+        problem: `<p>Which expression is equivalent to \\(4x(x + 3/2)(x - 7) - 5x\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
-              <span>\\( \\frac{3 - \\sqrt{16}}{2} \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( \\frac{-3 + \\sqrt{16}}{2}  \\)</span>
+              <span>\\( 4x^2 - 20x - 42 \\)</span>
             </div>
             <div class="mc-choice correct">
+              <span class="mc-label">B</span>
+              <span>\\( 4x^2 - 27x - 42  \\)</span>
+            </div>
+            <div class="mc-choice">
               <span class="mc-label">C</span>
-              <span>\\( \\frac{3 - \\sqrt{14}}{2}  \\)</span>
+              <span>\\( 4x^2 - 31x - 42  \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
-              <span>\\(\\frac{-3 + \\sqrt{14}}{2} \\)</span>
+              <span>\\( 4x^2 - 20x - 21 \\)</span>
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos. The \\(x\\)-value(s) where it crosses the \\(x\\)-axis is the solution", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784126575/parabola2-step1_lfbkaw.mov" },
-          { text: "Type each answer choice into Desmos. The answer choice that is exactly the same as the \\(x\\)-value is the answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784126576/parabola2-step2_iqndme.mov" },
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
         ],
-        guidedProblem: ``,
-        guidedSteps: ["Type the expression into Desmos. The x-value(s) where it crosses the x-axis is the solution", "Type each answer choice into Desmos. Remember to note that the answer choices are the \\(k\\) values when plugging in."],
+        guidedProblem: `<p>Which expression is equivalent to \\( 3(x - \\frac{5}{2})(x + 6) + 4x \\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( 3x^2 + \\frac{21}{2}x - 45 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">B</span>
+              <span>\\( 3x^2 + \\frac{29}{2}x - 45 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 3x^2 + \\frac{21}{2}x + 45 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 3x^2 + \\frac{37}{2}x - 45 \\)</span>
+            </div>
+          </div>`,
+        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "", guidedScreenshot: "",
         practice: [
-          { text: ``, setup: "" },
-          { text: "[Problem 3]", setup: "[Setup 3]" },
-          { text: "[Problem 4]", setup: "[Setup 4]" },
+          { text: `<p>Which expression is equivalent to \\( 5(x + \\frac{4}{3})(x - 2) - 3x \\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice correct">
+                          <span class="mc-label">A</span>
+                          <span>\\( 5x^2 - \\frac{19}{3}x - \\frac{40}{3} \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">B</span>
+                          <span>\\( 5x^2 - \\frac{10}{3}x - \\frac{40}{3}  \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">C</span>
+                          <span>\\( 5x^2 + \\frac{19}{3}x - \\frac{40}{3}  \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">D</span>
+                          <span>\\( 5x^2 - \\frac{19}{3}x + \\frac{40}{3}  \\)</span>
+                        </div>
+                      </div>`, setup: "" },
+          { text: `<p>Which expression is equivalent to \\( 2(x - \\frac{7}{4})(x - 5) + 6x \\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice">
+                          <span class="mc-label">A</span>
+                          <span>\\( 2x^2 - \\frac{27}{2}x + \\frac{35}{2} \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">B</span>
+                          <span>\\( 2x^2 + \\frac{15}{2}x + \\frac{35}{2}  \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">C</span>
+                          <span>\\( 2x^2 - \\frac{15}{2}x - \\frac{35}{2}  \\)</span>
+                        </div>
+                        <div class="mc-choice correct">
+                          <span class="mc-label">D</span>
+                          <span>\\( 2x^2 - \\frac{15}{2}x + \\frac{35}{2}  \\)</span>
+                        </div>
+                      </div>`, setup: "[Setup 3]" },
         ]
       },
 
