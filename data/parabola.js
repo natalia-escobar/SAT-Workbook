@@ -211,7 +211,7 @@ const parabola = {
 
       // Problem 3
       {
-        problem: `Which of the following is equivalent to</p>
+        problem: `Which of the following is equivalent to
         <p style="text-align:center;margin-bottom:12px">\\((2n + \\frac{3}{2})^2 - (n - \\frac{1}{4}) + 2(n + \\frac{3}{4})\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
@@ -235,7 +235,7 @@ const parabola = {
           { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
           { text: "Plug in both \\(x\\)-values, the one where \\(14x - 6 > 0\\) will give the correct value of \\(14x - 6\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784127955/parabola3-step2_nguhr4.mov" },
         ],
-        guidedProblem: `Which of the following is equivalent to</p>
+        guidedProblem: `<p>Which of the following is equivalent to</p>
         <p style="text-align:center;margin-bottom:12px">\\((3r - \\frac{1}{2})^2 + 2(r + \\frac{3}{4}) - (r - \\frac{1}{2})\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
@@ -258,7 +258,7 @@ const parabola = {
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "", guidedScreenshot: "",
         practice: [
-          { text: `Which of the following is equivalent to</p>
+          { text: `<p>Which of the following is equivalent to</p>
         <p style="text-align:center;margin-bottom:12px">\\((2t - \\frac{5}{2})^2 - (t + \\frac{1}{4}) + 3(t - \\frac{1}{2})\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
@@ -278,7 +278,7 @@ const parabola = {
               <span>\\( 4t^2 - 12t + \\frac{19}{4} \\)</span>
             </div>
           </div>`, setup: "The Answer is B" },
-          { text: `Which of the following is equivalent to</p>
+          { text: `<p>Which of the following is equivalent to</p>
         <p style="text-align:center;margin-bottom:12px">\\((4k + \\frac{1}{2})^2 - 2(k - \\frac{3}{4}) + (k + \\frac{1}{4})\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
@@ -303,90 +303,94 @@ const parabola = {
   
       // Problem 4
       {
-        problem: `Which expression is equivalent to \\(4(x+\\frac{3}{2})(x-7) - 5x\\)?
+        problem: `<p>Which of the following is an equivalent form of the expression</p>
+        <p style="text-align:center;margin-bottom:12px">\\( (3x - 4)^2 - 5(3x - 4) - 24 \\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
-              <span>\\( 4x^2 - 20x - 42 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">B</span>
-              <span>\\( 4x^2 - 27x - 42 \\)</span>
+              <span>\\( (3x - 10)(3x - 3) \\)</span>
             </div>
             <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( (3x - 8)(3x - 7) \\)</span>
+            </div>
+            <div class="mc-choice correct">
               <span class="mc-label">C</span>
-              <span>\\( 4x^2 - 31x - 42 \\)</span>
+              <span>\\( (3x - 12)(3x - 1) \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
-              <span>\\( 4x^2 - 20x - 21 \\)</span>
+              <span>\\( (3x - 4)(3x - 9) \\)</span>
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784131954/parabola5-step1_thkq2v.mov" },
-          { text: "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784131955/parabola5-step2_elrgcu.mov" },
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
         ],
-        guidedProblem: `Which expression is equivalent to \\(3(x-\\frac{5}{2})(x+4) + 7x\\)?
-        <div class="mc-choices">
-            <div class="mc-choice correct">
-              <span class="mc-label">A</span>
-              <span>\\( 3x^2 + \\frac{23}{2}x - 30 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( 3x^2 + \\frac{15}{2}x - 30 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">C</span>
-              <span>\\( 3x^2 + \\frac{23}{2}x  - 15 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( 3x^2 + \\frac{15}{2}x - 15 \\)</span>
-            </div>
-          </div>`,
-        guidedSteps: ["Type the expression into Desmos", "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer"],
+        guidedProblem: `<p>Which of the following is an equivalent form of the expression </p>
+                        <p style="text-align:center;margin-bottom:12px">\\((4x + 1)^2 + 3(4x + 1) - 28\\)?
+                        <div class="mc-choices">
+                            <div class="mc-choice correct">
+                              <span class="mc-label">A</span>
+                              <span>\\( (4x - 3)(4x + 8) \\)</span>
+                            </div>
+                            <div class="mc-choice">
+                              <span class="mc-label">B</span>
+                              <span>\\( (4x - 6)(4x + 6) \\)</span>
+                            </div>
+                            <div class="mc-choice">
+                              <span class="mc-label">C</span>
+                              <span>\\( (4x - 2)(4x + 7) \\)</span>
+                            </div>
+                            <div class="mc-choice">
+                              <span class="mc-label">D</span>
+                              <span>\\( (4x + 1)(4x - 3) \\)</span>
+                            </div>
+                          </div>`,
+        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "", 
-        guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784133239/parabola5-gp_pxpitn.png",
+        guidedScreenshot: "",
         practice: [
-          { text: `Which expression is equivalent to \\(5(x - 6)(x + \\frac{1}{2}) - 4(x-3) \\)?
-        <div class="mc-choices">
-            <div class="mc-choice">
-              <span class="mc-label">A</span>
-              <span>\\( 5x^2 - \\frac{67}{2}x - 3 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">B</span>
-              <span>\\( 5x^2 - \\frac{63}{2}x - 3 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">C</span>
-              <span>\\( 5x^2 - \\frac{63}{2}x  + 12 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( 5x^2 - \\frac{67}{2}x + 12 \\)</span>
-            </div>
-          </div>`, setup: "The Answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784133242/parabola5-pp1_irg9tr.png" },
-          { text: `Which expression is equivalent to \\(4(x - \\frac{3}{2})^2 + 5 \\)?
-        <div class="mc-choices">
-            <div class="mc-choice correct">
-              <span class="mc-label">A</span>
-              <span>\\( 4x^2 - 12x + 14 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( 4x^2 -12x + 9 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">C</span>
-              <span>\\( 4x^2 - 6x  + 14 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( 4x^2 - 6x + 9 \\)</span>
-            </div>
-          </div>`, setup: "The Answer is A", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784133245/parabola5-pp2_bqsypm.png" },
+          { text: `<p>Which of the following is an equivalent form of the expression </p>
+                        <p style="text-align:center;margin-bottom:12px">\\((5x - 2)^2 - (5x - 2) - 20\\)?</p>
+                        <div class="mc-choices">
+                            <div class="mc-choice">
+                              <span class="mc-label">A</span>
+                              <span>\\( (5x - 2)(5x - 3) \\)</span>
+                            </div>
+                            <div class="mc-choice">
+                              <span class="mc-label">B</span>
+                              <span>\\( (5x - 10)(5x + 3) \\)</span>
+                            </div>
+                            <div class="mc-choice">
+                              <span class="mc-label">C</span>
+                              <span>\\( (5x - 6)(5x + 1) \\)</span>
+                            </div>
+                            <div class="mc-choice correct">
+                              <span class="mc-label">D</span>
+                              <span>\\( (5x - 7)(5x + 2) \\)</span>
+                            </div>
+                          </div>`, setup: "The Answer is D", screenshot: "" },
+          { text: `Which of the following is an equivalent form of the expression
+            <p style="text-align:center;margin-bottom:12px">\\((6x + 5)^2 - 2(6x + 5) - 35 \\)?</p>
+            <div class="mc-choices">
+                <div class="mc-choice">
+                  <span class="mc-label">A</span>
+                  <span>\\( (6x + 5)(6x + 3) \\)</span>
+                </div>
+                <div class="mc-choice correct">
+                  <span class="mc-label">B</span>
+                  <span>\\( (6x - 2)(6x + 10) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">C</span>
+                  <span>\\( (6x - 5)(6x + 10) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">D</span>
+                  <span>\\( (6x + 1)(6x + 8) \\)</span>
+                </div>
+              </div>`, setup: "The Answer is B", screenshot: "" },
           { text: `Which expression is equivalent to \\(3(x - \\frac{1}{2})(x + 6) - 2(x-9) \\)?
         <div class="mc-choices">
             <div class="mc-choice">
