@@ -391,79 +391,96 @@ const parabola = {
                   <span>\\( (6x + 1)(6x + 8) \\)</span>
                 </div>
               </div>`, setup: "The Answer is B", screenshot: "" },
-          { text: `Which expression is equivalent to \\(3(x - \\frac{1}{2})(x + 6) - 2(x-9) \\)?
-        <div class="mc-choices">
-            <div class="mc-choice">
-              <span class="mc-label">A</span>
-              <span>\\( 3x^2 + \\frac{33}{2}x + 9 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( 3x^2 + \\frac{29}{2}x - 9 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">C</span>
-              <span>\\( 3x^2 + \\frac{29}{2}x  + 9 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( 3x^2 + \\frac{25}{2}x - 9 \\)</span>
-            </div>
-          </div>`, setup: "The Answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784133247/parabola5-pp3_pxxvmx.png" },
         ]
       },
 
       // Problem 5
       {
-        problem: `Which equation is NOT an equivalent form of \\(g(t)=40t² -8t-8\\)?
-        <div class="mc-choices">
-            <div class="mc-choice">
-              <span class="mc-label">A</span>
-              <span>\\( g(t) = 8(5t^2-t-1) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( g(t) = 40(t-\\frac{1 + \\sqrt{21}}{10})(t-\\frac{1 - \\sqrt{21}}{10}) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">C</span>
-              <span>\\( g(t) = 40(t - \\frac{1}{10})^2-\\frac{42}{5} \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">D</span>
-              <span>\\( g(t) = 40(t + \\frac{1}{10})^2 - \\frac{42}{5} \\)</span>
-            </div>
-          </div>`,
+        problem: `Which of the following expressions is equivalent to
+            <p style="text-align:center;margin-bottom:12px">\\( 2(3x - 5)^2 - 98 \\)?</p>
+            <div class="mc-choices">
+                <div class="mc-choice correct">
+                  <span class="mc-label">A</span>
+                  <span>\\( 2(3x - 12)(3x + 2) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">B</span>
+                  <span>\\( 2(3x - 7)(3x - 3) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">C</span>
+                  <span>\\( 2(3x - 12)(3x - 2) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">D</span>
+                  <span>\\( 2(3x + 12)(3x - 2) \\)</span>
+                </div>
+              </div>`,
         steps: [
           { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
         ],
-        guidedProblem: `Which equation is NOT an equivalent form of \\( f(x)=18x² -36x-90 \\)?
+        guidedProblem: `Which of the following expressions is equivalent to
+            <p style="text-align:center;margin-bottom:12px">\\( 4(2x + 3)^2 - 144 \\)?</p>
         <div class="mc-choice">
               <span class="mc-label">A</span>
-              <span>\\( f(x) = 18(x^2 - 2x - 5) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( f(x) = 18(x - 1)^2 - 108 \\)</span>
+              <span>\\( 4(2x - 9)(2x + 3) \\)</span>
             </div>
             <div class="mc-choice correct">
+              <span class="mc-label">B</span>
+              <span>\\( 4(2x - 3)(2x + 9) \\)</span>
+            </div>
+            <div class="mc-choice">
               <span class="mc-label">C</span>
-              <span>\\( f(x) = 18(x + 1)^2 - 72 \\)</span>
+              <span>\\( 4(2x - 6)(2x + 6) \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
-              <span>\\( f(x) = 18(x - (1 + \\sqrt{6}))(x - (1 - \\sqrt{6})) \\)</span>
+              <span>\\( 4(2x + 3)(2x + 9) \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Type the expression into Desmos", "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer"],
-        guidedAnswer: "", guidedScreenshot: "",
+        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedAnswer: "The Answer is B", guidedScreenshot: "",
         practice: [
-          { text: ``
-            , setup: "[Setup 1]" },
-          { text: "[Problem 2]", setup: "[Setup 2]" },
-          { text: "[Problem 3]", setup: "[Setup 3]" },
-          { text: "[Problem 4]", setup: "[Setup 4]" },
+          { text: `Which of the following expressions is equivalent to
+            <p style="text-align:center;margin-bottom:12px">\\( 5(4x - 1)^2 - 405 \\)?</p>
+        <div class="mc-choice correct">
+              <span class="mc-label">A</span>
+              <span>\\( 5(4x - 10)(4x + 8) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 5(4x - 9)(4x + 9) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 5(4x - 10)(4x - 8) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 5(4x - 8)(4x + 10) \\)</span>
+            </div>
+          </div>`
+            , setup: "The Answer is A" },
+          { text: `Which of the following expressions is equivalent to
+            <p style="text-align:center;margin-bottom:12px">\\( 3(5x + 2)^2 - 192 \\)?</p>
+        <div class="mc-choice correct">
+              <span class="mc-label">A</span>
+              <span>\\( 3(5x - 10)(5x + 6) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 3(5x - 6)(5x - 10) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 3(5x - 6)(5x + 10) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 5(5x + 6)(5x + 10) \\)</span>
+            </div>
+          </div>`, setup: "The Answer is C" },
         ]
       },
  
