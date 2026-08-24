@@ -119,7 +119,7 @@ const parabola = {
 
       // Problem 2
       {
-        problem: `<p>Which expression is equivalent to \\(4x(x + 3/2)(x - 7) - 5x\\)?</p>
+        problem: `<p>Which expression is equivalent to \\(4x(x + \\frac{3}{2})(x - 7) - 5x\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
