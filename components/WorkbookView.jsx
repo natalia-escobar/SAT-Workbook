@@ -31,33 +31,6 @@ function SectionAccordion({ icon, title, defaultOpen, children }) {
 function AdditionalPracticeQuestion({ text, index }) {
   const isMultipleChoice = text.includes("mc-choice");
 
-  return (
-    <div className="additional-practice-card">
-      <div className="practice-num">Problem {index + 1}</div>
-      <MathContent html={text} className="practice-text" />
-      {!isMultipleChoice && (
-        <div style={{ display: "flex", justifyContent: "center", marginTop: "16px" }}>
-          <input
-            type="text"
-            placeholder="Type your answer"
-            style={{
-              padding: "10px 14px",
-              border: "1.5px solid #e0e0de",
-              borderRadius: "8px",
-              fontSize: "14px",
-              width: "220px",
-              textAlign: "center",
-            }}
-          />
-        </div>
-      )}
-    </div>
-  );
-}
-
-function AdditionalPracticeQuestion({ text, index }) {
-  const isMultipleChoice = text.includes("mc-choice");
-
   const handleChoiceClick = (e) => {
     const choice = e.target.closest(".mc-choice");
     if (!choice) return;
