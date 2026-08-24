@@ -168,6 +168,19 @@
 .calc-close i{font-size:14px;color:#888}
 .calc-body{flex:1;overflow:hidden}
 
+/* ── COLLAPSIBLE SECTIONS ── */
+.section-accordion{border:0.5px solid #e0e0de;border-radius:10px;overflow:hidden;margin-bottom:12px;background:#fff}
+.section-accordion-header{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;cursor:pointer;user-select:none}
+.section-accordion-header:hover{background:#f5f5f3}
+.section-accordion-title{font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:.06em;color:#888;display:flex;align-items:center;gap:6px}
+.section-accordion-chevron{font-size:16px;color:#aaa;transition:transform .2s}
+.section-accordion.open .section-accordion-chevron{transform:rotate(180deg)}
+.section-accordion-body{display:none;padding:0 16px 16px}
+.section-accordion.open .section-accordion-body{display:block}
+
+/* ── ADDITIONAL PRACTICE ── */
+.additional-practice-card{background:#fff;border:0.5px solid #e0e0de;border-radius:12px;padding:16px;margin-bottom:10px}
+
 
 /* ── QUIZ ── */
 .quiz-start{text-align:center;padding:4rem 1rem}

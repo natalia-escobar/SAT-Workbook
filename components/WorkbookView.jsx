@@ -7,6 +7,53 @@ import GuidedPractice from "@/components/GuidedPractice";
 import PracticeQuestion from "@/components/PracticeQuestion";
 import DesmosGraph from "@/components/DesmosGraph";
 import HowThisWorks from "@/components/HowThisWorks";
+import MathContent from "@/components/MathContent";
+
+function SectionAccordion({ icon, title, defaultOpen, children }) {
+  const [open, setOpen] = useState(defaultOpen);
+
+  return (
+    <div className={`section-accordion ${open ? "open" : ""}`}>
+      <div className="section-accordion-header" onClick={() => setOpen((o) => !o)}>
+        <span className="section-accordion-title">
+          <i className={`ti ${icon}`} />
+          {title}
+        </span>
+        <i className="ti ti-chevron-down section-accordion-chevron" />
+      </div>
+      <div className="section-accordion-body">
+        {children}
+      </div>
+    </div>
+  );
+}
+
+function AdditionalPracticeQuestion({ text, index }) {
+  const isMultipleChoice = text.includes("mc-choice");
+
+  return (
+    <div className="additional-practice-card">
+      <div className="practice-num">Problem {index + 1}</div>
+      <MathContent html={text} className="practice-text" />
+      {!isMultipleChoice && (
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "16px" }}>
+          <input
+            type="text"
+            placeholder="Type your answer"
+            style={{
+              padding: "10px 14px",
+              border: "1.5px solid #e0e0de",
+              borderRadius: "8px",
+              fontSize: "14px",
+              width: "220px",
+              textAlign: "center",
+            }}
+          />
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function WorkbookView({ topic }) {
   const [problemIndex, setProblemIndex] = useState(0);
@@ -33,19 +80,20 @@ export default function WorkbookView({ topic }) {
         </div>
       </div>
 
-      <div className="problem-steps-grid">
-        <div className="psg-left">
-          <DesmosGraph graph={problem.graph} />
-          <div className="problem-label">Example</div>
-          <ProblemStatement problem={problem.problem} />
+      <SectionAccordion icon="ti-book" title="Worked example" defaultOpen={true} key={`we-${problemIndex}`}>
+        <div className="problem-steps-grid">
+          <div className="psg-left">
+            <DesmosGraph graph={problem.graph} />
+            <div className="problem-label">Example</div>
+            <ProblemStatement problem={problem.problem} />
+          </div>
+          <div className="psg-right">
+            <StepNavigator key={problemIndex} steps={problem.steps} />
+          </div>
         </div>
-        <div className="psg-right">
-          <StepNavigator key={problemIndex} steps={problem.steps} />
-        </div>
-      </div>
+      </SectionAccordion>
 
-      <div className="section-block">
-        <div className="block-title"><i className="ti ti-checkbox" /> Guided practice — follow the steps</div>
+      <SectionAccordion icon="ti-checkbox" title="Guided practice — follow the steps" defaultOpen={false} key={`gp-${problemIndex}`}>
         <GuidedPractice
           key={problemIndex}
           guidedProblem={problem.guidedProblem}
@@ -54,14 +102,21 @@ export default function WorkbookView({ topic }) {
           guidedAnswerValue={problem.guidedAnswerValue}
           guidedScreenshot={problem.guidedScreenshot}
         />
-      </div>
+      </SectionAccordion>
 
-      <div className="section-block">
-        <div className="block-title"><i className="ti ti-pencil" /> Practice problems — try on your own</div>
+      <SectionAccordion icon="ti-pencil" title="Practice problems — try on your own" defaultOpen={false} key={`pp-${problemIndex}`}>
         {problem.practice.map((p, i) => (
           <PracticeQuestion key={`${problemIndex}-${i}`} text={p.text} setup={p.setup} screenshot={p.screenshot} index={i} graph={p.graph} answer={p.answer} />
         ))}
-      </div>
+      </SectionAccordion>
+
+      {problem.additionalPractice && problem.additionalPractice.length > 0 && (
+        <SectionAccordion icon="ti-notebook" title="Additional practice" defaultOpen={false} key={`ap-${problemIndex}`}>
+          {problem.additionalPractice.map((p, i) => (
+            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} />
+          ))}
+        </SectionAccordion>
+      )}
     </main>
   );
 }
