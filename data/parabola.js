@@ -11,19 +11,19 @@ const parabola = {
           <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
-              <span>Weeks \\( 5x^2 + x + 5 \\)</span>
+              <span>\\( 5x^2 + x + 5 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">B</span>
-              <span>Weeks \\( 5x^2 - x + 1 \\)</span>
+              <span>\\( 5x^2 - x + 1 \\)</span>
             </div>
             <div class="mc-choice correct">
               <span class="mc-label">C</span>
-              <span>Weeks \\( 5x^2 - x + 5 \\)</span>
+              <span>\\( 5x^2 - x + 5 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
-              <span>Weeks \\( 3x^2 - x + 5 \\)</span>
+              <span>\\( 3x^2 - x + 5 \\)</span>
             </div>
           </div>`,
         steps: [
@@ -36,19 +36,19 @@ const parabola = {
           <div class="mc-choices">
             <div class="mc-choice correct">
               <span class="mc-label">A</span>
-              <span>Weeks \\( 4x^2 - 8x + 4 \\)</span>
+              <span>\\( 4x^2 - 8x + 4 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">B</span>
-              <span>Weeks \\( 8x^2 - 8x + 4 \\)</span>
+              <span>\\( 8x^2 - 8x + 4 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">C</span>
-              <span>Weeks \\( 4x^2 + 2x + 12 \\)</span>
+              <span>\\( 4x^2 + 2x + 12 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
-              <span>Weeks \\( 4x^2 - 8x + 4 \\)</span>
+              <span>\\( 4x^2 - 8x + 4 \\)</span>
             </div>
           </div>`,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
@@ -60,19 +60,19 @@ const parabola = {
           <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
-              <span>Weeks \\( 5x^2 + 4x - 18 \\)</span>
+              <span>\\( 5x^2 + 4x - 18 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">B</span>
-              <span>Weeks \\( 8x^2 + 4x - 6 \\)</span>
+              <span>\\( 8x^2 + 4x - 6 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">C</span>
-              <span>Weeks \\( 11x^2 + 4x - 6 \\)</span>
+              <span>\\( 11x^2 + 4x - 6 \\)</span>
             </div>
             <div class="mc-choice correct">
               <span class="mc-label">D</span>
-              <span>Weeks \\( 5x^2 + 4x - 6 \\)</span>
+              <span>\\( 5x^2 + 4x - 6 \\)</span>
             </div>
           </div>`, setup: "The Answer is D", answer: "", screenshot: "" },
           { text: `<p>Which expression is equivalent to </p>
@@ -81,19 +81,19 @@ const parabola = {
           <div class="mc-choices">
             <div class="mc-choice correct">
               <span class="mc-label">A</span>
-              <span>Weeks \\( 6x^2 - 8x + 9 \\)</span>
+              <span>\\( 6x^2 - 8x + 9 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">B</span>
-              <span>Weeks \\( 4x^2 - 2x + 9 \\)</span>
+              <span>\\( 4x^2 - 2x + 9 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">C</span>
-              <span>Weeks \\( 4x^2 - 8x + 13 \\)</span>
+              <span>\\( 4x^2 - 8x + 13 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
-              <span>Weeks \\( 4x^2 - 2x + 13 \\)</span>
+              <span>\\( 4x^2 - 2x + 13 \\)</span>
             </div>
           </div>`, setup: "The Answer is B", screenshot: "" },
         ], 
@@ -119,7 +119,8 @@ const parabola = {
 
       // Problem 2
       {
-        problem: `<p>Which expression is equivalent to \\(4x(x + \\frac{3}{2})(x - 7) - 5x\\)?</p>
+        problem: `<p>Which expression is equivalent to </p>
+        <p style="text-align:center;margin-bottom:12px">\\(4x(x + \\frac{3}{2})(x - 7) - 5x\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
@@ -142,7 +143,8 @@ const parabola = {
           { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
           { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
         ],
-        guidedProblem: `<p>Which expression is equivalent to \\( 3(x - \\frac{5}{2})(x + 6) + 4x \\)?</p>
+        guidedProblem: `<p>Which expression is equivalent to</p>
+        <p style="text-align:center;margin-bottom:12px">\\( 3(x - \\frac{5}{2})(x + 6) + 4x \\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
@@ -164,7 +166,8 @@ const parabola = {
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "", guidedScreenshot: "",
         practice: [
-          { text: `<p>Which expression is equivalent to \\( 5(x + \\frac{4}{3})(x - 2) - 3x \\)?</p>
+          { text: `<p>Which expression is equivalent to</p>
+                   <p style="text-align:center;margin-bottom:12px">\\( 5(x + \\frac{4}{3})(x - 2) - 3x \\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice correct">
                           <span class="mc-label">A</span>
@@ -183,7 +186,8 @@ const parabola = {
                           <span>\\( 5x^2 - \\frac{19}{3}x + \\frac{40}{3}  \\)</span>
                         </div>
                       </div>`, setup: "" },
-          { text: `<p>Which expression is equivalent to \\( 2(x - \\frac{7}{4})(x - 5) + 6x \\)?</p>
+          { text: `<p>Which expression is equivalent to</p>
+                  <p style="text-align:center;margin-bottom:12px"> \\( 2(x - \\frac{7}{4})(x - 5) + 6x \\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -207,37 +211,93 @@ const parabola = {
 
       // Problem 3
       {
-        problem: `If \\(196x^2 - 168x + 35 = 0\\), what is the value of \\(14x - 6\\), where \\(14x - 6 > 0\\)?
+        problem: `Which of the following is equivalent to</p>
+        <p style="text-align:center;margin-bottom:12px">\\((2n + \\frac{3}{2})^2 - (n - \\frac{1}{4}) + 2(n + \\frac{3}{4})\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
-              <span>\\( - 1 \\)</span>
+              <span>\\( 4n^2 + 5n + 4 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">B</span>
-              <span>\\( 0  \\)</span>
+              <span>\\( 4n^2 + 7n + \\frac{15}{4} \\)</span>
             </div>
             <div class="mc-choice correct">
               <span class="mc-label">C</span>
-              <span>\\( 1 \\)</span>
+              <span>\\( 4n^2 + 7n + 4 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
-              <span>\\( 2 \\)</span>
+              <span>\\( 4n^2 + 5n + \\frac{15}{4} \\)</span>
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos. The \\(x\\)-values where it crosses the \\(x\\)-axis are two potential values for \\(x\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784127954/parabola3-step1_qlrj6s.mov" },
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
           { text: "Plug in both \\(x\\)-values, the one where \\(14x - 6 > 0\\) will give the correct value of \\(14x - 6\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784127955/parabola3-step2_nguhr4.mov" },
         ],
-        guidedProblem: ``,
-        guidedSteps: ["Type the expression into Desmos", "Type each answer choice into Desmos. The parabola that perfectly overlaps the given expression is the answer"],
+        guidedProblem: `Which of the following is equivalent to</p>
+        <p style="text-align:center;margin-bottom:12px">\\((3r - \\frac{1}{2})^2 + 2(r + \\frac{3}{4}) - (r - \\frac{1}{2})\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( 9r^2 - 4r + \\frac{9}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 9r^2 - 2r + \\frac{7}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 9r^2 - 4r + \\frac{7}{4} \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">D</span>
+              <span>\\( 9r^2 - 2r + \\frac{9}{4} \\)</span>
+            </div>
+          </div>`,
+        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "", guidedScreenshot: "",
         practice: [
-          { text: "[Problem 1]", setup: "[Setup 1]" },
-          { text: "[Problem 2]", setup: "[Setup 2]" },
-          { text: "[Problem 3]", setup: "[Setup 3]" },
-          { text: "[Problem 4]", setup: "[Setup 4]" },
+          { text: `Which of the following is equivalent to</p>
+        <p style="text-align:center;margin-bottom:12px">\\((2t - \\frac{5}{2})^2 - (t + \\frac{1}{4}) + 3(t - \\frac{1}{2})\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( 4t^2 - 12t + \\frac{9}{2} \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">B</span>
+              <span>\\( 4t^2 - 8t + \\frac{9}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 4t^2 - 8t + \\frac{19}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 4t^2 - 12t + \\frac{19}{4} \\)</span>
+            </div>
+          </div>`, setup: "The Answer is B" },
+          { text: `Which of the following is equivalent to</p>
+        <p style="text-align:center;margin-bottom:12px">\\((4k + \\frac{1}{2})^2 - 2(k - \\frac{3}{4}) + (k + \\frac{1}{4})\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( 16k^2 + 5k + 2 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 16k^2 + 3k + \\frac{7}{4} \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">C</span>
+              <span>\\( 16k^2 + 3k + 2 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">D</span>
+              <span>\\( 16k^2 + 5k + \\frac{7}{4} \\)</span>
+            </div>
+          </div>`, setup: "The Answer is C" },
         ]
       },
   
