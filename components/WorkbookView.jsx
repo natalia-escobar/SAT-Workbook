@@ -55,6 +55,45 @@ function AdditionalPracticeQuestion({ text, index }) {
   );
 }
 
+function AdditionalPracticeQuestion({ text, index }) {
+  const isMultipleChoice = text.includes("mc-choice");
+
+  const handleChoiceClick = (e) => {
+    const choice = e.target.closest(".mc-choice");
+    if (!choice) return;
+    const parent = choice.closest(".mc-choices");
+    parent.querySelectorAll(".mc-choice").forEach((c) => {
+      c.style.outline = "";
+    });
+    choice.style.outline = "2px solid #1a1a1a";
+  };
+
+  return (
+    <div className="additional-practice-card">
+      <div className="practice-num">Problem {index + 1}</div>
+      <div onClick={isMultipleChoice ? handleChoiceClick : undefined}>
+        <MathContent html={text} className="practice-text" />
+      </div>
+      {!isMultipleChoice && (
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "16px" }}>
+          <input
+            type="text"
+            placeholder="Type your answer"
+            style={{
+              padding: "10px 14px",
+              border: "1.5px solid #e0e0de",
+              borderRadius: "8px",
+              fontSize: "14px",
+              width: "220px",
+              textAlign: "center",
+            }}
+          />
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function WorkbookView({ topic }) {
   const [problemIndex, setProblemIndex] = useState(0);
   const problem = topic.workedProblems[problemIndex];
@@ -110,6 +149,9 @@ export default function WorkbookView({ topic }) {
         ))}
       </SectionAccordion>
 
+      {problem.additionalPractice && problem.additionalPractice.length > 0 && (
+        <div style={{ borderTop: "1px solid #e0e0de", margin: "20px 0" }} />
+      )}
       {problem.additionalPractice && problem.additionalPractice.length > 0 && (
         <SectionAccordion icon="ti-notebook" title="Additional practice" defaultOpen={false} key={`ap-${problemIndex}`}>
           {problem.additionalPractice.map((p, i) => (

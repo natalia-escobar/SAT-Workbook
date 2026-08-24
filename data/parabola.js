@@ -21,7 +21,7 @@ const parabola = {
               <span class="mc-label">C</span>
               <span>Weeks \\( 5x^2 - x + 5 \\)</span>
             </div>
-            <div class="mc-choice correct">
+            <div class="mc-choice">
               <span class="mc-label">D</span>
               <span>Weeks \\( 3x^2 - x + 5 \\)</span>
             </div>
