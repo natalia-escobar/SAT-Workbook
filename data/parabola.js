@@ -5,47 +5,116 @@ const parabola = {
   workedProblems: [
     // Problem 1
       {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\(f(x) = -0.004125x^2 + 16.842x - 17420\\)</p>
-          <p>A planning committee at Beck College Prep is reviewing enrollment trends. The number of students expected to participate in September tutoring programs \\(f(x)\\) is estimated by the equation shown above, where \\(x\\) is the year. Using the model, determine the absolute change in the model's estimated enrollment between September \\(2021\\) and September \\(2022\\) to the nearest thousandth.</p>`,
-        steps: [
-          { text: "Declare the function into Desmos, exactly as it is shown in the question", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784124160/parabola1-step1_yq17rc.mov" },
-          { text: "The question asks for the positive difference between \\(f(2022)\\) and \\(f(2021)\\), so type that into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784125469/parabola1-step2_hwpuf1.mov" },
-        ],
-        guidedProblem: `<p style="text-align:center;margin-bottom:12px">
-          \\(T(x) = -0.006x^2 + 24.3x - 24500\\)</p>
-          <p>A landscaping company models the number of trees planted each year using the function \\(T(x)\\), where \\(x\\) represents a year. According to the model, what is the absolute change in the estimated number of trees planted from \\(2024\\) to \\(2026\\), to the nearest tenth?</p>`,
-        guidedSteps: ["Declare the function into Desmos", "Find the positive difference between \\(T(2026)\\) and \\(T(2024)\\)"],
-        guidedAnswer: "The Answer is 0", guidedAnswerValue: "0", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784125513/parabola1-gp_bvhpya.png",
-        practice: [
-          { text: `<p style="text-align:center;margin-bottom:12px">
-          \\(P(x) = -0.015x^2 + 60x - 59800\\)</p>
-          <p>The monthly profit (in thousands of dollars) for a company is modeled by \\(P(x)\\), where \\(x\\) represents the year. By approximately how many thousand dollars does the model predict the monthly profit changes between \\(2027\\) and \\(2028\\)?</p>`, setup: "The Answer is 0.825", answer: "0.825", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784125513/parabola1-pp1_itdcwh.png" },
-          { text: `<p style="text-align:center;margin-bottom:12px">
-          \\(h(t) = 0.042t^2 + 3.6t + 12 \\)</p>
-          <p>The average height of a species of plant is modeled by \\(h(t)\\), where \\(t\\) is measured in weeks. Between which two consecutive weeks is the greatest increase predicted?</p>
+        problem: `<p>Which expression is equivalent to </p>
+        <p style="text-align:center;margin-bottom:12px">
+          \\(3(x^2 - 2x + 4) + (2x^2 + 5x - 7)\\)?</p>
           <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
-              <span>Weeks \\(3\\) and \\(4\\)</span>
+              <span>Weeks \\( 5x^2 + x + 5 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">B</span>
-              <span>Weeks \\(4\\) and \\(5\\)</span>
+              <span>Weeks \\( 5x^2 - x + 1 \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
               <span class="mc-label">C</span>
-              <span>Weeks \\(5\\) and \\(6\\)</span>
+              <span>Weeks \\( 5x^2 - x + 5 \\)</span>
             </div>
             <div class="mc-choice correct">
               <span class="mc-label">D</span>
-              <span>Weeks \\(6\\) and \\(7\\)</span>
+              <span>Weeks \\( 3x^2 - x + 5 \\)</span>
             </div>
-          </div>`, setup: "The Answer is D", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784125515/parabola1-pp2_heehux.png" },
-          { text: `<p style="text-align:center;margin-bottom:12px">
-          \\(C(t) = 0.018t^2 - 1.24t + 56.8\\)</p>
-          <p>A laboratory models the concentration of a chemical using the function \\(C(t)\\), where \\(t\\) is measured in hours. Which value is closest to the average rate of change of the concentration from \\(t = 8\\) to \\(t = 12\\)?</p>`, setup: "The Answer is \\(-0.88\\)", answer: "-0.88", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784125515/parabola1-pp3_m7lfv2.png" },
-        ]
+          </div>`,
+        steps: [
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
+        ],
+        guidedProblem: `<p>Which expression is equivalent to </p>
+        <p style="text-align:center;margin-bottom:12px">
+          \\((6x^2 - 3x + 8) - (2x^2 + 5x - 4)\\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice correct">
+              <span class="mc-label">A</span>
+              <span>Weeks \\( 4x^2 - 8x + 4 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>Weeks \\( 8x^2 - 8x + 4 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>Weeks \\( 4x^2 + 2x + 12 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>Weeks \\( 4x^2 - 8x + 4 \\)</span>
+            </div>
+          </div>`,
+        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedAnswer: "The Answer is A", guidedScreenshot: "",
+        practice: [
+          { text: `<p>Which expression is equivalent to </p>
+        <p style="text-align:center;margin-bottom:12px">
+          \\(4(2x^2 + x - 3) - (3x^2 - 6)\\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>Weeks \\( 5x^2 + 4x - 18 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>Weeks \\( 8x^2 + 4x - 6 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>Weeks \\( 11x^2 + 4x - 6 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">D</span>
+              <span>Weeks \\( 5x^2 + 4x - 6 \\)</span>
+            </div>
+          </div>`, setup: "The Answer is D", answer: "", screenshot: "" },
+          { text: `<p>Which expression is equivalent to </p>
+        <p style="text-align:center;margin-bottom:12px">
+          \\( (3x^2 - 5x + 7) + (2x^2 + 4) - ( x^2 - 3x + 2)\\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice correct">
+              <span class="mc-label">A</span>
+              <span>Weeks \\( 6x^2 - 8x + 9 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>Weeks \\( 4x^2 - 2x + 9 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>Weeks \\( 4x^2 - 8x + 13 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>Weeks \\( 4x^2 - 2x + 13 \\)</span>
+            </div>
+          </div>`, setup: "The Answer is B", screenshot: "" },
+        ], 
+        additionalPractice: [
+          { text: `<p>Problem text here...</p>` },
+          { text: `<p>Another problem...</p>
+            <div class="mc-choices">
+              <div class="mc-choice">
+                <span class="mc-label">A</span>
+                <span>Option A</span></div>
+              <div class="mc-choice">
+                <span class="mc-label">B</span>
+                <span>Option B</span></div>
+              <div class="mc-choice">
+                <span class="mc-label">C</span>
+                <span>Option C</span></div>
+              <div class="mc-choice">
+                <span class="mc-label">D</span>
+                <span>Option D</span></div>
+            </div>` },
+],
       },
 
       // Problem 2
