@@ -97,7 +97,113 @@ const parabola = {
             </div>
           </div>` },
         ], 
-        additionalPractice: [],
+        additionalPractice: [
+          { text: `<p>Which expression is equivalent to </p>
+        <p style="text-align:center;margin-bottom:12px">
+          \\( 4(2x^2 - 3x + 5) + (3x^2 + 7x - 8) \\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( 11x^2 - 5x + 12 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 11x^2 + 4x + 12 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 11x^2 - 5x + 28 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 8x^2 - 5x + 12 \\)</span>
+            </div>
+          </div>` }, 
+          { text: `<p>Which expression is equivalent to </p>
+        <p style="text-align:center;margin-bottom:12px">
+          \\( (9x^2 - 4x + 6) - (5x^2 + 7x - 3) \\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( 4x^2 + 3x + 3 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 14x^2 - 11x + 9 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 4x^2 - 11x + 9 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 4x^2 - 11x + 3 \\)</span>
+            </div>
+          </div>` },
+          { text: `<p>Which expression is equivalent to </p>
+        <p style="text-align:center;margin-bottom:12px">
+          \\( 5(3x^2 + 2x - 4) - (4x^2 - 6x + 7) \\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( 11x^2 + 4x - 27 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 11x^2 + 16x - 27 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 19x^2 + 16x - 13 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 11x^2 + 16x - 13 \\)</span>
+            </div>
+          </div>` },
+          { text: `<p>Which expression is equivalent to </p>
+        <p style="text-align:center;margin-bottom:12px">
+          \\( (7x^2 - 5x + 9) + 3(x^2 + 4x - 2) - (2x^2 - 3) \\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( 8x^2 + 7x \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 8x^2 + 7x + 6 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 12x^2 + 7x + 6 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 8x^2 - 17x + 6 \\)</span>
+            </div>
+          </div>` },
+          { text: `<p>Which expression is equivalent to </p>
+        <p style="text-align:center;margin-bottom:12px">
+          \\( -3(2x^2 - 5x + 4) + (8x^2 - 7x + 6) \\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( 2x^2 + 8x - 6 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 14x^2 + 8x - 6 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 2x^2 - 22x - 6 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 2x^2 + 8x + 18 \\)</span>
+            </div>
+          </div>` },
+        ],
       },
 
       // Problem 2
@@ -621,7 +727,7 @@ const parabola = {
                   <span class="mc-label">C</span>
                   <span>\\(  y = (x + 12c)(x - 12c) \\)</span>
                 </div>
-                <div class="mc-choice correct">
+                <div class="mc-choice">
                   <span class="mc-label">D</span>
                   <span>\\( y = (x + 6\\sqrt{3c})(x - 6\\sqrt{3c}) \\)</span>
                 </div>
@@ -641,7 +747,7 @@ const parabola = {
                   <span class="mc-label">C</span>
                   <span>\\(  y = (x + 19d)(x - 19d) \\)</span>
                 </div>
-                <div class="mc-choice correct">
+                <div class="mc-choice">
                   <span class="mc-label">D</span>
                   <span>\\( y = (x + \\sqrt{7d})(x - \\sqrt{7d}) \\)</span>
                 </div>
@@ -652,84 +758,75 @@ const parabola = {
  
       // Problem 8
       {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\(f(x) = x^2 - 10x + 9\\)
-        </p>
-        <p>Stella models a student’s grammar error count with the function \\(f(x)\\), where \\(x\\) is the number of grammar drills completed. Which of the following equivalent forms of the equation displays the minimum value of the function as a constant or coefficient?</p>
+        problem: `Which expression is equivalent to
+        <p style="text-align:center;margin-bottom:12px"> \\( (2a - \\frac{b}{3})^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
-        <span>\\( f(x) = x(x - 10) + 9 \\)</span>
+        <span>\\( 4a^2 - \\frac{2ab}{3} + \\frac{b^2}{9} \\)</span>
         </div>
         <div class="mc-choice correct">
         <span class="mc-label">B</span>
-        <span>\\( f(x) = (x-5)^2 - 16 \\)</span>
+        <span>\\( 4a^2 - \\frac{4ab}{3} + \\frac{b^2}{9} \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( f(x) = (x-1)(x - 9) \\)</span>
+        <span>\\( 4a^2 - \\frac{4ab}{3} + \\frac{b^2}{3} \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( f(x) = x^2 - 5(2x) + 9 \\)</span>
+        <span>\\( 2a^2 - \\frac{4ab}{3} + \\frac{b^2}{9} \\)</span>
         </div>
         </div>`,
         steps: [
-          { text: "Type the given function into Desmos. From the graph, you can find the minimum value", note: "The answer choice that includes the minimum value is the answer", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784142540/parabola8-step1_hwv7qm.mov" },
+          { text: "Create a slider for the variable \\(a)\\ and \\(b)\\ and invent numbers", note: "", gif: "", video: "" },
+          { text: "Type the given expression", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
-        guidedProblem: `<p style="text-align:center;margin-bottom:12px">
-          \\(R(x) = 2x^2 - 20x + 47\\)
-        </p>
-        <p>Marian models the average number of questions a student misses on weekly reading quizzes with the function, \\(R(x)\\), where \\(x\\) is the number of weeks since tutoring began. Which equivalent form of the equation displays the minimum predicted number of missed questions as a constant? </p>
+        guidedProblem: `Which expression is equivalent to
+        <p style="text-align:center;margin-bottom:12px"> \\( (\\frac{3m}{2} + 2n)^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
-        <span>\\( R(x) = 2(x - 5)(x - 5) - 6 \\)</span>
+        <span>\\( \\frac{9}{4}m^2 + 6mn + 4n^2 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">B</span>
-        <span>\\( R(x) = 2(x-5)^2 - 3 \\)</span>
+        <span>\\( \\frac{9}{4}m^2 + 3mn + 4n^2 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( R(x) = x(2x - 20) + 47 \\)</span>
+        <span>\\( \\frac{9}{4}m^2 + 12mn + 4n^2 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( R(x) = 2(x - 2)(x - 8) - 17 \\)</span>
+        <span>\\( \\frac{3}{2}m^2 + 6mn + 4n^2 \\)</span>
         </div>
         </div>`,
-        guidedSteps: ["Type the given function into Desmos. From the graph, you can find the minimum value"],
-        guidedAnswer: "The Answer is A", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784142532/parabola8-gp_dziogs.png",
+        guidedSteps: ["Create a slider for the variable \\(a)\\ and \\(b)\\ and invent numbers", "Type the given expression", "Type each answer choice and match"],
+        guidedAnswer: "The Answer is A", guidedScreenshot: "",
         practice: [
-          { text: `<p style="text-align:center;margin-bottom:12px">
-          \\(f(x) = -2x^2 + 12x + 8\\)
-            </p>
-                <p>Which of the following is an equivalent form of the equation of the graph shown above, from which the coordinates of the maximum point can be identified as constants in the equation?</p>
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( f(x) = -2(x + 3)^2 + 26 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">B</span>
-            <span>\\( f(x) = -2(x - 3)^2 + 26 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( f(x) = -2(x - 0.6)(x - 6.6) \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( f(x) = -2(x - 0.6)(x + 6.6) \\)</span>
-            </div>
-            </div>`, 
-            graph: {
-              expressions: [
-                {latex: "y = -2x^2 + 12x + 8", color: "#1a1a1a"} 
-              ], bounds: {left: - 6, right: 10 , bottom: -20 , top: 45}
-
-          }, setup: "The correct answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784142535/parabola8-pp1_xtqfv7.png" },
+          { text: `Which expression is equivalent to
+        <p style="text-align:center;margin-bottom:12px"> \\( (\\frac{x}{4} - 2n)^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{9}{4}m^2 + 6mn + 4n^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{9}{4}m^2 + 3mn + 4n^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{9}{4}m^2 + 12mn + 4n^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{3}{2}m^2 + 6mn + 4n^2 \\)</span>
+        </div>
+        </div>`, 
+            },
           { text: `<p style="text-align:center;margin-bottom:12px">
             \\(g(x) = -3x^2 + 18x + 7\\)
             </p>
