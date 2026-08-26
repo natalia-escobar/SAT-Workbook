@@ -53,8 +53,7 @@ const parabola = {
           </div>`,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "",
-        practice: [], 
-        additionalPractice: [
+        practice: [ 
           { text: `<p>Which expression is equivalent to </p>
         <p style="text-align:center;margin-bottom:12px">
           \\(4(2x^2 + x - 3) - (3x^2 - 6)\\)?</p>
@@ -97,7 +96,8 @@ const parabola = {
               <span>\\( 4x^2 - 2x + 13 \\)</span>
             </div>
           </div>` },
-],
+        ], 
+        additionalPractice: [],
       },
 
       // Problem 2
@@ -148,8 +148,7 @@ const parabola = {
           </div>`,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "", guidedScreenshot: "",
-        practice: [],
-        additionalPractice: [
+        practice: [
           {text: `<p>Which expression is equivalent to</p>
                    <p style="text-align:center;margin-bottom:12px">\\( 5(x + \\frac{4}{3})(x - 2) - 3x \\)?</p>
                     <div class="mc-choices">
@@ -190,7 +189,8 @@ const parabola = {
                           <span>\\( 2x^2 - \\frac{15}{2}x + \\frac{35}{2}  \\)</span>
                         </div>
                       </div>`},
-        ]
+        ],
+        additionalPractice: []
       },
 
       // Problem 3
@@ -241,9 +241,7 @@ const parabola = {
           </div>`,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "", guidedScreenshot: "",
-        practice: [], 
-        additionalPractice: [ 
-          { text: `<p>Which of the following is equivalent to</p>
+        practice: [ { text: `<p>Which of the following is equivalent to</p>
                     <p style="text-align:center;margin-bottom:12px">\\((4x + \\frac{1}{2})^2 - 2(x - \\frac{3}{4}) + (x + \\frac{1}{4})\\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
@@ -283,8 +281,8 @@ const parabola = {
                           <span>\\( 9x^2 - 3x - \\frac{3}{4} \\)</span>
                         </div>
                       </div>`
-          }
-        ]
+          }], 
+        additionalPractice: []
       },
   
       // Problem 4
@@ -356,7 +354,7 @@ const parabola = {
                               <span class="mc-label">D</span>
                               <span>\\( (5x - 7)(5x + 2) \\)</span>
                             </div>
-                          </div>`, setup: "The Answer is D", screenshot: "" },
+                          </div>`, },
           { text: `Which of the following is an equivalent form of the expression
             <p style="text-align:center;margin-bottom:12px">\\((6x + 5)^2 - 2(6x + 5) - 35 \\)?</p>
             <div class="mc-choices">
@@ -376,7 +374,7 @@ const parabola = {
                   <span class="mc-label">D</span>
                   <span>\\( (6x + 1)(6x + 8) \\)</span>
                 </div>
-              </div>`, setup: "The Answer is B", screenshot: "" },
+              </div>`,  },
         ]
       },
 
@@ -446,8 +444,7 @@ const parabola = {
               <span class="mc-label">D</span>
               <span>\\( 5(4x - 8)(4x + 10) \\)</span>
             </div>
-          </div>`
-            , setup: "The Answer is A" },
+          </div>` },
           { text: `Which of the following expressions is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( 3(5x + 2)^2 - 192 \\)?</p>
         <div class="mc-choice correct">
@@ -464,150 +461,133 @@ const parabola = {
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
-              <span>\\( 5(5x + 6)(5x + 10) \\)</span>
+              <span>\\( 3(5x + 6)(5x + 10) \\)</span>
             </div>
-          </div>`, setup: "The Answer is C" },
+          </div>` },
         ]
       },
  
       // Problem 6
       {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\(m(x) = \\frac{2}{5}x + 9 \\)<br><br>
-          \\(n(x) = 3x - 4\\)
-        </p>
-        <p>The functions m and n are defined by the equations shown. Which expression is equivalent to \\(m(x) \\cdot n(x)\\)?</p>
-        <div class="mc-choices">
+        problem: `Which of the following is equivalent to
+            <p style="text-align:center;margin-bottom:12px">\\( (2n + \\frac{3}{2})^2 - (n - \\frac{1}{4}) + 2(n + \\frac{3}{4})\\)?</p>
         <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( \\frac{6}{5}x^2 - 36 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( \\frac{6}{5}x^2 + 23x - 36 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( \\frac{6}{5}x^2 + \\frac{127}{5}x - 36 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( \\frac{6}{5}x^2 + \\frac{127}{5}x + 36 \\)</span>
-        </div>
-        </div>`,
+              <span class="mc-label">A</span>
+              <span>\\( 4n^2 + 5n + 4 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 4n^2 + 7n + \\frac{15}{4} \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">C</span>
+              <span>\\( 4n^2 + 7n + 4 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 4n^2 + 5n + \\frac{15}{4} \\)</span>
+            </div>
+          </div>`,
         steps: [
-          { text: "Type in \\(m(x)\\) and \\(n(x)\\) into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784138113/parabola6-step1_jubjg5.mov" },
-          { text: "Type in \\(m(x) \\cdot n(x)\\)", note: "To avoid confusion, only graph this, remove m(x) and n(x) from being shown on the graph", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784138114/parabola6-step2_gophie.mov" },
-          { text: "Type each answer choice, whichever one perfectly overlaps \\(m(x) \\cdot n(x)\\) is the answer", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784138118/parabola6-step3_viq3op.mov" },
+          { text: "Create a slider for the variable \\(n)\\ and invent a number", note: "", gif: "", video: "" },
+          { text: "Type the given expression", gif: "", video: "" },
+          { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
-        guidedProblem: `<p style="text-align:center;margin-bottom:12px">
-          \\(f(x) = 5 - \\frac{2}{3}x\\)<br><br>
-          \\(g(x) = 4x + 1 \\)
-        </p>
-        <p>The functions f and g are defined by the equations shown. Which expression is equivalent to \\(f(x) \\cdot g(x)\\)?</p>
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( -\\frac{8}{3}x^2 + \\frac{58}{3}x - 5 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( -\\frac{8}{3}x^2 + \\frac{55}{3}x + 5 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( \\frac{8}{3}x^2 + \\frac{58}{3}x + 5 \\)</span>
-        </div>
+        guidedProblem: `Which of the following is equivalent to
+            <p style="text-align:center;margin-bottom:12px">\\( (3r - \\frac{1}{2})^2 + 2(r + \\frac{3}{4}) - (r - \\frac{1}{2})\\)?</p>
         <div class="mc-choice correct">
-        <span class="mc-label">D</span>
-        <span>\\( -\\frac{8}{3}x^2 + \\frac{58}{3}x + 5 \\)</span>
-        </div>
-        </div>`,
-        guidedSteps: ["Type in \\(f(x)\\) and \\(g(x)\\) into Desmos", "Type in \\(f(x) \\cdot g(x)\\)", "Type each answer choice, whichever one perfectly overlaps \\(f(x) \\cdot g(x)\\) is the answer"],
-        guidedAnswer: "The Answer is D", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784138107/parabola6-gp_i95vza.png",
+              <span class="mc-label">A</span>
+              <span>\\( 9r^2 - 4r + \\frac{9}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 9r^2 - 2r + \\frac{7}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 9r^2 - 4r + \\frac{7}{4} \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">D</span>
+              <span>\\( 9r^2 - 2r + \\frac{9}{4} \\)</span>
+            </div>
+          </div>`,
+        guidedSteps: ["Create a slider for the variable \\(r)\\ and invent a number", "Type the given expression", "Type each answer choice and match"],
+        guidedAnswer: "The Answer is D", guidedScreenshot: "",
         practice: [
-          { text: `<p style="text-align:center;margin-bottom:12px">
-          \\(p(x) = \\frac{3}{4}x - 8 \\)<br><br>
-          \\(q(x) = 2x - \\frac{5}{3} \\)
-        </p>
-        <p>The functions p and q are defined by the equations shown. Which expression is equivalent to \\(p(x) \\cdot q(x)\\)?</p>
-        <div class="mc-choices">
+          { text: `Which of the following is equivalent to
+            <p style="text-align:center;margin-bottom:12px">\\( (2t - \\frac{5}{2})^2 - (t + \\frac{1}{4}) + 3(t - \\frac{1}{2})\\)?</p>
         <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( \\frac{3}{2}x^2 - \\frac{69}{4}x + \\frac{40}{3} \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( \\frac{3}{2}x^2 - \\frac{73}{4}x + \\frac{40}{3} \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( \\frac{3}{2}x^2 - \\frac{69}{4}x - \\frac{40}{3} \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( -\\frac{3}{2}x^2 - \\frac{69}{4}x + \\frac{40}{3} \\)</span>
-        </div>
-        </div>`, setup: "The Answer is A", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784138108/parabola6-pp1_tiabzz.png" },
-          { text: `<p style="text-align:center;margin-bottom:12px">
-          \\(u(x) -\\frac{1}{2}x = 9 \\) <br><br>
-          \\(v(x) + 5 = 2x \\)
-        </p>
-        <p>The functions u and v are defined by the equations shown. Which expression is equivalent to \\(u(x) \\cdot v(x)\\)?</p>
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( x^2 + \\frac{31}{2}x + 45 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( x^2 + \\frac{13}{2}x - 45 \\)</span>
-        </div>
+              <span class="mc-label">A</span>
+              <span>\\( 4t^2 - 12t + \\frac{9}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 4t^2 - 8t + \\frac{9}{2} \\)</span>
+            </div>
+            <div class="mc-choice correct">
+              <span class="mc-label">C</span>
+              <span>\\( 4t^2 - 8t + \\frac{19}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 4t^2 - 12t + \\frac{19}{4} \\)</span>
+            </div>
+          </div>`, },
+          { text: `Which of the following is equivalent to
+            <p style="text-align:center;margin-bottom:12px">\\( (4k + \\frac{1}{2})^2 - 2(k - \\frac{3}{4}) + (k + \\frac{1}{4})\\)?</p>
         <div class="mc-choice correct">
-        <span class="mc-label">C</span>
-        <span>\\( x^2 + \\frac{31}{2}x - 45 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 2x^2 + \\frac{31}{2}x^2 - 45 \\)</span>
-        </div>
-        </div>`, setup: "The Answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784138111/parabola6-pp2_bmbvzt.png" },
+              <span class="mc-label">A</span>
+              <span>\\( 16k^2 + 5k + 2 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( 16k^2 + 3k + \\frac{7}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( 16k^2 + 3k + 2 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( 16k^2 + 5k + \\frac{7}{4} \\)</span>
+            </div>
+          </div>`, },
         ]
       },
  
       // Problem 7
       {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\(f(x) = 12x^2 - 84x + 155\\)
-        </p>
-        <p>The function \\(f(x)\\) models the average score gap between a student's current SAT Math score and a target score. For what value \\(x\\) does \\(f(x)\\) reach its minimum?</p>
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( 3 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">B</span>
-        <span>\\( 3.5 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 7 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 12 \\)</span>
-        </div>
-        </div>`,
+        problem: `The equation
+            <p style="text-align:center;margin-bottom:12px">\\( y = 2(\\frac{x^2}{2} - 5a)\\)?</p>
+            <div class="mc-choice correct">
+                  <span class="mc-label">A</span>
+                  <span>\\( y = (x + \\sqrt{10a})(x - \\sqrt{10a}) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">B</span>
+                  <span>\\(  y = (x + \\sqrt{5a})(x - \\sqrt{5a}) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">C</span>
+                  <span>\\(  y = (x + 10a)(x - 10a) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">D</span>
+                  <span>\\( y = (x + 5a)(x - 5a) \\)</span>
+                </div>
+              </div>`,
         steps: [
-          { text: "Type the given equation into Desmos. You can find the minimum visually on the graph", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784139931/parabola7-step1_nxbjoj.mov" },
+          { text: "Create a slider for the variable \\(a)\\ and invent a number", note: "", gif: "", video: "" },
+          { text: "Type the given expression", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
         guidedProblem: `<p style="text-align:center;margin-bottom:12px">
           \\(f(x) = -2x^2 + 6x - 13\\)
         </p>
         <p>The depth of water is modeled by \\(f(x)\\), where \\(x\\) represents the number of hours after pumping begins. What is the number of hours that the greatest depth is predicted by the model?</p>
         <div class="mc-choices">
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( -13 \\)</span>
         </div>
@@ -615,7 +595,7 @@ const parabola = {
         <span class="mc-label">B</span>
         <span>\\( -8.5 \\)</span>
         </div>
-        <div class="mc-choice correct">
+        <div class="mc-choice">
         <span class="mc-label">C</span>
         <span>\\( 1.5 \\)</span>
         </div>
