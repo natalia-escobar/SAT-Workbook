@@ -196,23 +196,23 @@ const parabola = {
       // Problem 3
       {
         problem: `Which of the following is equivalent to
-        <p style="text-align:center;margin-bottom:12px">\\((2n + \\frac{3}{2})^2 - (n - \\frac{1}{4}) + 2(n + \\frac{3}{4})\\)?</p>
+        <p style="text-align:center;margin-bottom:12px">\\((3x + \\frac{1}{2})^2 - (x - \\frac{3}{4}) + 2(x + \\frac{1}{4})\\)?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
               <span class="mc-label">A</span>
-              <span>\\( 4n^2 + 5n + 4 \\)</span>
+              <span>\\( 9x^2 + 4x + \\frac{3}{2} \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">B</span>
-              <span>\\( 4n^2 + 7n + \\frac{15}{4} \\)</span>
+              <span>\\( 9x^2 + 3x + \\frac{3}{2} \\)</span>
             </div>
-            <div class="mc-choice correct">
+            <div class="mc-choice">
               <span class="mc-label">C</span>
-              <span>\\( 4n^2 + 7n + 4 \\)</span>
+              <span>\\( 9x^2 + 4x + \\frac{5}{4} \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
-              <span>\\( 4n^2 + 5n + \\frac{15}{4} \\)</span>
+              <span>\\( 9x^2 + 3x + \\frac{5}{4} \\)</span>
             </div>
           </div>`,
         steps: [
@@ -241,47 +241,49 @@ const parabola = {
           </div>`,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "", guidedScreenshot: "",
-        practice: [
+        practice: [], 
+        additionalPractice: [ 
           { text: `<p>Which of the following is equivalent to</p>
-        <p style="text-align:center;margin-bottom:12px">\\((2t - \\frac{5}{2})^2 - (t + \\frac{1}{4}) + 3(t - \\frac{1}{2})\\)?</p>
-        <div class="mc-choices">
-            <div class="mc-choice">
-              <span class="mc-label">A</span>
-              <span>\\( 4t^2 - 12t + \\frac{9}{2} \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">B</span>
-              <span>\\( 4t^2 - 8t + \\frac{9}{2} \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">C</span>
-              <span>\\( 4t^2 - 8t + \\frac{19}{4} \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( 4t^2 - 12t + \\frac{19}{4} \\)</span>
-            </div>
-          </div>`, setup: "The Answer is B" },
+                    <p style="text-align:center;margin-bottom:12px">\\((2t - \\frac{5}{2})^2 - (t + \\frac{1}{4}) + 3(t - \\frac{1}{2})\\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice">
+                          <span class="mc-label">A</span>
+                          <span>\\( 4t^2 - 12t + \\frac{9}{2} \\)</span>
+                        </div>
+                        <div class="mc-choice correct">
+                          <span class="mc-label">B</span>
+                          <span>\\( 4t^2 - 8t + \\frac{9}{2} \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">C</span>
+                          <span>\\( 4t^2 - 8t + \\frac{19}{4} \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">D</span>
+                          <span>\\( 4t^2 - 12t + \\frac{19}{4} \\)</span>
+                        </div>
+                      </div>`},
           { text: `<p>Which of the following is equivalent to</p>
-        <p style="text-align:center;margin-bottom:12px">\\((4k + \\frac{1}{2})^2 - 2(k - \\frac{3}{4}) + (k + \\frac{1}{4})\\)?</p>
-        <div class="mc-choices">
-            <div class="mc-choice">
-              <span class="mc-label">A</span>
-              <span>\\( 16k^2 + 5k + 2 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( 16k^2 + 3k + \\frac{7}{4} \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">C</span>
-              <span>\\( 16k^2 + 3k + 2 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( 16k^2 + 5k + \\frac{7}{4} \\)</span>
-            </div>
-          </div>`, setup: "The Answer is C" },
+                    <p style="text-align:center;margin-bottom:12px">\\((4k + \\frac{1}{2})^2 - 2(k - \\frac{3}{4}) + (k + \\frac{1}{4})\\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice">
+                          <span class="mc-label">A</span>
+                          <span>\\( 16k^2 + 5k + 2 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">B</span>
+                          <span>\\( 16k^2 + 3k + \\frac{7}{4} \\)</span>
+                        </div>
+                        <div class="mc-choice correct">
+                          <span class="mc-label">C</span>
+                          <span>\\( 16k^2 + 3k + 2 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">D</span>
+                          <span>\\( 16k^2 + 5k + \\frac{7}{4} \\)</span>
+                        </div>
+                      </div>`
+          }
         ]
       },
   
