@@ -296,7 +296,88 @@ const parabola = {
                         </div>
                       </div>`},
         ],
-        additionalPractice: []
+        additionalPractice: [
+          { text: `<p>Which expression is equivalent to</p>
+                  <p style="text-align:center;margin-bottom:12px"> \\( 3(x - \\frac{7}{2})(x + 4) + 5x \\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice">
+                          <span class="mc-label">A</span>
+                          <span>\\( 3x^2 + \\frac{13}{2}x - 42 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">B</span>
+                          <span>\\( 3x^2 + \\frac{7}{2}x - 42 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">C</span>
+                          <span>\\( 3x^2 + \\frac{13}{2}x + 42 \\)</span>
+                        </div>
+                        <div class="mc-choice correct">
+                          <span class="mc-label">D</span>
+                          <span>\\( 3x^2 + \\frac{23}{2}x + 42  \\)</span>
+                        </div>
+                      </div>`},
+          { text: `<p>Which expression is equivalent to</p>
+                  <p style="text-align:center;margin-bottom:12px"> \\( 4(x + \\frac{5}{3})(x - 3) - 2x \\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice">
+                          <span class="mc-label">A</span>
+                          <span>\\( 4x^2 - \\frac{16}{3}x - 20 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">B</span>
+                          <span>\\( 4x^2 - \\frac{22}{3}x + 20 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">C</span>
+                          <span>\\( 4x^2 - \\frac{22}{3}x - 20 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">D</span>
+                          <span>\\( 4x^2 - \\frac{10}{3}x - 20  \\)</span>
+                        </div>
+                      </div>`},
+          { text: `<p>Which expression is equivalent to</p>
+                  <p style="text-align:center;margin-bottom:12px"> \\( 2(x - \\frac{5}{4})(x - 6) + 3x \\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice">
+                          <span class="mc-label">A</span>
+                          <span>\\( 2x^2 - \\frac{23}{2}x + \\frac{15}{2} \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">B</span>
+                          <span>\\( 2x^2 - \\frac{29}{2}x + 15 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">C</span>
+                          <span>\\( 2x^2 - \\frac{17}{2}x - 15 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">D</span>
+                          <span>\\( 2x^2 - \\frac{23}{2}x + 15  \\)</span>
+                        </div>
+                      </div>`},
+                      { text: `<p>Which expression is equivalent to</p>
+                  <p style="text-align:center;margin-bottom:12px"> \\( 5(x + \\frac{3}{2})(x + 2) - 4x \\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice">
+                          <span class="mc-label">A</span>
+                          <span>\\( 5x^2 + \\frac{27}{2}x + 15 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">B</span>
+                          <span>\\( 5x^2 + \\frac{35}{2}x + 15 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">C</span>
+                          <span>\\( 5x^2 - \\frac{27}{2}x - 15 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">D</span>
+                          <span>\\( 5x^2 + \\frac{19}{2}x + 15  \\)</span>
+                        </div>
+                      </div>`},
+        ]
       },
 
       // Problem 3
