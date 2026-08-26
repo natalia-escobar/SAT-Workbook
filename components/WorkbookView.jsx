@@ -122,6 +122,7 @@ export default function WorkbookView({ topic }) {
           <PracticeQuestion key={`${problemIndex}-${i}`} text={p.text} setup={p.setup} screenshot={p.screenshot} index={i} graph={p.graph} answer={p.answer} />
         ))}
       </SectionAccordion>
+      )}
 
       {problem.additionalPractice && problem.additionalPractice.length > 0 && (
         <div style={{ borderTop: "1px solid #e0e0de", margin: "20px 0" }} />
