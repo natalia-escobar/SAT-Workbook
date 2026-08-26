@@ -53,7 +53,8 @@ const parabola = {
           </div>`,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "",
-        practice: [
+        practice: [], 
+        additionalPractice: [
           { text: `<p>Which expression is equivalent to </p>
         <p style="text-align:center;margin-bottom:12px">
           \\(4(2x^2 + x - 3) - (3x^2 - 6)\\)?</p>
@@ -70,16 +71,16 @@ const parabola = {
               <span class="mc-label">C</span>
               <span>\\( 11x^2 + 4x - 6 \\)</span>
             </div>
-            <div class="mc-choice correct">
+            <div class="mc-choice">
               <span class="mc-label">D</span>
               <span>\\( 5x^2 + 4x - 6 \\)</span>
             </div>
-          </div>`, setup: "The Answer is D", answer: "", screenshot: "" },
+          </div>` },
           { text: `<p>Which expression is equivalent to </p>
         <p style="text-align:center;margin-bottom:12px">
           \\( (3x^2 - 5x + 7) + (2x^2 + 4) - ( x^2 - 3x + 2)\\)?</p>
           <div class="mc-choices">
-            <div class="mc-choice correct">
+            <div class="mc-choice">
               <span class="mc-label">A</span>
               <span>\\( 6x^2 - 8x + 9 \\)</span>
             </div>
@@ -95,25 +96,7 @@ const parabola = {
               <span class="mc-label">D</span>
               <span>\\( 4x^2 - 2x + 13 \\)</span>
             </div>
-          </div>`, setup: "The Answer is B", screenshot: "" },
-        ], 
-        additionalPractice: [
-          { text: `<p>Problem text here...</p>` },
-          { text: `<p>Another problem...</p>
-            <div class="mc-choices">
-              <div class="mc-choice">
-                <span class="mc-label">A</span>
-                <span>Option A</span></div>
-              <div class="mc-choice">
-                <span class="mc-label">B</span>
-                <span>Option B</span></div>
-              <div class="mc-choice">
-                <span class="mc-label">C</span>
-                <span>Option C</span></div>
-              <div class="mc-choice">
-                <span class="mc-label">D</span>
-                <span>Option D</span></div>
-            </div>` },
+          </div>` },
 ],
       },
 
