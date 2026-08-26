@@ -560,6 +560,7 @@ const parabola = {
       {
         problem: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = 2(\\frac{x^2}{2} - 5a)\\)?</p>
+            is equivalent to which of the following where \\(a\\) is a positive constant?
             <div class="mc-choice correct">
                   <span class="mc-label">A</span>
                   <span>\\( y = (x + \\sqrt{10a})(x - \\sqrt{10a}) \\)</span>
@@ -582,55 +583,70 @@ const parabola = {
           { text: "Type the given expression", note: "", gif: "", video: "" },
           { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
-        guidedProblem: `<p style="text-align:center;margin-bottom:12px">
-          \\(f(x) = -2x^2 + 6x - 13\\)
-        </p>
-        <p>The depth of water is modeled by \\(f(x)\\), where \\(x\\) represents the number of hours after pumping begins. What is the number of hours that the greatest depth is predicted by the model?</p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( -13 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( -8.5 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 1.5 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 26 \\)</span>
-        </div>
-        </div>`, 
-        guidedSteps: ["Type the given equation into Desmos. You can find the maximum visually on the graph"],
-        guidedAnswer: "The Answer is C", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784139923/parabola7-gp_c8q7lm.png",
+        guidedProblem: `The equation
+            <p style="text-align:center;margin-bottom:12px">\\( y = 4x^2 - 3x^2 - 18b)\\)?</p>
+            is equivalent to which of the folllowing where \\(b\\) is a positive constant?
+            <div class="mc-choice correct">
+                  <span class="mc-label">A</span>
+                  <span>\\( y = (x + \\sqrt{9b})(x - \\sqrt{9b}) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">B</span>
+                  <span>\\(  y = (x + \\sqrt{6b})(x - \\sqrt{6b}) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">C</span>
+                  <span>\\(  y = (x + 18b)(x - 18b) \\)</span>
+                </div>
+                <div class="mc-choice correct">
+                  <span class="mc-label">D</span>
+                  <span>\\( y = (x + 3\\sqrt{2b})(x - 3\\sqrt{2b}) \\)</span>
+                </div>
+              </div>`, 
+        guidedSteps: ["Create a slider for the variable \\(b)\\ and invent a number", "Type the given expression", "Type each answer choice and match"],
+        guidedAnswer: "The Answer is D", guidedScreenshot: "",
         practice: [
-          { text: `<p>For the quadratic function \\(f(x) = 6x^2 - 48x + 107\\), which value of \\(x\\) is associated with the minimum value of the function?</p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( 4 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( 11 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 24 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 48 \\)</span>
-        </div>
-        </div>`, setup: "The Answer is A", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784139925/parabola7-pp1_ugmi2u.png" },
-          { text: `<p style="text-align:center;margin-bottom:12px">
-          \\(M(x) = 6(x - 3)(x - 11) + 25\\)
-        </p>
-        <p>A manufacturing company models the average production cost by \\(M(x)\\), where \\(x\\) is the number of production cycles completed. For what value of \\(x\\) is the predicted production cost the least?</p>`, 
-        setup: "The Answer is 7", answer:"7", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784139928/parabola7-pp2_qopig2.png" },
+          { text: `The equation
+            <p style="text-align:center;margin-bottom:12px">\\( y = \\frac{1}{5}(5x^2 - 60c) \\)?</p>
+            is equivalent to which of the folllowing where \\(c\\) is a positive constant?
+            <div class="mc-choice">
+                  <span class="mc-label">A</span>
+                  <span>\\( y = (x + 2\\sqrt{3c})(x - 2\\sqrt{3c}) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">B</span>
+                  <span>\\(  y = (x + \\sqrt{6c})(x - \\sqrt{6c}) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">C</span>
+                  <span>\\(  y = (x + 12c)(x - 12c) \\)</span>
+                </div>
+                <div class="mc-choice correct">
+                  <span class="mc-label">D</span>
+                  <span>\\( y = (x + 6\\sqrt{3c})(x - 6\\sqrt{3c}) \\)</span>
+                </div>
+              </div>`, },
+          { text: `The equation
+            <p style="text-align:center;margin-bottom:12px">\\( y = 3(\\frac{x^2}{3} - 7d) + 2d \\)?</p>
+            is equivalent to which of the folllowing where \\(d\\) is a positive constant?
+            <div class="mc-choice">
+                  <span class="mc-label">A</span>
+                  <span>\\( y = (x + \\sqrt{19d})(x - \\sqrt{19d}) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">B</span>
+                  <span>\\(  y = (x + \\sqrt{21d})(x - \\sqrt{21d}) \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">C</span>
+                  <span>\\(  y = (x + 19d)(x - 19d) \\)</span>
+                </div>
+                <div class="mc-choice correct">
+                  <span class="mc-label">D</span>
+                  <span>\\( y = (x + \\sqrt{7d})(x - \\sqrt{7d}) \\)</span>
+                </div>
+              </div>`, 
+          },
         ]
       },
  
