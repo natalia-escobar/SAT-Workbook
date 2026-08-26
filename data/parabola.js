@@ -148,8 +148,9 @@ const parabola = {
           </div>`,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "", guidedScreenshot: "",
-        practice: [
-          { text: `<p>Which expression is equivalent to</p>
+        practice: [],
+        additionalPractice: [
+          {text: `<p>Which expression is equivalent to</p>
                    <p style="text-align:center;margin-bottom:12px">\\( 5(x + \\frac{4}{3})(x - 2) - 3x \\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice correct">
@@ -168,7 +169,7 @@ const parabola = {
                           <span class="mc-label">D</span>
                           <span>\\( 5x^2 - \\frac{19}{3}x + \\frac{40}{3}  \\)</span>
                         </div>
-                      </div>`, setup: "" },
+                      </div>`},
           { text: `<p>Which expression is equivalent to</p>
                   <p style="text-align:center;margin-bottom:12px"> \\( 2(x - \\frac{7}{4})(x - 5) + 6x \\)?</p>
                     <div class="mc-choices">
@@ -188,7 +189,7 @@ const parabola = {
                           <span class="mc-label">D</span>
                           <span>\\( 2x^2 - \\frac{15}{2}x + \\frac{35}{2}  \\)</span>
                         </div>
-                      </div>`, setup: "[Setup 3]" },
+                      </div>`},
         ]
       },
 
