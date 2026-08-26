@@ -29,6 +29,7 @@ function SectionAccordion({ icon, title, defaultOpen, children }) {
 }
 
 function AdditionalPracticeQuestion({ text, index }) {
+  const [open, setOpen] = useState(false);
   const isMultipleChoice = text.includes("mc-choice");
 
   const handleChoiceClick = (e) => {
@@ -43,24 +44,34 @@ function AdditionalPracticeQuestion({ text, index }) {
 
   return (
     <div className="additional-practice-card">
-      <div className="practice-num">Problem {index + 1}</div>
-      <div onClick={isMultipleChoice ? handleChoiceClick : undefined}>
-        <MathContent html={text} className="practice-text" />
+      <div
+        style={{ display: "flex", alignItems: "center", justifyContent: "space-between", cursor: "pointer" }}
+        onClick={() => setOpen((o) => !o)}
+      >
+        <div className="practice-num" style={{ marginBottom: 0 }}>Problem {index + 1}</div>
+        <i className={`ti ti-chevron-down`} style={{ fontSize: "16px", color: "#aaa", transition: "transform .2s", transform: open ? "rotate(180deg)" : "rotate(0)" }} />
       </div>
-      {!isMultipleChoice && (
-        <div style={{ display: "flex", justifyContent: "center", marginTop: "16px" }}>
-          <input
-            type="text"
-            placeholder="Type your answer"
-            style={{
-              padding: "10px 14px",
-              border: "1.5px solid #e0e0de",
-              borderRadius: "8px",
-              fontSize: "14px",
-              width: "220px",
-              textAlign: "center",
-            }}
-          />
+      {open && (
+        <div style={{ marginTop: "12px" }}>
+          <div onClick={isMultipleChoice ? handleChoiceClick : undefined}>
+            <MathContent html={text} className="practice-text" />
+          </div>
+          {!isMultipleChoice && (
+            <div style={{ display: "flex", justifyContent: "center", marginTop: "16px" }}>
+              <input
+                type="text"
+                placeholder="Type your answer"
+                style={{
+                  padding: "10px 14px",
+                  border: "1.5px solid #e0e0de",
+                  borderRadius: "8px",
+                  fontSize: "14px",
+                  width: "220px",
+                  textAlign: "center",
+                }}
+              />
+            </div>
+          )}
         </div>
       )}
     </div>
