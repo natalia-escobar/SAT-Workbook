@@ -293,7 +293,7 @@ const parabola = {
               <span class="mc-label">C</span>
               <span>\\( 16k^2 + 3k + 2 \\)</span>
             </div>
-            <div class="mc-choice correct">
+            <div class="mc-choice">
               <span class="mc-label">D</span>
               <span>\\( 16k^2 + 5k + \\frac{7}{4} \\)</span>
             </div>

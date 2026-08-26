@@ -116,6 +116,7 @@ export default function WorkbookView({ topic }) {
         />
       </SectionAccordion>
 
+      {problem.practice && problem.practice.length > 0 && (
       <SectionAccordion icon="ti-pencil" title="Practice problems — try on your own" defaultOpen={false} key={`pp-${problemIndex}`}>
         {problem.practice.map((p, i) => (
           <PracticeQuestion key={`${problemIndex}-${i}`} text={p.text} setup={p.setup} screenshot={p.screenshot} index={i} graph={p.graph} answer={p.answer} />
