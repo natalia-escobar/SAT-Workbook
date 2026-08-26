@@ -217,26 +217,26 @@ const parabola = {
           </div>`,
         steps: [
           { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Plug in both \\(x\\)-values, the one where \\(14x - 6 > 0\\) will give the correct value of \\(14x - 6\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784127955/parabola3-step2_nguhr4.mov" },
+          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
         ],
         guidedProblem: `<p>Which of the following is equivalent to</p>
-        <p style="text-align:center;margin-bottom:12px">\\((3r - \\frac{1}{2})^2 + 2(r + \\frac{3}{4}) - (r - \\frac{1}{2})\\)?</p>
+        <p style="text-align:center;margin-bottom:12px">\\((2x - \\frac{3}{2})^2 + 3(x + \\frac{1}{4}) - (x - \\frac{1}{2})\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
-              <span>\\( 9r^2 - 4r + \\frac{9}{4} \\)</span>
+              <span>\\( 4x^2 - 6x + \\frac{7}{2} \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
               <span class="mc-label">B</span>
-              <span>\\( 9r^2 - 2r + \\frac{7}{4} \\)</span>
+              <span>\\( 4x^2 - 4x + \\frac{7}{2} \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">C</span>
-              <span>\\( 9r^2 - 4r + \\frac{7}{4} \\)</span>
+              <span>\\( 4x^2 - 4x + \\frac{7}{2} \\)</span>
             </div>
-            <div class="mc-choice correct">
+            <div class="mc-choice">
               <span class="mc-label">D</span>
-              <span>\\( 9r^2 - 2r + \\frac{9}{4} \\)</span>
+              <span>\\( 4x^2 - 6x + \\frac{5}{2} \\)</span>
             </div>
           </div>`,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
@@ -244,43 +244,43 @@ const parabola = {
         practice: [], 
         additionalPractice: [ 
           { text: `<p>Which of the following is equivalent to</p>
-                    <p style="text-align:center;margin-bottom:12px">\\((2t - \\frac{5}{2})^2 - (t + \\frac{1}{4}) + 3(t - \\frac{1}{2})\\)?</p>
+                    <p style="text-align:center;margin-bottom:12px">\\((4x + \\frac{1}{2})^2 - 2(x - \\frac{3}{4}) + (x + \\frac{1}{4})\\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
-                          <span>\\( 4t^2 - 12t + \\frac{9}{2} \\)</span>
+                          <span>\\( 16x^2 + 3x + \\frac{7}{4} \\)</span>
                         </div>
-                        <div class="mc-choice correct">
+                        <div class="mc-choice">
                           <span class="mc-label">B</span>
-                          <span>\\( 4t^2 - 8t + \\frac{9}{2} \\)</span>
+                          <span>\\( 16x^2 + 5x + 2 \\)</span>
                         </div>
                         <div class="mc-choice">
                           <span class="mc-label">C</span>
-                          <span>\\( 4t^2 - 8t + \\frac{19}{4} \\)</span>
+                          <span>\\( 16x^2 + 3x + 2 \\)</span>
                         </div>
                         <div class="mc-choice">
                           <span class="mc-label">D</span>
-                          <span>\\( 4t^2 - 12t + \\frac{19}{4} \\)</span>
+                          <span>\\( 16x^2 + 5x + \\frac{7}{4} \\)</span>
                         </div>
                       </div>`},
           { text: `<p>Which of the following is equivalent to</p>
-                    <p style="text-align:center;margin-bottom:12px">\\((4k + \\frac{1}{2})^2 - 2(k - \\frac{3}{4}) + (k + \\frac{1}{4})\\)?</p>
+                    <p style="text-align:center;margin-bottom:12px">\\((3x + \\frac{1}{2})^2 - (x + \\frac{3}{4}) + 3(x - \\frac{1}{4})\\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
-                          <span>\\( 16k^2 + 5k + 2 \\)</span>
+                          <span>\\( 9x^2 - x - \\frac{5}{4} \\)</span>
                         </div>
                         <div class="mc-choice">
                           <span class="mc-label">B</span>
-                          <span>\\( 16k^2 + 3k + \\frac{7}{4} \\)</span>
+                          <span>\\( 9x^2 - 3x - \\frac{5}{4} \\)</span>
                         </div>
                         <div class="mc-choice correct">
                           <span class="mc-label">C</span>
-                          <span>\\( 16k^2 + 3k + 2 \\)</span>
+                          <span>\\( 9x^2 - x - \\frac{3}{4} \\)</span>
                         </div>
                         <div class="mc-choice">
                           <span class="mc-label">D</span>
-                          <span>\\( 16k^2 + 5k + \\frac{7}{4} \\)</span>
+                          <span>\\( 9x^2 - 3x - \\frac{3}{4} \\)</span>
                         </div>
                       </div>`
           }
