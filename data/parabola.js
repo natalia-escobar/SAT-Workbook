@@ -1262,136 +1262,207 @@ const parabola = {
  
       // Problem 12
       {
-        problem: `The \\(y\\)-intercept of the graph \\( g(x) = \\frac{1}{4}(x - 6)^2 + 2\\) in the xy-plane is \\((0,y)\\). What is the value of \\(y\\)?`,
+        problem: `If 
+            <p style="text-align:center;margin-bottom:12px"> \\( m^2 = p + \\frac{q}{2} \\) </p>
+            and 
+            <p style="text-align:center;margin-bottom:12px"> \\( n^2 = p - \\frac{3r}{2} \\) </p>
+            which of the following is equal to
+            <p style="text-align:center;margin-bottom:12px"> \\( 4 ( m^2 - n^2)^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( q^2 - 6qr + 9r^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 4q^2 + 12qr + 9r^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( q^2 + 3qr + 9r^2 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( q^2 + 6qr + 9r^2 \\)</span>
+        </div>
+        </div>`,
         steps: [
-          { text: "Plug in \\(g(x)\\) into Desmos. You can determine the \\(y\\)-intercept by visually looking at the produced graph and see that it is 11", note: "", gif: "", answer: "11" , video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784151339/parabola11-step1_ltwuxv.mov" },
+          { text: "Create a slider for the variables \\(p\\), \\(q\\), and \\(r\\) and invent numbers", note: "", gif: "", answer: "" , video: "" },
+          { text: "Recognize that you can subsitute the equations for \\(m^2\\) and \\(n^2\\) into the given expression", note: "", gif: "", answer: "" , video: "" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", answer: "" , video: "" },
         ],
-        guidedProblem: `The \\(y\\)-intercept of the graph \\(g(x) = -\\frac{3}{4}(x-8)^2 - 56\\) in the xy-plane is \\(0, g(0)\\). What is the value of the \\(g(0)\\)?`,
-        guidedSteps: ["Plug in \\(z(x)\\). You can determine the y-intercept visually"],
-        guidedAnswer: "The answer is -104", guidedAnswerValue:"-104", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784151277/parabola11-gp_fmnj5o.png",
+        guidedProblem: `If 
+            <p style="text-align:center;margin-bottom:12px"> \\( u^2 = s + \\frac{3t}{2} \\) </p>
+            and 
+            <p style="text-align:center;margin-bottom:12px"> \\( v^2 = s - \\frac{w}{2} \\) </p>
+            which of the following is equal to
+            <p style="text-align:center;margin-bottom:12px"> \\( 4 ( u^2 - v^2)^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( 9t^2 + 6tw + w^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 9t^2 - 6tw + w^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 9t^2 + 3tw + w^2 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( 36t^2 + 12tw + w^2 \\)</span>
+        </div>
+        </div>`,
+        guidedSteps: ["Create a slider for the variables \\(s\\), \\(t\\), and \\(w\\) and invent numbers", "Recognize that you can subsitute the equations for \\(u^2\\) and \\(v^2\\) into the given expression", "Type each answer choice and match to the given expression"],
+        guidedAnswer: "The answer is A", guidedScreenshot: "",
         practice: [
-          { text: `At a community science fair, the height \\(h\\), in feet, of a model rocket \\(t\\) after launch is modeled by \\(h(t) = -9t^2 + 72 \\). Based on the model, what was the height of the rocket at the moment it was launched??</p>
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( 0 \\) feet</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">B</span>
-            <span>\\( 9 \\) feet</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( 63 \\) feet</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">D</span>
-            <span>\\( 72 \\) feet</span>
-            </div>
-            </div>`
-            , setup: "The Answer is D", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784151280/parabola11-pp1_sar5kk.png" },
-          { text: `A firework is launched from a platform. Its height, \\(H\\), in meters, \\(t\\) seconds after launch is modeled by \\(H(t) = -4.9t^2 + 22.4t + 3.6 \\). What was the initial height, in meters, of the firework?</p>
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( -4.9 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">B</span>
-            <span>\\( 3.6 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( 22.4 \\) </span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( 26.0 \\)</span>
-            </div>
-            </div>`, setup: `The Answer is B`, screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784151284/parabola11-pp2_i1jlau.png"},
-          { text: `The height, in centimeters, of a plant is modeled by \\(H(w) = -0.4w^2 + 6w + 14 \\), where \\(w\\) is the number of weeks after the plant was first measured. What was the height of the plant when the observations began?</p>
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( 0 \\) cm </span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">B</span>
-            <span>\\( 6 \\) cm </span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">C</span>
-            <span>\\( 14 \\) cm</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( 20 \\) cm</span>
-            </div>
-            </div>`, setup: `The Answer is C`, screenshot:"https://res.cloudinary.com/dnyaptowc/image/upload/v1784151332/parabola11-pp3_vskha1.png"},
-          { text: `The function \\(h(x) = 2x^2 + 7x - 4 \\) is transformed into \\(k(x) = 3h(x) - 8\\). What is the y-coordinate of the point where the graph of \\(k\\) intersects the y-axis?</p>
-            <div class="mc-choices">
-            <div class="mc-choice correct">
-            <span class="mc-label">A</span>
-            <span>\\( -20 \\) </span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">B</span>
-            <span>\\( -12 \\) </span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( -8 \\) </span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( 4 \\) </span>
-            </div>
-            </div>`
-            , setup: "The Answer is A", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784151335/parabola11-pp4_eroikg.png" }
-            
+          { text: `If 
+            <p style="text-align:center;margin-bottom:12px"> \\( h^2 = k + \\frac{r}{3} \\) </p>
+            and 
+            <p style="text-align:center;margin-bottom:12px"> \\( j^2 = k - \\frac{2s}{3} \\) </p>
+            which of the following is equal to
+            <p style="text-align:center;margin-bottom:12px"> \\( 9(h^2 - j^2)^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( r^2 - 4rs + 4s^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( r^2 + 2rs + 4s^2 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( r^2 + 4rs + 4s^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 9r^2 + 12rs + 4s^2 \\)</span>
+        </div>
+        </div>` },
+          { text: `If 
+            <p style="text-align:center;margin-bottom:12px"> \\( f^2 = g + \\frac{2m}{5} \\) </p>
+            and 
+            <p style="text-align:center;margin-bottom:12px"> \\( h^2 = g - \\frac{3m}{5} \\) </p>
+            which of the following is equal to
+            <p style="text-align:center;margin-bottom:12px"> \\( 25(f^2 - h^2)^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( 4m^2 - 12mn + 9n^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 4m^2 + 12mn + 9n^2 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( 4m^2 + 6mn + 9n^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 20m^2 + 12mn + 15n^2 \\)</span>
+        </div>
+        </div>`},
         ]
       },
  
       // Problem 12
       {
-        problem: `A parabolic function predicts the number of math practice problems a student solves during a tutoring session at Beck College Prep in terms of time, in minutes, after a tutor begins the teaching session. According to the function, the student had solved \\(0\\) problems at the start of the session and reached the most questions out of \\(200\\) problems \\(10\\) minutes after the session began. Based on the function, how many math problems did the student solve \\(6\\) minutes after the session began?`,
+        problem: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 25x^2 - 49y^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (5x - 7y)(5x + 7y) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (25x - 49y)(25x + 49y) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (5x - 49y)(5x + 49y) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (25x - 7y)(25x + 7y) \\)</span>
+        </div>
+        </div>`,
         steps: [
-          { text: "Type \\(h = 10\\) and \\(k = 200\\) into Desmos, both on separate lines", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154715/parabola12-step1_uxn4jp.mov" },
-          { text: "Type \\(x_1 = 0\\) and \\(y_1 = 0\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154718/parabola12-step2_b8s2ax.mov" },
-          { text: "As you know the function is quadratic, you can use the vertex form of the quadratic function to determine the function, so type \\(y_1\\) ~ \\(a(x_1 - h)^2 + k\\) into Desmos. This gives you a, so now you know the function", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154721/parabola12-step3_tbspfx.mov" },
-          { text: "Declare the function in a new line, type \\(f(x) = a(x-h)^2+ k\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154725/parabola12-step4_koqi7b.mov" },
-          { text: "Plug 6 into the function by typing \\(f(6)\\) into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784154727/parabola12-step5_jngu0e.mov" },
+          { text: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders. Create sliders using two other variables and invent numbers for them", note: "", gif: "", video: "" },
+          { text: "Type the given expression using the new slider variables", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "" },
         ],
-        guidedProblem: "A parabolic function forecasts the number of diagnostic tests organized by Ingrid, the Beck College Prep proctor, depending on the number of student folders she prepares. When \\(5\\) folders are prepared, \\(150\\) diagnostics are ready. The model shows that the maximum number of diagnostics prepared is \\(200\\) when \\(10\\) folders are prepared. Based on the function, how many diagnostics are ready when 18 folders are prepared?",
+        guidedProblem: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 64m^2 - 121n^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (8m - 121n)(8m + 121nq) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (64m - 11n)(64m + 11n) \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( (8m - 11n)(8m + 11n) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (8m - 11n)^2 \\)</span>
+        </div>
+        </div>`,
         guidedSteps: [
-          "Declare \\(h\\) and \\(k\\) into Desmos",
-          "Declare \\(x_1\\) and \\(y_1\\) into Desmos",
-          "Use the standard form of the quadratic function to determine a, the only missing parameter",
-          "Now that you have a, declare the quadratic function in a new line",
-          "Plug in \\(18\\) to the quadratic function and it will return the answer"
+          "Create a slider for the variables \\(m\\) and \\(n\\) and invent numbers",
+          "Type the given expression",
+          "Type each answer choice and match to the given expression",
         ],
-        guidedAnswer: "The Answer is \\(72\\)", guidedAnswerValue: "72", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784154705/parabola12-gp_zsmxn3.png",
+        guidedAnswer: "The Answer is C", guidedAnswerValue: "", guidedScreenshot: "",
         practice: [
-          { text: `At Beck College Prep, a quadratic model estimates a student's study efficiency score based on the number of practice sets completed. The model predicts an efficiency score of 0 when no practice sets have been completed. The highest predicted efficiency score is \\(150\\) when \\(40\\) practice sets have been completed. According to the model, what is the predicted efficiency score when \\(4\\) practice sets have been completed?`, setup: "The Answer is 28.5", answer:"28.5", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784154708/parabola12-pp1_tj3amd.png" },
-          { text: `<p>A quadratic model gives the height, in feet, of a skier above the ground \\(x\\) seconds after leaving a jump. The model predicts that the skier is at ground level when \\(x=0\\). The skier reaches a maximum height of \\(180\\) feet after \\(6\\) seconds. According to the model, what is the skier's height after \\(2\\) seconds?</p>
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( 80 \\) feet</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">B</span>
-            <span>\\( 100 \\) feet</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( 120 \\) feet</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( 160 \\) feet</span>
-            </div>
-            </div>`, setup: "The Answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784154711/parabola12-pp2_ylnc8l.png" },
+          { text: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 144p^2 - 169q^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (12p - 169q)(12p + 169q) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (12p - 13q)(12p + 13q) \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( (144p - 13q)(144p + 13q) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (12p + 13q)^2 \\)</span>
+        </div>
+        </div>` },
+          { text: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 225r^2 - 196s^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (15r - 196s)(15r + 196s) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (225r - 14s)(225r + 14s) \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( (15r - 14s)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (15r - 14s)(15r + 14s) \\)</span>
+        </div>
+        </div>` },
         ]
       },
  
