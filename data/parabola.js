@@ -1042,7 +1042,7 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Create a slider for the variable \\(a\\) and \\(b\\) and invent numbers", note: "", gif: "", video: "" },
+          { text: "Create a slider for the variables \\(a\\) and \\(b\\) and invent numbers", note: "", gif: "", video: "" },
           { text: "Type the given expression", note: "", gif: "", video: "" },
           { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
@@ -1066,7 +1066,7 @@ const parabola = {
         <span>\\( \\frac{3}{2}m^2 + 6mn + 4n^2 \\)</span>
         </div>
         </div>`,
-        guidedSteps: ["Create a slider for the variable \\(m\\) and \\(n\\) and invent numbers", "Type the given expression", "Type each answer choice and match"],
+        guidedSteps: ["Create a slider for the variables \\(m\\) and \\(n\\) and invent numbers", "Type the given expression", "Type each answer choice and match"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "",
         practice: [
           { text: `Which expression is equivalent to
@@ -1117,165 +1117,150 @@ const parabola = {
  
       // Problem 10
       {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\(f(x) = 2x^2 - 20x + 61\\)
-        </p>
-        <p>The function \\(f\\) models a student's score gap from a target U.S. History EOC. A new model is defined by \\(g(x) = f(x+4)\\). What is the minimum value of \\(g(x)\\)?</p>
+        problem: `<p style="text-align:center;margin-bottom:12px"> \\( ( 18n^2 - 42np + 30p^2) \\) </p>
+        Which expression is equivalent to the expression above?
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
-        <span>\\( 11 \\)</span>
+        <span>\\( 6(3n^2 - 7np + 5p^2) \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">B</span>
-        <span>\\( 21 \\)</span>
+        <span>\\( 3(6n^2 - 7np + 10p^2) \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( 25 \\)</span>
+        <span>\\( 6n(3n - 7p + 5p^2) \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( 61 \\)</span>
+        <span>\\( 2(9n^2 - 14np + 15p^2) \\)</span>
         </div>
         </div>`,
         steps: [
-          { text: "Type \\(f(x)\\) into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784144886/parabola9-step1_yfbhev.mov" },
-          { text: "Type \\(g(x) = f(x+7)\\), you can visually see the minimum value from the graph produced", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784144886/parabola9-step1_yfbhev.mov" },
+          { text: "Create a slider for the variables \\(n\\) and \\(p\\) and invent numbers", note: "", gif: "", video: "" },
+          { text: "Type the given expression", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
-        guidedProblem: `<p style="text-align:center;margin-bottom:12px">
-          \\(h(x) = -2x^2 + 16x - 29\\)
-        </p>
-        <p>The function \\(h(x)\\) models a science experiment. A new function is defined by \\(k(x) = h(x + 3)\\). What is the maximum value of \\(k(x)\\)?</p>
+        guidedProblem: `Which expression is equivalent to
+        <p style="text-align:center;margin-bottom:12px"> \\( ( 20a^2 - 32ab + 12b^2) \\) </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
-        <span>\\( 1 \\)</span>
+        <span>\\( 2(10a^2 - 8ab + 6b^2) \\)</span>
         </div>
         <div class="mc-choice correct">
         <span class="mc-label">B</span>
-        <span>\\( 3 \\)</span>
+        <span>\\( 4(5a^2 - 8ab + 3b^2) \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( 5 \\)</span>
+        <span>\\( 4a(5a - 8b + 3b^2) \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( 29 \\)</span>
+        <span>\\( 8(5a^2 - 4ab + 3b^2) \\)</span>
         </div>
         </div>`,
-        guidedSteps: ["Type \\(h(x)\\) into Desmos", "Type \\(k(x) = h(x+3)\\), you can visually see the maximum value from the graph produced"],
-        guidedAnswer: "The Answer is B", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784144877/parabola9-gp_s10vtl.png",
+        guidedSteps: ["Create a slider for the variables \\(a\\) and \\(b\\) and invent numbers", "Type the given expression", "Type each answer choice and match"],
+        guidedAnswer: "The Answer is B", guidedScreenshot: "",
         practice: [
-          { text: `The quadratic \\(t(x) = 2x^2 - 12x + 25 \\) is rewritten as \\(u(x) = t(x-1) + 4\\). What is the minimum value of \\(u(x)\\)?`, 
-          setup: "The Answer is 11", answer: "11", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784144879/parabola9-pp1_zcvayy.png" },
-          { text: `The function \\(r(x) = 5x^2 - 50x + 132 \\). A new function is \\(s(x) = r(x + 2) - 10\\). What is the y-value of the lowest point of \\(s(x)\\)?`, setup: "The Answer is -3", answer: "-3", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784144882/parabola9-pp2_weuxwf.png" },
-        ]
-      },
- 
-      // Problem 10
-      {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\(g(t) = 48t - 3t^2\\)
-        </p>
-        <p>Ingrid models the number of points a student earns above a baseline on a timed math section with \\(g(t)\\), where \\(t\\) is the number of completed review rounds. The function \\(h\\) is defined by \\(h(t) = g(t) - 5\\). Which expression represents the maximum value of \\(h(t)\\)?</p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( \\frac{48^2}{3*4} - 5 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( \\frac{48^2}{3*4} + 5 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 5 - \\frac{48^2}{12} \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (\\frac{48}{6})^2 - 5 \\)</span>
-        </div>
-        </div>`,
-        steps: [
-          { text: "Type \\(g(t)\\) into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784147899/parabola10-step1_a34mvn.mov" },
-          { text: "Type \\(h(t) = g(t) - 5 \\) and from this, you can determine the minimum value", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784147902/parabola10-step2_fadt09.mov" },
-          { text: "Plug in each answer choice. Pick the answer that matches the minimum value", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784147906/parabola10-step3_y7aalh.mov" },
-        ],
-        guidedProblem: `<p style="text-align:center;margin-bottom:12px">
-          \\(p(x) = 40x - 5x^2\\)
-        </p>
-        <p>Luis models the number extra questions a student answers correctly after x practice sessions with \\(p(x)\\). The function \\(q(x)\\) is defined by \\(q(x) = p(x + 2) + 7\\). Which expression represents the maximum value of \\(q(x)\\)?</p>
+          { text: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( ( 27m^2 - 45mn + 18n^2) \\) </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
-        <span>\\( \\frac{40^2}{4*5} - 7 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">B</span>
-        <span>\\( \\frac{40^2}{4*5} + 7 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (\\frac{40}{10})^2 + 7 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 7 - (\\frac{40}{20})^2 \\)</span>
-        </div>
-        </div>`,
-        guidedSteps: ["Type \\(p(x)\\) into Desmos", "Type \\(q(x) = p(x+ 2) + 7 \\) and from this, you can determine the minimum value", "Plug in each answer choice. Pick the answer that matches the minimum value"],
-        guidedAnswer: "The Answer is B", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784147881/parabola10-gp_zg0njk.png",
-        practice: [
-          { text: `<p style="text-align:center;margin-bottom:12px">
-          \\(p(x) = -4x^2 + 56x - 91\\)
-        </p>
-        <p>A tutoring center models the increase in a student's math score after attending review sessions with \\(p(x)\\), where \\(x\\) is the number of review sessions attended. A new model is defined by \\(q(x)\\) is defined by \\(q(x) = p(x) - 8\\). Which expression represents the maximum value of \\(q(x)\\)?</p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( \\frac{56^2}{4*4} - 91 - 8 \\)</span>
+        <span>\\( 3(9m^2 - 5mn + 6n^2) \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">B</span>
-        <span>\\( \\frac{56^2}{-4*4} - 91 - 8 \\)</span>
+        <span>\\( 9m(3m - 5n + 2n^2) \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( \\frac{56^2}{16} - 91 + 8 \\)</span>
+        <span>\\( 9(3m^2 - 5mn + 2n^2) \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( (\\frac{56}{8})^2 - 91 - 8 \\)</span>
+        <span>\\( 6(4m^2 - 7mn + 3n^2) \\)</span>
         </div>
-        </div>`, setup: "The Answer is A", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784147887/parabola10-pp2_el4ure.png" },
-          { text: `<p style="text-align:center;margin-bottom:12px">
-          \\(v(m) = -4m^2 + 32m + 9\\)
-        </p>
-        <p>Ingrid models the number of points a student earns above a baseline on a timed math section with \\(v(m)\\). The function \\(w(m)\\) is defined by \\(w(m) = v(2m) - 3\\). Which expression represents the maximum value of \\(w(m)\\)?</p>
+        </div>` },
+          { text: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( ( 28p^2 + 44pq - 16q^2) \\) </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
-        <span>\\( -\\frac{(32 + 3)^2}{-4*4} + 9 \\)</span>
+        <span>\\( 2(14p^2 + 11pq - 8q^2) \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">B</span>
-        <span>\\( -\\frac{(32 - 3)^2}{-4*4} + 9 \\)</span>
+        <span>\\( 4p(7p + 11q - 4q^2) \\)</span>
         </div>
-        <div class="mc-choice correct">
+        <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( -\\frac{32^2}{-4*4} + 9 - 3 \\)</span>
+        <span>\\( 8(7p^2 + 11pq - 4q^2) \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( -\\frac{32^2}{-4*4} + 9 \\)</span>
+        <span>\\( 4(7p^2 + 11pq - 4q^2) \\)</span>
         </div>
-        </div>`, setup: "The Answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784147887/parabola10-pp2_el4ure.png" },
+        </div>` },
         ]
       },
  
       // Problem 11
+      {
+        problem: `If \\( m = \\frac{1}{9}p^2 + \\frac{1}{9}q^2 \\) and \\( n = \\frac{1}{9}pq \\), which of the following is equivalent to \\( 36m - 72n \\)?
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (2p - 2q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (2p + 2q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (4p - 4q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (p - q)^2 \\)</span>
+        </div>
+        </div>`,
+        steps: [
+          { text: "Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", note: "", gif: "", video: "" },
+          { text: "Declare the expression for \\( m \\)", note: "", gif: "", video: "" },
+          { text: "Declare the expression for \\( n \\)", note: "", gif: "", video: "" },
+          { text: "Type the given expression", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "" },
+        ],
+        guidedProblem: `If \\( m = \\frac{3}{8}p^2 + \\frac{3}{8}q^2 \\) and \\( n = \\frac{3}{8}pq \\), which of the following is equivalent to \\( 8m - 16n \\)?
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 3(p + q)^2 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( 3(p - q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 6(p - q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 6(p + q)^2 \\)</span>
+        </div>
+        </div>`,
+        guidedSteps: ["Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", "Declare the expression for \\( m \\)", "Declare the expression for \\( n \\)", "Type the given expression", "Type each answer choice and match to the given expression"],
+        guidedAnswer: "The Answer is B", guidedScreenshot: "",
+        practice: []
+      },
+ 
+      // Problem 12
       {
         problem: `The \\(y\\)-intercept of the graph \\( g(x) = \\frac{1}{4}(x - 6)^2 + 2\\) in the xy-plane is \\((0,y)\\). What is the value of \\(y\\)?`,
         steps: [
