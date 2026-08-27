@@ -469,10 +469,192 @@ const parabola = {
                         </div>
                       </div>`
           }], 
-        additionalPractice: []
+        additionalPractice: [
+          { text: `<p>Which of the following is equivalent to</p>
+                    <p style="text-align:center;margin-bottom:12px">\\((2x + \\frac{3}{2})^2 - (x - \\frac{1}{4}) + 2(x + \\frac{1}{2})\\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice">
+                          <span class="mc-label">A</span>
+                          <span>\\( 4x^2 + 7x + \\frac{7}{2} \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">B</span>
+                          <span>\\( 4x^2 + 5x + \\frac{7}{2} \\)</span>
+                        </div>
+                        <div class="mc-choice correct">
+                          <span class="mc-label">C</span>
+                          <span>\\( 4x^2 + 7x + \\frac{5}{2} \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">D</span>
+                          <span>\\( 4x^2 + 5x + \\frac{5}{2} \\)</span>
+                        </div>
+                      </div>`
+          },
+          { text: `<p>Which of the following is equivalent to</p>
+                    <p style="text-align:center;margin-bottom:12px">\\((3x - \\frac{1}{2})^2 + 2(x + \\frac{3}{4}) - (x - \\frac{1}{4})\\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice">
+                          <span class="mc-label">A</span>
+                          <span>\\( 9x^2 - 3x + 2 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">B</span>
+                          <span>\\( 9x^2 - 2x + \\frac{7}{4} \\)</span>
+                        </div>
+                        <div class="mc-choice correct">
+                          <span class="mc-label">C</span>
+                          <span>\\( 9x^2 - 2x + 2 \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">D</span>
+                          <span>\\( 9x^2 - 4x + 2 \\)</span>
+                        </div>
+                      </div>`
+          },
+          { text: `<p>Which of the following is equivalent to</p>
+                    <p style="text-align:center;margin-bottom:12px">\\((4x + \\frac{1}{2})^2 - 3(x + \\frac{1}{4}) + (x + \\frac{3}{4})\\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice">
+                          <span class="mc-label">A</span>
+                          <span>\\( 16x^2 + 2x + \\frac{7}{4} \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">B</span>
+                          <span>\\( 16x^2 + 4x + \\frac{7}{4} \\)</span>
+                        </div>
+                        <div class="mc-choice correct">
+                          <span class="mc-label">C</span>
+                          <span>\\( 16x^2 + 2x + \\frac{5}{4} \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">D</span>
+                          <span>\\( 16x^2 + 6x + \\frac{7}{4} \\)</span>
+                        </div>
+                      </div>`
+          },
+          { text: `<p>Which of the following is equivalent to</p>
+                    <p style="text-align:center;margin-bottom:12px">\\((2x - \\frac{5}{2})^2 - (x + \\frac{1}{2}) + 3(x - \\frac{3}{4})\\)?</p>
+                    <div class="mc-choices">
+                        <div class="mc-choice">
+                          <span class="mc-label">A</span>
+                          <span>\\( 4x^2 - 10x + \\frac{7}{2} \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">B</span>
+                          <span>\\( 4x^2 - 8x + \\frac{7}{2} \\)</span>
+                        </div>
+                        <div class="mc-choice correct">
+                          <span class="mc-label">C</span>
+                          <span>\\( 4x^2 - 8x + \\frac{9}{2} \\)</span>
+                        </div>
+                        <div class="mc-choice">
+                          <span class="mc-label">D</span>
+                          <span>\\( 4x^2 - 12x + \\frac{7}{2} \\)</span>
+                        </div>
+                      </div>`
+          }
+        ]
+      },
+
+      // Problem 4
+      {
+        problem: `<p>The equation</p>
+        <p style="text-align:center;margin-bottom:12px">\\( y = 2(\\frac{x^2}{9} - 9) \\)?</p>
+        is equivalent to which of the following?
+        <div class="mc-choices">
+            <div class="mc-choice correct">
+              <span class="mc-label">A</span>
+              <span>\\( y = \\frac{2}{9}(x + 9)(x - 9) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( y = \\frac{2}{9}(x + 3)(x - 3) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( y = \\frac{2}{3}(x + 3\\sqrt{2})(x - 3\\sqrt{2}) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( y = \\frac{2}{9}(x + 9)(x - 2) \\)</span>
+            </div>
+          </div>`,
+        steps: [
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
+        ],
+        guidedProblem: `<p>The equation</p>
+        <p style="text-align:center;margin-bottom:12px">\\( y = 4x^2 - 3x^2 - 45 \\)?</p>
+        is equivalent to which of the following?
+        <div class="mc-choices">
+            <div class="mc-choice correct">
+              <span class="mc-label">A</span>
+              <span>\\( y = (x + 3\\sqrt{5})(x - 3\\sqrt{5}) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( y = (x + 45)(x - 45) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( y = (x + 9)(x - 9) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( y = (x + 5\\sqrt{3})(x - 5\\sqrt{3}) \\)</span>
+            </div>
+          </div>`,
+        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedAnswer: "The Answer is A", guidedScreenshot: "", 
+        guidedScreenshot: "",
+        practice: [
+          { text: `<p>The equation</p>
+        <p style="text-align:center;margin-bottom:12px">\\( y = \\frac{1}{3}(3x^2 - 84) \\)?</p>
+        is equivalent to which of the following?
+        <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( y = (x + 2\\sqrt{7})(x - 2\\sqrt{7}) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( y = (x + 14)(x - 14) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( y = (x + 7\\sqrt{2})(x - 7\\sqrt{2}) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( y = (x + 4\\sqrt{7})(x - 4\\sqrt{7}) \\)</span>
+            </div>
+          </div>`, },
+          { text: `<p>The equation</p>
+        <p style="text-align:center;margin-bottom:12px">\\( y = 3(\\frac{x^2}{3} - 20) + 8 \\)?</p>
+        is equivalent to which of the following?
+        <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( y = (x + 4\\sqrt{3})(x - 4\\sqrt{3}) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( y = (x + 2\\sqrt{13})(x - 2\\sqrt{13}) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( y = (x + 13)(x - 13) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( y = (x + 6)(x - 6) \\)</span>
+            </div>
+          </div>`,  },
+        ]
       },
   
-      // Problem 4
+      // Problem 5
       {
         problem: `<p>Which of the following is an equivalent form of the expression</p>
         <p style="text-align:center;margin-bottom:12px">\\( (3x - 4)^2 - 5(3x - 4) - 24 \\)?</p>
@@ -565,7 +747,7 @@ const parabola = {
         ]
       },
 
-      // Problem 5
+      // Problem 6
       {
         problem: `Which of the following expressions is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( 2(3x - 5)^2 - 98 \\)?</p>
@@ -654,11 +836,11 @@ const parabola = {
         ]
       },
  
-      // Problem 6
+      // Problem 7
       {
         problem: `Which of the following is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( (2n + \\frac{3}{2})^2 - (n - \\frac{1}{4}) + 2(n + \\frac{3}{4})\\)?</p>
-        <div class="mc-choice correct">
+        <div class="mc-choice">
               <span class="mc-label">A</span>
               <span>\\( 4n^2 + 5n + 4 \\)</span>
             </div>
@@ -676,13 +858,13 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Create a slider for the variable \\(n)\\ and invent a number", note: "", gif: "", video: "" },
+          { text: "Create a slider for the variable \\(n\\) and invent a number", note: "", gif: "", video: "" },
           { text: "Type the given expression", gif: "", video: "" },
           { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
         guidedProblem: `Which of the following is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( (3r - \\frac{1}{2})^2 + 2(r + \\frac{3}{4}) - (r - \\frac{1}{2})\\)?</p>
-        <div class="mc-choice correct">
+        <div class="mc-choice">
               <span class="mc-label">A</span>
               <span>\\( 9r^2 - 4r + \\frac{9}{4} \\)</span>
             </div>
@@ -699,12 +881,12 @@ const parabola = {
               <span>\\( 9r^2 - 2r + \\frac{9}{4} \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Create a slider for the variable \\(r)\\ and invent a number", "Type the given expression", "Type each answer choice and match"],
+        guidedSteps: ["Create a slider for the variable \\(r\\) and invent a number", "Type the given expression", "Type each answer choice and match"],
         guidedAnswer: "The Answer is D", guidedScreenshot: "",
         practice: [
           { text: `Which of the following is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( (2t - \\frac{5}{2})^2 - (t + \\frac{1}{4}) + 3(t - \\frac{1}{2})\\)?</p>
-        <div class="mc-choice correct">
+        <div class="mc-choice">
               <span class="mc-label">A</span>
               <span>\\( 4t^2 - 12t + \\frac{9}{2} \\)</span>
             </div>
@@ -712,7 +894,7 @@ const parabola = {
               <span class="mc-label">B</span>
               <span>\\( 4t^2 - 8t + \\frac{9}{2} \\)</span>
             </div>
-            <div class="mc-choice correct">
+            <div class="mc-choice">
               <span class="mc-label">C</span>
               <span>\\( 4t^2 - 8t + \\frac{19}{4} \\)</span>
             </div>
@@ -743,7 +925,7 @@ const parabola = {
         ]
       },
  
-      // Problem 7
+      // Problem 8
       {
         problem: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = 2(\\frac{x^2}{2} - 5a)\\)?</p>
@@ -766,7 +948,7 @@ const parabola = {
                 </div>
               </div>`,
         steps: [
-          { text: "Create a slider for the variable \\(a)\\ and invent a number", note: "", gif: "", video: "" },
+          { text: "Create a slider for the variable \\(a\\) and invent a number", note: "", gif: "", video: "" },
           { text: "Type the given expression", note: "", gif: "", video: "" },
           { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
@@ -790,7 +972,7 @@ const parabola = {
                   <span>\\( y = (x + 3\\sqrt{2b})(x - 3\\sqrt{2b}) \\)</span>
                 </div>
               </div>`, 
-        guidedSteps: ["Create a slider for the variable \\(b)\\ and invent a number", "Type the given expression", "Type each answer choice and match"],
+        guidedSteps: ["Create a slider for the variable \\(b\\) and invent a number", "Type the given expression", "Type each answer choice and match"],
         guidedAnswer: "The Answer is D", guidedScreenshot: "",
         practice: [
           { text: `The equation
@@ -837,7 +1019,7 @@ const parabola = {
         ]
       },
  
-      // Problem 8
+      // Problem 9
       {
         problem: `Which expression is equivalent to
         <p style="text-align:center;margin-bottom:12px"> \\( (2a - \\frac{b}{3})^2 \\) </p>
@@ -860,7 +1042,7 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Create a slider for the variable \\(a)\\ and \\(b)\\ and invent numbers", note: "", gif: "", video: "" },
+          { text: "Create a slider for the variable \\(a\\) and \\(b\\) and invent numbers", note: "", gif: "", video: "" },
           { text: "Type the given expression", note: "", gif: "", video: "" },
           { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
@@ -884,57 +1066,56 @@ const parabola = {
         <span>\\( \\frac{3}{2}m^2 + 6mn + 4n^2 \\)</span>
         </div>
         </div>`,
-        guidedSteps: ["Create a slider for the variable \\(a)\\ and \\(b)\\ and invent numbers", "Type the given expression", "Type each answer choice and match"],
+        guidedSteps: ["Create a slider for the variable \\(m\\) and \\(n\\) and invent numbers", "Type the given expression", "Type each answer choice and match"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "",
         practice: [
           { text: `Which expression is equivalent to
-        <p style="text-align:center;margin-bottom:12px"> \\( (\\frac{x}{4} - 2n)^2 \\) </p>
+        <p style="text-align:center;margin-bottom:12px"> \\( (\\frac{m}{4} - 5n)^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
-        <span>\\( \\frac{9}{4}m^2 + 6mn + 4n^2 \\)</span>
+        <span>\\( \\frac{m^2}{16} - \\frac{5mn}{2} + 25n^2 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">B</span>
-        <span>\\( \\frac{9}{4}m^2 + 3mn + 4n^2 \\)</span>
+        <span>\\( \\frac{m^2}{16} - \\frac{5mn}{4} - 25n^2 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( \\frac{9}{4}m^2 + 12mn + 4n^2 \\)</span>
+        <span>\\( \\frac{m^2}{8} - \\frac{5mn}{2} + 25n^2 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( \\frac{3}{2}m^2 + 6mn + 4n^2 \\)</span>
+        <span>\\( \\frac{m^2}{16} + 6mn + 4n^2 \\)</span>
         </div>
         </div>`, 
-            },
-          { text: `<p style="text-align:center;margin-bottom:12px">
-            \\(g(x) = -3x^2 + 18x + 7\\)
-            </p>
-            <p>The function is defined by \\(g(x)\\). Which of the following equivalent forms of the equation displays the coordinates of the highest point as constants or coefficients? </p>
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( y = -3(x^2 - 6x) + 7 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">B</span>
-            <span>\\( \\frac{1}{3}y - 10 = -(x - 3)^2 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( y - 34 = -3(x - 3)^2 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( y = -3x(x - 6) + 7 \\)</span>
-            </div>
-            </div>`
-            , setup: "The correct answer is C", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784142538/parabola8-pp2_woxt1y.png" },
+        },
+        { text: `Which expression is equivalent to
+        <p style="text-align:center;margin-bottom:12px"> \\( ( 4p - \\frac{3q}{2})^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 16p^2 - 12pq - \\frac{9q^2}{4} \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 16p^2 - 6pq + \\frac{9q^2}{4} \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 16p^2 + 12pq + \\frac{9q^2}{4} \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 8p^2 - 12pq + \\frac{9q^2}{4} \\)</span>
+        </div>
+        </div>`, 
+        },
+
         ]
       },
  
-      // Problem 9
+      // Problem 10
       {
         problem: `<p style="text-align:center;margin-bottom:12px">
           \\(f(x) = 2x^2 - 20x + 61\\)
