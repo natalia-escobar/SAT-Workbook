@@ -403,8 +403,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Declare the given expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", video: "" },
+          { text: "Declare the given expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787949102/problem3-step1_hocwbj.mov" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787949103/problem3-step2_efc7vk.mov" },
         ],
         guidedProblem: `<p>Which of the following is equivalent to</p>
         <p style="text-align:center;margin-bottom:12px">\\((2x - \\frac{3}{2})^2 + 3(x + \\frac{1}{4}) - (x - \\frac{1}{2})\\)?</p>
