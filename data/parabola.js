@@ -927,8 +927,97 @@ const parabola = {
           }
         ]
       },
- 
+
       // Problem 8
+      {
+        problem: `The function \\(f\\) is defined by
+            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=4(3x-2)(20-2x) \\) </p>
+            What is the value of
+            <p style="text-align:center;margin-bottom:12px"> \\( f(5) \\)? </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 416 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( 520 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 560 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 624 \\)</span>
+        </div>
+        </div>`,
+
+        steps: [
+          { text: "Type the function \\(f(x)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
+          { text: "Type \\(f(5)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
+        ],
+
+        guidedProblem: `The function \\(g\\) is defined by
+            <p style="text-align:center;margin-bottom:12px"> \\( g(x)=6(2x+1)(18-3x) \\) </p>
+            What is the value of
+            <p style="text-align:center;margin-bottom:12px"> \\( g(4) \\)? </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 270 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 288 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( 324 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 378 \\)</span>
+        </div>
+        </div>`,
+
+        guidedSteps: [
+          "Type the function \\(g(x)\\) into Desmos",
+          "Type \\(g(4)\\) into Desmos",
+        ],
+
+        guidedAnswer: "The answer is C",
+        guidedScreenshot: "",
+
+        practice: [
+          {
+            text: `The function \\(h\\) is defined by
+                <p style="text-align:center;margin-bottom:12px"> \\( h(x)=5(4x-1)(15-2x) \\) </p>
+                What is the value of
+                <p style="text-align:center;margin-bottom:12px"> \\( h(3) \\)? </p>
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( 440 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( 495 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 550 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 605 \\)</span>
+            </div>
+            </div>`
+          }
+        ]
+      },
+ 
+      // Problem 9
       {
         problem: `Which of the following is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( (2n + \\frac{3}{2})^2 - (n - \\frac{1}{4}) + 2(n + \\frac{3}{4})\\)?</p>
@@ -1017,7 +1106,7 @@ const parabola = {
         ]
       },
  
-      // Problem 9
+      // Problem 10
       {
         problem: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = 2(\\frac{x^2}{2} - 5a)\\)?</p>
@@ -1111,7 +1200,7 @@ const parabola = {
         ]
       },
  
-      // Problem 10
+      // Problem 11
       {
         problem: `Which expression is equivalent to
         <p style="text-align:center;margin-bottom:12px"> \\( (2a - \\frac{b}{3})^2 \\) </p>
@@ -1207,7 +1296,7 @@ const parabola = {
         ]
       },
  
-      // Problem 11
+      // Problem 12
       {
         problem: `<p style="text-align:center;margin-bottom:12px"> \\( ( 18n^2 - 42np + 30p^2) \\) </p>
         Which expression is equivalent to the expression above?
@@ -1300,7 +1389,7 @@ const parabola = {
         ]
       },
  
-      // Problem 12
+      // Problem 13
       {
         problem: `If \\( m = \\frac{1}{9}p^2 + \\frac{1}{9}q^2 \\) and \\( n = \\frac{1}{9}pq \\), which of the following is equivalent to \\( 36m - 72n \\)?
         <div class="mc-choices">
@@ -1353,7 +1442,7 @@ const parabola = {
       },
  
  
-      // Problem 13
+      // Problem 14
       {
         problem: `Which expression is equivalent to 
             <p style="text-align:center;margin-bottom:12px"> \\( 25x^2 - 49y^2 \\) </p>
@@ -1451,7 +1540,7 @@ const parabola = {
       },
  
  
-      // Problem 14
+      // Problem 15
       {
         problem: `If \\(m = \\frac{1}{9}p^2 + \\frac{1}{9}q^2\\) and \\( n = \\frac{1}{9}pq\\), which of the following is equivalent to \\(36m - 72n\\)?
         <div class="mc-choices">
@@ -1506,7 +1595,7 @@ const parabola = {
       },
 
  
-      // Problem 15
+      // Problem 16
       {
         problem: `Which expression is equivalent to
             <p style="text-align:center;margin-bottom:12px"> \\( c^2x^2 - a^2y^2 \\) </p>
@@ -1614,7 +1703,7 @@ const parabola = {
         ]
       },
 
-      // Problem 16
+      // Problem 17
       {
         problem: `If 
             <p style="text-align:center;margin-bottom:12px"> \\( m^2 = p + \\frac{q}{2} \\) </p>
@@ -1723,7 +1812,7 @@ const parabola = {
         ]
       },
  
-      // Problem 17
+      // Problem 18
       {
         problem: `Which expression is equivalent to 
             <p style="text-align:center;margin-bottom:12px"> \\( 25x^2 - 49y^2 \\) </p>
@@ -1820,7 +1909,7 @@ const parabola = {
         ]
       },
  
-      // Problem 18
+      // Problem 19
       {
         problem: `The functions are defined by
             <p style="text-align:center;margin-bottom:12px"> \\( g(x) = \\frac{4}{5}x - 2 \\) </p>
@@ -1944,7 +2033,7 @@ const parabola = {
         ]
       },
 
-      // Problem 19
+      // Problem 20
       {
         problem: `The functions \\(r\\) and \\(s\\) are defined by the equations shown.
             <p style="text-align:center;margin-bottom:12px"> \\( r(x) = 2(3x - 1)(x + 4) \\) </p>
@@ -2068,7 +2157,7 @@ const parabola = {
         ]
       },
 
-      // Problem 20
+      // Problem 21
       {
         problem: `If 
             <p style="text-align:center;margin-bottom:12px"> \\( u = 3x - 5 \\) </p>
@@ -2187,7 +2276,7 @@ const parabola = {
         ]
       },
 
-      // Problem 21
+      // Problem 22
       {
         problem: `The expression
             <p style="text-align:center;margin-bottom:12px"> \\( \\frac{1}{4}(2t^2 - 144) \\) </p>
@@ -2311,7 +2400,7 @@ const parabola = {
         ]
       },
  
-      // Problem 22
+      // Problem 23
       {
         problem: `A quadratic expression is equivalent to
             <p style="text-align:center;margin-bottom:12px"> \\( \\frac{p}{3}x^2 + \\frac{q}{3}x + \\frac{r}{3} \\) </p>
@@ -2412,7 +2501,7 @@ const parabola = {
         ]
       },
 
-      // Problem 23
+      // Problem 24
       {
         problem: `If
             <p style="text-align:center;margin-bottom:12px"> \\( 7(x+5)(x-4)-3(x-2)^2 \\) </p>
@@ -2529,92 +2618,7 @@ const parabola = {
           }
         ]
       },
- 
-      // Problem 24
-      {
-        problem: `
-        <table class="xy-table" style="margin:0 auto 16px auto">
-            <tr><td>x</td><td>f(x)</td></tr>
-            <tr><td>-3</td><td>14</td></tr>
-            <tr><td>0</td><td>5</td></tr>
-            <tr><td>4</td><td>21</td></tr>
-        </table>
-        The quadratic function passes through the following points. Which function passes through the points listed in the table above?
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( x^2 + 5 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( x^2 + 3x + 5 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( x^2 + 4x + 5 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 2x^2 + 3x + 5\\)</span>
-        </div>
-        </div>`,
-        steps: [
-          { text: "Type 'table' into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233130/parabola20-step1_wfb4ww.mov" },
-          { text: "Input the given values", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233130/parabola20-step2_tlt6dk.mov" },
-          { text: "Click Add Regression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233133/parabola20-step3_bkks2k.mov" },
-          { text: ". As the problem mentions they have a quadratic relationship, change the regression from linear to quadratic. The equation produced will give you the answer", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233131/parabola20-step4_nyol3s.mov" }
-        ],
-        guidedProblem: "[Guided problem for Topic 2]",
-        guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
-        guidedAnswer: "[Desmos setup and answer]",
-        practice: [
-          { text: "[Problem 1]", setup: "[Setup 1]" },
-          { text: "[Problem 2]", setup: "[Setup 2]" },
-          { text: "[Problem 3]", setup: "[Setup 3]" },
-          { text: "[Problem 4]", setup: "[Setup 4]" },
-        ]
-      },
 
-      // Problem 23
-      {
-        problem: `
-        The function \\(p\\) is a quadratic function. The graph of \\(y = p(x)\\) has a vertex at \\((-1,2)\\), contains the point \\((1,10)\\), and has a y-intercept at \\((0,m)\\). The graph of \\(y = 3p(x) - 5\\) has a y-intercept at \\((0,n)\\). What is the value of \\(m+n\\)?
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( 7 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">B</span>
-        <span>\\( 11 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 15 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 19 \\)</span>
-        </div>
-        </div>`,
-        steps: [
-          { text: "Declare the vertex, using \\(h = -1\\) and \\(k=2\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233133/parabola21-step1_tedqxl.mov" },
-          { text: "Declare the point, using \\(x_1 = 1\\) and \\(y_1= 10\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233135/parabola21-step2_lprpja.mov" },
-          { text: "Find the equation of the vertex, using ~ and typing \\(y_1\\) ~ \\(a(x_1-h)^2 + k\\) to find \\(a\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233137/parabola21-step3_ihuqyy.mov" },
-          { text: "Declare the function in the new line and set \\(m = p(0)\\), as \\(m\\) is the \\(y\\)-intercept", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233139/parabola21-step4_jvdhf5.mov" },
-          { text: "Declare \\(y\\) in a new line, using any function, the example uses \\(q\\). Set \\(n\\) to the y-intercept of this new function", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233140/parabola21-step5_w796dy.mov" },
-          {text: "Type m+n to find the answer", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784233140/parabola21-step6_xmeuwx.mov"}
-        ],
-        guidedProblem: "[Guided problem for Topic 2]",
-        guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
-        guidedAnswer: "[Desmos setup and answer]",
-        practice: [
-          { text: "[Problem 1]", setup: "[Setup 1]" },
-          { text: "[Problem 2]", setup: "[Setup 2]" },
-          { text: "[Problem 3]", setup: "[Setup 3]" },
-          { text: "[Problem 4]", setup: "[Setup 4]" },
-        ]
-      },
   ]
 };
 
