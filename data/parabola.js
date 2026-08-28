@@ -1728,70 +1728,127 @@ const parabola = {
         ]
       },
  
-      // Problem 15
+      // Problem 17
       {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\( (5x-4)^2 = 9(5x - 4) + 10 \\)
-        </p>
-        <p> Which value is the least solution to the equation?</p>
+        problem: `The functions are defined by
+            <p style="text-align:center;margin-bottom:12px"> \\( g(x) = \\frac{4}{5}x - 2 \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( h(x) = 5x + 6 \\) </p>
+            Which expression is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( 2g(x) \\cdot h(x) \\)? </p>
         <div class="mc-choices">
-            <div class="mc-choice correct">
-            <span class="mc-label">A</span>
-            <span>\\( \\frac{3}{5} \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">B</span>
-            <span>\\( 0 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( \\frac{2}{5} \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( \\frac{6}{5}\\)</span>
-            </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( 8x^2 - \\frac{52}{5}x - 24 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 8x^2 + \\frac{52}{5}x - 24 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 4x^2 - \\frac{52}{5}x - 24 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 8x^2 - \\frac{26}{5}x - 24 \\)</span>
+        </div>
         </div>`,
+
         steps: [
-          { text: "Type the given equation into Desmos", note: "From the graph produced, you can visually see that the solutions are at \\( x = 0.6 \\) and \\( x = 2.8 \\)", gif: "", video: "" },
+          { text: "Declare the functions \\(g(x)\\) and \\(h(x)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
+          { text: "Type the given expression into Desmos", note: "", gif: "", answer: "", video: "" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "" },
         ],
-        guidedProblem: `Given that, 
-        <p style="text-align:center;margin-bottom:12px">
-          \\( (6x-5)^2 - 7(6x - 5) + 12 = 0 \\)
-        </p>
-        <p> What is the least possible value of \\(12x - 10\\)?</p>
+
+        guidedProblem: `The functions are defined by
+            <p style="text-align:center;margin-bottom:12px"> \\( g(x) = \\frac{3}{5}x + 4 \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( h(x) = 10x - 3 \\) </p>
+            Which expression is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( 3g(x) \\cdot h(x) \\)? </p>
         <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 18x^2 + \\frac{313}{5}x - 36 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 18x^2 + \\frac{253}{5}x + 36 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( 18x^2 + \\frac{573}{5}x - 36 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 9x^2 + \\frac{381}{5}x - 36 \\)</span>
+        </div>
+        </div>`,
+
+        guidedSteps: [
+          "Type the functions \\(g(x)\\) and \\(h(x)\\) into Desmos",
+          "Type the given expression into Desmos",
+          "Type each answer choice and match it to the given expression"
+        ],
+
+        guidedAnswer: "The answer is C",
+        guidedScreenshot: "",
+
+        practice: [
+          {
+            text: `The functions are defined by
+                <p style="text-align:center;margin-bottom:12px"> \\( p(x) = \\frac{5}{6}x - 2 \\) </p>
+                and
+                <p style="text-align:center;margin-bottom:12px"> \\( q(x) = 12x + 9 \\) </p>
+                Which expression is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( 2p(x) \\cdot q(x) \\)? </p>
+            <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
-            <span>\\( 2 \\)</span>
+            <span>\\( 20x^2 - 15x - 36 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 10x^2 - 33x - 36 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 20x^2 - 33x + 36 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\( 20x^2 - 33x - 36 \\)</span>
+            </div>
+            </div>`
+          },
+
+          {
+            text: `The functions are defined by
+                <p style="text-align:center;margin-bottom:12px"> \\( r(x) = \\frac{7}{4}x + 1 \\) </p>
+                and
+                <p style="text-align:center;margin-bottom:12px"> \\( s(x) = 8x - 6 \\) </p>
+                Which expression is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( 4r(x) \\cdot s(x) \\)? </p>
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( 56x^2 + 10x - 24 \\)</span>
             </div>
             <div class="mc-choice correct">
             <span class="mc-label">B</span>
-            <span>\\( 4 \\)</span>
+            <span>\\( 56x^2 - 10x - 24 \\)</span>
             </div>
-            <div class="mc-choice correct">
+            <div class="mc-choice">
             <span class="mc-label">C</span>
-            <span>\\( 6 \\)</span>
+            <span>\\( 56x^2 - 10x + 24 \\)</span>
             </div>
             <div class="mc-choice">
             <span class="mc-label">D</span>
-            <span>\\( 8 \\)</span>
+            <span>\\( 28x^2 - 10x - 24 \\)</span>
             </div>
-        </div>`,
-        guidedSteps: ["Type the given equation into Desmos", "Plug the smaller \\( x \\) value into the expression \\( 12x - 10\\) "],
-        guidedAnswer: "[Desmos setup and answer]",
-        practice: [
-          { text: `<p style="text-align:center;margin-bottom:12px">
-          \\( 25 = (2x + 9)^2 - 3(2x + 9) \\)
-        </p>
-        <p> Which value is the least solution to the equation?</p>`
-            , answer: "-3/2",setup: "The Answer is \\( -\\frac{3}{2} \\)" },
-          { text: `Given that, 
-        <p style="text-align:center;margin-bottom:12px">
-          \\( (4x-3)^2 - 9(4x - 3) + 18 = 0 \\)
-        </p>
-        <p> What is the greatest possible value of \\(8x - 6\\)?</p>`
-            , answer:"12",setup: "[Setup 2]" },
+            </div>`
+          }
         ]
       },
 
