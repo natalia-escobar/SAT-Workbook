@@ -2416,10 +2416,78 @@ const parabola = {
       },
 
 
-
-
-
       // Problem 23
+
+      {
+        problem: `If
+            <p style="text-align:center;margin-bottom:12px"> \\( m=\\frac{1}{9}p^2+\\frac{1}{9}q^2 \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( n=\\frac{1}{9}pq \\), </p>
+            which of the following is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( 36m-72n \\)? </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (2p-2q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (2p+2q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (4p-4q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (p-q)^2 \\)</span>
+        </div>
+        </div>`,
+
+        steps: [
+          { text: "Create sliders for the variables \\(p\\) and \\(q\\) and invent numbers", note: "", gif: "", answer: "", video: "" },
+          { text: "Substitute the equations for \\(m\\) and \\(n\\) into the given expression", note: "", gif: "", answer: "", video: "" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "" },
+        ],
+
+        guidedProblem: `If
+            <p style="text-align:center;margin-bottom:12px"> \\( m=\\frac{3}{8}p^2+\\frac{3}{8}q^2 \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( n=\\frac{3}{8}pq \\), </p>
+            which of the following is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( 8m-16n \\)? </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 3(p+q)^2 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( 3(p-q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 6(p-q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 6(p+q)^2 \\)</span>
+        </div>
+        </div>`,
+
+        guidedSteps: [
+          "Create sliders for the variables \\(p\\) and \\(q\\) and invent numbers",
+          "Substitute the equations for \\(m\\) and \\(n\\) into the given expression",
+          "Type each answer choice and match it to the given expression"
+        ],
+
+        guidedAnswer: "The answer is B",
+        guidedScreenshot: "",
+
+        practice: []
+      },
+
+      // Problem 24
       {
         problem: `The expression
             <p style="text-align:center;margin-bottom:12px"> \\( \\frac{1}{4}(2t^2 - 144) \\) </p>
@@ -2542,8 +2610,72 @@ const parabola = {
           }
         ]
       },
+
+      // Problem 25
+      {
+        problem: `The functions are defined by
+            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=\\frac{5}{4}x-3 \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( g(x)=8x+6 \\). </p>
+            The product
+            <p style="text-align:center;margin-bottom:12px"> \\( f(x)g(x) \\) </p>
+            can be written in the form
+            <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
+            where \\(a\\), \\(b\\), and \\(c\\) are constants.
+            <p style="margin-bottom:12px">What is the value of \\(b-c\\)?</p>`,
+
+        steps: [ 
+          { text: "", note: "", gif: "", answer: "", video: "" },
+        ],
+
+        guidedProblem: `The functions are defined by
+            <p style="text-align:center;margin-bottom:12px"> \\( p(x)=\\frac{3}{4}x+5 \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( q(x)=12x-8 \\). </p>
+            The product
+            <p style="text-align:center;margin-bottom:12px"> \\( p(x)q(x) \\) </p>
+            can be written in the form
+            <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
+            where \\(a\\), \\(b\\), and \\(c\\) are constants.
+            <p style="margin-bottom:12px">What is the value of \\(a+b\\)?</p>`,
+
+        guidedSteps: [
+          ""
+        ],
+
+        guidedAnswer: "The answer is 63",
+        guidedScreenshot: "",
+
+        practice: [
+          {
+            text: `The functions are defined by
+                <p style="text-align:center;margin-bottom:12px"> \\( r(x)=\\frac{7}{6}x-4 \\) </p>
+                and
+                <p style="text-align:center;margin-bottom:12px"> \\( s(x)=18x+3 \\). </p>
+                The product
+                <p style="text-align:center;margin-bottom:12px"> \\( r(x)s(x) \\) </p>
+                can be written in the form
+                <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
+                where \\(a\\), \\(b\\), and \\(c\\) are constants.
+                <p style="margin-bottom:12px">What is the value of \\(a+c\\)?</p>`
+          },
+
+          {
+            text: `The functions are defined by
+                <p style="text-align:center;margin-bottom:12px"> \\( u(x)=\\frac{2}{5}x+7 \\) </p>
+                and
+                <p style="text-align:center;margin-bottom:12px"> \\( v(x)=15x-10 \\). </p>
+                The product
+                <p style="text-align:center;margin-bottom:12px"> \\( u(x)v(x) \\) </p>
+                can be written in the form
+                <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
+                where \\(a\\), \\(b\\), and \\(c\\) are constants.
+                <p style="margin-bottom:12px">What is the value of \\(a-b\\)?</p>`
+          }
+        ]
+      },
  
-      // Problem 24
+      // Problem 26
       {
         problem: `A quadratic expression is equivalent to
             <p style="text-align:center;margin-bottom:12px"> \\( \\frac{p}{3}x^2 + \\frac{q}{3}x + \\frac{r}{3} \\) </p>
@@ -2644,7 +2776,7 @@ const parabola = {
         ]
       },
 
-      // Problem 25
+      // Problem 27
       {
         problem: `If
             <p style="text-align:center;margin-bottom:12px"> \\( 7(x+5)(x-4)-3(x-2)^2 \\) </p>
@@ -2761,6 +2893,142 @@ const parabola = {
           }
         ]
       },
+
+      // Problem 28
+
+      {
+        problem: `If
+            <p style="text-align:center;margin-bottom:12px"> \\( r=3x+2 \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( s=2x-5 \\), </p>
+            the expression
+            <p style="text-align:center;margin-bottom:12px"> \\( rs+2r-s \\) </p>
+            is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
+            where \\(a\\), \\(b\\), and \\(c\\) are constants.
+            <p style="margin-bottom:12px">What is the value of \\(a+b+c\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( -7 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( -2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 1 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 6 \\)</span>
+        </div>
+        </div>`,
+
+        steps: [
+          { text: "", note: "", gif: "", answer: "", video: "" },
+        ],
+
+        guidedProblem: `The function \\(f\\) is defined by
+            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=uv+u-3v \\), </p>
+            where
+            <p style="text-align:center;margin-bottom:12px"> \\( u=4x-3 \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( v=x+2 \\). </p>
+            If
+            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=ax^2+bx+c \\), </p>
+            where \\(a\\), \\(b\\), and \\(c\\) are constants, what is the value of \\(a+b+c\\)?
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( -15 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( -9 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( -5 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 5 \\)</span>
+        </div>
+        </div>`,
+
+        guidedSteps: [
+          "",
+        ],
+
+        guidedAnswer: "The answer is C",
+        guidedScreenshot: "",
+
+        practice: [
+          {
+            text: `If
+                <p style="text-align:center;margin-bottom:12px"> \\( m=2x+1 \\) </p>
+                and
+                <p style="text-align:center;margin-bottom:12px"> \\( n=x+4 \\), </p>
+                the expression
+                <p style="text-align:center;margin-bottom:12px"> \\( mn-m+3n \\) </p>
+                is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{a}{4}x^2+\\frac{b}{4}x+\\frac{c}{4} \\), </p>
+                where \\(a\\), \\(b\\), and \\(c\\) are integers.
+                <p style="margin-bottom:12px">What is the value of \\(a+b+c\\)?</p>
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( 96 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 102 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( 108 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 112 \\)</span>
+            </div>
+            </div>`
+          },
+
+          {
+            text: `If
+                <p style="text-align:center;margin-bottom:12px"> \\( p=5x+1 \\) </p>
+                and
+                <p style="text-align:center;margin-bottom:12px"> \\( q=2x-3 \\), </p>
+                the expression
+                <p style="text-align:center;margin-bottom:12px"> \\( pq-2p+q \\) </p>
+                is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{ax^2+bx+c}{5} \\), </p>
+                where \\(a\\), \\(b\\), and \\(c\\) are integers.
+                <p style="margin-bottom:12px">What is the value of \\(a+b+c\\)?</p>
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( -105 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( -100 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( -95 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( -90 \\)</span>
+            </div>
+            </div>`
+          }
+        ]
+      }
 
   ]
 };
