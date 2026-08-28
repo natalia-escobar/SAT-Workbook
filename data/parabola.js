@@ -2277,6 +2277,149 @@ const parabola = {
       },
 
       // Problem 22
+
+      {
+        problem: `If
+            <p style="text-align:center;margin-bottom:12px"> \\( p=2x+3 \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( q=3x-4 \\), </p>
+            the expression
+            <p style="text-align:center;margin-bottom:12px"> \\( pq+2p-q \\) </p>
+            is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( 6x^2+kx-2 \\), </p>
+            where \\(k\\) is a constant. What is the value of \\(k\\)?
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( -2 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( 2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 4 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 6 \\)</span>
+        </div>
+        </div>`,
+
+        steps: [
+          { text: "Create a slider for \\(k\\)", note: "", gif: "", answer: "", video: "" },
+          { text: "Declare the expressions for \\(p\\) and \\(q\\) into Desmos", note: "", gif: "", answer: "", video: "" },
+          { text: "Type the given expression", note: "", gif: "", answer: "", video: "" },
+          { text: "Adjust \\(k\\) using the answer choices until the expressions match", note: "", gif: "", answer: "", video: "" },
+        ],
+
+        guidedProblem: `If
+            <p style="text-align:center;margin-bottom:12px"> \\( a=5x+2 \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( b=2x-3 \\), </p>
+            the expression
+            <p style="text-align:center;margin-bottom:12px"> \\( ab+a-2b \\) </p>
+            is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( 10x^2+kx+2 \\). </p>
+            What is the value of \\(k\\)?
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( -14 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( -12 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( -10 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( -8 \\)</span>
+        </div>
+        </div>`,
+
+        guidedSteps: [
+          "Create a slider for \\(k\\)",
+          "Declare the expressions for \\(p\\) and \\(q\\) into Desmos",
+          "Type the given expression",
+          "Adjust \\(k\\) using the answer choices until the expressions match"
+        ],
+
+        guidedAnswer: "The answer is C",
+        guidedScreenshot: "",
+
+        practice: [
+          {
+            text: `If
+                <p style="text-align:center;margin-bottom:12px"> \\( r=4x-1 \\) </p>
+                and
+                <p style="text-align:center;margin-bottom:12px"> \\( s=x+6 \\), </p>
+                the expression
+                <p style="text-align:center;margin-bottom:12px"> \\( rs-r+3s \\) </p>
+                is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( 4x^2+kx+13 \\). </p>
+                What is the value of \\(k\\)?
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( 18 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 20 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( 22 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 26 \\)</span>
+            </div>
+            </div>`
+          },
+
+          {
+            text: `If
+                <p style="text-align:center;margin-bottom:12px"> \\( u=3x-5 \\) </p>
+                and
+                <p style="text-align:center;margin-bottom:12px"> \\( v=4x+1 \\), </p>
+                the expression
+                <p style="text-align:center;margin-bottom:12px"> \\( uv-2u+v \\) </p>
+                is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( 12x^2+kx+6 \\). </p>
+                What is the value of \\(k\\)?
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( -23 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( -21 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( -19 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( -17 \\)</span>
+            </div>
+            </div>`
+          }
+        ]
+      },
+
+
+
+
+
+      // Problem 23
       {
         problem: `The expression
             <p style="text-align:center;margin-bottom:12px"> \\( \\frac{1}{4}(2t^2 - 144) \\) </p>
@@ -2400,7 +2543,7 @@ const parabola = {
         ]
       },
  
-      // Problem 23
+      // Problem 24
       {
         problem: `A quadratic expression is equivalent to
             <p style="text-align:center;margin-bottom:12px"> \\( \\frac{p}{3}x^2 + \\frac{q}{3}x + \\frac{r}{3} \\) </p>
@@ -2501,7 +2644,7 @@ const parabola = {
         ]
       },
 
-      // Problem 24
+      // Problem 25
       {
         problem: `If
             <p style="text-align:center;margin-bottom:12px"> \\( 7(x+5)(x-4)-3(x-2)^2 \\) </p>
