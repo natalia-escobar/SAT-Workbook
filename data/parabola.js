@@ -27,8 +27,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Declare the expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", video: "" },
+          { text: "Declare the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787947333/problem1-step1_h3pbti.mov" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787947333/problem1-step2_ylozed.mov" },
         ],
         guidedProblem: `<p>Which expression is equivalent to </p>
         <p style="text-align:center;margin-bottom:12px">
@@ -229,8 +229,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787948685/problem2-step1_ozs7wu.mov" },
+          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787948685/problem2-step2_lxxgi1.mov" },
         ],
         guidedProblem: `<p>Which expression is equivalent to</p>
         <p style="text-align:center;margin-bottom:12px">\\( 3(x - \\frac{5}{2})(x + 6) + 4x \\)?</p>
