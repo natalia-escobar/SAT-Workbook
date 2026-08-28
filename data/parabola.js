@@ -677,8 +677,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Declare the expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
+          { text: "Declare the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787950352/problem5-step1_myedw6.mov" },
+          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787950353/problem5-step2_abdkr9.mov" },
         ],
         guidedProblem: `<p>Which of the following is an equivalent form of the expression </p>
                         <p style="text-align:center;margin-bottom:12px">\\((4x + 1)^2 + 3(4x + 1) - 28\\)?
