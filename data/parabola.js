@@ -1130,9 +1130,9 @@ const parabola = {
                 </div>
               </div>`,
         steps: [
-          { text: "Create a slider for the variable \\(a\\) and invent a number", note: "", gif: "", video: "" },
-          { text: "Declare the given expression", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match", note: "", gif: "", video: "" },
+          { text: "Create a slider for the variable \\(a\\) and invent a number", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787953426/problem10-step1_o9io54.mov" },
+          { text: "Declare the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787953427/problem10-step2_r87boc.mov" },
+          { text: "Type each answer choice and match", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787953430/problem10-step3_blr2mc.mov" },
         ],
         guidedProblem: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = 4x^2 - 3x^2 - 18b)\\)?</p>
@@ -1224,9 +1224,9 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Create a slider for the variables \\(a\\) and \\(b\\) and invent numbers", note: "", gif: "", video: "" },
-          { text: "Type the given expression", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match", note: "", gif: "", video: "" },
+          { text: "Create a slider for the variables \\(a\\) and \\(b\\) and invent numbers", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787953947/problem11-step1_gl3lm3.mov" },
+          { text: "Type the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787953948/problem11-step2_xtljs1.mov" },
+          { text: "Type each answer choice and match", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787953951/problem11-step3_hfv3mv.mov" },
         ],
         guidedProblem: `Which expression is equivalent to
         <p style="text-align:center;margin-bottom:12px"> \\( (\\frac{3m}{2} + 2n)^2 \\) </p>
