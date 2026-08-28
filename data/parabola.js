@@ -27,8 +27,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
+          { text: "Declare the expression into Desmos", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", video: "" },
         ],
         guidedProblem: `<p>Which expression is equivalent to </p>
         <p style="text-align:center;margin-bottom:12px">
@@ -51,7 +51,7 @@ const parabola = {
               <span>\\( 4x^2 - 8x + 4 \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedSteps: ["Declare the given expression into Desmos", "Type each answer choice and match it to the given expression"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "",
         practice: [ 
           { text: `<p>Which expression is equivalent to </p>
@@ -252,7 +252,7 @@ const parabola = {
               <span>\\( 3x^2 + \\frac{37}{2}x - 45 \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedSteps: ["Declare the given expression into Desmos", "Type each answer choice and match it to the given expression"],
         guidedAnswer: "", guidedScreenshot: "",
         practice: [
           {text: `<p>Which expression is equivalent to</p>
@@ -403,8 +403,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
+          { text: "Declare the given expression into Desmos", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", video: "" },
         ],
         guidedProblem: `<p>Which of the following is equivalent to</p>
         <p style="text-align:center;margin-bottom:12px">\\((2x - \\frac{3}{2})^2 + 3(x + \\frac{1}{4}) - (x - \\frac{1}{2})\\)?</p>
@@ -426,7 +426,7 @@ const parabola = {
               <span>\\( 4x^2 - 6x + \\frac{5}{2} \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedSteps: ["Declare the given expression into Desmos", "Type each answer choice and match it to the given expression"],
         guidedAnswer: "", guidedScreenshot: "",
         practice: [ { text: `<p>Which of the following is equivalent to</p>
                     <p style="text-align:center;margin-bottom:12px">\\((4x + \\frac{1}{2})^2 - 2(x - \\frac{3}{4}) + (x + \\frac{1}{4})\\)?</p>
@@ -581,7 +581,7 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
+          { text: "Declare the expression into Desmos", note: "", gif: "", video: "" },
           { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
         ],
         guidedProblem: `<p>The equation</p>
@@ -605,7 +605,7 @@ const parabola = {
               <span>\\( y = (x + 5\\sqrt{3})(x - 5\\sqrt{3}) \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedSteps: ["Declare the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "", 
         guidedScreenshot: "",
         practice: [
@@ -677,7 +677,7 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
+          { text: "Declare the expression into Desmos", note: "", gif: "", video: "" },
           { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
         ],
         guidedProblem: `<p>Which of the following is an equivalent form of the expression </p>
@@ -700,7 +700,7 @@ const parabola = {
                               <span>\\( (4x + 1)(4x - 3) \\)</span>
                             </div>
                           </div>`,
-        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedSteps: ["Declare the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "", 
         guidedScreenshot: "",
         practice: [
@@ -770,7 +770,7 @@ const parabola = {
                 </div>
               </div>`,
         steps: [
-          { text: "Type the expression into Desmos", note: "", gif: "", video: "" },
+          { text: "Declare the expression into Desmos", note: "", gif: "", video: "" },
           { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
         ],
         guidedProblem: `Which of the following expressions is equivalent to
@@ -792,7 +792,7 @@ const parabola = {
               <span>\\( 4(2x + 3)(2x + 9) \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedSteps: ["Declare the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "The Answer is B", guidedScreenshot: "",
         practice: [
           { text: `Which of the following expressions is equivalent to
@@ -859,7 +859,7 @@ const parabola = {
           </div>`,
         steps: [
           { text: "Create a slider for the variable \\(n\\) and invent a number", note: "", gif: "", video: "" },
-          { text: "Type the given expression", gif: "", video: "" },
+          { text: "Declare the given expression", gif: "", video: "" },
           { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
         guidedProblem: `Which of the following is equivalent to
@@ -881,7 +881,7 @@ const parabola = {
               <span>\\( 9r^2 - 2r + \\frac{9}{4} \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Create a slider for the variable \\(r\\) and invent a number", "Type the given expression", "Type each answer choice and match"],
+        guidedSteps: ["Create a slider for the variable \\(r\\) and invent a number", "Declare the given expression", "Type each answer choice and match"],
         guidedAnswer: "The Answer is D", guidedScreenshot: "",
         practice: [
           { text: `Which of the following is equivalent to
@@ -949,7 +949,7 @@ const parabola = {
               </div>`,
         steps: [
           { text: "Create a slider for the variable \\(a\\) and invent a number", note: "", gif: "", video: "" },
-          { text: "Type the given expression", note: "", gif: "", video: "" },
+          { text: "Declare the given expression", note: "", gif: "", video: "" },
           { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
         guidedProblem: `The equation
@@ -972,7 +972,7 @@ const parabola = {
                   <span>\\( y = (x + 3\\sqrt{2b})(x - 3\\sqrt{2b}) \\)</span>
                 </div>
               </div>`, 
-        guidedSteps: ["Create a slider for the variable \\(b\\) and invent a number", "Type the given expression", "Type each answer choice and match"],
+        guidedSteps: ["Create a slider for the variable \\(b\\) and invent a number", "Declare the given expression", "Type each answer choice and match"],
         guidedAnswer: "The Answer is D", guidedScreenshot: "",
         practice: [
           { text: `The equation
@@ -1066,7 +1066,7 @@ const parabola = {
         <span>\\( \\frac{3}{2}m^2 + 6mn + 4n^2 \\)</span>
         </div>
         </div>`,
-        guidedSteps: ["Create a slider for the variables \\(m\\) and \\(n\\) and invent numbers", "Type the given expression", "Type each answer choice and match"],
+        guidedSteps: ["Create a slider for the variables \\(m\\) and \\(n\\) and invent numbers", "Declare the given expression", "Type each answer choice and match"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "",
         practice: [
           { text: `Which expression is equivalent to
@@ -1139,7 +1139,7 @@ const parabola = {
         </div>`,
         steps: [
           { text: "Create a slider for the variables \\(n\\) and \\(p\\) and invent numbers", note: "", gif: "", video: "" },
-          { text: "Type the given expression", note: "", gif: "", video: "" },
+          { text: "Declare the given expression", note: "", gif: "", video: "" },
           { text: "Type each answer choice and match", note: "", gif: "", video: "" },
         ],
         guidedProblem: `Which expression is equivalent to
@@ -1162,7 +1162,7 @@ const parabola = {
         <span>\\( 8(5a^2 - 4ab + 3b^2) \\)</span>
         </div>
         </div>`,
-        guidedSteps: ["Create a slider for the variables \\(a\\) and \\(b\\) and invent numbers", "Type the given expression", "Type each answer choice and match"],
+        guidedSteps: ["Create a slider for the variables \\(a\\) and \\(b\\) and invent numbers", "Declare the given expression", "Type each answer choice and match"],
         guidedAnswer: "The Answer is B", guidedScreenshot: "",
         practice: [
           { text: `Which expression is equivalent to 
@@ -1260,7 +1260,269 @@ const parabola = {
         practice: []
       },
  
+ 
       // Problem 12
+      {
+        problem: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 25x^2 - 49y^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (5x - 7y)(5x + 7y) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (25x - 49y)(25x + 49y) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (5x - 49y)(5x + 49y) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (25x - 7y)(25x + 7y) \\)</span>
+        </div>
+        </div>`,
+        steps: [
+          { text: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders. Create sliders using two other variables and invent numbers for them", note: "", gif: "", video: "" },
+          { text: "Declare the given expression using the new slider variables", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "" },
+        ],
+        guidedProblem: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 64m^2 - 121n^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (8m - 121n)(8m + 121nq) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (64m - 11n)(64m + 11n) \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( (8m - 11n)(8m + 11n) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (8m - 11n)^2 \\)</span>
+        </div>
+        </div>`,
+        guidedSteps: [
+          "Create a slider for the variables \\(m\\) and \\(n\\) and invent numbers",
+          "Type the given expression",
+          "Type each answer choice and match to the given expression",
+        ],
+        guidedAnswer: "The Answer is C", guidedAnswerValue: "", guidedScreenshot: "",
+        practice: [
+          { text: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 144p^2 - 169q^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (12p - 169q)(12p + 169q) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (12p - 13q)(12p + 13q) \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( (144p - 13q)(144p + 13q) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (12p + 13q)^2 \\)</span>
+        </div>
+        </div>` },
+          { text: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 225r^2 - 196s^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (15r - 196s)(15r + 196s) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (225r - 14s)(225r + 14s) \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( (15r - 14s)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (15r - 14s)(15r + 14s) \\)</span>
+        </div>
+        </div>` },
+        ]
+      },
+ 
+ 
+      // Problem 13
+      {
+        problem: `If \\(m = \\frac{1}{9}p^2 + \\frac{1}{9}q^2\\) and \\( n = \\frac{1}{9}pq\\), which of the following is equivalent to \\(36m - 72n\\)?
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span> \\((2p - 2q)^2 \\) </span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span> \\((2p + 2q)^2 \\) </span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span> \\((4p - 4q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span> \\((p - q)^2 \\)</span>
+        </div>
+        </div>`,
+        steps: [
+          { text: "Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", note: "", gif: "", video: "" },
+          { text: "Declare the expressions \\(m\\) and \\(n\\)", note: "", gif: "", video: "" },
+          { text: "Declare the given expression", note: "", gif: "", video: "" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "" },
+        ],
+        guidedProblem: `If \\(m = \\frac{3}{8}p^2 + \\frac{3}{8}q^2\\) and \\( n = \\frac{3}{8}pq\\), which of the following is equivalent to \\(8m - 16n\\)?
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span> \\( 3(p + q)^2 \\) </span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span> \\( 3(p + q)^2 \\) </span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span> \\( 6(p - q)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span> \\( 6(p + q)^2 \\)</span>
+        </div>
+        </div>`     
+        , guidedSteps: ["Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", "Declare the expressions \\(m\\) and \\(n\\)", "Declare the given expression", "Type each answer choice and match to the given expression"],
+        guidedAnswer: "The Answer is B", guidedScreenshot: "",
+        practice: [
+          { text: `` },
+          { text: `` },  
+      ]
+      },
+
+ 
+      // Problem 14
+      {
+        problem: `Which expression is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( c^2x^2 - a^2y^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (cx - ay)(cx + ay) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (c^2x - ay)(c^2x + ay) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (cx - a^2y)(cx + a^2y) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (cx - ay)^2 \\)</span>
+        </div>
+        </div>`,
+
+        steps: [
+          { text: "Create a slider for the variables \\(c\\), \\(a\\), \\(x\\), and \\(y\\) and invent numbers", note: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders", gif: "", answer: "", video: "" },
+          { text: "Declare the given expression", note: "", gif: "", answer: "", video: "" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", answer: "", video: "" },
+        ],
+
+        guidedProblem: `Which expression is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( m^2p^2 - n^2q^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (mp - nq)^2 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( (mp - nq)(mp + nq) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (m^2p - nq)(m^2p + nq) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (mp - n^2q)(mp + n^2q) \\)</span>
+        </div>
+        </div>`,
+
+        guidedSteps: [
+          "Create a slider for the variables \\(m\\), \\(n\\), \\(p\\), and \\(q\\) and invent numbers",
+          "Declare the given expression",
+          "Type each answer choice and match to the given expression"
+        ],
+
+        guidedAnswer: "The answer is B",
+        guidedScreenshot: "",
+
+        practice: [
+          {
+            text: `Which expression is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( r^2u^2 - s^2v^2 \\) </p>
+            <div class="mc-choices">
+            <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\( (ru - sv)(ru + sv) \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( (r^2u - sv)(r^2u + sv) \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( (ru - s^2v)(ru + s^2v) \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( (ru + sv)^2 \\)</span>
+            </div>
+            </div>`
+          },
+
+          {
+            text: `Which expression is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( b^2h^2 - d^2k^2 \\) </p>
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( (bh - dk)^2 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( (b^2h - dk)(b^2h + dk) \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( (bh - d^2k)(bh + d^2k) \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\( (bh - dk)(bh + dk) \\)</span>
+            </div>
+            </div>`
+          }
+        ]
+      },
+
+      // Problem 15
       {
         problem: `If 
             <p style="text-align:center;margin-bottom:12px"> \\( m^2 = p + \\frac{q}{2} \\) </p>
@@ -1369,7 +1631,7 @@ const parabola = {
         ]
       },
  
-      // Problem 12
+      // Problem 16
       {
         problem: `Which expression is equivalent to 
             <p style="text-align:center;margin-bottom:12px"> \\( 25x^2 - 49y^2 \\) </p>
@@ -1392,7 +1654,7 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders. Create sliders using two other variables and invent numbers for them", note: "", gif: "", video: "" },
+          { text: "Create sliders using two other variables and invent numbers for them", note: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders", gif: "", video: "" },
           { text: "Type the given expression using the new slider variables", note: "", gif: "", video: "" },
           { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "" },
         ],
@@ -1463,176 +1725,6 @@ const parabola = {
         <span>\\( (15r - 14s)(15r + 14s) \\)</span>
         </div>
         </div>` },
-        ]
-      },
- 
- 
-      // Problem 13
-      {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\(5k^2 + 9k - m = 0\\)
-        </p>
-        <p>In the given equation, \\(m\\) is a constant. One solution is \\(\\frac{-9 + \\sqrt{481}}{10}\\). What is the value of \\(m\\)?</p>
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>16</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>18</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">C</span>
-        <span>20</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>24</span>
-        </div>
-        </div>`,
-        steps: [
-          { text: "Declare the solution given in the equation, type \\(k_1 = \\frac{-9 + \\sqrt{481}}{10}\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784158305/parabola14-step1_whfvhg.mov" },
-          { text: "When this solution is plugged into the equation above, it should return \\(0\\), so type \\(y_1 = 0\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784158341/parabola14-step2_zt1utp.mov" },
-          { text: "Use ~ to determine \\(m\\), by typing into Desmos \\(y_1\\) ~ \\(5k_1^2+9k_1-m\\) which will return that \\(m\\) is \\(20\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784158408/parabola14-step3_dvybue.mov" },
-        ],
-        guidedProblem: `<p style="text-align:center;margin-bottom:12px">
-          \\(3t^2 + bt - 8 = 0 \\)
-        </p>
-        <p>The equation above has one solution that can be written as \\(\\frac{-11+\\sqrt{217}}{6}\\). What is the value of \\(b\\)?</p>`     
-        , guidedSteps: ["Declare the solution given in the equation, using \\(b_1\\)", "Declare \\(y_1\\)", "Use ~ to determine \\(b\\)"],
-        guidedAnswer: "The Answer is \\(11\\)", guidedAnswerValue: "11", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784158294/parabola14-gp_sr77gi.png",
-        practice: [
-          { text: `<p style="text-align:center;margin-bottom:12px">
-            \\(ax^2 + 9x - 4 = 0 \\)
-            </p>
-            <p>The equation shown has one solution that can be written as \\(\\frac{-9+\\sqrt{209}}{16}\\). What is the value of \\(a\\)?</p>`, setup: "The Answer is \\(8\\)", answer:"8", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784158298/parabola14-pp1_bnct6z.png" },
-          { text: `<p style="text-align:center;margin-bottom:12px">
-            \\(5x^2 - 7x + n = 0 \\)
-            </p>
-            <p>In the equation above, \\(n\\) is constant. One solution is \\(\\frac{7+\\sqrt{169}}{10}\\). What is the value of \\(n\\)?</p>`, setup: "The Answer is \\(-6\\)", answer: "-6", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784158301/parabola14-pp2_kco888.png", },  
-      ]
-      },
- 
-      // Problem 14
-      {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\(g(t) = -3t^2 + 126t - 240\\)
-        </p>
-        <p>The function \\(g\\) is defined by the equation above. Which of the following equations below displays the roots of the function as constants or coefficients?</p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( g(t) = -3(x - 2)(x - 40) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( g(t) = -3x(x - 42) - 240 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( g(t) = -3(x-21)^2 + 1083 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( g(t) = -3x^2 + 6x + 120x - 240\\)</span>
-        </div>
-        </div>`,
-        steps: [
-          { text: "Type the function into Desmos. From the graph produced, you can find the zeroes of the function", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1784212603/parabola15-step1_dwjdok.mov" },
-        ],
-        guidedProblem: `<p style="text-align:center;margin-bottom:12px">
-          \\(f(x) = 2x^2 - 26x + 80\\)
-        </p>
-        <p>The function \\(f\\) is defined by the equation above. Which equation below displays the roots of \\(f\\) as constants or coefficients?</p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( f(x) = 2(x - 5)(x - 8) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( f(x) = 2(x - 4)(x - 10) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( f(x) = 2(x-6)(x - 8) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( f(x) = 2(x - 2)(x - 20)\\)</span>
-        </div>
-        </div>`,
-        guidedSteps: ["Type the function into Desmos. From the graph produced, you can find the zeroes of the function"],
-        guidedAnswer: "The Answer is A", guidedScreenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784212602/parabola15-gp_y2vsds.png",
-        practice: [
-          { text: `<p style="text-align:center;margin-bottom:12px">
-            \\(h(x) = 3x^2 - 42x + 126\\)
-            </p>
-            <p>The function \\(h\\) is defined by the equation above. Which equation below displays the roots of \\(h\\) as constants or coefficients?</p>
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( h(x) - 9 = 3x^2 - 42x + 135 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">B</span>
-            <span>\\( h(x) = 3(x - 5)(x - 9) \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( h(x) = 3x(x - 14) + 135 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( h(x) = 3(x - 7)^2 - 12\\)</span>
-            </div>
-            </div>`
-            , setup: "The Answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784212602/parabola15-pp1_beuxj3.png" },
-          { text: `<p style="text-align:center;margin-bottom:12px">
-            \\(x - 3y^2 + 18y  - 15 = 0\\)
-            </p>
-            <p>The function in the \\(xy\\)-plane has the equation shown above. Which equation displays the roots of the quadratic function in \\(y\\) as coefficients or constants?</p>
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( y = \\frac{\\sqrt{x + 12}}{3} + 3\\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">B</span>
-            <span>\\( x = 3(y - 1)(y-5) \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( x = 3(y - 3)^2 + 12 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">D</span>
-            <span>\\( x = 3y^2 - 18y + 15\\)</span>
-            </div>
-            </div>`, setup: "The Answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784212602/parabola15-pp2_bsnyao.png" },
-          { text: `<p style="text-align:center;margin-bottom:12px">
-            \\(p(x) = 2x^2 - 26x + 80\\)
-            </p>
-            <p>The function \\(p\\) is defined by the equation above. Which equation displays the solutions of \\(p\\) as constants or coefficients?</p>
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( p(x) = 2x^2 - 10x - 16x + 80 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">B</span>
-            <span>\\( p(x) = (x - 5)(2x - 16) \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( p(x) = 2x(x - 13) + 80 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( p(x) = 2(x - 6.5)^2 - \\frac{9}{2}\\)</span>
-            </div>
-            </div>`, setup: "The Answer is B", screenshot: "https://res.cloudinary.com/dnyaptowc/image/upload/v1784212602/parabola15-pp3_ejstuu.png" },
         ]
       },
  
