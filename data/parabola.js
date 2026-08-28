@@ -581,8 +581,8 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Declare the expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
+          { text: "Declare the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787949875/problem4-step1_bvpbzf.mov" },
+          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787949876/problem4-step2_cvbovx.mov" },
         ],
         guidedProblem: `<p>The equation</p>
         <p style="text-align:center;margin-bottom:12px">\\( y = 4x^2 - 3x^2 - 45 \\)?</p>
