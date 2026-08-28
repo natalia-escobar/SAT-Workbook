@@ -1466,9 +1466,9 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders. Create sliders using two other variables and invent numbers for them", note: "", gif: "", video: "" },
-          { text: "Declare the given expression using the new slider variables", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "" },
+          { text: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders. Create sliders using two other variables and invent numbers for them", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787956045/problem14-step1_oajb7k.mov" },
+          { text: "Declare the given expression using the new slider variables", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787956046/problem14-step2_d25d0p.mov" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787956052/problem14-step3_ojvxqk.mov" },
         ],
         guidedProblem: `Which expression is equivalent to 
             <p style="text-align:center;margin-bottom:12px"> \\( 64m^2 - 121n^2 \\) </p>
