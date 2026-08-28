@@ -954,8 +954,8 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Type the function \\(f(x)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
-          { text: "Type \\(f(5)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
+          { text: "Type the function \\(f(x)\\) into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952425/problem8-step1_txkmhq.mov" },
+          { text: "Type \\(f(5)\\) into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952426/problem8-step2_pjtg0k.mov" },
         ],
 
         guidedProblem: `The function \\(g\\) is defined by
