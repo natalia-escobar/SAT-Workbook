@@ -863,9 +863,9 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Type the function \\(f(x)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
-          { text: "Type \\(f\\left(\\frac{7}{10}\\right)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
-          { text: "Match the value Desmos returns to an answer choice", note: "", gif: "", answer: "", video: "" },
+          { text: "Declare the function \\(f(x)\\) into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952051/problem7-step1_e6ygig.mov" },
+          { text: "Plug in \\( \\frac{7}{10}\\) into the function in Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952052/problem7-step2_z2es0x.mov" },
+          { text: "Match the value the function returns to an answer choice", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952053/problem7-step3_qczgm1.mov" },
         ],
 
         guidedProblem: `The function \\(g\\) is defined by
@@ -892,8 +892,8 @@ const parabola = {
         </div>`,
 
         guidedSteps: [
-          "Type the function \\(g(x)\\) into Desmos",
-          "Type \\(g\\left(\\frac{1}{6}\\right)\\) into Desmos",
+          "Declare the function \\(g(x)\\) into Desmos",
+          "Plug in \\( \\frac{1}{6} \\) into Desmos",
           "Match the value Desmos returns to an answer choice"
         ],
 
