@@ -770,8 +770,8 @@ const parabola = {
                 </div>
               </div>`,
         steps: [
-          { text: "Declare the expression into Desmos", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "" },
+          { text: "Declare the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787951629/problem6-step1_am6bjo.mov" },
+          { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787951630/problem6-step2_sxqe51.mov" },
         ],
         guidedProblem: `Which of the following expressions is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( 4(2x + 3)^2 - 144 \\)?</p>
