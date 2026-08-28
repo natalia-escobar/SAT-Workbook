@@ -1852,24 +1852,127 @@ const parabola = {
         ]
       },
 
-      // Problem 16
+      // Problem 18
       {
-        problem: `<p style="text-align:center;margin-bottom:12px">
-          \\(x^2 - 5x - 24 = 0\\)
-        </p>
-        <p>THIS IS AN SAT QUESTION - NEED TO CHANGE What is the sum of the solutions to the given equation?</p>`,
+        problem: `The functions \\(r\\) and \\(s\\) are defined by the equations shown.
+            <p style="text-align:center;margin-bottom:12px"> \\( r(x) = 2(3x - 1)(x + 4) \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( s(x) = \\left(\\frac{5}{2}x + 3\\right)(2x - 5) \\) </p>
+            Which expression is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( r(x) - s(x) \\)? </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( x^2 + \\frac{57}{2}x - 7 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 11x^2 + \\frac{57}{2}x + 7 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( x^2 + \\frac{31}{2}x + 7 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( x^2 + \\frac{57}{2}x + 7 \\)</span>
+        </div>
+        </div>`,
+
         steps: [
-          { text: "Type the given equation into Desmos. From the graph produced, you can visually see the solutions on the \\(x\\)-axis", note: "", gif: "", video: "" },
-          { text: "Add the solutions to find the sum", note: "", gif: "", video: "" },
+          { text: "Type the functions \\(r(x)\\) and \\(s(x)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
+          { text: "Type the given expression into Desmos", note: "", gif: "", answer: "", video: "" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "" },
         ],
-        guidedProblem: "[Guided problem for Topic 2]",
-        guidedSteps: ["[Step 1]", "[Step 2]", "[Step 3]", "[Step 4]"],
-        guidedAnswer: "[Desmos setup and answer]",
+
+        guidedProblem: `The functions \\(f\\) and \\(g\\) are defined by the equations shown.
+            <p style="text-align:center;margin-bottom:12px"> \\( f(x) = \\left(\\frac{5}{6}x - 3\\right)(3x + 6) \\) </p>
+            and
+            <p style="text-align:center;margin-bottom:12px"> \\( g(x) = 4(2x + 7)(x - 8) \\) </p>
+            Which expression is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( f(x) + g(x) \\)? </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{9}{2}x^2 - 13x - 74 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{21}{2}x^2 + 32x - 242 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{21}{2}x^2 - 40x - 206 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{21}{2}x^2 - 40x - 242 \\)</span>
+        </div>
+        </div>`,
+
+        guidedSteps: [
+          "Type the functions \\(f(x)\\) and \\(g(x)\\) into Desmos",
+          "Type the given expression into Desmos",
+          "Type each answer choice and match it to the given expression"
+        ],
+
+        guidedAnswer: "The answer is D",
+        guidedScreenshot: "",
+
         practice: [
-          { text: "[Problem 1]", setup: "[Setup 1]" },
-          { text: "[Problem 2]", setup: "[Setup 2]" },
-          { text: "[Problem 3]", setup: "[Setup 3]" },
-          { text: "[Problem 4]", setup: "[Setup 4]" },
+          {
+            text: `The functions \\(f\\) and \\(g\\) are defined by the equations shown.
+                <p style="text-align:center;margin-bottom:12px"> \\( f(x) = 3\\left(x - \\frac{5}{2}\\right)^2 \\) </p>
+                and
+                <p style="text-align:center;margin-bottom:12px"> \\( g(x) = 2(2x + 1)(x - 4) \\) </p>
+                Which expression is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( f(x) + g(x) \\)? </p>
+            <div class="mc-choices">
+            <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\( 7x^2 - 29x + \\frac{43}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 7x^2 - 29x + \\frac{107}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 11x^2 - 29x + \\frac{43}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 7x^2 - x + \\frac{43}{4} \\)</span>
+            </div>
+            </div>`
+          },
+
+          {
+            text: `The functions \\(p\\) and \\(q\\) are defined by the equations shown.
+                <p style="text-align:center;margin-bottom:12px"> \\( p(x) = 5\\left(x + \\frac{3}{2}\\right)^2 \\) </p>
+                and
+                <p style="text-align:center;margin-bottom:12px"> \\( q(x) = 3(x - 2)(x + 5) \\) </p>
+                Which expression is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( p(x) - q(x) \\)? </p>
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( 2x^2 + 18x + \\frac{165}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 8x^2 + 6x + \\frac{165}{4} \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( 2x^2 + 6x + \\frac{165}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 2x^2 + 6x - \\frac{165}{4} \\)</span>
+            </div>
+            </div>`
+          }
         ]
       },
 
