@@ -1412,11 +1412,11 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", note: "", gif: "", video: "" },
-          { text: "Declare the expression for \\( m \\)", note: "", gif: "", video: "" },
-          { text: "Declare the expression for \\( n \\)", note: "", gif: "", video: "" },
-          { text: "Type the given expression", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "" },
+          { text: "Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787955499/problem13-step1_i1uivh.mov" },
+          { text: "Declare the expression for \\( m \\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787955501/problem13-step2_nuv6n4.mov" },
+          { text: "Declare the expression for \\( n \\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787955504/problem13-step3_wtdcmv.mov" },
+          { text: "Type the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787955507/problem13-step4_hwqk0e.mov" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787955509/problem13-step5_narsif.mov" },
         ],
         guidedProblem: `If \\( m = \\frac{3}{8}p^2 + \\frac{3}{8}q^2 \\) and \\( n = \\frac{3}{8}pq \\), which of the following is equivalent to \\( 8m - 16n \\)?
         <div class="mc-choices">
