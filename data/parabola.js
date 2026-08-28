@@ -3,6 +3,7 @@ const parabola = {
   name: "Parabola",
   meta: "",
   workedProblems: [
+
     // Problem 1
       {
         problem: `<p>Which expression is equivalent to </p>
@@ -27,7 +28,7 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Declare the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787947333/problem1-step1_h3pbti.mov" },
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787947333/problem1-step1_h3pbti.mov" },
           { text: "Type each answer choice and match it to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787947333/problem1-step2_ylozed.mov" },
         ],
         guidedProblem: `<p>Which expression is equivalent to </p>
@@ -51,7 +52,7 @@ const parabola = {
               <span>\\( 4x^2 - 8x + 4 \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Declare the given expression into Desmos", "Type each answer choice and match it to the given expression"],
+        guidedSteps: ["Type the given expression into Desmos", "Type each answer choice and match it to the given expression"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "",
         practice: [ 
           { text: `<p>Which expression is equivalent to </p>
@@ -252,7 +253,7 @@ const parabola = {
               <span>\\( 3x^2 + \\frac{37}{2}x - 45 \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Declare the given expression into Desmos", "Type each answer choice and match it to the given expression"],
+        guidedSteps: ["Type the given expression into Desmos", "Type each answer choice and match it to the given expression"],
         guidedAnswer: "", guidedScreenshot: "",
         practice: [
           {text: `<p>Which expression is equivalent to</p>
@@ -403,7 +404,7 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Declare the given expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787949102/problem3-step1_hocwbj.mov" },
+          { text: "Type the given expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787949102/problem3-step1_hocwbj.mov" },
           { text: "Type each answer choice and match it to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787949103/problem3-step2_efc7vk.mov" },
         ],
         guidedProblem: `<p>Which of the following is equivalent to</p>
@@ -426,7 +427,7 @@ const parabola = {
               <span>\\( 4x^2 - 6x + \\frac{5}{2} \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Declare the given expression into Desmos", "Type each answer choice and match it to the given expression"],
+        guidedSteps: ["Type the given expression into Desmos", "Type each answer choice and match it to the given expression"],
         guidedAnswer: "", guidedScreenshot: "",
         practice: [ { text: `<p>Which of the following is equivalent to</p>
                     <p style="text-align:center;margin-bottom:12px">\\((4x + \\frac{1}{2})^2 - 2(x - \\frac{3}{4}) + (x + \\frac{1}{4})\\)?</p>
@@ -581,7 +582,7 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Declare the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787949875/problem4-step1_bvpbzf.mov" },
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787949875/problem4-step1_bvpbzf.mov" },
           { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787949876/problem4-step2_cvbovx.mov" },
         ],
         guidedProblem: `<p>The equation</p>
@@ -605,7 +606,7 @@ const parabola = {
               <span>\\( y = (x + 5\\sqrt{3})(x - 5\\sqrt{3}) \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Declare the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "", 
         guidedScreenshot: "",
         practice: [
@@ -677,7 +678,7 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Declare the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787950352/problem5-step1_myedw6.mov" },
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787950352/problem5-step1_myedw6.mov" },
           { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787950353/problem5-step2_abdkr9.mov" },
         ],
         guidedProblem: `<p>Which of the following is an equivalent form of the expression </p>
@@ -700,7 +701,7 @@ const parabola = {
                               <span>\\( (4x + 1)(4x - 3) \\)</span>
                             </div>
                           </div>`,
-        guidedSteps: ["Declare the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "The Answer is A", guidedScreenshot: "", 
         guidedScreenshot: "",
         practice: [
@@ -770,7 +771,7 @@ const parabola = {
                 </div>
               </div>`,
         steps: [
-          { text: "Declare the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787951629/problem6-step1_am6bjo.mov" },
+          { text: "Type the expression into Desmos", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787951629/problem6-step1_am6bjo.mov" },
           { text: "Type each answer choice and match it to the original expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787951630/problem6-step2_sxqe51.mov" },
         ],
         guidedProblem: `Which of the following expressions is equivalent to
@@ -792,7 +793,7 @@ const parabola = {
               <span>\\( 4(2x + 3)(2x + 9) \\)</span>
             </div>
           </div>`,
-        guidedSteps: ["Declare the expression into Desmos", "Type each answer choice and match it to the original expression"],
+        guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "The Answer is B", guidedScreenshot: "",
         practice: [
           { text: `Which of the following expressions is equivalent to
@@ -954,8 +955,8 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Type the function \\(f(x)\\) into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952425/problem8-step1_txkmhq.mov" },
-          { text: "Type \\(f(5)\\) into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952426/problem8-step2_pjtg0k.mov" },
+          { text: "Declare the function \\(f(x)\\) into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952425/problem8-step1_txkmhq.mov" },
+          { text: "Plug in \\(5\\) into the function in Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952426/problem8-step2_pjtg0k.mov" },
         ],
 
         guidedProblem: `The function \\(g\\) is defined by
@@ -983,7 +984,7 @@ const parabola = {
 
         guidedSteps: [
           "Type the function \\(g(x)\\) into Desmos",
-          "Type \\(g(4)\\) into Desmos",
+          "Plug in \\(4\\) into the function in Desmos",
         ],
 
         guidedAnswer: "The answer is C",
@@ -1039,9 +1040,9 @@ const parabola = {
             </div>
           </div>`,
         steps: [
-          { text: "Create a slider for the variable \\(n\\) and invent a number", note: "", gif: "", video: "" },
-          { text: "Declare the given expression", gif: "", video: "" },
-          { text: "Type each answer choice and match", note: "", gif: "", video: "" },
+          { text: "Create a slider for the variable \\(n\\) and invent a number", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952758/problem9-step1_k6k2ke.mov" },
+          { text: "Type the given expression", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952759/problem9-step2_qslpqe.mov" },
+          { text: "Type each answer choice and match", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952765/problem9-step3_f0nhik.mov" },
         ],
         guidedProblem: `Which of the following is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( (3r - \\frac{1}{2})^2 + 2(r + \\frac{3}{4}) - (r - \\frac{1}{2})\\)?</p>
