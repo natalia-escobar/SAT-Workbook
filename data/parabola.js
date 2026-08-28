@@ -1320,9 +1320,9 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Create a slider for the variables \\(n\\) and \\(p\\) and invent numbers", note: "", gif: "", video: "" },
-          { text: "Declare the given expression", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match", note: "", gif: "", video: "" },
+          { text: "Create a slider for the variables \\(n\\) and \\(p\\) and invent numbers", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787954505/problem12-step1_qqu001.mov" },
+          { text: "Declare the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787954506/problem12-step2_spdscq.mov" },
+          { text: "Type each answer choice and match", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787954510/problem12-step3_j0pocv.mov" },
         ],
         guidedProblem: `Which expression is equivalent to
         <p style="text-align:center;margin-bottom:12px"> \\( ( 20a^2 - 32ab + 12b^2) \\) </p>
