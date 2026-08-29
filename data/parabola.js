@@ -1731,9 +1731,9 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Create a slider for the variables \\(p\\), \\(q\\), and \\(r\\) and invent numbers", note: "", gif: "", answer: "" , video: "" },
-          { text: "Recognize that you can subsitute the equations for \\(m^2\\) and \\(n^2\\) into the given expression", note: "", gif: "", answer: "" , video: "" },
-          { text: "Type each answer choice and match to the given expression", note: "", gif: "", answer: "" , video: "" },
+          { text: "Create a slider for the variables \\(p\\), \\(q\\), and \\(r\\) and invent numbers", note: "", gif: "", answer: "" , video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788022942/problem17-step1_melodb.mov" },
+          { text: "Recognize that you can subsitute the equations for \\(m^2\\) and \\(n^2\\) into the given expression", note: "", gif: "", answer: "" , video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788022945/problem17-step2_dhjzcl.mov" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", answer: "" , video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788022949/problem17-step3_wgiae0.mov" },
         ],
         guidedProblem: `If 
             <p style="text-align:center;margin-bottom:12px"> \\( u^2 = s + \\frac{3t}{2} \\) </p>
