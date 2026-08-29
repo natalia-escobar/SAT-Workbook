@@ -1836,9 +1836,9 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Create sliders using two other variables and invent numbers for them", note: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders", gif: "", video: "" },
-          { text: "Type the given expression using the new slider variables", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "" },
+          { text: "Create sliders using two other variables and invent numbers for them", note: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788026165/problem18-step1_vezxgf.mov" },
+          { text: "Type the given expression using the new slider variables", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788026165/problem18-step2_su9f6j.mov" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788026165/problem18-step3_gunsai.mov" },
         ],
         guidedProblem: `Which expression is equivalent to 
             <p style="text-align:center;margin-bottom:12px"> \\( 64m^2 - 121n^2 \\) </p>
@@ -2062,9 +2062,9 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Type the functions \\(r(x)\\) and \\(s(x)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
-          { text: "Type the given expression into Desmos", note: "", gif: "", answer: "", video: "" },
-          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "" },
+          { text: "Type the functions \\(r(x)\\) and \\(s(x)\\) into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030024/problem20-step1_emj7ro.mov" },
+          { text: "Type the given expression into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030024/problem20-step2_gtnuhs.mov" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030024/problem20-step2_gtnuhs.mov" },
         ],
 
         guidedProblem: `The functions \\(f\\) and \\(g\\) are defined by the equations shown.
@@ -2185,10 +2185,10 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Create a slider that follows the given constraints for \\(x\\)", note: "Note that you cannot use \\(x\\) as a slider so you need to choose another variable", gif: "", answer: "", video: "" },
-          { text: "Declare the expression for \\(u\\)", note: "", gif: "", answer: "", video: "" },
-          { text: "Declare the given expression", note: "", gif: "", answer: "", video: "" },
-          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "" },
+          { text: "Create a slider that follows the given constraints for \\(x\\)", note: "Note that you cannot use \\(x\\) as a slider so you need to choose another variable", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030684/problem21-step1_lq1lw2.mov" },
+          { text: "Declare the expression for \\(u\\)", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030685/problem21-step2_rrfpq3.mov" },
+          { text: "Declare the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030685/problem21-step3_xjeyw5.mov" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030685/problem21-step4_zzmshj.mov" },
         ],
 
         guidedProblem: `The function \\(f\\) is defined by
