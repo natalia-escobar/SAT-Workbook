@@ -2309,10 +2309,11 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Create a slider for \\(k\\)", note: "", gif: "", answer: "", video: "" },
-          { text: "Declare the expressions for \\(p\\) and \\(q\\) into Desmos", note: "", gif: "", answer: "", video: "" },
-          { text: "Type the given expression", note: "", gif: "", answer: "", video: "" },
-          { text: "Adjust \\(k\\) using the answer choices until the expressions match", note: "", gif: "", answer: "", video: "" },
+          { text: "Create a slider for \\(k\\)", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788031562/problem22-step1_mrdneo.mov" },
+          { text: "Declare the expressions for \\(p\\) and \\(q\\) into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788031563/problem22-step2_sdmdf5.mov" },
+          { text: "Type the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788031563/problem22-step3_swxex1.mov" },
+          { text: "Type the second given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788031564/problem22-step4_dly0ls.mov" },
+          { text: "Adjust \\(k\\) using the answer choices until the expressions match", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788031568/problem22-step5_forxe7.mov" },
         ],
 
         guidedProblem: `If
