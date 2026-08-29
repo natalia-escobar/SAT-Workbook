@@ -841,9 +841,8 @@ const parabola = {
 
       {
         problem: `The function \\(f\\) is defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=6\\left(x-\\frac{2}{5}\\right)^2+\\frac{7}{3} \\) </p>
-            What is the value of
-            <p style="text-align:center;margin-bottom:12px"> \\( f\\left(\\frac{7}{10}\\right) \\)? </p>
+            <p style="text-align:center;margin-bottom:12px"> \\(f(x)=6(x-\\frac{2}{5})^2+\\frac{7}{3}\\) </p>
+            What is the value of \\(f(\\frac{7}{10})\\)?
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -871,8 +870,7 @@ const parabola = {
 
         guidedProblem: `The function \\(g\\) is defined by
             <p style="text-align:center;margin-bottom:12px"> \\( g(x)=4\\left(x+\\frac{1}{3}\\right)^2+\\frac{5}{2} \\) </p>
-            What is the value of
-            <p style="text-align:center;margin-bottom:12px"> \\( g\\left(\\frac{1}{6}\\right) \\)? </p>
+            What is the value of \\( g(\\frac{1}{6}) \\)? </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -904,9 +902,8 @@ const parabola = {
         practice: [
           {
             text: `The function \\(h\\) is defined by
-                <p style="text-align:center;margin-bottom:12px"> \\( h(x)=8\\left(x-\\frac{1}{4}\\right)^2+\\frac{11}{6} \\) </p>
-                What is the value of
-                <p style="text-align:center;margin-bottom:12px"> \\( h\\left(\\frac{5}{6}\\right) \\)? </p>
+                <p style="text-align:center;margin-bottom:12px"> \\( h(x)=8(x-\\frac{1}{4})^2+\\frac{11}{6} \\) </p>
+                What is the value of \\(h(\\frac{5}{6}) \\)? </p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -933,8 +930,7 @@ const parabola = {
       {
         problem: `The function \\(f\\) is defined by
             <p style="text-align:center;margin-bottom:12px"> \\( f(x)=4(3x-2)(20-2x) \\) </p>
-            What is the value of
-            <p style="text-align:center;margin-bottom:12px"> \\( f(5) \\)? </p>
+            What is the value of \\( f(5) \\)?
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -961,8 +957,7 @@ const parabola = {
 
         guidedProblem: `The function \\(g\\) is defined by
             <p style="text-align:center;margin-bottom:12px"> \\( g(x)=6(2x+1)(18-3x) \\) </p>
-            What is the value of
-            <p style="text-align:center;margin-bottom:12px"> \\( g(4) \\)? </p>
+            What is the value of \\( g(4) \\)?
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -994,8 +989,7 @@ const parabola = {
           {
             text: `The function \\(h\\) is defined by
                 <p style="text-align:center;margin-bottom:12px"> \\( h(x)=5(4x-1)(15-2x) \\) </p>
-                What is the value of
-                <p style="text-align:center;margin-bottom:12px"> \\( h(3) \\)? </p>
+                What is the value of \\( h(3) \\)?
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
