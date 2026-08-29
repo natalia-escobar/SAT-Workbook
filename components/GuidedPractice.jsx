@@ -24,22 +24,36 @@ export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswe
 
   const selectedChoiceRef = useRef(null);
 
-  const handleChoiceClick = (e) => {
+    const handleChoiceClick = (e) => {
     const choice = e.target.closest(".mc-choice");
     if (!choice) return;
-    if (!allChecked) return;
 
     if (selectedChoiceRef.current && selectedChoiceRef.current !== choice) {
       selectedChoiceRef.current.style.borderColor = "";
       selectedChoiceRef.current.style.background = "";
+      const oldCheck = selectedChoiceRef.current.querySelector(".gp-checkmark");
+      if (oldCheck) oldCheck.remove();
+      const oldLabel = selectedChoiceRef.current.querySelector(".mc-label");
+      if (oldLabel) { oldLabel.style.borderColor = ""; oldLabel.style.color = ""; oldLabel.style.background = ""; }
     }
 
     const isCorrect = choice.classList.contains("correct");
     choice.style.borderColor = isCorrect ? "#1D9E75" : "#b3452e";
-    choice.style.background = isCorrect ? "#E1F5EE" : "#FBEAE5";
-    selectedChoiceRef.current = choice;
+    choice.style.background = "#fff";
 
-    setRevealed(true);
+    if (isCorrect) {
+      const label = choice.querySelector(".mc-label");
+      if (label) { label.style.borderColor = "#1D9E75"; label.style.color = "#085041"; label.style.background = "#9FE1CB"; }
+      if (!choice.querySelector(".gp-checkmark")) {
+        const check = document.createElement("div");
+        check.className = "gp-checkmark";
+        check.style.cssText = "width:22px;height:22px;border-radius:50%;background:#1D9E75;color:#fff;font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;margin-left:auto;flex-shrink:0";
+        check.textContent = "✓";
+        choice.appendChild(check);
+      }
+    }
+
+    selectedChoiceRef.current = choice;
   };
 
   return (
@@ -71,28 +85,7 @@ export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswe
             ))}
         </div>
         
-        <div className={`guided-answer-panel ${revealed ? "shown" : ""}`}>
-            <div style={{ fontSize: "11px", fontWeight: 500, textTransform: "uppercase", letterSpacing: ".05em", color: "#085041", marginBottom: "6px" }}>
-                Answer
-            </div>
-            <MathContent text={guidedAnswer} className="guided-answer-text" />
-            {guidedScreenshot ? (
-                <div className="guided-screenshot"><img src={guidedScreenshot} alt="Desmos setup" /></div>
-            ) : (
-                <div className="guided-screenshot"><div className="guided-screenshot-placeholder">Screenshot coming soon</div></div>
-            )}
-        </div>
         
-        <button
-            className="reveal-btn"
-            onClick={handleReveal}
-            disabled={!allChecked}
-            title={!allChecked ? "Check off every step first" : undefined}
-            style={{ marginTop: "12px" }}
-        >
-            <i className={`ti ${revealed ? "ti-eye-off" : "ti-eye"}`} />
-            {revealed ? " Hide answer" : " Reveal answer"}
-        </button>
     </div>
     </div>
   );
