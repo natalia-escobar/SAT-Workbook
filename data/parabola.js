@@ -2517,9 +2517,9 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Create a slider for \\(r\\)", note: "", gif: "", answer: "", video: "" },
-          { text: "Type both expressions into Desmos", note: "", gif: "", answer: "", video: "" },
-          { text: "Adjust \\(r\\) until the two expressions are equivalent, then match the value to an answer choice", note: "", gif: "", answer: "", video: "" },
+          { text: "Create a slider for \\(r\\)", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788032731/problem24-step1_vnnkqa.mov" },
+          { text: "Type both expressions into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788032732/problem24-step2_oqx26v.mov" },
+          { text: "Adjust \\(r\\) until the two expressions are equivalent, then match the value to an answer choice", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788032732/problem24-step3_bswodm.mov" },
         ],
 
         guidedProblem: `The expression
