@@ -1563,10 +1563,10 @@ const parabola = {
         </div>
         </div>`,
         steps: [
-          { text: "Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", note: "", gif: "", video: "" },
-          { text: "Declare the expressions \\(m\\) and \\(n\\)", note: "", gif: "", video: "" },
-          { text: "Declare the given expression", note: "", gif: "", video: "" },
-          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "" },
+          { text: "Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788021925/problem15-step1_h0elbu.mov" },
+          { text: "Declare the expressions \\(m\\) and \\(n\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788021926/problem15-step2_cxpvs4.mov" },
+          { text: "Declare the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788021931/problem15-step3_bbluaz.mov" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788021933/problem15-step4_yjh1ei.mov" },
         ],
         guidedProblem: `If \\(m = \\frac{3}{8}p^2 + \\frac{3}{8}q^2\\) and \\( n = \\frac{3}{8}pq\\), which of the following is equivalent to \\(8m - 16n\\)?
         <div class="mc-choices">
@@ -1620,9 +1620,9 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Create a slider for the variables \\(c\\), \\(a\\), \\(x\\), and \\(y\\) and invent numbers", note: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders", gif: "", answer: "", video: "" },
-          { text: "Declare the given expression", note: "", gif: "", answer: "", video: "" },
-          { text: "Type each answer choice and match to the given expression", note: "", gif: "", answer: "", video: "" },
+          { text: "Create a slider for the variables \\(c\\), \\(a\\), \\(x\\), and \\(y\\) and invent numbers", note: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788022427/problem16-step1_hijquq.mov" },
+          { text: "Declare the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788022428/problem16-step2_actxyg.mov" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788022433/problem16-step3_vtytpj.mov" },
         ],
 
         guidedProblem: `Which expression is equivalent to
