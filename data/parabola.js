@@ -2627,7 +2627,7 @@ const parabola = {
             <p style="margin-bottom:12px">What is the value of \\(b-c\\)?</p>`,
 
         steps: [ 
-          { text: "", note: "", gif: "", answer: "", video: "" },
+          { text: "This question cannot be done on Desmos", note: "", gif: "", answer: "", video: "" },
         ],
 
         guidedProblem: `The functions are defined by
@@ -2704,8 +2704,8 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Declare the given expression in Desmos", note: "", gif: "", answer: "", video: "" },
-          { text: "Recognize that \\(f(1)=\\frac{p+q+r}{3}\\) and type \\(3f(1)\\) into Desmos to find \\(p+q+r\\)", note: "", gif: "", answer: "", video: "" },
+          { text: "Declare the given expression as \\(f(x)\\) in Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788033621/problem26-step1_ri7txu.mov" },
+          { text: "Recognize that \\(f(1)=\\frac{p+q+r}{3}\\) and type \\(3f(1)\\) into Desmos to find \\(p+q+r\\)", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788033622/problem26-step2_zbtlit.mov" },
         ],
 
         guidedProblem: `A quadratic expression is equivalent to
@@ -2805,8 +2805,8 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Declare the given expression in Desmos", note: "", gif: "", answer: "", video: "" },
-          { text: "Recognize that \\(f(-1)=\\frac{a-b+c}{2}\\) and type \\(2f(-1)\\) into Desmos to find \\(a-b+c\\)", note: "", gif: "", answer: "", video: "" },
+          { text: "Declare the given expression as \\(f(x)\\) in Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788033902/problem27-step1_ovyolv.mov" },
+          { text: "Recognize that \\(f(-1)=\\frac{a-b+c}{2}\\) and type \\(2f(-1)\\) into Desmos to find \\(a-b+c\\)", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788033903/problem27-step2_u0mqva.mov" },
         ],
 
         guidedProblem: `If
@@ -2929,7 +2929,7 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "", note: "", gif: "", answer: "", video: "" },
+          { text: "This question cannot be done on Desmos", note: "", gif: "", answer: "", video: "" },
         ],
 
         guidedProblem: `The function \\(f\\) is defined by
