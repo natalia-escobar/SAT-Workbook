@@ -1938,9 +1938,9 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Declare the functions \\(g(x)\\) and \\(h(x)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
-          { text: "Type the given expression into Desmos", note: "", gif: "", answer: "", video: "" },
-          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "" },
+          { text: "Declare the functions \\(g(x)\\) and \\(h(x)\\) into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788024280/problem19-step1_pdoqfm.mov" },
+          { text: "Type the given expression into Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788024282/problem19-step2_qrw0ji.mov" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788024286/problem19-step3_korlxr.mov" },
         ],
 
         guidedProblem: `The functions are defined by
