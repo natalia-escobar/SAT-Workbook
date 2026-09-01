@@ -1871,7 +1871,116 @@ const parabola = {
         </div>`, 
         },
 
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>The expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\frac{1}{6}(3p^2 - 450) \\)</p>
+    <p>is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\frac{1}{2}(p-r)(p+r), \\)</p>
+    <p>where \\(r\\) is a positive constant.</p>
+    <p>What is the value of \\(r\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(5\\sqrt{3}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(10\\sqrt{2}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(5\\sqrt{2}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(5\\sqrt{6}\\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\frac{1}{4}(4r^2 - 320) \\)</p>
+    <p>is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( (r-t)(r+t), \\)</p>
+    <p>where \\(t\\) is a positive constant.</p>
+    <p>What is the value of \\(t\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(4\\sqrt{5}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(8\\sqrt{2}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(2\\sqrt{10}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(4\\sqrt{3}\\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\frac{1}{5}(10m^2 - 600) \\)</p>
+    <p>is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 2(m-r)(m+r), \\)</p>
+    <p>where \\(r\\) is a positive constant.</p>
+    <p>What is the value of \\(r\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(5\\sqrt{3}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(2\\sqrt{15}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(2\\sqrt{10}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(5\\sqrt{2}\\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\frac{1}{8}(2n^2 - 224) \\)</p>
+    <p>is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\frac{1}{4}(n-r)(n+r), \\)</p>
+    <p>where \\(r\\) is a positive constant.</p>
+    <p>What is the value of \\(r\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(2\\sqrt{14}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(4\\sqrt{7}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(4\\sqrt{5}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(2\\sqrt{10}\\)</span>
+      </div>
+    </div>` },
+],
       },
  
       // Problem 12
