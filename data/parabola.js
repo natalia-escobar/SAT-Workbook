@@ -3448,7 +3448,120 @@ const parabola = {
             </div>
             </div>`
           }
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>The functions \\(r\\) and \\(s\\) are defined by the equations shown.</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( r(x) = 3(2x - 1)(x + 5) \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( s(x) = \\left(\\frac{5}{2}x - 2\\right)(2x + 3) \\)</p>
+    <p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( r(x) - s(x)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( x^2 + \\frac{47}{2}x + 9 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( x\\left(x + \\frac{47}{2}\\right) - 9 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 2x^2 + \\frac{47}{2}x - 9 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( x\\left(x + \\frac{43}{2}\\right) - 9 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The functions \\(f\\) and \\(g\\) are defined by the equations shown.</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( f(x) = 2(3x + 2)(x - 4) \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( g(x) = \\left(\\frac{5}{2}x + 1\\right)(2x - 6) \\)</p>
+    <p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( f(x) - g(x)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( x^2 - 7x + 10 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( x(x - 5) - 10 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( x(x - 7) - 10 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( x^2 - 13x - 10 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The functions \\(p\\) and \\(q\\) are defined by the equations shown.</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( p(x) = 4(x - 3)(2x + 1) \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( q(x) = \\left(\\frac{3}{2}x - 5\\right)(4x + 2) \\)</p>
+    <p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( p(x) - q(x)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (2x - 1)(x + 2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 2x(x - 1) - x - 2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 2x^2 + 3x - 2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (2x + 1)(x - 2) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The functions \\(m\\) and \\(n\\) are defined by the equations shown.</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( m(x) = 2(4x - 1)(x + 3) \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( n(x) = \\left(\\frac{7}{2}x + 2\\right)(2x - 5) \\)</p>
+    <p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( m(x) - n(x)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( x^2 + \\frac{71}{2}x + 4 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( x\\left(x + \\frac{71}{2}\\right) - 4 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( x^2 + \\frac{35}{2}x + 4 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 2x^2 + \\frac{71}{2}x + 4 \\)</span>
+      </div>
+    </div>` },
+],
       },
 
       // Problem 21
