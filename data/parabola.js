@@ -3925,7 +3925,136 @@ const parabola = {
             </div>
             </div>`
           }
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( p = 3x + 2 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( q = 2x - 5, \\)</p>
+    <p>the expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( pq + 2p - q \\)</p>
+    <p>is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 6x^2 + cx - 1, \\)</p>
+    <p>where \\(c\\) is a constant. What is the value of \\(c\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-11\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-7\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(-5\\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( r = 5x - 2 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( s = 2x + 3, \\)</p>
+    <p>the expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( rs - 2r + s \\)</p>
+    <p>is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 10x^2 + dx + 1, \\)</p>
+    <p>where \\(d\\) is a constant. What is the value of \\(d\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(1\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(3\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(5\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(7\\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( a = 4x + 1 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( b = 3x - 2, \\)</p>
+    <p>the expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( ab - a + 2b \\)</p>
+    <p>is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 12x^2 + kx - 7, \\)</p>
+    <p>where \\(k\\) is a constant. What is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-7\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-5\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(-3\\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( u = 2x - 3 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( v = 5x + 4, \\)</p>
+    <p>the expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( uv + 3u - v \\)</p>
+    <p>is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 10x^2 + jx - 25, \\)</p>
+    <p>where \\(j\\) is a constant. What is the value of \\(j\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-2\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(2\\)</span>
+      </div>
+    </div>` },
+],
       },
 
 
