@@ -2635,7 +2635,140 @@ const parabola = {
             </div>
             </div>`
           }
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( c^2m^2 - f^2n^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (cm - fn)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (cm + fn)(cm - fn) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (c^2m - fn)(cm + fn) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (cm + f^2n)(cm - f^2n) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( r^2s^2 - v^2w^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (rs)^2 - (vw)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (rs - vw)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( rs(rs - vw) + vw(rs - vw) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( r(rs - vw)(s + vw) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( g^2j^2 - t^2u^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (gj - tu)(gj + tu) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( g^2j^2 - 2gjtu + t^2u^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (g^2j - tu)(j + tu) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( gj(gj - tu) - tu(gj - tu) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( a^2k^2 - c^2z^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (ak - cz)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( ak(ak + cz) + cz(ak + cz) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (a^2k - cz)(k + cz) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( ak(ak - cz) + cz(ak - cz) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( p^2d^2 - h^2q^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( pd(pd - hq) - hq(pd - hq) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( pd(pd - hq) + hq(pd - hq) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (pd + hq)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (p^2d - hq)(d + hq) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( x^2r^2 - y^2s^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (xr - ys)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( x^2r^2 + 2xrys + y^2s^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (xr + ys)(xr - ys) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( xr(xr - ys) - ys(xr + ys) \\)</span>
+      </div>
+    </div>` },
+],
       },
 
       // Problem 17
