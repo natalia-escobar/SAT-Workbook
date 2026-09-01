@@ -1682,7 +1682,100 @@ const parabola = {
                 </div>
               </div>`, 
           },
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>The equation</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( y = 3\\left(\\frac{x^2}{3} - 8a\\right) \\)</p>
+    <p>is equivalent to which of the following, where \\(a\\) is a positive constant?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = (x + \\sqrt{24a})(x - \\sqrt{24a}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = (x + \\sqrt{8a})(x - \\sqrt{8a}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = (x + 24a)(x - 24a) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = (x + 4\\sqrt{3a})(x - 4\\sqrt{3a}) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The equation</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( y = 7x^2 - 6x^2 - 320 \\)</p>
+    <p>is equivalent to which of the following, where \\(b\\) is a positive constant?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = (x + \\sqrt{160})(x - \\sqrt{160}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = (x + 8\\sqrt{20})(x - 8\\sqrt{20}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = (x + 4\\sqrt{20})(x - 4\\sqrt{20}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = (x + \\sqrt{80})(x - \\sqrt{80}) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The equation</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( y = \\frac{1}{4}(4x^2 - 80c) \\)</p>
+    <p>is equivalent to which of the following, where \\(c\\) is a positive constant?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = (x + 2\\sqrt{5c})(x - 2\\sqrt{5c}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = (x + \\sqrt{5c})(x - \\sqrt{5c}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = (x + 4\\sqrt{5c})(x - 4\\sqrt{5c}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = (x + 20c)(x - 20c) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The equation</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( y = 5\\left(\\frac{x^2}{5} - 9d\\right) + 13d \\)</p>
+    <p>is equivalent to which of the following, where \\(d\\) is a positive constant?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = (x + \\sqrt{45d})(x - \\sqrt{45d}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = (x + 4\\sqrt{2d})(x - 4\\sqrt{2d}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = (x + \\sqrt{13d})(x - \\sqrt{13d}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = (x + 8d)(x - 8d) \\)</span>
+      </div>
+    </div>` },
+],
       },
  
       // Problem 11
