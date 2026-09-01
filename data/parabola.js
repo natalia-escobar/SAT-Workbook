@@ -1499,7 +1499,96 @@ const parabola = {
               <span>\\( 16k^2 + 5k + \\frac{7}{4} \\)</span>
             </div>
           </div>`, },
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>Which of the following is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\left(3a + \\frac{1}{2}\\right)^2 - \\left(a - \\frac{3}{4}\\right) + 2\\left(a + \\frac{1}{4}\\right)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 9a^2 + 3a + \\frac{3}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 9a^2 + 4a + \\frac{3}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 9a^2 + 4a + \\frac{5}{4} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 9a^2 + 3a + \\frac{5}{4} \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which of the following is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\left(2b - \\frac{3}{2}\\right)^2 + 3\\left(b + \\frac{1}{4}\\right) - \\left(b - \\frac{1}{2}\\right)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 4b^2 - 6b + \\frac{7}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 4b^2 - 4b + \\frac{5}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 4b^2 - 6b + \\frac{5}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 4b^2 - 4b + \\frac{7}{2} \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which of the following is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\left(4c - \\frac{1}{2}\\right)^2 + 2\\left(c + \\frac{3}{4}\\right) - \\left(c - \\frac{1}{4}\\right)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 16c^2 - 3c + 2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 16c^2 - 5c + 2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 16c^2 - 3c + \\frac{7}{4} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 16c^2 - 5c + \\frac{7}{4} \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which of the following is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\left(5d + \\frac{3}{2}\\right)^2 - \\left(d + \\frac{1}{4}\\right) + 3\\left(d - \\frac{1}{2}\\right)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 25d^2 + 17d + \\frac{3}{4} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 25d^2 + 13d + \\frac{1}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 25d^2 + 17d + \\frac{1}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 25d^2 + 13d + \\frac{3}{4} \\)</span>
+      </div>
+    </div>` },
+],
       },
  
       // Problem 10
