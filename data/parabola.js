@@ -2877,7 +2877,120 @@ const parabola = {
         <span>\\( 20m^2 + 12mn + 15n^2 \\)</span>
         </div>
         </div>`},
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( a^2 = k + \\frac{r}{4} \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( b^2 = k - \\frac{s}{2}, \\)</p>
+    <p>which of the following is equal to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 16(a^2 - b^2)^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( r(r + 4s) + 4s^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (r - 2s)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( r^2 + 2rs + 4s^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 4(r + s)^2 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( m^2 = p + \\frac{2q}{5} \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( n^2 = p - \\frac{r}{5}, \\)</p>
+    <p>which of the following is equal to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 25(m^2 - n^2)^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (2q - r)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 4q(q + r) + r^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (q + r)(4q + r) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 2q(2q + r) + r^2 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( v^2 = t + \\frac{z}{3} \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( w^2 = t - \\frac{2z}{3}, \\)</p>
+    <p>which of the following is equal to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 9(v^2 - w^2)^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( z^2 + 2z^2 + 4z^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (z - 2z)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( z(z + 4z) + 4z^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (z + z)(z + 4z) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( g^2 = a + \\frac{3b}{8} \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( h^2 = a - \\frac{c}{8}, \\)</p>
+    <p>which of the following is equal to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 64(g^2 - h^2)^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 3b(3b + c) + c^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 9b^2 + 3bc + c^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (3b - c)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (3b + c)^2 \\)</span>
+      </div>
+    </div>` },
+],
       },
  
       // Problem 18
