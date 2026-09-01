@@ -3680,7 +3680,112 @@ const parabola = {
             </div>
             </div>`
           }
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( p = 4x - 7, \\)</p>
+    <p>which of the following is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\sqrt{p^2 + 14p + 49} \\)</p>
+    <p>for all \\(x \\geq \\frac{7}{4}\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 4x - 7 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 2(2x + 7) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 4x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 2x \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The function \\(f\\) is defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( f(x) = \\sqrt{(5x - 8)^2} \\)</p>
+    <p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( x \\geq \\frac{8}{5}, \\)</p>
+    <p>which of the following is equivalent to \\(f(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 8 - 5x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 5x - 8 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 5\\left(x + \\frac{8}{5}\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 10x - 8 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( g(x) = x^2 + 12x, \\)</p>
+    <p>which of the following is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\sqrt{g(x) + 36} \\)</p>
+    <p>for all \\(x \\geq -6\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 2(x + 3) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( x + 12 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 6\\left(\\frac{x}{6} + 1\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( x - 6 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( q = x^2 - 10x + 25, \\)</p>
+    <p>which of the following is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\sqrt{9q} \\)</p>
+    <p>for all \\(x \\geq 5\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 3x - 15 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 3(x + 5) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 9x - 45 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{3}{2}(2x - 5) \\)</span>
+      </div>
+    </div>` },
+],
       },
 
       // Problem 22
