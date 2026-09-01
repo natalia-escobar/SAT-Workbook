@@ -652,7 +652,100 @@ const parabola = {
               <span>\\( y = (x + 6)(x - 6) \\)</span>
             </div>
           </div>`,  },
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>The equation</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( y = 4\\left(\\frac{x^2}{4} - 8\\right) \\)</p>
+    <p>is equivalent to which of the following?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = (x + 8)(x - 8) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = (x + 4\\sqrt{2})(x - 4\\sqrt{2}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = (x + 2\\sqrt{2})(x - 2\\sqrt{2}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = (x + 4)(x - 4) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The equation</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( y = 6x^2 - 5x^2 - 63 \\)</p>
+    <p>is equivalent to which of the following?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = (x + 3\\sqrt{7})(x - 3\\sqrt{7}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = (x + 7)(x - 7) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = (x + 3\\sqrt{3})(x - 3\\sqrt{3}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = (x + 7\\sqrt{3})(x - 7\\sqrt{3}) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The equation</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( y = \\frac{1}{4}(4x^2 - 160) \\)</p>
+    <p>is equivalent to which of the following?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = (x + 20)(x - 20) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = (x + 4\\sqrt{10})(x - 4\\sqrt{10}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = (x + 2\\sqrt{10})(x - 2\\sqrt{10}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = (x + 10)(x - 10) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The equation</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( y = 5\\left(\\frac{x^2}{5} - 12\\right) + 12 \\)</p>
+    <p>is equivalent to which of the following?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = (x + 4\\sqrt{3})(x - 4\\sqrt{3}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = (x + 12)(x - 12) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = (x + 2\\sqrt{3})(x - 2\\sqrt{3}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = (x + 4\\sqrt{6})(x - 4\\sqrt{6}) \\)</span>
+      </div>
+    </div>` },
+],
       },
   
       // Problem 5
