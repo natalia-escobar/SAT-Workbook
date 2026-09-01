@@ -2126,7 +2126,7 @@ const parabola = {
         guidedSteps: ["Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", "Declare the expression for \\( m \\)", "Declare the expression for \\( n \\)", "Type the given expression", "Type each answer choice and match to the given expression"],
         guidedAnswer: "The Answer is B", guidedScreenshot: "",
         practice: [
-          
+
   { text: `<p>If</p>
     <p style="text-align:center;margin-bottom:12px">
       \\( m = \\frac{1}{4}p^2 + \\frac{1}{4}q^2 \\)</p>
@@ -2178,7 +2178,9 @@ const parabola = {
         <span>\\( (6p - 6q)^2 \\)</span>
       </div>
     </div>` },
-
+        ] ,
+        additionalPractice: [
+          
   { text: `<p>If</p>
     <p style="text-align:center;margin-bottom:12px">
       \\( m = \\frac{5}{7}p^2 + \\frac{5}{7}q^2 \\)</p>
@@ -2230,8 +2232,6 @@ const parabola = {
         <span>\\( (5p - 5q)^2 \\)</span>
       </div>
     </div>` },
-        ] ,
-        additionalPractice: [
           
   { text: `<p>If</p>
     <p style="text-align:center;margin-bottom:12px">
