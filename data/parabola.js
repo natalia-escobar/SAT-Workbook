@@ -838,7 +838,96 @@ const parabola = {
                   <span>\\( (6x + 1)(6x + 8) \\)</span>
                 </div>
               </div>`,  },
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>Which of the following is an equivalent form of the expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\left(5x - \\frac{5}{2}\\right)^2 - 3\\left(5x - \\frac{5}{2}\\right) - 24 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\left(5x - \\frac{13}{2}\\right)\\left(5x + \\frac{7}{2}\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\left(5x - \\frac{13}{2}\\right)\\left(5x + \\frac{5}{2}\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\left(5x - \\frac{17}{2}\\right)\\left(5x + \\frac{1}{2}\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\left(5x - \\frac{7}{2}\\right)\\left(5x + \\frac{13}{2}\\right) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which of the following is an equivalent form of the expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( (4x + \\sqrt{2})^2 + 2(4x + \\sqrt{2}) - 15 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (4x + \\sqrt{2} - 5)(4x + \\sqrt{2} + 3) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (4x + \\sqrt{2} - 3)(4x + \\sqrt{2} + 5) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (4x + \\sqrt{2} - 5)(4x + \\sqrt{2} - 3) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (4x + \\sqrt{2} + 5)(4x + \\sqrt{2} + 3) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which of the following is an equivalent form of the expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\left(5x + \\frac{3}{2}\\right)^2 - 4\\left(5x + \\frac{3}{2}\\right) - 21 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\left(5x - \\frac{17}{2}\\right)\\left(5x + \\frac{5}{2}\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\left(5x - \\frac{5}{2}\\right)\\left(5x + \\frac{17}{2}\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\left(5x - \\frac{11}{2}\\right)\\left(5x + \\frac{9}{2}\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\left(5x - \\frac{19}{2}\\right)\\left(5x + \\frac{7}{2}\\right) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which of the following is an equivalent form of the expression</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( (6x - \\sqrt{3})^2 - (6x - \\sqrt{3}) - 20 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (6x - \\sqrt{3} - 4)(6x - \\sqrt{3} + 5) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (6x - \\sqrt{3} - 5)(6x - \\sqrt{3} - 4) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (6x - \\sqrt{3} + 5)(6x - \\sqrt{3} + 4) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (6x - \\sqrt{3} - 5)(6x - \\sqrt{3} + 4) \\)</span>
+      </div>
+    </div>` },
+],
       },
 
       // Problem 6
