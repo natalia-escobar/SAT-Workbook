@@ -3211,7 +3211,120 @@ const parabola = {
             </div>
             </div>`
           }
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>The functions are defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( f(x) = \\frac{5}{3}x + 2 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( g(x) = 6x - 8. \\)</p>
+    <p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 3[f(x) \\cdot g(x)]? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (5x + 6)(6x - 8) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 30x^2 - 6x - 24 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 3(10x^2 - 3x - 16) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 30x^2 + 6x - 24 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The functions are defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( p(x) = \\frac{3}{4}x - 2 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( q(x) = 8x + 5. \\)</p>
+    <p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 4p(x) \\cdot q(x)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 24x^2 - 48x - 40 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 3x(8x + 5) - 8(8x + 5) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (3x - 2)(8x + 5) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 8(3x^2 - 2x - 5) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The functions are defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( r(x) = \\frac{7}{5}x + 3 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( s(x) = 10x - 4. \\)</p>
+    <p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 5r(x) \\cdot s(x)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 70x^2 + 60x - 60 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 2(35x^2 + 61x - 30) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (7x + 3)(10x - 4) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 14x(5x + 11) - 88 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The functions are defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( m(x) = \\frac{4}{3}x - 5 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( n(x) = 9x + 2. \\)</p>
+    <p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 3m(x) \\cdot n(x)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 36x^2 - 127x - 30 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 3(12x^2 - 37x - 10) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (4x - 15)(9x + 2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 4x(9x + 2) - 15(9x - 2) \\)</span>
+      </div>
+    </div>` },
+],
       },
 
       // Problem 20
