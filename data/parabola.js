@@ -2125,7 +2125,166 @@ const parabola = {
         </div>`,
         guidedSteps: ["Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", "Declare the expression for \\( m \\)", "Declare the expression for \\( n \\)", "Type the given expression", "Type each answer choice and match to the given expression"],
         guidedAnswer: "The Answer is B", guidedScreenshot: "",
-        practice: []
+        practice: [
+          
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( m = \\frac{1}{4}p^2 + \\frac{1}{4}q^2 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( n = \\frac{1}{4}pq, \\)</p>
+    <p>which of the following is equivalent to \\(12m - 24n\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 3(p + q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 6(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 3(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (3p - 3q)^2 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( m = \\frac{2}{5}p^2 + \\frac{2}{5}q^2 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( n = \\frac{2}{5}pq, \\)</p>
+    <p>which of the following is equivalent to \\(15m - 30n\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 6(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 3(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 6(p + q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (6p - 6q)^2 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( m = \\frac{5}{7}p^2 + \\frac{5}{7}q^2 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( n = \\frac{5}{7}pq, \\)</p>
+    <p>which of the following is equivalent to \\(14m - 28n\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 10(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 5(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 10(p + q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (5p - 5q)^2 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( m = \\frac{1}{6}p^2 + \\frac{1}{6}q^2 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( n = \\frac{1}{6}pq, \\)</p>
+    <p>which of the following is equivalent to \\(30m - 60n\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 10(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 5(p + q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 5(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (5p - 5q)^2 \\)</span>
+      </div>
+    </div>` },
+        ] ,
+        additionalPractice: [
+          
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( m = \\frac{4}{9}p^2 + \\frac{4}{9}q^2 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( n = \\frac{4}{9}pq, \\)</p>
+    <p>which of the following is equivalent to \\(9m - 18n\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 2(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 8(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 4(p + q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 4(p - q)^2 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( m = \\frac{3}{10}p^2 + \\frac{3}{10}q^2 \\)</p>
+    <p>and</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( n = \\frac{3}{10}pq, \\)</p>
+    <p>which of the following is equivalent to \\(20m - 40n\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 3(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 6(p - q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 6(p + q)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (6p - 6q)^2 \\)</span>
+      </div>
+    </div>` },
+],
       },
  
  
