@@ -1016,7 +1016,96 @@ const parabola = {
               <span>\\( 3(5x + 6)(5x + 10) \\)</span>
             </div>
           </div>` },
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>Which of the following expressions is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 6\\left(3x - \\frac{5}{2}\\right)^2 - 433? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 6\\left(3x - \\frac{5}{2} - 5\\sqrt{2}\\right)\\left(3x - \\frac{5}{2} + 5\\sqrt{2}\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 6\\left(3x - \\frac{17}{2}\\right)\\left(3x + \\frac{7}{2}\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 6\\left(3x - \\frac{5}{2} - 6\\sqrt{2}\\right)\\left(3x - \\frac{5}{2} + 6\\sqrt{2}\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 6\\left(3x - \\frac{5}{2} - 12\\right)\\left(3x - \\frac{5}{2} + 12\\right) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which of the following expressions is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 8(5x + 8)^2 - 968? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 8(5x - 8)(5x + 14) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 8(5x - 11)(5x + 17) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 8(5x - 8)(5x + 11) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 8(5x - 6)(5x + 12) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which of the following expressions is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 5\\left(4x - \\frac{3}{2}\\right)^2 - 300? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 5(4x - 1 - 3\\sqrt{3})(4x - 1 + 3\\sqrt{3}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 5(4x - \\frac{3}{2} - 6\\sqrt{3})(4x - \\frac{3}{2} + 6\\sqrt{3}) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 5(4x - \\frac{3}{2} - 6)(4x - \\frac{3}{2} + 6) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 5(4x - \\frac{3}{2} - 4\\sqrt{3})(4x - \\frac{3}{2} + 4\\sqrt{3}) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which of the following expressions is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 7(4x - 4)^2 - 1575? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 7(4x - 15)(4x + 15) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 7(4x - 11)(4x + 19) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 7(4x - 19)(4x + 15) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 7(4x - 19)(4x + 11) \\)</span>
+      </div>
+    </div>` },
+],
       },
 
       //Problem 7
