@@ -1194,7 +1194,36 @@ const parabola = {
             </div>
             </div>`
           }
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>The function \\(f\\) is defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( f(x) = 6\\left(x - \\frac{1}{3}\\right)^2 + 2\\left(x - \\frac{1}{4}\\right) + \\frac{5}{4}. \\)</p>
+    <p>What is the value of</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( f\\left(\\frac{5}{6}\\right)? \\)</p>` },
+
+  { text: `<p>The function \\(g\\) is defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( g(x) = 8\\left(x + \\frac{1}{4}\\right)^2 - 3\\left(x - \\frac{1}{2}\\right) + \\frac{7}{6}. \\)</p>
+    <p>What is the value of</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( g\\left(\\frac{3}{4}\\right)? \\)</p>` },
+
+  { text: `<p>The function \\(h\\) is defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( h(x) = 5\\left(x - \\frac{2}{5}\\right)^2 + 4\\left(x + \\frac{1}{5}\\right) + \\frac{3}{2}. \\)</p>
+    <p>What is the value of</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( h\\left(\\frac{6}{5}\\right)? \\)</p>` },
+
+  { text: `<p>The function \\(k\\) is defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( k(x) = 9\\left(x - \\frac{1}{6}\\right)^2 - 2\\left(x + \\frac{1}{3}\\right) + \\frac{5}{4}. \\)</p>
+    <p>What is the value of</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( k\\left(\\frac{5}{6}\\right)? \\)</p>` },
+],
       },
 
       // Problem 8
