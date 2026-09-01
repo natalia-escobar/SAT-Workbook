@@ -2223,7 +2223,96 @@ const parabola = {
         <span>\\( (15r - 14s)(15r + 14s) \\)</span>
         </div>
         </div>` },
-        ]
+        ],
+        additionalPractice: [
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 196a^2 - 225b^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (14a - 15b)(14a + 15b) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (196a - 15b)(196a + 15b) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (14a - 225b)(14a - 225b) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (14a - 15b)^2 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 324m^2 - 121n^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (18m - 121n)(18m - 121n) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (18m - 11n)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (18m - 11n)(18m + 11n) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (324m - 11n)(324m - 11n) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 169p^2 - 256q^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (13p - 256q)(13p + 256q) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (13p - 16q)(13p + 16q) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (169p - 16q)(169p + 16q) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (13p + 16q)^2 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 400r^2 - 289s^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (20r - 289s)(20r + 289s) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (400r - 17s)(400r + 17s) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (20r - 17s)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (20r - 17s)(20r + 17s) \\)</span>
+      </div>
+    </div>` },
+],
       },
  
  
