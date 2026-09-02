@@ -3640,9 +3640,9 @@ const parabola = {
         </div>`,
 
         steps: [
-          { text: "Create a slider for \\(x\\) and invent a number", note: "", gif: "", answer: "", video: "" },
-          { text: "Substitute the equations for \\(m\\) and \\(n\\) into the given expression", note: "", gif: "", answer: "", video: "" },
-          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "" },
+          { text: "Declare the functions for \\(m\\) and \\(n\\)", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788379631/problem21new-step1_el8czt.mov" },
+          { text: "Type the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788379632/problem21new-step2_ueghx6.mov" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788379633/problem21new-step3_nqhyib.mov" },
         ],
 
         guidedProblem: `The equations below define \\(p\\) and \\(q\\) in terms of \\(t\\).
@@ -3670,8 +3670,8 @@ const parabola = {
         </div>`,
 
         guidedSteps: [
-          "Create a slider for \\(t\\) and invent a number",
-          "Substitute the equations for \\(p\\) and \\(q\\) into the given expression",
+          "Declare the functions for \\(p\\) and \\(q\\)",
+          "Type the given expression",
           "Type each answer choice and match it to the given expression"
         ],
 
