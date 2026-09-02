@@ -1616,7 +1616,7 @@ const parabola = {
         ]
       },
  
-      // This is going to becoming Problem 11
+      // Problem 11
       {
         problem: `Which of the following is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( (2n + \\frac{3}{2})^2 - (n - \\frac{1}{4}) + 2(n + \\frac{3}{4})\\)?</p>
@@ -1794,7 +1794,7 @@ const parabola = {
 ],
       },
  
-      // Problem 10
+      // Problem 12
       {
         problem: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = 2(\\frac{x^2}{2} - 5a)\\)?</p>
@@ -1822,7 +1822,7 @@ const parabola = {
           { text: "Type each answer choice and match", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787953430/problem10-step3_blr2mc.mov" },
         ],
         guidedProblem: `The equation
-            <p style="text-align:center;margin-bottom:12px">\\( y = 4x^2 - 3x^2 - 18b)\\)?</p>
+            <p style="text-align:center;margin-bottom:12px">\\( y = 4x^2 - 3x^2 - 18b\\)?</p>
             is equivalent to which of the folllowing where \\(b\\) is a positive constant?
             <div class="mc-choice correct">
                   <span class="mc-label">A</span>
@@ -1912,24 +1912,24 @@ const parabola = {
 
   { text: `<p>The equation</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( y = 7x^2 - 6x^2 - 320 \\)</p>
+      \\( y = 7x^2 - 6x^2 - 32b \\)</p>
     <p>is equivalent to which of the following, where \\(b\\) is a positive constant?</p>
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
-        <span>\\( y = (x + \\sqrt{160})(x - \\sqrt{160}) \\)</span>
+        <span>\\( y = (x + \\sqrt{16b})(x - \\sqrt{16b}) \\)</span>
       </div>
       <div class="mc-choice">
         <span class="mc-label">B</span>
-        <span>\\( y = (x + 8\\sqrt{20})(x - 8\\sqrt{20}) \\)</span>
+        <span>\\( y = (x + 8\\sqrt{2b})(x - 8\\sqrt{2b}) \\)</span>
       </div>
       <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( y = (x + 4\\sqrt{20})(x - 4\\sqrt{20}) \\)</span>
+        <span>\\( y = (x + 4\\sqrt{2b})(x - 4\\sqrt{2b}) \\)</span>
       </div>
       <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( y = (x + \\sqrt{80})(x - \\sqrt{80}) \\)</span>
+        <span>\\( y = (x + \\sqrt{8b})(x - \\sqrt{8b}) \\)</span>
       </div>
     </div>` },
 
@@ -1981,7 +1981,7 @@ const parabola = {
 ],
       },
  
-      // Problem 11
+      // Problem 13
       {
         problem: `Which expression is equivalent to
         <p style="text-align:center;margin-bottom:12px"> \\( (2a - \\frac{b}{3})^2 \\) </p>
