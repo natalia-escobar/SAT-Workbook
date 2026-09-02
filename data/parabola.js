@@ -37,7 +37,7 @@ const parabola = {
           <div class="mc-choices">
             <div class="mc-choice correct">
               <span class="mc-label">A</span>
-              <span>\\( 4x^2 - 8x + 4 \\)</span>
+              <span>\\( 4x^2 - 8x + 12 \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">B</span>
