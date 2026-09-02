@@ -2918,7 +2918,7 @@ const parabola = {
       ],
       },
 
-      // Problem 17
+      // Problem 18
       {
         problem: `If 
             <p style="text-align:center;margin-bottom:12px"> \\( m^2 = p + \\frac{q}{2} \\) </p>
@@ -3140,103 +3140,6 @@ const parabola = {
 ],
       },
  
-      // Problem 18
-      {
-        problem: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 25x^2 - 49y^2 \\) </p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( (5x - 7y)(5x + 7y) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (25x - 49y)(25x + 49y) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (5x - 49y)(5x + 49y) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (25x - 7y)(25x + 7y) \\)</span>
-        </div>
-        </div>`,
-        steps: [
-          { text: "Create sliders using two other variables and invent numbers for them", note: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788026165/problem18-step1_vezxgf.mov" },
-          { text: "Type the given expression using the new slider variables", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788026165/problem18-step2_su9f6j.mov" },
-          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788026165/problem18-step3_gunsai.mov" },
-        ],
-        guidedProblem: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 64m^2 - 121n^2 \\) </p>
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( (8m - 121n)(8m + 121nq) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (64m - 11n)(64m + 11n) \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">C</span>
-        <span>\\( (8m - 11n)(8m + 11n) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (8m - 11n)^2 \\)</span>
-        </div>
-        </div>`,
-        guidedSteps: [
-          "Create a slider for the variables \\(m\\) and \\(n\\) and invent numbers",
-          "Type the given expression",
-          "Type each answer choice and match to the given expression",
-        ],
-        guidedAnswer: "The Answer is C", guidedAnswerValue: "", guidedScreenshot: "",
-        practice: [
-          { text: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 144p^2 - 169q^2 \\) </p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( (12p - 169q)(12p + 169q) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (12p - 13q)(12p + 13q) \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">C</span>
-        <span>\\( (144p - 13q)(144p + 13q) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (12p + 13q)^2 \\)</span>
-        </div>
-        </div>` },
-          { text: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 225r^2 - 196s^2 \\) </p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( (15r - 196s)(15r + 196s) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (225r - 14s)(225r + 14s) \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">C</span>
-        <span>\\( (15r - 14s)^2 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (15r - 14s)(15r + 14s) \\)</span>
-        </div>
-        </div>` },
-        ]
-      },
- 
       // Problem 19
       {
         problem: `The functions are defined by
@@ -3365,14 +3268,14 @@ const parabola = {
       \\( f(x) = \\frac{5}{3}x + 2 \\)</p>
     <p>and</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( g(x) = 6x - 8. \\)</p>
+      \\( g(x) = 6x - 9 \\)</p>
     <p>Which expression is equivalent to</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( 3[f(x) \\cdot g(x)]? \\)</p>
+      \\( 3f(x) \\cdot g(x)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
-        <span>\\( (5x + 6)(6x - 8) \\)</span>
+        <span>\\( (5x + 6)(6x - 9) \\)</span>
       </div>
       <div class="mc-choice">
         <span class="mc-label">B</span>
@@ -3400,7 +3303,7 @@ const parabola = {
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
-        <span>\\( 24x^2 - 48x - 40 \\)</span>
+        <span>\\( 24x^2 - 49x - 40 \\)</span>
       </div>
       <div class="mc-choice">
         <span class="mc-label">B</span>
@@ -3428,7 +3331,7 @@ const parabola = {
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
-        <span>\\( 70x^2 + 60x - 60 \\)</span>
+        <span>\\( 70x^2 + 92x - 60 \\)</span>
       </div>
       <div class="mc-choice">
         <span class="mc-label">B</span>
@@ -3440,7 +3343,7 @@ const parabola = {
       </div>
       <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( 14x(5x + 11) - 88 \\)</span>
+        <span>\\( 14x(5x + 11) - 60 \\)</span>
       </div>
     </div>` },
 
