@@ -3615,6 +3615,232 @@ const parabola = {
       },
 
       // Problem 21
+
+      {
+        problem: `The equations below define \\(m\\) and \\(n\\) in terms of \\(x\\).
+            <p style="text-align:center;margin-bottom:12px"> \\( m=8x-7 \\) </p>
+            <p style="text-align:center;margin-bottom:12px"> \\( n=8x+7 \\) </p>
+            Which of these answers is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( \\frac{mn-15}{8} \\)? </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( 8x^2-8 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 8x^2-7 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 64x^2-8 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 8x^2-6 \\)</span>
+        </div>
+        </div>`,
+
+        steps: [
+          { text: "Create a slider for \\(x\\) and invent a number", note: "", gif: "", answer: "", video: "" },
+          { text: "Substitute the equations for \\(m\\) and \\(n\\) into the given expression", note: "", gif: "", answer: "", video: "" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "" },
+        ],
+
+        guidedProblem: `The equations below define \\(p\\) and \\(q\\) in terms of \\(t\\).
+            <p style="text-align:center;margin-bottom:12px"> \\( p=10t-3 \\) </p>
+            <p style="text-align:center;margin-bottom:12px"> \\( q=10t+3 \\) </p>
+            Which of these answers is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( \\frac{pq-91}{10} \\)? </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 100t^2-10 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( 10t^2-10 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 10t^2-9 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 10t^2-1 \\)</span>
+        </div>
+        </div>`,
+
+        guidedSteps: [
+          "Create a slider for \\(t\\) and invent a number",
+          "Substitute the equations for \\(p\\) and \\(q\\) into the given expression",
+          "Type each answer choice and match it to the given expression"
+        ],
+
+        guidedAnswer: "The answer is B",
+        guidedScreenshot: "",
+
+        practice: [
+          {
+            text: `The equations below define \\(a\\) and \\(b\\) in terms of \\(k\\).
+                <p style="text-align:center;margin-bottom:12px"> \\( a=12k-5 \\) </p>
+                <p style="text-align:center;margin-bottom:12px"> \\( b=12k+5 \\) </p>
+                Which of these answers is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{ab+121}{12} \\)? </p>
+            <div class="mc-choices">
+            <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\( 12k^2+8 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 12k^2+10 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 144k^2+8 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 12k^2-8 \\)</span>
+            </div>
+            </div>`
+          },
+
+          {
+            text: `The equations below define \\(u\\) and \\(v\\) in terms of \\(r\\).
+                <p style="text-align:center;margin-bottom:12px"> \\( u=14r-9 \\) </p>
+                <p style="text-align:center;margin-bottom:12px"> \\( v=14r+9 \\) </p>
+                Which of these answers is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{uv-115}{14} \\)? </p>
+            <div class="mc-choices">
+            <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\( 14r^2-14 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 14r^2-9 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 196r^2-14 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 14r^2-1 \\)</span>
+            </div>
+            </div>`
+          }
+        ],
+        additionalPractice: [
+              {
+                text: `The equations below define \\(a\\) and \\(b\\) in terms of \\(x\\).
+                    <p style="text-align:center;margin-bottom:12px"> \\( a=12x-7 \\) </p>
+                    <p style="text-align:center;margin-bottom:12px"> \\( b=12x+7 \\) </p>
+                    Which of these answers is equivalent to
+                    <p style="text-align:center;margin-bottom:12px"> \\( \\frac{ab-95}{12} \\)? </p>
+                <div class="mc-choices">
+                <div class="mc-choice">
+                <span class="mc-label">A</span>
+                <span>\\( 12x^2-8 \\)</span>
+                </div>
+                <div class="mc-choice correct">
+                <span class="mc-label">B</span>
+                <span>\\( 12(x^2-1) \\)</span>
+                </div>
+                <div class="mc-choice">
+                <span class="mc-label">C</span>
+                <span>\\( 144x^2-12 \\)</span>
+                </div>
+                <div class="mc-choice">
+                <span class="mc-label">D</span>
+                <span>\\( 6(2x^2-1) \\)</span>
+                </div>
+                </div>`
+              },
+
+              {
+                text: `The equations below define \\(m\\) and \\(n\\) in terms of \\(t\\).
+                    <p style="text-align:center;margin-bottom:12px"> \\( m=15t-4 \\) </p>
+                    <p style="text-align:center;margin-bottom:12px"> \\( n=15t+4 \\) </p>
+                    Which of these answers is equivalent to
+                    <p style="text-align:center;margin-bottom:12px"> \\( \\frac{mn-59}{15} \\)? </p>
+                <div class="mc-choices">
+                <div class="mc-choice">
+                <span class="mc-label">A</span>
+                <span>\\( 15t^2-4 \\)</span>
+                </div>
+                <div class="mc-choice">
+                <span class="mc-label">B</span>
+                <span>\\( 5(3t^2-2) \\)</span>
+                </div>
+                <div class="mc-choice correct">
+                <span class="mc-label">C</span>
+                <span>\\( 15t^2-5 \\)</span>
+                </div>
+                <div class="mc-choice">
+                <span class="mc-label">D</span>
+                <span>\\( 3(5t^2-1) \\)</span>
+                </div>
+                </div>`
+              },
+
+              {
+                text: `The equations below define \\(p\\) and \\(q\\) in terms of \\(x\\).
+                    <p style="text-align:center;margin-bottom:12px"> \\( p=18z-5 \\) </p>
+                    <p style="text-align:center;margin-bottom:12px"> \\( q=18z+5 \\) </p>
+                    Which of these answers is equivalent to
+                    <p style="text-align:center;margin-bottom:12px"> \\( \\frac{pq-83}{18} \\)? </p>
+                <div class="mc-choices">
+                <div class="mc-choice">
+                <span class="mc-label">A</span>
+                <span>\\( 18z^2-3 \\)</span>
+                </div>
+                <div class="mc-choice correct">
+                <span class="mc-label">B</span>
+                <span>\\( 6(3z^2-1) \\)</span>
+                </div>
+                <div class="mc-choice">
+                <span class="mc-label">C</span>
+                <span>\\( 18(z^2-1) \\)</span>
+                </div>
+                <div class="mc-choice">
+                <span class="mc-label">D</span>
+                <span>\\( 9(2z^2-1) \\)</span>
+                </div>
+                </div>`
+              },
+
+              {
+                text: `The equations below define \\(c\\) and \\(d\\) in terms of \\(w\\).
+                    <p style="text-align:center;margin-bottom:12px"> \\( c=16w-3 \\) </p>
+                    <p style="text-align:center;margin-bottom:12px"> \\( d=16w+3 \\) </p>
+                    Which of these answers is equivalent to
+                    <p style="text-align:center;margin-bottom:12px"> \\( \\frac{cd-55}{16} \\)? </p>
+                <div class="mc-choices">
+                <div class="mc-choice correct">
+                <span class="mc-label">A</span>
+                <span>\\( 16w^2-4 \\)</span>
+                </div>
+                <div class="mc-choice">
+                <span class="mc-label">B</span>
+                <span>\\( 4(4w^2-2) \\)</span>
+                </div>
+                <div class="mc-choice">
+                <span class="mc-label">C</span>
+                <span>\\( 16(w^2-1) \\)</span>
+                </div>
+                <div class="mc-choice">
+                <span class="mc-label">D</span>
+                <span>\\( 2(8w^2-3) \\)</span>
+                </div>
+                </div>`
+              }
+        ]
+      },
+
+      // Problem 22
       {
         problem: `If 
             <p style="text-align:center;margin-bottom:12px"> \\( u = 3x - 5 \\) </p>
