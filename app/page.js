@@ -1,5 +1,39 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
-import topics from "@/data/topics";
+
+function Collapsible({ title, defaultOpen, children }) {
+  const [open, setOpen] = useState(defaultOpen);
+  return (
+    <div style={{ marginBottom: "8px" }}>
+      <div
+        onClick={() => setOpen((o) => !o)}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          cursor: "pointer",
+          padding: "10px 16px",
+          borderRadius: "8px",
+          userSelect: "none",
+        }}
+      >
+        <span style={{ fontSize: "15px", fontWeight: 600 }}>{title}</span>
+        <i
+          className={`ti ti-chevron-down`}
+          style={{
+            fontSize: "16px",
+            color: "#aaa",
+            transition: "transform .2s",
+            transform: open ? "rotate(180deg)" : "rotate(0)",
+          }}
+        />
+      </div>
+      {open && <div style={{ paddingLeft: "16px", marginTop: "4px" }}>{children}</div>}
+    </div>
+  );
+}
 
 export default function Home() {
   return (
@@ -7,11 +41,11 @@ export default function Home() {
       <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "20px" }}>
         Practice Workbooks
       </h1>
-      <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-        {Object.entries(topics).map(([slug, topic]) => (
+
+      <Collapsible title="Parabola" defaultOpen={false}>
+        <Collapsible title="Equivalent to" defaultOpen={false}>
           <Link
-            key={slug}
-            href={`/workbook/${slug}`}
+            href="/workbook/parabola/equivalent-to/basic-equivalent-to"
             style={{
               display: "block",
               padding: "16px 20px",
@@ -21,34 +55,11 @@ export default function Home() {
               color: "#1a1a1a",
             }}
           >
-            <div style={{ fontSize: "16px", fontWeight: 600 }}>{topic.name}</div>
-            <div style={{ fontSize: "13px", color: "#888", marginTop: "4px" }}>
-              {topic.workedProblems.length} problems
-            </div>
+            <div style={{ fontSize: "16px", fontWeight: 600 }}>Basic Equivalent to & Evaluating a Function</div>
+            <div style={{ fontSize: "13px", color: "#888", marginTop: "4px" }}>26 problems</div>
           </Link>
-        ))}
-      </div>
-
-      <h2 style={{ fontSize: "1.2rem", fontWeight: 600, marginTop: "2rem", marginBottom: "12px" }}>
-        Quizzes
-      </h2>
-      
-      <Link
-      href="/quiz/parabola"
-      style={{
-        display: "block",
-        padding: "16px 20px",
-        border: "0.5px solid #e0e0de",
-        borderRadius: "10px",
-        textDecoration: "none",
-        color: "#1a1a1a",
-        }}
-      >
-        <div style={{ fontSize: "16px", fontWeight: 600 }}>Parabola Quiz</div>
-        <div style={{ fontSize: "13px", color: "#888", marginTop: "4px" }}>
-          5 questions · 15 minutes
-          </div>
-      </Link>
+        </Collapsible>
+      </Collapsible>
     </main>
   );
 }
