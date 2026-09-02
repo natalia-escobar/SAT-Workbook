@@ -2186,7 +2186,7 @@ const parabola = {
 ],
       },
  
-      // Problem 12
+      // Problem 14
       {
         problem: `<p style="text-align:center;margin-bottom:12px"> \\( ( 18n^2 - 42np + 30p^2) \\) </p>
         Which expression is equivalent to the expression above?
@@ -2278,8 +2278,194 @@ const parabola = {
         </div>` },
         ]
       },
+
+      // Problem 15
+      {
+        problem: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 25x^2 - 49y^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (5x - 7y)(5x + 7y) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (25x - 49y)(25x + 49y) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (5x - 49y)(5x + 49y) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (25x - 7y)(25x + 7y) \\)</span>
+        </div>
+        </div>`,
+        steps: [
+          { text: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders. Create sliders using two other variables and invent numbers for them", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787956045/problem14-step1_oajb7k.mov" },
+          { text: "Declare the given expression using the new slider variables", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787956046/problem14-step2_d25d0p.mov" },
+          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787956052/problem14-step3_ojvxqk.mov" },
+        ],
+        guidedProblem: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 64m^2 - 121n^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (8m - 121n)(8m + 121nq) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (64m - 11n)(64m + 11n) \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( (8m - 11n)(8m + 11n) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (8m - 11n)^2 \\)</span>
+        </div>
+        </div>`,
+        guidedSteps: [
+          "Create a slider for the variables \\(m\\) and \\(n\\) and invent numbers",
+          "Type the given expression",
+          "Type each answer choice and match to the given expression",
+        ],
+        guidedAnswer: "The Answer is C", guidedAnswerValue: "", guidedScreenshot: "",
+        practice: [
+          { text: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 144p^2 - 169q^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (12p - 169q)(12p + 169q) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (12p - 13q)(12p + 13q) \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( (144p - 13q)(144p + 13q) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (12p + 13q)^2 \\)</span>
+        </div>
+        </div>` },
+          { text: `Which expression is equivalent to 
+            <p style="text-align:center;margin-bottom:12px"> \\( 225r^2 - 196s^2 \\) </p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (15r - 196s)(15r + 196s) \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (225r - 14s)(225r + 14s) \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( (15r - 14s)^2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (15r - 14s)(15r + 14s) \\)</span>
+        </div>
+        </div>` },
+        ],
+        additionalPractice: [
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 196a^2 - 225b^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (14a - 15b)(14a + 15b) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (196a - 15b)(196a + 15b) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (14a - 225b)(14a - 225b) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (14a - 15b)^2 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 324m^2 - 121n^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (18m - 121n)(18m - 121n) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (18m - 11n)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (18m - 11n)(18m + 11n) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (324m - 11n)(324m - 11n) \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 169p^2 - 256q^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (13p - 256q)(13p + 256q) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (13p - 16q)(13p + 16q) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (169p - 16q)(169p + 16q) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (13p + 16q)^2 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>Which expression is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( 400r^2 - 289s^2 \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( (20r - 289s)(20r + 289s) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (400r - 17s)(400r + 17s) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (20r - 17s)^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (20r - 17s)(20r + 17s) \\)</span>
+      </div>
+    </div>` },
+],
+      },
  
-      // Problem 13
+      // Problem 16
       {
         problem: `If \\( m = \\frac{1}{9}p^2 + \\frac{1}{9}q^2 \\) and \\( n = \\frac{1}{9}pq \\), which of the following is equivalent to \\( 36m - 72n \\)?
         <div class="mc-choices">
@@ -2489,251 +2675,9 @@ const parabola = {
     </div>` },
 ],
       },
- 
- 
-      // Problem 14
-      {
-        problem: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 25x^2 - 49y^2 \\) </p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( (5x - 7y)(5x + 7y) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (25x - 49y)(25x + 49y) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (5x - 49y)(5x + 49y) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (25x - 7y)(25x + 7y) \\)</span>
-        </div>
-        </div>`,
-        steps: [
-          { text: "Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders. Create sliders using two other variables and invent numbers for them", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787956045/problem14-step1_oajb7k.mov" },
-          { text: "Declare the given expression using the new slider variables", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787956046/problem14-step2_d25d0p.mov" },
-          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787956052/problem14-step3_ojvxqk.mov" },
-        ],
-        guidedProblem: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 64m^2 - 121n^2 \\) </p>
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( (8m - 121n)(8m + 121nq) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (64m - 11n)(64m + 11n) \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">C</span>
-        <span>\\( (8m - 11n)(8m + 11n) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (8m - 11n)^2 \\)</span>
-        </div>
-        </div>`,
-        guidedSteps: [
-          "Create a slider for the variables \\(m\\) and \\(n\\) and invent numbers",
-          "Type the given expression",
-          "Type each answer choice and match to the given expression",
-        ],
-        guidedAnswer: "The Answer is C", guidedAnswerValue: "", guidedScreenshot: "",
-        practice: [
-          { text: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 144p^2 - 169q^2 \\) </p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( (12p - 169q)(12p + 169q) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (12p - 13q)(12p + 13q) \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">C</span>
-        <span>\\( (144p - 13q)(144p + 13q) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (12p + 13q)^2 \\)</span>
-        </div>
-        </div>` },
-          { text: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 225r^2 - 196s^2 \\) </p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( (15r - 196s)(15r + 196s) \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (225r - 14s)(225r + 14s) \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">C</span>
-        <span>\\( (15r - 14s)^2 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (15r - 14s)(15r + 14s) \\)</span>
-        </div>
-        </div>` },
-        ],
-        additionalPractice: [
-  { text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( 196a^2 - 225b^2 \\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( (14a - 15b)(14a + 15b) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (196a - 15b)(196a + 15b) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (14a - 225b)(14a - 225b) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (14a - 15b)^2 \\)</span>
-      </div>
-    </div>` },
-
-  { text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( 324m^2 - 121n^2 \\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( (18m - 121n)(18m - 121n) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (18m - 11n)^2 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (18m - 11n)(18m + 11n) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (324m - 11n)(324m - 11n) \\)</span>
-      </div>
-    </div>` },
-
-  { text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( 169p^2 - 256q^2 \\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( (13p - 256q)(13p + 256q) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (13p - 16q)(13p + 16q) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (169p - 16q)(169p + 16q) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (13p + 16q)^2 \\)</span>
-      </div>
-    </div>` },
-
-  { text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( 400r^2 - 289s^2 \\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( (20r - 289s)(20r + 289s) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (400r - 17s)(400r + 17s) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (20r - 17s)^2 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (20r - 17s)(20r + 17s) \\)</span>
-      </div>
-    </div>` },
-],
-      },
- 
- 
-      // Problem 15
-      {
-        problem: `If \\(m = \\frac{1}{9}p^2 + \\frac{1}{9}q^2\\) and \\( n = \\frac{1}{9}pq\\), which of the following is equivalent to \\(36m - 72n\\)?
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span> \\((2p - 2q)^2 \\) </span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span> \\((2p + 2q)^2 \\) </span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span> \\((4p - 4q)^2 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span> \\((p - q)^2 \\)</span>
-        </div>
-        </div>`,
-        steps: [
-          { text: "Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788021925/problem15-step1_h0elbu.mov" },
-          { text: "Declare the expressions \\(m\\) and \\(n\\)", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788021926/problem15-step2_cxpvs4.mov" },
-          { text: "Declare the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788021931/problem15-step3_bbluaz.mov" },
-          { text: "Type each answer choice and match to the given expression", note: "", gif: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788021933/problem15-step4_yjh1ei.mov" },
-        ],
-        guidedProblem: `If \\(m = \\frac{3}{8}p^2 + \\frac{3}{8}q^2\\) and \\( n = \\frac{3}{8}pq\\), which of the following is equivalent to \\(8m - 16n\\)?
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span> \\( 3(p + q)^2 \\) </span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">B</span>
-        <span> \\( 3(p + q)^2 \\) </span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span> \\( 6(p - q)^2 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span> \\( 6(p + q)^2 \\)</span>
-        </div>
-        </div>`     
-        , guidedSteps: ["Create a slider for the variables \\(p\\) and \\(q\\) and invent numbers", "Declare the expressions \\(m\\) and \\(n\\)", "Declare the given expression", "Type each answer choice and match to the given expression"],
-        guidedAnswer: "The Answer is B", guidedScreenshot: "",
-        practice: [
-          { text: `` },
-          { text: `` },  
-      ]
-      },
 
  
-      // Problem 16
+      // Problem 17
       {
         problem: `Which expression is equivalent to
             <p style="text-align:center;margin-bottom:12px"> \\( c^2x^2 - a^2y^2 \\) </p>
@@ -2840,138 +2784,138 @@ const parabola = {
           }
         ],
         additionalPractice: [
-  { text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( c^2m^2 - f^2n^2 \\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( (cm - fn)^2 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (cm + fn)(cm - fn) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (c^2m - fn)(cm + fn) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (cm + f^2n)(cm - f^2n) \\)</span>
-      </div>
-    </div>` },
+        { text: `<p>Which expression is equivalent to</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( c^2m^2 - f^2n^2 \\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( (cm - fn)^2 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( (cm + fn)(cm - fn) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( (c^2m - fn)(cm + fn) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( (cm + f^2n)(cm - f^2n) \\)</span>
+            </div>
+          </div>` },
 
-  { text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( r^2s^2 - v^2w^2 \\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( (rs)^2 - (vw)^2 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (rs - vw)^2 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( rs(rs - vw) + vw(rs - vw) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( r(rs - vw)(s + vw) \\)</span>
-      </div>
-    </div>` },
+        { text: `<p>Which expression is equivalent to</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( r^2s^2 - v^2w^2 \\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( (rs)^2 - (vw)^2 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( (rs - vw)^2 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( rs(rs - vw) + vw(rs - vw) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( r(rs - vw)(s + vw) \\)</span>
+            </div>
+          </div>` },
 
-  { text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( g^2j^2 - t^2u^2 \\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( (gj - tu)(gj + tu) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( g^2j^2 - 2gjtu + t^2u^2 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (g^2j - tu)(j + tu) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( gj(gj - tu) - tu(gj - tu) \\)</span>
-      </div>
-    </div>` },
+        { text: `<p>Which expression is equivalent to</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( g^2j^2 - t^2u^2 \\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( (gj - tu)(gj + tu) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( g^2j^2 - 2gjtu + t^2u^2 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( (g^2j - tu)(j + tu) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( gj(gj - tu) - tu(gj - tu) \\)</span>
+            </div>
+          </div>` },
 
-  { text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( a^2k^2 - c^2z^2 \\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( (ak - cz)^2 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( ak(ak + cz) + cz(ak + cz) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (a^2k - cz)(k + cz) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( ak(ak - cz) + cz(ak - cz) \\)</span>
-      </div>
-    </div>` },
+        { text: `<p>Which expression is equivalent to</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( a^2k^2 - e^2z^2 \\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( (ak - ez)^2 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( ak(ak + ez) + ez(ak + ez) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( (a^2k - ez)(k + ez) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( ak(ak - ez) + ez(ak - ez) \\)</span>
+            </div>
+          </div>` },
 
-  { text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( p^2d^2 - h^2q^2 \\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( pd(pd - hq) - hq(pd - hq) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( pd(pd - hq) + hq(pd - hq) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (pd + hq)^2 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (p^2d - hq)(d + hq) \\)</span>
-      </div>
-    </div>` },
+        { text: `<p>Which expression is equivalent to</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( p^2d^2 - h^2q^2 \\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( pd(pd - hq) - hq(pd - hq) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( pd(pd - hq) + hq(pd - hq) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( (pd + hq)^2 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( (p^2d - hq)(d + hq) \\)</span>
+            </div>
+          </div>` },
 
-  { text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( x^2r^2 - y^2s^2 \\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( (xr - ys)^2 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( x^2r^2 + 2xrys + y^2s^2 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (xr + ys)(xr - ys) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( xr(xr - ys) - ys(xr + ys) \\)</span>
-      </div>
-    </div>` },
-],
+        { text: `<p>Which expression is equivalent to</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( x^2r^2 - y^2s^2 \\)?</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\( (xr - ys)^2 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\( x^2r^2 + 2xrys + y^2s^2 \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\( (xr + ys)(xr - ys) \\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\( xr(xr - ys) - ys(xr + ys) \\)</span>
+            </div>
+          </div>` },
+      ],
       },
 
       // Problem 17
