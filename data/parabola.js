@@ -420,7 +420,7 @@ const parabola = {
             </div>
             <div class="mc-choice">
               <span class="mc-label">C</span>
-              <span>\\( 4x^2 - 4x + \\frac{7}{2} \\)</span>
+              <span>\\( 4x^2 - 4x + \\frac{5}{2} \\)</span>
             </div>
             <div class="mc-choice">
               <span class="mc-label">D</span>
