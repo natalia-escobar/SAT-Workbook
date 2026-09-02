@@ -1338,106 +1338,106 @@ const parabola = {
           }
         ],
         additionalPractice: [
-  { text: `<p>The function \\(f\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( f(x) = 5(2x + 3)(16 - 2x). \\)</p>
-    <p>What is the value of</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( f(3)? \\)</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\(360\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\(400\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\(450\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\(480\\)</span>
-      </div>
-    </div>` },
+        { text: `<p>The function \\(f\\) is defined by</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( f(x) = 5(2x + 3)(16 - 2x). \\)</p>
+          <p>What is the value of</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( f(3)? \\)</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\(360\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\(400\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\(450\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\(480\\)</span>
+            </div>
+          </div>` },
 
-  { text: `<p>The function \\(g\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( g(x) = 8(3x - 1)(17 - 2x). \\)</p>
-    <p>What is the value of</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( g(4)? \\)</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\(704\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\(792\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\(816\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\(864\\)</span>
-      </div>
-    </div>` },
+        { text: `<p>The function \\(g\\) is defined by</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( g(x) = 8(3x - 1)(17 - 2x). \\)</p>
+          <p>What is the value of</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( g(4)? \\)</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\(704\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\(792\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\(816\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\(864\\)</span>
+            </div>
+          </div>` },
 
-  { text: `<p>The function \\(h\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( h(x) = 4(4x + 1)(21 - 3x). \\)</p>
-    <p>What is the value of</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( h(2)? \\)</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\(540\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\(576\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\(612\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\(648\\)</span>
-      </div>
-    </div>` },
+        { text: `<p>The function \\(h\\) is defined by</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( h(x) = 4(4x + 1)(21 - 3x). \\)</p>
+          <p>What is the value of</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( h(2)? \\)</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\(540\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\(576\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\(612\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\(648\\)</span>
+            </div>
+          </div>` },
 
-  { text: `<p>The function \\(k\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( k(x) = 9(2x - 5)(19 - x). \\)</p>
-    <p>What is the value of</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( k(5)? \\)</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\(756\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\(810\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\(864\\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\(882\\)</span>
-      </div>
-    </div>` },
-],
+        { text: `<p>The function \\(k\\) is defined by</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( k(x) = 9(2x - 3)(19 - x). \\)</p>
+          <p>What is the value of</p>
+          <p style="text-align:center;margin-bottom:12px">
+            \\( k(5)? \\)</p>
+          <div class="mc-choices">
+            <div class="mc-choice">
+              <span class="mc-label">A</span>
+              <span>\\(756\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">B</span>
+              <span>\\(810\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">C</span>
+              <span>\\(864\\)</span>
+            </div>
+            <div class="mc-choice">
+              <span class="mc-label">D</span>
+              <span>\\(882\\)</span>
+            </div>
+          </div>` },
+      ],
       },
  
       // Problem 9
