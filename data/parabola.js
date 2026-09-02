@@ -1552,6 +1552,69 @@ const parabola = {
           }
         ]
       },
+
+      // Problem 10
+
+      {
+        problem: `A planning committee at Beck College Prep is reviewing enrollment trends. The number of students expected to participate in September tutoring programs \\(f(x)\\) is estimated by
+            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=-0.004125x^2+16.842x-17420 \\) </p>
+            where \\(x\\) is the year.
+            <p style="margin-bottom:12px">Using the model, determine the absolute change in the model's estimated enrollment between September 2021 and September 2022 to the nearest thousandth.</p>`,
+
+        steps: [
+          { text: "Type the function \\(f(x)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
+          { text: "Calculate \\(f(2021)\\) and \\(f(2022)\\)", note: "", gif: "", answer: "", video: "" },
+          { text: "Find \\(\\left|f(2022)-f(2021)\\right|\\) and round to the nearest thousandth", note: "", gif: "", answer: "", video: "" },
+        ],
+
+        guidedProblem: `A landscaping company models the number of trees planted each year using the function
+            <p style="text-align:center;margin-bottom:12px"> \\( T(x)=-0.006x^2+24.3x-24500 \\) </p>
+            where \\(x\\) is the year.
+            <p style="margin-bottom:12px">According to the model, what is the absolute change in the estimated number of trees planted from 2024 to 2026, to the nearest tenth?</p>`,
+
+        guidedSteps: [
+          "Type the function \\(T(x)\\) into Desmos",
+          "Calculate \\(T(2024)\\) and \\(T(2026)\\)",
+          "Find \\(\\left|T(2026)-T(2024)\\right|\\) and round to the nearest tenth"
+        ],
+
+        guidedAnswer: "The answer is 0",
+        guidedScreenshot: "",
+
+        practice: [
+          {
+            text: `The monthly profit (in thousands of dollars) for a company is modeled by
+                <p style="text-align:center;margin-bottom:12px"> \\( P(x)=-0.015x^2+60x-59{,}800 \\) </p>
+                where \\(x\\) represents the year.
+                <p style="margin-bottom:12px">By approximately how many thousand dollars does the model predict the monthly profit changes between 2027 and 2028?</p>`
+          },
+
+          {
+            text: `The average height of a species of plant is modeled by
+                <p style="text-align:center;margin-bottom:12px"> \\( h(t)=0.42t^2+3.6t+12 \\) </p>
+                where \\(t\\) is measured in weeks.
+                <p style="margin-bottom:12px">Between which two consecutive weeks is the greatest increase predicted?</p>
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>Weeks 3 and 4</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>Weeks 4 and 5</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>Weeks 5 and 6</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>Weeks 6 and 7</span>
+            </div>
+            </div>`
+          }
+        ]
+      },
  
       // This is going to becoming Problem 11
       {
