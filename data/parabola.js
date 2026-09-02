@@ -450,7 +450,7 @@ const parabola = {
                         </div>
                       </div>`},
           { text: `<p>Which of the following is equivalent to</p>
-                    <p style="text-align:center;margin-bottom:12px">\\((3x + \\frac{1}{2})^2 - (x + \\frac{3}{4}) + 3(x - \\frac{1}{4})\\)?</p>
+                    <p style="text-align:center;margin-bottom:12px">\\((3x - \\frac{1}{2})^2 - (x + \\frac{3}{4}) + 3(x - \\frac{1}{4})\\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -514,7 +514,7 @@ const parabola = {
                       </div>`
           },
           { text: `<p>Which of the following is equivalent to</p>
-                    <p style="text-align:center;margin-bottom:12px">\\((4x + \\frac{1}{2})^2 - 3(x + \\frac{1}{4}) + (x + \\frac{3}{4})\\)?</p>
+                    <p style="text-align:center;margin-bottom:12px">\\((4x + \\frac{1}{2})^2 - 3(x - \\frac{1}{4}) + (x + \\frac{3}{4})\\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
