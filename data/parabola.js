@@ -1311,6 +1311,30 @@ const parabola = {
             <span>\\( 605 \\)</span>
             </div>
             </div>`
+          },
+
+          {
+            text: `The function \\(h\\) is defined by
+                <p style="text-align:center;margin-bottom:12px"> \\( h(x)=7(3x+2)(20-2x) \\) </p>
+                What is the value of \\( h(5) \\)?
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( 980 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( 1050 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 1190 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 1260 \\)</span>
+            </div>
+            </div>`
           }
         ],
         additionalPractice: [
