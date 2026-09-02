@@ -3841,230 +3841,6 @@ const parabola = {
       },
 
       // Problem 22
-      {
-        problem: `If 
-            <p style="text-align:center;margin-bottom:12px"> \\( u = 3x - 5 \\) </p>
-            which of the following is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( \\sqrt{u^2 + 10u + 25} \\) </p>
-            for all \\(x \\geq \\frac{5}{3}\\)?
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( 3x - 5 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">B</span>
-        <span>\\( 3x \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 3x + 5 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 6x \\)</span>
-        </div>
-        </div>`,
-
-        steps: [
-          { text: "Create a slider that follows the given constraints for \\(x\\)", note: "Note that you cannot use \\(x\\) as a slider so you need to choose another variable", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030684/problem21-step1_lq1lw2.mov" },
-          { text: "Declare the expression for \\(u\\)", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030685/problem21-step2_rrfpq3.mov" },
-          { text: "Declare the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030685/problem21-step3_xjeyw5.mov" },
-          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030685/problem21-step4_zzmshj.mov" },
-        ],
-
-        guidedProblem: `The function \\(f\\) is defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x) = \\sqrt{(2x - 7)^2} \\) </p>
-            If \\(x \\geq \\frac{7}{2}\\), which of the following is equivalent to \\(f(x)\\)?
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( 2x - 7 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( 7 - 2x \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 2x + 7 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 4x - 7 \\)</span>
-        </div>
-        </div>`,
-
-        guidedSteps: [
-          "Create a slider that follows the given constraint for \\(x\\)",
-          "Declare the expression for \\(f(x)\\) using the corresponding slider",
-          "Type each answer choice and match it to the given expression"
-        ],
-
-        guidedAnswer: "The answer is A",
-        guidedScreenshot: "",
-
-        practice: [
-          {
-            text: `If
-                <p style="text-align:center;margin-bottom:12px"> \\( g(x) = x^2 + 8x \\) </p>
-                which of the following is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\sqrt{g(x) + 16} \\) </p>
-                for all \\(x \\geq -4\\)?
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( x + 2 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">B</span>
-            <span>\\( 2x + 4 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">C</span>
-            <span>\\( x + 4 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( x + 8 \\)</span>
-            </div>
-            </div>`
-          },
-
-          {
-            text: `If
-                <p style="text-align:center;margin-bottom:12px"> \\( a = x^2 + 6x + 9 \\) </p>
-                which of the following is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\sqrt{4a} \\) </p>
-                for all \\(x \\geq -3\\)?
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( 2x + 3 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">B</span>
-            <span>\\( 2x + 6 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( x + 3 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( 4x + 6 \\)</span>
-            </div>
-            </div>`
-          }
-        ],
-        additionalPractice: [
-  { text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( p = 4x - 7, \\)</p>
-    <p>which of the following is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( \\sqrt{p^2 + 14p + 49} \\)</p>
-    <p>for all \\(x \\geq \\frac{7}{4}\\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( 4x - 7 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( 2(2x + 7) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 4x \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 2x \\)</span>
-      </div>
-    </div>` },
-
-  { text: `<p>The function \\(f\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( f(x) = \\sqrt{(5x - 8)^2} \\)</p>
-    <p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( x \\geq \\frac{8}{5}, \\)</p>
-    <p>which of the following is equivalent to \\(f(x)\\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( 8 - 5x \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( 5x - 8 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 5\\left(x + \\frac{8}{5}\\right) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 10x - 8 \\)</span>
-      </div>
-    </div>` },
-
-  { text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( g(x) = x^2 + 12x, \\)</p>
-    <p>which of the following is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( \\sqrt{g(x) + 36} \\)</p>
-    <p>for all \\(x \\geq -6\\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( 2(x + 3) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( x + 12 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 6\\left(\\frac{x}{6} + 1\\right) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( x - 6 \\)</span>
-      </div>
-    </div>` },
-
-  { text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( q = x^2 - 10x + 25, \\)</p>
-    <p>which of the following is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
-      \\( \\sqrt{9q} \\)</p>
-    <p>for all \\(x \\geq 5\\)?</p>
-    <div class="mc-choices">
-      <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( 3x - 15 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( 3(x + 5) \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 9x - 45 \\)</span>
-      </div>
-      <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( \\frac{3}{2}(2x - 5) \\)</span>
-      </div>
-    </div>` },
-],
-      },
-
-      // Problem 22
 
       {
         problem: `If
@@ -4333,79 +4109,7 @@ const parabola = {
 ],
       },
 
-
       // Problem 23
-
-      {
-        problem: `If
-            <p style="text-align:center;margin-bottom:12px"> \\( m=\\frac{1}{9}p^2+\\frac{1}{9}q^2 \\) </p>
-            and
-            <p style="text-align:center;margin-bottom:12px"> \\( n=\\frac{1}{9}pq \\), </p>
-            which of the following is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( 36m-72n \\)? </p>
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( (2p-2q)^2 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( (2p+2q)^2 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( (4p-4q)^2 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( (p-q)^2 \\)</span>
-        </div>
-        </div>`,
-
-        steps: [
-          { text: "Create sliders for the variables \\(p\\) and \\(q\\) and invent numbers", note: "", gif: "", answer: "", video: "" },
-          { text: "Substitute the equations for \\(m\\) and \\(n\\) into the given expression", note: "", gif: "", answer: "", video: "" },
-          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "" },
-        ],
-
-        guidedProblem: `If
-            <p style="text-align:center;margin-bottom:12px"> \\( m=\\frac{3}{8}p^2+\\frac{3}{8}q^2 \\) </p>
-            and
-            <p style="text-align:center;margin-bottom:12px"> \\( n=\\frac{3}{8}pq \\), </p>
-            which of the following is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( 8m-16n \\)? </p>
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( 3(p+q)^2 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">B</span>
-        <span>\\( 3(p-q)^2 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 6(p-q)^2 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( 6(p+q)^2 \\)</span>
-        </div>
-        </div>`,
-
-        guidedSteps: [
-          "Create sliders for the variables \\(p\\) and \\(q\\) and invent numbers",
-          "Substitute the equations for \\(m\\) and \\(n\\) into the given expression",
-          "Type each answer choice and match it to the given expression"
-        ],
-
-        guidedAnswer: "The answer is B",
-        guidedScreenshot: "",
-
-        practice: []
-      },
-
-      // Problem 24
       {
         problem: `The expression
             <p style="text-align:center;margin-bottom:12px"> \\( \\frac{1}{4}(2t^2 - 144) \\) </p>
@@ -4531,6 +4235,230 @@ const parabola = {
 
       // Problem 25
       {
+        problem: `If 
+            <p style="text-align:center;margin-bottom:12px"> \\( u = 3x - 5 \\) </p>
+            which of the following is equivalent to
+            <p style="text-align:center;margin-bottom:12px"> \\( \\sqrt{u^2 + 10u + 25} \\) </p>
+            for all \\(x \\geq \\frac{5}{3}\\)?
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 3x - 5 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( 3x \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 3x + 5 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 6x \\)</span>
+        </div>
+        </div>`,
+
+        steps: [
+          { text: "Create a slider that follows the given constraints for \\(x\\)", note: "Note that you cannot use \\(x\\) as a slider so you need to choose another variable", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030684/problem21-step1_lq1lw2.mov" },
+          { text: "Declare the expression for \\(u\\)", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030685/problem21-step2_rrfpq3.mov" },
+          { text: "Declare the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030685/problem21-step3_xjeyw5.mov" },
+          { text: "Type each answer choice and match it to the given expression", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030685/problem21-step4_zzmshj.mov" },
+        ],
+
+        guidedProblem: `The function \\(f\\) is defined by
+            <p style="text-align:center;margin-bottom:12px"> \\( f(x) = \\sqrt{(2x - 7)^2} \\) </p>
+            If \\(x \\geq \\frac{7}{2}\\), which of the following is equivalent to \\(f(x)\\)?
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( 2x - 7 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 7 - 2x \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 2x + 7 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 4x - 7 \\)</span>
+        </div>
+        </div>`,
+
+        guidedSteps: [
+          "Create a slider that follows the given constraint for \\(x\\)",
+          "Declare the expression for \\(f(x)\\) using the corresponding slider",
+          "Type each answer choice and match it to the given expression"
+        ],
+
+        guidedAnswer: "The answer is A",
+        guidedScreenshot: "",
+
+        practice: [
+          {
+            text: `If
+                <p style="text-align:center;margin-bottom:12px"> \\( g(x) = x^2 + 8x \\) </p>
+                which of the following is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( \\sqrt{g(x) + 16} \\) </p>
+                for all \\(x \\geq -4\\)?
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( x + 2 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 2x + 4 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( x + 4 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( x + 8 \\)</span>
+            </div>
+            </div>`
+          },
+
+          {
+            text: `If
+                <p style="text-align:center;margin-bottom:12px"> \\( a = x^2 + 6x + 9 \\) </p>
+                which of the following is equivalent to
+                <p style="text-align:center;margin-bottom:12px"> \\( \\sqrt{4a} \\) </p>
+                for all \\(x \\geq -3\\)?
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( 2x + 3 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( 2x + 6 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( x + 3 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 4x + 6 \\)</span>
+            </div>
+            </div>`
+          }
+        ],
+        additionalPractice: [
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( p = 4x - 7, \\)</p>
+    <p>which of the following is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\sqrt{p^2 + 14p + 49} \\)</p>
+    <p>for all \\(x \\geq \\frac{7}{4}\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 4x - 7 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 2(2x + 7) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 4x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 2x \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>The function \\(f\\) is defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( f(x) = \\sqrt{(5x - 8)^2} \\)</p>
+    <p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( x \\geq \\frac{8}{5}, \\)</p>
+    <p>which of the following is equivalent to \\(f(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 8 - 5x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 5x - 8 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 5\\left(x + \\frac{8}{5}\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 10x - 8 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( g(x) = x^2 + 12x, \\)</p>
+    <p>which of the following is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\sqrt{g(x) + 36} \\)</p>
+    <p>for all \\(x \\geq -6\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 2(x + 3) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( x + 12 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 6\\left(\\frac{x}{6} + 1\\right) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( x - 6 \\)</span>
+      </div>
+    </div>` },
+
+  { text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( q = x^2 - 10x + 25, \\)</p>
+    <p>which of the following is equivalent to</p>
+    <p style="text-align:center;margin-bottom:12px">
+      \\( \\sqrt{9q} \\)</p>
+    <p>for all \\(x \\geq 5\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 3x - 15 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 3(x + 5) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 9x - 45 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{3}{2}(2x - 5) \\)</span>
+      </div>
+    </div>` },
+],
+      },
+
+      // Problem 25
+      {
         problem: `The functions are defined by
             <p style="text-align:center;margin-bottom:12px"> \\( f(x)=\\frac{5}{4}x-3 \\) </p>
             and
@@ -4589,225 +4517,6 @@ const parabola = {
                 <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
                 where \\(a\\), \\(b\\), and \\(c\\) are constants.
                 <p style="margin-bottom:12px">What is the value of \\(a-b\\)?</p>`
-          }
-        ]
-      },
- 
-      // Problem 26
-      {
-        problem: `A quadratic expression is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( \\frac{p}{3}x^2 + \\frac{q}{3}x + \\frac{r}{3} \\) </p>
-            where \\(p\\), \\(q\\), and \\(r\\) are constants. If the original expression is
-            <p style="text-align:center;margin-bottom:12px"> \\( 6\\left[(2x-5)^2-(2x+1)(2x-3)\\right] \\), </p>
-            what is the value of \\(p+q+r\\)?
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( 72 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( 288 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( 144 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">D</span>
-        <span>\\( 216 \\)</span>
-        </div>
-        </div>`,
-
-        steps: [
-          { text: "Declare the given expression as \\(f(x)\\) in Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788033621/problem26-step1_ri7txu.mov" },
-          { text: "Recognize that \\(f(1)=\\frac{p+q+r}{3}\\) and type \\(3f(1)\\) into Desmos to find \\(p+q+r\\)", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788033622/problem26-step2_zbtlit.mov" },
-        ],
-
-        guidedProblem: `A quadratic expression is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( \\frac{p}{5}x^2 + \\frac{q}{5}x + \\frac{r}{5} \\) </p>
-            where \\(p\\), \\(q\\), and \\(r\\) are constants. If the original expression is
-            <p style="text-align:center;margin-bottom:12px"> \\( 10(2x-3)^2-5(2x+1)(2x-7) \\), </p>
-            what is the value of \\(p+q+r\\)?`,
-
-        guidedSteps: [
-          "Declare the given expression in Desmos",
-          "Recognize that \\(f(1)=\\frac{p+q+r}{5}\\) and type \\(5f(1)\\) into Desmos to find \\(p+q+r\\)",
-        ],
-
-        guidedAnswer: "The answer is 425", 
-        guidedAnswerValue: "425",
-        guidedScreenshot: "",
-
-        practice: [
-          {
-            text: `A quadratic expression is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{d}{2}x^2 + \\frac{e}{2}x + \\frac{f}{2} \\) </p>
-                where \\(d\\), \\(e\\), and \\(f\\) are constants. If the original expression is
-                <p style="text-align:center;margin-bottom:12px"> \\( 8(3x-1)(3x+5)-4(3x+2)^2 \\), </p>
-                what is the value of \\(d+e+f\\)?
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( 84 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">B</span>
-            <span>\\( 72 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">C</span>
-            <span>\\( 56 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( 28 \\)</span>
-            </div>
-            </div>`
-          },
-
-          {
-            text: `A quadratic expression is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{d}{8}x^2 + \\frac{e}{8}x + \\frac{f}{8} \\) </p>
-                where \\(d\\), \\(e\\), and \\(f\\) are constants. If the original expression is
-                <p style="text-align:center;margin-bottom:12px"> \\( 12(x-2)^2-8(x+3)(x-1)+4(x+5) \\), </p>
-                what is the value of \\(d+e+f\\)?
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( 216 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">B</span>
-            <span>\\( 288 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( 324 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( 72 \\)</span>
-            </div>
-            </div>`
-          }
-        ]
-      },
-
-      // Problem 27
-      {
-        problem: `If
-            <p style="text-align:center;margin-bottom:12px"> \\( 7(x+5)(x-4)-3(x-2)^2 \\) </p>
-            is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( \\frac{a}{2}x^2+\\frac{b}{2}x+\\frac{c}{2} \\), </p>
-            what is the value of \\(a-b+c\\)?
-        <div class="mc-choices">
-        <div class="mc-choice correct">
-        <span class="mc-label">A</span>
-        <span>\\( -334 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">B</span>
-        <span>\\( -328 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( -346 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( -340 \\)</span>
-        </div>
-        </div>`,
-
-        steps: [
-          { text: "Declare the given expression as \\(f(x)\\) in Desmos", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788033902/problem27-step1_ovyolv.mov" },
-          { text: "Recognize that \\(f(-1)=\\frac{a-b+c}{2}\\) and type \\(2f(-1)\\) into Desmos to find \\(a-b+c\\)", note: "", gif: "", answer: "", video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788033903/problem27-step2_u0mqva.mov" },
-        ],
-
-        guidedProblem: `If
-            <p style="text-align:center;margin-bottom:12px"> \\( 11(x+8)(x-5)-6(x-1)^2 \\) </p>
-            is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( \\frac{a}{4}x^2+\\frac{b}{4}x+\\frac{c}{4} \\), </p>
-            what is the value of \\(a-b+c\\)?
-        <div class="mc-choices">
-        <div class="mc-choice">
-        <span class="mc-label">A</span>
-        <span>\\( -1950 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-        <span class="mc-label">B</span>
-        <span>\\( -1944 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">C</span>
-        <span>\\( -1938 \\)</span>
-        </div>
-        <div class="mc-choice">
-        <span class="mc-label">D</span>
-        <span>\\( -1956 \\)</span>
-        </div>
-        </div>`,
-
-        guidedSteps: [
-          "Declare the given expression as \\(f(x)\\) in Desmos",
-          "Recognize that \\(f(-1)=\\frac{a-b+c}{4}\\) and type \\(4f(-1)\\) into Desmos to find \\(a-b+c\\)"
-        ],
-
-        guidedAnswer: "The answer is B",
-        guidedScreenshot: "",
-
-        practice: [
-          {
-            text: `If
-                <p style="text-align:center;margin-bottom:12px"> \\( 10(x-6)(x+4)-8(x+2)^2 \\) </p>
-                is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{a}{3}x^2+\\frac{b}{3}x+\\frac{c}{3} \\), </p>
-                what is the value of \\(a-b+c\\)?
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( -648 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">B</span>
-            <span>\\( -666 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">C</span>
-            <span>\\( -660 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">D</span>
-            <span>\\( -654 \\)</span>
-            </div>
-            </div>`
-          },
-
-          {
-            text: `If
-                <p style="text-align:center;margin-bottom:12px"> \\( 18(x-8)(x+5)-13(x+3)^2 \\) </p>
-                is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{a}{5}x^2+\\frac{b}{5}x+\\frac{c}{5} \\), </p>
-                what is the value of \\(a-b+c\\)?
-            <div class="mc-choices">
-            <div class="mc-choice">
-            <span class="mc-label">A</span>
-            <span>\\( -3510 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">B</span>
-            <span>\\( -3490 \\)</span>
-            </div>
-            <div class="mc-choice correct">
-            <span class="mc-label">C</span>
-            <span>\\( -3500 \\)</span>
-            </div>
-            <div class="mc-choice">
-            <span class="mc-label">D</span>
-            <span>\\( -3520 \\)</span>
-            </div>
-            </div>`
           }
         ]
       },
