@@ -1439,8 +1439,121 @@ const parabola = {
           </div>` },
       ],
       },
- 
+
       // Problem 9
+
+      {
+        problem: `The function \\(f\\) is defined by
+            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=3(x^2+7x+10)+4 \\). </p>
+            For which value of \\(x\\) is \\(f(x)=4\\)?
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( -6 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( -5 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( -3 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 2 \\)</span>
+        </div>
+        </div>`,
+
+        steps: [
+          { text: "Type the function \\(f(x)\\) into Desmos", note: "", gif: "", answer: "", video: "" },
+          { text: "Type \\(y=4\\) into Desmos", note: "", gif: "", answer: "", video: "" },
+          { text: "Find the intersection and match the \\(x\\)-value to an answer choice", note: "", gif: "", answer: "", video: "" },
+        ],
+
+        guidedProblem: `The function \\(h\\) is defined by
+            <p style="text-align:center;margin-bottom:12px"> \\( h(x)=2(x^2-9x+14)-3 \\). </p>
+            For which value of \\(x\\) is \\(h(x)=-3\\)?
+        <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 1 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( 2 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 4 \\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 6 \\)</span>
+        </div>
+        </div>`,
+
+        guidedSteps: [
+          "Type the function \\(h(x)\\) into Desmos",
+          "Type \\(y=-3\\) into Desmos",
+          "Find the intersection and match the \\(x\\)-value to an answer choice"
+        ],
+
+        guidedAnswer: "The answer is B",
+        guidedScreenshot: "",
+
+        practice: [
+          {
+            text: `The function \\(p\\) is defined by
+                <p style="text-align:center;margin-bottom:12px"> \\( p(x)=4(x^2+3x-10)+7 \\). </p>
+                For which value of \\(x\\) is \\(p(x)=7\\)?
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( -6 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( -5 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( -4 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 1 \\)</span>
+            </div>
+            </div>`
+          },
+
+          {
+            text: `The function \\(k\\) is defined by
+                <p style="text-align:center;margin-bottom:12px"> \\( k(x)=5(x^2-4x-12)+9 \\). </p>
+                For which value of \\(x\\) is \\(k(x)=9\\)?
+            <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( -3 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( -2 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 3 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 5 \\)</span>
+            </div>
+            </div>`
+          }
+        ]
+      },
+ 
+      // This is going to becoming Problem 11
       {
         problem: `Which of the following is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( (2n + \\frac{3}{2})^2 - (n - \\frac{1}{4}) + 2(n + \\frac{3}{4})\\)?</p>
