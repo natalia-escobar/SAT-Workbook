@@ -958,64 +958,67 @@ const parabola = {
         ],
         guidedProblem: `Which of the following expressions is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( 4(2x + 3)^2 - 144 \\)?</p>
-        <div class="mc-choice">
-              <span class="mc-label">A</span>
-              <span>\\( 4(2x - 9)(2x + 3) \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">B</span>
-              <span>\\( 4(2x - 3)(2x + 9) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">C</span>
-              <span>\\( 4(2x - 6)(2x + 6) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( 4(2x + 3)(2x + 9) \\)</span>
-            </div>
-          </div>`,
+              <div class="mc-choices">
+                <div class="mc-choice">
+                <span class="mc-label">A</span>
+                <span>\\( 4(2x - 9)(2x + 3) \\)</span>
+              </div>
+              <div class="mc-choice correct">
+                <span class="mc-label">B</span>
+                <span>\\( 4(2x - 3)(2x + 9) \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">C</span>
+                <span>\\( 4(2x - 6)(2x + 6) \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">D</span>
+                <span>\\( 4(2x + 3)(2x + 9) \\)</span>
+              </div>
+            </div>`,
         guidedSteps: ["Type the expression into Desmos", "Type each answer choice and match it to the original expression"],
         guidedAnswer: "The Answer is B", guidedScreenshot: "",
         practice: [
           { text: `Which of the following expressions is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( 5(4x - 1)^2 - 405 \\)?</p>
-        <div class="mc-choice correct">
-              <span class="mc-label">A</span>
-              <span>\\( 5(4x - 10)(4x + 8) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( 5(4x - 9)(4x + 9) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">C</span>
-              <span>\\( 5(4x - 10)(4x - 8) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( 5(4x - 8)(4x + 10) \\)</span>
-            </div>
-          </div>` },
+            <div class ="mc-choices">
+              <div class="mc-choice correct">
+                <span class="mc-label">A</span>
+                <span>\\( 5(4x - 10)(4x + 8) \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">B</span>
+                <span>\\( 5(4x - 9)(4x + 9) \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">C</span>
+                <span>\\( 5(4x - 10)(4x - 8) \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">D</span>
+                <span>\\( 5(4x - 8)(4x + 10) \\)</span>
+              </div>
+            </div>` },
           { text: `Which of the following expressions is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( 3(5x + 2)^2 - 192 \\)?</p>
-        <div class="mc-choice correct">
-              <span class="mc-label">A</span>
-              <span>\\( 3(5x - 10)(5x + 6) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( 3(5x - 6)(5x - 10) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">C</span>
-              <span>\\( 3(5x - 6)(5x + 10) \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( 3(5x + 6)(5x + 10) \\)</span>
-            </div>
-          </div>` },
+            <div class="mc-choices">
+              <div class="mc-choice correct">
+                <span class="mc-label">A</span>
+                <span>\\( 3(5x - 10)(5x + 6) \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">B</span>
+                <span>\\( 3(5x - 6)(5x - 10) \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">C</span>
+                <span>\\( 3(5x - 6)(5x + 10) \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">D</span>
+                <span>\\( 3(5x + 6)(5x + 10) \\)</span>
+              </div>
+            </div>` },
         ],
         additionalPractice: [
   { text: `<p>Which of the following expressions is equivalent to</p>
