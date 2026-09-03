@@ -59,6 +59,21 @@ export default function Home() {
             <div style={{ fontSize: "13px", color: "#888", marginTop: "4px" }}>26 problems</div>
           </Link>
         </Collapsible>
+        <Collapsible title="Simple Graphing, X-Intercept, & Y-Intercept" defaultOpen={false}>
+          <Link
+            href="/workbook/parabola/simple-graphing-x-y-intercept/simple-graphing"
+            style={{
+              display: "block",
+              padding: "16px 20px",
+              border: "0.5px solid #e0e0de",
+              borderRadius: "10px",
+              textDecoration: "none",
+              color: "#1a1a1a",
+            }}
+          >
+            <div style={{ fontSize: "16px", fontWeight: 600 }}>Simple Graphing</div>
+          </Link>
+        </Collapsible>
       </Collapsible>
     </main>
   );
