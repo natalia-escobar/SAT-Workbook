@@ -125,21 +125,7 @@ function ProblemNav({ problemIndex, total, setProblemIndex, isFirst, isLast }) {
             }}
           />
         ) : (
-          <span
-            onClick={handleClick}
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              justifyContent: "center",
-              minWidth: "20px",
-              padding: "1px 4px",
-              borderRadius: "4px",
-              cursor: "pointer",
-              border: "1px solid transparent",
-            }}
-            onMouseEnter={(e) => { e.target.style.background = "#f5f5f3"; e.target.style.borderColor = "#e0e0de"; }}
-            onMouseLeave={(e) => { e.target.style.background = ""; e.target.style.borderColor = "transparent"; }}
-          >
+          <span onClick={handleClick} style={{ cursor: "pointer" }}>
             {problemIndex + 1}
           </span>
         )}{" "}
