@@ -9,12 +9,14 @@ export default function DesmosCalculator() {
   useEffect(() => {
     const overlay = overlayRef.current;
     if (!overlay) return;
-    const handle = overlay.querySelector(".calc-drag");
-    if (!handle) return;
+    const dragHandle = overlay.querySelector(".calc-drag");
+    const resizeHandle = overlay.querySelector(".calc-resize-grip");
+    if (!dragHandle || !resizeHandle) return;
 
+    // ── DRAG LOGIC ──
     let dragging = false, startX, startY, origX, origY;
 
-    const onDown = (e) => {
+    const onDragDown = (e) => {
       dragging = true;
       startX = e.clientX;
       startY = e.clientY;
@@ -28,24 +30,62 @@ export default function DesmosCalculator() {
       e.preventDefault();
     };
 
-    const onMove = (e) => {
+    const onDragMove = (e) => {
       if (!dragging) return;
-      overlay.style.left = (origX + e.clientX - startX) + "px";
-      overlay.style.top = (origY + e.clientY - startY) + "px";
+      let newX = origX + e.clientX - startX;
+      let newY = origY + e.clientY - startY;
+      newX = Math.max(-overlay.offsetWidth + 100, Math.min(window.innerWidth - 100, newX));
+      newY = Math.max(0, Math.min(window.innerHeight - 50, newY));
+      overlay.style.left = newX + "px";
+      overlay.style.top = newY + "px";
     };
 
-    const onUp = () => { dragging = false; };
+    const onDragUp = () => { dragging = false; };
 
-    handle.addEventListener("mousedown", onDown);
-    document.addEventListener("mousemove", onMove);
-    document.addEventListener("mouseup", onUp);
+    // ── RESIZE LOGIC ──
+    let resizing = false, rStartX, rStartY, rOrigW, rOrigH;
+    const shield = document.createElement("div");
+    shield.style.cssText = "position:absolute;inset:0;z-index:10;cursor:se-resize;display:none";
+
+    overlay.appendChild(shield);
+
+    const onResizeDown = (e) => {
+      resizing = true;
+      rStartX = e.clientX;
+      rStartY = e.clientY;
+      rOrigW = overlay.offsetWidth;
+      rOrigH = overlay.offsetHeight;
+      shield.style.display = "block";
+      e.preventDefault();
+      e.stopPropagation();
+    };
+
+    const onResizeMove = (e) => {
+      if (!resizing) return;
+      const newW = Math.max(400, rOrigW + (e.clientX - rStartX));
+      const newH = Math.max(350, rOrigH + (e.clientY - rStartY));
+      overlay.style.width = newW + "px";
+      overlay.style.height = newH + "px";
+    };
+
+    const onResizeUp = () => {
+      if (resizing) {
+        resizing = false;
+        shield.style.display = "none";
+      }
+    };
+
+    dragHandle.addEventListener("mousedown", onDragDown);
+    document.addEventListener("mousemove", (e) => { onDragMove(e); onResizeMove(e); });
+    document.addEventListener("mouseup", (e) => { onDragUp(e); onResizeUp(e); });
+    resizeHandle.addEventListener("mousedown", onResizeDown);
 
     return () => {
-      handle.removeEventListener("mousedown", onDown);
-      document.removeEventListener("mousemove", onMove);
-      document.removeEventListener("mouseup", onUp);
+      dragHandle.removeEventListener("mousedown", onDragDown);
+      resizeHandle.removeEventListener("mousedown", onResizeDown);
+      if (shield.parentNode) shield.remove();
     };
-  }, []);
+  }, [open]);
 
   return (
     <>
@@ -70,6 +110,9 @@ export default function DesmosCalculator() {
               title="Desmos Calculator"
             />
           )}
+        </div>
+        <div className="calc-resize-grip">
+          <i className="ti ti-arrows-diagonal-2" />
         </div>
       </div>
     </>

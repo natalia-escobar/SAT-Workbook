@@ -58,14 +58,7 @@ export default function StepNavigator({ steps }) {
       <MathContent text={step.text} className="step-text" />
       {step.note && <MathContent text={step.note} className="step-note" />}
 
-      {step.video ? (
-        <VideoPlayer src={step.video} />
-      ) : (
-        <div className="media-slot">
-          <span className="media-slot-icon">🎬</span>
-          <span className="media-slot-label">Video coming soon</span>
-        </div>
-      )}
+      {step.video && <VideoPlayer src={step.video} />}
 
       {!isLast && (
         <button className="next-step-btn" onClick={() => setCurrentIndex((i) => i + 1)}>
