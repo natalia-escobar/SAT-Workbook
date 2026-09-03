@@ -78,6 +78,81 @@ function AdditionalPracticeQuestion({ text, index }) {
   );
 }
 
+function ProblemNav({ problemIndex, total, setProblemIndex, isFirst, isLast }) {
+  const [editing, setEditing] = useState(false);
+  const [inputVal, setInputVal] = useState("");
+
+  const handleClick = () => {
+    setInputVal(String(problemIndex + 1));
+    setEditing(true);
+  };
+
+  const handleSubmit = () => {
+    const num = parseInt(inputVal, 10);
+    if (num >= 1 && num <= total) {
+      setProblemIndex(num - 1);
+    }
+    setEditing(false);
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") handleSubmit();
+    if (e.key === "Escape") setEditing(false);
+  };
+
+  return (
+    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "10px" }}>
+      <span style={{ fontSize: "11px", fontWeight: 500, textTransform: "uppercase", letterSpacing: ".05em", color: "#888" }}>
+        Problem{" "}
+        {editing ? (
+          <input
+            type="text"
+            value={inputVal}
+            onChange={(e) => setInputVal(e.target.value)}
+            onKeyDown={handleKeyDown}
+            onBlur={handleSubmit}
+            autoFocus
+            style={{
+              width: "28px",
+              padding: "1px 4px",
+              border: "1.5px solid #D13B31",
+              borderRadius: "4px",
+              fontSize: "11px",
+              fontWeight: 500,
+              textAlign: "center",
+              outline: "none",
+              lineHeight: "16px",
+            }}
+          />
+        ) : (
+          <span
+            onClick={handleClick}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              minWidth: "20px",
+              padding: "1px 4px",
+              borderRadius: "4px",
+              cursor: "pointer",
+              border: "1px solid transparent",
+            }}
+            onMouseEnter={(e) => { e.target.style.background = "#f5f5f3"; e.target.style.borderColor = "#e0e0de"; }}
+            onMouseLeave={(e) => { e.target.style.background = ""; e.target.style.borderColor = "transparent"; }}
+          >
+            {problemIndex + 1}
+          </span>
+        )}{" "}
+        of {total}
+      </span>
+      <div style={{ display: "flex", gap: "6px" }}>
+        <button className="nav-btn" onClick={() => setProblemIndex((i) => i - 1)} disabled={isFirst}>&larr; Prev</button>
+        <button className="nav-btn" onClick={() => setProblemIndex((i) => i + 1)} disabled={isLast}>Next &rarr;</button>
+      </div>
+    </div>
+  );
+}
+
 export default function WorkbookView({ topic }) {
   const [problemIndex, setProblemIndex] = useState(0);
   const problem = topic.workedProblems[problemIndex];
@@ -93,15 +168,7 @@ export default function WorkbookView({ topic }) {
     <main className="page">
       <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "16px" }}>{topic.name}</h1>
       <HowThisWorks />
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "10px" }}>
-        <span style={{ fontSize: "11px", fontWeight: 500, textTransform: "uppercase", letterSpacing: ".05em", color: "#888" }}>
-          Problem {problemIndex + 1} of {total}
-        </span>
-        <div style={{ display: "flex", gap: "6px" }}>
-          <button className="nav-btn" onClick={() => setProblemIndex((i) => i - 1)} disabled={isFirst}>&larr; Prev</button>
-          <button className="nav-btn" onClick={() => setProblemIndex((i) => i + 1)} disabled={isLast}>Next &rarr;</button>
-        </div>
-      </div>
+      <ProblemNav problemIndex={problemIndex} total={total} setProblemIndex={setProblemIndex} isFirst={isFirst} isLast={isLast} />
 
       <SectionAccordion icon="ti-book" title="Worked example" defaultOpen={true} key={`we-${problemIndex}`}>
         <div className="problem-steps-grid">
