@@ -477,7 +477,7 @@ const simpleGraphing = {
           label: "A",
           correct: false,
           graph: {
-            expressions: [{ id: "1", latex: "y = (x+2)^2 + 1", color: "#1a1a1a" }],
+            expressions: [{ id: "1", latex: "y = (x+2)^2 + 1", color: "#2563eb" }],
             bounds: { left: -8, right: 8, bottom: -5, top: 9 },
           },
         },
@@ -485,7 +485,7 @@ const simpleGraphing = {
           label: "B",
           correct: false,
           graph: {
-            expressions: [{ id: "1", latex: "y = (x-2)^2 - 1", color: "#1a1a1a" }],
+            expressions: [{ id: "1", latex: "y = (x-2)^2 - 1", color: "#2563eb" }],
             bounds: { left: -8, right: 8, bottom: -5, top: 9 },
           },
         },
@@ -493,7 +493,7 @@ const simpleGraphing = {
           label: "C",
           correct: true,
           graph: {
-            expressions: [{ id: "1", latex: "y = (x-2)^2 + 1", color: "#1a1a1a" }],
+            expressions: [{ id: "1", latex: "y = (x-2)^2 + 1", color: "#2563eb" }],
             bounds: { left: -8, right: 8, bottom: -5, top: 9 },
           },
         },
@@ -501,7 +501,7 @@ const simpleGraphing = {
           label: "D",
           correct: false,
           graph: {
-            expressions: [{ id: "1", latex: "y = (x+2)^2 - 1", color: "#1a1a1a" }],
+            expressions: [{ id: "1", latex: "y = (x+2)^2 - 1", color: "#2563eb" }],
             bounds: { left: -8, right: 8, bottom: -5, top: 9 },
           },
         },
@@ -517,7 +517,7 @@ const simpleGraphing = {
           label: "A",
           correct: false,
           graph: {
-            expressions: [{ id: "1", latex: "y = x^2 + 4x + 1", color: "#1a1a1a" }],
+            expressions: [{ id: "1", latex: "y = x^2 + 4x + 1", color: "#2563eb" }],
             bounds: { left: -8, right: 8, bottom: -5, top: 9 },
           },
         },
@@ -525,7 +525,7 @@ const simpleGraphing = {
           label: "B",
           correct: false,
           graph: {
-            expressions: [{ id: "1", latex: "y = -x^2 + 4x - 1", color: "#1a1a1a" }],
+            expressions: [{ id: "1", latex: "y = -x^2 + 4x - 1", color: "#2563eb" }],
             bounds: { left: -8, right: 8, bottom: -5, top: 9 },
           },
         },
@@ -533,7 +533,7 @@ const simpleGraphing = {
           label: "C",
           correct: false,
           graph: {
-            expressions: [{ id: "1", latex: "y = (x+2)^2 - 3", color: "#1a1a1a" }],
+            expressions: [{ id: "1", latex: "y = (x+2)^2 - 3", color: "#2563eb" }],
             bounds: { left: -8, right: 8, bottom: -5, top: 9 },
           },
         },
@@ -541,7 +541,7 @@ const simpleGraphing = {
           label: "D",
           correct: true,
           graph: {
-            expressions: [{ id: "1", latex: "y = x^2 - 4x + 1", color: "#1a1a1a" }],
+            expressions: [{ id: "1", latex: "y = x^2 - 4x + 1", color: "#2563eb" }],
             bounds: { left: -8, right: 8, bottom: -5, top: 9 },
           },
         },
@@ -561,7 +561,7 @@ const simpleGraphing = {
               label: "A",
               correct: true,
               graph: {
-                expressions: [{ id: "1", latex: "y = (x+3)(x-1)", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = (x+3)(x-1)", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -5, top: 9 },
               },
             },
@@ -569,7 +569,7 @@ const simpleGraphing = {
               label: "B",
               correct: false,
               graph: {
-                expressions: [{ id: "1", latex: "y = (x-3)(x+1)", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = (x-3)(x+1)", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -5, top: 9 },
               },
             },
@@ -577,7 +577,7 @@ const simpleGraphing = {
               label: "C",
               correct: false,
               graph: {
-                expressions: [{ id: "1", latex: "y = -(x+3)(x-1)", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = -(x+3)(x-1)", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -5, top: 9 },
               },
             },
@@ -585,7 +585,7 @@ const simpleGraphing = {
               label: "D",
               correct: false,
               graph: {
-                expressions: [{ id: "1", latex: "y = (x+3)(x+1)", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = (x+3)(x+1)", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -5, top: 9 },
               },
             },
@@ -599,7 +599,7 @@ const simpleGraphing = {
               label: "A",
               correct: false,
               graph: {
-                expressions: [{ id: "1", latex: "y = (x+1)^2 + 5", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = (x+1)^2 + 5", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -5, top: 9 },
               },
             },
@@ -607,7 +607,7 @@ const simpleGraphing = {
               label: "B",
               correct: true,
               graph: {
-                expressions: [{ id: "1", latex: "y = -(x+1)^2 + 5", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = -(x+1)^2 + 5", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -5, top: 9 },
               },
             },
@@ -615,7 +615,7 @@ const simpleGraphing = {
               label: "C",
               correct: false,
               graph: {
-                expressions: [{ id: "1", latex: "y = -(x-1)^2 + 5", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = -(x-1)^2 + 5", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -5, top: 9 },
               },
             },
@@ -623,7 +623,7 @@ const simpleGraphing = {
               label: "D",
               correct: false,
               graph: {
-                expressions: [{ id: "1", latex: "y = (x-1)^2 - 5", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = (x-1)^2 - 5", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -5, top: 9 },
               },
             },
@@ -640,7 +640,7 @@ const simpleGraphing = {
         label: "A",
         correct: false,
         graph: {
-          expressions: [{ id: "1", latex: "y = (x+1)^2 - 16", color: "#1a1a1a" }],
+          expressions: [{ id: "1", latex: "y = (x+1)^2 - 16", color: "#2563eb" }],
           bounds: { left: -8, right: 8, bottom: -24, top: 24 },
         },
       },
@@ -648,7 +648,7 @@ const simpleGraphing = {
         label: "B",
         correct: false,
         graph: {
-          expressions: [{ id: "1", latex: "y = -(x-1)^2 + 16", color: "#1a1a1a" }],
+          expressions: [{ id: "1", latex: "y = -(x-1)^2 + 16", color: "#2563eb" }],
           bounds: { left: -8, right: 8, bottom: -24, top: 24 },
         },
       },
@@ -656,7 +656,7 @@ const simpleGraphing = {
         label: "C",
         correct: false,
         graph: {
-          expressions: [{ id: "1", latex: "y = -(x-1)^2 + 4", color: "#1a1a1a" }],
+          expressions: [{ id: "1", latex: "y = -(x-1)^2 + 4", color: "#2563eb" }],
           bounds: { left: -8, right: 8, bottom: -24, top: 24 },
         },
       },
@@ -664,7 +664,7 @@ const simpleGraphing = {
         label: "D",
         correct: true,
         graph: {
-          expressions: [{ id: "1", latex: "y = -(x-3)(x+5)", color: "#1a1a1a" }],
+          expressions: [{ id: "1", latex: "y = -(x-3)(x+5)", color: "#2563eb" }],
           bounds: { left: -8, right: 8, bottom: -24, top: 24 },
         },
       },
@@ -679,7 +679,7 @@ const simpleGraphing = {
                 label: "A",
                 correct: false,
                 graph: {
-                expressions: [{ id: "1", latex: "y = 2(x+2)^2 - 3", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = 2(x+2)^2 - 3", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 18 },
                 },
             },
@@ -687,7 +687,7 @@ const simpleGraphing = {
                 label: "B",
                 correct: false,
                 graph: {
-                expressions: [{ id: "1", latex: "y = 2(x-2)^2 + 5", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = 2(x-2)^2 + 5", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 18 },
                 },
             },
@@ -695,7 +695,7 @@ const simpleGraphing = {
                 label: "C",
                 correct: true,
                 graph: {
-                expressions: [{ id: "1", latex: "y = 2(x-1)^2 - 3", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = 2(x-1)^2 - 3", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 18 },
                 },
             },
@@ -703,7 +703,7 @@ const simpleGraphing = {
                 label: "D",
                 correct: false,
                 graph: {
-                expressions: [{ id: "1", latex: "y = -2(x+2)^2 + 5", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = -2(x+2)^2 + 5", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 18 },
                 },
             },
@@ -718,7 +718,7 @@ const simpleGraphing = {
                 label: "A",
                 correct: false,
                 graph: {
-                expressions: [{ id: "1", latex: "y = (x-3)^2 - 1", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = (x-3)^2 - 1", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 10 },
                 },
             },
@@ -726,7 +726,7 @@ const simpleGraphing = {
                 label: "B",
                 correct: true,
                 graph: {
-                expressions: [{ id: "1", latex: "y = x^2 + 6x + 8", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = x^2 + 6x + 8", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 10 },
                 },
             },
@@ -734,7 +734,7 @@ const simpleGraphing = {
                 label: "C",
                 correct: false,
                 graph: {
-                expressions: [{ id: "1", latex: "y = (x+3)^2 + 4", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = (x+3)^2 + 4", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 10 },
                 },
             },
@@ -742,7 +742,7 @@ const simpleGraphing = {
                 label: "D",
                 correct: false,
                 graph: {
-                expressions: [{ id: "1", latex: "y = -(x+3)^2 + 1", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = -(x+3)^2 + 1", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 10 },
                 },
             },
@@ -757,7 +757,7 @@ const simpleGraphing = {
                 label: "A",
                 correct: true,
                 graph: {
-                expressions: [{ id: "1", latex: "y = -x^2 + 4x + 5", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = -x^2 + 4x + 5", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 12 },
                 },
             },
@@ -765,7 +765,7 @@ const simpleGraphing = {
                 label: "B",
                 correct: false,
                 graph: {
-                expressions: [{ id: "1", latex: "y = -(x+2)^2 + 9", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = -(x+2)^2 + 9", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 12 },
                 },
             },
@@ -773,7 +773,7 @@ const simpleGraphing = {
                 label: "C",
                 correct: false,
                 graph: {
-                expressions: [{ id: "1", latex: "y = (x-2)^2 - 4", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = (x-2)^2 - 4", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 12 },
                 },
             },
@@ -781,7 +781,7 @@ const simpleGraphing = {
                 label: "D",
                 correct: false,
                 graph: {
-                expressions: [{ id: "1", latex: "y = -(x-2)^2 + 3", color: "#1a1a1a" }],
+                expressions: [{ id: "1", latex: "y = -(x-2)^2 + 3", color: "#2563eb" }],
                 bounds: { left: -8, right: 8, bottom: -8, top: 12 },
                 },
             },
