@@ -3,13 +3,15 @@
 import { useState, useRef } from "react";
 import MathContent from "./MathContent";
 import WriteInAnswer from "./WriteInAnswer";
+import DesmosGraph from "./DesmosGraph";
+import GraphChoices from "./GraphChoices";
 
-export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot }) {
+export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot, guidedGraph, guidedGraphChoices }) {
   const [checked, setChecked] = useState(() => guidedSteps.map(() => false));
   const [revealed, setRevealed] = useState(false);
 
   const allChecked = checked.every(Boolean);
-  const isMultipleChoice = guidedProblem.includes("mc-choice");
+  const isMultipleChoice = guidedProblem.includes("mc-choice") || guidedGraphChoices;
 
   const toggleStep = (i) => {
     const next = [...checked];
@@ -59,9 +61,11 @@ export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswe
   return (
     <div className="guided-grid">
       <div className="guided-grid-left" onClick={isMultipleChoice ? handleChoiceClick : undefined}>
+        {guidedGraph && <DesmosGraph graph={guidedGraph} />}
         <div className="guided-label">Problem</div>
         <MathContent html={guidedProblem} className="guided-text" />
-        {!isMultipleChoice && guidedProblem && (
+        {guidedGraphChoices && <GraphChoices choices={guidedGraphChoices} />}
+        {!isMultipleChoice && !guidedGraphChoices && guidedProblem && (
           <WriteInAnswer
             correctAnswer={guidedAnswerValue}
             onSubmit={() => allChecked && setRevealed(true)}

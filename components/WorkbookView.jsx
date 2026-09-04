@@ -8,6 +8,7 @@ import PracticeQuestion from "@/components/PracticeQuestion";
 import DesmosGraph from "@/components/DesmosGraph";
 import HowThisWorks from "@/components/HowThisWorks";
 import MathContent from "@/components/MathContent";
+import GraphChoices from "@/components/GraphChoices";
 
 function SectionAccordion({ icon, title, defaultOpen, children }) {
   const [open, setOpen] = useState(defaultOpen);
@@ -22,15 +23,15 @@ function SectionAccordion({ icon, title, defaultOpen, children }) {
         <i className="ti ti-chevron-down section-accordion-chevron" />
       </div>
       <div className="section-accordion-body">
-        {children}
+        {open && children}
       </div>
     </div>
   );
 }
 
-function AdditionalPracticeQuestion({ text, index }) {
+function AdditionalPracticeQuestion({ text, index, graph, graphChoices }) {
   const [open, setOpen] = useState(false);
-  const isMultipleChoice = text.includes("mc-choice");
+  const isMultipleChoice = text.includes("mc-choice") || graphChoices;
 
   const handleChoiceClick = (e) => {
     const choice = e.target.closest(".mc-choice");
@@ -53,10 +54,12 @@ function AdditionalPracticeQuestion({ text, index }) {
       </div>
       {open && (
         <div style={{ marginTop: "12px" }}>
+          {graph && <DesmosGraph graph={graph} />}
           <div onClick={isMultipleChoice ? handleChoiceClick : undefined}>
             <MathContent html={text} className="practice-text" />
           </div>
-          {!isMultipleChoice && (
+          {graphChoices && <GraphChoices choices={graphChoices} showFeedback={false} />}
+          {!isMultipleChoice && !graphChoices && (
             <div style={{ display: "flex", justifyContent: "center", marginTop: "16px" }}>
               <input
                 type="text"
@@ -162,6 +165,7 @@ export default function WorkbookView({ topic }) {
             <DesmosGraph graph={problem.graph} />
             <div className="problem-label">Example</div>
             <ProblemStatement problem={problem.problem} />
+              {problem.graphChoices && <GraphChoices choices={problem.graphChoices} readOnly={true} />}
           </div>
           <div className="psg-right">
             <StepNavigator key={problemIndex} steps={problem.steps} />
@@ -177,13 +181,15 @@ export default function WorkbookView({ topic }) {
           guidedAnswer={problem.guidedAnswer}
           guidedAnswerValue={problem.guidedAnswerValue}
           guidedScreenshot={problem.guidedScreenshot}
+          guidedGraph={problem.guidedGraph}
+          guidedGraphChoices={problem.guidedGraphChoices}
         />
       </SectionAccordion>
 
       {problem.practice && problem.practice.length > 0 && (
       <SectionAccordion icon="ti-pencil" title="In-class practice problems" defaultOpen={false} key={`pp-${problemIndex}`}>
         {problem.practice.map((p, i) => (
-          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} />
+          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} />
         ))}
       </SectionAccordion>
       )}
@@ -194,7 +200,7 @@ export default function WorkbookView({ topic }) {
       {problem.additionalPractice && problem.additionalPractice.length > 0 && (
         <SectionAccordion icon="ti-notebook" title="Additional practice" defaultOpen={false} key={`ap-${problemIndex}`}>
           {problem.additionalPractice.map((p, i) => (
-            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} />
+            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} />
           ))}
         </SectionAccordion>
       )}

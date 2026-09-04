@@ -182,6 +182,7 @@
 
 /* ── ADDITIONAL PRACTICE ── */
 .additional-practice-card{background:#fff;border:0.5px solid #e0e0de;border-radius:12px;padding:16px;margin-bottom:10px}
+.additional-practice-card .desmos-container{height:250px;max-width:500px;margin-bottom:12px}
 
 
 /* ── QUIZ ── */
