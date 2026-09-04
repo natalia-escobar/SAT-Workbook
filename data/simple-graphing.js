@@ -630,6 +630,164 @@ const simpleGraphing = {
           ],
         },
       ],
+
+      additionalPractice: [
+  {
+    text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = -(x-3)(x+5)\\)</p>
+      <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
+    graphChoices: [
+      {
+        label: "A",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = (x+1)^2 - 16", color: "#1a1a1a" }],
+          bounds: { left: -8, right: 8, bottom: -24, top: 24 },
+        },
+      },
+      {
+        label: "B",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -(x-1)^2 + 16", color: "#1a1a1a" }],
+          bounds: { left: -8, right: 8, bottom: -24, top: 24 },
+        },
+      },
+      {
+        label: "C",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -(x-1)^2 + 4", color: "#1a1a1a" }],
+          bounds: { left: -8, right: 8, bottom: -24, top: 24 },
+        },
+      },
+      {
+        label: "D",
+        correct: true,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -(x-3)(x+5)", color: "#1a1a1a" }],
+          bounds: { left: -8, right: 8, bottom: -24, top: 24 },
+        },
+      },
+    ],
+  },
+
+  {
+    text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = 2(x-1)^2 - 3\\)</p>
+      <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
+            graphChoices: [
+            {
+                label: "A",
+                correct: false,
+                graph: {
+                expressions: [{ id: "1", latex: "y = 2(x+2)^2 - 3", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 18 },
+                },
+            },
+            {
+                label: "B",
+                correct: false,
+                graph: {
+                expressions: [{ id: "1", latex: "y = 2(x-2)^2 + 5", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 18 },
+                },
+            },
+            {
+                label: "C",
+                correct: true,
+                graph: {
+                expressions: [{ id: "1", latex: "y = 2(x-1)^2 - 3", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 18 },
+                },
+            },
+            {
+                label: "D",
+                correct: false,
+                graph: {
+                expressions: [{ id: "1", latex: "y = -2(x+2)^2 + 5", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 18 },
+                },
+            },
+            ],
+        },
+
+        {
+            text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = x^2 + 6x + 8\\)</p>
+            <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
+            graphChoices: [
+            {
+                label: "A",
+                correct: false,
+                graph: {
+                expressions: [{ id: "1", latex: "y = (x-3)^2 - 1", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 10 },
+                },
+            },
+            {
+                label: "B",
+                correct: true,
+                graph: {
+                expressions: [{ id: "1", latex: "y = x^2 + 6x + 8", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 10 },
+                },
+            },
+            {
+                label: "C",
+                correct: false,
+                graph: {
+                expressions: [{ id: "1", latex: "y = (x+3)^2 + 4", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 10 },
+                },
+            },
+            {
+                label: "D",
+                correct: false,
+                graph: {
+                expressions: [{ id: "1", latex: "y = -(x+3)^2 + 1", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 10 },
+                },
+            },
+            ],
+        },
+
+        {
+            text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = -x^2 + 4x + 5\\)</p>
+            <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
+            graphChoices: [
+            {
+                label: "A",
+                correct: true,
+                graph: {
+                expressions: [{ id: "1", latex: "y = -x^2 + 4x + 5", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 12 },
+                },
+            },
+            {
+                label: "B",
+                correct: false,
+                graph: {
+                expressions: [{ id: "1", latex: "y = -(x+2)^2 + 9", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 12 },
+                },
+            },
+            {
+                label: "C",
+                correct: false,
+                graph: {
+                expressions: [{ id: "1", latex: "y = (x-2)^2 - 4", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 12 },
+                },
+            },
+            {
+                label: "D",
+                correct: false,
+                graph: {
+                expressions: [{ id: "1", latex: "y = -(x-2)^2 + 3", color: "#1a1a1a" }],
+                bounds: { left: -8, right: 8, bottom: -8, top: 12 },
+                },
+            },
+            ],
+        },
+        ],
     },
 
     // Problem 3
