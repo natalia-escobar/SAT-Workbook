@@ -1297,231 +1297,749 @@ const simpleGraphing = {
         ],
         },
 
-        // Problem 5
+  // Problem 5
+
+  {
+    problem: `<p>During a science demonstration, a model rocket followed the path shown in the graph.</p>
+      <p>During a second demonstration, the rocket followed the same path, but its entire path was <strong>5 feet higher</strong> than during the first demonstration.</p>
+      <p>Which of the following equations could represent the rocket's path during the second demonstration?</p>`,
+    graph: {
+      expressions: [
+        { id: "1", latex: "y = -16x^2 + 20x + 12", color: "#2563eb" },
+      ],
+      bounds: { left: -0.5, right: 2, bottom: -5, top: 25 },
+    },
+    graphChoices: [
+      {
+        label: "A",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -16x^2 + 20x + 7", color: "#2563eb" }],
+          bounds: { left: -0.5, right: 2, bottom: -5, top: 25 },
+        },
+      },
+      {
+        label: "B",
+        correct: true,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -16x^2 + 20x + 17", color: "#2563eb" }],
+          bounds: { left: -0.5, right: 2, bottom: -5, top: 25 },
+        },
+      },
+      {
+        label: "C",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -16(x-5)^2 + 20(x-5) + 12", color: "#2563eb" }],
+          bounds: { left: -1, right: 8, bottom: -5, top: 25 },
+        },
+      },
+      {
+        label: "D",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -16(x+5)^2 + 20(x+5) + 12", color: "#2563eb" }],
+          bounds: { left: -7, right: 1, bottom: -5, top: 25 },
+        },
+      },
+    ],
+    steps: [
+      { text: "Graph the original equation in Desmos", note: "You should see a parabola opening downward", gif: "", video: "" },
+      { text: "\"5 feet higher\" means the entire graph shifts up by 5 — add 5 to the constant", note: "The new equation should be y = -16x² + 20x + 17", gif: "", video: "" },
+      { text: "Graph each answer choice and compare to the shifted graph", note: "", gif: "", video: "" },
+    ],
+
+    guidedProblem: `<p>The path of a stream of water from a fountain is represented by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(y = -4x^2 + 16x + 6\\)</p>
+      <p>A second fountain produces the same-shaped path, but the entire path is translated <strong>3 units downward</strong>.</p>
+      <p>Which of the following equations could represent the path of the water from the second fountain?</p>`,
+    guidedGraph: {
+      expressions: [
+        { id: "1", latex: "y = -4x^2 + 16x + 6", color: "#2563eb" },
+      ],
+      bounds: { left: -1, right: 5, bottom: -5, top: 25 },
+    },
+    guidedGraphChoices: [
+      {
+        label: "A",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -4x^2 + 16x + 9", color: "#2563eb" }],
+          bounds: { left: -1, right: 5, bottom: -5, top: 25 },
+        },
+      },
+      {
+        label: "B",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -4(x-3)^2 + 16(x-3) + 6", color: "#2563eb" }],
+          bounds: { left: -1, right: 8, bottom: -5, top: 25 },
+        },
+      },
+      {
+        label: "C",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -4(x+3)^2 + 16(x+3) + 6", color: "#2563eb" }],
+          bounds: { left: -4, right: 5, bottom: -5, top: 25 },
+        },
+      },
+      {
+        label: "D",
+        correct: true,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -4x^2 + 16x + 3", color: "#2563eb" }],
+          bounds: { left: -1, right: 5, bottom: -5, top: 25 },
+        },
+      },
+    ],
+    guidedSteps: [
+      "Graph the original equation in Desmos",
+      "\"3 units downward\" means subtract 3 from the constant",
+      "Graph each answer choice and compare",
+    ],
+    guidedAnswer: "Answer: D",
+    guidedScreenshot: "",
+
+    practice: [
+      {
+        text: `<p>The curved shape of an architectural arch is modeled by</p>
+          <p style="text-align:center;margin-bottom:12px">\\(y = -2x^2 + 12x + 8\\)</p>
+          <p>A second identical arch is positioned <strong>4 feet to the right</strong> of the first arch.</p>
+          <p>Which of the following equations could represent the second arch?</p>`,
+        graph: {
+          expressions: [
+            { id: "1", latex: "y = -2x^2 + 12x + 8", color: "#2563eb" },
+          ],
+          bounds: { left: -2, right: 10, bottom: -5, top: 30 },
+        },
+        graphChoices: [
+          {
+            label: "A",
+            correct: true,
+            graph: {
+              expressions: [{ id: "1", latex: "y = -2(x-4)^2 + 12(x-4) + 8", color: "#2563eb" }],
+              bounds: { left: -2, right: 12, bottom: -5, top: 30 },
+            },
+          },
+          {
+            label: "B",
+            correct: false,
+            graph: {
+              expressions: [{ id: "1", latex: "y = -2(x+4)^2 + 12(x+4) + 8", color: "#2563eb" }],
+              bounds: { left: -6, right: 6, bottom: -5, top: 30 },
+            },
+          },
+          {
+            label: "C",
+            correct: false,
+            graph: {
+              expressions: [{ id: "1", latex: "y = -2x^2 + 12x + 12", color: "#2563eb" }],
+              bounds: { left: -2, right: 10, bottom: -5, top: 30 },
+            },
+          },
+          {
+            label: "D",
+            correct: false,
+            graph: {
+              expressions: [{ id: "1", latex: "y = -2x^2 + 12x + 4", color: "#2563eb" }],
+              bounds: { left: -2, right: 10, bottom: -5, top: 30 },
+            },
+          },
+        ],
+        setup: "Answer: A",
+        screenshot: "",
+      },
+      {
+        text: `<p>The cross section of a curved pedestrian tunnel is modeled by</p>
+          <p style="text-align:center;margin-bottom:12px">\\(y = -3x^2 + 18x + 5\\)</p>
+          <p>An identical tunnel section is constructed <strong>2 feet to the left</strong> of the original position.</p>
+          <p>Which of the following equations could represent the new tunnel section?</p>`,
+        graph: {
+          expressions: [
+            { id: "1", latex: "y = -3x^2 + 18x + 5", color: "#2563eb" },
+          ],
+          bounds: { left: -2, right: 8, bottom: -5, top: 35 },
+        },
+        graphChoices: [
+          {
+            label: "A",
+            correct: false,
+            graph: {
+              expressions: [{ id: "1", latex: "y = -3x^2 + 18x + 3", color: "#2563eb" }],
+              bounds: { left: -2, right: 8, bottom: -5, top: 35 },
+            },
+          },
+          {
+            label: "B",
+            correct: false,
+            graph: {
+              expressions: [{ id: "1", latex: "y = -3(x-2)^2 + 18(x-2) + 5", color: "#2563eb" }],
+              bounds: { left: -2, right: 10, bottom: -5, top: 35 },
+            },
+          },
+          {
+            label: "C",
+            correct: true,
+            graph: {
+              expressions: [{ id: "1", latex: "y = -3(x+2)^2 + 18(x+2) + 5", color: "#2563eb" }],
+              bounds: { left: -4, right: 6, bottom: -5, top: 35 },
+            },
+          },
+          {
+            label: "D",
+            correct: false,
+            graph: {
+              expressions: [{ id: "1", latex: "y = -3x^2 + 18x + 7", color: "#2563eb" }],
+              bounds: { left: -2, right: 8, bottom: -5, top: 35 },
+            },
+          },
+        ],
+        setup: "Answer: C",
+        screenshot: "",
+      },
+    ],
+
+          additionalPractice: [
+        {
+          text: `<p>The path of a stunt cyclist during a jump is modeled by</p>
+            <p style="text-align:center;margin-bottom:12px">\\(y = -5x^2 + 30x + 4\\)</p>
+            <p>For a second jump, the cyclist follows the same-shaped path. The <strong>horizontal coordinate of every point on the path increases by 3</strong>, and the height of every point increases by <strong>6 feet</strong>.</p>
+            <p>Which of the following could represent the second jump?</p>`,
+          graph: {
+            expressions: [
+              { id: "1", latex: "y = -5x^2 + 30x + 4", color: "#2563eb" },
+            ],
+            bounds: { left: -1, right: 7, bottom: -5, top: 55 },
+          },
+          graphChoices: [
+            {
+              label: "A",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -5(x+3)^2 + 30(x+3) + 10", color: "#2563eb" }],
+                bounds: { left: -4, right: 7, bottom: -5, top: 55 },
+              },
+            },
+            {
+              label: "B",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -5(x-3)^2 + 30(x-3) - 2", color: "#2563eb" }],
+                bounds: { left: -1, right: 10, bottom: -5, top: 55 },
+              },
+            },
+            {
+              label: "C",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -5(x+3)^2 + 30(x+3) - 2", color: "#2563eb" }],
+                bounds: { left: -4, right: 7, bottom: -5, top: 55 },
+              },
+            },
+            {
+              label: "D",
+              correct: true,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -5(x-3)^2 + 30(x-3) + 10", color: "#2563eb" }],
+                bounds: { left: -1, right: 10, bottom: -5, top: 55 },
+              },
+            },
+          ],
+        },
+        {
+          text: `<p>The shape of a decorative bridge support is modeled by</p>
+            <p style="text-align:center;margin-bottom:12px">\\(y = -2x^2 + 16x + 11\\)</p>
+            <p>A second identical support is installed. The <strong>horizontal coordinate of every point on the support decreases by 5</strong>, and the height of every point decreases by <strong>4 feet</strong>.</p>
+            <p>Which of the following equations could represent the second support?</p>`,
+          graph: {
+            expressions: [
+              { id: "1", latex: "y = -2x^2 + 16x + 11", color: "#2563eb" },
+            ],
+            bounds: { left: -2, right: 10, bottom: -5, top: 50 },
+          },
+          graphChoices: [
+            {
+              label: "A",
+              correct: true,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -2(x+5)^2 + 16(x+5) + 7", color: "#2563eb" }],
+                bounds: { left: -7, right: 5, bottom: -5, top: 50 },
+              },
+            },
+            {
+              label: "B",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -2(x-5)^2 + 16(x-5) + 7", color: "#2563eb" }],
+                bounds: { left: 2, right: 15, bottom: -5, top: 50 },
+              },
+            },
+            {
+              label: "C",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -2(x+5)^2 + 16(x+5) + 15", color: "#2563eb" }],
+                bounds: { left: -7, right: 5, bottom: -5, top: 50 },
+              },
+            },
+            {
+              label: "D",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -2(x-5)^2 + 16(x-5) + 15", color: "#2563eb" }],
+                bounds: { left: 2, right: 15, bottom: -5, top: 50 },
+              },
+            },
+          ],
+        },
+        {
+          text: `<p>The path of a flare during a safety test is modeled by</p>
+            <p style="text-align:center;margin-bottom:12px">\\(y = -16x^2 + 24x + 9\\)</p>
+            <p>During a second test, the flare follows the same-shaped path. The <strong>horizontal coordinate of every point on the path decreases by 2</strong>, and the height of every point increases by <strong>7 units</strong>.</p>
+            <p>Which of the following could represent the flare's path during the second test?</p>`,
+          graph: {
+            expressions: [
+              { id: "1", latex: "y = -16x^2 + 24x + 9", color: "#2563eb" },
+            ],
+            bounds: { left: -1, right: 2.5, bottom: -5, top: 20 },
+          },
+          graphChoices: [
+            {
+              label: "A",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -16(x-2)^2 + 24(x-2) + 16", color: "#2563eb" }],
+                bounds: { left: 0, right: 4, bottom: -5, top: 25 },
+              },
+            },
+            {
+              label: "B",
+              correct: true,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -16(x+2)^2 + 24(x+2) + 16", color: "#2563eb" }],
+                bounds: { left: -3, right: 1, bottom: -5, top: 25 },
+              },
+            },
+            {
+              label: "C",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -16(x+2)^2 + 24(x+2) + 2", color: "#2563eb" }],
+                bounds: { left: -3, right: 1, bottom: -5, top: 15 },
+              },
+            },
+            {
+              label: "D",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -16(x-2)^2 + 24(x-2) + 2", color: "#2563eb" }],
+                bounds: { left: 0, right: 4, bottom: -5, top: 15 },
+              },
+            },
+          ],
+        },
+        {
+          text: `<p>The curved path of water from a sprinkler is modeled by</p>
+            <p style="text-align:center;margin-bottom:12px">\\(y = -3x^2 + 18x + 6\\)</p>
+            <p>A second sprinkler produces the same-shaped path. The <strong>horizontal coordinate of every point on the path increases by 6</strong>, and the height of every point decreases by <strong>5 units</strong>.</p>
+            <p>Which of the following could represent the second path?</p>`,
+          graph: {
+            expressions: [
+              { id: "1", latex: "y = -3x^2 + 18x + 6", color: "#2563eb" },
+            ],
+            bounds: { left: -1, right: 7, bottom: -5, top: 35 },
+          },
+          graphChoices: [
+            {
+              label: "A",
+              correct: true,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -3(x-6)^2 + 18(x-6) + 1", color: "#2563eb" }],
+                bounds: { left: 4, right: 13, bottom: -5, top: 35 },
+              },
+            },
+            {
+              label: "B",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -3(x+6)^2 + 18(x+6) + 1", color: "#2563eb" }],
+                bounds: { left: -7, right: 2, bottom: -5, top: 35 },
+              },
+            },
+            {
+              label: "C",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -3(x-6)^2 + 18(x-6) + 11", color: "#2563eb" }],
+                bounds: { left: 4, right: 13, bottom: -5, top: 40 },
+              },
+            },
+            {
+              label: "D",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -3(x+6)^2 + 18(x+6) + 11", color: "#2563eb" }],
+                bounds: { left: -7, right: 2, bottom: -5, top: 40 },
+              },
+            },
+          ],
+        },
+      ],
+  },
+
+// Problem 6
 
 {
-  problem: `<p>During a science demonstration, a model rocket followed a path represented by</p>
-  <p style="text-align:center;margin-bottom:12px">
-    \\(y = -16x^2 + 20x + 12\\)</p>
-  <p>During a second demonstration, the rocket followed the same path, but its entire path was <strong>5 feet higher</strong> than during the first demonstration.</p>
-  <p>Which of the following equations could represent the rocket's path during the second demonstration?</p>
-  <div class="mc-choices">
-    <div class="mc-choice">
-      <span class="mc-label">A</span>
-      <span>\\( y = -16x^2 + 20x + 7 \\)</span>
-    </div>
-    <div class="mc-choice correct">
-      <span class="mc-label">B</span>
-      <span>\\( y = -16x^2 + 20x + 17 \\)</span>
-    </div>
-    <div class="mc-choice">
-      <span class="mc-label">C</span>
-      <span>\\( y = -16(x - 5)^2 + 20(x - 5) + 12 \\)</span>
-    </div>
-    <div class="mc-choice">
-      <span class="mc-label">D</span>
-      <span>\\( y = -16(x + 5)^2 + 20(x + 5) + 12 \\)</span>
-    </div>
-  </div>`,
+  // ── WORKED EXAMPLE (Question 1) ──
+  problem: `<p>The quadratic function \\(f\\) is defined by the graph shown above.</p>
+    <p>The function \\(g\\) is defined by</p>
+    <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 3) + 5\\)</p>
+    <p>Which of the following graphs represents \\(g\\)?</p>`,
+  graph: {
+    expressions: [
+      { id: "1", latex: "y = x^2 - 4x + 1", color: "#2563eb" },
+    ],
+    bounds: { left: -2, right: 6, bottom: -5, top: 12 },
+  },
+  graphChoices: [
+    {
+      label: "A",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = (x+3)^2 - 4(x+3) + 6", color: "#2563eb" }],
+        bounds: { left: -7, right: 3, bottom: -5, top: 12 },
+      },
+    },
+    {
+      label: "B",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = (x-3)^2 - 4(x-3) - 4", color: "#2563eb" }],
+        bounds: { left: 1, right: 9, bottom: -8, top: 10 },
+      },
+    },
+    {
+      label: "C",
+      correct: true,
+      graph: {
+        expressions: [{ id: "1", latex: "y = (x-3)^2 - 4(x-3) + 6", color: "#2563eb" }],
+        bounds: { left: 1, right: 9, bottom: -2, top: 15 },
+      },
+    },
+    {
+      label: "D",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = (x+3)^2 - 4(x+3) - 4", color: "#2563eb" }],
+        bounds: { left: -7, right: 3, bottom: -8, top: 10 },
+      },
+    },
+  ],
   steps: [
-    { text: "Type the original equation into Desmos", note: "", gif: "", video: "" },
-    { text: "Type each answer choice and identify the graph that is 5 feet higher", note: "", gif: "", video: "" },
+    { text: "Look at the graph of f(x)", note: "Identify the vertex and shape", gif: "", video: "" },
+    { text: "f(x-3) + 5 means shift right 3 and up 5", note: "", gif: "", video: "" },
+    { text: "Compare each answer choice graph to find the shifted version", note: "", gif: "", video: "" },
   ],
 
-  guidedProblem: `<p>The path of a stream of water from a fountain is represented by</p>
-  <p style="text-align:center;margin-bottom:12px">
-    \\(y = -4x^2 + 16x + 6\\)</p>
-  <p>A second fountain produces the same-shaped path, but the entire path is translated <strong>3 units downward</strong>.</p>
-  <p>Which of the following equations could represent the path of the water from the second fountain?</p>
-  <div class="mc-choices">
-    <div class="mc-choice">
-      <span class="mc-label">A</span>
-      <span>\\( y = -4x^2 + 16x + 9 \\)</span>
-    </div>
-    <div class="mc-choice">
-      <span class="mc-label">B</span>
-      <span>\\( y = -4(x - 3)^2 + 16(x - 3) + 6 \\)</span>
-    </div>
-    <div class="mc-choice">
-      <span class="mc-label">C</span>
-      <span>\\( y = -4(x + 3)^2 + 16(x + 3) + 6 \\)</span>
-    </div>
-    <div class="mc-choice correct">
-      <span class="mc-label">D</span>
-      <span>\\( y = -4x^2 + 16x + 3 \\)</span>
-    </div>
-  </div>`,
-  guidedSteps: [
-    "Type the original equation into Desmos",
-    "Type each answer choice and identify the graph that is translated 3 units downward"
+  // ── GUIDED PRACTICE (Question 2) ──
+  guidedProblem: `<p>The quadratic function \\(h\\) is defined by the graph shown above.</p>
+    <p>The function \\(k\\) is defined by</p>
+    <p style="text-align:center;margin-bottom:12px">\\(k(x) = h(x + 4) - 7\\)</p>
+    <p>Which of the following graphs represents \\(k\\)?</p>`,
+  guidedGraph: {
+    expressions: [
+      { id: "1", latex: "y = -2x^2 + 8x + 3", color: "#2563eb" },
+    ],
+    bounds: { left: -2, right: 6, bottom: -5, top: 15 },
+  },
+  guidedGraphChoices: [
+    {
+      label: "A",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -2(x-4)^2 + 8(x-4) - 4", color: "#2563eb" }],
+        bounds: { left: 2, right: 10, bottom: -10, top: 10 },
+      },
+    },
+    {
+      label: "B",
+      correct: true,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -2(x+4)^2 + 8(x+4) - 4", color: "#2563eb" }],
+        bounds: { left: -8, right: 0, bottom: -10, top: 10 },
+      },
+    },
+    {
+      label: "C",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -2(x+4)^2 + 8(x+4) + 10", color: "#2563eb" }],
+        bounds: { left: -8, right: 0, bottom: -5, top: 20 },
+      },
+    },
+    {
+      label: "D",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -2(x-4)^2 + 8(x-4) + 10", color: "#2563eb" }],
+        bounds: { left: 2, right: 10, bottom: -5, top: 20 },
+      },
+    },
   ],
-  guidedAnswer: "The Answer is D",
+  guidedSteps: [
+    "Look at the graph of h(x) — identify the vertex and direction",
+    "h(x+4) means shift left 4, and -7 means shift down 7",
+    "Compare each answer choice graph to find the shifted version",
+  ],
+  guidedAnswer: "Answer: B",
   guidedScreenshot: "",
 
+  // ── PRACTICE (Questions 3 & 4) ──
   practice: [
     {
-      text: `<p>The curved shape of an architectural arch is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">
-        \\(y = -2x^2 + 12x + 8\\)</p>
-      <p>A second identical arch is positioned <strong>4 feet to the right</strong> of the first arch.</p>
-      <p>Which of the following equations could represent the second arch?</p>
-      <div class="mc-choices">
-        <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>\\( y = -2(x - 4)^2 + 12(x - 4) + 8 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>\\( y = -2(x + 4)^2 + 12(x + 4) + 8 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( y = -2x^2 + 12x + 12 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>\\( y = -2x^2 + 12x + 4 \\)</span>
-        </div>
-      </div>`
+      text: `<p>The quadratic function \\(p\\) is defined by the graph shown above.</p>
+        <p>The function \\(q\\) is defined by</p>
+        <p style="text-align:center;margin-bottom:12px">\\(q(x) = p(x - 2) - 4\\)</p>
+        <p>Which of the following graphs represents \\(q\\)?</p>`,
+      graph: {
+        expressions: [
+          { id: "1", latex: "y = 3x^2 + 6x - 5", color: "#2563eb" },
+        ],
+        bounds: { left: -5, right: 3, bottom: -10, top: 15 },
+      },
+      graphChoices: [
+        {
+          label: "A",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = 3(x+2)^2 + 6(x+2) - 9", color: "#2563eb" }],
+            bounds: { left: -7, right: 1, bottom: -15, top: 10 },
+          },
+        },
+        {
+          label: "B",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = 3(x-2)^2 + 6(x-2) - 1", color: "#2563eb" }],
+            bounds: { left: -2, right: 6, bottom: -10, top: 15 },
+          },
+        },
+        {
+          label: "C",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = 3(x+2)^2 + 6(x+2) - 1", color: "#2563eb" }],
+            bounds: { left: -7, right: 1, bottom: -10, top: 15 },
+          },
+        },
+        {
+          label: "D",
+          correct: true,
+          graph: {
+            expressions: [{ id: "1", latex: "y = 3(x-2)^2 + 6(x-2) - 9", color: "#2563eb" }],
+            bounds: { left: -2, right: 6, bottom: -15, top: 10 },
+          },
+        },
+      ],
+      setup: "Answer: D",
+      screenshot: "",
     },
-
     {
-      text: `<p>The cross section of a curved pedestrian tunnel is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">
-        \\(y = -3x^2 + 18x + 5\\)</p>
-      <p>An identical tunnel section is constructed <strong>2 feet to the left</strong> of the original position.</p>
-      <p>Which of the following equations could represent the new tunnel section?</p>
-      <div class="mc-choices">
-        <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>\\( y = -3x^2 + 18x + 3 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>\\( y = -3(x - 2)^2 + 18(x - 2) + 5 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( y = -3(x + 2)^2 + 18(x + 2) + 5 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>\\( y = -3x^2 + 18x + 7 \\)</span>
-        </div>
-      </div>`
+      text: `<p>The quadratic function \\(r\\) is defined by the graph shown above.</p>
+        <p>The function \\(s\\) is defined by</p>
+        <p style="text-align:center;margin-bottom:12px">\\(s(x) = r(x - 5) - 8\\)</p>
+        <p>Which of the following graphs represents \\(s\\)?</p>`,
+      graph: {
+        expressions: [
+          { id: "1", latex: "y = 2x^2 - 12x + 4", color: "#2563eb" },
+        ],
+        bounds: { left: -1, right: 7, bottom: -16, top: 10 },
+      },
+      graphChoices: [
+        {
+          label: "A",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = 2(x+5)^2 - 12(x+5) - 4", color: "#2563eb" }],
+            bounds: { left: -8, right: 0, bottom: -25, top: 5 },
+          },
+        },
+        {
+          label: "B",
+          correct: true,
+          graph: {
+            expressions: [{ id: "1", latex: "y = 2(x-5)^2 - 12(x-5) - 4", color: "#2563eb" }],
+            bounds: { left: 4, right: 12, bottom: -25, top: 5 },
+          },
+        },
+        {
+          label: "C",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = 2(x-5)^2 - 12(x-5) + 12", color: "#2563eb" }],
+            bounds: { left: 4, right: 12, bottom: -10, top: 20 },
+          },
+        },
+        {
+          label: "D",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = 2(x+5)^2 - 12(x+5) + 12", color: "#2563eb" }],
+            bounds: { left: -8, right: 0, bottom: -10, top: 20 },
+          },
+        },
+      ],
+      setup: "Answer: B",
+      screenshot: "",
     },
   ],
 
+  // ── ADDITIONAL PRACTICE (Questions 6, 7, 8) ──
   additionalPractice: [
     {
-      text: `<p>The path of a stunt cyclist during a jump is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">
-        \\(y = -5x^2 + 30x + 4\\)</p>
-      <p>For a second jump, the cyclist follows the same-shaped path. The <strong>horizontal coordinate of every point on the path increases by 3</strong>, and the <strong>height of every point increases by 6 feet</strong>.</p>
-      <p>Which of the following equations could represent the second jump?</p>
-      <div class="mc-choices">
-        <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>\\( y = -5(x + 3)^2 + 30(x + 3) + 10 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>\\( y = -5(x - 3)^2 + 30(x - 3) - 2 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( y = -5(x + 3)^2 + 30(x + 3) - 2 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>\\( y = -5(x - 3)^2 + 30(x - 3) + 10 \\)</span>
-        </div>
-      </div>`
+      text: `<p>The quadratic function \\(t\\) is defined by the graph shown above.</p>
+        <p>The function \\(u\\) is defined by</p>
+        <p style="text-align:center;margin-bottom:12px">\\(u(x) = t(x + 3) + 2\\)</p>
+        <p>Which of the following graphs represents \\(u\\)?</p>`,
+      graph: {
+        expressions: [
+          { id: "1", latex: "y = -4x^2 - 8x + 1", color: "#2563eb" },
+        ],
+        bounds: { left: -4, right: 2, bottom: -10, top: 8 },
+      },
+      graphChoices: [
+        {
+          label: "A",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = -4(x-3)^2 - 8(x-3) + 3", color: "#2563eb" }],
+            bounds: { left: -1, right: 5, bottom: -10, top: 10 },
+          },
+        },
+        {
+          label: "B",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = -4(x+3)^2 - 8(x+3) - 1", color: "#2563eb" }],
+            bounds: { left: -7, right: -1, bottom: -10, top: 8 },
+          },
+        },
+        {
+          label: "C",
+          correct: true,
+          graph: {
+            expressions: [{ id: "1", latex: "y = -4(x+3)^2 - 8(x+3) + 3", color: "#2563eb" }],
+            bounds: { left: -7, right: -1, bottom: -10, top: 10 },
+          },
+        },
+        {
+          label: "D",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = -4(x-3)^2 - 8(x-3) - 1", color: "#2563eb" }],
+            bounds: { left: -1, right: 5, bottom: -10, top: 8 },
+          },
+        },
+      ],
     },
-
     {
-      text: `<p>The shape of a decorative bridge support is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">
-        \\(y = -2x^2 + 16x + 11\\)</p>
-      <p>A second identical support is installed. The <strong>horizontal coordinate of every point on the support decreases by 5</strong>, and the <strong>height of every point decreases by 4 feet</strong>.</p>
-      <p>Which of the following equations could represent the second support?</p>
-      <div class="mc-choices">
-        <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>\\( y = -2(x + 5)^2 + 16(x + 5) + 7 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>\\( y = -2(x - 5)^2 + 16(x - 5) + 7 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( y = -2(x + 5)^2 + 16(x + 5) + 15 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>\\( y = -2(x - 5)^2 + 16(x - 5) + 15 \\)</span>
-        </div>
-      </div>`
+      text: `<p>The quadratic function \\(v\\) is defined by the graph shown above.</p>
+        <p>The function \\(w\\) is defined by</p>
+        <p style="text-align:center;margin-bottom:12px">\\(w(x) = v(x - 6) + 9\\)</p>
+        <p>Which of the following graphs represents \\(w\\)?</p>`,
+      graph: {
+        expressions: [
+          { id: "1", latex: "y = x^2 + 4x - 6", color: "#2563eb" },
+        ],
+        bounds: { left: -6, right: 2, bottom: -12, top: 5 },
+      },
+      graphChoices: [
+        {
+          label: "A",
+          correct: true,
+          graph: {
+            expressions: [{ id: "1", latex: "y = (x-6)^2 + 4(x-6) + 3", color: "#2563eb" }],
+            bounds: { left: 0, right: 10, bottom: -5, top: 15 },
+          },
+        },
+        {
+          label: "B",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = (x+6)^2 + 4(x+6) + 3", color: "#2563eb" }],
+            bounds: { left: -12, right: -2, bottom: -5, top: 15 },
+          },
+        },
+        {
+          label: "C",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = (x-6)^2 + 4(x-6) - 15", color: "#2563eb" }],
+            bounds: { left: 0, right: 10, bottom: -20, top: 5 },
+          },
+        },
+        {
+          label: "D",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = (x+6)^2 + 4(x+6) - 15", color: "#2563eb" }],
+            bounds: { left: -12, right: -2, bottom: -20, top: 5 },
+          },
+        },
+      ],
     },
-
     {
-      text: `<p>The path of a flare during a safety test is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">
-        \\(y = -16x^2 + 24x + 9\\)</p>
-      <p>During a second test, the flare follows the same-shaped path. The <strong>horizontal coordinate of every point on the path decreases by 2</strong>, and the <strong>height of every point increases by 7 units</strong>.</p>
-      <p>Which of the following equations could represent the flare's path during the second test?</p>
-      <div class="mc-choices">
-        <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>\\( y = -16(x - 2)^2 + 24(x - 2) + 16 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>\\( y = -16(x + 2)^2 + 24(x + 2) + 16 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( y = -16(x + 2)^2 + 24(x + 2) + 2 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>\\( y = -16(x - 2)^2 + 24(x - 2) + 2 \\)</span>
-        </div>
-      </div>`
-    },
-
-    {
-      text: `<p>The curved path of water from a sprinkler is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">
-        \\(y = -3x^2 + 18x + 6\\)</p>
-      <p>A second sprinkler produces the same-shaped path. The <strong>horizontal coordinate of every point on the path increases by 6</strong>, and the <strong>height of every point decreases by 5 units</strong>.</p>
-      <p>Which of the following equations could represent the second path?</p>
-      <div class="mc-choices">
-        <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>\\( y = -3(x - 6)^2 + 18(x - 6) + 1 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>\\( y = -3(x + 6)^2 + 18(x + 6) + 1 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( y = -3(x - 6)^2 + 18(x - 6) + 11 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>\\( y = -3(x + 6)^2 + 18(x + 6) + 11 \\)</span>
-        </div>
-      </div>`
+      text: `<p>The quadratic function \\(j\\) is defined by the graph shown above.</p>
+        <p>The function \\(z\\) is defined by</p>
+        <p style="text-align:center;margin-bottom:12px">\\(z(x) = j(x + 2) - 5\\)</p>
+        <p>Which of the following graphs represents \\(z\\)?</p>`,
+      graph: {
+        expressions: [
+          { id: "1", latex: "y = -3x^2 + 6x + 8", color: "#2563eb" },
+        ],
+        bounds: { left: -2, right: 4, bottom: -5, top: 15 },
+      },
+      graphChoices: [
+        {
+          label: "A",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = -3(x-2)^2 + 6(x-2) + 3", color: "#2563eb" }],
+            bounds: { left: 0, right: 6, bottom: -5, top: 15 },
+          },
+        },
+        {
+          label: "B",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = -3(x+2)^2 + 6(x+2) + 13", color: "#2563eb" }],
+            bounds: { left: -4, right: 2, bottom: -5, top: 20 },
+          },
+        },
+        {
+          label: "C",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = -3(x-2)^2 + 6(x-2) + 13", color: "#2563eb" }],
+            bounds: { left: 0, right: 6, bottom: -5, top: 20 },
+          },
+        },
+        {
+          label: "D",
+          correct: true,
+          graph: {
+            expressions: [{ id: "1", latex: "y = -3(x+2)^2 + 6(x+2) + 3", color: "#2563eb" }],
+            bounds: { left: -4, right: 2, bottom: -5, top: 10 },
+          },
+        },
+      ],
     },
   ],
 },
 
 // Problem 7
 
-// Problem 3
 {
   problem: `<p>The function \\(f\\) is defined by</p>
   <p style="text-align:center;margin-bottom:12px">
