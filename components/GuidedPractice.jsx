@@ -2,16 +2,12 @@
 
 import { useState, useRef } from "react";
 import MathContent from "./MathContent";
-import WriteInAnswer from "./WriteInAnswer";
 import DesmosGraph from "./DesmosGraph";
 import GraphChoices from "./GraphChoices";
 
-export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot, guidedGraph, guidedGraphChoices }) {
-  const [checked, setChecked] = useState(() => guidedSteps.map(() => false));
-  const [revealed, setRevealed] = useState(false);
-
-  const allChecked = checked.every(Boolean);
-  const isMultipleChoice = guidedProblem.includes("mc-choice") || guidedGraphChoices;
+function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef }) {
+  const [checked, setChecked] = useState(() => gp.steps.map(() => false));
+  const isMultipleChoice = gp.problem.includes("mc-choice") || gp.graphChoices;
 
   const toggleStep = (i) => {
     const next = [...checked];
@@ -19,14 +15,7 @@ export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswe
     setChecked(next);
   };
 
-  const handleReveal = () => {
-    if (!allChecked) return;
-    setRevealed((r) => !r);
-  };
-
-  const selectedChoiceRef = useRef(null);
-
-    const handleChoiceClick = (e) => {
+  const onChoiceClick = (e) => {
     const choice = e.target.closest(".mc-choice");
     if (!choice) return;
 
@@ -60,37 +49,69 @@ export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswe
 
   return (
     <div className="guided-grid">
-      <div className="guided-grid-left" onClick={isMultipleChoice ? handleChoiceClick : undefined}>
-        {guidedGraph && <DesmosGraph graph={guidedGraph} />}
+      <div className="guided-grid-left" onClick={isMultipleChoice && !gp.graphChoices ? onChoiceClick : undefined}>
+        {gp.graph && <DesmosGraph graph={gp.graph} />}
         <div className="guided-label">Problem</div>
-        <MathContent html={guidedProblem} className="guided-text" />
-        {guidedGraphChoices && <GraphChoices choices={guidedGraphChoices} />}
-        {!isMultipleChoice && !guidedGraphChoices && guidedProblem && (
-          <WriteInAnswer
-            correctAnswer={guidedAnswerValue}
-            onSubmit={() => allChecked && setRevealed(true)}
-          />
-        )}
+        <MathContent html={gp.problem} className="guided-text" />
+        {gp.graphChoices && <GraphChoices choices={gp.graphChoices} />}
       </div>
 
       <div className="guided-grid-right">
         <div style={{ fontSize: "11px", fontWeight: 500, textTransform: "uppercase", letterSpacing: ".05em", color: "#A62D25", marginBottom: "12px" }}>
-            Follow these steps in Desmos
+          Follow these steps in Desmos
         </div>
-        
+
         <div className="steps-list">
-            {guidedSteps.map((step, i) => (
-                <div key={i} className={`step-row ${checked[i] ? "checked" : ""}`} onClick={() => toggleStep(i)}>
-                    <div className="step-check">
-                        {checked[i] && <i className="ti ti-check step-check-icon" />}
-                    </div>
-                    <MathContent text={step} className="step-text" />
-                </div>
-            ))}
+          {gp.steps.map((step, i) => (
+            <div key={i} className={`step-row ${checked[i] ? "checked" : ""}`} onClick={() => toggleStep(i)}>
+              <div className="step-check">
+                {checked[i] && <i className="ti ti-check step-check-icon" />}
+              </div>
+              <MathContent text={step} className="step-text" />
+            </div>
+          ))}
         </div>
-        
-        
+      </div>
     </div>
+  );
+}
+
+export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot, guidedGraph, guidedGraphChoices, guidedProblems }) {
+  const selectedChoiceRef = useRef(null);
+
+  // Build array of guided problems
+  let problems;
+  if (guidedProblems && guidedProblems.length > 0) {
+    problems = guidedProblems;
+  } else {
+    problems = [{
+      problem: guidedProblem,
+      steps: guidedSteps,
+      answer: guidedAnswer,
+      screenshot: guidedScreenshot,
+      graph: guidedGraph,
+      graphChoices: guidedGraphChoices,
+    }];
+  }
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const isMultiple = problems.length > 1;
+  const gp = problems[currentIndex];
+
+  return (
+    <div>
+      {isMultiple && (
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "10px" }}>
+          <span style={{ fontSize: "11px", fontWeight: 500, textTransform: "uppercase", letterSpacing: ".05em", color: "#888" }}>
+            Guided practice {currentIndex + 1} of {problems.length}
+          </span>
+          <div style={{ display: "flex", gap: "6px" }}>
+            <button className="nav-btn" onClick={() => setCurrentIndex((i) => i - 1)} disabled={currentIndex === 0}>&larr; Prev</button>
+            <button className="nav-btn" onClick={() => setCurrentIndex((i) => i + 1)} disabled={currentIndex === problems.length - 1}>Next &rarr;</button>
+          </div>
+        </div>
+      )}
+      <GuidedPracticeCard key={currentIndex} gp={gp} handleChoiceClick={() => {}} selectedChoiceRef={selectedChoiceRef} />
     </div>
   );
 }

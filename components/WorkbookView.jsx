@@ -123,6 +123,7 @@ export default function WorkbookView({ topic }) {
           guidedScreenshot={problem.guidedScreenshot}
           guidedGraph={problem.guidedGraph}
           guidedGraphChoices={problem.guidedGraphChoices}
+          guidedProblems={problem.guidedProblems}
         />
       </SectionAccordion>
 
