@@ -652,6 +652,245 @@ const yIntercept = {
     },
   ],
 },
+
+//Problem 8
+
+
+{
+  problem: `<p>The function</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(h(x) = 2x^2 + 7x - 4\\)</p>
+  <p>is transformed into</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(k(x) = 3h(x) - 8\\).</p>
+  <p>What is the \\(y\\)-coordinate of the point where the graph of \\(k\\) intersects the \\(y\\)-axis?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct">
+      <span class="mc-label">A</span>
+      <span>\\(-20\\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">B</span>
+      <span>\\(-12\\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">C</span>
+      <span>\\(-8\\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">D</span>
+      <span>\\(4\\)</span>
+    </div>
+  </div>`,
+  steps: [
+    { text: "Type the original function into Desmos", note: "", gif: "", video: "" },
+    { text: "Apply the transformation and find the y-intercept of the new function", note: "", gif: "", video: "" },
+  ],
+
+  guidedProblem: `<p>The function</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(f(x) = -x^2 + 6x + 5\\)</p>
+  <p>is transformed into</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(g(x) = 2f(x) + 10\\).</p>
+  <p>What is the \\(y\\)-coordinate of the point where the graph of \\(g\\) intersects the \\(y\\)-axis?</p>
+  <div class="mc-choices">
+    <div class="mc-choice">
+      <span class="mc-label">A</span>
+      <span>\\(0\\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">B</span>
+      <span>\\(10\\)</span>
+    </div>
+    <div class="mc-choice correct">
+      <span class="mc-label">C</span>
+      <span>\\(20\\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">D</span>
+      <span>\\(30\\)</span>
+    </div>
+  </div>`,
+  guidedSteps: [
+    "Type the original function into Desmos",
+    "Apply the transformation and find the y-intercept of the new function"
+  ],
+  guidedAnswer: "The Answer is C",
+  guidedScreenshot: "",
+
+  practice: [
+    {
+      text: `<p>The function</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(p(x) = 3x^2 - 4x + 1\\)</p>
+      <p>is transformed into</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(q(x) = -2p(x) + 6\\).</p>
+      <p>What is the \\(y\\)-coordinate of the point where the graph of \\(q\\) intersects the \\(y\\)-axis?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(-8\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(2\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(4\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(8\\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The function</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(r(x) = x^2 + 5x - 3\\)</p>
+      <p>is transformed into</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(s(x) = 4r(x) - 12\\).</p>
+      <p>What is the \\(y\\)-coordinate of the point where the graph of \\(s\\) intersects the \\(y\\)-axis?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(-24\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(-12\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(12\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(28\\)</span>
+        </div>
+      </div>`
+    },
+  ],
+
+  additionalPractice: [
+    {
+      text: `<p>The function</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(m(x) = -4x^2 + 8x + 6\\)</p>
+      <p>is transformed into</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(n(x) = \\frac{1}{2}m(x) - 5\\).</p>
+      <p>What is the \\(y\\)-coordinate of the point where the graph of \\(n\\) intersects the \\(y\\)-axis?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(-2\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(1\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(3\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(8\\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The function</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(t(x) = 5x^2 - 10x - 7\\)</p>
+      <p>is transformed into</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(u(x) = -3t(x) + 9\\).</p>
+      <p>What is the \\(y\\)-coordinate of the point where the graph of \\(u\\) intersects the \\(y\\)-axis?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(-30\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(-21\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(30\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(21\\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The function</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(v(x) = x^2 - 8x + 12\\)</p>
+      <p>is transformed into</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(w(x) = 5v(x) - 20\\).</p>
+      <p>What is the \\(y\\)-coordinate of the point where the graph of \\(w\\) intersects the \\(y\\)-axis?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(-140\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(-60\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(40\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(60\\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The function</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(d(x) = -2x^2 + 3x + 11\\)</p>
+      <p>is transformed into</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(e(x) = -4d(x) + 16\\).</p>
+      <p>What is the \\(y\\)-coordinate of the point where the graph of \\(e\\) intersects the \\(y\\)-axis?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(-28\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(-12\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(12\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(60\\)</span>
+        </div>
+      </div>`
+    },
+  ],
+},
   ],
 };
 
