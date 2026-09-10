@@ -117,7 +117,7 @@ export default function Home() {
           </Link>
         </Collapsible>
       </Collapsible>
-          <Collapsible title="Amuni's Class" defaultOpen={false}>
+          <Collapsible title="DDCUS-A" defaultOpen={false}>
           <Link
             href="/classroom/amuni/lesson-3"
             style={{

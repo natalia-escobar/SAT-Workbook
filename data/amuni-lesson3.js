@@ -1,5 +1,5 @@
 const amuniLesson3 = {
-  name: "Amuni's Class — Lesson 3",
+  name: "DDCUS-A Lesson 3",
   problems: [
 
     // Problem 1
