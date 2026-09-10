@@ -89,6 +89,22 @@ export default function Home() {
           </Link>
         </Collapsible>
       </Collapsible>
+          <Collapsible title="Amuni's Class" defaultOpen={false}>
+          <Link
+            href="/classroom/amuni/lesson-3"
+            style={{
+              display: "block",
+              padding: "16px 20px",
+              border: "0.5px solid #e0e0de",
+              borderRadius: "10px",
+              textDecoration: "none",
+              color: "#1a1a1a",
+              marginTop: "8px",
+            }}
+          >
+          <div style={{ fontSize: "16px", fontWeight: 600 }}>Lesson 3</div>
+          </Link>
+      </Collapsible>
     </main>
   );
 }

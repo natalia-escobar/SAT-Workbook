@@ -9,6 +9,7 @@ import DesmosGraph from "@/components/DesmosGraph";
 import HowThisWorks from "@/components/HowThisWorks";
 import MathContent from "@/components/MathContent";
 import GraphChoices from "@/components/GraphChoices";
+import ProblemNav from "./ProblemNav";
 
 function SectionAccordion({ icon, title, defaultOpen, children }) {
   const [open, setOpen] = useState(defaultOpen);
