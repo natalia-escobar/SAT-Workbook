@@ -1296,6 +1296,230 @@ const simpleGraphing = {
             },
         ],
         },
+
+        // Problem 5
+
+{
+  problem: `<p>During a science demonstration, a model rocket followed a path represented by</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(y = -16x^2 + 20x + 12\\)</p>
+  <p>During a second demonstration, the rocket followed the same path, but its entire path was <strong>5 feet higher</strong> than during the first demonstration.</p>
+  <p>Which of the following equations could represent the rocket's path during the second demonstration?</p>
+  <div class="mc-choices">
+    <div class="mc-choice">
+      <span class="mc-label">A</span>
+      <span>\\( y = -16x^2 + 20x + 7 \\)</span>
+    </div>
+    <div class="mc-choice correct">
+      <span class="mc-label">B</span>
+      <span>\\( y = -16x^2 + 20x + 17 \\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">C</span>
+      <span>\\( y = -16(x - 5)^2 + 20(x - 5) + 12 \\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">D</span>
+      <span>\\( y = -16(x + 5)^2 + 20(x + 5) + 12 \\)</span>
+    </div>
+  </div>`,
+  steps: [
+    { text: "Type the original equation into Desmos", note: "", gif: "", video: "" },
+    { text: "Type each answer choice and identify the graph that is 5 feet higher", note: "", gif: "", video: "" },
+  ],
+
+  guidedProblem: `<p>The path of a stream of water from a fountain is represented by</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(y = -4x^2 + 16x + 6\\)</p>
+  <p>A second fountain produces the same-shaped path, but the entire path is translated <strong>3 units downward</strong>.</p>
+  <p>Which of the following equations could represent the path of the water from the second fountain?</p>
+  <div class="mc-choices">
+    <div class="mc-choice">
+      <span class="mc-label">A</span>
+      <span>\\( y = -4x^2 + 16x + 9 \\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">B</span>
+      <span>\\( y = -4(x - 3)^2 + 16(x - 3) + 6 \\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">C</span>
+      <span>\\( y = -4(x + 3)^2 + 16(x + 3) + 6 \\)</span>
+    </div>
+    <div class="mc-choice correct">
+      <span class="mc-label">D</span>
+      <span>\\( y = -4x^2 + 16x + 3 \\)</span>
+    </div>
+  </div>`,
+  guidedSteps: [
+    "Type the original equation into Desmos",
+    "Type each answer choice and identify the graph that is translated 3 units downward"
+  ],
+  guidedAnswer: "The Answer is D",
+  guidedScreenshot: "",
+
+  practice: [
+    {
+      text: `<p>The curved shape of an architectural arch is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(y = -2x^2 + 12x + 8\\)</p>
+      <p>A second identical arch is positioned <strong>4 feet to the right</strong> of the first arch.</p>
+      <p>Which of the following equations could represent the second arch?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\( y = -2(x - 4)^2 + 12(x - 4) + 8 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\( y = -2(x + 4)^2 + 12(x + 4) + 8 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\( y = -2x^2 + 12x + 12 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\( y = -2x^2 + 12x + 4 \\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The cross section of a curved pedestrian tunnel is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(y = -3x^2 + 18x + 5\\)</p>
+      <p>An identical tunnel section is constructed <strong>2 feet to the left</strong> of the original position.</p>
+      <p>Which of the following equations could represent the new tunnel section?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\( y = -3x^2 + 18x + 3 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\( y = -3(x - 2)^2 + 18(x - 2) + 5 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\( y = -3(x + 2)^2 + 18(x + 2) + 5 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\( y = -3x^2 + 18x + 7 \\)</span>
+        </div>
+      </div>`
+    },
+  ],
+
+  additionalPractice: [
+    {
+      text: `<p>The path of a stunt cyclist during a jump is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(y = -5x^2 + 30x + 4\\)</p>
+      <p>For a second jump, the cyclist follows the same-shaped path. The <strong>horizontal coordinate of every point on the path increases by 3</strong>, and the <strong>height of every point increases by 6 feet</strong>.</p>
+      <p>Which of the following equations could represent the second jump?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\( y = -5(x + 3)^2 + 30(x + 3) + 10 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\( y = -5(x - 3)^2 + 30(x - 3) - 2 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\( y = -5(x + 3)^2 + 30(x + 3) - 2 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\( y = -5(x - 3)^2 + 30(x - 3) + 10 \\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The shape of a decorative bridge support is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(y = -2x^2 + 16x + 11\\)</p>
+      <p>A second identical support is installed. The <strong>horizontal coordinate of every point on the support decreases by 5</strong>, and the <strong>height of every point decreases by 4 feet</strong>.</p>
+      <p>Which of the following equations could represent the second support?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\( y = -2(x + 5)^2 + 16(x + 5) + 7 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\( y = -2(x - 5)^2 + 16(x - 5) + 7 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\( y = -2(x + 5)^2 + 16(x + 5) + 15 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\( y = -2(x - 5)^2 + 16(x - 5) + 15 \\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The path of a flare during a safety test is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(y = -16x^2 + 24x + 9\\)</p>
+      <p>During a second test, the flare follows the same-shaped path. The <strong>horizontal coordinate of every point on the path decreases by 2</strong>, and the <strong>height of every point increases by 7 units</strong>.</p>
+      <p>Which of the following equations could represent the flare's path during the second test?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\( y = -16(x - 2)^2 + 24(x - 2) + 16 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\( y = -16(x + 2)^2 + 24(x + 2) + 16 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\( y = -16(x + 2)^2 + 24(x + 2) + 2 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\( y = -16(x - 2)^2 + 24(x - 2) + 2 \\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The curved path of water from a sprinkler is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(y = -3x^2 + 18x + 6\\)</p>
+      <p>A second sprinkler produces the same-shaped path. The <strong>horizontal coordinate of every point on the path increases by 6</strong>, and the <strong>height of every point decreases by 5 units</strong>.</p>
+      <p>Which of the following equations could represent the second path?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\( y = -3(x - 6)^2 + 18(x - 6) + 1 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\( y = -3(x + 6)^2 + 18(x + 6) + 1 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\( y = -3(x - 6)^2 + 18(x - 6) + 11 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\( y = -3(x + 6)^2 + 18(x + 6) + 11 \\)</span>
+        </div>
+      </div>`
+    },
+  ],
+},
+
+
   ],
 };
 
