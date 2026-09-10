@@ -4,7 +4,7 @@ const yIntercept = {
     
     // Problem 3
 
-    // Problem 5
+    
 {
   problem: `<p>For the function \\(f\\) defined by</p>
   <p style="text-align:center;margin-bottom:12px">
@@ -219,7 +219,7 @@ const yIntercept = {
 
 //Problem 4
 
-// Problem 6
+
 {
   problem: `<p>A technology company models the number of active client accounts during an 8-month period with the equation</p>
   <p style="text-align:center;margin-bottom:12px">
@@ -436,6 +436,217 @@ const yIntercept = {
         <div class="mc-choice">
           <span class="mc-label">D</span>
           <span>The increase in the number of customers served during the first hour</span>
+        </div>
+      </div>`
+    },
+  ],
+},
+
+//Problem 5
+
+
+{
+  problem: `<p>The function \\(h\\) gives the height, in feet, of a basketball \\(s\\) seconds after it was thrown. Based on the function, what was the height, in feet, of the basketball at the moment it was thrown?</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(h(s) = -16\\left(s - \\frac{3}{4}\\right)^2 + 105\\)</p>
+  <div class="mc-choices">
+    <div class="mc-choice">
+      <span class="mc-label">A</span>
+      <span>\\(105\\)</span>
+    </div>
+    <div class="mc-choice correct">
+      <span class="mc-label">B</span>
+      <span>\\(96\\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">C</span>
+      <span>\\(99\\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">D</span>
+      <span>\\(114\\)</span>
+    </div>
+  </div>`,
+  steps: [
+    { text: "Type the function into Desmos", note: "", gif: "", video: "" },
+    { text: "Find the value of the function when the input is 0", note: "", gif: "", video: "" },
+  ],
+
+  guidedProblem: `<p>The function \\(d\\) gives the height, in feet, of a diver above the surface of a pool \\(s\\) seconds after the diver jumped from a platform. Based on the function, what was the height, in feet, of the diver at the moment the diver jumped?</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(d(s) = -16\\left(s - \\frac{1}{2}\\right)^2 + 42\\)</p>
+  <div class="mc-choices">
+    <div class="mc-choice">
+      <span class="mc-label">A</span>
+      <span>\\(34\\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">B</span>
+      <span>\\(42\\)</span>
+    </div>
+    <div class="mc-choice correct">
+      <span class="mc-label">C</span>
+      <span>\\(38\\)</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">D</span>
+      <span>\\(46\\)</span>
+    </div>
+  </div>`,
+  guidedSteps: [
+    "Type the function into Desmos",
+    "Find the value of the function when the input is 0"
+  ],
+  guidedAnswer: "The Answer is C",
+  guidedScreenshot: "",
+
+  practice: [
+    {
+      text: `<p>The function \\(p\\) gives the height, in feet, of a package above the ground \\(r\\) seconds after it was released from a moving drone. Based on the function, what was the height, in feet, of the package at the moment it was released?</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(p(r) = -16\\left(r - \\frac{5}{4}\\right)^2 + 150\\)</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(125\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(134\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(150\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(175\\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The function \\(g\\) gives the height, in feet, of a volleyball above the ground \\(t\\) seconds after it was served. Based on the function, what was the height, in feet, of the volleyball at the moment it was served?</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(g(t) = -16\\left(t - \\frac{1}{4}\\right)^2 + 10\\)</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(10\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(8\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(11\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(9\\)</span>
+        </div>
+      </div>`
+    },
+  ],
+
+  additionalPractice: [
+    {
+      text: `<p>The amount of water, in gallons, in a storage tank \\(t\\) hours after a pump is activated is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(W(t) = -\\frac{3}{8}t^2 + \\frac{11}{4}t + \\frac{47}{6}\\).</p>
+      <p>How many gallons of water were in the tank when the pump was activated?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(\\frac{11}{4}\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(\\frac{47}{6}\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(\\frac{65}{8}\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(\\frac{3}{8}\\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The temperature, in degrees Celsius, of a chemical solution \\(m\\) minutes after a heating process begins is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(T(m) = 0.0378m^2 + 2.058m + 18.475\\).</p>
+      <p>What was the temperature of the solution at the start of the heating process?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(2.685^\\circ\\text{C}\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(21.197^\\circ\\text{C}\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(0.037^\\circ\\text{C}\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(18.475^\\circ\\text{C}\\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The number of thousands of subscribers to an online service \\(y\\) years after a marketing campaign begins is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(S(y) = -4.2y^2 + 31.6y + 84\\).</p>
+      <p>According to the model, how many thousand subscribers did the service have when the marketing campaign began?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(84\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(31.6\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(115.6\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(53.4\\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The distance, in miles, a research vessel is from a monitoring station \\(h\\) hours after tracking begins is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(D(h) = 12.75h^2 - 46.8h + 137.5\\).</p>
+      <p>How far was the research vessel from the monitoring station when tracking began?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(46.8\\) miles</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(90.7\\) miles</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(137.5\\) miles</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(12.75\\) miles</span>
         </div>
       </div>`
     },
