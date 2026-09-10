@@ -1519,6 +1519,244 @@ const simpleGraphing = {
   ],
 },
 
+// Problem 7
+
+// Problem 3
+{
+  problem: `<p>The function \\(f\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(f(x) = 3(x + 4)^2 - 7\\)</p>
+  <p>and the function \\(g\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(g(x) = 3(x - 2)^2 + 5\\).</p>
+  <p>Which of the following translations of the graph of \\(f\\) results in the graph of \\(g\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice">
+      <span class="mc-label">A</span>
+      <span>6 units in the negative \\(x\\)-direction and 12 units in the positive \\(y\\)-direction</span>
+    </div>
+    <div class="mc-choice correct">
+      <span class="mc-label">B</span>
+      <span>6 units in the positive \\(x\\)-direction and 12 units in the positive \\(y\\)-direction</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">C</span>
+      <span>12 units in the positive \\(x\\)-direction and 6 units in the positive \\(y\\)-direction</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">D</span>
+      <span>6 units in the positive \\(x\\)-direction and 12 units in the negative \\(y\\)-direction</span>
+    </div>
+  </div>`,
+  steps: [
+    { text: "Type both functions into Desmos", note: "", gif: "", video: "" },
+    { text: "Compare the vertices to determine the horizontal and vertical translation", note: "", gif: "", video: "" },
+  ],
+
+  guidedProblem: `<p>The function \\(p\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(p(x) = -2(x - 5)^2 + 8\\)</p>
+  <p>and the function \\(q\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">
+    \\(q(x) = -2(x + 3)^2 - 4\\).</p>
+  <p>Which of the following translations of the graph of \\(p\\) results in the graph of \\(q\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice">
+      <span class="mc-label">A</span>
+      <span>8 units in the positive \\(x\\)-direction and 12 units in the negative \\(y\\)-direction</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">B</span>
+      <span>12 units in the positive \\(x\\)-direction and 8 units in the negative \\(y\\)-direction</span>
+    </div>
+    <div class="mc-choice correct">
+      <span class="mc-label">C</span>
+      <span>8 units in the negative \\(x\\)-direction and 12 units in the negative \\(y\\)-direction</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">D</span>
+      <span>8 units in the negative \\(x\\)-direction and 12 units in the positive \\(y\\)-direction</span>
+    </div>
+  </div>`,
+  guidedSteps: [
+    "Type both functions into Desmos",
+    "Compare the vertices to determine the horizontal and vertical translation"
+  ],
+  guidedAnswer: "The Answer is C",
+  guidedScreenshot: "",
+
+  practice: [
+    {
+      text: `<p>In the \\(xy\\)-plane, the graph of</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(y = 4(x + 7)^2 + 3\\)</p>
+      <p>is translated to produce the graph of</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(y = 4(x - 1)^2 - 6\\).</p>
+      <p>Which of the following describes the translation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>8 units to the right and 9 units downward</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>8 units to the left and 9 units downward</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>9 units to the right and 8 units downward</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>8 units to the right and 9 units upward</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The function \\(h\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(h(x) = 2(x + 5)^2 - 9\\).</p>
+      <p>A translation of the graph of \\(h\\) produces the graph of \\(j\\). Under the translation, the <strong>horizontal coordinate of every point increases by 7</strong>, and the <strong>vertical coordinate of every point decreases by 4</strong>.</p>
+      <p>Which of the following equations defines \\(j\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(j(x) = 2(x - 2)^2 - 13\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(j(x) = 2(x + 12)^2 - 13\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(j(x) = 2(x - 2)^2 - 5\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(j(x) = 2(x + 12)^2 - 5\\)</span>
+        </div>
+      </div>`
+    },
+  ],
+
+  additionalPractice: [
+    {
+      text: `<p>The function \\(r\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(r(x) = -5(x - 6)^2 - 2\\).</p>
+      <p>The graph of \\(r\\) is translated so that its vertex changes from</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\((6,-2)\\)</p>
+      <p>to</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\((-2,7)\\).</p>
+      <p>Which of the following equations represents the translated graph?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(y = -5(x - 2)^2 + 7\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(y = -5(x + 2)^2 - 7\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(y = -5(x + 2)^2 + 7\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(y = -5(x - 2)^2 - 7\\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The function \\(m\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(m(x) = -3(x - 4)^2 + 11\\).</p>
+      <p>The function \\(n\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(n(x) = m(x + 6) - 8\\).</p>
+      <p>Which of the following equations represents \\(n\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(n(x) = -3(x - 10)^2 + 3\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(n(x) = -3(x + 2)^2 + 3\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(n(x) = -3(x + 2)^2 + 19\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(n(x) = -3(x - 10)^2 + 19\\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The graph of</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(y = 6(x + 2)^2 - 5\\)</p>
+      <p>is translated to produce the graph of</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(y = 6(x - 7)^2 + 4\\).</p>
+      <p>If a point \\((a,b)\\) lies on the first graph, which of the following points must lie on the translated graph?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\((a - 9, b + 9)\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\((a + 9, b - 9)\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\((a - 9, b - 9)\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\((a + 9, b + 9)\\)</span>
+        </div>
+      </div>`
+    },
+
+    {
+      text: `<p>The function \\(u\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">
+        \\(u(x) = -4(x + 6)^2 + 10\\).</p>
+      <p>The graph of \\(u\\) is translated so that the <strong>horizontal coordinate of every point decreases by 5</strong> and the <strong>vertical coordinate of every point increases by 7</strong>. The resulting graph represents the function \\(v\\).</p>
+      <p>Which of the following equations defines \\(v\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(v(x) = -4(x + 11)^2 + 17\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(v(x) = -4(x + 1)^2 + 17\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(v(x) = -4(x + 11)^2 + 3\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(v(x) = -4(x + 1)^2 + 3\\)</span>
+        </div>
+      </div>`
+    },
+  ],
+},
+
 
   ],
 };
