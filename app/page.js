@@ -87,6 +87,34 @@ export default function Home() {
           >
             <div style={{ fontSize: "16px", fontWeight: 600 }}>Y-Intercept</div>
           </Link>
+          <Link
+            href="/workbook/parabola/simple-graphing-x-y-intercept/vertex"
+            style={{
+              display: "block",
+              padding: "16px 20px",
+              border: "0.5px solid #e0e0de",
+              borderRadius: "10px",
+              textDecoration: "none",
+              color: "#1a1a1a",
+              marginTop: "8px",
+            }}
+          >
+            <div style={{ fontSize: "16px", fontWeight: 600 }}>Vertex</div>
+          </Link>
+          <Link
+            href="/workbook/parabola/simple-graphing-x-y-intercept/x-intercept"
+            style={{
+              display: "block",
+              padding: "16px 20px",
+              border: "0.5px solid #e0e0de",
+              borderRadius: "10px",
+              textDecoration: "none",
+              color: "#1a1a1a",
+              marginTop: "8px",
+            }}
+          >
+            <div style={{ fontSize: "16px", fontWeight: 600 }}>X-Intercept</div>
+          </Link>
         </Collapsible>
       </Collapsible>
           <Collapsible title="Amuni's Class" defaultOpen={false}>
