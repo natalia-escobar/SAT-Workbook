@@ -246,6 +246,24 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\(g(x) = (x + 3)^2 - 4(x + 3) - 4\\)</span></div>
   </div>`,
 },
+
+//Problem 23
+
+
+
+{
+  problem: `<p>The quadratic function \\(h\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(h(x) = -2x^2 + 8x + 3\\).</p>
+  <p>The function \\(k\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(k(x) = h(x + 4) - 7\\).</p>
+  <p>Which of the following equations represents \\(k\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(k(x) = -2(x - 4)^2 + 8(x - 4) - 4\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(k(x) = -2(x + 4)^2 + 8(x + 4) - 4\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(k(x) = -2(x + 4)^2 + 8(x + 4) + 10\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(k(x) = -2(x - 4)^2 + 8(x - 4) + 10\\)</span></div>
+  </div>`,
+},
   ],
 };
 
