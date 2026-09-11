@@ -73,6 +73,21 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>5</span></div>
   </div>`,
 },
+
+//Problem 6
+
+
+
+{
+  problem: `<p>Which expression is equivalent to</p>
+  <p style="text-align:center;margin-bottom:12px">\\(25x^2 - 49y^2\\)</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>\\((5x - 7y)(5x + 7y)\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\((25x - 49y)(25x + 49y)\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\((5x - 49y)(5x + 49y)\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\((25x - 7y)(25x + 7y)\\)</span></div>
+  </div>`,
+},
   ],
 };
 
