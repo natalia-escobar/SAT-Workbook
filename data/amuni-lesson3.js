@@ -648,6 +648,24 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>4</span></div>
   </div>`,
 },
+
+//Problem 49
+
+
+
+{
+  problem: `<p>The function</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = -x^2 + 6x + 5\\)</p>
+  <p>is transformed into</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = 2f(x) + 10\\).</p>
+  <p>What is the \\(y\\)-coordinate of the point where the graph of \\(g\\) intersects the \\(y\\)-axis?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>0</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>10</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>20</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>30</span></div>
+  </div>`,
+},
   ],
 };
 
