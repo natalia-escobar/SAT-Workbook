@@ -8,7 +8,7 @@ const amuniLesson3 = {
       problem: `<p>The monthly profit (in thousands of dollars) for a company is modeled by</p>
     <p style="text-align:center;margin-bottom:12px">\\(P(x) = -0.015x^2 + 60x - 59{,}800\\)</p>
     <p>where \\(x\\) represents the year.</p>
-    <p>By approximately how many thousand dollars does the model predict the monthly profit changes between 2027 and 2028?</p>`,
+    <p>By approximately how many thousand dollars does the model predict the monthly profit changes between \\(2027\\) and \\(2028\\)?</p>`,
     },
 
     // Problem 2
@@ -19,10 +19,10 @@ const amuniLesson3 = {
     <p>where \\(t\\) is measured in weeks.</p>
     <p>Between which two consecutive weeks is the greatest increase predicted?</p>
     <div class="mc-choices">
-      <div class="mc-choice"><span class="mc-label">A</span><span>Weeks 3 and 4</span></div>
-      <div class="mc-choice"><span class="mc-label">B</span><span>Weeks 4 and 5</span></div>
-      <div class="mc-choice"><span class="mc-label">C</span><span>Weeks 5 and 6</span></div>
-      <div class="mc-choice correct"><span class="mc-label">D</span><span>Weeks 6 and 7</span></div>
+      <div class="mc-choice"><span class="mc-label">A</span><span>Weeks \\(3\\) and \\(4\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">B</span><span>Weeks \\(4\\) and \\(5\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">C</span><span>Weeks \\(5\\) and \\(6\\)</span></div>
+      <div class="mc-choice correct"><span class="mc-label">D</span><span>Weeks \\(6\\) and \\(7\\)</span></div>
     </div>`,
     },
 
@@ -35,10 +35,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(h(x) = 2(x^2 - 9x + 14) - 3\\).</p>
   <p>For which value of \\(x\\) is \\(h(x) = -3\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>1</span></div>
-    <div class="mc-choice correct"><span class="mc-label">B</span><span>2</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>4</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>6</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(1\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(2\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(4\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(6\\)</span></div>
   </div>`,
 },
 
@@ -51,10 +51,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(p(x) = 4(x^2 + 3x - 10) + 7\\).</p>
   <p>For which value of \\(x\\) is \\(p(x) = 7\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>−6</span></div>
-    <div class="mc-choice correct"><span class="mc-label">B</span><span>−5</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>−4</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>1</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(−6\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(−5\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(−4\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(1\\)</span></div>
   </div>`,
 },
 
@@ -67,10 +67,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(k(x) = 5(x^2 - 4x - 12) + 9\\).</p>
   <p>For which value of \\(x\\) is \\(k(x) = 9\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice correct"><span class="mc-label">A</span><span>−3</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>−2</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>3</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>5</span></div>
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(−3\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(−2\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(3\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(5\\)</span></div>
   </div>`,
 },
 
@@ -267,10 +267,10 @@ const amuniLesson3 = {
   <p>What is the best interpretation of</p>
   <p style="text-align:center;margin-bottom:12px">\\(f(7) = 12\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice correct"><span class="mc-label">A</span><span>Seven seconds after passing above the platform, the drone is 12 meters from it.</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>Twelve seconds after passing above the platform, the drone is 7 meters from it.</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>The drone reaches the platform after 12 seconds.</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>The greatest distance of the drone from the platform is 12 meters.</span></div>
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>Seven seconds after passing above the platform, the drone is \\(12\\) meters from it.</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>Twelve seconds after passing above the platform, the drone is \\(7\\) meters from it.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The drone reaches the platform after \\(12\\) seconds.</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The greatest distance of the drone from the platform is \\(12\\) meters.</span></div>
   </div>`,
 },
 
@@ -285,10 +285,10 @@ const amuniLesson3 = {
   <p>What is the best interpretation of</p>
   <p style="text-align:center;margin-bottom:12px">\\(f(2) = 45\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>The theater earns $45 after 2 hours.</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>The theater sells 45 tickets in 2 hours.</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>The greatest possible revenue is $4,500.</span></div>
-    <div class="mc-choice correct"><span class="mc-label">D</span><span>Two hours after ticket sales began, the revenue is $4,500.</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>The theater earns \\($45\\) after \\(2\\) hours.</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The theater sells \\(45\\) tickets in \\(2\\) hours.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The greatest possible revenue is \\($4,500\\).</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>Two hours after ticket sales began, the revenue is \\($4,500\\).</span></div>
   </div>`,
 },
 
@@ -578,10 +578,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(g(x) = 3x^2 + 22x + 46\\),</p>
   <p>what is the value of \\(a\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>−5</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>−3</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>3</span></div>
-    <div class="mc-choice correct"><span class="mc-label">D</span><span>5</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(−5\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(−3\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(3\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(5\\)</span></div>
   </div>`,
 },
 
@@ -598,10 +598,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(g(x) = 4x^2 - 27x + 34\\),</p>
   <p>what is the value of \\(a\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice correct"><span class="mc-label">A</span><span>−4</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>−2</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>2</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>4</span></div>
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(−4\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(−2\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(2\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(4\\)</span></div>
   </div>`,
 },
 
@@ -619,9 +619,9 @@ const amuniLesson3 = {
   <p>what is the value of \\(a\\)?</p>
   <div class="mc-choices">
     <div class="mc-choice"><span class="mc-label">A</span><span>\\(−4\\)</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>\\(−2</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>2</span></div>
-    <div class="mc-choice correct"><span class="mc-label">D</span><span>4</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(−2\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(2\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(4\\)</span></div>
   </div>`,
 },
 
@@ -652,10 +652,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(f(x) = -\\frac{1}{2}(x - 3)^2 + 7\\).</p>
   <p>What is the value of \\(f(0)\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice correct"><span class="mc-label">A</span><span>2.5</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>3</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>3.5</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>4.5</span></div>
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(2.5\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(3\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(3.5\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(4.5\\)</span></div>
   </div>`,
 },
 
@@ -678,10 +678,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(g(x) = 3x^2 - 18x + 11\\)</p>
   <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at \\((0, r)\\). What is the value of \\(r\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>3</span></div>
-    <div class="mc-choice correct"><span class="mc-label">B</span><span>11</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>18</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>29</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(3\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(11\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(18\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(29\\)</span></div>
   </div>`,
 },
 
@@ -757,12 +757,12 @@ const amuniLesson3 = {
   problem: `<p>A technology company models the number of active client accounts during an 8-month period with the equation</p>
   <p style="text-align:center;margin-bottom:12px">\\(A(t) = 4(t + 3) - \\frac{1}{2}t^2 + 25\\),</p>
   <p>where \\(A(t)\\) is the estimated number of active client accounts \\(t\\) months after the company begins a tracking period.</p>
-  <p>Which statement best describes the meaning of the y-intercept of the graph of this equation?</p>
+  <p>Which statement best describes the meaning of the \\(y\\)-intercept of the graph of this equation?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>The company expects the number of active accounts to increase by 4 each month.</span></div>
-    <div class="mc-choice correct"><span class="mc-label">B</span><span>The company had approximately 37 active client accounts when the tracking period began.</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>The company will have 26 active accounts at the end of the tracking period.</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>The company reaches its greatest number of active accounts after 3 months.</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>The company expects the number of active accounts to increase by \\(4\\) each month.</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>The company had approximately \\(37\\) active client accounts when the tracking period began.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The company will have \\(26\\) active accounts at the end of the tracking period.</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The company reaches its greatest number of active accounts after \\(3\\) months.</span></div>
   </div>`,
 },
 
@@ -776,10 +776,10 @@ const amuniLesson3 = {
   <p>where \\(M(w)\\) is the estimated number of operating machines \\(w\\) weeks after a maintenance program begins.</p>
   <p>Which statement best interprets the \\(y\\)-intercept of the graph of this equation?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>The facility has its greatest number of operating machines during week 5.</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>The maintenance program causes 2 additional machines to operate each week.</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>The facility has its greatest number of operating machines during week \\(5\\).</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The maintenance program causes \\(2\\) additional machines to operate each week.</span></div>
     <div class="mc-choice"><span class="mc-label">C</span><span>The facility will eventually have no operating machines.</span></div>
-    <div class="mc-choice correct"><span class="mc-label">D</span><span>Approximately 24 machines were operating when the maintenance program began.</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>Approximately \\(24\\) machines were operating when the maintenance program began.</span></div>
   </div>`,
 },
 
@@ -793,9 +793,9 @@ const amuniLesson3 = {
   <p>where \\(N(d)\\) is the estimated number of packages waiting \\(d\\) days after a new processing system is introduced.</p>
   <p>Which statement best describes the \\(y\\)-intercept of the graph of this equation?</p>
   <div class="mc-choices">
-    <div class="mc-choice correct"><span class="mc-label">A</span><span>Approximately 55 packages were waiting when the new processing system was introduced.</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>The distribution center processes 8 packages each day.</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>The number of waiting packages reaches 39 after 8 days.</span></div>
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>Approximately \\(55\\) packages were waiting when the new processing system was introduced.</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The distribution center processes \\(8\\) packages each day.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The number of waiting packages reaches \\(39\\) after \\(8\\) days.</span></div>
     <div class="mc-choice"><span class="mc-label">D</span><span>The number of waiting packages increases by exactly one-fourth of a package each day.</span></div>
   </div>`,
 },
@@ -808,7 +808,7 @@ const amuniLesson3 = {
   problem: `<p>The number of electric scooters available through a transportation service \\(w\\) weeks after the beginning of a new operating period is modeled by</p>
   <p style="text-align:center;margin-bottom:12px">\\(S(w) = 18w^2 - 95w + 1{,}460\\),</p>
   <p>where \\(0 \\leq w \\leq 20\\).</p>
-  <p>In this model, what does the value 1,460 represent?</p>
+  <p>In this model, what does the value \\(1,460\\) represent?</p>
   <div class="mc-choices">
     <div class="mc-choice"><span class="mc-label">A</span><span>The greatest number of scooters available during the operating period</span></div>
     <div class="mc-choice correct"><span class="mc-label">B</span><span>The estimated number of scooters available when the operating period began</span></div>
@@ -825,7 +825,7 @@ const amuniLesson3 = {
   problem: `<p>The amount of water, in gallons, stored in a reservoir \\(d\\) days after monitoring begins is modeled by</p>
   <p style="text-align:center;margin-bottom:12px">\\(W(d) = -24d^2 + 380d + 52{,}600\\),</p>
   <p>where \\(0 \\leq d \\leq 15\\).</p>
-  <p>In this model, what does the value 52,600 represent?</p>
+  <p>In this model, what does the value \\(52,600\\) represent?</p>
   <div class="mc-choices">
     <div class="mc-choice"><span class="mc-label">A</span><span>The amount of water the reservoir gains during the first day</span></div>
     <div class="mc-choice"><span class="mc-label">B</span><span>The greatest amount of water predicted by the model</span></div>
@@ -857,10 +857,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(T(m) = 0.037m^2 + 2.685m + 18.475\\).</p>
   <p>What was the temperature of the solution at the start of the heating process?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>2.685°C</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>21.197°C</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>0.037°C</span></div>
-    <div class="mc-choice correct"><span class="mc-label">D</span><span>18.475°C</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(2.685°C\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(21.197°C\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(0.037°C\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(18.475°C\\)</span></div>
   </div>`,
 },
 
@@ -924,10 +924,10 @@ const amuniLesson3 = {
   <p>What is the value of</p>
   <p style="text-align:center;margin-bottom:12px">\\((f - g)(0)\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>−7</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>7</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>24</span></div>
-    <div class="mc-choice correct"><span class="mc-label">D</span><span>41</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(−7\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(7\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(24\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(41\\)</span></div>
   </div>`,
 },
 
@@ -942,10 +942,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(k(x) = 3h(x) - 8\\).</p>
   <p>What is the \\(y\\)-coordinate of the point where the graph of \\(k\\) intersects the \\(y\\)-axis?</p>
   <div class="mc-choices">
-    <div class="mc-choice correct"><span class="mc-label">A</span><span>−20</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>−12</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>−8</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>4</span></div>
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(−20\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(−12\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(−8\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(4\\)</span></div>
   </div>`,
 },
 
@@ -960,10 +960,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(g(x) = 2f(x) + 10\\).</p>
   <p>What is the \\(y\\)-coordinate of the point where the graph of \\(g\\) intersects the \\(y\\)-axis?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>0</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>10</span></div>
-    <div class="mc-choice correct"><span class="mc-label">C</span><span>20</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>30</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(0\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(10\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(20\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(30\\)</span></div>
   </div>`,
 },
 
@@ -978,10 +978,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(q(x) = -2p(x) + 6\\).</p>
   <p>What is the \\(y\\)-coordinate of the point where the graph of \\(q\\) intersects the \\(y\\)-axis?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>−8</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>2</span></div>
-    <div class="mc-choice correct"><span class="mc-label">C</span><span>4</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>8</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(−8\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(2\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(4\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(8\\)</span></div>
   </div>`,
 },
 
@@ -995,10 +995,10 @@ const amuniLesson3 = {
   <p>has a vertex at \\((m, n)\\).</p>
   <p>What is the value of \\(m\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>−7</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>−3</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>2</span></div>
-    <div class="mc-choice correct"><span class="mc-label">D</span><span>3</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(−7\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(−3\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(2\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(3\\)</span></div>
   </div>`,
 },
 
@@ -1012,10 +1012,10 @@ const amuniLesson3 = {
   <p>has a vertex at \\((p, q)\\).</p>
   <p>What is the value of \\(q\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>−11</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>5</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>−5</span></div>
-    <div class="mc-choice correct"><span class="mc-label">D</span><span>11</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(−11\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(5\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(−5\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(11\\)</span></div>
   </div>`,
 },
 
@@ -1029,9 +1029,9 @@ const amuniLesson3 = {
   <p>has a vertex at \\((r, s)\\).</p>
   <p>What is the value of \\(r\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>−6</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>9</span></div>
-    <div class="mc-choice correct"><span class="mc-label">C</span><span>6</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(−6\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(9\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(6\\)</span></div>
     <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{3}{2}\\)</span></div>
   </div>`,
 },
@@ -1046,10 +1046,10 @@ const amuniLesson3 = {
   <p>where \\(x\\) is the horizontal distance from the entrance, in meters.</p>
   <p>What is the best interpretation of the <strong>maximum</strong> of the function in this context?</p>
   <div class="mc-choices">
-    <div class="mc-choice correct"><span class="mc-label">A</span><span>The tunnel reaches a maximum depth of 200 meters at a horizontal distance of 40 meters from the entrance.</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>The tunnel reaches a maximum depth of 40 meters at a horizontal distance of 200 meters from the entrance.</span></div>
-    <div class="mc-choice"><span class="mc-label">C</span><span>The tunnel reaches a minimum depth of 200 meters at a horizontal distance of 40 meters from the entrance.</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>The tunnel is 200 meters long and 40 meters deep.</span></div>
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>The tunnel reaches a maximum depth of \\(200\\) meters at a horizontal distance of \\(40\\) meters from the entrance.</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The tunnel reaches a maximum depth of \\(40\\) meters at a horizontal distance of \\(200\\) meters from the entrance.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The tunnel reaches a minimum depth of \\(200\\) meters at a horizontal distance of \\(40\\) meters from the entrance.</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The tunnel is \\(200\\) meters long and \\(40\\) meters deep.</span></div>
   </div>`,
 },
 
@@ -1061,10 +1061,10 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(V(m) = 3(m - 7)^2 + 24\\)</p>
   <p>What is the best interpretation of the <strong>minimum</strong> of the function in this context?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>The park has a minimum of 7,000 visitors 24 months after January.</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>The park has a maximum of 24,000 visitors 7 months after January.</span></div>
-    <div class="mc-choice correct"><span class="mc-label">C</span><span>The park has a minimum of 24,000 visitors 7 months after January.</span></div>
-    <div class="mc-choice"><span class="mc-label">D</span><span>The park has a minimum of 24,000 visitors 3 months after January.</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>The park has a minimum of \\(7,000\\) visitors \\(24\\) months after January.</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The park has a maximum of \\(24,000\\) visitors \\(7\\) months after January.</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>The park has a minimum of \\(24,000\\) visitors \\(7\\) months after January.</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The park has a minimum of \\(24,000\\) visitors \\(3\\) months after January.</span></div>
   </div>`,
 },
 
