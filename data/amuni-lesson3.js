@@ -482,6 +482,23 @@ const amuniLesson3 = {
     <div class="mc-choice correct"><span class="mc-label">D</span><span>Approximately 24 machines were operating when the maintenance program began.</span></div>
   </div>`,
 },
+
+//Problem 38
+
+
+
+{
+  problem: `<p>A delivery company models the number of packages waiting at a distribution center with the equation</p>
+  <p style="text-align:center;margin-bottom:12px">\\(N(d) = \\frac{1}{4}(d + 8)^2 + 39\\),</p>
+  <p>where \\(N(d)\\) is the estimated number of packages waiting \\(d\\) days after a new processing system is introduced.</p>
+  <p>Which statement best describes the \\(y\\)-intercept of the graph of this equation?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>Approximately 55 packages were waiting when the new processing system was introduced.</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The distribution center processes 8 packages each day.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The number of waiting packages reaches 39 after 8 days.</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The number of waiting packages increases by exactly one-fourth of a package each day.</span></div>
+  </div>`,
+},
   ],
 };
 
