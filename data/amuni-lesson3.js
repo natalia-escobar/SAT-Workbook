@@ -25,6 +25,22 @@ const amuniLesson3 = {
       <div class="mc-choice correct"><span class="mc-label">D</span><span>Weeks 6 and 7</span></div>
     </div>`,
     },
+
+    //Problem 3
+
+    // Problem 3
+
+{
+  problem: `<p>The function \\(h\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(h(x) = 2(x^2 - 9x + 14) - 3\\).</p>
+  <p>For which value of \\(x\\) is \\(h(x) = -3\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>1</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>2</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>4</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>6</span></div>
+  </div>`,
+},
   ],
 };
 
