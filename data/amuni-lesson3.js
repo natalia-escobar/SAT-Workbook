@@ -666,6 +666,24 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>30</span></div>
   </div>`,
 },
+
+//Problem 50
+
+
+
+{
+  problem: `<p>The function</p>
+  <p style="text-align:center;margin-bottom:12px">\\(p(x) = 3x^2 - 4x + 1\\)</p>
+  <p>is transformed into</p>
+  <p style="text-align:center;margin-bottom:12px">\\(q(x) = -2p(x) + 6\\).</p>
+  <p>What is the \\(y\\)-coordinate of the point where the graph of \\(q\\) intersects the \\(y\\)-axis?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>−8</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>2</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>4</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>8</span></div>
+  </div>`,
+},
   ],
 };
 
