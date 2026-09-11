@@ -583,6 +583,22 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\)</p>
   <p>in the \\(xy\\)-plane is \\((0, g(0))\\). What is the value of \\(g(0)\\)?</p>`,
 },
+
+//Problem 45
+
+
+
+{
+  problem: `<p>The graph of the function</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = 12x^2 - 84x + 155\\)</p>
+  <p>intersects the \\(y\\)-axis at which point?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\((155, 0)\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>\\((0, 155)\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\((0, 71)\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\((12, 155)\\)</span></div>
+  </div>`,
+},
   ],
 };
 
