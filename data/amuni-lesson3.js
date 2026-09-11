@@ -432,6 +432,22 @@ const amuniLesson3 = {
     <div class="mc-choice correct"><span class="mc-label">D</span><span>The value of \\(g(0)\\)</span></div>
   </div>`,
 },
+
+//Problem 35
+
+
+
+{
+  problem: `<p>For the function \\(p\\) defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(p(w) = 5w^2 - 30w + c\\),</p>
+  <p>what does \\(c\\) represent?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>The value of \\(p(0)\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The least value of \\(p(w)\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>A value of \\(w\\) for which \\(p(w) = 0\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The \\(w\\)-coordinate of the vertex</span></div>
+  </div>`,
+},
   ],
 };
 
