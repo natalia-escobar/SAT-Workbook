@@ -767,6 +767,23 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>The park has a minimum of 24,000 visitors 3 months after January.</span></div>
   </div>`,
 },
+
+//Problem 56
+
+
+
+{
+  problem: `<p>The function</p>
+  <p style="text-align:center;margin-bottom:12px">\\(E(s) = -0.02(s - 55)^2 + 42\\)</p>
+  <p>models the fuel efficiency of a vehicle, in miles per gallon, in terms of the vehicle's speed \\(s\\), in miles per hour.</p>
+  <p>What is the best interpretation of \\((55, E(55))\\) in this context?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>A fuel efficiency of 55 miles per gallon results in a vehicle speed of \\(E(55)\\) miles per hour.</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>A vehicle speed of 55 miles per hour results in a fuel efficiency of \\(E(55)\\) miles per gallon.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The vehicle's speed increases by \\(E(55)\\) miles per hour for every 55 miles per gallon increase in fuel efficiency.</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The vehicle's fuel efficiency increases by \\(E(55)\\) miles per gallon for every 55 miles per hour increase in speed.</span></div>
+  </div>`,
+},
   ],
 };
 
