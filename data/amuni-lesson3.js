@@ -210,6 +210,42 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>The greatest distance of the drone from the platform is 12 meters.</span></div>
   </div>`,
 },
+
+//Problem 16
+
+
+
+{
+  problem: `<p>A theater's ticket revenue during the first several hours of an event is modeled by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = -2x^2 + 24x + 5\\),</p>
+  <p>where \\(x\\) represents the number of hours since ticket sales began and \\(f(x)\\) represents the revenue, in hundreds of dollars.</p>
+  <p>What is the best interpretation of</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(2) = 45\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>The theater earns $45 after 2 hours.</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The theater sells 45 tickets in 2 hours.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The greatest possible revenue is $4,500.</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>Two hours after ticket sales began, the revenue is $4,500.</span></div>
+  </div>`,
+},
+
+//Problem 22
+
+
+
+{
+  problem: `<p>The quadratic function \\(f\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = x^2 - 4x + 1\\).</p>
+  <p>The function \\(g\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 3) + 5\\).</p>
+  <p>Which of the following equations represents \\(g\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(g(x) = (x + 3)^2 - 4(x + 3) + 6\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(g(x) = (x - 3)^2 - 4(x - 3) - 4\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(g(x) = (x - 3)^2 - 4(x - 3) + 6\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(g(x) = (x + 3)^2 - 4(x + 3) - 4\\)</span></div>
+  </div>`,
+},
   ],
 };
 
