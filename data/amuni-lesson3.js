@@ -573,6 +573,16 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(g(x) = \\frac{1}{4}(x - 6)^2 + 2\\)</p>
   <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
 },
+
+//Problem 44
+
+
+
+{
+  problem: `<p>The \\(y\\)-intercept of the graph</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\)</p>
+  <p>in the \\(xy\\)-plane is \\((0, g(0))\\). What is the value of \\(g(0)\\)?</p>`,
+},
   ],
 };
 
