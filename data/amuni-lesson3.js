@@ -368,6 +368,38 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(f(x) = -2x^2 + 12x + 8\\)</p>
   <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at the point \\((0, r)\\). What is the value of \\(r\\)?</p>`,
 },
+
+//Problem 31
+
+
+
+{
+  problem: `<p>The equation</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = 3x^2 - 18x + 11\\)</p>
+  <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at \\((0, r)\\). What is the value of \\(r\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>3</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>11</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>18</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>29</span></div>
+  </div>`,
+},
+
+//Problem 32
+
+
+
+{
+  problem: `<p>The equation</p>
+  <p style="text-align:center;margin-bottom:12px">\\(h(x) = -4x^2 + 20x - \\frac{15}{2}\\)</p>
+  <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at \\((0, k)\\). What is the value of \\(k\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-\\frac{15}{2}\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(-\\frac{8}{2}\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\frac{15}{2}\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{40}{2}\\)</span></div>
+  </div>`,
+},
   ],
 };
 
