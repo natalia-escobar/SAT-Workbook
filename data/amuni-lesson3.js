@@ -57,6 +57,22 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>1</span></div>
   </div>`,
 },
+
+//Problem 5
+
+
+
+{
+  problem: `<p>The function \\(k\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(k(x) = 5(x^2 - 4x - 12) + 9\\).</p>
+  <p>For which value of \\(x\\) is \\(k(x) = 9\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>−3</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>−2</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>3</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>5</span></div>
+  </div>`,
+},
   ],
 };
 
