@@ -102,6 +102,20 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\((p - q)^2\\)</span></div>
   </div>`,
 },
+
+//Problem 8
+
+
+
+{
+  problem: `<p>If \\(m = \\frac{3}{8}p^2 + \\frac{3}{8}q^2\\) and \\(n = \\frac{3}{8}pq\\), which of the following is equivalent to \\(8m - 16n\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(3(p + q)^2\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(3(p - q)^2\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(6(p - q)^2\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(6(p + q)^2\\)</span></div>
+  </div>`,
+},
   ],
 };
 
