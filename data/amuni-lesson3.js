@@ -599,6 +599,18 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\((12, 155)\\)</span></div>
   </div>`,
 },
+
+//Problem 46
+
+
+
+{
+  problem: `<p>The graph of the quadratic function</p>
+  <p style="text-align:center;margin-bottom:12px">\\(y = 3(x - 2)(x + 4)\\)</p>
+  <p>has a \\(y\\)-intercept of the form</p>
+  <p style="text-align:center;margin-bottom:12px">\\((0, r)\\).</p>
+  <p>What is the value of \\(r\\)?</p>`,
+},
   ],
 };
 
