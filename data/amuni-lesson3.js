@@ -302,6 +302,26 @@ const amuniLesson3 = {
     <div class="mc-choice correct"><span class="mc-label">D</span><span>5</span></div>
   </div>`,
 },
+
+//Problem 26
+
+
+
+{
+  problem: `<p>The function \\(f\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = 4x^2 + 5x - 3\\).</p>
+  <p>The function \\(g\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + a) - 7\\).</p>
+  <p>If</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = 4x^2 - 27x + 34\\),</p>
+  <p>what is the value of \\(a\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>−4</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>−2</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>2</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>4</span></div>
+  </div>`,
+},
   ],
 };
 
