@@ -192,6 +192,24 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{21}{2}x^2 - 40x - 242\\)</span></div>
   </div>`,
 },
+
+//Problem 15
+
+
+
+{
+  problem: `<p>A drone's distance from a landing platform is modeled by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = 3(x - 5)^2\\),</p>
+  <p>where \\(x\\) represents the number of seconds since the drone passed directly above the platform and \\(f(x)\\) represents its distance, in meters, from the platform.</p>
+  <p>What is the best interpretation of</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(7) = 12\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>Seven seconds after passing above the platform, the drone is 12 meters from it.</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>Twelve seconds after passing above the platform, the drone is 7 meters from it.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The drone reaches the platform after 12 seconds.</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The greatest distance of the drone from the platform is 12 meters.</span></div>
+  </div>`,
+},
   ],
 };
 
