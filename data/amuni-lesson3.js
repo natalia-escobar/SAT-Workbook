@@ -448,6 +448,23 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>The \\(w\\)-coordinate of the vertex</span></div>
   </div>`,
 },
+
+//Problem 36
+
+
+
+{
+  problem: `<p>A technology company models the number of active client accounts during an 8-month period with the equation</p>
+  <p style="text-align:center;margin-bottom:12px">\\(A(t) = 4(t + 3) - \\frac{1}{2}t^2 + 25\\),</p>
+  <p>where \\(A(t)\\) is the estimated number of active client accounts \\(t\\) months after the company begins a tracking period.</p>
+  <p>Which statement best describes the meaning of the y-intercept of the graph of this equation?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>The company expects the number of active accounts to increase by 4 each month.</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>The company had approximately 37 active client accounts when the tracking period began.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The company will have 26 active accounts at the end of the tracking period.</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The company reaches its greatest number of active accounts after 3 months.</span></div>
+  </div>`,
+},
   ],
 };
 
