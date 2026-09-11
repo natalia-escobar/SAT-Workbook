@@ -611,6 +611,25 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\((0, r)\\).</p>
   <p>What is the value of \\(r\\)?</p>`,
 },
+
+//Problem 47
+
+
+
+{
+  problem: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = 8x^2 - 13x + 24\\)</p>
+  <p>and</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = 5x^2 + 9x - 17\\).</p>
+  <p>What is the value of</p>
+  <p style="text-align:center;margin-bottom:12px">\\((f - g)(0)\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>−7</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>7</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>24</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>41</span></div>
+  </div>`,
+},
   ],
 };
 
