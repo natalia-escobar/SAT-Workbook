@@ -563,6 +563,16 @@ const amuniLesson3 = {
     <div class="mc-choice correct"><span class="mc-label">D</span><span>18.475°C</span></div>
   </div>`,
 },
+
+//Problem 43
+
+
+
+{
+  problem: `<p>The \\(y\\)-intercept of the graph</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = \\frac{1}{4}(x - 6)^2 + 2\\)</p>
+  <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
+},
   ],
 };
 
