@@ -358,6 +358,16 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>4.5</span></div>
   </div>`,
 },
+
+//Problem 30
+
+
+
+{
+  problem: `<p>The equation</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = -2x^2 + 12x + 8\\)</p>
+  <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at the point \\((0, r)\\). What is the value of \\(r\\)?</p>`,
+},
   ],
 };
 
