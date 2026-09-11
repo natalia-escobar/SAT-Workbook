@@ -322,6 +322,26 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>4</span></div>
   </div>`,
 },
+
+//Problem 27
+
+
+
+{
+  problem: `<p>The function \\(f\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = 5x^2 - 6x + 8\\).</p>
+  <p>The function \\(g\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + a) + 9\\).</p>
+  <p>If</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = 5x^2 + 34x + 45\\),</p>
+  <p>what is the value of \\(a\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>−4</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>−2</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>2</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>4</span></div>
+  </div>`,
+},
   ],
 };
 
