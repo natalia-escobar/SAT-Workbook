@@ -547,6 +547,22 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{3}{8}\\)</span></div>
   </div>`,
 },
+
+//Problem 42
+
+
+
+{
+  problem: `<p>The temperature, in degrees Celsius, of a chemical solution \\(m\\) minutes after a heating process begins is modeled by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(T(m) = 0.037m^2 + 2.685m + 18.475\\).</p>
+  <p>What was the temperature of the solution at the start of the heating process?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>2.685°C</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>21.197°C</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>0.037°C</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>18.475°C</span></div>
+  </div>`,
+},
   ],
 };
 
