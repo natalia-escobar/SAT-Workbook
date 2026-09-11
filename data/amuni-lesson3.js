@@ -718,6 +718,23 @@ const amuniLesson3 = {
     <div class="mc-choice correct"><span class="mc-label">D</span><span>11</span></div>
   </div>`,
 },
+
+//Problem 53
+
+
+
+{
+  problem: `<p>The graph of the quadratic function</p>
+  <p style="text-align:center;margin-bottom:12px">\\(h(x) = \\frac{3}{2}(x - 6)^2 + 9\\)</p>
+  <p>has a vertex at \\((r, s)\\).</p>
+  <p>What is the value of \\(r\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>−6</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>9</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>6</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{3}{2}\\)</span></div>
+  </div>`,
+},
   ],
 };
 
