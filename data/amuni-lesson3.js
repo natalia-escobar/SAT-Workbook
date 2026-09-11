@@ -752,6 +752,21 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>The tunnel is 200 meters long and 40 meters deep.</span></div>
   </div>`,
 },
+
+//Problem 55
+
+
+{
+  problem: `<p>The number \\(V\\), in thousands, of visitors to a park \\(m\\) months after January is modeled by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(V(m) = 3(m - 7)^2 + 24\\)</p>
+  <p>What is the best interpretation of the <strong>minimum</strong> of the function in this context?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>The park has a minimum of 7,000 visitors 24 months after January.</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The park has a maximum of 24,000 visitors 7 months after January.</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>The park has a minimum of 24,000 visitors 7 months after January.</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The park has a minimum of 24,000 visitors 3 months after January.</span></div>
+  </div>`,
+},
   ],
 };
 
