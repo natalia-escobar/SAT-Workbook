@@ -169,6 +169,10 @@
 .calc-body{flex:1;overflow:hidden}
 .calc-resize-grip{position:absolute;bottom:0;right:0;width:28px;height:28px;cursor:se-resize;display:flex;align-items:center;justify-content:center;color:#aaa;font-size:14px;z-index:5}
 .calc-resize-grip:hover{color:#D13B31}
+@media (pointer: coarse) {
+  .calc-resize-grip{width:44px;height:44px;font-size:18px}
+  .calc-drag{padding:12px}
+}
 
 /* ── COLLAPSIBLE SECTIONS ── */
 .section-accordion{border:0.5px solid #e0e0de;border-radius:10px;overflow:hidden;margin-bottom:12px;background:#fff}
