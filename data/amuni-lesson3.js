@@ -465,6 +465,23 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>The company reaches its greatest number of active accounts after 3 months.</span></div>
   </div>`,
 },
+
+//Problem 37
+
+
+
+{
+  problem: `<p>The number of machines operating at a manufacturing facility is modeled by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(M(w) = -2(w - 5)^2 + 74\\),</p>
+  <p>where \\(M(w)\\) is the estimated number of operating machines \\(w\\) weeks after a maintenance program begins.</p>
+  <p>Which statement best interprets the \\(y\\)-intercept of the graph of this equation?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>The facility has its greatest number of operating machines during week 5.</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The maintenance program causes 2 additional machines to operate each week.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The facility will eventually have no operating machines.</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>Approximately 24 machines were operating when the maintenance program began.</span></div>
+  </div>`,
+},
   ],
 };
 
