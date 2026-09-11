@@ -684,6 +684,23 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>8</span></div>
   </div>`,
 },
+
+//Problem 51
+
+
+
+{
+  problem: `<p>The graph of the quadratic function</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = 2(x - 3)^2 - 7\\)</p>
+  <p>has a vertex at \\((m, n)\\).</p>
+  <p>What is the value of \\(m\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>−7</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>−3</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>2</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>3</span></div>
+  </div>`,
+},
   ],
 };
 
