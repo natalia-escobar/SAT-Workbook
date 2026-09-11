@@ -154,6 +154,25 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\(9x^2 + \\frac{381}{5}x - 36\\)</span></div>
   </div>`,
 },
+
+//Problem 11
+
+
+
+{
+  problem: `<p>The functions \\(r\\) and \\(s\\) are defined by the equations shown.</p>
+  <p style="text-align:center;margin-bottom:12px">\\(r(x) = 2(3x - 1)(x + 4)\\)</p>
+  <p>and</p>
+  <p style="text-align:center;margin-bottom:12px">\\(s(x) = \\left(\\frac{5}{2}x + 3\\right)(2x - 5)\\)</p>
+  <p>Which expression is equivalent to</p>
+  <p style="text-align:center;margin-bottom:12px">\\(r(x) - s(x)\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(x^2 + \\frac{57}{2}x - 7\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(11x^2 + \\frac{57}{2}x + 7\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(x^2 + \\frac{31}{2}x + 7\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(x^2 + \\frac{57}{2}x + 7\\)</span></div>
+  </div>`,
+},
   ],
 };
 
