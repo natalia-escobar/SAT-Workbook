@@ -282,6 +282,26 @@ const amuniLesson3 = {
     <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(q(x) = 3(x - 2)^2 + 6(x - 2) - 9\\)</span></div>
   </div>`,
 },
+
+//Problem 25
+
+
+
+{
+  problem: `<p>The function \\(f\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = 3x^2 - 8x + 5\\).</p>
+  <p>The function \\(g\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + a) + 6\\).</p>
+  <p>If</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = 3x^2 + 22x + 46\\),</p>
+  <p>what is the value of \\(a\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>−5</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>−3</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>3</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>5</span></div>
+  </div>`,
+},
   ],
 };
 
