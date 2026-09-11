@@ -516,6 +516,23 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>The estimated change in the number of available scooters over the entire period</span></div>
   </div>`,
 },
+
+//Problem 40
+
+
+
+{
+  problem: `<p>The amount of water, in gallons, stored in a reservoir \\(d\\) days after monitoring begins is modeled by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(W(d) = -24d^2 + 380d + 52{,}600\\),</p>
+  <p>where \\(0 \\leq d \\leq 15\\).</p>
+  <p>In this model, what does the value 52,600 represent?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>The amount of water the reservoir gains during the first day</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The greatest amount of water predicted by the model</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The total change in the amount of stored water during the monitoring period</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>The estimated amount of water in the reservoir when monitoring begins</span></div>
+  </div>`,
+},
   ],
 };
 
