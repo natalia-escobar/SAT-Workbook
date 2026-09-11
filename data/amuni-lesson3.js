@@ -88,6 +88,20 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\((25x - 7y)(25x + 7y)\\)</span></div>
   </div>`,
 },
+
+//Problem 7
+
+
+
+{
+  problem: `<p>If \\(m = \\frac{1}{9}p^2 + \\frac{1}{9}q^2\\) and \\(n = \\frac{1}{9}pq\\), which of the following is equivalent to \\(36m - 72n\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>\\((2p - 2q)^2\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\((2p + 2q)^2\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\((4p - 4q)^2\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\((p - q)^2\\)</span></div>
+  </div>`,
+},
   ],
 };
 
