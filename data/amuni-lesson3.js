@@ -264,6 +264,24 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\(k(x) = -2(x - 4)^2 + 8(x - 4) + 10\\)</span></div>
   </div>`,
 },
+
+//Problem 24
+
+
+
+{
+  problem: `<p>The quadratic function \\(p\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(p(x) = 3x^2 + 6x - 5\\).</p>
+  <p>The function \\(q\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(q(x) = p(x - 2) - 4\\).</p>
+  <p>Which of the following equations represents \\(q\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(q(x) = 3(x + 2)^2 + 6(x + 2) - 9\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(q(x) = 3(x - 2)^2 + 6(x - 2) - 1\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(q(x) = 3(x + 2)^2 + 6(x + 2) - 1\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(q(x) = 3(x - 2)^2 + 6(x - 2) - 9\\)</span></div>
+  </div>`,
+},
   ],
 };
 
