@@ -735,6 +735,23 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{3}{2}\\)</span></div>
   </div>`,
 },
+
+//Problem 54
+
+
+
+{
+  problem: `<p>The depth \\(D\\), in meters below the surface, of a curved tunnel at a horizontal distance \\(x\\) meters from its entrance is modeled by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(D(x) = -0.5(x - 40)^2 + 200\\)</p>
+  <p>where \\(x\\) is the horizontal distance from the entrance, in meters.</p>
+  <p>What is the best interpretation of the <strong>maximum</strong> of the function in this context?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>The tunnel reaches a maximum depth of 200 meters at a horizontal distance of 40 meters from the entrance.</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>The tunnel reaches a maximum depth of 40 meters at a horizontal distance of 200 meters from the entrance.</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The tunnel reaches a minimum depth of 200 meters at a horizontal distance of 40 meters from the entrance.</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The tunnel is 200 meters long and 40 meters deep.</span></div>
+  </div>`,
+},
   ],
 };
 
