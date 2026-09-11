@@ -135,6 +135,25 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\(8x^2 - \\frac{26}{5}x - 24\\)</span></div>
   </div>`,
 },
+
+//Problem 10
+
+
+
+{
+  problem: `<p>The functions are defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = \\frac{3}{5}x + 4\\)</p>
+  <p>and</p>
+  <p style="text-align:center;margin-bottom:12px">\\(h(x) = 10x - 3\\)</p>
+  <p>Which expression is equivalent to</p>
+  <p style="text-align:center;margin-bottom:12px">\\(3g(x) \\cdot h(x)\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(18x^2 + \\frac{313}{5}x - 36\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(18x^2 + \\frac{253}{5}x + 36\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(18x^2 + \\frac{573}{5}x - 36\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(9x^2 + \\frac{381}{5}x - 36\\)</span></div>
+  </div>`,
+},
   ],
 };
 
