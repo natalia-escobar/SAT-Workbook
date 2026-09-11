@@ -193,6 +193,69 @@ const amuniLesson3 = {
   </div>`,
 },
 
+//Problem 13
+
+{
+  problem: `<p>The graph shows the firework's height above the ground, in meters, \\(t\\) seconds after the motion begins. Which statement is the best interpretation of the marked point \\((4,96)\\) in this context?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct">
+      <span class="mc-label">A</span>
+      <span>Four seconds after launch, the firework is \\(96\\) meters above the ground.</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">B</span>
+      <span>The firework reaches its maximum height after \\(96\\) seconds.</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">C</span>
+      <span>The firework rises at \\(96\\) meters per second for \\(4\\) seconds.</span>
+    </div>
+    <div class="mc-choice">
+      <span class="mc-label">D</span>
+      <span>The maximum height of the firework is \\(4\\) meters.</span>
+    </div>
+  </div>`,
+  graph: {
+    expressions: [
+      { latex: "y=-6.4(x-1)(x-9)", color: "#2563eb" },
+      { latex: "(4,96)", color: "#2563eb" },
+    ],
+    bounds: { left: 0, right: 8, bottom: 0, top: 150 },
+  },
+},
+
+//Problem 14
+
+{
+  problem: `<p>The graph shows the baseball's height above the ground, in feet, \\(t\\) seconds after the motion begins. Which statement is the best interpretation of the marked point \\((2.5,65)\\) in this context?</p>
+                <div class="mc-choices">
+                <div class="mc-choice">
+                    <span class="mc-label">A</span>
+                    <span>The baseball reaches a maximum height of \\(65\\) feet after \\(2.5\\) seconds.</span>
+                </div>
+                <div class="mc-choice">
+                    <span class="mc-label">B</span>
+                    <span>The baseball travels at \\(65\\) feet per second after \\(2.5\\) seconds.</span>
+                </div>
+                <div class="mc-choice">
+                    <span class="mc-label">C</span>
+                    <span>The baseball falls \\(2.5\\) feet during the first \\(65\\) seconds.</span>
+                </div>
+                <div class="mc-choice correct">
+                    <span class="mc-label">D</span>
+                    <span>At \\(2.5\\) seconds, the baseball is \\(65\\) feet above the ground.</span>
+                </div>
+                </div>`,
+
+            graph: {
+                expressions: [
+                { latex: "y=-10(x-3.5)^2+75", color: "#2563eb" },
+                { latex: "(2.5,65)", color: "#2563eb" },
+                ],
+                bounds: { left: 0, right: 7, bottom: 0, top: 120 },
+            },
+},
+
 //Problem 15
 
 
@@ -227,6 +290,225 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">C</span><span>The greatest possible revenue is $4,500.</span></div>
     <div class="mc-choice correct"><span class="mc-label">D</span><span>Two hours after ticket sales began, the revenue is $4,500.</span></div>
   </div>`,
+},
+
+//Problem 17
+
+{
+  problem: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = (x-2)^2 + 1\\)</p>
+        <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
+      graphChoices: [
+        {
+          label: "A",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = (x+2)^2 + 1", color: "#2563eb" }],
+            bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+          },
+        },
+        {
+          label: "B",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = (x-2)^2 - 1", color: "#2563eb" }],
+            bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+          },
+        },
+        {
+          label: "C",
+          correct: true,
+          graph: {
+            expressions: [{ id: "1", latex: "y = (x-2)^2 + 1", color: "#2563eb" }],
+            bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+          },
+        },
+        {
+          label: "D",
+          correct: false,
+          graph: {
+            expressions: [{ id: "1", latex: "y = (x+2)^2 - 1", color: "#2563eb" }],
+            bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+          },
+        },
+      ],
+},
+
+//Problem 18
+
+{
+  problem: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = (x+3)(x-1)\\)</p>
+            <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
+          graphChoices: [
+            {
+              label: "A",
+              correct: true,
+              graph: {
+                expressions: [{ id: "1", latex: "y = (x+3)(x-1)", color: "#2563eb" }],
+                bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+              },
+            },
+            {
+              label: "B",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = (x-3)(x+1)", color: "#2563eb" }],
+                bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+              },
+            },
+            {
+              label: "C",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -(x+3)(x-1)", color: "#2563eb" }],
+                bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+              },
+            },
+            {
+              label: "D",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = (x+3)(x+1)", color: "#2563eb" }],
+                bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+              },
+            },
+          ],
+},
+
+//Problem 19
+
+{
+  problem: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = -(x+1)^2 + 5\\)</p>
+            <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
+          graphChoices: [
+            {
+              label: "A",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = (x+1)^2 + 5", color: "#2563eb" }],
+                bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+              },
+            },
+            {
+              label: "B",
+              correct: true,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -(x+1)^2 + 5", color: "#2563eb" }],
+                bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+              },
+            },
+            {
+              label: "C",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = -(x-1)^2 + 5", color: "#2563eb" }],
+                bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+              },
+            },
+            {
+              label: "D",
+              correct: false,
+              graph: {
+                expressions: [{ id: "1", latex: "y = (x-1)^2 - 5", color: "#2563eb" }],
+                bounds: { left: -8, right: 8, bottom: -5, top: 9 },
+              },
+            },
+          ],
+},
+
+//Problem 20
+
+{
+  problem: `<p>During a science demonstration, a model rocket followed a path represented by the graph shown above.</p>
+    <p>During a second demonstration, the rocket followed the same path, but its entire path was <strong>5 feet higher</strong> than during the first demonstration.</p>
+    <p>Which of the following equations could represent the rocket's path during the second demonstration?</p>`,
+  graph: {
+    expressions: [
+      { id: "1", latex: "y = -16x^2 + 20x + 12", color: "#2563eb" },
+    ],
+    bounds: { left: -0.5, right: 2, bottom: -5, top: 25 },
+  },
+  graphChoices: [
+    {
+      label: "A",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -16x^2 + 20x + 7", color: "#2563eb" }],
+        bounds: { left: -0.5, right: 2, bottom: -5, top: 25 },
+      },
+    },
+    {
+      label: "B",
+      correct: true,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -16x^2 + 20x + 17", color: "#2563eb" }],
+        bounds: { left: -0.5, right: 2, bottom: -5, top: 25 },
+      },
+    },
+    {
+      label: "C",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -16(x-5)^2 + 20(x-5) + 12", color: "#2563eb" }],
+        bounds: { left: 4, right: 7, bottom: -5, top: 25 },
+      },
+    },
+    {
+      label: "D",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -16(x+5)^2 + 20(x+5) + 12", color: "#2563eb" }],
+        bounds: { left: -7, right: -3, bottom: -5, top: 25 },
+      },
+    },
+  ],
+},
+
+//Problem 21
+
+{
+  problem: `<p>The path of a stream of water from a fountain is represented by the graph shown above.</p>
+    <p>A second fountain produces the same-shaped path, but the entire path is translated <strong>3 units downward</strong>.</p>
+    <p>Which of the following equations could represent the path of the water from the second fountain?</p>`,
+  graph: {
+    expressions: [
+      { id: "1", latex: "y = -4x^2 + 16x + 6", color: "#2563eb" },
+    ],
+    bounds: { left: -1, right: 5, bottom: -5, top: 25 },
+  },
+  graphChoices: [
+    {
+      label: "A",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -4x^2 + 16x + 9", color: "#2563eb" }],
+        bounds: { left: -1, right: 5, bottom: -5, top: 25 },
+      },
+    },
+    {
+      label: "B",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -4(x-3)^2 + 16(x-3) + 6", color: "#2563eb" }],
+        bounds: { left: 2, right: 8, bottom: -5, top: 25 },
+      },
+    },
+    {
+      label: "C",
+      correct: false,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -4(x+3)^2 + 16(x+3) + 6", color: "#2563eb" }],
+        bounds: { left: -4, right: 2, bottom: -5, top: 25 },
+      },
+    },
+    {
+      label: "D",
+      correct: true,
+      graph: {
+        expressions: [{ id: "1", latex: "y = -4x^2 + 16x + 3", color: "#2563eb" }],
+        bounds: { left: -1, right: 5, bottom: -5, top: 25 },
+      },
+    },
+  ],
 },
 
 //Problem 22
@@ -336,11 +618,29 @@ const amuniLesson3 = {
   <p style="text-align:center;margin-bottom:12px">\\(g(x) = 5x^2 + 34x + 45\\),</p>
   <p>what is the value of \\(a\\)?</p>
   <div class="mc-choices">
-    <div class="mc-choice"><span class="mc-label">A</span><span>−4</span></div>
-    <div class="mc-choice"><span class="mc-label">B</span><span>−2</span></div>
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(−4\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(−2</span></div>
     <div class="mc-choice"><span class="mc-label">C</span><span>2</span></div>
     <div class="mc-choice correct"><span class="mc-label">D</span><span>4</span></div>
   </div>`,
+},
+
+//Problem 28
+{
+  problem: `<p>The function \\(f\\) is defined by the graph shown above.</p>
+    <p>What is the value of \\(f(0)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice"><span class="mc-label">A</span><span>\\(9\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">B</span><span>\\(10\\)</span></div>
+      <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(11\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">D</span><span>\\(12\\)</span></div>
+    </div>`,
+  graph: {
+    expressions: [
+      { id: "1", latex: "y = \\frac{3}{4}(x+2)^2 + 8", color: "#2563eb" },
+    ],
+    bounds: { left: -6, right: 4, bottom: -2, top: 15 },
+  },
 },
 
 //Problem 29
