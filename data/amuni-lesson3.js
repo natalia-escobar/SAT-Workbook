@@ -701,6 +701,23 @@ const amuniLesson3 = {
     <div class="mc-choice correct"><span class="mc-label">D</span><span>3</span></div>
   </div>`,
 },
+
+//Problem 52
+
+
+
+{
+  problem: `<p>The graph of the quadratic function</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = -4(x + 5)^2 + 11\\)</p>
+  <p>has a vertex at \\((p, q)\\).</p>
+  <p>What is the value of \\(q\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>−11</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>5</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>−5</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>11</span></div>
+  </div>`,
+},
   ],
 };
 
