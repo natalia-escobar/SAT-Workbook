@@ -116,6 +116,25 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\(6(p + q)^2\\)</span></div>
   </div>`,
 },
+
+//Problem 9
+
+
+
+{
+  problem: `<p>The functions are defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = \\frac{4}{5}x - 2\\)</p>
+  <p>and</p>
+  <p style="text-align:center;margin-bottom:12px">\\(h(x) = 5x + 6\\)</p>
+  <p>Which expression is equivalent to</p>
+  <p style="text-align:center;margin-bottom:12px">\\(2g(x) \\cdot h(x)\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(8x^2 - \\frac{52}{5}x - 24\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(8x^2 + \\frac{52}{5}x - 24\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(4x^2 - \\frac{52}{5}x - 24\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(8x^2 - \\frac{26}{5}x - 24\\)</span></div>
+  </div>`,
+},
   ],
 };
 
