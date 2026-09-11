@@ -400,6 +400,38 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{40}{2}\\)</span></div>
   </div>`,
 },
+
+//Problem 33
+
+
+
+{
+  problem: `<p>For the function \\(f\\) defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(r) = 2r^2 + 7r + m\\),</p>
+  <p>what does \\(m\\) represent?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>A value of \\(r\\) for which \\(f(r) = 0\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>The value of \\(f(0)\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The greatest value of \\(f(r)\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The value of \\(f(r)\\) at the axis of symmetry</span></div>
+  </div>`,
+},
+
+//Problem 34
+
+
+
+{
+  problem: `<p>For the function \\(g\\) defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(t) = -4t^2 + 20t + n\\),</p>
+  <p>what does \\(n\\) represent?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>The greatest value of \\(g(t)\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>A value of \\(t\\) for which \\(g(t) = 0\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The value of \\(g(t)\\) at the axis of symmetry</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>The value of \\(g(0)\\)</span></div>
+  </div>`,
+},
   ],
 };
 
