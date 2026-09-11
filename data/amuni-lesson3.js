@@ -173,6 +173,25 @@ const amuniLesson3 = {
     <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(x^2 + \\frac{57}{2}x + 7\\)</span></div>
   </div>`,
 },
+
+//Problem 12
+
+
+
+{
+  problem: `<p>The functions \\(f\\) and \\(g\\) are defined by the equations shown.</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = \\left(\\frac{5}{6}x - 3\\right)(3x + 6)\\)</p>
+  <p>and</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = 4(2x + 7)(x - 8)\\)</p>
+  <p>Which expression is equivalent to</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) + g(x)\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\frac{9}{2}x^2 - 13x - 74\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(\\frac{21}{2}x^2 + 32x - 242\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(\\frac{21}{2}x^2 - 40x - 206\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{21}{2}x^2 - 40x - 242\\)</span></div>
+  </div>`,
+},
   ],
 };
 
