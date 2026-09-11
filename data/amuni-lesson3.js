@@ -630,6 +630,24 @@ const amuniLesson3 = {
     <div class="mc-choice correct"><span class="mc-label">D</span><span>41</span></div>
   </div>`,
 },
+
+//Problem 48
+
+
+
+{
+  problem: `<p>The function</p>
+  <p style="text-align:center;margin-bottom:12px">\\(h(x) = 2x^2 + 7x - 4\\)</p>
+  <p>is transformed into</p>
+  <p style="text-align:center;margin-bottom:12px">\\(k(x) = 3h(x) - 8\\).</p>
+  <p>What is the \\(y\\)-coordinate of the point where the graph of \\(k\\) intersects the \\(y\\)-axis?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>−20</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>−12</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>−8</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>4</span></div>
+  </div>`,
+},
   ],
 };
 
