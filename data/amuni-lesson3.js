@@ -533,6 +533,20 @@ const amuniLesson3 = {
     <div class="mc-choice correct"><span class="mc-label">D</span><span>The estimated amount of water in the reservoir when monitoring begins</span></div>
   </div>`,
 },
+
+// Problem 41
+
+{
+  problem: `<p>The amount of water, in gallons, in a storage tank \\(t\\) hours after a pump is activated is modeled by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(W(t) = -\\frac{3}{8}t^2 + \\frac{11}{4}t + \\frac{47}{6}\\).</p>
+  <p>How many gallons of water were in the tank when the pump was activated?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\frac{11}{4}\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(\\frac{47}{6}\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\frac{65}{6}\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{3}{8}\\)</span></div>
+  </div>`,
+},
   ],
 };
 
