@@ -499,6 +499,23 @@ const amuniLesson3 = {
     <div class="mc-choice"><span class="mc-label">D</span><span>The number of waiting packages increases by exactly one-fourth of a package each day.</span></div>
   </div>`,
 },
+
+//Problem 39
+
+
+
+{
+  problem: `<p>The number of electric scooters available through a transportation service \\(w\\) weeks after the beginning of a new operating period is modeled by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(S(w) = 18w^2 - 95w + 1{,}460\\),</p>
+  <p>where \\(0 \\leq w \\leq 20\\).</p>
+  <p>In this model, what does the value 1,460 represent?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>The greatest number of scooters available during the operating period</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>The estimated number of scooters available when the operating period began</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>The number of scooters added to the service during the first week</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>The estimated change in the number of available scooters over the entire period</span></div>
+  </div>`,
+},
   ],
 };
 
