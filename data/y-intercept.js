@@ -1100,6 +1100,112 @@ const yIntercept = {
   ],
 },
 
+//Problem 7
+
+{
+  problem: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = f(x - 5) + 4\\) and \\(f\\) is a quadratic function.</p>
+    <table class="xy-table" style="margin:0 auto 16px auto">
+      <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+      <tr><td>\\(3\\)</td><td>\\(7\\)</td></tr>
+      <tr><td>\\(5\\)</td><td>\\(-17\\)</td></tr>
+      <tr><td>\\(7\\)</td><td>\\(7\\)</td></tr>
+    </table>
+    <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = f(x)\\) in the \\(xy\\)-plane?</p>`,
+  steps: [
+    { text: "Step 1 — Type <i>table</i> into Desmos and enter the three \\(x\\) and \\(y\\) values", note: "", gif: "", video: "" },
+    { text: "Step 2 — Add the regression \\(y_1 \\sim a(x_1 - h)^2 + k\\)", note: "Desmos finds \\(a\\), \\(h\\), and \\(k\\) for the table's parabola", gif: "", video: "" },
+    { text: "Step 3 — Type \\(g(x) = a(x - h)^2 + k\\) to name the table's function", note: "", gif: "", video: "" },
+    { text: "Step 4 — The table shows \\(f(x-5)+4\\), so undo the shift: type \\(f(x) = g(x + 5) - 4\\)", note: "", gif: "", video: "" },
+    { text: "Step 5 — Click where the graph of \\(f\\) crosses the \\(y\\)-axis", note: "The \\(y\\)-value is \\(-21\\)", gif: "", video: "" },
+  ],
+
+  guidedProblem: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = g(x + 2) - 5\\) and \\(g\\) is a quadratic function.</p>
+    <table class="xy-table" style="margin:0 auto 16px auto">
+      <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+      <tr><td>\\(-1\\)</td><td>\\(12\\)</td></tr>
+      <tr><td>\\(1\\)</td><td>\\(-20\\)</td></tr>
+      <tr><td>\\(3\\)</td><td>\\(12\\)</td></tr>
+    </table>
+    <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = g(x)\\) in the \\(xy\\)-plane?</p>`,
+  guidedSteps: [
+    "Type the table into Desmos",
+    "Add the regression \\(y_1 \\sim a(x_1 - h)^2 + k\\)",
+    "Define the table's function: \\(t(x) = a(x - h)^2 + k\\)",
+    "Undo the shift: \\(g(x) = t(x - 2) + 5\\)",
+    "Click the \\(y\\)-intercept of \\(g\\)",
+  ],
+  guidedAnswer: `\\(57\\)`,
+  guidedScreenshot: ``,
+
+  practice: [
+    {
+      text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = h(x - 8) + 6\\) and \\(h\\) is a quadratic function.</p>
+        <table class="xy-table" style="margin:0 auto 16px auto">
+          <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+          <tr><td>\\(6\\)</td><td>\\(15\\)</td></tr>
+          <tr><td>\\(8\\)</td><td>\\(-1\\)</td></tr>
+          <tr><td>\\(10\\)</td><td>\\(15\\)</td></tr>
+        </table>
+        <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = h(x)\\) in the \\(xy\\)-plane?</p>`,
+      setup: "Table → regression → \\(t(x) = a(x-h)^2+k\\) → \\(h(x) = t(x+8) - 6\\) → \\(y\\)-intercept is \\(-7\\)",
+    },
+    {
+      text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = k(x + 2) - 10\\) and \\(k\\) is a quadratic function.</p>
+        <table class="xy-table" style="margin:0 auto 16px auto">
+          <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+          <tr><td>\\(-4\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(-2\\)</td><td>\\(-34\\)</td></tr>
+          <tr><td>\\(0\\)</td><td>\\(2\\)</td></tr>
+        </table>
+        <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = k(x)\\) in the \\(xy\\)-plane?</p>`,
+      setup: "Table → regression → \\(t(x) = a(x-h)^2+k\\) → \\(k(x) = t(x-2) + 10\\) → \\(y\\)-intercept is \\(-24\\)",
+    },
+  ],
+
+  additionalPractice: [
+    {
+      text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = p(x - 4) + 7\\) and \\(p\\) is a quadratic function.</p>
+        <table class="xy-table" style="margin:0 auto 16px auto">
+          <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+          <tr><td>\\(4\\)</td><td>\\(18\\)</td></tr>
+          <tr><td>\\(6\\)</td><td>\\(-14\\)</td></tr>
+          <tr><td>\\(8\\)</td><td>\\(18\\)</td></tr>
+        </table>
+        <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = p(x)\\) in the \\(xy\\)-plane?</p>`,
+    },
+    {
+      text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = q(x + 5) - 8\\) and \\(q\\) is a quadratic function.</p>
+        <table class="xy-table" style="margin:0 auto 16px auto">
+          <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+          <tr><td>\\(-5\\)</td><td>\\(9\\)</td></tr>
+          <tr><td>\\(-3\\)</td><td>\\(-15\\)</td></tr>
+          <tr><td>\\(-1\\)</td><td>\\(9\\)</td></tr>
+        </table>
+        <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = q(x)\\) in the \\(xy\\)-plane?</p>`,
+    },
+    {
+      text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = r(x - 7) + 12\\) and \\(r\\) is a quadratic function.</p>
+        <table class="xy-table" style="margin:0 auto 16px auto">
+          <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+          <tr><td>\\(7\\)</td><td>\\(22\\)</td></tr>
+          <tr><td>\\(9\\)</td><td>\\(-10\\)</td></tr>
+          <tr><td>\\(11\\)</td><td>\\(22\\)</td></tr>
+        </table>
+        <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = r(x)\\) in the \\(xy\\)-plane?</p>`,
+    },
+    {
+      text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = s(x + 6) + 9\\) and \\(s\\) is a quadratic function.</p>
+        <table class="xy-table" style="margin:0 auto 16px auto">
+          <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+          <tr><td>\\(-6\\)</td><td>\\(14\\)</td></tr>
+          <tr><td>\\(-4\\)</td><td>\\(-22\\)</td></tr>
+          <tr><td>\\(-2\\)</td><td>\\(14\\)</td></tr>
+        </table>
+        <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = s(x)\\) in the \\(xy\\)-plane?</p>`,
+    },
+  ],
+},
+
 //Problem 8
 
 

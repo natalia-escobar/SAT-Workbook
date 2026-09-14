@@ -248,3 +248,11 @@
 .quiz-results-qnum{font-weight:500;min-width:28px}
 .quiz-results-qid{color:#888;min-width:72px}
 .quiz-results-diff{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#aaa;flex:1}
+
+.example-carousel-nav{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:14px}
+.example-carousel-label{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#888}
+.example-carousel-dots{display:flex;gap:6px}
+.example-carousel-dot{width:8px;height:8px;border-radius:50%;border:none;padding:0;background:#e0e0de;cursor:pointer;transition:background .15s}
+.example-carousel-dot.active{background:#D13B31}
+.example-carousel-arrow{background:none;border:1px solid #e0e0de;border-radius:6px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#555}
+.example-carousel-arrow:disabled{opacity:.3;cursor:default}

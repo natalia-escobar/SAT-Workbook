@@ -30,6 +30,74 @@ function SectionAccordion({ icon, title, defaultOpen, children }) {
   );
 }
 
+function WorkedExampleCarousel({ problem, problemIndex }) {
+  // Normalize: use workedExamples array if present, otherwise wrap the single example
+  const examples = problem.workedExamples && problem.workedExamples.length > 0
+    ? problem.workedExamples
+    : [{ problem: problem.problem, graph: problem.graph, graphChoices: problem.graphChoices, steps: problem.steps }];
+
+  const [exampleIndex, setExampleIndex] = useState(0);
+  const example = examples[exampleIndex];
+  const multi = examples.length > 1;
+
+  useEffect(() => {
+    if (window.MathJax) window.MathJax.typesetPromise();
+  }, [exampleIndex]);
+
+  return (
+    <>
+      {multi && (
+        <div className="example-carousel-nav">
+          <button
+            className="example-carousel-arrow"
+            onClick={() => setExampleIndex((i) => Math.max(0, i - 1))}
+            disabled={exampleIndex === 0}
+            aria-label="Previous example"
+          >
+            <i className="ti ti-chevron-left" />
+          </button>
+          <span className="example-carousel-label">Example {exampleIndex + 1} of {examples.length}</span>
+          <div className="example-carousel-dots">
+            {examples.map((_, i) => (
+              <button
+                key={i}
+                className={`example-carousel-dot ${i === exampleIndex ? "active" : ""}`}
+                onClick={() => setExampleIndex(i)}
+                aria-label={`Example ${i + 1}`}
+              />
+            ))}
+          </div>
+          <button
+            className="example-carousel-arrow"
+            onClick={() => setExampleIndex((i) => Math.min(examples.length - 1, i + 1))}
+            disabled={exampleIndex === examples.length - 1}
+            aria-label="Next example"
+          >
+            <i className="ti ti-chevron-right" />
+          </button>
+        </div>
+      )}
+
+      <div className="problem-steps-grid">
+        <div className="psg-left" key={`ex-left-${problemIndex}-${exampleIndex}`}>
+          {example.graph && <DesmosGraph graph={example.graph} />}
+          <div className="problem-label">{multi ? `Example ${exampleIndex + 1}` : "Example"}</div>
+          <ProblemStatement problem={example.problem} />
+          {example.graphChoices && <GraphChoices choices={example.graphChoices} readOnly={true} />}
+        </div>
+        <div className="psg-right">
+          {/* All step navigators stay mounted so each example remembers its step position */}
+          {examples.map((ex, i) => (
+            <div key={`ex-steps-${problemIndex}-${i}`} style={{ display: i === exampleIndex ? "block" : "none" }}>
+              <StepNavigator steps={ex.steps} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
+  );
+}
+
 function AdditionalPracticeQuestion({ text, index, graph, graphChoices }) {
   const [open, setOpen] = useState(false);
   const isMultipleChoice = text.includes("mc-choice") || graphChoices;
@@ -100,17 +168,7 @@ export default function WorkbookView({ topic }) {
       <ProblemNav problemIndex={problemIndex} total={total} setProblemIndex={setProblemIndex} isFirst={isFirst} isLast={isLast} />
 
       <SectionAccordion icon="ti-book" title="Worked example" defaultOpen={true} key={`we-${problemIndex}`}>
-        <div className="problem-steps-grid">
-          <div className="psg-left">
-            <DesmosGraph graph={problem.graph} />
-            <div className="problem-label">Example</div>
-            <ProblemStatement problem={problem.problem} />
-              {problem.graphChoices && <GraphChoices choices={problem.graphChoices} readOnly={true} />}
-          </div>
-          <div className="psg-right">
-            <StepNavigator key={problemIndex} steps={problem.steps} />
-          </div>
-        </div>
+        <WorkedExampleCarousel problem={problem} problemIndex={problemIndex} key={`wec-${problemIndex}`} />
       </SectionAccordion>
 
       <SectionAccordion icon="ti-checkbox" title="Guided practice — follow the steps" defaultOpen={false} key={`gp-${problemIndex}`}>
