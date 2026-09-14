@@ -23,6 +23,7 @@ export default function DesmosCalculator() {
 
     // ── DRAG ──
     const onDragStart = (e) => {
+      if (e.target.closest(".calc-close")) return;
       const { x, y } = getXY(e);
       dragging = true;
       startX = x;
