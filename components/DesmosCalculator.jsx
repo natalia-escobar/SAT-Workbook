@@ -4,7 +4,6 @@ import { useState, useRef, useEffect } from "react";
 
 export default function DesmosCalculator() {
   const [open, setOpen] = useState(false);
-  const [moveMode, setMoveMode] = useState(false);
   const overlayRef = useRef(null);
 
   useEffect(() => {
@@ -115,19 +114,9 @@ export default function DesmosCalculator() {
             <i className="ti ti-grip-horizontal" />
             <span>Desmos calculator</span>
           </div>
-          <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-            <button
-              className={`calc-move-toggle ${moveMode ? "active" : ""}`}
-              onClick={() => setMoveMode((m) => !m)}
-              title={moveMode ? "Unlock — use calculator" : "Lock — drag to move"}
-            >
-              <i className={`ti ${moveMode ? "ti-lock-open" : "ti-lock"}`} />
-              <span className="calc-move-label">{moveMode ? "Unlock" : "Move"}</span>
-            </button>
-            <button className="calc-close" onClick={() => { setOpen(false); setMoveMode(false); }}>
-              <i className="ti ti-x" />
-            </button>
-          </div>
+          <button className="calc-close" onClick={() => setOpen(false)}>
+            <i className="ti ti-x" />
+          </button>
         </div>
         <div className="calc-body" style={{ position: "relative" }}>
           {open && (
@@ -136,14 +125,6 @@ export default function DesmosCalculator() {
               style={{ width: "100%", height: "100%", border: "none" }}
               title="Desmos Calculator"
             />
-          )}
-          {moveMode && (
-            <div className="calc-move-shield">
-              <div className="calc-move-hint">
-                <i className="ti ti-arrows-move" />
-                <span>Drag the top bar to move</span>
-              </div>
-            </div>
           )}
         </div>
         <div className="calc-resize-grip">
