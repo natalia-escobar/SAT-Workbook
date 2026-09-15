@@ -1023,7 +1023,7 @@ const parabola = {
         additionalPractice: [
   { text: `<p>Which of the following expressions is equivalent to</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( 6\\left(3x - \\frac{5}{2}\\right)^2 - 433? \\)</p>
+      \\( 6\\left(3x - \\frac{5}{2}\\right)^2 - 432? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -1045,7 +1045,7 @@ const parabola = {
 
   { text: `<p>Which of the following expressions is equivalent to</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( 8(5x + 8)^2 - 968? \\)</p>
+      \\( 8(5x + 3)^2 - 968? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -1067,7 +1067,7 @@ const parabola = {
 
   { text: `<p>Which of the following expressions is equivalent to</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( 5\\left(4x - \\frac{3}{2}\\right)^2 - 300? \\)</p>
+      \\( 5\\left(4x - \\frac{3}{2}\\right)^2 - 360? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -1089,7 +1089,7 @@ const parabola = {
 
   { text: `<p>Which of the following expressions is equivalent to</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( 7(4x - 4)^2 - 1575? \\)</p>
+      \\( 7(6x - 4)^2 - 1575? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -3001,7 +3001,7 @@ const parabola = {
           { text: `If 
             <p style="text-align:center;margin-bottom:12px"> \\( f^2 = g + \\frac{2m}{5} \\) </p>
             and 
-            <p style="text-align:center;margin-bottom:12px"> \\( h^2 = g - \\frac{3m}{5} \\) </p>
+            <p style="text-align:center;margin-bottom:12px"> \\( h^2 = g - \\frac{3n}{5} \\) </p>
             which of the following is equal to
             <p style="text-align:center;margin-bottom:12px"> \\( 25(f^2 - h^2)^2 \\) </p>
         <div class="mc-choices">
@@ -3082,13 +3082,13 @@ const parabola = {
 
   { text: `<p>If</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( v^2 = t + \\frac{z}{3} \\)</p>
+      \\( u^2 = t + \\frac{v}{3} \\)</p>
     <p>and</p>
     <p style="text-align:center;margin-bottom:12px">
       \\( w^2 = t - \\frac{2z}{3}, \\)</p>
     <p>which of the following is equal to</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( 9(v^2 - w^2)^2? \\)</p>
+      \\( 9(v^2 - u^2)^2? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
