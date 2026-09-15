@@ -1105,57 +1105,121 @@ const yIntercept = {
     {
       workedExamples: [
 
-        { problem: `<p>The \\(y\\)-intercept of the graph in the \\(xy\\)-plane is \\( (0,y) \\). What is the value of \\(y\\)?</p>`,
-      graph: {
-        expressions: [
-          { latex: "y=-1/4(x-6)^2 + 12x + 8", color: "#2563eb" },
+      {
+        problem: `<p>The \\(y\\)-intercept of the graph</p>
+          <p style="text-align:center;margin-bottom:12px">\\(g(x) = \\frac{1}{4}(x - 6)^2 + 2\\)</p>
+          <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
+        steps: [
+          { text: "Step 1 — Type \\(g(x) = \\frac{1}{4}(x - 6)^2 + 2\\) into Desmos", note: "", gif: "", video: "" },
+          { text: "Step 2 — Find where the parabola crosses the \\(y\\)-axis", note: "The \\(y\\)-intercept is always at \\(x = 0\\)", gif: "", video: "" },
+          { text: "Step 3 — Click the point to read its coordinates", note: "The point is \\((0, 11)\\), so \\(y = 11\\)", gif: "", video: "" },
         ],
-        bounds: { left: -3, right: 10, bottom: 0, top: 27 },
       },
-      steps: [
-        { text: ``}
-      ], },
-      { problem: `<p>The \\(y\\)-intercept of the graph in the \\(xy\\)-plane is \\( (0,y) \\). What is the value of \\(y\\)?</p>`,
-      graph: {
-        expressions: [
-          { latex: "y=-1/4(x-6)^2 + 12x + 8", color: "#2563eb" },
+      {
+        problem: `<p>The \\(y\\)-intercept of the graph</p>
+          <p style="text-align:center;margin-bottom:12px">\\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\)</p>
+          <p>in the \\(xy\\)-plane is \\((0, g(0))\\). What is the value of \\(g(0)\\)?</p>`,
+        steps: [
+          { text: "Step 1 — Type \\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\) into Desmos", note: "", gif: "", video: "" },
+          { text: "Step 2 — Find where the parabola crosses the \\(y\\)-axis", note: "\\(g(0)\\) means the \\(y\\)-value when \\(x = 0\\), which is the \\(y\\)-intercept", gif: "", video: "" },
+          { text: "Step 3 — Click the point to read its coordinates", note: "The point is \\((0, -104)\\), so \\(g(0) = -104\\)", gif: "", video: "" },
         ],
-        bounds: { left: -3, right: 10, bottom: 0, top: 27 },
       },
-      steps: [
-        { text: ``}
-      ], },
+      {
+        problem: `<p>The graph of the function</p>
+          <p style="text-align:center;margin-bottom:12px">\\(f(x) = 12x^2 - 84x + 155\\)</p>
+          <p>intersects the \\(y\\)-axis at which point?</p>
+          <div class="mc-choices">
+            <div class="mc-choice"><span class="mc-label">A</span><span>\\((155, 0)\\)</span></div>
+            <div class="mc-choice correct"><span class="mc-label">B</span><span>\\((0, 155)\\)</span></div>
+            <div class="mc-choice"><span class="mc-label">C</span><span>\\((0, 71)\\)</span></div>
+            <div class="mc-choice"><span class="mc-label">D</span><span>\\((12, 155)\\)</span></div>
+          </div>`,
+        steps: [
+          { text: "Step 1 — Type \\(f(x) = 12x^2 - 84x + 155\\) into Desmos", note: "", gif: "", video: "" },
+          { text: "Step 2 — Find where the parabola crosses the \\(y\\)-axis", note: "", gif: "", video: "" },
+          { text: "Step 3 — Click the point and match it to the answer choices", note: "The point is \\((0, 155)\\), which is choice B", gif: "", video: "" },
+        ],
+      },
+      {
+        problem: `<p>The graph of the quadratic function</p>
+          <p style="text-align:center;margin-bottom:12px">\\( y = 3(x - 2)(x + 4) \\)</p>
+          <p>has a \\(y\\)-intercept of the form</p>
+          <p style="text-align:center;margin-bottom:12px">\\( (0, r) \\)</p>
+          <p>What is the value of \\(r\\)?</p>`,
+        steps: [
+          { text: "Step 1 — Type \\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\) into Desmos", note: "", gif: "", video: "" },
+          { text: "Step 2 — Find where the parabola crosses the \\(y\\)-axis", note: "\\(g(0)\\) means the \\(y\\)-value when \\(x = 0\\), which is the \\(y\\)-intercept", gif: "", video: "" },
+          { text: "Step 3 — Click the point to read its coordinates", note: "The point is \\((0, -104)\\), so \\(g(0) = -104\\)", gif: "", video: "" },
+        ],
+      },
+      {
+        problem: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+          <p style="text-align:center;margin-bottom:12px">\\( f(x) = 8x^2 - 13x + 24\\)</p>
+          <p>and</p>
+          <p style="text-align:center;margin-bottom:12px">\\( g(x) = 5x^2 + 9x - 17 \\)</p>
+          <p>What is the value of </p>
+          <p style="text-align:center;margin-bottom:12px">\\( (f - g)(0)? \\)</p>
+          <div class="mc-choices">
+            <div class="mc-choice"><span class="mc-label">A</span><span>\\( -7 \\)</span></div>
+            <div class="mc-choice"><span class="mc-label">B</span><span>\\( 7 \\)</span></div>
+            <div class="mc-choice"><span class="mc-label">C</span><span>\\( 24 \\)</span></div>
+            <div class="mc-choice correct"><span class="mc-label">D</span><span>\\( 41 \\)</span></div>
+          </div>`,
+        steps: [
+          { text: "Step 1 — Type \\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\) into Desmos", note: "", gif: "", video: "" },
+          { text: "Step 2 — Find where the parabola crosses the \\(y\\)-axis", note: "\\(g(0)\\) means the \\(y\\)-value when \\(x = 0\\), which is the \\(y\\)-intercept", gif: "", video: "" },
+          { text: "Step 3 — Click the point to read its coordinates", note: "The point is \\((0, -104)\\), so \\(g(0) = -104\\)", gif: "", video: "" },
+        ],
+      },
 
       ],
 
-      guidedProblem: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,r) \\). What is the value of \\(r\\)?</p>
-      <div class="mc-choices">
-        <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>\\( 3 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-          <span class="mc-label">B</span>
-          <span>\\( 11 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( 18 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>\\( 29 \\)</span>
-        </div>
-      </div>`,
-      guidedGraph: {
-        expressions: [
-          { latex: "y=3x^2-18x+11", color: "#2563eb" },
+      guidedProblems: [
+
+        {
+        problem: `<p>The \\(y\\)-intercept of the graph</p>
+          <p style="text-align:center;margin-bottom:12px">\\(f(x) = \\frac{1}{3}(x - 6)^2 + 5\\)</p>
+          <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
+        steps: [
+          "",
         ],
-        bounds: { left: -5, right: 10, bottom: -20, top: 5 },
       },
-      guidedSteps: [ ``],
-      guidedAnswer: `The Answer is B`,
-      guidedScreenshot: ``,
+      {
+        problem: `<p>The \\(y\\)-intercept of the graph</p>
+          <p style="text-align:center;margin-bottom:12px">\\(g(x) = -\\frac{1}{2}(x + 8)^2 + 19\\)</p>
+          <p>in the \\(xy\\)-plane is \\((0, g(0))\\). What is the value of \\(g(0)\\)?</p>`,
+        steps: [
+          "",
+        ],
+      },
+      {
+        problem: `<p>The graph of the function</p>
+          <p style="text-align:center;margin-bottom:12px">\\(h(x) = 9x^2 - 54x + 127 \\)</p>
+          <p>intersects the \\(y\\)-axis at which point?</p>
+          <div class="mc-choices">
+            <div class="mc-choice"><span class="mc-label">A</span><span>\\((127, 0)\\)</span></div>
+            <div class="mc-choice"><span class="mc-label">B</span><span>\\((0, 73)\\)</span></div>
+            <div class="mc-choice"><span class="mc-label">C</span><span>\\((9, 127)\\)</span></div>
+            <div class="mc-choice correct"><span class="mc-label">D</span><span>\\((0, 127)\\)</span></div>
+          </div>`,
+        steps: [
+          "",
+        ],
+      },
+      {
+        problem: `<p>The graph of the quadratic function</p>
+          <p style="text-align:center;margin-bottom:12px">\\( y = -4( x - 3)(x + 5) \\)</p>
+          <p>intersects the \\(y\\)-axis at which point</p>
+          <p style="text-align:center;margin-bottom:12px">\\( (0, r) \\)</p>
+          <p>What is the value of \\(r\\)?</p>`,
+        steps: [
+          "",
+          
+        ],
+      },
+
+      ],
 
       practice: [
 
