@@ -1222,172 +1222,62 @@ const yIntercept = {
       ],
 
       practice: [
-
-        { text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,k) \\). What is the value of \\(k\\)?</p>
-      <div class="mc-choices">
-        <div class="mc-choice correct">
-          <span class="mc-label">A</span>
-          <span>\\( \\frac{-15}{2} \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>\\( \\frac{-8}{2} \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( \\frac{15}{2} \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>\\( \\frac{40}{2} \\)</span>
-        </div>
-      </div>`,
-          graph: {
-            expressions: [
-              { latex: "y=-4x^2+20x-\\frac{15}{2}", color: "#2563eb" },
-              { latex: "(2,-11)", color: "#2563eb" },
-            ],
-            bounds: { left: -5, right: 10, bottom: -5, top: 20 },
-          },
+        {
+          text: `<p>The \\(y\\)-intercept of the graph</p>
+            <p style="text-align:center;margin-bottom:12px">\\(p(x) = \\frac{2}{5}(x - 5)^2 + 14\\)</p>
+            <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
         },
-        { text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,m) \\). What is the value of \\(m\\)?</p>
-      <div class="mc-choices">
-        <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>\\(1.5 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>\\( 9 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( 10.9 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-          <span class="mc-label">D</span>
-          <span>\\( 12.4 \\)</span>
-        </div>
-      </div>`,
-          graph: {
-            expressions: [
-              { latex: "y=1.5x^2-9x+12.4", color: "#2563eb" },
-            ],
-            bounds: { left: -4, right: 10, bottom: -5, top: 15 },
-          },
-        }
+        {
+          text: `<p>The graph of the function</p>
+            <p style="text-align:center;margin-bottom:12px">\\(q(x) = 7x^2 + 38x - 146\\)</p>
+            <p>intersects the \\(y\\)-axis at which point?</p>
+            <div class="mc-choices">
+              <div class="mc-choice"><span class="mc-label">A</span><span>\\((-146, 0)\\)</span></div>
+              <div class="mc-choice"><span class="mc-label">B</span><span>\\((0, 146)\\)</span></div>
+              <div class="mc-choice correct"><span class="mc-label">C</span><span>\\((0, -146)\\)</span></div>
+              <div class="mc-choice"><span class="mc-label">D</span><span>\\((7, -146)\\)</span></div>
+            </div>`,
+        },
 
       ],
 
       additionalPractice: [
-        { text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,r) \\). What is the value of \\(r\\)?</p>
-      <div class="mc-choices">
-        <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>\\( 5 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-          <span class="mc-label">B</span>
-          <span>\\( 14 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( 25 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>\\( 30 \\)</span>
-        </div>
-      </div>`,
-          graph: {
-            expressions: [
-              { latex: "y=5x^2-30x+14", color: "#2563eb" },
-            ],
-            bounds: { left: -1, right: 10, bottom: -35, top: 2 },
-          },
-        },
-
-        { text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,k) \\). What is the value of \\(k\\)?</p>
-      <div class="mc-choices">
-        <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>\\( \\frac{17}{2} \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>\\( \\frac{17}{2} \\)</span>
-        </div>
-        <div class="mc-choice correct">
-          <span class="mc-label">C</span>
-          <span>\\( \\frac{-17}{2} \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>\\( \\frac{24}{2} \\)</span>
-        </div>
-      </div>`,
-          graph: {
-            expressions: [
-              { latex: "y=-6x^2+24x-17/2", color: "#2563eb" },
-            ],
-            bounds: { left: -1, right: 5, bottom: -1, top: 18 },
-          },
-        },
-
-        { text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,m) \\). What is the value of \\(m\\)?</p>
-      <div class="mc-choices">
-        <div class="mc-choice correct">
-          <span class="mc-label">A</span>
-          <span>\\( 18.6 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>\\( 15 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( 16.1 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">D</span>
-          <span>\\( 2.5 \\)</span>
-        </div>
-      </div>`,
-          graph: {
-            expressions: [
-              { latex: "y=2.5x^2-15x+18.6", color: "#2563eb" },
-            ],
-            bounds: { left: -5, right: 10, bottom: -5 , top: 25 },
-          },
-        },
-
-        { text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,p) \\). What is the value of \\(p\\)?</p>
-      <div class="mc-choices">
-        <div class="mc-choice">
-          <span class="mc-label">A</span>
-          <span>\\( -7 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">B</span>
-          <span>\\( 22 \\)</span>
-        </div>
-        <div class="mc-choice">
-          <span class="mc-label">C</span>
-          <span>\\( 35 \\)</span>
-        </div>
-        <div class="mc-choice correct">
-          <span class="mc-label">D</span>
-          <span>\\( -22 \\)</span>
-        </div>
-      </div>`,
-          graph: {
-            expressions: [
-              { latex: "y=-7x^2+35x-22", color: "#2563eb" },
-            ],
-            bounds: { left: -2, right: 10, bottom: -1, top: 25 },
-          },
-        },
-      ],
+      {
+        text: `<p>The graph of the quadratic function</p>
+          <p style="text-align:center;margin-bottom:12px">\\(y = 5(x + 3)(x - 7)\\)</p>
+          <p>has a \\(y\\)-intercept of the form</p>
+          <p style="text-align:center;margin-bottom:12px">\\((0, r).\\)</p>
+          <p>What is the value of \\(r\\)?</p>`,
+      },
+      {
+        text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+          <p style="text-align:center;margin-bottom:12px">\\(f(x) = 9x^2 - 17x + 32\\)</p>
+          <p>and</p>
+          <p style="text-align:center;margin-bottom:12px">\\(g(x) = 4x^2 + 11x - 25.\\)</p>
+          <p>What is the value of</p>
+          <p style="text-align:center;margin-bottom:12px">\\((f - g)(0)?\\)</p>
+          <div class="mc-choices">
+            <div class="mc-choice"><span class="mc-label">A</span><span>\\(-57\\)</span></div>
+            <div class="mc-choice"><span class="mc-label">B</span><span>\\(7\\)</span></div>
+            <div class="mc-choice"><span class="mc-label">C</span><span>\\(32\\)</span></div>
+            <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(57\\)</span></div>
+          </div>`,
+      },
+      {
+        text: `<p>The functions \\(h\\) and \\(j\\) are defined by</p>
+          <p style="text-align:center;margin-bottom:12px">\\(h(x) = 6x^2 + 13x - 18\\)</p>
+          <p>and</p>
+          <p style="text-align:center;margin-bottom:12px">\\(j(x) = -2x^2 + 7x + 29.\\)</p>
+          <p>What is the value of</p>
+          <p style="text-align:center;margin-bottom:12px">\\((h + j)(0)?\\)</p>
+          <div class="mc-choices">
+            <div class="mc-choice"><span class="mc-label">A</span><span>\\(-47\\)</span></div>
+            <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(11\\)</span></div>
+            <div class="mc-choice"><span class="mc-label">C</span><span>\\(29\\)</span></div>
+            <div class="mc-choice"><span class="mc-label">D</span><span>\\(47\\)</span></div>
+          </div>`,
+      },
+    ],
     },
 
 //Problem 7
