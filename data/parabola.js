@@ -842,7 +842,7 @@ const parabola = {
         additionalPractice: [
   { text: `<p>Which of the following is an equivalent form of the expression</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( \\left(5x - \\frac{5}{2}\\right)^2 - 3\\left(5x - \\frac{5}{2}\\right) - 24 \\)?</p>
+      \\( \\left(3x - \\frac{1}{2}\\right)^2 - 5\\left(3x - \\frac{1}{2}\\right) - 24 \\)?</p>
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
