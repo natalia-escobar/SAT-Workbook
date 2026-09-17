@@ -12571,7 +12571,2843 @@ export const questions = [
         videoId: ""
     },
 
+    // Parabola - Y-Intercept
 
+    {
+        id: "Par-YInt-1-E-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 1,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>According to the graph, what is the value of \\(f(0)\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{25}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{23}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 13 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{27}{2} \\)</span>
+            </div>
+        </div>`,
+        answer: "A",
+        graph: {
+        expressions: [
+            {
+            latex: "y=1/2(x+2)^2+21/2",
+            color: "#2563eb"
+            },
+            {
+            latex: "(-2,21/2)",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -8,
+            right: 8,
+            bottom: 0,
+            top: 24
+        }
+        },
+        graphChoices: null,
+        steps: [
+        {
+            text: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-1-GP-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 1,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>According to the graph, what is the value of \\(f(0)\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{21}{2} \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{41}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( \\frac{39}{4} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{43}{4} \\)</span>
+            </div>
+        </div>`,
+        answer: "B",
+        graph: {
+        expressions: [
+            {
+            latex: `y=\\frac{1}{4}(x-1)^2+10`,
+            color: "#2563eb"
+            },
+            {
+            latex: "(1,10)",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -8,
+            right: 8,
+            bottom: 0,
+            top: 24
+        }
+        },
+        graphChoices: null,
+        steps: [
+        {
+            text: "",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-1-Q-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 1,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>According to the graph, what is the value of \\(f(0)\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(-12.4 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( -13.2 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( -12.6 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( -11.6 \\)</span>
+            </div>
+        </div>`,
+        answer: "C",
+        graph: {
+        expressions: [
+            {
+            latex: `y=\\frac{-2}{5}(x-2)^2-11`,
+            color: "#2563eb"
+            },
+            {
+            latex: "(2,-11)",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -8,
+            right: 8,
+            bottom: -28,
+            top: 2
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-1-Q-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 1,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>According to the graph, what is the value of \\(f(0)\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(-13.25 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( -14.5 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( -13.5 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\( -13.75 \\)</span>
+            </div>
+        </div>`,
+        answer: "D",
+        graph: {
+        expressions: [
+            {
+            latex: `y=\\frac{-3}{4}(x+1)^2-13`,
+            color: "#2563eb"
+            },
+            {
+            latex: "(-1,-13)",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -8,
+            right: 8,
+            bottom: -28,
+            top: 2
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-1-AQ-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 1,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>According to the graph, what is the value of \\(f(0)\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( 9 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 10 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( 11 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 12 \\)</span>
+            </div>
+        </div>`,
+        answer: "C",
+        graph: {
+        expressions: [
+            {
+            latex: `y=\\frac{3}{4}(x+2)^2+8`,
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -10,
+            right: 5,
+            bottom: 5,
+            top: 20
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-1-AQ-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 1,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>According to the graph, what is the value of \\(f(0)\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\( 2.5 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 3 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 3.5 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 4.5 \\)</span>
+            </div>
+        </div>`,
+        answer: "A",
+        graph: {
+        expressions: [
+            {
+            latex: `y=\\frac{-1}{2}(x-3)^2+7`,
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -3,
+            right: 10,
+            bottom: -10,
+            top: 11
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-1-AQ-3",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 1,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>According to the graph, what is the value of \\(f(0)\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{15}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{17}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( \\frac{19}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{21}{2} \\)</span>
+            </div>
+        </div>`,
+        answer: "A",
+        graph: {
+        expressions: [
+            {
+            latex: `y=\\frac{2}{3}(x+3)^2+\\frac{5}{2}`,
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -10,
+            right: 5,
+            bottom: 0,
+            top: 15
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-1-AQ-4",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 1,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>According to the graph, what is the value of \\(f(0)\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( -10 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( -11 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( -12 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( -13 \\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: {
+        expressions: [
+            {
+            latex: `y=\\frac{-3}{4}(x+2)^2-9`,
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -8,
+            right: 8,
+            bottom: -28,
+            top: 2
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-2-E-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 2,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,r) \\). What is the value of \\(r\\)?</p>`,
+        answer: "",
+        graph: {
+        expressions: [
+            {
+            latex: "y=-2x^2 + 12x + 8",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -3,
+            right: 10,
+            bottom: 0,
+            top: 27
+        }
+        },
+        graphChoices: null,
+        steps: [
+        {
+            text: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-2-GP-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 2,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,r) \\). What is the value of \\(r\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( 3 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( 11 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 18 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 29 \\)</span>
+            </div>
+        </div>`,
+        answer: "B",
+        graph: {
+        expressions: [
+            {
+            latex: "y=3x^2-18x+11",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -5,
+            right: 10,
+            bottom: -20,
+            top: 5
+        }
+        },
+        graphChoices: null,
+        steps: [
+        {
+            text: "",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-2-Q-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 2,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,k) \\). What is the value of \\(k\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\( -\\frac{15}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( -\\frac{8}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( \\frac{15}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{40}{2} \\)</span>
+            </div>
+        </div>`,
+        answer: "A",
+        graph: {
+        expressions: [
+            {
+            latex: `y=-4x^2+20x-\\frac{15}{2}`,
+            color: "#2563eb"
+            },
+            {
+            latex: "(2,-11)",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -5,
+            right: 10,
+            bottom: -5,
+            top: 20
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-2-Q-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 2,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,m) \\). What is the value of \\(m\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(1.5 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 9 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 10.9 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\( 12.4 \\)</span>
+            </div>
+        </div>`,
+        answer: "D",
+        graph: {
+        expressions: [
+            {
+            latex: "y=1.5x^2-9x+12.4",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -4,
+            right: 10,
+            bottom: -5,
+            top: 15
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-2-AQ-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 2,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,r) \\). What is the value of \\(r\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( 5 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( 14 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 25 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 30 \\)</span>
+            </div>
+        </div>`,
+        answer: "B",
+        graph: {
+        expressions: [
+            {
+            latex: "y=5x^2-30x+14",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -1,
+            right: 10,
+            bottom: -35,
+            top: 2
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-2-AQ-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 2,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,k) \\). What is the value of \\(k\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{17}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{17}{2} \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( -\\frac{17}{2} \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{24}{2} \\)</span>
+            </div>
+        </div>`,
+        answer: "C",
+        graph: {
+        expressions: [
+            {
+            latex: "y=-6x^2+24x-17/2",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -1,
+            right: 5,
+            bottom: -1,
+            top: 18
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-2-AQ-3",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 2,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,m) \\). What is the value of \\(m\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\( 18.6 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 15 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 16.1 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( 2.5 \\)</span>
+            </div>
+        </div>`,
+        answer: "A",
+        graph: {
+        expressions: [
+            {
+            latex: "y=2.5x^2-15x+18.6",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -5,
+            right: 10,
+            bottom: -5,
+            top: 25
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-2-AQ-4",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 2,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,p) \\). What is the value of \\(p\\)?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( -7 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( 22 \\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( 35 \\)</span>
+            </div>
+            <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\( -22 \\)</span>
+            </div>
+        </div>`,
+        answer: "D",
+        graph: {
+        expressions: [
+            {
+            latex: "y=-7x^2+35x-22",
+            color: "#2563eb"
+            }
+        ],
+        bounds: {
+            left: -2,
+            right: 10,
+            bottom: -1,
+            top: 25
+        }
+        },
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-3-E-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 3,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>For the function \\(f\\) defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+        \\(f(r) = 2r^2 + 7r + m\\),</p>
+    <p>what does \\(m\\) represent?</p>
+    <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>A value of \\(r\\) for which \\(f(r) = 0\\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>The value of \\(f(0)\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>The greatest value of \\(f(r)\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>The value of \\(f(r)\\) at the axis of symmetry</span>
+        </div>
+    </div>`,
+        answer: "B",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Type the function into Desmos",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Identify what the constant term represents on the graph",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-3-GP-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 3,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>For the function \\(g\\) defined by</p>
+    <p style="text-align:center;margin-bottom:12px">
+        \\(g(t) = -4t^2 + 20t + n\\),</p>
+    <p>what does \\(n\\) represent?</p>
+    <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>The greatest value of \\(g(t)\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>A value of \\(t\\) for which \\(g(t) = 0\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>The value of \\(g(t)\\) at the axis of symmetry</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>The value of \\(g(0)\\)</span>
+        </div>
+    </div>`,
+        answer: "D",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Type the function into Desmos",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Identify what the constant term represents on the graph",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-3-Q-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 3,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>For the function \\(p\\) defined by</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(p(w) = 5w^2 - 30w + c\\),</p>
+        <p>what does \\(c\\) represent?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>The value of \\(p(0)\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>The least value of \\(p(w)\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>A value of \\(w\\) for which \\(p(w) = 0\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The \\(y\\)-coordinate of the vertex</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-3-Q-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 3,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>For the function \\(q\\) defined by</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(q(z) = -3z^2 - 18z + d\\),</p>
+        <p>what does \\(d\\) represent?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>A value of \\(z\\) for which \\(q(z) = 0\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>The greatest value of \\(q(z)\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>The value of \\(q(0)\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The \\(x\\)-coordinate of the vertex</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-3-AQ-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 3,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>Consider the quadratic function</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(f(w) = 6w^2 - 18w + 18\\).</p>
+        <p>What does the constant represent?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>A value of \\(w\\) where the graph crosses the horizontal axis</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>The value of the function when \\(w = 0\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>The input at which the graph changes direction</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The lowest point reached by the graph</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-3-AQ-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 3,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>Consider the quadratic function</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(g(m) = -3m^2 + 20m + 42\\).</p>
+        <p>What does the constant represent?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>The highest point reached by the graph</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>A value of \\(m\\) for which \\(g(m) = 0\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>The input at the center of the graph's symmetry</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The value of the function when \\(m = 0\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-3-AQ-3",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 3,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>Consider the quadratic function</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(h(q) = 8q^2 + 5q - 27\\).</p>
+        <p>What does the constant represent?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>The value of the function when \\(q = 0\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>The lowest point reached by the graph</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>An input where the function has an output of 0</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The input corresponding to the vertex</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-3-AQ-4",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 3,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>Consider the quadratic function</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(k(v) = -7v^2 - 16v + 35\\).</p>
+        <p>What does the constant represent?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>An input where the graph meets the horizontal axis</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>The highest point reached by the graph</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>The value of the function when \\(v = 0\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The input corresponding to the graph's turning point</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-4-E-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 4,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>A technology company models the number of active client accounts during an 8-month period with the equation</p>
+    <p style="text-align:center;margin-bottom:12px">
+        \\(A(t) = 4(t + 3) - \\frac{1}{2}t^2 + 25\\),</p>
+    <p>where \\(A(t)\\) is the estimated number of active client accounts \\(t\\) months after the company begins a tracking period.</p>
+    <p>Which statement best describes the meaning of the \\(y\\)-intercept of the graph of this equation?</p>
+    <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>The company expects the number of active accounts to increase by \\(4\\) each month.</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>The company had approximately \\(37\\) active client accounts when the tracking period began.</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>The company will have \\(26\\) active accounts at the end of the tracking period.</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>The company reaches its greatest number of active accounts after \\(3\\) months.</span>
+        </div>
+    </div>`,
+        answer: "B",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Substitute \\(0\\) for the input variable to find the y-intercept",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Interpret the output in the context of the problem",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-4-GP-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 4,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The number of machines operating at a manufacturing facility is modeled by</p>
+    <p style="text-align:center;margin-bottom:12px">
+        \\(M(w) = -2(w - 5)^2 + 74\\),</p>
+    <p>where \\(M(w)\\) is the estimated number of operating machines \\(w\\) weeks after a maintenance program begins.</p>
+    <p>Which statement best interprets the \\(y\\)-intercept of the graph of this equation?</p>
+    <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>The facility has its greatest number of operating machines during week \\(5\\).</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>The maintenance program causes \\(2\\) additional machines to operate each week.</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>The facility will eventually have no operating machines.</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>Approximately \\(24\\) machines were operating when the maintenance program began.</span>
+        </div>
+    </div>`,
+        answer: "D",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Substitute \\(0\\) for the input variable to find the y-intercept",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Interpret the output in the context of the problem",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-4-Q-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 4,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>A delivery company models the number of packages waiting at a distribution center with the equation</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(N(d) = \\frac{1}{4}(d + 8)^2 + 39\\),</p>
+        <p>where \\(N(d)\\) is the estimated number of packages waiting \\(d\\) days after a new processing system is introduced.</p>
+        <p>Which statement best describes the \\(y\\)-intercept of the graph of this equation?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>Approximately \\(55\\) packages were waiting when the new processing system was introduced.</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>The distribution center processes \\(8\\) packages each day.</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>The number of waiting packages reaches \\(39\\) after \\(8\\) days.</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The number of waiting packages increases by exactly \\( \\frac{1}{4} \\) of a package each day.</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-4-Q-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 4,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>A company models the number of employees assigned to a temporary project with the equation</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(E(m) = 3(2m + 7) - \\frac{3}{4}m^2 + 41\\),</p>
+        <p>where \\(E(m)\\) is the estimated number of employees assigned to the project \\(m\\) months after staffing begins.</p>
+        <p>Which statement best interprets the \\(y\\)-intercept of the graph of this equation?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>The project will have \\(41\\) employees when staffing is completed.</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>The company assigns \\(7\\) new employees to the project each month.</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>Approximately \\(62\\) employees were assigned to the project when staffing began.</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The number of employees assigned to the project decreases by \\( \\frac{3}{4}\\) each month.</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-4-AQ-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 4,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The number of electric scooters available through a transportation service \\(w\\) weeks after the beginning of a new operating period is modeled by</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(S(w) = 18w^2 - 95w + 1{,}460\\),</p>
+        <p>where \\(0 \\leq w \\leq 20\\).</p>
+        <p>In this model, what does the value \\(1{,}460\\) represent?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>The greatest number of scooters available during the operating period</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>The estimated number of scooters available when the operating period began</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>The number of scooters added to the service during the first week</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The estimated change in the number of available scooters over the entire period</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-4-AQ-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 4,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The amount of water, in gallons, stored in a reservoir \\(d\\) days after monitoring begins is modeled by</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(W(d) = -24d^2 + 380d + 52{,}600\\),</p>
+        <p>where \\(0 \\leq d \\leq 15\\).</p>
+        <p>In this model, what does the value \\(52{,}600\\) represent?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>The amount of water the reservoir gains during the first day</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>The greatest amount of water predicted by the model</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>The total change in the amount of stored water during the monitoring period</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The estimated amount of water in the reservoir when monitoring begins</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-4-AQ-3",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 4,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The number of packages processed at a shipping facility \\(h\\) hours after a new shift begins is modeled by</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(P(h) = 65h^2 + 240h + 3{,}800\\),</p>
+        <p>where \\(0 \\leq h \\leq 10\\).</p>
+        <p>In this model, what does the value \\(3{,}800\\) represent?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>The estimated number of packages processed at the beginning of the shift</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>The increase in the number of packages processed during the first hour</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>The number of packages processed at the end of the shift</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The average number of packages processed per hour during the shift</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-4-AQ-4",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 4,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The number of customers served at a restaurant \\(t\\) hours after it opens is modeled by</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(C(t) = 48t^2 + 175t + 1{,}250\\),</p>
+        <p>where</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(0 \\leq t \\leq 12\\).</p>
+        <p>In this model, what does the value \\(1{,}250\\) represent?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>The average number of customers served per hour during the day</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>The number of customers served at the end of the day</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>The estimated number of customers served when the restaurant opens</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>The increase in the number of customers served during the first hour</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-5-E-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 5,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function \\(h\\) gives the height, in feet, of a basketball \\(s\\) seconds after it was thrown. Based on the function, what was the height, in feet, of the basketball at the moment it was thrown?</p>
+    <p style="text-align:center;margin-bottom:12px">
+        \\(h(s) = -16\\left(s - \\frac{3}{4}\\right)^2 + 105\\)</p>
+    <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(105\\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(96\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(99\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(114\\)</span>
+        </div>
+    </div>`,
+        answer: "B",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Type the function into Desmos",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Find the value of the function when the input is 0",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-5-GP-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 5,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function \\(d\\) gives the height, in feet, of a diver above the surface of a pool \\(s\\) seconds after the diver jumped from a platform. Based on the function, what was the height, in feet, of the diver at the moment the diver jumped?</p>
+    <p style="text-align:center;margin-bottom:12px">
+        \\(d(s) = -16\\left(s - \\frac{1}{2}\\right)^2 + 42\\)</p>
+    <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(34\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(42\\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(38\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(46\\)</span>
+        </div>
+    </div>`,
+        answer: "C",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Type the function into Desmos",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Find the value of the function when the input is 0",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-5-Q-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 5,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function \\(p\\) gives the height, in feet, of a package above the ground \\(r\\) seconds after it was released from a moving drone. Based on the function, what was the height, in feet, of the package at the moment it was released?</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(p(r) = -16\\left(r - \\frac{5}{4}\\right)^2 + 150\\)</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(125\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(134\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(150\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(175\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-5-Q-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 5,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function \\(g\\) gives the height, in feet, of a volleyball above the ground \\(t\\) seconds after it was served. Based on the function, what was the height, in feet, of the volleyball at the moment it was served?</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(g(t) = -16\\left(t - \\frac{1}{4}\\right)^2 + 10\\)</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(10\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(8\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(11\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(9\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-5-AQ-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 5,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The amount of water, in gallons, in a storage tank \\(t\\) hours after a pump is activated is modeled by</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(W(t) = -\\frac{3}{8}t^2 + \\frac{11}{4}t + \\frac{47}{6}\\).</p>
+        <p>How many gallons of water were in the tank when the pump was activated?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(\\frac{11}{4}\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(\\frac{47}{6}\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(\\frac{65}{8}\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(\\frac{3}{8}\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-5-AQ-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 5,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The temperature, in degrees Celsius, of a chemical solution \\(m\\) minutes after a heating process begins is modeled by</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(T(m) = 0.0378m^2 + 2.058m + 18.475\\).</p>
+        <p>What was the temperature of the solution at the start of the heating process?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(2.685^\\circ\\text{C}\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(21.197^\\circ\\text{C}\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(0.037^\\circ\\text{C}\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(18.475^\\circ\\text{C}\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-5-AQ-3",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 5,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The number of thousands of subscribers to an online service \\(y\\) years after a marketing campaign begins is modeled by</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(S(y) = -4.2y^2 + 31.6y + 84\\).</p>
+        <p>According to the model, how many thousand subscribers did the service have when the marketing campaign began?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(84\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(31.6\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(115.6\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(53.4\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-5-AQ-4",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 5,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The distance, in miles, a research vessel is from a monitoring station \\(h\\) hours after tracking begins is modeled by</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(D(h) = 12.75h^2 - 46.8h + 137.5\\).</p>
+        <p>How far was the research vessel from the monitoring station when tracking began?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(46.8\\) miles</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(90.7\\) miles</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(137.5\\) miles</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(12.75\\) miles</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-E-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The \\(y\\)-intercept of the graph</p>
+            <p style="text-align:center;margin-bottom:12px">\\(g(x) = \\frac{1}{4}(x - 6)^2 + 2\\)</p>
+            <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Step 1 — Type \\(g(x) = \\frac{1}{4}(x - 6)^2 + 2\\) into Desmos`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Step 2 — Find where the parabola crosses the \\(y\\)-axis`,
+            note: `The \\(y\\)-intercept is always at \\(x = 0\\)`,
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Step 3 — Click the point to read its coordinates",
+            note: `The point is \\((0, 11)\\), so \\(y = 11\\)`,
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-E-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The \\(y\\)-intercept of the graph</p>
+            <p style="text-align:center;margin-bottom:12px">\\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\)</p>
+            <p>in the \\(xy\\)-plane is \\((0, g(0))\\). What is the value of \\(g(0)\\)?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Step 1 — Type \\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\) into Desmos`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Step 2 — Find where the parabola crosses the \\(y\\)-axis`,
+            note: `\\(g(0)\\) means the \\(y\\)-value when \\(x = 0\\), which is the \\(y\\)-intercept`,
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Step 3 — Click the point to read its coordinates",
+            note: `The point is \\((0, -104)\\), so \\(g(0) = -104\\)`,
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-E-3",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph of the function</p>
+            <p style="text-align:center;margin-bottom:12px">\\(f(x) = 12x^2 - 84x + 155\\)</p>
+            <p>intersects the \\(y\\)-axis at which point?</p>
+            <div class="mc-choices">
+                <div class="mc-choice"><span class="mc-label">A</span><span>\\((155, 0)\\)</span></div>
+                <div class="mc-choice correct"><span class="mc-label">B</span><span>\\((0, 155)\\)</span></div>
+                <div class="mc-choice"><span class="mc-label">C</span><span>\\((0, 71)\\)</span></div>
+                <div class="mc-choice"><span class="mc-label">D</span><span>\\((12, 155)\\)</span></div>
+            </div>`,
+        answer: "B",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Step 1 — Type \\(f(x) = 12x^2 - 84x + 155\\) into Desmos`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Step 2 — Find where the parabola crosses the \\(y\\)-axis`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Step 3 — Click the point and match it to the answer choices",
+            note: `The point is \\((0, 155)\\), which is choice B`,
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-E-4",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph of the quadratic function</p>
+            <p style="text-align:center;margin-bottom:12px">\\( y = 3(x - 2)(x + 4) \\)</p>
+            <p>has a \\(y\\)-intercept of the form</p>
+            <p style="text-align:center;margin-bottom:12px">\\( (0, r) \\)</p>
+            <p>What is the value of \\(r\\)?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Step 1 — Type \\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\) into Desmos`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Step 2 — Find where the parabola crosses the \\(y\\)-axis`,
+            note: `\\(g(0)\\) means the \\(y\\)-value when \\(x = 0\\), which is the \\(y\\)-intercept`,
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Step 3 — Click the point to read its coordinates",
+            note: `The point is \\((0, -104)\\), so \\(g(0) = -104\\)`,
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-E-5",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+            <p style="text-align:center;margin-bottom:12px">\\( f(x) = 8x^2 - 13x + 24\\)</p>
+            <p>and</p>
+            <p style="text-align:center;margin-bottom:12px">\\( g(x) = 5x^2 + 9x - 17 \\)</p>
+            <p>What is the value of </p>
+            <p style="text-align:center;margin-bottom:12px">\\( (f - g)(0)? \\)</p>
+            <div class="mc-choices">
+                <div class="mc-choice"><span class="mc-label">A</span><span>\\( -7 \\)</span></div>
+                <div class="mc-choice"><span class="mc-label">B</span><span>\\( 7 \\)</span></div>
+                <div class="mc-choice"><span class="mc-label">C</span><span>\\( 24 \\)</span></div>
+                <div class="mc-choice correct"><span class="mc-label">D</span><span>\\( 41 \\)</span></div>
+            </div>`,
+        answer: "D",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Step 1 — Type \\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\) into Desmos`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Step 2 — Find where the parabola crosses the \\(y\\)-axis`,
+            note: `\\(g(0)\\) means the \\(y\\)-value when \\(x = 0\\), which is the \\(y\\)-intercept`,
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Step 3 — Click the point to read its coordinates",
+            note: `The point is \\((0, -104)\\), so \\(g(0) = -104\\)`,
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-GP-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The \\(y\\)-intercept of the graph</p>
+            <p style="text-align:center;margin-bottom:12px">\\(f(x) = \\frac{1}{3}(x - 6)^2 + 5\\)</p>
+            <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-GP-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The \\(y\\)-intercept of the graph</p>
+            <p style="text-align:center;margin-bottom:12px">\\(g(x) = -\\frac{1}{2}(x + 8)^2 + 19\\)</p>
+            <p>in the \\(xy\\)-plane is \\((0, g(0))\\). What is the value of \\(g(0)\\)?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-GP-3",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph of the function</p>
+            <p style="text-align:center;margin-bottom:12px">\\(h(x) = 9x^2 - 54x + 127 \\)</p>
+            <p>intersects the \\(y\\)-axis at which point?</p>
+            <div class="mc-choices">
+                <div class="mc-choice"><span class="mc-label">A</span><span>\\((127, 0)\\)</span></div>
+                <div class="mc-choice"><span class="mc-label">B</span><span>\\((0, 73)\\)</span></div>
+                <div class="mc-choice"><span class="mc-label">C</span><span>\\((9, 127)\\)</span></div>
+                <div class="mc-choice correct"><span class="mc-label">D</span><span>\\((0, 127)\\)</span></div>
+            </div>`,
+        answer: "D",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-GP-4",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph of the quadratic function</p>
+            <p style="text-align:center;margin-bottom:12px">\\( y = -4( x - 3)(x + 5) \\)</p>
+            <p>intersects the \\(y\\)-axis at which point</p>
+            <p style="text-align:center;margin-bottom:12px">\\( (0, r) \\)</p>
+            <p>What is the value of \\(r\\)?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-Q-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The \\(y\\)-intercept of the graph</p>
+                <p style="text-align:center;margin-bottom:12px">\\(p(x) = \\frac{2}{5}(x - 5)^2 + 14\\)</p>
+                <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-Q-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph of the function</p>
+                <p style="text-align:center;margin-bottom:12px">\\(q(x) = 7x^2 + 38x - 146\\)</p>
+                <p>intersects the \\(y\\)-axis at which point?</p>
+                <div class="mc-choices">
+                <div class="mc-choice"><span class="mc-label">A</span><span>\\((-146, 0)\\)</span></div>
+                <div class="mc-choice"><span class="mc-label">B</span><span>\\((0, 146)\\)</span></div>
+                <div class="mc-choice correct"><span class="mc-label">C</span><span>\\((0, -146)\\)</span></div>
+                <div class="mc-choice"><span class="mc-label">D</span><span>\\((7, -146)\\)</span></div>
+                </div>`,
+        answer: "C",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-AQ-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The graph of the quadratic function</p>
+            <p style="text-align:center;margin-bottom:12px">\\(y = 5(x + 3)(x - 7)\\)</p>
+            <p>has a \\(y\\)-intercept of the form</p>
+            <p style="text-align:center;margin-bottom:12px">\\((0, r).\\)</p>
+            <p>What is the value of \\(r\\)?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-AQ-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+            <p style="text-align:center;margin-bottom:12px">\\(f(x) = 9x^2 - 17x + 32\\)</p>
+            <p>and</p>
+            <p style="text-align:center;margin-bottom:12px">\\(g(x) = 4x^2 + 11x - 25.\\)</p>
+            <p>What is the value of</p>
+            <p style="text-align:center;margin-bottom:12px">\\((f - g)(0)?\\)</p>
+            <div class="mc-choices">
+                <div class="mc-choice"><span class="mc-label">A</span><span>\\(-57\\)</span></div>
+                <div class="mc-choice"><span class="mc-label">B</span><span>\\(7\\)</span></div>
+                <div class="mc-choice"><span class="mc-label">C</span><span>\\(32\\)</span></div>
+                <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(57\\)</span></div>
+            </div>`,
+        answer: "D",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-6-AQ-3",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 6,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The functions \\(h\\) and \\(j\\) are defined by</p>
+            <p style="text-align:center;margin-bottom:12px">\\(h(x) = 6x^2 + 13x - 18\\)</p>
+            <p>and</p>
+            <p style="text-align:center;margin-bottom:12px">\\(j(x) = -2x^2 + 7x + 29.\\)</p>
+            <p>What is the value of</p>
+            <p style="text-align:center;margin-bottom:12px">\\((h + j)(0)?\\)</p>
+            <div class="mc-choices">
+                <div class="mc-choice"><span class="mc-label">A</span><span>\\(-47\\)</span></div>
+                <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(11\\)</span></div>
+                <div class="mc-choice"><span class="mc-label">C</span><span>\\(29\\)</span></div>
+                <div class="mc-choice"><span class="mc-label">D</span><span>\\(47\\)</span></div>
+            </div>`,
+        answer: "B",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-7-E-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 7,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = f(x - 5) + 4\\) and \\(f\\) is a quadratic function.</p>
+        <table class="xy-table" style="margin:0 auto 16px auto">
+        <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+        <tr><td>\\(3\\)</td><td>\\(7\\)</td></tr>
+        <tr><td>\\(5\\)</td><td>\\(-17\\)</td></tr>
+        <tr><td>\\(7\\)</td><td>\\(7\\)</td></tr>
+        </table>
+        <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = f(x)\\) in the \\(xy\\)-plane?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Step 1 — Type <i>table</i> into Desmos and enter the three \\(x\\) and \\(y\\) values`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Step 2 — Add the regression \\(y_1 \\sim a(x_1 - h)^2 + k\\)`,
+            note: `Desmos finds \\(a\\), \\(h\\), and \\(k\\) for the table's parabola`,
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Step 3 — Type \\(g(x) = a(x - h)^2 + k\\) to name the table's function`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Step 4 — The table shows \\(f(x-5)+4\\), so undo the shift: type \\(f(x) = g(x + 5) - 4\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Step 5 — Click where the graph of \\(f\\) crosses the \\(y\\)-axis`,
+            note: `The \\(y\\)-value is \\(-21\\)`,
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-7-GP-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 7,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = g(x + 2) - 5\\) and \\(g\\) is a quadratic function.</p>
+        <table class="xy-table" style="margin:0 auto 16px auto">
+        <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+        <tr><td>\\(-1\\)</td><td>\\(12\\)</td></tr>
+        <tr><td>\\(1\\)</td><td>\\(-20\\)</td></tr>
+        <tr><td>\\(3\\)</td><td>\\(12\\)</td></tr>
+        </table>
+        <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = g(x)\\) in the \\(xy\\)-plane?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Type the table into Desmos",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Add the regression \\(y_1 \\sim a(x_1 - h)^2 + k\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Define the table's function: \\(t(x) = a(x - h)^2 + k\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Undo the shift: \\(g(x) = t(x - 2) + 5\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Click the \\(y\\)-intercept of \\(g\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-7-Q-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 7,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = h(x - 8) + 6\\) and \\(h\\) is a quadratic function.</p>
+            <table class="xy-table" style="margin:0 auto 16px auto">
+            <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+            <tr><td>\\(6\\)</td><td>\\(15\\)</td></tr>
+            <tr><td>\\(8\\)</td><td>\\(-1\\)</td></tr>
+            <tr><td>\\(10\\)</td><td>\\(15\\)</td></tr>
+            </table>
+            <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = h(x)\\) in the \\(xy\\)-plane?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-7-Q-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 7,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = k(x + 2) - 10\\) and \\(k\\) is a quadratic function.</p>
+            <table class="xy-table" style="margin:0 auto 16px auto">
+            <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+            <tr><td>\\(-4\\)</td><td>\\(2\\)</td></tr>
+            <tr><td>\\(-2\\)</td><td>\\(-34\\)</td></tr>
+            <tr><td>\\(0\\)</td><td>\\(2\\)</td></tr>
+            </table>
+            <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = k(x)\\) in the \\(xy\\)-plane?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-7-AQ-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 7,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = p(x - 4) + 7\\) and \\(p\\) is a quadratic function.</p>
+            <table class="xy-table" style="margin:0 auto 16px auto">
+            <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+            <tr><td>\\(4\\)</td><td>\\(18\\)</td></tr>
+            <tr><td>\\(6\\)</td><td>\\(-14\\)</td></tr>
+            <tr><td>\\(8\\)</td><td>\\(18\\)</td></tr>
+            </table>
+            <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = p(x)\\) in the \\(xy\\)-plane?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-7-AQ-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 7,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = q(x + 5) - 8\\) and \\(q\\) is a quadratic function.</p>
+            <table class="xy-table" style="margin:0 auto 16px auto">
+            <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+            <tr><td>\\(-5\\)</td><td>\\(9\\)</td></tr>
+            <tr><td>\\(-3\\)</td><td>\\(-15\\)</td></tr>
+            <tr><td>\\(-1\\)</td><td>\\(9\\)</td></tr>
+            </table>
+            <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = q(x)\\) in the \\(xy\\)-plane?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-7-AQ-3",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 7,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = r(x - 7) + 12\\) and \\(r\\) is a quadratic function.</p>
+            <table class="xy-table" style="margin:0 auto 16px auto">
+            <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+            <tr><td>\\(7\\)</td><td>\\(22\\)</td></tr>
+            <tr><td>\\(9\\)</td><td>\\(-10\\)</td></tr>
+            <tr><td>\\(11\\)</td><td>\\(22\\)</td></tr>
+            </table>
+            <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = r(x)\\) in the \\(xy\\)-plane?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-7-AQ-4",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 7,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(y = s(x + 6) + 9\\) and \\(s\\) is a quadratic function.</p>
+            <table class="xy-table" style="margin:0 auto 16px auto">
+            <tr><td>\\(x\\)</td><td>\\(y\\)</td></tr>
+            <tr><td>\\(-6\\)</td><td>\\(14\\)</td></tr>
+            <tr><td>\\(-4\\)</td><td>\\(-22\\)</td></tr>
+            <tr><td>\\(-2\\)</td><td>\\(14\\)</td></tr>
+            </table>
+            <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = s(x)\\) in the \\(xy\\)-plane?</p>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-8-E-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 8,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function</p>
+    <p style="text-align:center;margin-bottom:12px">
+        \\(h(x) = 2x^2 + 7x - 4\\)</p>
+    <p>is transformed into</p>
+    <p style="text-align:center;margin-bottom:12px">
+        \\(k(x) = 3h(x) - 8\\).</p>
+    <p>What is the \\(y\\)-coordinate of the point where the graph of \\(k\\) intersects the \\(y\\)-axis?</p>
+    <div class="mc-choices">
+        <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(-20\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-12\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-8\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(4\\)</span>
+        </div>
+    </div>`,
+        answer: "A",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Type the original function into Desmos",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Apply the transformation and find the y-intercept of the new function",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-8-GP-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 8,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function</p>
+    <p style="text-align:center;margin-bottom:12px">
+        \\(f(x) = -x^2 + 6x + 5\\)</p>
+    <p>is transformed into</p>
+    <p style="text-align:center;margin-bottom:12px">
+        \\(g(x) = 2f(x) + 10\\).</p>
+    <p>What is the \\(y\\)-coordinate of the point where the graph of \\(g\\) intersects the \\(y\\)-axis?</p>
+    <div class="mc-choices">
+        <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(0\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(10\\)</span>
+        </div>
+        <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(20\\)</span>
+        </div>
+        <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(30\\)</span>
+        </div>
+    </div>`,
+        answer: "C",
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Type the original function into Desmos",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Apply the transformation and find the y-intercept of the new function",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-8-Q-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 8,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(p(x) = 3x^2 - 4x + 1\\)</p>
+        <p>is transformed into</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(q(x) = -2p(x) + 6\\).</p>
+        <p>What is the \\(y\\)-coordinate of the point where the graph of \\(q\\) intersects the \\(y\\)-axis?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(-8\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(2\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(4\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(8\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-8-Q-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 8,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(r(x) = x^2 + 5x - 3\\)</p>
+        <p>is transformed into</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(s(x) = 4r(x) - 12\\).</p>
+        <p>What is the \\(y\\)-coordinate of the point where the graph of \\(s\\) intersects the \\(y\\)-axis?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(-24\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(-12\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(12\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(28\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-8-AQ-1",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 8,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(m(x) = -4x^2 + 8x + 6\\)</p>
+        <p>is transformed into</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(n(x) = \\frac{1}{2}m(x) - 5\\).</p>
+        <p>What is the \\(y\\)-coordinate of the point where the graph of \\(n\\) intersects the \\(y\\)-axis?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(-2\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(1\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(3\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(8\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-8-AQ-2",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 8,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(t(x) = 5x^2 - 10x - 7\\)</p>
+        <p>is transformed into</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(u(x) = -3t(x) + 9\\).</p>
+        <p>What is the \\(y\\)-coordinate of the point where the graph of \\(u\\) intersects the \\(y\\)-axis?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(-30\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(-21\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(30\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(21\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-8-AQ-3",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 8,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(v(x) = x^2 - 8x + 12\\)</p>
+        <p>is transformed into</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(w(x) = 5v(x) - 20\\).</p>
+        <p>What is the \\(y\\)-coordinate of the point where the graph of \\(w\\) intersects the \\(y\\)-axis?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(-140\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(-60\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(40\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(60\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Par-YInt-8-AQ-4",
+        topic: "parabola",
+        subtopic: "y-intercept",
+        problem: 8,
+        questionType: "AQ",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The function</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(d(x) = -2x^2 + 3x + 11\\)</p>
+        <p>is transformed into</p>
+        <p style="text-align:center;margin-bottom:12px">
+            \\(e(x) = -4d(x) + 16\\).</p>
+        <p>What is the \\(y\\)-coordinate of the point where the graph of \\(e\\) intersects the \\(y\\)-axis?</p>
+        <div class="mc-choices">
+            <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(-28\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(-12\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(12\\)</span>
+            </div>
+            <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(60\\)</span>
+            </div>
+        </div>`,
+        answer: "",
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
 
     // Parabola - Vertex
 
