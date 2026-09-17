@@ -10,6 +10,7 @@ import HowThisWorks from "@/components/HowThisWorks";
 import MathContent from "@/components/MathContent";
 import GraphChoices from "@/components/GraphChoices";
 import ProblemNav from "./ProblemNav";
+import Link from "next/link";
 
 function SectionAccordion({ icon, title, defaultOpen, children }) {
   const [open, setOpen] = useState(defaultOpen);
@@ -163,6 +164,10 @@ export default function WorkbookView({ topic }) {
 
   return (
     <main className="page">
+      <Link href="/" className="back-link">
+        <i className="ti ti-arrow-left" />
+        All workbooks
+      </Link>
       <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "16px" }}>{topic.name}</h1>
       <HowThisWorks />
       <ProblemNav problemIndex={problemIndex} total={total} setProblemIndex={setProblemIndex} isFirst={isFirst} isLast={isLast} />

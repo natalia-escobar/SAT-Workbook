@@ -256,3 +256,16 @@
 .example-carousel-dot.active{background:#D13B31}
 .example-carousel-arrow{background:none;border:1px solid #e0e0de;border-radius:6px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#555}
 .example-carousel-arrow:disabled{opacity:.3;cursor:default}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #888;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+.back-link:hover {
+  color: #1a1a1a;
+}
