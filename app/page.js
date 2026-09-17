@@ -45,7 +45,7 @@ export default function Home() {
       <Collapsible title="Parabola" defaultOpen={false}>
         <Collapsible title="Equivalent to" defaultOpen={false}>
           <Link
-            href="/workbook/parabola/equivalent-to/basic-equivalent-to"
+            href="/workbook/parabola/equivalent-to/simple-equivalent-to"
             style={{
               display: "block",
               padding: "16px 20px",

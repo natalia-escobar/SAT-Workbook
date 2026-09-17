@@ -1,52 +1,20 @@
+import { asWorked, asGuided, asPractice, asAdditional } from "@/lib/questions";
+
 const vertex = {
-
-    name: "Vertex",
-    workedProblems: [
-
+  name: "Vertex",
+  workedProblems: [
     {
-        problem: `test`,
-        steps: [
-            { text: "Type the function into Desmos", note: "", gif: "", video: "" },
-        ],
-
-        guidedProblem: ``,
-        guidedSteps: [
-            "",
-        ],
-        guidedAnswer: "",
-        guidedScreenshot: "",
-
-        practice: [
-            {
-            text: ``
-            },
-
-            {
-            text: ``
-            },
-        ],
-
-        additionalPractice: [
-            {
-            text: ``
-            },
-
-            {
-            text: ``
-            },
-
-            {
-            text: ``
-            },
-
-            {
-            text: ``
-            },
-        ],
+      ...asWorked("ParVer1E1"),
+      ...asGuided("ParVer1GP1"),
+      practice: asPractice(["ParVer1Q1", "ParVer1Q2"]),
+      additionalPractice: asAdditional([
+        "ParVer1AQ1",
+        "ParVer1AQ2",
+        "ParVer1AQ3",
+        "ParVer1AQ4",
+      ]),
     },
-
-    ]
-    
-}
+  ],
+};
 
 export default vertex;

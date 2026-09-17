@@ -38,7 +38,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Explaining Question Bank
 
-PAR = Parabola
+Big Topic Codes
+
+Par = Parabola
+
+SubTopic Codes
 
 Eq = Equivalent To
-SimG = Simple Graphing
+SimGr = Simple Graphing
+YInt = Y-Intercept
+XInt = X-Intercept
+Ver = Vertex
