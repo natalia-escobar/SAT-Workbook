@@ -11,6 +11,7 @@ import MathContent from "@/components/MathContent";
 import GraphChoices from "@/components/GraphChoices";
 import ProblemNav from "./ProblemNav";
 import Link from "next/link";
+import useShowIds from "@/lib/useShowIds";
 
 function SectionAccordion({ icon, title, defaultOpen, children }) {
   const [open, setOpen] = useState(defaultOpen);
@@ -31,11 +32,11 @@ function SectionAccordion({ icon, title, defaultOpen, children }) {
   );
 }
 
-function WorkedExampleCarousel({ problem, problemIndex }) {
+function WorkedExampleCarousel({ problem, problemIndex, showIds }) {
   // Normalize: use workedExamples array if present, otherwise wrap the single example
   const examples = problem.workedExamples && problem.workedExamples.length > 0
     ? problem.workedExamples
-    : [{ problem: problem.problem, graph: problem.graph, graphChoices: problem.graphChoices, steps: problem.steps }];
+    : [{ id: problem.id, problem: problem.problem, graph: problem.graph, graphChoices: problem.graphChoices, steps: problem.steps }];
 
   const [exampleIndex, setExampleIndex] = useState(0);
   const example = examples[exampleIndex];
@@ -82,7 +83,10 @@ function WorkedExampleCarousel({ problem, problemIndex }) {
       <div className="problem-steps-grid">
         <div className="psg-left" key={`ex-left-${problemIndex}-${exampleIndex}`}>
           {example.graph && <DesmosGraph graph={example.graph} />}
-          <div className="problem-label">{multi ? `Example ${exampleIndex + 1}` : "Example"}</div>
+          <div className="problem-label">
+            {multi ? `Example ${exampleIndex + 1}` : "Example"}
+            {showIds && example.id && <span className="qid">{example.id}</span>}
+          </div>
           <ProblemStatement problem={example.problem} />
           {example.graphChoices && <GraphChoices choices={example.graphChoices} readOnly={true} />}
         </div>
@@ -99,7 +103,7 @@ function WorkedExampleCarousel({ problem, problemIndex }) {
   );
 }
 
-function AdditionalPracticeQuestion({ text, index, graph, graphChoices }) {
+function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, showIds }) {
   const [open, setOpen] = useState(false);
   const isMultipleChoice = text.includes("mc-choice") || graphChoices;
 
@@ -119,7 +123,10 @@ function AdditionalPracticeQuestion({ text, index, graph, graphChoices }) {
         style={{ display: "flex", alignItems: "center", justifyContent: "space-between", cursor: "pointer" }}
         onClick={() => setOpen((o) => !o)}
       >
-        <div className="practice-num" style={{ marginBottom: 0 }}>Problem {index + 1}</div>
+        <div className="practice-num" style={{ marginBottom: 0 }}>
+          Problem {index + 1}
+          {showIds && id && <span className="qid" style={{ marginLeft: 12, float: "none" }}>{id}</span>}
+        </div>
         <i className={`ti ti-chevron-down`} style={{ fontSize: "16px", color: "#aaa", transition: "transform .2s", transform: open ? "rotate(180deg)" : "rotate(0)" }} />
       </div>
       {open && (
@@ -157,6 +164,7 @@ export default function WorkbookView({ topic }) {
   const total = topic.workedProblems.length;
   const isFirst = problemIndex === 0;
   const isLast = problemIndex === total - 1;
+  const showIds = useShowIds();
 
   useEffect(() => {
     if (window.MathJax) window.MathJax.typesetPromise();
@@ -170,13 +178,14 @@ export default function WorkbookView({ topic }) {
       </Link>
       <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "16px" }}>{topic.name}</h1>
       <HowThisWorks />
-      <ProblemNav problemIndex={problemIndex} total={total} setProblemIndex={setProblemIndex} isFirst={isFirst} isLast={isLast} />
+      <ProblemNav problemIndex={problemIndex} total={total} setProblemIndex={setProblemIndex} showIds={showIds} isFirst={isFirst} isLast={isLast} />
 
       <SectionAccordion icon="ti-book" title="Worked example" defaultOpen={true} key={`we-${problemIndex}`}>
-        <WorkedExampleCarousel problem={problem} problemIndex={problemIndex} key={`wec-${problemIndex}`} />
+        <WorkedExampleCarousel problem={problem} problemIndex={problemIndex} showIds={showIds} key={`wec-${problemIndex}`} />
       </SectionAccordion>
 
       <SectionAccordion icon="ti-checkbox" title="Guided practice — follow the steps" defaultOpen={false} key={`gp-${problemIndex}`}>
+        {showIds && problem.guidedIds && <div className="qid" style={{ float: "none", marginBottom: 8 }}>{problem.guidedIds.join("  ·  ")}</div>}
         <GuidedPractice
           key={problemIndex}
           guidedProblem={problem.guidedProblem}
@@ -204,7 +213,7 @@ export default function WorkbookView({ topic }) {
       {problem.additionalPractice && problem.additionalPractice.length > 0 && (
         <SectionAccordion icon="ti-notebook" title="Additional practice" defaultOpen={false} key={`ap-${problemIndex}`}>
           {problem.additionalPractice.map((p, i) => (
-            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} />
+            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} />
           ))}
         </SectionAccordion>
       )}

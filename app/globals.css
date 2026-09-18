@@ -270,3 +270,14 @@
 .back-link:hover {
   color: #1a1a1a;
 }
+
+/* styling for questionIds on problem page */
+
+.qid {
+  float: right;
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 11px;
+  color: #b0b0ad;
+  letter-spacing: .02em;
+  user-select: all;
+}

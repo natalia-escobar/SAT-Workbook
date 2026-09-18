@@ -5,6 +5,7 @@ import MathContent from "./MathContent";
 import DesmosGraph from "./DesmosGraph";
 import GraphChoices from "./GraphChoices";
 import ProblemNav from "./ProblemNav";
+import useShowIds from "@/lib/useShowIds";
 
 export default function ClassroomView({ topic }) {
   const [problemIndex, setProblemIndex] = useState(0);
@@ -13,6 +14,7 @@ export default function ClassroomView({ topic }) {
   const isFirst = problemIndex === 0;
   const isLast = problemIndex === total - 1;
   const selectedRef = useRef(null);
+  const showIds = useShowIds();
 
   useEffect(() => {
     if (window.MathJax) window.MathJax.typesetPromise();
@@ -39,7 +41,10 @@ export default function ClassroomView({ topic }) {
             <ProblemNav problemIndex={problemIndex} total={total} setProblemIndex={setProblemIndex} isFirst={isFirst} isLast={isLast} />
 
         <div style={{ background: "#FCE8E8", border: "0.5px solid #E38686", borderRadius: "12px", padding: "24px" }}>
-        <div style={{ fontSize: "11px", fontWeight: 500, textTransform: "uppercase", letterSpacing: ".05em", color: "#A62D25", marginBottom: "12px" }}>Problem</div>
+        <div style={{ fontSize: "11px", fontWeight: 500, textTransform: "uppercase", letterSpacing: ".05em", color: "#A62D25", marginBottom: "12px" }}>
+          Problem
+          {showIds && problem.id && <span className="qid">{problem.id}</span>}
+        </div>
         {problem.graph && <DesmosGraph graph={problem.graph} />}
         <div onClick={isMultipleChoice ? handleChoiceClick : undefined}>
           <MathContent html={problem.problem} className="problem-text" />
