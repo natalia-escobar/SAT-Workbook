@@ -15412,7 +15412,7 @@ export const questions = [
     // Parabola - Vertex
 
     {
-    id: "ParVer1E1",
+    id: "Par-Vert-1-E-1",
     topic: "parabola",
     subtopic: "vertex",
     level: 1,
@@ -15457,7 +15457,7 @@ export const questions = [
   },
  
   {
-    id: "ParVer1GP1",
+    id: "Par-Vert-1-GP-1",
     topic: "parabola",
     subtopic: "vertex",
     level: 1,
@@ -15502,7 +15502,7 @@ export const questions = [
   },
  
   {
-    id: "ParVer1Q1",
+    id: "Par-Vert-1-Q-1",
     topic: "parabola",
     subtopic: "vertex",
     level: 1,
@@ -15543,7 +15543,7 @@ export const questions = [
   },
  
   {
-    id: "ParVer1Q2",
+    id: "Par-Vert-1-Q-2",
     topic: "parabola",
     subtopic: "vertex",
     level: 1,
@@ -15582,12 +15582,173 @@ export const questions = [
     screenshot: "",
     videoId: "",
   },
+
   {
-    id: "ParVer1AQ1",
+    id: "Par-Vert-1-AQ-1",
     topic: "parabola",
     subtopic: "vertex",
     level: 1,
     questionType: "AQ",
+    difficulty: 1,
+    tags: ["maximum", "read-graph"],
+    text: `<p>The graph of the quadratic function \\(y = f(x)\\) has a vertex as \\( (m,n) \\). What is the value of \\(m\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\( -7 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\( -3 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\( 2 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">D</span>
+          <span>\\( 3 \\)</span>
+        </div>
+      </div>`,
+    answer: "D",
+    graph: {
+      expressions: [
+        { latex: "y = 2(x-3)^2 - 7", color: "#2563eb" },
+      ],
+      bounds: { left: -1, right: 6, bottom: -8, top: 5 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-Vert-1-AQ-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    level: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: ["maximum", "read-graph"],
+    text: `<p>The graph of the quadratic function \\(y = g(x)\\) has a vertex as \\( (p,q) \\). What is the value of \\(q\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\( -11 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\( 5 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\( -5 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">D</span>
+          <span>\\( 11 \\)</span>
+        </div>
+      </div>`,
+    answer: "D",
+    graph: {
+      expressions: [
+        { latex: "y = -4(x+5)^2 + 11", color: "#2563eb" },
+      ],
+      bounds: { left: -10, right: 0, bottom: -3, top: 12 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-Vert-1-AQ-3",
+    topic: "parabola",
+    subtopic: "vertex",
+    level: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: ["maximum", "read-graph"],
+    text: `<p>The graph of the quadratic function \\(y = h(x)\\) has a vertex as \\( (r,s) \\). What is the value of \\(r\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\( -6 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\( 9 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">C</span>
+          <span>\\( 6 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\( \\frac{3}{2} \\)</span>
+        </div>
+      </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "y = 3/2(x-6)^2 + 9", color: "#2563eb" },
+      ],
+      bounds: { left: 0, right: 10, bottom: 8, top: 20 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-Vert-1-AQ-4",
+    topic: "parabola",
+    subtopic: "vertex",
+    level: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: ["maximum", "read-graph"],
+    text: `<p>The graph of the quadratic function \\(y = j(x)\\) has a vertex as \\( (u,v) \\). What is the value of \\(v\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\( 13 \\)</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">B</span>
+          <span>\\( -13 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\( -2 \\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\( 2 \\)</span>
+        </div>
+      </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "y = -3(x+2)^2 - 13", color: "#2563eb" },
+      ],
+      bounds: { left: -10, right: 2, bottom: -30, top: -10 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-Vert-2-E-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    level: 1,
+    questionType: "WE",
     difficulty: 2,
     tags: ["maximum", "revenue"],
     text: `<p>The estimated revenue \\(R\\), in dollars, for a company selling a product at a price of \\(p\\) dollars is modeled by</p>
@@ -15618,17 +15779,19 @@ export const questions = [
       bounds: { left: -5, right: 65, bottom: -200, top: 2000 },
     },
     graphChoices: null,
-    steps: [],
+    steps: [
+        { text: "", note: "", gif: "", video: "" },
+    ],
     screenshot: "",
     videoId: "",
   },
 
   {
-    id: "ParVer1AQ2",
+    id: "Par-Vert-2-GP-1",
     topic: "parabola",
     subtopic: "vertex",
     level: 1,
-    questionType: "AQ",
+    questionType: "GP",
     difficulty: 2,
     tags: ["maximum", "projectile"],
     text: `<p>The height \\(H\\), in feet, of a ball \\(t\\) seconds after it is thrown is modeled by</p>
@@ -15665,11 +15828,11 @@ export const questions = [
   },
 
   {
-    id: "ParVer1AQ3",
+    id: "Par-Vert-2-Q-1",
     topic: "parabola",
     subtopic: "vertex",
     level: 1,
-    questionType: "AQ",
+    questionType: "PR",
     difficulty: 2,
     tags: ["minimum", "temperature"],
     text: `<p>The temperature \\(T\\), in degrees Fahrenheit, of a refrigerated container \\(h\\) hours after a cooling system is activated is modeled by</p>
@@ -15706,11 +15869,11 @@ export const questions = [
   },
 
   {
-    id: "ParVer1AQ4",
+    id: "Par-Vert-2-Q-2",
     topic: "parabola",
     subtopic: "vertex",
     level: 1,
-    questionType: "AQ",
+    questionType: "PR",
     difficulty: 2,
     tags: ["maximum", "profit", "units-scaling"],
     text: `<p>The profit \\(P\\), in thousands of dollars, earned by a business when it produces \\(q\\) hundred units of a product is modeled by</p>
@@ -15745,4 +15908,1539 @@ export const questions = [
     screenshot: "",
     videoId: "",
   },
+
+  {
+    id: "Par-Vert-2-AQ-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["maximum", "interpretation"],
+    text: `<p>The depth \\(D\\), in meters below the surface, of a curved tunnel at a horizontal distance \\(x\\) meters from its entrance is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(D(x) = -0.5(x - 40)^2 + 200\\)</p>
+      <p>where \\(x\\) is the horizontal distance from the entrance, in meters.</p>
+      <p>What is the best interpretation of the <strong>maximum of the function</strong> in this context?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct">
+          <span class="mc-label">A</span>
+          <span>The tunnel reaches a maximum depth of 200 meters at a horizontal distance of 40 meters from the entrance.</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>The tunnel reaches a maximum depth of 40 meters at a horizontal distance of 200 meters from the entrance.</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>The tunnel reaches a minimum depth of 200 meters at a horizontal distance of 40 meters from the entrance.</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>The tunnel is 200 meters long and 40 meters deep.</span>
+        </div>
+      </div>`,
+    answer: "A",
+    graph: {
+      expressions: [{ latex: "y = -0.5(x-40)^2 + 200", color: "#2563eb" }],
+      bounds: { left: -5, right: 90, bottom: -50, top: 250 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-2-AQ-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["minimum", "interpretation", "units-scaling"],
+    text: `<p>The number \\(V\\), in thousands, of visitors to a park \\(m\\) months after January is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(V(m) = 3(m - 7)^2 + 24\\)</p>
+      <p>What is the best interpretation of the <strong>minimum of the function</strong> in this context?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>The park has a minimum of 7,000 visitors 24 months after January.</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>The park has a maximum of 24,000 visitors 7 months after January.</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">C</span>
+          <span>The park has a minimum of 24,000 visitors 7 months after January.</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>The park has a minimum of 24,000 visitors 3 months after January.</span>
+        </div>
+      </div>`,
+    answer: "C",
+    graph: {
+      expressions: [{ latex: "y = 3(x-7)^2 + 24", color: "#2563eb" }],
+      bounds: { left: -1, right: 16, bottom: 0, top: 300 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-2-AQ-3",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["maximum", "interpretation", "function-notation"],
+    text: `<p>The function</p>
+      <p style="text-align:center;margin-bottom:12px">\\(E(s) = -0.02(s - 55)^2 + 42\\)</p>
+      <p>models the fuel efficiency of a vehicle, in miles per gallon, in terms of the vehicle's speed \\(s\\), in miles per hour.</p>
+      <p>What is the best interpretation of \\((55, E(55))\\) in this context?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>A fuel efficiency of 55 miles per gallon results in a vehicle speed of \\(E(55)\\) miles per hour.</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">B</span>
+          <span>A vehicle speed of 55 miles per hour results in a fuel efficiency of \\(E(55)\\) miles per gallon.</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>The vehicle's speed increases by \\(E(55)\\) miles per hour for every 55 miles per gallon increase in fuel efficiency.</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>The vehicle's fuel efficiency increases by \\(E(55)\\) miles per gallon for every 55 miles per hour increase in speed.</span>
+        </div>
+      </div>`,
+    answer: "B",
+    graph: {
+      expressions: [{ latex: "y = -0.02(x-55)^2 + 42", color: "#2563eb" }],
+      bounds: { left: -5, right: 110, bottom: -20, top: 50 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-2-AQ-4",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["minimum", "interpretation", "function-notation"],
+    text: `<p>The function</p>
+      <p style="text-align:center;margin-bottom:12px">\\(C(n) = 5(n - 12)^2 + 450\\)</p>
+      <p>models the weekly operating cost of a machine, in dollars, in terms of the number of hours \\(n\\) the machine operates per week.</p>
+      <p>What is the best interpretation of \\((12, C(12))\\) in this context?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct">
+          <span class="mc-label">A</span>
+          <span>An operating time of 12 hours per week results in a weekly operating cost of \\(C(12)\\) dollars.</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>A weekly operating cost of 12 dollars results in an operating time of \\(C(12)\\) hours per week.</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>The operating time increases by \\(C(12)\\) hours per week for every 12-dollar increase in weekly operating cost.</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>The weekly operating cost increases by \\(C(12)\\) dollars for every 12-hour increase in operating time.</span>
+        </div>
+      </div>`,
+    answer: "A",
+    graph: {
+      expressions: [{ latex: "y = 5(x-12)^2 + 450", color: "#2563eb" }],
+      bounds: { left: -1, right: 25, bottom: 400, top: 1200 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-Vert-3-E-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 3,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["maximum", "vertex-form", "write-equation"],
+    text: `<p>A company sells tickets for a weekend event. A quadratic function \\(R\\) models the revenue, in dollars, the company earns when the ticket price is \\(p\\) dollars. According to the model, when the ticket price is <strong>$40</strong>, the company reaches a <strong>maximum revenue of $12,800</strong>. Which equation defines \\(R\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(R(p) = -8(p + 40)^2 + 12{,}800\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(R(p) = -8(p - 12{,}800)^2 + 40\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(R(p) = 8(p - 40)^2 + 12{,}800\\)</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">D</span>
+          <span>\\(R(p) = -8(p - 40)^2 + 12{,}800\\)</span>
+        </div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Identify the vertex from the problem: the maximum happens at price 40 with revenue 12,800, so the vertex is (40, 12,800)", note: "", gif: "", video: "" },
+      { text: "In vertex form \\(a(x - h)^2 + k\\), the vertex is \\((h, k)\\), so we need \\((p - 40)^2\\) and \\(+ 12{,}800\\)", note: "That rules out A and B", gif: "", video: "" },
+      { text: "A maximum means the parabola opens downward, so \\(a\\) must be negative", note: "That rules out C, leaving D", gif: "", video: "" },
+      { text: "Check in Desmos: type \\(y = -8(x - 40)^2 + 12800\\) and click the vertex to confirm it is (40, 12800)", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-3-GP-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 3,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["minimum", "vertex-form", "write-equation"],
+    text: `<p>A delivery company assigns drivers to a service area. A quadratic function \\(T\\) models the average delivery time, in minutes, when \\(n\\) drivers are assigned to the area. According to the model, when <strong>9 drivers</strong> are assigned, the average delivery time reaches a <strong>minimum of 24 minutes</strong>. Which equation defines \\(T\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(T(n) = -3(n - 9)^2 + 24\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(T(n) = 3(n + 9)^2 + 24\\)</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">C</span>
+          <span>\\(T(n) = 3(n - 9)^2 + 24\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(T(n) = 3(n - 24)^2 + 9\\)</span>
+        </div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Write down the vertex from the problem", note: "", gif: "", video: "" },
+      { text: "Match the vertex to the \\((n - h)^2 + k\\) part of each choice", note: "", gif: "", video: "" },
+      { text: "Decide the sign of \\(a\\): minimum means opens upward, so \\(a\\) is positive", note: "", gif: "", video: "" },
+      { text: "Confirm in Desmos by graphing your choice and checking the vertex", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-3-Q-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 3,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["maximum", "vertex-form", "write-equation"],
+    text: `<p>Water is sprayed from a fountain. A quadratic function \\(H\\) models the height above the ground, in centimeters, of the water \\(d\\) centimeters from a certain point. According to the model, at a horizontal distance of <strong>6 centimeters</strong>, the water reaches a <strong>maximum height of 180 centimeters</strong>. Which equation defines \\(H\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct">
+          <span class="mc-label">A</span>
+          <span>\\(H(d) = -5(d - 6)^2 + 180\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(H(d) = -5(d + 6)^2 + 180\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(H(d) = 5(d - 6)^2 + 180\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(H(d) = -5(d - 180)^2 + 6\\)</span>
+        </div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-3-Q-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 3,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["minimum", "vertex-form", "write-equation", "units-scaling"],
+    text: `<p>A company manufactures a certain product. A quadratic function \\(C\\) models the production cost, in dollars, when \\(x\\) hundred units of the product are manufactured. According to the model, when <strong>7 hundred units</strong> are manufactured, the company reaches a <strong>minimum production cost of $2,450</strong>. Which equation defines \\(C\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(C(x) = 12(x + 7)^2 + 2{,}450\\)</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">B</span>
+          <span>\\(C(x) = 12(x - 7)^2 + 2{,}450\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(C(x) = -12(x - 7)^2 + 2{,}450\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(C(x) = 12(x - 2{,}450)^2 + 7\\)</span>
+        </div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-3-AQ-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["maximum", "vertex-form", "write-equation"],
+    text: `<p>A concert venue sells tickets for a summer performance. A quadratic function \\(R\\) models the revenue, in dollars, the venue earns when the ticket price is \\(p\\) dollars. According to the model, when the ticket price is <strong>$35</strong>, the venue reaches a <strong>maximum revenue of $15,600</strong>. Which equation defines \\(R\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(R(p) = -6(p + 35)^2 + 15{,}600\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(R(p) = 6(p - 35)^2 + 15{,}600\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(R(p) = -6(p - 15{,}600)^2 + 35\\)</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">D</span>
+          <span>\\(R(p) = -6(p - 35)^2 + 15{,}600\\)</span>
+        </div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-3-AQ-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["minimum", "vertex-form", "write-equation"],
+    text: `<p>The temperature inside a refrigerated storage unit changes over time. A quadratic function \\(T\\) models the temperature, in degrees Fahrenheit, \\(h\\) hours after the cooling system is activated. According to the model, <strong>4 hours</strong> after the system is activated, the temperature reaches a <strong>minimum of 28°F</strong>. Which equation defines \\(T\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct">
+          <span class="mc-label">A</span>
+          <span>\\(T(h) = 5(h - 4)^2 + 28\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(T(h) = -5(h - 4)^2 + 28\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(T(h) = 5(h + 4)^2 + 28\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(T(h) = 5(h - 28)^2 + 4\\)</span>
+        </div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-3-AQ-3",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["maximum", "vertex-form", "write-equation"],
+    text: `<p>A farmer uses fertilizer on a crop field. A quadratic function \\(Y\\) models the crop yield, in bushels per acre, when \\(f\\) pounds of fertilizer are applied per acre. According to the model, when <strong>60 pounds of fertilizer per acre</strong> are applied, the crop reaches a <strong>maximum yield of 185 bushels per acre</strong>. Which equation defines \\(Y\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(Y(f) = 4(f - 60)^2 + 185\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(Y(f) = -4(f + 60)^2 + 185\\)</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">C</span>
+          <span>\\(Y(f) = -4(f - 60)^2 + 185\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(Y(f) = -4(f - 185)^2 + 60\\)</span>
+        </div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-Vert-4-E-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 4,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["maximum", "standard-form", "free-response", "domain"],
+    text: `<p>The height \\(H(t)\\), in feet, of a model rocket \\(t\\) seconds after it is launched is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(H(t) = -\\dfrac{5}{2}t^2 + 30t + 8,\\)</p>
+      <p>where \\(0 \\le t \\le 15\\).</p>
+      <p>According to the model, how many seconds after launch does the rocket reach its <strong>greatest height</strong>?</p>`,
+    answer: "6",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type the function into Desmos exactly as written: \\(y = -\\frac{5}{2}x^2 + 30x + 8\\)", note: "Use x in place of t", gif: "", video: "" },
+      { text: "The parabola opens downward, so the greatest height is at the vertex. Click the highest point to reveal it", note: "Vertex: (6, 98)", gif: "", video: "" },
+      { text: "The question asks for the time, which is the x-coordinate: 6 seconds", note: "Watch out: 98 is the height, not the time", gif: "", video: "" },
+      { text: "Check the domain: 6 is inside \\(0 \\le t \\le 15\\), so the answer is valid", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-4-GP-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 4,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["maximum", "standard-form", "free-response", "domain"],
+    text: `<p>The daily profit \\(P(n)\\), in hundreds of dollars, from selling \\(n\\) batches of a product is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(P(n) = -0.4n^2 + 14.4n - 35,\\)</p>
+      <p>where \\(5 \\le n \\le 30\\).</p>
+      <p>According to the model, how many batches should be sold for the company to obtain its <strong>greatest daily profit</strong>?</p>`,
+    answer: "18",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type the function into Desmos, using x for n", note: "", gif: "", video: "" },
+      { text: "Click the vertex to reveal its coordinates", note: "", gif: "", video: "" },
+      { text: "Decide which coordinate the question is asking for: number of batches is the x-coordinate", note: "", gif: "", video: "" },
+      { text: "Confirm the x-value is inside the given domain", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-4-Q-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 4,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["maximum", "standard-form", "free-response", "domain"],
+    text: `<p>The amount \\(W(r)\\), in liters, of water collected by a system when the flow rate is \\(r\\) liters per minute is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(W(r) = -\\dfrac{3}{8}r^2 + 9r + 42,\\)</p>
+      <p>where \\(2 \\le r \\le 20\\).</p>
+      <p>According to the model, at what flow rate, in liters per minute, is the <strong>greatest amount of water collected</strong>?</p>`,
+    answer: "12",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-4-Q-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 4,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["maximum", "standard-form", "free-response", "domain"],
+    text: `<p>The number \\(V(k)\\) of visitors to an exhibit is modeled as a function of the admission price \\(k\\), in dollars, by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(V(k) = -1.25k^2 + 35k + 180,\\)</p>
+      <p>where \\(5 \\le k \\le 25\\).</p>
+      <p>According to the model, what admission price, in dollars, results in the <strong>greatest number of visitors</strong>?</p>`,
+    answer: "14",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-4-AQ-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["maximum", "mixed-form", "fractions"],
+    text: `<p>A water-treatment facility adjusts the amount of a filtering material used during a purification cycle. The amount of water \\(W(m)\\), in hundreds of gallons, that can be processed is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(W(m) = -\\dfrac{3}{4}\\left(m - \\dfrac{5}{2}\\right)^2 + \\dfrac{9}{2}m + \\dfrac{125}{4},\\)</p>
+      <p>where \\(m\\) represents the number of pounds of filtering material added.</p>
+      <p>According to the model, for what value of \\(m\\) is the amount of water that can be processed <strong>greatest</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(\\dfrac{5}{2}\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>\\(\\dfrac{7}{2}\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(\\dfrac{9}{2}\\)</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">D</span>
+          <span>\\(\\dfrac{11}{2}\\)</span>
+        </div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-4-AQ-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["maximum", "mixed-form", "fractions"],
+    text: `<p>A bakery changes the amount of a specialty ingredient used in a batch. The number of pastries \\(P(q)\\) that meet the bakery's quality standard is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(P(q) = -\\dfrac{2}{3}\\left(q - \\dfrac{9}{4}\\right)^2 + \\dfrac{5}{3}q + \\dfrac{175}{6},\\)</p>
+      <p>where \\(q\\) represents the number of cups of the ingredient used.</p>
+      <p>According to the model, for what value of \\(q\\) is the number of pastries meeting the quality standard <strong>greatest</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>\\(\\dfrac{5}{2}\\)</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">B</span>
+          <span>\\(\\dfrac{7}{2}\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">C</span>
+          <span>\\(\\dfrac{9}{4}\\)</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>\\(\\dfrac{13}{4}\\)</span>
+        </div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-4-AQ-3",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["maximum", "mixed-form", "decimals"],
+    text: `<p>A concert venue changes the amount it charges for a premium seating upgrade. The daily revenue \\(R(d)\\), in hundreds of dollars, is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(R(d) = -1.5(d - 3.5)^2 + 7.5d + 84.0,\\)</p>
+      <p>where \\(d\\) represents the price of the upgrade, in dollars.</p>
+      <p>According to the model, for what value of \\(d\\) is the daily revenue <strong>greatest</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice">
+          <span class="mc-label">A</span>
+          <span>3.5</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">B</span>
+          <span>5.0</span>
+        </div>
+        <div class="mc-choice correct">
+          <span class="mc-label">C</span>
+          <span>6.0</span>
+        </div>
+        <div class="mc-choice">
+          <span class="mc-label">D</span>
+          <span>7.5</span>
+        </div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-Vert-5-E-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["minimum", "mixed-form", "x-of-vertex"],
+    text: `<p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(t) = 2(t - 5)^2 + 4t + 11.\\)</p>
+      <p>For what value of \\(t\\) does \\(g(t)\\) reach its <strong>minimum</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(3\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(5\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(6\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Don't trust the \\((t - 5)^2\\): the extra \\(+4t\\) shifts the vertex, so this is not vertex form", note: "5 is a trap answer", gif: "", video: "" },
+      { text: "Type the whole function into Desmos exactly as written, using x for t", note: "", gif: "", video: "" },
+      { text: "The parabola opens upward, so click the lowest point to reveal the vertex", note: "Vertex: (4, 27)", gif: "", video: "" },
+      { text: "The question asks for the value of \\(t\\), which is the x-coordinate: 4", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-5-E-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["minimum", "standard-form", "y-of-vertex"],
+    text: `<p>The function \\(G\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(G(x) = 18x^2 + 72x + 53\\)</p>
+      <p>What is the <strong>minimum value</strong> of \\(G(x)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-72\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(-19\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(-4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(53\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type \\(y = 18x^2 + 72x + 53\\) into Desmos", note: "", gif: "", video: "" },
+      { text: "Click the lowest point of the parabola to reveal the vertex", note: "Vertex: (−2, −19)", gif: "", video: "" },
+      { text: "\"Minimum value\" means the output, so read the y-coordinate: −19", note: "−2 is where it happens, not the value", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-5-E-3",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["minimum", "factored-form", "x-of-vertex"],
+    text: `<p>The vertical position of an object is represented by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(p(t) = (t - 8)(t + 16) + 42\\)</p>
+      <p>For what value of \\(t\\) is \\(p(t)\\) at its <strong>lowest point</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-16\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(-4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(8\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type \\(y = (x - 8)(x + 16) + 42\\) into Desmos", note: "The +42 shifts the graph up but does not move the vertex left or right", gif: "", video: "" },
+      { text: "Click the lowest point to reveal the vertex", note: "Vertex: (−4, −102)", gif: "", video: "" },
+      { text: "The question asks for the value of \\(t\\): the x-coordinate, −4", note: "Shortcut: the vertex is halfway between the roots 8 and −16", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-5-GP-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["maximum", "mixed-form", "x-of-vertex"],
+    text: `<p>The function \\(h\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(h(w) = -3(w - 6)^2 + 12w - 7\\)</p>
+      <p>For what value of \\(w\\) does \\(h(w)\\) reach its <strong>maximum</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(7\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(8\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(9\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type the whole function into Desmos, using x for w", note: "", gif: "", video: "" },
+      { text: "Click the vertex to reveal its coordinates", note: "", gif: "", video: "" },
+      { text: "Decide which coordinate is asked for: the value of \\(w\\) is the x-coordinate", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-5-GP-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["maximum", "standard-form", "y-of-vertex"],
+    text: `<p>For the function \\(H\\),</p>
+      <p style="text-align:center;margin-bottom:12px">\\(H(t) = -20t^2 + 120t - 137\\)</p>
+      <p>what is the <strong>greatest value</strong> of \\(H(t)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-137\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(3\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(43\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(137\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type the function into Desmos", note: "", gif: "", video: "" },
+      { text: "Click the vertex to reveal its coordinates", note: "", gif: "", video: "" },
+      { text: "\"Greatest value\" is the output: read the y-coordinate", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-5-GP-3",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["minimum", "factored-form", "x-of-vertex"],
+    text: `<p>A quadratic relationship is given by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(n) = (n + 13)(n - 7) - 25\\)</p>
+      <p>Which value of \\(n\\) corresponds to the <strong>vertex of the graph</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-13\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(-3\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(3\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(7\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type the function into Desmos, using x for n", note: "", gif: "", video: "" },
+      { text: "Click the vertex to reveal its coordinates", note: "", gif: "", video: "" },
+      { text: "The value of \\(n\\) at the vertex is the x-coordinate", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-5-Q-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["minimum", "mixed-form", "x-of-vertex"],
+    text: `<p>The function \\(p\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(p(r) = 4(r + 3)^2 - 8r + 15.\\)</p>
+      <p>For what value of \\(r\\) does \\(p(r)\\) reach its <strong>minimum</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-3\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(-2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(2\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-5-Q-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["maximum", "mixed-form", "x-of-vertex"],
+    text: `<p>The function \\(q\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(q(v) = -2(v + 4)^2 - 4v + 21.\\)</p>
+      <p>For what value of \\(v\\) does \\(q(v)\\) reach its <strong>maximum</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-5\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(-3\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(-2\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-5-AQ-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["minimum", "standard-form", "y-of-vertex"],
+    text: `<p>The value of \\(P(n)\\) is given by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(P(n) = 24n^2 - 192n + 371\\)</p>
+      <p>Which of the following is the <strong>least possible value</strong> of \\(P(n)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-13\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(24\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(371\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-5-AQ-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["minimum", "standard-form", "y-of-vertex", "rearrange"],
+    text: `<p>The equation</p>
+      <p style="text-align:center;margin-bottom:12px">\\(q + 45 = x^2 - 12x\\)</p>
+      <p>relates each value of \\(x\\) to a corresponding value of \\(q\\).</p>
+      <p>What is the <strong>minimum possible value</strong> of \\(q\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-81\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-45\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(-36\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(81\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-5-AQ-3",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["minimum", "factored-form", "x-of-vertex"],
+    text: `<p>The profit adjustment for a company is modeled by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(P(x) = (x - 21)(x + 9) + 100\\)</p>
+      <p>At which value of \\(x\\) does \\(P(x)\\) have its <strong>minimum value</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-9\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(12\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(21\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-5-AQ-4",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["minimum", "factored-form", "x-of-vertex"],
+    text: `<p>For a certain quadratic model,</p>
+      <p style="text-align:center;margin-bottom:12px">\\(y = (m + 18)(m - 4) - 36\\)</p>
+      <p>The graph reaches its <strong>lowest point</strong> when \\(m\\) equals which of the following?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-18\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-11\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(-7\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(7\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-Vert-6-E-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 6,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["minimum", "vertex-form", "equivalent-form"],
+    text: `<p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = 8x^2 - 48x + 61\\)</p>
+      <p>In which of the following equivalent forms does the <strong>minimum value</strong> of \\(g(x)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(g(x) = 8(x - 3)^2 - 11\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(g(x) = 8x(x - 6) + 61\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(g(x) = 8x^2 - 24x - 24x + 61\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(g(x) = 8(x^2 - 6x) + 61\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "The minimum value is the y-coordinate of the vertex. Only vertex form \\(a(x - h)^2 + k\\) shows it directly as the constant \\(k\\)", note: "So look for the choice shaped like \\(a(x - h)^2 + k\\)", gif: "", video: "" },
+      { text: "Type \\(y = 8x^2 - 48x + 61\\) into Desmos and click the lowest point", note: "Vertex: (3, −11), so the minimum value is −11", gif: "", video: "" },
+      { text: "Find the choice whose constant is −11: choice A, \\(8(x - 3)^2 - 11\\)", note: "", gif: "", video: "" },
+      { text: "Confirm it is equivalent: type choice A into Desmos and check that it lands exactly on the original graph", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-6-GP-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 6,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["minimum", "vertex-form", "equivalent-form"],
+    text: `<p>The function \\(P\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(P(t) = 15t^2 + 60t + 67\\)</p>
+      <p>In which of the following equivalent forms does the <strong>minimum value</strong> of \\(P(t)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(P(t) = 15(t^2 + 4t) + 67\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(P(t) = 15(t + 2)^2 + 7\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(P(t) = 15t^2 + 30t + 30t + 67\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(P(t) = 15t(t + 4) + 67\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Identify which choice is in vertex form", note: "", gif: "", video: "" },
+      { text: "Graph the original in Desmos and click the vertex to find the minimum value", note: "", gif: "", video: "" },
+      { text: "Check that the vertex-form choice has that value as its constant", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-6-Q-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 6,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["maximum", "vertex-form", "equivalent-form"],
+    text: `<p>The function \\(Q\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(Q(n) = -14n^2 + 140n - 327\\)</p>
+      <p>In which of the following equivalent forms does the <strong>maximum value</strong> of \\(Q(n)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(Q(n) = -14(n^2 - 10n) - 327\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(Q(n) = -14n(n - 10) - 327\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(Q(n) = -14(n - 5)^2 + 23\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(Q(n) = -14n^2 + 70n + 70n - 327\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-6-Q-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 6,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["maximum", "vertex-form", "equivalent-form"],
+    text: `<p>The function \\(R\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(R(r) = -18r^2 - 144r - 257\\)</p>
+      <p>In which of the following equivalent forms does the <strong>maximum value</strong> of \\(R(r)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(R(r) = -18r(r + 8) - 257\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(R(r) = -18(r^2 + 8r) - 257\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(R(r) = -18r^2 - 72r - 72r - 257\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(R(r) = -18(r + 4)^2 + 31\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-6-AQ-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["minimum", "vertex-form", "equivalent-form"],
+    text: `<p>The function \\(M\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(M(x) = 6x^2 - 60x + 128\\)</p>
+      <p>In which of the following equivalent forms does the <strong>minimum value</strong> of \\(M(x)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(M(x) = 6(x - 5)^2 - 22\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(M(x) = 6(x - 8)^2 + 106\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(M(x) = 6x(x - 10) + 128\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(M(x) = 3x(2x - 20) + 128\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-6-AQ-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["maximum", "vertex-form", "equivalent-form"],
+    text: `<p>The function \\(V\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(V(t) = -9t^2 + 54t - 40\\)</p>
+      <p>In which of the following equivalent forms does the <strong>maximum value</strong> of \\(V(t)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(V(t) = -9t(t - 6) - 40\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(V(t) = -9(t - 7)^2 + 76\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(V(t) = -9(t - 3)^2 + 41\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(V(t) = -3t(3t - 18) - 40\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-6-AQ-3",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["minimum", "vertex-form", "equivalent-form"],
+    text: `<p>The function \\(P\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(P(n) = 12n^2 - 96n + 161\\)</p>
+      <p>In which of the following equivalent forms does the <strong>minimum value</strong> of \\(P(n)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(P(n) = 12n(n - 8) + 161\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(P(n) = 12(n - 4)^2 - 31\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(P(n) = 6n(2n - 16) + 161\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(P(n) = 12(n - 9)^2 + 64\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-Vert-7-E-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 7,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["maximum", "factored-form", "transformation", "expression-answer"],
+    text: `<p>The function \\(f\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = -2(x + 3)(x - 9).\\)</p>
+      <p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + 4) - 5.\\)</p>
+      <p>Which expression represents the <strong>maximum value</strong> of \\(g(x)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-5 + 2(6)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-5 - 2(6)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(5 + 2(6)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(-5 + 2(3)^2\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type \\(f(x) = -2(x + 3)(x - 9)\\) into Desmos as the first line", note: "Desmos now knows what f is", gif: "", video: "" },
+      { text: "On the next line type \\(g(x) = f(x + 4) - 5\\). Desmos graphs g using your definition of f", note: "", gif: "", video: "" },
+      { text: "Click the highest point of g to reveal its vertex", note: "Vertex: (−1, 67), so the maximum value is 67", gif: "", video: "" },
+      { text: "Evaluate each choice to find which equals 67: \\(-5 + 2(6)^2 = -5 + 72 = 67\\), choice A", note: "Only A is inside the −5 shift plus the height of f's vertex", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-7-GP-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 7,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["minimum", "factored-form", "transformation", "expression-answer"],
+    text: `<p>The function \\(f\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 3(x + 8)(x - 4).\\)</p>
+      <p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 6) + 7.\\)</p>
+      <p>Which expression represents the <strong>minimum value</strong> of \\(g(x)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(7 + 3(6)^2\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(7 - 3(6)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(-7 - 3(6)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(7 - 3(4)^2\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Define \\(f(x)\\) in Desmos on the first line", note: "", gif: "", video: "" },
+      { text: "Define \\(g(x) = f(x - 6) + 7\\) on the second line", note: "", gif: "", video: "" },
+      { text: "Click the vertex of g and note the y-coordinate", note: "", gif: "", video: "" },
+      { text: "Evaluate the choices until one matches that y-coordinate", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-7-Q-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["maximum", "factored-form", "transformation", "expression-answer"],
+    text: `<p>The function \\(f\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = -4(x - 2)(x - 12).\\)</p>
+      <p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + 5) + 9.\\)</p>
+      <p>Which expression represents the <strong>maximum value</strong> of \\(g(x)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(9 - 4(5)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-9 + 4(5)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(9 + 4(7)^2\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(9 + 4(5)^2\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-7-Q-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["minimum", "factored-form", "transformation", "expression-answer"],
+    text: `<p>The function \\(f\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 2(x + 10)(x - 6).\\)</p>
+      <p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 3) - 8.\\)</p>
+      <p>Which expression represents the <strong>minimum value</strong> of \\(g(x)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-8 + 2(8)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(8 - 2(8)^2\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(-8 - 2(8)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(-8 - 2(4)^2\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-7-AQ-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["maximum", "factored-form", "transformation", "expression-answer"],
+    text: `<p>The function \\(f\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = -3(x + 7)(x - 5).\\)</p>
+      <p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + 6) - 4.\\)</p>
+      <p>Which expression represents the <strong>maximum value</strong> of \\(g(x)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-4 - 3(6)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(4 + 3(6)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(-4 + 3(4)^2\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(-4 + 3(6)^2\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-7-AQ-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["minimum", "factored-form", "transformation", "expression-answer"],
+    text: `<p>The function \\(f\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 5(x + 6)(x - 10).\\)</p>
+      <p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 4) + 11.\\)</p>
+      <p>Which expression represents the <strong>minimum value</strong> of \\(g(x)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(11 - 5(8)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(11 + 5(8)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(-11 - 5(8)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(11 - 5(4)^2\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-7-AQ-3",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["maximum", "factored-form", "transformation", "expression-answer"],
+    text: `<p>The function \\(f\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = -6(x + 4)(x - 8).\\)</p>
+      <p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 5) + 13.\\)</p>
+      <p>Which expression represents the <strong>maximum value</strong> of \\(g(x)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(13 - 6(6)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(13 + 6(4)^2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(-13 + 6(6)^2\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(13 + 6(6)^2\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-Vert-8-E-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 8,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["minimum", "standard-form", "transformation", "x-of-vertex"],
+    text: `<p>The function \\(f\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 3x^2 + 36x + 115.\\)</p>
+      <p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + 4) - 7.\\)</p>
+      <p>For what value of \\(x\\) does \\(g(x)\\) reach its <strong>minimum</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-10\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(-4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(2\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type \\(f(x) = 3x^2 + 36x + 115\\) into Desmos on the first line", note: "", gif: "", video: "" },
+      { text: "On the next line type \\(g(x) = f(x + 4) - 7\\). Desmos builds g from your f automatically", note: "", gif: "", video: "" },
+      { text: "Click the lowest point of g to reveal its vertex", note: "Vertex: (−10, 0)", gif: "", video: "" },
+      { text: "The question asks for the value of \\(x\\): the x-coordinate, −10", note: "Why −10? f's vertex is at −6, and \\(f(x + 4)\\) shifts it 4 to the left", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-8-GP-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 8,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["minimum", "standard-form", "transformation", "y-of-vertex"],
+    text: `<p>The function \\(f\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 5x^2 - 70x + 251.\\)</p>
+      <p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 3) + 8.\\)</p>
+      <p>What is the <strong>minimum value</strong> of \\(g(x)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(6\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(14\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(22\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Define \\(f(x)\\) in Desmos on the first line", note: "", gif: "", video: "" },
+      { text: "Define \\(g(x) = f(x - 3) + 8\\) on the second line", note: "", gif: "", video: "" },
+      { text: "Click the vertex of g", note: "", gif: "", video: "" },
+      { text: "\"Minimum value\" is the output: read the y-coordinate", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-8-Q-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 8,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["maximum", "standard-form", "transformation", "x-of-vertex"],
+    text: `<p>The function \\(r\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(r(t) = 48t - 3t^2.\\)</p>
+      <p>The function \\(s\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(s(t) = r(t + 5) - 9.\\)</p>
+      <p>For what value of \\(t\\) does \\(s(t)\\) reach its <strong>maximum</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(3\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(5\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(8\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(13\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-8-Q-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 8,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["maximum", "standard-form", "transformation", "y-of-vertex"],
+    text: `<p>The function \\(p\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(p(n) = 40n - 2n^2.\\)</p>
+      <p>The function \\(q\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(q(n) = p(n - 6) + 11.\\)</p>
+      <p>What is the <strong>maximum value</strong> of \\(q(n)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(189\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(200\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(211\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(222\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-8-AQ-1",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["minimum", "standard-form", "transformation", "x-of-vertex", "free-response"],
+    text: `<p>The function \\(f\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 4x^2 + 48x + 151.\\)</p>
+      <p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + 5) - 9.\\)</p>
+      <p>For what value of \\(x\\) does \\(g(x)\\) reach its <strong>minimum</strong>?</p>`,
+    answer: "-11",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-8-AQ-2",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["minimum", "standard-form", "transformation", "y-of-vertex", "free-response"],
+    text: `<p>The function \\(f\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 2x^2 - 32x + 135.\\)</p>
+      <p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 4) + 6.\\)</p>
+      <p>What is the <strong>minimum value</strong> of \\(g(x)\\)?</p>`,
+    answer: "13",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-8-AQ-3",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["maximum", "standard-form", "transformation", "x-of-vertex", "free-response"],
+    text: `<p>The function \\(r\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(r(t) = -3t^2 + 54t - 100.\\)</p>
+      <p>The function \\(s\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(s(t) = r(t + 7) - 12.\\)</p>
+      <p>For what value of \\(t\\) does \\(s(t)\\) reach its <strong>maximum</strong>?</p>`,
+    answer: "2",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-Vert-8-AQ-4",
+    topic: "parabola",
+    subtopic: "vertex",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["maximum", "standard-form", "transformation", "y-of-vertex", "free-response"],
+    text: `<p>The function \\(p\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(p(n) = -2n^2 + 40n - 125.\\)</p>
+      <p>The function \\(q\\) is defined by</p>
+      <p style="text-align:center;margin-bottom:12px">\\(q(n) = p(n - 3) + 15.\\)</p>
+      <p>What is the <strong>maximum value</strong> of \\(q(n)\\)?</p>`,
+    answer: "90",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+
 ];
