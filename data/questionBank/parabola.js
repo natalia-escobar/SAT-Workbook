@@ -15867,7 +15867,7 @@ export const questions = [
     questionType: "PR",
     difficulty: 2,
     tags: ["maximum", "profit", "units-scaling"],
-    text: `<p>The graph of the profit \\(P\\), in thousands of dollars, earned by a business when it produces \\(q\\) hundred units of a product, where \\(q\\) is the <strong>number of hundreds of units produced</strong>, and \\(P(q)\\) is the <strong>profit, in thousands of dollars</strong>. What do the coordinates of the vertex represent in this context?</p>
+    text: `<p>The graph of the profit \\(P\\), in thousands of dollars, earned by a business when it produces \\(q\\) hundred units of a product, where \\(q\\) is the <strong>number of hundreds of units produced</strong>, and \\(P(q)\\) is the <strong>profit, in thousands of dollars</strong>, is shown above. What do the coordinates of the vertex represent in this context?</p>
       <div class="mc-choices">
         <div class="mc-choice">
           <span class="mc-label">A</span>
@@ -15905,7 +15905,7 @@ export const questions = [
     questionType: "AQ",
     difficulty: 2,
     tags: ["maximum", "interpretation"],
-    text: `<p>The graph of the depth \\(D\\), in meters below the surface, of a curved tunnel at a horizontal distance \\(x\\) meters from its entrance, where \\(x\\) is the horizontal distance from the entrance, in meters. What is the best interpretation of the <strong>maximum of the function</strong> in this context?</p>
+    text: `<p>The graph of the depth \\(D\\), in meters below the surface, of a curved tunnel at a horizontal distance \\(x\\) meters from its entrance, where \\(x\\) is the horizontal distance from the entrance, in meters, is shown above. What is the best interpretation of the <strong>maximum of the function</strong> in this context?</p>
       <div class="mc-choices">
         <div class="mc-choice correct">
           <span class="mc-label">A</span>
@@ -15943,7 +15943,7 @@ export const questions = [
     questionType: "AQ",
     difficulty: 2,
     tags: ["minimum", "interpretation", "units-scaling"],
-    text: `<p>The graph of the number \\(V\\), in thousands, of visitors to a park \\(m\\) months after January. What is the best interpretation of the <strong>minimum of the function</strong> in this context?</p>
+    text: `<p>The graph of the number \\(V\\), in thousands, of visitors to a park \\(m\\) months after January is shown above. What is the best interpretation of the <strong>minimum of the function</strong> in this context?</p>
       <div class="mc-choices">
         <div class="mc-choice">
           <span class="mc-label">A</span>
@@ -16846,7 +16846,7 @@ export const questions = [
     tags: ["minimum", "vertex-form", "equivalent-form"],
     text: `<p>The function \\(g\\) is defined by</p>
       <p style="text-align:center;margin-bottom:12px">\\(g(x) = 8x^2 - 48x + 61\\)</p>
-      <p>In which of the following equivalent forms does the <strong>minimum value</strong> of \\(g(x)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
+      <p>In which of the following equivalent forms does the <strong>minimum value of</strong> \\(\\boldsymbol{g(x)}\\) <strong>appear directly as a constant or coefficient</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(g(x) = 8(x - 3)^2 - 11\\)</span></div>
         <div class="mc-choice"><span class="mc-label">B</span><span>\\(g(x) = 8x(x - 6) + 61\\)</span></div>
@@ -16876,7 +16876,7 @@ export const questions = [
     tags: ["minimum", "vertex-form", "equivalent-form"],
     text: `<p>The function \\(P\\) is defined by</p>
       <p style="text-align:center;margin-bottom:12px">\\(P(t) = 15t^2 + 60t + 67\\)</p>
-      <p>In which of the following equivalent forms does the <strong>minimum value</strong> of \\(P(t)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
+      <p>In which of the following equivalent forms does the <strong>minimum value of </strong> \\( \\boldsymbol{P(t)}\\) <strong>appear directly as a constant or coefficient</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(P(t) = 15(t^2 + 4t) + 67\\)</span></div>
         <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(P(t) = 15(t + 2)^2 + 7\\)</span></div>
@@ -16905,7 +16905,7 @@ export const questions = [
     tags: ["maximum", "vertex-form", "equivalent-form"],
     text: `<p>The function \\(Q\\) is defined by</p>
       <p style="text-align:center;margin-bottom:12px">\\(Q(n) = -14n^2 + 140n - 327\\)</p>
-      <p>In which of the following equivalent forms does the <strong>maximum value</strong> of \\(Q(n)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
+      <p>In which of the following equivalent forms does the <strong>maximum value of </strong> \\( \\boldsymbol{Q(n)}\\) <strong>appear directly as a constant or coefficient</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(Q(n) = -14(n^2 - 10n) - 327\\)</span></div>
         <div class="mc-choice"><span class="mc-label">B</span><span>\\(Q(n) = -14n(n - 10) - 327\\)</span></div>
