@@ -21,7 +21,13 @@ export default function RootLayout({ children }) {
           id="mathjax-config"
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
-          __html: `window.MathJax = { tex: { inlineMath: [["\\\\(","\\\\)"], ["$","$"]], displayMath: [["\\\\[","\\\\]"], ["$$","$$"]] } };`
+          __html: `window.MathJax = { 
+            loader: { load: ["[tex]/boldsymbol"] },
+            tex: {
+            packages: { "[+]": ["boldsymbol"] },
+            inlineMath: [["\\\\(","\\\\)"], ["$","$"]],
+            displayMath: [["\\\\[","\\\\]"], ["$$","$$"]]
+          } };`
         }}
         />
         <Script
