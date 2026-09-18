@@ -281,3 +281,8 @@
   letter-spacing: .02em;
   user-select: all;
 }
+
+.classroom-graph {
+  max-width: 560px;
+  margin: 0 auto 16px;
+}

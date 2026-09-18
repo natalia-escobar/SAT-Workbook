@@ -50,7 +50,11 @@ export default function ClassroomView({ topic }) {
           Problem
           {showIds && problem.id && <span className="qid">{problem.id}</span>}
         </div>
-        {problem.graph && <DesmosGraph graph={problem.graph} />}
+        {problem.graph && (
+          <div className="classroom-graph">
+            <DesmosGraph graph={problem.graph} />
+          </div>
+        )}
         <div onClick={isMultipleChoice ? handleChoiceClick : undefined}>
           <MathContent html={problem.problem} className="problem-text" />
         </div>

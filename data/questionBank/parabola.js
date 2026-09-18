@@ -15751,10 +15751,7 @@ export const questions = [
     questionType: "WE",
     difficulty: 2,
     tags: ["maximum", "revenue"],
-    text: `<p>The estimated revenue \\(R\\), in dollars, for a company selling a product at a price of \\(p\\) dollars is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(R(p) = -2(p - 30)^2 + 1800\\)</p>
-      <p>where \\(p\\) is the <strong>price of the product, in dollars</strong>, and \\(R(p)\\) is the <strong>estimated revenue, in dollars</strong>.</p>
-      <p>The vertex of the graph of \\(y = R(p)\\) is \\((30, 1800)\\). What do the coordinates of the vertex represent in this context?</p>
+    text: `<p>The graph gives the estimated revenue \\(R\\), in dollars, for a company selling a product at a price of \\(p\\) dollars, where \\(p\\) is the <strong>price of the product, in dollars</strong>, and \\(R(p)\\) is the <strong>estimated revenue, in dollars</strong>. What do the coordinates of the vertex represent in this context?</p>
       <div class="mc-choices">
         <div class="mc-choice">
           <span class="mc-label">A</span>
@@ -15794,10 +15791,7 @@ export const questions = [
     questionType: "GP",
     difficulty: 2,
     tags: ["maximum", "projectile"],
-    text: `<p>The height \\(H\\), in feet, of a ball \\(t\\) seconds after it is thrown is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(H(t) = -16(t - 3)^2 + 160\\)</p>
-      <p>where \\(t\\) is <strong>time, in seconds</strong>, and \\(H(t)\\) is the <strong>height of the ball, in feet</strong>.</p>
-      <p>The vertex of the graph of \\(y = H(t)\\) is \\((3, 160)\\). What do the coordinates of the vertex represent in this context?</p>
+    text: `<p>The graph gives the height \\(H\\), in feet, of a ball \\(t\\) seconds after it is thrown is modeled by, where \\(t\\) is <strong>time, in seconds</strong>, and \\(H(t)\\) is the <strong>height of the ball, in feet</strong>. What do the coordinates of the vertex represent in this context?</p>
       <div class="mc-choices">
         <div class="mc-choice correct">
           <span class="mc-label">A</span>
@@ -15835,10 +15829,7 @@ export const questions = [
     questionType: "PR",
     difficulty: 2,
     tags: ["minimum", "temperature"],
-    text: `<p>The temperature \\(T\\), in degrees Fahrenheit, of a refrigerated container \\(h\\) hours after a cooling system is activated is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(T(h) = 2(h - 5)^2 + 36\\)</p>
-      <p>where \\(h\\) is <strong>time, in hours</strong>, and \\(T(h)\\) is the <strong>temperature, in degrees Fahrenheit</strong>.</p>
-      <p>The vertex of the graph of \\(y = T(h)\\) is \\((5, 36)\\). What do the coordinates of the vertex represent in this context?</p>
+    text: `<p>The graph of the temperature \\(T\\), in degrees Fahrenheit, of a refrigerated container \\(h\\) hours after a cooling system is activated, where \\(h\\) is <strong>time, in hours</strong>, and \\(T(h)\\) is the <strong>temperature, in degrees Fahrenheit</strong>. What do the coordinates of the vertex represent in this context?</p>
       <div class="mc-choices">
         <div class="mc-choice">
           <span class="mc-label">A</span>
@@ -15876,10 +15867,7 @@ export const questions = [
     questionType: "PR",
     difficulty: 2,
     tags: ["maximum", "profit", "units-scaling"],
-    text: `<p>The profit \\(P\\), in thousands of dollars, earned by a business when it produces \\(q\\) hundred units of a product is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(P(q) = -4(q - 8)^2 + 96\\)</p>
-      <p>where \\(q\\) is the <strong>number of hundreds of units produced</strong>, and \\(P(q)\\) is the <strong>profit, in thousands of dollars</strong>.</p>
-      <p>The vertex of the graph of \\(y = P(q)\\) is \\((8, 96)\\). What do the coordinates of the vertex represent in this context?</p>
+    text: `<p>The graph of the profit \\(P\\), in thousands of dollars, earned by a business when it produces \\(q\\) hundred units of a product, where \\(q\\) is the <strong>number of hundreds of units produced</strong>, and \\(P(q)\\) is the <strong>profit, in thousands of dollars</strong>. What do the coordinates of the vertex represent in this context?</p>
       <div class="mc-choices">
         <div class="mc-choice">
           <span class="mc-label">A</span>
@@ -15917,10 +15905,7 @@ export const questions = [
     questionType: "AQ",
     difficulty: 2,
     tags: ["maximum", "interpretation"],
-    text: `<p>The depth \\(D\\), in meters below the surface, of a curved tunnel at a horizontal distance \\(x\\) meters from its entrance is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(D(x) = -0.5(x - 40)^2 + 200\\)</p>
-      <p>where \\(x\\) is the horizontal distance from the entrance, in meters.</p>
-      <p>What is the best interpretation of the <strong>maximum of the function</strong> in this context?</p>
+    text: `<p>The graph of the depth \\(D\\), in meters below the surface, of a curved tunnel at a horizontal distance \\(x\\) meters from its entrance, where \\(x\\) is the horizontal distance from the entrance, in meters. What is the best interpretation of the <strong>maximum of the function</strong> in this context?</p>
       <div class="mc-choices">
         <div class="mc-choice correct">
           <span class="mc-label">A</span>
@@ -15958,9 +15943,7 @@ export const questions = [
     questionType: "AQ",
     difficulty: 2,
     tags: ["minimum", "interpretation", "units-scaling"],
-    text: `<p>The number \\(V\\), in thousands, of visitors to a park \\(m\\) months after January is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(V(m) = 3(m - 7)^2 + 24\\)</p>
-      <p>What is the best interpretation of the <strong>minimum of the function</strong> in this context?</p>
+    text: `<p>The graph of the number \\(V\\), in thousands, of visitors to a park \\(m\\) months after January. What is the best interpretation of the <strong>minimum of the function</strong> in this context?</p>
       <div class="mc-choices">
         <div class="mc-choice">
           <span class="mc-label">A</span>
@@ -15998,10 +15981,8 @@ export const questions = [
     questionType: "AQ",
     difficulty: 2,
     tags: ["maximum", "interpretation", "function-notation"],
-    text: `<p>The function</p>
-      <p style="text-align:center;margin-bottom:12px">\\(E(s) = -0.02(s - 55)^2 + 42\\)</p>
-      <p>models the fuel efficiency of a vehicle, in miles per gallon, in terms of the vehicle's speed \\(s\\), in miles per hour.</p>
-      <p>What is the best interpretation of \\((55, E(55))\\) in this context?</p>
+    text: `
+      <p>The graph models the fuel efficiency of a vehicle \\(E(x)\\), in miles per gallon, in terms of the vehicle's speed \\(s\\), in miles per hour. What is the best interpretation of \\((55, E(55))\\) in this context?</p>
       <div class="mc-choices">
         <div class="mc-choice">
           <span class="mc-label">A</span>
@@ -16039,10 +16020,8 @@ export const questions = [
     questionType: "AQ",
     difficulty: 2,
     tags: ["minimum", "interpretation", "function-notation"],
-    text: `<p>The function</p>
-      <p style="text-align:center;margin-bottom:12px">\\(C(n) = 5(n - 12)^2 + 450\\)</p>
-      <p>models the weekly operating cost of a machine, in dollars, in terms of the number of hours \\(n\\) the machine operates per week.</p>
-      <p>What is the best interpretation of \\((12, C(12))\\) in this context?</p>
+    text: `
+      <p>The graph models the weekly operating cost of a machine \\( C(x) \\), in dollars, in terms of the number of hours \\(n\\) the machine operates per week. What is the best interpretation of \\((12, C(12))\\) in this context?</p>
       <div class="mc-choices">
         <div class="mc-choice correct">
           <span class="mc-label">A</span>
