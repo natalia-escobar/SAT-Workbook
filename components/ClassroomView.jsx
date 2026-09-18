@@ -6,6 +6,7 @@ import DesmosGraph from "./DesmosGraph";
 import GraphChoices from "./GraphChoices";
 import ProblemNav from "./ProblemNav";
 import useShowIds from "@/lib/useShowIds";
+import Link from "next/link";
 
 export default function ClassroomView({ topic }) {
   const [problemIndex, setProblemIndex] = useState(0);
@@ -36,6 +37,10 @@ export default function ClassroomView({ topic }) {
 
   return (
     <main className="page">
+      <Link href="/" className="back-link">
+      <i className="ti ti-arrow-left" />
+      All workbooks
+      </Link>
       <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "16px" }}>{topic.name}</h1>
 
             <ProblemNav problemIndex={problemIndex} total={total} setProblemIndex={setProblemIndex} isFirst={isFirst} isLast={isLast} />
