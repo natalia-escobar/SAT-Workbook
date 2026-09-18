@@ -146,6 +146,7 @@
   .xy-table{border-collapse:collapse;font-size:13px}
   .xy-table td{border:1px solid #ccc;padding:5px 10px;text-align:center;min-width:32px}
   .xy-table tr:first-child td{background:#f5f5f3;font-weight:500;color:#555}
+  .xy-table-center {margin: 12px auto;}
   .problem-statement .mc-choice.correct .xy-table td{border-color:#9FE1CB}
   .problem-statement .mc-choice.correct .xy-table tr:first-child td{background:#9FE1CB;color:#085041}
   .nav-btn{padding:4px 10px;border:0.5px solid #e0e0de;border-radius:6px;background:#fff;cursor:pointer;font-size:12px;color:#555}

@@ -17442,5 +17442,2399 @@ export const questions = [
     videoId: "",
   },
 
+  // Problem X-Intercept
+
+  {
+    id: "Par-XInt-1-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 1,
+    questionType: "WE",
+    difficulty: 1,
+    tags: ["x-intercept", "double-root", "vertex-form", "free-response"],
+    text: `<p>The graph of the function \\(f\\) is shown above. What is the value of \\(x\\) for which \\(f(x) = 0\\)?</p>`,
+    answer: "9",
+    graph: {
+      expressions: [
+        { latex: "y = (x-9)^2", color: "#2563eb" },
+      ],
+      bounds: { left: 3, right: 15, bottom: -4, top: 20 },
+    },
+    graphChoices: null,
+    steps: [
+      { text: "\\(f(x) = 0\\) means the y-value is 0, so the question is asking where the graph crosses or touches the x-axis", note: "", gif: "", video: "" },
+      { text: "Type \\(y = (x - 9)^2\\) into Desmos", note: "", gif: "", video: "" },
+      { text: "The parabola touches the x-axis at exactly one point. Click it to reveal the coordinates", note: "Point: (9, 0)", gif: "", video: "" },
+      { text: "The x-intercept is the x-coordinate: 9", note: "When a parabola only touches the x-axis, the x-intercept and the vertex are the same point", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-1-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 1,
+    questionType: "GP",
+    difficulty: 1,
+    tags: ["x-intercept", "double-root", "vertex-form", "free-response"],
+    text: `<p>The graph of the function \\(g\\) is shown above. What is the value of \\(x\\) for which \\(g(x) = 0\\)?</p>`,
+    answer: "6",
+    graph: {
+      expressions: [
+        { latex: "y = 3(x-6)^2", color: "#2563eb" },
+      ],
+      bounds: { left: 1, right: 11, bottom: -4, top: 30 },
+    },
+    graphChoices: null,
+    steps: [
+      { text: "Type the function into Desmos", note: "", gif: "", video: "" },
+      { text: "Find where the graph meets the x-axis and click that point", note: "", gif: "", video: "" },
+      { text: "Read the x-coordinate", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-1-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 1,
+    questionType: "PR",
+    difficulty: 1,
+    tags: ["x-intercept", "double-root", "standard-form", "free-response"],
+    text: `<p>The graph of the function \\(h\\) is shown above. What is the value of \\(x\\) for which \\(h(x) = 0\\)? </p>`,
+    answer: "7",
+    graph: {
+      expressions: [
+        { latex: "y = 2x^2 - 28x + 98", color: "#2563eb" },
+      ],
+      bounds: { left: 2, right: 12, bottom: -4, top: 30 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-1-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: ["x-intercept", "double-root", "standard-form", "free-response"],
+    text: `<p>The graph of the function \\(p\\) is shown above. What is the value of \\(x\\) for which \\(p(x) = 0\\)?</p>`,
+    answer: "5",
+    graph: {
+      expressions: [
+        { latex: "y = -4x^2 + 40x - 100", color: "#2563eb" },
+      ],
+      bounds: { left: 0, right: 10, bottom: -30, top: 4 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-1-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: ["x-intercept", "double-root", "standard-form", "free-response"],
+    text: `<p>The graph of the function \\(q\\) is shown above. What is the value of \\(x\\) for which \\(q(x) = 0\\)?</p>`,
+    answer: "8",
+    graph: {
+      expressions: [
+        { latex: "y = 5x^2 - 80x + 320", color: "#2563eb" },
+      ],
+      bounds: { left: 3, right: 13, bottom: -4, top: 40 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-2-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 2,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "parameter", "slider"],
+    text: `<p>In the \\(xy\\)-plane, the graph of a quadratic function \\(f\\) crosses the \\(x\\)-axis at \\((r, 0)\\) and \\((s, 0)\\), where \\(r\\) and \\(s\\) are positive constants and \\(s = 2r + 3\\). Which of the following could define \\(f\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(f(x) = (x + r)(x + 2r + 3)\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(f(x) = (x - r)(x - 2r - 3)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(f(x) = (x - r)(x + 2r + 3)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(f(x) = x(x - r)(x - 2r - 3)\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "An x-intercept at \\((r, 0)\\) means \\((x - r)\\) is a factor. An x-intercept at \\((s, 0)\\) means \\((x - s)\\) is a factor", note: "Watch the signs: intercept at +r gives factor (x − r)", gif: "", video: "" },
+      { text: "Replace \\(s\\) with \\(2r + 3\\): the second factor is \\((x - (2r + 3)) = (x - 2r - 3)\\)", note: "Distribute the minus sign to both terms", gif: "", video: "" },
+      { text: "So \\(f(x) = (x - r)(x - 2r - 3)\\), which is choice B", note: "D has an extra factor of x, which would make it cubic, not quadratic", gif: "", video: "" },
+      { text: "Check in Desmos: type choice B and add a slider for r. For any r, the graph crosses at r and at 2r + 3", note: "Try r = 1: crossings at 1 and 5", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-2-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 2,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "parameter", "slider"],
+    text: `<p>In the \\(xy\\)-plane, the graph of a quadratic function \\(g\\) has \\(x\\)-intercepts at \\((p, 0)\\) and \\((q, 0)\\), where \\(p\\) and \\(q\\) are positive constants and \\(q = 3p - 4\\). Which of the following could define \\(g\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(g(x) = (x + p)(x - 3p + 4)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(g(x) = (x - p)(x + 3p - 4)\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(g(x) = (x - p)(x - 3p + 4)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(g(x) = x(x - p)(x - 3p + 4)\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Write the two factors from the intercepts: \\((x - p)\\) and \\((x - q)\\)", note: "", gif: "", video: "" },
+      { text: "Substitute \\(q = 3p - 4\\) into the second factor and distribute the minus sign", note: "", gif: "", video: "" },
+      { text: "Match to the choice with exactly those two factors", note: "", gif: "", video: "" },
+      { text: "Confirm in Desmos with a slider for p", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-2-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 2,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "parameter"],
+    text: `<p>In the \\(xy\\)-plane, the graph of a quadratic function \\(h\\) crosses the \\(x\\)-axis at \\((a, 0)\\) and \\((b, 0)\\), where \\(a\\) and \\(b\\) are positive constants and \\(b = 4a + 5\\). Which of the following could define \\(h\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(h(x) = (x - a)(x - 4a - 5)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(h(x) = (x + a)(x - 4a - 5)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(h(x) = (x - a)(x + 4a + 5)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(h(x) = x(x - a)(x - 4a - 5)\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-2-Q-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 2,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "parameter"],
+    text: `<p>In the \\(xy\\)-plane, the graph of a quadratic function \\(j\\) contains the points \\((m, 0)\\) and \\((n, 0)\\), where \\(m\\) and \\(n\\) are positive constants and \\(n = 5m - 7\\). Which of the following could define \\(j\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(j(x) = (x + m)(x + 5m - 7)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(j(x) = (x - m)(x + 5m - 7)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(j(x) = x(x - m)(x - 5m + 7)\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(j(x) = (x - m)(x - 5m + 7)\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-2-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "parameter"],
+    text: `<p>In the \\(xy\\)-plane, the graph of a quadratic function \\(f\\) crosses the \\(x\\)-axis at \\((r, 0)\\) and \\((s, 0)\\), where \\(r\\) and \\(s\\) are positive constants and</p>
+      <p style="text-align:center;margin-bottom:12px">\\(s = 3r + 8.\\)</p>
+      <p>Which of the following could define \\(f\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(f(x) = (x + r)(x - 3r - 8)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(f(x) = (x - r)(x + 3r + 8)\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(f(x) = (x - r)(x - 3r - 8)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(f(x) = x(x - r)(x - 3r - 8)\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-2-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "parameter"],
+    text: `<p>In the \\(xy\\)-plane, the graph of a quadratic function \\(g\\) contains the points \\((u, 0)\\) and \\((v, 0)\\), where \\(u\\) and \\(v\\) are positive constants and</p>
+      <p style="text-align:center;margin-bottom:12px">\\(v = 6u - 5.\\)</p>
+      <p>Which of the following could define \\(g\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(g(x) = (x - u)(x - 6u + 5)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(g(x) = (x + u)(x - 6u + 5)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(g(x) = (x - u)(x + 6u - 5)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(g(x) = x(x - u)(x - 6u + 5)\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-2-AQ-3",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "parameter"],
+    text: `<p>In the \\(xy\\)-plane, the graph of a quadratic function \\(h\\) crosses the \\(x\\)-axis at \\((c, 0)\\) and \\((d, 0)\\), where \\(c\\) and \\(d\\) are positive constants and</p>
+      <p style="text-align:center;margin-bottom:12px">\\(d = 4c - 9.\\)</p>
+      <p>Which of the following could define \\(h\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(h(x) = (x + c)(x + 4c - 9)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(h(x) = x(x - c)(x - 4c + 9)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(h(x) = (x - c)(x + 4c - 9)\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(h(x) = (x - c)(x - 4c + 9)\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-XInt-3-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 3,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "read-graph"],
+    text: `<p>A theater estimates its weekly profit \\(P(x)\\), in thousands of dollars, from selling tickets at \\(x\\) dollars each. The graph of \\(y = P(x)\\) is shown.</p>
+      <p>Which of the following is a factor of \\(P(x)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(x - 10\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(x - 15\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(x - 25\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(x - 40\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 - 45x + 450", color: "#2563eb" },
+      ],
+      bounds: { left: 0, right: 45, bottom: -120, top: 500 },
+    },
+    graphChoices: null,
+    steps: [
+      { text: "A factor \\((x - k)\\) means the graph has an x-intercept at \\(x = k\\). So find where the graph crosses the x-axis", note: "", gif: "", video: "" },
+      { text: "Click each crossing point on the graph to reveal its coordinates", note: "Intercepts: (15, 0) and (30, 0)", gif: "", video: "" },
+      { text: "The factors are \\((x - 15)\\) and \\((x - 30)\\). Only \\(x - 15\\) is a choice: B", note: "The sign flips: intercept at +15 means factor (x − 15)", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-3-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 3,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "read-graph"],
+    text: `<p>The daily profit \\(D(n)\\), in dollars, of a local car wash is modeled as a function of \\(n\\), the number of cars washed. The graph of \\(y = D(n)\\) is shown.</p>
+      <p>Which of the following is a factor of \\(D(n)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(n\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(n - 25\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(n - 50\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(n - 100\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 - 60x", color: "#2563eb" },
+      ],
+      bounds: { left: -5, right: 70, bottom: -1000, top: 700 },
+    },
+    graphChoices: null,
+    steps: [
+      { text: "Find the x-intercepts on the graph", note: "", gif: "", video: "" },
+      { text: "Turn each intercept \\(k\\) into a factor \\((n - k)\\)", note: "An intercept at 0 gives the factor (n − 0), which is just n", gif: "", video: "" },
+      { text: "Pick the choice that matches one of your factors", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-3-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 3,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "read-graph"],
+    text: `<p>The height \\(H(t)\\), in meters, of a rocket \\(t\\) seconds after launch is modeled by a quadratic function. The graph of \\(y = H(t)\\) is shown.</p>
+      <p>Which of the following is a factor of \\(H(t)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(t - 4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(t - 6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(t - 10\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(t - 12\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: {
+      expressions: [
+        { latex: "y = -5x^2 + 60x", color: "#2563eb" },
+      ],
+      bounds: { left: -1, right: 14, bottom: -30, top: 200 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-3-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "read-graph"],
+    text: `<p>The height \\(B(t)\\), in feet, of a ball \\(t\\) seconds after it is thrown is modeled by a quadratic function. The graph of \\(y = B(t)\\) is shown.</p>
+      <p>Which of the following is a factor of \\(B(t)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(t - 5\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(t - 6\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(t - 7\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(t - 8\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "y = -16x^2 + 112x", color: "#2563eb" },
+      ],
+      bounds: { left: -1, right: 9, bottom: -30, top: 220 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-3-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "read-graph"],
+    text: `<p>The monthly profit \\(R(q)\\), in dollars, from selling \\(q\\) units of a product is modeled by a quadratic function. The graph of \\(y = R(q)\\) is shown.</p>
+      <p>Which of the following is a factor of \\(R(q)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(q - 5\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(q - 10\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(q - 15\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(q - 20\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "y = 2x^2 - 90x + 700", color: "#2563eb" },
+      ],
+      bounds: { left: 0, right: 45, bottom: -400, top: 800 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-XInt-4-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 4,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
+    text: `<p>The graph of \\(f(x)\\) is shown above. The function can also be written as</p>
+      <p style="text-align:center;margin-bottom:12px">\\(f(x) = (x - 4)(x + b),\\)</p>
+      <p>where \\(b\\) is a constant. What is the value of \\(5b - 6\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(18\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(20\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(24\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(30\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 + 2x - 24", color: "#2563eb" },
+      ],
+      bounds: { left: -9, right: 7, bottom: -30, top: 20 },
+    },
+    graphChoices: null,
+    steps: [
+      { text: "The factor \\((x - 4)\\) matches the x-intercept at 4. The other factor \\((x + b)\\) must match the other x-intercept", note: "", gif: "", video: "" },
+      { text: "Click the other crossing point on the graph", note: "Intercept: (−6, 0)", gif: "", video: "" },
+      { text: "An intercept at −6 means the factor is \\((x - (-6)) = (x + 6)\\), so \\(b = 6\\)", note: "Careful: b is 6, not −6, because the factor is written (x + b)", gif: "", video: "" },
+      { text: "The question asks for \\(5b - 6 = 5(6) - 6 = 24\\): choice C", note: "Always finish the question; b alone is not the answer", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-4-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 4,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
+    text: `<p>The graph of \\(g(x)\\) is shown above. The function can also be written as</p>
+      <p style="text-align:center;margin-bottom:12px">\\(g(x) = (x - 5)(x + c),\\)</p>
+      <p>where \\(c\\) is a constant. What is the value of \\(2c - 1\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(9\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(11\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(12\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(13\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 + x - 30", color: "#2563eb" },
+      ],
+      bounds: { left: -9, right: 8, bottom: -35, top: 20 },
+    },
+    graphChoices: null,
+    steps: [
+      { text: "Find the x-intercept that is not already accounted for by \\((x - 5)\\)", note: "", gif: "", video: "" },
+      { text: "Convert that intercept into the factor \\((x + c)\\) and read off \\(c\\)", note: "", gif: "", video: "" },
+      { text: "Substitute \\(c\\) into \\(2c - 1\\)", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-4-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 4,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
+    text: `<p>The graph of \\(h(x)\\) is shown above. The function can also be written as</p>
+      <p style="text-align:center;margin-bottom:12px">\\(h(x) = (x - 7)(x + d),\\)</p>
+      <p>where \\(d\\) is a constant. What is the value of \\(3d + 2\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(10\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(12\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(14\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(16\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 - 3x - 28", color: "#2563eb" },
+      ],
+      bounds: { left: -7, right: 10, bottom: -35, top: 20 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-4-Q-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 4,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
+    text: `<p>The graph of \\(p(x)\\) is shown above. The function can also be written as</p>
+      <p style="text-align:center;margin-bottom:12px">\\(p(x) = (x - 9)(x + k),\\)</p>
+      <p>where \\(k\\) is a constant. What is the value of \\(k^2 - 1\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(15\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(20\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(24\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(26\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 - 4x - 45", color: "#2563eb" },
+      ],
+      bounds: { left: -8, right: 12, bottom: -55, top: 20 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-4-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
+    text: `<p>The graph of \\(r(x)\\) is shown above. The function can also be written as</p>
+      <p style="text-align:center;margin-bottom:12px">\\(r(x) = (x - 6)(x + m),\\)</p>
+      <p>where \\(m\\) is a constant. What is the value of \\(4m - 5\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(19\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(21\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(23\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(25\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 + x - 42", color: "#2563eb" },
+      ],
+      bounds: { left: -10, right: 9, bottom: -48, top: 20 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-4-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
+    text: `<p>The graph of \\(s(x)\\) is shown above. The function can also be written as</p>
+      <p style="text-align:center;margin-bottom:12px">\\(s(x) = (x - 9)(x + n),\\)</p>
+      <p>where \\(n\\) is a constant. What is the value of \\(3n + 4\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(18\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(22\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(24\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(26\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 - 3x - 54", color: "#2563eb" },
+      ],
+      bounds: { left: -9, right: 12, bottom: -62, top: 20 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-4-AQ-3",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
+    text: `<p>The graph of \\(q(x)\\) is shown above. The function can also be written as</p>
+      <p style="text-align:center;margin-bottom:12px">\\(q(x) = (x - 5)(x + p),\\)</p>
+      <p>where \\(p\\) is a constant. What is the value of \\(2p + 7\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(19\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(21\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(23\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(25\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 + 3x - 40", color: "#2563eb" },
+      ],
+      bounds: { left: -11, right: 8, bottom: -48, top: 20 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-4-AQ-4",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
+    text: `<p>The graph of \\(w(x)\\) is shown above. The function can also be written as</p>
+      <p style="text-align:center;margin-bottom:12px">\\(w(x) = (x - 11)(x + v),\\)</p>
+      <p>where \\(v\\) is a constant. What is the value of \\(5v - 3\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(28\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(30\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(32\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(35\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 - 4x - 77", color: "#2563eb" },
+      ],
+      bounds: { left: -10, right: 14, bottom: -90, top: 20 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  
+  {
+    id: "Par-XInt-5-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 5,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "table", "polynomial"],
+    text: `<p>The table gives selected values of a polynomial function \\(g\\).</p>
+      <table class="xy-table xy-table-center">
+        <tr><td>\\(x\\)</td><td>\\(g(x)\\)</td></tr>
+          <tr><td>\\(-5\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(-2\\)</td><td>\\(8\\)</td></tr>
+          <tr><td>\\(1\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(3\\)</td><td>\\(-6\\)</td></tr>
+          <tr><td>\\(6\\)</td><td>\\(0\\)</td></tr>
+      </table>
+      <p>Based on the values in the table, which of the following must be a factor of \\(g\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(x + 2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\((x - 3)(x + 4)\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(x - 6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\((x + 3)(x - 2)\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "A factor \\((x - k)\\) means \\(g(k) = 0\\). So look for the rows where the output is 0", note: "", gif: "", video: "" },
+      { text: "The table shows \\(g(x) = 0\\) at \\(x = -5\\), \\(x = 1\\), and \\(x = 6\\)", note: "Ignore the rows with 8 and −6; those are not zeros", gif: "", video: "" },
+      { text: "Those give the factors \\((x + 5)\\), \\((x - 1)\\), and \\((x - 6)\\)", note: "Zero at −5 gives factor (x + 5)", gif: "", video: "" },
+      { text: "The only choice built from those factors is \\(x - 6\\): choice C", note: "B and D use numbers that are not zeros in the table", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-5-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 5,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "table", "polynomial"],
+    text: `<p>The table gives selected values of a polynomial function \\(h\\).</p>
+      <table class="xy-table xy-table-center">
+        <tr><td>\\(x\\)</td><td>\\(h(x)\\)</td></tr>
+          <tr><td>\\(-7\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(-4\\)</td><td>\\(12\\)</td></tr>
+          <tr><td>\\(-2\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(3\\)</td><td>\\(-9\\)</td></tr>
+          <tr><td>\\(5\\)</td><td>\\(0\\)</td></tr>
+      </table>
+      <p>Based on the values in the table, which of the following must be a factor of \\(h\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\((x + 4)(x - 5)\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(x + 2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\((x - 3)(x + 6)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(x - 4\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Circle every row where the output is 0", note: "", gif: "", video: "" },
+      { text: "Turn each of those x-values into a factor, flipping the sign", note: "", gif: "", video: "" },
+      { text: "Find the choice made only from those factors", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-5-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 5,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "table", "polynomial"],
+    text: `<p>The table gives selected values of a polynomial function \\(r\\).</p>
+      <table class="xy-table xy-table-center">
+        <tr><td>\\(x\\)</td><td>\\(r(x)\\)</td></tr>
+          <tr><td>\\(-6\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(-3\\)</td><td>\\(-10\\)</td></tr>
+          <tr><td>\\(2\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(4\\)</td><td>\\(15\\)</td></tr>
+          <tr><td>\\(7\\)</td><td>\\(0\\)</td></tr>
+      </table>
+      <p>Based on the values in the table, which of the following must be a factor of \\(r\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(x - 2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\((x + 3)(x - 7)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(x - 4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\((x + 5)(x - 3)\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-5-Q-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 5,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "table", "polynomial"],
+    text: `<p>The table gives selected values of a polynomial function \\(m\\).</p>
+      <table class="xy-table xy-table-center">
+        <tr><td>\\(x\\)</td><td>\\(m(x)\\)</td></tr>
+          <tr><td>\\(-8\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(-5\\)</td><td>\\(14\\)</td></tr>
+          <tr><td>\\(-1\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(2\\)</td><td>\\(-12\\)</td></tr>
+          <tr><td>\\(4\\)</td><td>\\(0\\)</td></tr>
+      </table>
+      <p>Based on the values in the table, which of the following must be a factor of \\(m\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\((x + 5)(x - 4)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(x - 2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\((x + 6)(x - 3)\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(x + 8\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-5-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "table", "polynomial"],
+    text: `<p>The table gives selected values of a polynomial function \\(v\\).</p>
+      <table class="xy-table xy-table-center">
+        <tr><td>\\(x\\)</td><td>\\(v(x)\\)</td></tr>
+          <tr><td>\\(-4\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(-1\\)</td><td>\\(11\\)</td></tr>
+          <tr><td>\\(3\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(5\\)</td><td>\\(-7\\)</td></tr>
+          <tr><td>\\(8\\)</td><td>\\(0\\)</td></tr>
+      </table>
+      <p>Based on the values in the table, which of the following must be a factor of \\(v\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\((x + 1)(x - 8)\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(x + 4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(x - 5\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\((x + 2)(x - 6)\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-5-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "table", "polynomial"],
+    text: `<p>The table gives selected values of a polynomial function \\(k\\).</p>
+      <table class="xy-table xy-table-center">
+        <tr><td>\\(x\\)</td><td>\\(k(x)\\)</td></tr>
+          <tr><td>\\(-9\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(-6\\)</td><td>\\(-16\\)</td></tr>
+          <tr><td>\\(-3\\)</td><td>\\(0\\)</td></tr>
+          <tr><td>\\(2\\)</td><td>\\(13\\)</td></tr>
+          <tr><td>\\(6\\)</td><td>\\(0\\)</td></tr>
+      </table>
+      <p>Based on the values in the table, which of the following must be a factor of \\(k\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(x + 6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\((x + 4)(x - 6)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\((x - 2)(x + 7)\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(x + 3\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-XInt-6-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 6,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["x-intercept", "interpretation", "read-graph"],
+    text: `<p>The height \\(H(t)\\), in feet, of a model rocket \\(t\\) seconds after it is launched is shown above.</p>
+      <p>Which of the following is the best interpretation of the \\(t\\)-intercepts of the graph of \\(y = H(t)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>The heights of the rocket when it is launched and when it reaches the ground.</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>The times, in seconds, when the height of the rocket is 0 feet.</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>The times, in seconds, when the rocket reaches its greatest and least heights.</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>The heights, in feet, of the rocket at two different times.</span></div>
+      </div>`,
+    answer: "B",
+    graph: {
+      expressions: [{ latex: "y = -\\frac{5}{2}x^2 + 30x + 8", color: "#2563eb" }],
+      bounds: { left: -2, right: 14, bottom: -20, top: 110 },
+    },
+    graphChoices: null,
+    steps: [
+      { text: "A \\(t\\)-intercept is a point where the graph crosses the horizontal axis, which is where \\(y = 0\\)", note: "", gif: "", video: "" },
+      { text: "Translate into the context: \\(y\\) is the height \\(H(t)\\), so \\(y = 0\\) means the height is 0 feet", note: "", gif: "", video: "" },
+      { text: "The intercept itself is a \\(t\\)-value, so the answer must be about times, not heights", note: "That rules out A and D right away", gif: "", video: "" },
+      { text: "\"Times when the height is 0 feet\" is choice B", note: "C describes the vertex, not the intercepts", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-6-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 6,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["x-intercept", "interpretation", "read-graph"],
+    text: `<p>The daily profit \\(P(n)\\), in hundreds of dollars, from selling \\(n\\) batches of a product is shown above.</p>
+      <p>Which of the following is the best interpretation of the \\(n\\)-intercepts of the graph of \\(y = P(n)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>The numbers of batches sold for which the daily profit is 0 dollars.</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>The daily profits when the company sells the fewest and greatest numbers of batches.</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>The numbers of batches sold for which the company obtains its greatest daily profit.</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>The daily profits when two different numbers of batches are sold.</span></div>
+      </div>`,
+    answer: "A",
+    graph: {
+      expressions: [{ latex: "y = -0.4x^2 + 14.4x - 35", color: "#2563eb" }],
+      bounds: { left: -2, right: 38, bottom: -50, top: 110 },
+    },
+    graphChoices: null,
+    steps: [
+      { text: "Decide what an \\(n\\)-intercept is in terms of \\(y\\)", note: "", gif: "", video: "" },
+      { text: "Say what \\(y = 0\\) means in this context", note: "", gif: "", video: "" },
+      { text: "Pick the choice that describes \\(n\\)-values (batches), not \\(y\\)-values (profits)", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-6-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 6,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "interpretation", "read-graph"],
+    text: `<p>The amount \\(W(r)\\), in liters, of water collected by a system when the flow rate is \\(r\\) liters per minute is shown above.</p>
+      <p>Which of the following is the best interpretation of the \\(r\\)-intercepts of the graph of \\(y = W(r)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>The amounts of water collected at two different flow rates.</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>The flow rates, in liters per minute, for which the greatest amount of water is collected.</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>The amounts of water collected when the flow rate is 0 liters per minute.</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>The flow rates, in liters per minute, for which the amount of water collected is 0 liters.</span></div>
+      </div>`,
+    answer: "D",
+    graph: {
+      expressions: [{ latex: "y = -\\frac{3}{8}x^2 + 9x + 42", color: "#2563eb" }],
+      bounds: { left: -8, right: 32, bottom: -20, top: 110 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-6-Q-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 6,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "interpretation", "read-graph"],
+    text: `<p>The number \\(V(k)\\) of visitors to an exhibit as a function of the admission price \\(k\\), in dollars, is shown above.</p>
+      <p>Which of the following is the best interpretation of the \\(k\\)-intercepts of the graph of \\(y = V(k)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>The numbers of visitors when two different admission prices are charged.</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>The admission prices, in dollars, that result in the greatest number of visitors.</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>The admission prices, in dollars, for which the model predicts 0 visitors.</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>The numbers of visitors when admission to the exhibit is free.</span></div>
+      </div>`,
+    answer: "C",
+    graph: {
+      expressions: [{ latex: "y = -1.25x^2 + 35x + 180", color: "#2563eb" }],
+      bounds: { left: -8, right: 36, bottom: -50, top: 480 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-6-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "interpretation", "read-graph"],
+    text: `<p>The height \\(H(t)\\), in feet, of a rocket \\(t\\) seconds after it is launched is shown above.</p>
+      <p>Which of the following is the best interpretation of the <strong>positive \\(t\\)-intercept</strong> of the graph of \\(y = H(t)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>The height, in feet, from which the rocket was launched.</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>The time, in seconds, when the rocket reaches its greatest height.</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>The time, in seconds, when the rocket reaches the ground.</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>The greatest height, in feet, reached by the rocket.</span></div>
+      </div>`,
+    answer: "C",
+    graph: {
+      expressions: [{ latex: "y = -16x^2 + 144x + 160", color: "#2563eb" }],
+      bounds: { left: -3, right: 12, bottom: -50, top: 520 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-6-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "interpretation", "read-graph"],
+    text: `<p>The profit \\(P(n)\\), in dollars, from producing and selling \\(n\\) items is shown above.</p>
+      <p>Which of the following is the best interpretation of the \\(n\\)-intercepts of the graph of \\(y = P(n)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>The numbers of items for which the profit is 0 dollars.</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>The profits earned from selling two different numbers of items.</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>The numbers of items that result in the greatest profit.</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>The minimum and maximum profits predicted by the model.</span></div>
+      </div>`,
+    answer: "A",
+    graph: {
+      expressions: [{ latex: "y = -2x^2 + 100x - 800", color: "#2563eb" }],
+      bounds: { left: 0, right: 50, bottom: -100, top: 500 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-6-AQ-3",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "interpretation", "read-graph"],
+    text: `<p>The height \\(A(d)\\), in feet, of an arch above the ground at a horizontal distance of \\(d\\) feet from one end of the arch is shown above.</p>
+      <p>Which of the following is the best interpretation of the \\(d\\)-intercepts of the graph of \\(y = A(d)\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>The heights, in feet, of the two ends of the arch.</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>The horizontal distances, in feet, where the arch meets the ground.</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>The horizontal distance at which the arch reaches its greatest height.</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>The greatest and least heights of the arch.</span></div>
+      </div>`,
+    answer: "B",
+    graph: {
+      expressions: [{ latex: "y = -\\frac{1}{5}x^2 + 8x", color: "#2563eb" }],
+      bounds: { left: -5, right: 45, bottom: -10, top: 90 },
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-XInt-7-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 7,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "context", "positive-root"],
+    text: `<p>The height \\(H(t)\\), in feet, of a model rocket \\(t\\) seconds after it is launched is modeled by</p>
+      <p style="text-align:center">\\(H(t) = -2.5(t + 1.6)(t - 8.4).\\)</p>
+      <p>According to the model, how many seconds after launch does the rocket <strong>reach the ground</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(1.6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(2.5\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(8.4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(10.0\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "\"Reaches the ground\" means the height is 0, so solve \\(H(t) = 0\\). That is the x-intercept", note: "", gif: "", video: "" },
+      { text: "The function is already factored, so read the zeros straight from the factors: \\(t + 1.6 = 0\\) gives \\(t = -1.6\\), and \\(t - 8.4 = 0\\) gives \\(t = 8.4\\)", note: "Flip the sign: (t + 1.6) means t = −1.6", gif: "", video: "" },
+      { text: "Time after launch can't be negative, so \\(t = -1.6\\) is not a real answer. The rocket reaches the ground at \\(t = 8.4\\): choice C", note: "A is the trap: 1.6 is the wrong sign", gif: "", video: "" },
+      { text: "Check in Desmos: type the function and click where the graph crosses the positive part of the x-axis", note: "The −2.5 in front only stretches the graph; it does not move the intercepts", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-7-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 7,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "context", "positive-root"],
+    text: `<p>The height \\(D(t)\\), in meters, of an object relative to the surface of the water \\(t\\) seconds after it is released is modeled by</p>
+      <p style="text-align:center">\\(D(t) = -1.8(t + 2.5)(t - 6.7).\\)</p>
+      <p>According to the model, how many seconds after the object is released does it <strong>reach the surface of the water</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(6.7\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(2.5\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(4.2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(9.2\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Decide what \"reaches the surface\" means for \\(D(t)\\)", note: "", gif: "", video: "" },
+      { text: "Set each factor equal to 0 and solve for \\(t\\)", note: "", gif: "", video: "" },
+      { text: "Throw out the value that doesn't make sense as a time, keep the other", note: "", gif: "", video: "" },
+      { text: "Confirm in Desmos by finding the positive x-intercept", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-7-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "context", "positive-root"],
+    text: `<p>The height \\(B(t)\\), in feet, of a ball relative to the roof of a building \\(t\\) seconds after the ball is thrown is modeled by</p>
+      <p style="text-align:center">\\(B(t) = -3.2(t + 1.5)(t - 7.5).\\)</p>
+      <p>According to the model, how many seconds after the ball is thrown does it <strong>reach the roof</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(3.2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(6.0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(9.0\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(7.5\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-7-Q-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "context", "positive-root"],
+    text: `<p>The height \\(R(t)\\), in feet, of a rocket \\(t\\) seconds after it is launched is modeled by</p>
+      <p style="text-align:center">\\(R(t) = -4.6(t + 0.8)(t - 5.9).\\)</p>
+      <p>According to the model, how many seconds after launch does the rocket <strong>reach the ground</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(4.6\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(5.9\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(0.8\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(6.7\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-7-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "context", "positive-root"],
+    text: `<p>The height \\(W(t)\\), in meters, of an object relative to the surface of a pool \\(t\\) seconds after it is launched upward is modeled by</p>
+      <p style="text-align:center">\\(W(t) = -2.4(t + 1.3)(t - 6.2).\\)</p>
+      <p>According to the model, how many seconds after the object is launched does it <strong>reach the surface of the water</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(1.3\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(4.9\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(6.2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(7.5\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-7-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factored-form", "context", "positive-root"],
+    text: `<p>The height \\(G(t)\\), in feet, of a ball relative to the roof of a building \\(t\\) seconds after it is thrown is modeled by</p>
+      <p style="text-align:center">\\(G(t) = -3.7(t + 2.1)(t - 9.3).\\)</p>
+      <p>According to the model, how many seconds after the ball is thrown does it <strong>reach the roof</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(9.3\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(7.2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(3.7\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(11.4\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+   {
+    id: "Par-XInt-8-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 8,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "equivalent-form"],
+    text: `<p>The function \\(g\\) is defined by</p>
+      <p style="text-align:center">\\(g(t) = 12t^2 - 23t + 10.\\)</p>
+      <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{g(t) = 0}\\) as constants or coefficients</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(g(t) = t(12t - 23) + 10\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(g(t) = (4t - 5)(3t - 2)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(g(t) = 12t^2 - 20t - 3t + 10\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(g(t) = 12\\left(t - \\dfrac{23}{24}\\right)^2 - \\dfrac{49}{48}\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "The solutions of \\(g(t) = 0\\) are the x-intercepts. The form that shows them directly is factored form, a product of two factors set to zero", note: "Vertex form (D) shows the vertex, not the solutions", gif: "", video: "" },
+      { text: "Only choice B is a product of two linear factors: \\((4t - 5)(3t - 2)\\)", note: "A and C are just partially expanded versions of the original", gif: "", video: "" },
+      { text: "Check it is equivalent: in Desmos type \\(y = 12x^2 - 23x + 10\\) and \\(y = (4x - 5)(3x - 2)\\). The two graphs land exactly on top of each other", note: "", gif: "", video: "" },
+      { text: "Bonus: from B the solutions are \\(t = \\tfrac{5}{4}\\) and \\(t = \\tfrac{2}{3}\\). Click the x-intercepts in Desmos to confirm", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-8-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 8,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "equivalent-form"],
+    text: `<p>The function \\(h\\) is defined by</p>
+      <p style="text-align:center">\\(h(r) = 14r^2 - 33r + 18.\\)</p>
+      <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{h(r) = 0}\\) as constants or coefficients</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(h(r) = r(14r - 33) + 18\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(h(r) = (7r - 3)(2r - 6)\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(h(r) = (7r - 6)(2r - 3)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(h(r) = 14r^2 - 21r - 12r + 18\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Find the choices that are in factored form", note: "There are two this time", gif: "", video: "" },
+      { text: "Graph the original and each factored choice in Desmos", note: "", gif: "", video: "" },
+      { text: "Keep the one whose graph matches the original exactly", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-8-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 8,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "equivalent-form"],
+    text: `<p>The function \\(P\\) is defined by</p>
+      <p style="text-align:center">\\(P(m) = 15m^2 - 47m + 28.\\)</p>
+      <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{P(m) = 0}\\) as constants or coefficients</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(P(m) = m(15m - 47) + 28\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(P(m) = (5m - 4)(3m - 7)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(P(m) = 15m^2 - 35m - 12m + 28\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(P(m) = 15\\left(m - \\dfrac{47}{30}\\right)^2 - \\dfrac{529}{60}\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-8-Q-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 8,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "equivalent-form"],
+    text: `<p>The function \\(Q\\) is defined by</p>
+      <p style="text-align:center">\\(Q(v) = 24v^2 - 65v + 21.\\)</p>
+      <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{Q(v) = 0}\\) as constants or coefficients</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(Q(v) = v(24v - 65) + 21\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(Q(v) = (8v - 3)(3v - 7)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(Q(v) = 24v^2 - 56v - 9v + 21\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(Q(v) = 3(8v^2 - 21v + 7) - 2v\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-8-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "equivalent-form"],
+    text: `<p>The function \\(R\\) is defined by</p>
+      <p style="text-align:center">\\(R(t) = 30t^2 - 79t + 45.\\)</p>
+      <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{R(t) = 0}\\) as constants or coefficients</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(R(t) = t(30t - 79) + 45\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(R(t) = 30t^2 - 54t - 25t + 45\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(R(t) = 5(6t^2 - 15t + 9) - 4t\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(R(t) = (5t - 3)(6t - 15)\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-8-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "factored-form", "equivalent-form"],
+    text: `<p>The function \\(S\\) is defined by</p>
+      <p style="text-align:center">\\(S(w) = 28w^2 - 53w + 20.\\)</p>
+      <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{S(w) = 0}\\) as constants or coefficients</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(S(w) = (7w - 4)(4w - 5)\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(S(w) = w(28w - 53) + 20\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(S(w) = 28w^2 - 28w - 25w + 20\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(S(w) = 4(7w^2 - 14w + 5) + 3w\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-XInt-9-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 9,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["x-intercept", "number-of-solutions", "no-solution"],
+    text: `<p style="text-align:center">\\(3x^2 + 27 = -2400\\)</p>
+      <p>How many distinct real solutions does the given equation have?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>Exactly one</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>Exactly two</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>Infinitely many</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>Zero</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "A solution is an x-value where the two sides are equal. In Desmos, graph each side as its own line: \\(y = 3x^2 + 27\\) and \\(y = -2400\\)", note: "", gif: "", video: "" },
+      { text: "Count how many times the two graphs cross. Each crossing is one real solution", note: "", gif: "", video: "" },
+      { text: "The parabola never goes below 27 and the line sits at −2400, so they never meet: zero solutions, choice D", note: "Algebra check: 3x² = −2427 has no real solution because a square can't be negative", gif: "", video: "" },
+      { text: "Watch the order of the choices: it changes from question to question in this set", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-9-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 9,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["x-intercept", "number-of-solutions", "two-solutions"],
+    text: `<p style="text-align:center">\\(4x^2 - 196 = 7548\\)</p>
+      <p>How many distinct real solutions does the given equation have?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>Zero</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>Exactly one</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>Exactly two</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>Infinitely many</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph the left side and the right side as two separate equations in Desmos", note: "", gif: "", video: "" },
+      { text: "Zoom out until you can see whether they cross", note: "", gif: "", video: "" },
+      { text: "Count the crossings and match to a choice", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-9-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 9,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "number-of-solutions", "two-solutions"],
+    text: `<p style="text-align:center">\\(5x^2 - 80 = 640\\)</p>
+      <p>How many distinct real solutions does the given equation have?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>Exactly two</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>Zero</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>Exactly one</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>Infinitely many</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-9-Q-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 9,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["x-intercept", "number-of-solutions", "one-solution", "linear-in-disguise"],
+    text: `<p style="text-align:center">\\(3x(x - 8) = 3(x - 2)(x + 1)\\)</p>
+      <p>How many distinct real solutions does the given equation have?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>Zero</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>Exactly one</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>Exactly two</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>More than two</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-9-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "number-of-solutions", "no-solution"],
+    text: `<p style="text-align:center">\\(2(t + 37)^2 + 50 = -400\\)</p>
+      <p>How many distinct real solutions does the given equation have?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>Exactly one</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>Exactly two</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>Zero</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>Infinitely many</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-9-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "number-of-solutions", "one-solution", "perfect-square"],
+    text: `<p style="text-align:center">\\((m + 8)^2 + 18(m + 8) + 81 = 0\\)</p>
+      <p>How many distinct real solutions does the given equation have?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>Exactly one</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>Zero</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>Exactly two</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>Infinitely many</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-9-AQ-3",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "number-of-solutions", "two-solutions"],
+    text: `<p style="text-align:center">\\(5p^2 - 35p + 30 = 0\\)</p>
+      <p>How many distinct real solutions does the given equation have?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>Infinitely many</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>Exactly one</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>Zero</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>Exactly two</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-XInt-10-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 10,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["x-intercept", "number-of-solutions", "no-solution", "compare-equations"],
+    text: `<p>Which equation has <strong>no real solution</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\((x - 6)^2 = -25\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(x^2 - 14x + 49 = 0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(3x^2 - 27 = 0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(2x^2 + 10x + 8 = 0\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "\"No real solution\" means the graph never reaches the value on the other side. For an equation set to 0, that means the parabola never touches the x-axis", note: "", gif: "", video: "" },
+      { text: "Choice A is fastest to judge without graphing: a squared quantity can never equal a negative number, so \\((x - 6)^2 = -25\\) has no solution", note: "This is the pattern to look for first", gif: "", video: "" },
+      { text: "Confirm the others do have solutions in Desmos: B is \\((x - 7)^2\\), which touches at 7 (one solution); C and D each cross the x-axis twice", note: "", gif: "", video: "" },
+      { text: "So A is the only equation with no real solution", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-10-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 10,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["x-intercept", "number-of-solutions", "one-solution", "compare-equations"],
+    text: `<p>Which quadratic equation has <strong>exactly one real solution</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\((x - 8)^2 = -16\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(x^2 - 18x + 81 = 0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(6x^2 + 24 = 0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(4x^2 + 8x + 7 = 0\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Exactly one solution means the parabola just touches the x-axis at its vertex", note: "", gif: "", video: "" },
+      { text: "Rule out any choice where a square equals a negative number", note: "", gif: "", video: "" },
+      { text: "Graph the remaining choices in Desmos and find the one that touches the x-axis once", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-10-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 10,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["x-intercept", "number-of-solutions", "no-solution", "compare-equations"],
+    text: `<p>Which equation has <strong>no real solution</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(2x^2 - 18 = 0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\((x - 9)^2 = 49\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(4x^2 + 4x + 5 = 0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(x^2 - 16x + 64 = 0\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-10-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "number-of-solutions", "one-solution", "compare-equations"],
+    text: `<p>Which quadratic equation has <strong>exactly one real solution</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\((x + 6)^2 = 25\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(5x^2 + 20 = 0\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(3x^2 - 12x + 12 = 0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(x^2 - 49 = 0\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-10-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "number-of-solutions", "no-solution", "compare-equations"],
+    text: `<p>Which equation has <strong>no real solution</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(x^2 - 10x + 25 = 0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\((x + 7)^2 = 16\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(6x^2 - 54 = 0\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(3x^2 - 12x + 17 = 0\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-XInt-11-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 11,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["x-intercept", "projectile", "free-response", "offset-height", "decimal-answer"],
+    text: `<p>A model rocket is launched from a platform 30 meters above the ground. The rocket's height, \\(h\\), above the launch platform, in meters, \\(t\\) seconds after launch is modeled by</p>
+      <p style="text-align:center">\\(h = -4.9t^2 + 39.2t.\\)</p>
+      <p>Approximately how many seconds after launch does the rocket reach the ground?</p>`,
+    answer: "8.70",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Read carefully: \\(h\\) is the height above the <em>platform</em>, not above the ground. The platform is 30 meters up, so the ground is at \\(h = -30\\)", note: "Setting h = 0 gives the trap answer 8, which is when the rocket passes back through platform height", gif: "", video: "" },
+      { text: "In Desmos, type \\(y = -4.9x^2 + 39.2x\\) on one line and \\(y = -30\\) on the next", note: "", gif: "", video: "" },
+      { text: "Click the intersection point on the right side of the graph (the positive time)", note: "Intersection: about (8.70, −30)", gif: "", video: "" },
+      { text: "The rocket reaches the ground about 8.70 seconds after launch", note: "Round to the number of decimal places the question or answer format asks for", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-11-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 11,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["x-intercept", "projectile", "free-response", "offset-height", "decimal-answer"],
+    text: `<p>A stream of water leaves a fountain located 18 feet above the ground. The height, \\(h\\), above the top of the fountain, in feet, \\(t\\) seconds after the water leaves the nozzle is modeled by</p>
+      <p style="text-align:center">\\(h = -4t^2 + 28t.\\)</p>
+      <p>How many seconds after leaving the nozzle does the water reach the ground?</p>`,
+    answer: "7.59",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Decide what \\(h\\)-value represents the ground. Is \\(h\\) measured from the ground or from somewhere else?", note: "", gif: "", video: "" },
+      { text: "Graph the height equation and a horizontal line at that \\(h\\)-value in Desmos", note: "", gif: "", video: "" },
+      { text: "Click the intersection with positive \\(t\\) and read the x-coordinate", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-11-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 11,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["x-intercept", "projectile", "free-response", "offset-height"],
+    text: `<p>A ball is launched upward from the roof of a building <strong>96 feet above the ground</strong>. The height, \\(h\\), above the roof, in feet, \\(t\\) seconds after launch is modeled by</p>
+      <p style="text-align:center">\\(h = -16t^2 + 80t.\\)</p>
+      <p>Approximately how many seconds after launch does the ball reach the ground?</p>`,
+    answer: "6",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-11-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "projectile", "free-response"],
+    text: `<p>An emergency flare is launched upward from a platform 35 meters above the ground. The height \\(h\\), in meters, above the ground \\(t\\) seconds after launch is modeled by</p>
+      <p style="text-align:center">\\(h = -5t^2 + 30t + 35.\\)</p>
+      <p>How many seconds after launch does the flare reach the ground?</p>`,
+    answer: "7",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-11-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "projectile", "free-response"],
+    text: `<p>A signal rocket is launched upward from a tower 24 meters above the ground. The height \\(h\\), in meters, above the ground \\(t\\) seconds after launch is modeled by</p>
+      <p style="text-align:center">\\(h = -4t^2 + 32t + 24.\\)</p>
+      <p>How many seconds after launch does the rocket reach the ground?</p>`,
+    answer: "8",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-XInt-12-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "factored-form", "free-response", "positive-root"],
+    text: `<p style="text-align:center">\\(4(2x - 18)(3x + 12) = 0\\)</p>
+      <p>What <strong>positive value of \\(\\boldsymbol{x}\\)</strong> satisfies the equation above?</p>`,
+    answer: "9",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type \\(y = 4(2x - 18)(3x + 12)\\) into Desmos. The solutions of the equation are the x-intercepts of this graph", note: "", gif: "", video: "" },
+      { text: "Click each x-intercept", note: "Intercepts: (−4, 0) and (9, 0)", gif: "", video: "" },
+      { text: "The question asks for the positive value, so the answer is 9", note: "Algebra check: 2x − 18 = 0 gives x = 9", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-E-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "standard-form", "zero-root"],
+    text: `<p>What is a solution to the given equation?</p>
+      <p style="text-align:center">\\(144x^2 - 1728x = 0\\)</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(10\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(12\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(24\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(144\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type \\(y = 144x^2 - 1728x\\) into Desmos", note: "", gif: "", video: "" },
+      { text: "Click the x-intercepts", note: "Intercepts: (0, 0) and (12, 0)", gif: "", video: "" },
+      { text: "0 is not a choice, so the answer is 12: choice B", note: "Algebra: factor out x to get x(144x − 1728) = 0", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-E-3",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "standard-form", "free-response", "negative-roots"],
+    text: `<p style="text-align:center">\\(x^2 + 33x + 272 = 0\\)</p>
+      <p>What is one of the solutions to the given equation?</p>`,
+    answer: "-16 or -17",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type \\(y = x^2 + 33x + 272\\) into Desmos", note: "", gif: "", video: "" },
+      { text: "The intercepts are close together and far left, so zoom in around the x-axis near −16", note: "Intercepts: (−17, 0) and (−16, 0)", gif: "", video: "" },
+      { text: "Either −16 or −17 is accepted since the question asks for one solution", note: "Algebra: (x + 16)(x + 17) = 0", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-E-4",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "standard-form", "free-response", "fraction-root"],
+    text: `<p style="text-align:center">\\(8x^2 + 19x - 15 = 0\\)</p>
+      <p>What is a solution to the given equation?</p>`,
+    answer: "-3 or 5/8",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type \\(y = 8x^2 + 19x - 15\\) into Desmos", note: "", gif: "", video: "" },
+      { text: "Click the x-intercepts", note: "Intercepts: (−3, 0) and (0.625, 0)", gif: "", video: "" },
+      { text: "0.625 is \\(\\tfrac{5}{8}\\). Enter −3 or 5/8; if the answer box wants a decimal, 0.625 is fine", note: "Algebra: (8x − 5)(x + 3) = 0", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-E-5",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "squared-binomial", "fraction-root", "positive-root"],
+    text: `<p style="text-align:center">\\(\\dfrac{(3x - 5)^2}{25} + 4 = 13\\)</p>
+      <p>What is the <strong>positive solution</strong> to the given equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\dfrac{10}{3}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(\\dfrac{20}{3}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(10\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(15\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "When both sides have stuff, graph each side: \\(y = \\frac{(3x-5)^2}{25} + 4\\) and \\(y = 13\\)", note: "", gif: "", video: "" },
+      { text: "Click the two intersection points", note: "x ≈ −3.333 and x ≈ 6.667", gif: "", video: "" },
+      { text: "6.667 is \\(\\tfrac{20}{3}\\), the positive solution: choice B", note: "Algebra: (3x − 5)² = 225, so 3x − 5 = ±15", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-E-6",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "squared-binomial", "inequality-range"],
+    text: `<p style="text-align:center">\\(3(2x - 5)^2 + 9 = 84\\)</p>
+      <p>If \\(x = k\\) is the greater solution to the equation above, which of the following must be true?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(k < 1\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(1 < k < 3\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(3 < k < 6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(6 < k\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph \\(y = 3(2x - 5)^2 + 9\\) and \\(y = 84\\) in Desmos", note: "", gif: "", video: "" },
+      { text: "Click the intersections", note: "x = 0 and x = 5", gif: "", video: "" },
+      { text: "The greater solution is \\(k = 5\\), which sits in \\(3 < k < 6\\): choice C", note: "Algebra: (2x − 5)² = 25, so 2x − 5 = ±5", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-E-7",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "common-factor", "fraction-root"],
+    text: `<p>If</p>
+      <p style="text-align:center">\\(5(3x + 4)^2 = 45(3x + 4),\\)</p>
+      <p>what is the <strong>greater</strong> possible value of \\(x\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{2}{3}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-\\dfrac{4}{3}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(\\dfrac{5}{3}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(3\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph \\(y = 5(3x + 4)^2\\) and \\(y = 45(3x + 4)\\) and click the intersections", note: "x ≈ −1.333 and x ≈ 1.667", gif: "", video: "" },
+      { text: "The greater one is 1.667, which is \\(\\tfrac{5}{3}\\): choice C", note: "", gif: "", video: "" },
+      { text: "Algebra shortcut: don't divide both sides by (3x + 4) or you lose a solution. Move everything to one side and factor: (3x + 4)(5(3x + 4) − 45) = 0", note: "Second factor gives 3x + 4 = 9, so x = 5/3", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-E-8",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "common-factor", "cannot-be-solution"],
+    text: `<p>If</p>
+      <p style="text-align:center">\\(6(2x - 5)(x + 3) = 12(2x - 5),\\)</p>
+      <p>is true, which of the following values <strong>cannot</strong> be a solution to the equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{5}{2}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-1\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(3\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\dfrac{10}{4}\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph each side in Desmos: \\(y = 6(2x - 5)(x + 3)\\) and \\(y = 12(2x - 5)\\), then click the intersections", note: "x = −1 and x = 2.5", gif: "", video: "" },
+      { text: "The solutions are −1 and \\(\\tfrac{5}{2}\\). Note that \\(\\tfrac{10}{4}\\) is the same number as \\(\\tfrac{5}{2}\\), so A, B, and D are all solutions", note: "", gif: "", video: "" },
+      { text: "The value that is not a solution is 3: choice C", note: "Algebra: (2x − 5)(6(x + 3) − 12) = 0", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-E-9",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "hidden-substitution", "fraction-root", "least-solution"],
+    text: `<p>What is the least solution to the equation?</p>
+      <p style="text-align:center">\\(36x^2 + 84x + 49 - 13(6x + 7) + 42 = 0\\)</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-\\dfrac{1}{6}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\dfrac{1}{3}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(1\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type the whole left side into Desmos as \\(y = 36x^2 + 84x + 49 - 13(6x + 7) + 42\\)", note: "Desmos does the simplifying for you", gif: "", video: "" },
+      { text: "Zoom in near the origin and click the x-intercepts", note: "x ≈ −0.1667 and x = 0", gif: "", video: "" },
+      { text: "−0.1667 is \\(-\\tfrac{1}{6}\\), the least solution: choice A", note: "Algebra: 36x² + 84x + 49 = (6x + 7)², so with u = 6x + 7 it is u² − 13u + 42 = (u − 6)(u − 7)", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+
+   {
+    id: "Par-XInt-12-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "factored-form", "free-response", "positive-root"],
+    text: `<p style="text-align:center">\\(-3(5x - 40)(2x + 14) = 0\\)</p>
+      <p>What <strong>positive value of \\(\\boldsymbol{x}\\)</strong> satisfies the equation above?</p>`,
+    answer: "8",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph the left side in Desmos", note: "", gif: "", video: "" },
+      { text: "Click both x-intercepts", note: "", gif: "", video: "" },
+      { text: "Keep the positive one", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-GP-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "standard-form", "zero-root"],
+    text: `<p>What is a solution to the given equation?</p>
+      <p style="text-align:center">\\(126x^2 - 3150x = 0\\)</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(20\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(126\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(25\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(-25\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph the left side in Desmos", note: "", gif: "", video: "" },
+      { text: "Click the x-intercepts; one of them is 0", note: "", gif: "", video: "" },
+      { text: "Match the other intercept to a choice", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-GP-3",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "standard-form", "free-response", "negative-roots"],
+    text: `<p style="text-align:center">\\(x^2 + 35x + 306 = 0\\)</p>
+      <p>What is one of the solutions to the given equation?</p>`,
+    answer: "-17 or -18",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph the left side in Desmos", note: "", gif: "", video: "" },
+      { text: "Zoom in near the x-axis on the left to separate the two intercepts", note: "", gif: "", video: "" },
+      { text: "Enter either intercept", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-GP-4",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "standard-form", "free-response", "fraction-root"],
+    text: `<p style="text-align:center">\\(9x^2 - 59x - 28 = 0\\)</p>
+      <p>What is a solution to the given equation?</p>`,
+    answer: "7 or -4/9",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph the left side in Desmos", note: "", gif: "", video: "" },
+      { text: "Click both x-intercepts; one is a whole number, one is a fraction", note: "", gif: "", video: "" },
+      { text: "Enter the whole-number one unless the answer format asks otherwise", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-GP-5",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "squared-binomial", "positive-root"],
+    text: `<p style="text-align:center">\\(\\dfrac{4(2x - 4)^2}{64} + 3 = 12\\)</p>
+      <p>What is the <strong>positive solution</strong> to the given equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(8\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(10\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph the left side and the right side as two separate equations", note: "", gif: "", video: "" },
+      { text: "Click both intersections", note: "", gif: "", video: "" },
+      { text: "Keep the positive x-value", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-GP-6",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "squared-binomial", "inequality-range"],
+    text: `<p style="text-align:center">\\(4(2x - 3)^2 + 11 = 111\\)</p>
+      <p>If \\(x = k\\) is the <strong>greater solution</strong> to the equation above, which of the following must be true?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(k < 0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(0 < k < 2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(5 < k\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(3 < k < 5\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph each side as its own equation and click the intersections", note: "", gif: "", video: "" },
+      { text: "Identify the greater x-value; that is \\(k\\)", note: "", gif: "", video: "" },
+      { text: "Find the choice whose range contains \\(k\\)", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-GP-7",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "common-factor", "decimal-root"],
+    text: `<p>If</p>
+      <p style="text-align:center">\\(4(2x - 1)^2 = 24(2x - 1),\\)</p>
+      <p>what is the <strong>greater</strong> possible value of \\(x\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(2.5\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(3.25\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(3.5\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(6.0\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph each side as its own equation; do not divide by \\((2x - 1)\\)", note: "", gif: "", video: "" },
+      { text: "Click both intersections", note: "", gif: "", video: "" },
+      { text: "Choose the greater x-value", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-GP-8",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "common-factor", "cannot-be-solution"],
+    text: `<p>If</p>
+      <p style="text-align:center">\\(5(x - 4)(3x + 2) = 20(x - 4),\\)</p>
+      <p>is true, which of the following values <strong>cannot</strong> be a solution to the equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\dfrac{2}{3}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\dfrac{4}{6}\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph each side as its own equation and click the intersections", note: "", gif: "", video: "" },
+      { text: "List the solutions; check whether any two choices are the same number written differently", note: "", gif: "", video: "" },
+      { text: "The choice that is not a solution is the answer", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-GP-9",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "hidden-substitution", "fraction-root", "free-response"],
+    text: `<p>What is one possible value of \\(x\\)?</p>
+      <p style="text-align:center">\\(49x^2 - 98x + 49 - 8(7x - 7) + 12 = 0\\)</p>`,
+    answer: "9/7 or 13/7",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type the entire left side into Desmos exactly as written", note: "", gif: "", video: "" },
+      { text: "Zoom in between 1 and 2 on the x-axis and click the intercepts", note: "", gif: "", video: "" },
+      { text: "Convert the decimal to a fraction if the answer box needs it", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-XInt-12-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "factored-form", "free-response", "positive-root"],
+    text: `<p style="text-align:center">\\(7(4x - 44)(3x + 15) = 0\\)</p>
+      <p>What <strong>positive value of \\(\\boldsymbol{x}\\)</strong> satisfies the equation above?</p>`,
+    answer: "11",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-Q-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "standard-form", "free-response", "fraction-root"],
+    text: `<p style="text-align:center">\\(11x^2 + 63x - 18 = 0\\)</p>
+      <p>What is a solution to the given equation?</p>`,
+    answer: "-6 or 3/11",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "common-factor", "fraction-root"],
+    text: `<p>If</p>
+      <p style="text-align:center">\\(6(4x - 3)^2 = 48(4x - 3),\\)</p>
+      <p>what is the <strong>greater</strong> possible value of \\(x\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{3}{4}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(\\dfrac{11}{4}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\dfrac{3}{2}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(2\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "common-factor", "cannot-be-solution"],
+    text: `<p>If</p>
+      <p style="text-align:center">\\(8(x + 6)(2x - 1) = 24(x + 6),\\)</p>
+      <p>is true, which of the following values <strong>cannot</strong> be a solution to the equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(-\\dfrac{12}{2}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(0\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-12-AQ-3",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "hidden-substitution", "fraction-root", "free-response"],
+    text: `<p>What is one possible value of \\(x\\)?</p>
+      <p style="text-align:center">\\(36x^2 - 72x + 36 - 4(6x - 6) - 5 = 0\\)</p>`,
+    answer: "5/6 or 11/6",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
 
 ];
