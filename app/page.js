@@ -56,7 +56,6 @@ export default function Home() {
             }}
           >
             <div style={{ fontSize: "16px", fontWeight: 600 }}>Basic Equivalent to & Evaluating a Function</div>
-            <div style={{ fontSize: "13px", color: "#888", marginTop: "4px" }}>26 problems</div>
           </Link>
         </Collapsible>
         <Collapsible title="Simple Graphing, X-Intercept, & Y-Intercept" defaultOpen={false}>
