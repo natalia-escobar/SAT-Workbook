@@ -5,7 +5,7 @@ export const questions = [
     // Parabola - Equivalent to
 
     {
-        id: "ParEqE1",
+        id: "Par-Eq-1-E-1",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 1,
@@ -55,7 +55,7 @@ export const questions = [
     },
 
     {
-        id: "ParEqGP1",
+        id: "Par-Eq-1-GP-1",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 1,
@@ -105,7 +105,7 @@ export const questions = [
     },
 
     {
-    id: "ParEq1Q1",
+    id: "Par-Eq-1-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -142,7 +142,7 @@ export const questions = [
     },
 
     {
-    id: "ParEq1Q2",
+    id: "Par-Eq-1-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -179,7 +179,7 @@ export const questions = [
     },
     
     {
-    id: "ParEq1AQ1",
+    id: "Par-Eq-1-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -216,7 +216,7 @@ export const questions = [
     },
 
     {
-    id: "ParEq1AQ2",
+    id: "Par-Eq-1-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -253,7 +253,7 @@ export const questions = [
     },
     
     {
-    id: "ParEq1AQ3",
+    id: "Par-Eq-1-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -290,7 +290,7 @@ export const questions = [
     },
 
     {
-    id: "ParEq1AQ4",
+    id: "Par-Eq-1-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -327,7 +327,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq1AQ5",
+    id: "Par-Eq-1-AQ-5",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -364,7 +364,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE2",
+    id: "Par-Eq-2-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -413,7 +413,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP2",
+    id: "Par-Eq-2-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -462,7 +462,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq2Q1",
+    id: "Par-Eq-2-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -498,7 +498,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq2Q2",
+    id: "Par-Eq-2-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -534,7 +534,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq2AQ1",
+    id: "Par-Eq-2-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -570,7 +570,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq2AQ2",
+    id: "Par-Eq-2-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -606,7 +606,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq2AQ3",
+    id: "Par-Eq-2-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -642,7 +642,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq2AQ4",
+    id: "Par-Eq-2-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -678,7 +678,7 @@ export const questions = [
     },
 
     {
-    id: "ParEqE3",
+    id: "Par-Eq-3-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -727,7 +727,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP3",
+    id: "Par-Eq-3-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -776,7 +776,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq3Q1",
+    id: "Par-Eq-3-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -812,7 +812,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq3Q2",
+    id: "Par-Eq-3-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -848,7 +848,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq3AQ1",
+    id: "Par-Eq-3-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -884,7 +884,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq3AQ2",
+    id: "Par-Eq-3-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -920,7 +920,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq3AQ3",
+    id: "Par-Eq-3-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -956,7 +956,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq3AQ4",
+    id: "Par-Eq-3-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -992,7 +992,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE4",
+    id: "Par-Eq-4-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1042,7 +1042,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP4",
+    id: "Par-Eq-4-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1092,7 +1092,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq4Q1",
+    id: "Par-Eq-4-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1129,7 +1129,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq4Q2",
+    id: "Par-Eq-4-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1166,7 +1166,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq4AQ1",
+    id: "Par-Eq-4-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1204,7 +1204,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq4AQ2",
+    id: "Par-Eq-4-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1242,7 +1242,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq4AQ3",
+    id: "Par-Eq-4-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1280,7 +1280,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq4AQ4",
+    id: "Par-Eq-4-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1318,7 +1318,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE5",
+    id: "Par-Eq-5-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1367,7 +1367,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP5",
+    id: "Par-Eq-5-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1416,7 +1416,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq5Q1",
+    id: "Par-Eq-5-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1452,7 +1452,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq5Q2",
+    id: "Par-Eq-5-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1488,7 +1488,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq5AQ1",
+    id: "Par-Eq-5-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1525,7 +1525,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq5AQ2",
+    id: "Par-Eq-5-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1562,7 +1562,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq5AQ3",
+    id: "Par-Eq-5-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1599,7 +1599,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq5AQ4",
+    id: "Par-Eq-5-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1636,7 +1636,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE6",
+    id: "Par-Eq-6-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1685,7 +1685,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP6",
+    id: "Par-Eq-6-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1734,7 +1734,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq6Q1",
+    id: "Par-Eq-6-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1770,7 +1770,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq6Q2",
+    id: "Par-Eq-6-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1806,7 +1806,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq6AQ1",
+    id: "Par-Eq-6-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1843,7 +1843,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq6AQ2",
+    id: "Par-Eq-6-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1880,7 +1880,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq6AQ3",
+    id: "Par-Eq-6-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1917,7 +1917,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq6AQ4",
+    id: "Par-Eq-6-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1954,7 +1954,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE7",
+    id: "Par-Eq-7-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 7,
@@ -2013,7 +2013,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP7",
+    id: "Par-Eq-7-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 7,
@@ -2069,7 +2069,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq7Q1",
+    id: "Par-Eq-7-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 7,
@@ -2106,7 +2106,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq7AQ1",
+    id: "Par-Eq-7-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 7,
@@ -2128,7 +2128,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq7AQ2",
+    id: "Par-Eq-7-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 7,
@@ -2150,7 +2150,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq7AQ3",
+    id: "Par-Eq-7-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 7,
@@ -2172,7 +2172,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq7AQ4",
+    id: "Par-Eq-7-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 7,
@@ -2194,7 +2194,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE8",
+    id: "Par-Eq-8-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 8,
@@ -2246,7 +2246,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP8",
+    id: "Par-Eq-8-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 8,
@@ -2296,7 +2296,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq8Q1",
+    id: "Par-Eq-8-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 8,
@@ -2333,7 +2333,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq8Q2",
+    id: "Par-Eq-8-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 8,
@@ -2370,7 +2370,7 @@ export const questions = [
   },
 
     {
-        id: "ParEq8AQ1",
+        id: "Par-Eq-8-AQ-1",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 8,
@@ -2410,7 +2410,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq8AQ2",
+        id: "Par-Eq-8-AQ-2",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 8,
@@ -2450,7 +2450,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq8AQ3",
+        id: "Par-Eq-8-AQ-3",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 8,
@@ -2490,7 +2490,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq8AQ4",
+        id: "Par-Eq-8-AQ-4",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 8,
@@ -2530,7 +2530,7 @@ export const questions = [
     },
 
     {
-    id: "ParEqE9",
+    id: "Par-Eq-9-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 9,
@@ -2565,7 +2565,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP9",
+    id: "Par-Eq-9-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 9,
@@ -2598,7 +2598,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq9Q1",
+    id: "Par-Eq-9-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 9,
@@ -2618,7 +2618,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq9Q2",
+    id: "Par-Eq-9-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 9,
@@ -2656,7 +2656,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE10",
+    id: "Par-Eq-10-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 10,
@@ -2715,7 +2715,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP10",
+    id: "Par-Eq-10-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 10,
@@ -2771,7 +2771,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq10Q1",
+    id: "Par-Eq-10-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 10,
@@ -2808,7 +2808,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq10Q2",
+    id: "Par-Eq-10-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 10,
@@ -2845,7 +2845,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE11",
+    id: "Par-Eq-11-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -2898,7 +2898,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP11",
+    id: "Par-Eq-11-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -2952,7 +2952,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq11Q1",
+    id: "Par-Eq-11-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -2987,7 +2987,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq11Q2",
+    id: "Par-Eq-11-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -3022,7 +3022,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq11AQ1",
+    id: "Par-Eq-11-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -3059,7 +3059,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq11AQ2",
+    id: "Par-Eq-11-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -3096,7 +3096,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq11AQ3",
+    id: "Par-Eq-11-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -3133,7 +3133,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq11AQ4",
+    id: "Par-Eq-11-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -3170,7 +3170,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE12",
+    id: "Par-Eq-12-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3225,7 +3225,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP12",
+    id: "Par-Eq-12-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3280,7 +3280,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq12Q1",
+    id: "Par-Eq-12-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3316,7 +3316,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq12Q2",
+    id: "Par-Eq-12-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3352,7 +3352,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq12AQ1",
+    id: "Par-Eq-12-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3390,7 +3390,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq12AQ2",
+    id: "Par-Eq-12-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3428,7 +3428,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq12AQ3",
+    id: "Par-Eq-12-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3466,7 +3466,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq12AQ4",
+    id: "Par-Eq-12-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3504,7 +3504,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE13",
+    id: "Par-Eq-13-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3559,7 +3559,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP13",
+    id: "Par-Eq-13-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3614,7 +3614,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq13Q1",
+    id: "Par-Eq-13-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3650,7 +3650,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq13Q2",
+    id: "Par-Eq-13-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3686,7 +3686,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq13AQ1",
+    id: "Par-Eq-13-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3728,7 +3728,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq13AQ2",
+    id: "Par-Eq-13-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3770,7 +3770,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq13AQ3",
+    id: "Par-Eq-13-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3812,7 +3812,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq13AQ4",
+    id: "Par-Eq-13-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3854,7 +3854,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE14",
+    id: "Par-Eq-14-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 14,
@@ -3909,7 +3909,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP14",
+    id: "Par-Eq-14-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 14,
@@ -3964,7 +3964,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq14Q1",
+    id: "Par-Eq-14-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 14,
@@ -4000,7 +4000,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq14Q2",
+    id: "Par-Eq-14-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 14,
@@ -4036,7 +4036,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE15",
+    id: "Par-Eq-15-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4091,7 +4091,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP15",
+    id: "Par-Eq-15-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4146,7 +4146,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq15Q1",
+    id: "Par-Eq-15-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4182,7 +4182,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq15Q2",
+    id: "Par-Eq-15-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4218,7 +4218,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq15AQ1",
+    id: "Par-Eq-15-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4255,7 +4255,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq15AQ2",
+    id: "Par-Eq-15-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4292,7 +4292,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq15AQ3",
+    id: "Par-Eq-15-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4329,7 +4329,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq15AQ4",
+    id: "Par-Eq-15-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4366,7 +4366,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE16",
+    id: "Par-Eq-16-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 16,
@@ -4432,7 +4432,7 @@ export const questions = [
   },
 
     {
-        id: "ParEqGP16",
+        id: "Par-Eq-16-GP-1",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4498,7 +4498,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq16Q1",
+        id: "Par-Eq-16-Q-1",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4539,7 +4539,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq16Q2",
+        id: "Par-Eq-16-Q-2",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4580,7 +4580,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq16AQ1",
+        id: "Par-Eq-16-AQ-1",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4621,7 +4621,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq16AQ2",
+        id: "Par-Eq-16-AQ-2",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4662,7 +4662,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq16AQ3",
+        id: "Par-Eq-16-AQ-3",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4703,7 +4703,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq16AQ4",
+        id: "Par-Eq-16-AQ-4",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4744,7 +4744,7 @@ export const questions = [
     },
 
     {
-        id: "ParEqE17",
+        id: "Par-Eq-17-E-1",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -4802,7 +4802,7 @@ export const questions = [
     },
 
     {
-        id: "ParEqGP17",
+        id: "Par-Eq-17-GP-1",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -4857,7 +4857,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq17Q1",
+        id: "Par-Eq-17-Q-1",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -4893,7 +4893,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq17Q2",
+        id: "Par-Eq-17-Q-2",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -4929,7 +4929,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq17AQ1",
+        id: "Par-Eq-17-AQ-1",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -4966,7 +4966,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq17AQ2",
+        id: "Par-Eq-17-AQ-2",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -5003,7 +5003,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq17AQ3",
+        id: "Par-Eq-17-AQ-3",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -5040,7 +5040,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq17AQ4",
+        id: "Par-Eq-17-AQ-4",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -5077,7 +5077,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq17AQ5",
+        id: "Par-Eq-17-AQ-5",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -5114,7 +5114,7 @@ export const questions = [
     },
 
     {
-        id: "ParEq17AQ6",
+        id: "Par-Eq-17-AQ-6",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -5151,7 +5151,7 @@ export const questions = [
     },
 
     {
-    id: "ParEqE18",
+    id: "Par-Eq-18-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5213,7 +5213,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP18",
+    id: "Par-Eq-18-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5272,7 +5272,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq18Q1",
+    id: "Par-Eq-18-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5312,7 +5312,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq18Q2",
+    id: "Par-Eq-18-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5352,7 +5352,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq18AQ1",
+    id: "Par-Eq-18-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5395,7 +5395,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq18AQ2",
+    id: "Par-Eq-18-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5438,7 +5438,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq18AQ3",
+    id: "Par-Eq-18-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5481,7 +5481,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq18AQ4",
+    id: "Par-Eq-18-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5524,7 +5524,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE19",
+    id: "Par-Eq-19-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5586,7 +5586,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP19",
+    id: "Par-Eq-19-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5645,7 +5645,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq19Q1",
+    id: "Par-Eq-19-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5685,7 +5685,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq19Q2",
+    id: "Par-Eq-19-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5725,7 +5725,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq19AQ1",
+    id: "Par-Eq-19-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5768,7 +5768,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq19AQ2",
+    id: "Par-Eq-19-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5811,7 +5811,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq19AQ3",
+    id: "Par-Eq-19-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5854,7 +5854,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq19AQ4",
+    id: "Par-Eq-19-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5897,7 +5897,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE20",
+    id: "Par-Eq-20-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -5959,7 +5959,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP20",
+    id: "Par-Eq-20-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6018,7 +6018,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq20Q1",
+    id: "Par-Eq-20-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6058,7 +6058,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq20Q2",
+    id: "Par-Eq-20-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6098,7 +6098,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq20AQ1",
+    id: "Par-Eq-20-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6141,7 +6141,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq20AQ2",
+    id: "Par-Eq-20-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6184,7 +6184,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq20AQ3",
+    id: "Par-Eq-20-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6227,7 +6227,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq20AQ4",
+    id: "Par-Eq-20-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6270,7 +6270,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE21",
+    id: "Par-Eq-21-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6331,7 +6331,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP21",
+    id: "Par-Eq-21-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6389,7 +6389,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq21Q1",
+    id: "Par-Eq-21-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6428,7 +6428,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq21Q2",
+    id: "Par-Eq-21-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6467,7 +6467,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq21AQ1",
+    id: "Par-Eq-21-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6506,7 +6506,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq21AQ2",
+    id: "Par-Eq-21-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6545,7 +6545,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq21AQ3",
+    id: "Par-Eq-21-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6584,7 +6584,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq21AQ4",
+    id: "Par-Eq-21-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6623,7 +6623,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE22",
+    id: "Par-Eq-22-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6702,7 +6702,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP22",
+    id: "Par-Eq-22-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6770,7 +6770,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq22Q1",
+    id: "Par-Eq-22-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6813,7 +6813,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq22Q2",
+    id: "Par-Eq-22-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6856,7 +6856,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq22AQ1",
+    id: "Par-Eq-22-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6903,7 +6903,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq22AQ2",
+    id: "Par-Eq-22-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6950,7 +6950,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq22AQ3",
+    id: "Par-Eq-22-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6997,7 +6997,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq22AQ4",
+    id: "Par-Eq-22-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -7044,7 +7044,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE23",
+    id: "Par-Eq-23-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 23,
@@ -7106,7 +7106,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP23",
+    id: "Par-Eq-23-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 23,
@@ -7165,7 +7165,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq23Q1",
+    id: "Par-Eq-23-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 23,
@@ -7205,7 +7205,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq23Q2",
+    id: "Par-Eq-23-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 23,
@@ -7245,7 +7245,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE24",
+    id: "Par-Eq-24-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7313,7 +7313,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP24",
+    id: "Par-Eq-24-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7369,7 +7369,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq24Q1",
+    id: "Par-Eq-24-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7408,7 +7408,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq24Q2",
+    id: "Par-Eq-24-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7447,7 +7447,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq24AQ1",
+    id: "Par-Eq-24-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7488,7 +7488,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq24AQ2",
+    id: "Par-Eq-24-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7529,7 +7529,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq24AQ3",
+    id: "Par-Eq-24-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7570,7 +7570,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq24AQ4",
+    id: "Par-Eq-24-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7611,7 +7611,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE25",
+    id: "Par-Eq-25-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 25,
@@ -7645,7 +7645,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP25",
+    id: "Par-Eq-25-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 25,
@@ -7678,7 +7678,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq25Q1",
+    id: "Par-Eq-25-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 25,
@@ -7704,7 +7704,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq25Q2",
+    id: "Par-Eq-25-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 25,
@@ -7730,7 +7730,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqE26",
+    id: "Par-Eq-26-E-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 26,
@@ -7782,7 +7782,7 @@ export const questions = [
   },
 
   {
-    id: "ParEqGP26",
+    id: "Par-Eq-26-GP-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 26,
@@ -7832,7 +7832,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq26Q1",
+    id: "Par-Eq-26-Q-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 26,
@@ -7876,7 +7876,7 @@ export const questions = [
   },
 
   {
-    id: "ParEq26Q2",
+    id: "Par-Eq-26-Q-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 26,

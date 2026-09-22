@@ -280,6 +280,7 @@
   color: #b0b0ad;
   letter-spacing: .02em;
   user-select: all;
+  text-transform: none;
 }
 
 .classroom-graph {
