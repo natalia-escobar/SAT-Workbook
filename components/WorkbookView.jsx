@@ -12,6 +12,7 @@ import GraphChoices from "@/components/GraphChoices";
 import ProblemNav from "./ProblemNav";
 import Link from "next/link";
 import useShowIds from "@/lib/useShowIds";
+import { logEvent } from "@/lib/db";
 
 function SectionAccordion({ icon, title, defaultOpen, children }) {
   const [open, setOpen] = useState(defaultOpen);
@@ -103,7 +104,7 @@ function WorkedExampleCarousel({ problem, problemIndex, showIds }) {
   );
 }
 
-function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, showIds }) {
+function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, showIds, container }) {
   const [open, setOpen] = useState(false);
   const isMultipleChoice = text.includes("mc-choice") || graphChoices;
 
@@ -115,6 +116,15 @@ function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, show
       c.style.outline = "";
     });
     choice.style.outline = "2px solid #1a1a1a";
+    const letter = choice.querySelector(".mc-label")?.textContent?.trim() || null;
+    logEvent({
+      questionId: id,
+      eventType: "answered",
+      answer: letter,
+      correct: choice.classList.contains("correct"),
+      context: "workbook",
+      containerId: container,
+    });
   };
 
   return (
@@ -168,6 +178,12 @@ export default function WorkbookView({ topic }) {
 
   useEffect(() => {
     if (window.MathJax) window.MathJax.typesetPromise();
+    logEvent({
+    questionId: problem.id || problem.workedExamples?.[0]?.id,
+    eventType: "viewed",
+    context: "workbook",
+    containerId: topic.slug || topic.name,
+  });
   }, [problemIndex]);
 
   return (
@@ -196,13 +212,15 @@ export default function WorkbookView({ topic }) {
           guidedGraph={problem.guidedGraph}
           guidedGraphChoices={problem.guidedGraphChoices}
           guidedProblems={problem.guidedProblems}
+          guidedIds={problem.guidedIds}
+          container={topic.slug || topic.name}
         />
       </SectionAccordion>
 
       {problem.practice && problem.practice.length > 0 && (
       <SectionAccordion icon="ti-pencil" title="In-class practice problems" defaultOpen={false} key={`pp-${problemIndex}`}>
         {problem.practice.map((p, i) => (
-          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} />
+          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} />
         ))}
       </SectionAccordion>
       )}
@@ -213,7 +231,7 @@ export default function WorkbookView({ topic }) {
       {problem.additionalPractice && problem.additionalPractice.length > 0 && (
         <SectionAccordion icon="ti-notebook" title="Additional practice" defaultOpen={false} key={`ap-${problemIndex}`}>
           {problem.additionalPractice.map((p, i) => (
-            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} />
+            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} />
           ))}
         </SectionAccordion>
       )}

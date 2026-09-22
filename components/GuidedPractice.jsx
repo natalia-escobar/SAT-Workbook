@@ -4,8 +4,9 @@ import { useState, useRef } from "react";
 import MathContent from "./MathContent";
 import DesmosGraph from "./DesmosGraph";
 import GraphChoices from "./GraphChoices";
+import { logEvent } from "@/lib/db";
 
-function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef }) {
+function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, container }) {
   const [checked, setChecked] = useState(() => gp.steps.map(() => false));
   const isMultipleChoice = gp.problem.includes("mc-choice") || gp.graphChoices;
 
@@ -45,6 +46,16 @@ function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef }) {
     }
 
     selectedChoiceRef.current = choice;
+
+    const letter = choice.querySelector(".mc-label")?.textContent?.trim() || null;
+    logEvent({
+      questionId: gp.id,
+      eventType: "answered",
+      answer: letter,
+      correct: isCorrect,
+      context: "workbook",
+      containerId: container,
+    });
   };
 
   return (
@@ -76,7 +87,7 @@ function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef }) {
   );
 }
 
-export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot, guidedGraph, guidedGraphChoices, guidedProblems }) {
+export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot, guidedGraph, guidedGraphChoices, guidedProblems, guidedIds, container }) {
   const selectedChoiceRef = useRef(null);
 
   // Build array of guided problems
@@ -85,6 +96,7 @@ export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswe
     problems = guidedProblems;
   } else {
     problems = [{
+      id: guidedIds?.[0],
       problem: guidedProblem,
       steps: guidedSteps,
       answer: guidedAnswer,
@@ -111,7 +123,7 @@ export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswe
           </div>
         </div>
       )}
-      <GuidedPracticeCard key={currentIndex} gp={gp} handleChoiceClick={() => {}} selectedChoiceRef={selectedChoiceRef} />
+      <GuidedPracticeCard key={currentIndex} gp={gp} handleChoiceClick={() => {}} selectedChoiceRef={selectedChoiceRef} container={container} />
     </div>
   );
 }
