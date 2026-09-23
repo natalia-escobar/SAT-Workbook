@@ -19821,5 +19821,194 @@ export const questions = [
     videoId: "",
   },
 
+  {
+  id: "Par-XInt-13-E-1",
+  topic: "parabola",
+  subtopic: "x-intercept",
+  problem: 13,
+  questionType: "WE",
+  text: `<p style="text-align:center;margin-bottom:12px">\\(3(2r - 5)(r + 1) = 45\\)</p>
+    <p>What <strong>positive</strong> value of \\(r\\) satisfies the equation above?</p>`,
+  answer: "4",
+  graph: null,
+  graphChoices: null,
+  steps: [
+    { text: "Graph both sides of the equation in Desmos", note: "Type y = 3(2x - 5)(x + 1) and y = 45", gif: "", video: "" },
+    { text: "Find the intersection points", note: "Look for where the two graphs cross", gif: "", video: "" },
+    { text: "Identify the positive x-value", note: "The positive solution is x = 4", gif: "", video: "" },
+    ],
+  },
+
+  {
+  id: "Par-XInt-13-GP-1",
+  topic: "parabola",
+  subtopic: "x-intercept",
+  problem: 13,
+  questionType: "GP",
+  text: `<p style="text-align:center;margin-bottom:12px">\\(8p^2 + 10p - 5 = 7\\)</p>
+    <p>What is a solution to the given equation?</p>`,
+  answer: "-2 or 3/4",
+  graph: null,
+  graphChoices: null,
+  steps: [
+    { text: "Graph both sides of the equation in Desmos", note: "", gif: "", video: "" },
+    { text: "Find the intersection points", note: "", gif: "", video: "" },
+    { text: "Identify the positive x-value", note: "", gif: "", video: "" },
+    ],
+  },
+
+  {
+  id: "Par-XInt-13-Q-1",
+  topic: "parabola",
+  subtopic: "x-intercept",
+  problem: 13,
+  questionType: "PR",
+  text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">\\(4(2w - 3)^2 = 28(2w - 3),\\)</p>
+    <p>what is the <strong>greater</strong> possible value of \\(w\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\frac{3}{2}\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">B</span><span>\\(\\frac{3}{2}\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\frac{7}{2}\\)</span></div>
+      <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(5\\)</span></div>
+    </div>`,
+  answer: "D",
+  graph: null,
+  graphChoices: null,
+  steps: null,
+},
+
+{
+  id: "Par-XInt-13-Q-2",
+  topic: "parabola",
+  subtopic: "x-intercept",
+  problem: 13,
+  questionType: "PR",
+  text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">\\(5(3k - 4)(k + 2) = 15(3k - 4),\\)</p>
+    <p>is true, which of the following values <strong>cannot</strong> be a solution to the equation?</p>
+    <div class="mc-choices">
+      <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\frac{4}{3}\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">B</span><span>\\(1\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\frac{8}{6}\\)</span></div>
+      <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(\\frac{5}{4}\\)</span></div>
+    </div>`,
+  answer: "D",
+  graph: null,
+  graphChoices: null,
+  steps: null,
+},
+
+{
+  id: "Par-XInt-13-Q-3",
+  topic: "parabola",
+  subtopic: "x-intercept",
+  problem: 13,
+  questionType: "PR",
+  text: `<p>What is the <strong>least</strong> solution to the equation?</p>
+    <p style="text-align:center;margin-bottom:12px">\\(25m^2 + 30m + 9 - 9(5m + 3) + 20 = 6\\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-\\frac{1}{5}\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">B</span><span>\\(\\frac{1}{5}\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\frac{3}{5}\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{4}{5}\\)</span></div>
+    </div>`,
+  answer: "A",
+  graph: null,
+  graphChoices: null,
+  steps: null,
+},
+
+{
+  id: "Par-XInt-13-AQ-1",
+  topic: "parabola",
+  subtopic: "x-intercept",
+  problem: 13,
+  questionType: "AQ",
+  text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">\\(6(2q + 5)^2 = 42(2q + 5),\\)</p>
+    <p>what is the <strong>greater</strong> possible value of \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\frac{5}{2}\\)</span></div>
+      <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(1\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\frac{5}{2}\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">D</span><span>\\(4\\)</span></div>
+    </div>`,
+  answer: "B",
+  graph: null,
+  graphChoices: null,
+  steps: null,
+},
+
+{
+  id: "Par-XInt-13-AQ-2",
+  topic: "parabola",
+  subtopic: "x-intercept",
+  problem: 13,
+  questionType: "AQ",
+  text: `<p>What is the <strong>least</strong> solution to the equation?</p>
+    <p style="text-align:center;margin-bottom:12px">\\(16n^2 + 40n + 25 - 7(4n + 5) + 18 = 6\\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-\\frac{1}{2}\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">B</span><span>\\(-\\frac{1}{4}\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\frac{1}{4}\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{1}{2}\\)</span></div>
+    </div>`,
+  answer: "A",
+  graph: null,
+  graphChoices: null,
+  steps: null,
+},
+
+{
+  id: "Par-XInt-13-AQ-3",
+  topic: "parabola",
+  subtopic: "x-intercept",
+  problem: 13,
+  questionType: "AQ",
+  text: `<p style="text-align:center;margin-bottom:12px">\\(5(3s - 7)(2s + 1) = 70\\)</p>
+    <p>What <strong>positive</strong> value of \\(s\\) satisfies the equation above?</p>`,
+  answer: "3",
+  graph: null,
+  graphChoices: null,
+  steps: null,
+},
+
+{
+  id: "Par-XInt-13-AQ-4",
+  topic: "parabola",
+  subtopic: "x-intercept",
+  problem: 13,
+  questionType: "AQ",
+  text: `<p>If</p>
+    <p style="text-align:center;margin-bottom:12px">\\(4(5r - 3)(r + 4) = 12(5r - 3),\\)</p>
+    <p>is true, which of the following values <strong>cannot</strong> be a solution to the equation?</p>
+    <div class="mc-choices">
+      <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\frac{3}{5}\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">B</span><span>\\(-1\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\frac{6}{10}\\)</span></div>
+      <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(\\frac{4}{5}\\)</span></div>
+    </div>`,
+  answer: "D",
+  graph: null,
+  graphChoices: null,
+  steps: null,
+},
+
+{
+  id: "Par-XInt-13-AQ-5",
+  topic: "parabola",
+  subtopic: "x-intercept",
+  problem: 13,
+  questionType: "AQ",
+  text: `<p style="text-align:center;margin-bottom:12px">\\(6p^2 + 13p - 7 = 8\\)</p>
+    <p>What is a solution to the given equation?</p>`,
+  answer: "-3 or 5/6",
+  graph: null,
+  graphChoices: null,
+  steps: null,
+},
+
+
 
 ];
