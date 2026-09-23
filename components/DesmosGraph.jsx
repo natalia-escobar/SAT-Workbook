@@ -9,15 +9,17 @@ export default function DesmosGraph({ graph }) {
   useEffect(() => {
     if (!containerRef.current || !window.Desmos || !graph) return;
 
+    const interactive = graph.interactive === true;
+
     const calc = window.Desmos.GraphingCalculator(containerRef.current, {
       expressions: false,
       settingsMenu: false,
-      zoomButtons: false,
-      lockViewport: true,
       border: false,
       keypad: false,
-      pointsOfInterest: false,
-      trace: false,
+      lockViewport: !interactive,
+      zoomButtons: interactive,
+      pointsOfInterest: interactive,
+      trace: interactive,
     });
 
     if (graph.bounds) calc.setMathBounds(graph.bounds);

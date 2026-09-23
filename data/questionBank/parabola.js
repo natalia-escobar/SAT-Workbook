@@ -17440,6 +17440,7 @@ export const questions = [
     text: `<p>The graph of the function \\(f\\) is shown above. What is the value of \\(x\\) for which \\(f(x) = 0\\)?</p>`,
     answer: "9",
     graph: {
+      interactive: true,
       expressions: [
         { latex: "y = (x-9)^2", color: "#2563eb" },
       ],
@@ -17467,6 +17468,7 @@ export const questions = [
     text: `<p>The graph of the function \\(g\\) is shown above. What is the value of \\(x\\) for which \\(g(x) = 0\\)?</p>`,
     answer: "6",
     graph: {
+      interactive: true,
       expressions: [
         { latex: "y = 3(x-6)^2", color: "#2563eb" },
       ],
@@ -17493,6 +17495,7 @@ export const questions = [
     text: `<p>The graph of the function \\(h\\) is shown above. What is the value of \\(x\\) for which \\(h(x) = 0\\)? </p>`,
     answer: "7",
     graph: {
+      interactive: true,
       expressions: [
         { latex: "y = 2x^2 - 28x + 98", color: "#2563eb" },
       ],
@@ -17515,6 +17518,7 @@ export const questions = [
     text: `<p>The graph of the function \\(p\\) is shown above. What is the value of \\(x\\) for which \\(p(x) = 0\\)?</p>`,
     answer: "5",
     graph: {
+      interactive: true,
       expressions: [
         { latex: "y = -4x^2 + 40x - 100", color: "#2563eb" },
       ],
@@ -17537,6 +17541,7 @@ export const questions = [
     text: `<p>The graph of the function \\(q\\) is shown above. What is the value of \\(x\\) for which \\(q(x) = 0\\)?</p>`,
     answer: "8",
     graph: {
+      interactive: true, 
       expressions: [
         { latex: "y = 5x^2 - 80x + 320", color: "#2563eb" },
       ],
