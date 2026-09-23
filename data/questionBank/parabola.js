@@ -20009,6 +20009,220 @@ export const questions = [
   steps: null,
 },
 
+{
+    id: "Par-XInt-14-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 14,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "hidden-substitution", "evaluate-expression", "least-value"],
+    text: `<p>Given that</p>
+      <p style="text-align:center">\\((6x - 6)^2 - 7(6x - 6) + 12 = 0,\\)</p>
+      <p>what is the <strong>least possible value</strong> of \\(12x - 10\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(6\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(8\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(10\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(12\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type the whole left side into Desmos as \\(y = (6x - 6)^2 - 7(6x - 6) + 12\\)", note: "", gif: "", video: "" },
+      { text: "Zoom in near the x-axis and click the x-intercepts", note: "x = 1.5 and x ≈ 1.667", gif: "", video: "" },
+      { text: "The question asks for \\(12x - 10\\), not \\(x\\). Type \\(12x - 10\\) into Desmos after each x-value, or plug in by hand", note: "12(1.5) − 10 = 8 and 12(5/3) − 10 = 10", gif: "", video: "" },
+      { text: "The least value is 8: choice B", note: "Algebra: with u = 6x − 6, u² − 7u + 12 = (u − 3)(u − 4) = 0, so 6x − 6 = 3 or 4", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-14-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 14,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "hidden-substitution", "free-response", "greater-solution"],
+    text: `<p>If</p>
+      <p style="text-align:center">\\(\\left(\\dfrac{2x + 1}{5}\\right)^2 - 7\\left(\\dfrac{2x + 1}{5}\\right) + 12 = 0,\\)</p>
+      <p>what is the <strong>greater solution</strong>?</p>`,
+    answer: "9.5",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type the entire left side into Desmos exactly as written", note: "", gif: "", video: "" },
+      { text: "Zoom out along the x-axis until you see both intercepts, then click them", note: "", gif: "", video: "" },
+      { text: "Enter the greater x-value", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-14-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 14,
+    questionType: "PR",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "standard-form", "evaluate-expression", "free-response"],
+    text: `<p style="text-align:center">\\(12r^2 - 132r + 288 = 0\\)</p>
+      <p>If \\(r\\) satisfies the given equation, what is <strong>one possible value</strong> of</p>
+      <p style="text-align:center">\\(2(3r - 5) + 7?\\)</p>`,
+    answer: "15 or 45",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph \\(y = 12x^2 - 132x + 288\\) in Desmos (use x in place of r) and click the x-intercepts", note: "x = 3 and x = 8", gif: "", video: "" },
+      { text: "Plug either value into \\(2(3r - 5) + 7\\)", note: "r = 3 gives 15; r = 8 gives 45", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-14-Q-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 14,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "evaluate-expression", "hidden-substitution"],
+    text: `<p>If</p>
+      <p style="text-align:center">\\(20x^2 + 100x - 80 = 0,\\)</p>
+      <p>what is the value of</p>
+      <p style="text-align:center">\\(\\dfrac{x^2 + 5x}{2}?\\)</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-2\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(4\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph \\(y = 20x^2 + 100x - 80\\) and click an x-intercept", note: "The roots are messy decimals (≈ 0.702 and ≈ −5.702)", gif: "", video: "" },
+      { text: "Plug either root into \\(\\frac{x^2 + 5x}{2}\\); both give 2", note: "", gif: "", video: "" },
+      { text: "Shortcut: divide the equation by 20 to get \\(x^2 + 5x - 4 = 0\\), so \\(x^2 + 5x = 4\\) and half of that is 2: choice C", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-XInt-14-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "hidden-substitution", "fraction-root", "least-solution"],
+    text: `<p>If</p>
+      <p style="text-align:center">\\((5x - 4)^2 = 9(5x - 4) + 10,\\)</p>
+      <p>what is the <strong>least solution</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(\\dfrac{3}{5}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(0\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\dfrac{2}{5}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\dfrac{6}{5}\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph each side as its own equation: \\(y = (5x - 4)^2\\) and \\(y = 9(5x - 4) + 10\\)", note: "", gif: "", video: "" },
+      { text: "Click both intersections", note: "x = 0.6 and x = 2.8", gif: "", video: "" },
+      { text: "0.6 is \\(\\tfrac{3}{5}\\), the least solution: choice A", note: "Algebra: with u = 5x − 4, u² − 9u − 10 = (u − 10)(u + 1) = 0", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-14-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "hidden-substitution", "least-solution"],
+    text: `<p>If</p>
+      <p style="text-align:center">\\(\\left(\\dfrac{x - 2}{4}\\right)^2 - 3\\left(\\dfrac{x - 2}{4}\\right) + 2 = 0,\\)</p>
+      <p>what is the <strong>least solution</strong>?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(10\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(14\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(18\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Type the entire left side into Desmos exactly as written", note: "", gif: "", video: "" },
+      { text: "Click the x-intercepts", note: "x = 6 and x = 10", gif: "", video: "" },
+      { text: "The least solution is 6: choice A", note: "Algebra: with u = (x − 2)/4, u² − 3u + 2 = (u − 1)(u − 2) = 0", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-14-AQ-3",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "standard-form", "evaluate-expression", "free-response"],
+    text: `<p style="text-align:center">\\(8p^2 - 104p + 240 = 0\\)</p>
+      <p>If \\(p\\) satisfies the given equation, what is <strong>one possible value</strong> of</p>
+      <p style="text-align:center">\\(4(2p - 3) + 5?\\)</p>`,
+    answer: "17 or 73",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph \\(y = 8x^2 - 104x + 240\\) in Desmos (use x in place of p) and click the x-intercepts", note: "x = 3 and x = 10", gif: "", video: "" },
+      { text: "Plug either value into \\(4(2p - 3) + 5\\)", note: "p = 3 gives 17; p = 10 gives 73", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-14-AQ-4",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "evaluate-expression", "hidden-substitution"],
+    text: `<p>If</p>
+      <p style="text-align:center">\\(18x^2 - 72x + 54 = 0,\\)</p>
+      <p>what is the value of</p>
+      <p style="text-align:center">\\(\\dfrac{x^2 - 4x}{3}?\\)</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-3\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(-1\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(1\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(3\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Graph \\(y = 18x^2 - 72x + 54\\) and click an x-intercept", note: "x = 1 and x = 3", gif: "", video: "" },
+      { text: "Plug either root into \\(\\frac{x^2 - 4x}{3}\\); both give −1", note: "", gif: "", video: "" },
+      { text: "Shortcut: divide the equation by 18 to get \\(x^2 - 4x + 3 = 0\\), so \\(x^2 - 4x = -3\\) and a third of that is −1: choice B", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
 
 
 ];

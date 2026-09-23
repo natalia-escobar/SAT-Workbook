@@ -130,6 +130,16 @@ const xIntercept = {
       additionalPractice: asAdditional(["Par-XInt-13-AQ-1", "Par-XInt-13-AQ-2", "Par-XInt-13-AQ-3", "Par-XInt-13-AQ-4", "Par-XInt-13-AQ-5"]),
     },
 
+    // Problem 14
+
+    {
+      ...asWorked(["Par-XInt-14-E-1"]),
+      ...asGuided(["Par-XInt-14-GP-1"]),
+      practice: asPractice(["Par-XInt-14-Q-1", "Par-XInt-14-Q-2"]),
+      additionalPractice: asAdditional(["Par-XInt-14-AQ-1", "Par-XInt-14-AQ-2",
+        "Par-XInt-14-AQ-3", "Par-XInt-14-AQ-4"]),
+    },
+
     ]
     
 }
