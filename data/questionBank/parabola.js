@@ -18935,7 +18935,7 @@ export const questions = [
     questionType: "PR",
     difficulty: 3,
     tags: ["x-intercept", "number-of-solutions", "one-solution", "linear-in-disguise"],
-    text: `<p style="text-align:center">\\(3x(x - 8) = 3(x - 2)(x + 1)\\)</p>
+    text: `<p style="text-align:center">\\(3x(x - 8) = 3(x - 2)(x + 1) + 12\\)</p>
       <p>How many distinct real solutions does the given equation have?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>Zero</span></div>
@@ -20359,6 +20359,219 @@ export const questions = [
     ],
     screenshot: "",
     videoId: "",
+  },
+
+  {
+    id: "Par-SimGr-CQ-1",
+    topic: "parabola",
+    subtopic: "simple-graphing",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The quadratic function \\(f\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = x^2 - 4x + 1\\).</p>
+  <p>The function \\(g\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 3) + 5\\).</p>
+  <p>Which of the following equations represents \\(g\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(g(x) = (x + 3)^2 - 4(x + 3) + 6\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(g(x) = (x - 3)^2 - 4(x - 3) - 4\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(g(x) = (x - 3)^2 - 4(x - 3) + 6\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(g(x) = (x + 3)^2 - 4(x + 3) - 4\\)</span></div>
+  </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+ 
+  {
+    id: "Par-SimGr-CQ-2",
+    topic: "parabola",
+    subtopic: "simple-graphing",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The quadratic function \\(h\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(h(x) = -2x^2 + 8x + 3\\).</p>
+  <p>The function \\(k\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(k(x) = h(x + 4) - 7\\).</p>
+  <p>Which of the following equations represents \\(k\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(k(x) = -2(x - 4)^2 + 8(x - 4) - 4\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(k(x) = -2(x + 4)^2 + 8(x + 4) - 4\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(k(x) = -2(x + 4)^2 + 8(x + 4) + 10\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(k(x) = -2(x - 4)^2 + 8(x - 4) + 10\\)</span></div>
+  </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+ 
+  {
+    id: "Par-SimGr-CQ-3",
+    topic: "parabola",
+    subtopic: "simple-graphing",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The quadratic function \\(p\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(p(x) = 3x^2 + 6x - 5\\).</p>
+  <p>The function \\(q\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(q(x) = p(x - 2) - 4\\).</p>
+  <p>Which of the following equations represents \\(q\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(q(x) = 3(x + 2)^2 + 6(x + 2) - 9\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(q(x) = 3(x - 2)^2 + 6(x - 2) - 1\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(q(x) = 3(x + 2)^2 + 6(x + 2) - 1\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(q(x) = 3(x - 2)^2 + 6(x - 2) - 9\\)</span></div>
+  </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par-YInt-CQ-1",
+    topic: "parabola",
+    subtopic: "y-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by the graph shown above.</p>
+    <p>What is the value of \\(f(0)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice"><span class="mc-label">A</span><span>\\(9\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">B</span><span>\\(10\\)</span></div>
+      <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(11\\)</span></div>
+      <div class="mc-choice"><span class="mc-label">D</span><span>\\(12\\)</span></div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        {
+          id: "1",
+          latex: `y = \\frac{3}{4}(x+2)^2 + 8`,
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -6,
+        right: 4,
+        bottom: -2,
+        top: 15
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+ 
+  {
+    id: "Par-YInt-CQ-2",
+    topic: "parabola",
+    subtopic: "y-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = -\\frac{1}{2}(x - 3)^2 + 7\\).</p>
+  <p>What is the value of \\(f(0)\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(2.5\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(3\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(3.5\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(4.5\\)</span></div>
+  </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+ 
+  {
+    id: "Par-YInt-CQ-3",
+    topic: "parabola",
+    subtopic: "y-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The equation</p>
+  <p style="text-align:center;margin-bottom:12px">\\(f(x) = -2x^2 + 12x + 8\\)</p>
+  <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at the point \\((0, r)\\). What is the value of \\(r\\)?</p>`,
+    answer: "",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+ 
+  {
+    id: "Par-YInt-CQ-4",
+    topic: "parabola",
+    subtopic: "y-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The equation</p>
+  <p style="text-align:center;margin-bottom:12px">\\(g(x) = 3x^2 - 18x + 11\\)</p>
+  <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at \\((0, r)\\). What is the value of \\(r\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice"><span class="mc-label">A</span><span>\\(3\\)</span></div>
+    <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(11\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(18\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(29\\)</span></div>
+  </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+ 
+  {
+    id: "Par-YInt-CQ-5",
+    topic: "parabola",
+    subtopic: "y-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The equation</p>
+  <p style="text-align:center;margin-bottom:12px">\\(h(x) = -4x^2 + 20x - \\frac{15}{2}\\)</p>
+  <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at \\((0, k)\\). What is the value of \\(k\\)?</p>
+  <div class="mc-choices">
+    <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-\\frac{15}{2}\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">B</span><span>\\(-\\frac{8}{2}\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\frac{15}{2}\\)</span></div>
+    <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\frac{40}{2}\\)</span></div>
+  </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
   },
 
 

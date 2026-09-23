@@ -7,6 +7,7 @@ import GraphChoices from "./GraphChoices";
 import ProblemNav from "./ProblemNav";
 import useShowIds from "@/lib/useShowIds";
 import Link from "next/link";
+import { logEvent } from "@/lib/db";
 
 export default function ClassroomView({ topic }) {
   const [problemIndex, setProblemIndex] = useState(0);
@@ -33,6 +34,16 @@ export default function ClassroomView({ topic }) {
     }
     choice.style.outline = "2px solid #1a1a1a";
     selectedRef.current = choice;
+
+    const letter = choice.querySelector(".mc-label")?.textContent?.trim() || null;
+    logEvent({
+      questionId: problem.id,
+      eventType: "answered",
+      answer: letter,
+      correct: choice.classList.contains("correct"),
+      context: "classroom",
+      containerId: topic.slug || topic.name,
+    });
   };
 
   return (
