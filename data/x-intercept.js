@@ -71,13 +71,22 @@ const xIntercept = {
     // Problem 8
 
     {
+      ...asWorked("Par-XInt-11-E-1"),
+      ...asGuided("Par-XInt-11-GP-1"),
+      practice: asPractice(["Par-XInt-11-Q-1"]),
+      additionalPractice: asAdditional(["Par-XInt-11-AQ-1", "Par-XInt-11-AQ-2"]),
+    },
+
+    // Problem 9
+
+    {
       ...asWorked("Par-XInt-8-E-1"),
       ...asGuided("Par-XInt-8-GP-1"),
       practice: asPractice(["Par-XInt-8-Q-1", "Par-XInt-8-Q-2"]),
       additionalPractice: asAdditional(["Par-XInt-8-AQ-1", "Par-XInt-8-AQ-2"]),
     },
 
-    // Problem 9
+    // Problem 10
 
     {
       ...asWorked("Par-XInt-9-E-1"),
@@ -86,22 +95,13 @@ const xIntercept = {
       additionalPractice: asAdditional(["Par-XInt-9-AQ-1", "Par-XInt-9-AQ-2", "Par-XInt-9-AQ-3"]),
     },
 
-    // Problem 10
+    // Problem 11
 
     {
       ...asWorked("Par-XInt-10-E-1"),
       ...asGuided("Par-XInt-10-GP-1"),
       practice: asPractice(["Par-XInt-10-Q-1"]),
       additionalPractice: asAdditional(["Par-XInt-10-AQ-1", "Par-XInt-10-AQ-2"]),
-    },
-
-    // Problem 11
-
-    {
-      ...asWorked("Par-XInt-11-E-1"),
-      ...asGuided("Par-XInt-11-GP-1"),
-      practice: asPractice(["Par-XInt-11-Q-1"]),
-      additionalPractice: asAdditional(["Par-XInt-11-AQ-1", "Par-XInt-11-AQ-2"]),
     },
 
     // Problem 12
