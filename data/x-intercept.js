@@ -140,6 +140,15 @@ const xIntercept = {
         "Par-XInt-14-AQ-3", "Par-XInt-14-AQ-4"]),
     },
 
+     // Problem 15
+    
+    {
+      ...asWorked(["Par-XInt-15-E-1"]),
+      ...asGuided(["Par-XInt-15-GP-1"]),
+      practice: asPractice(["Par-XInt-15-Q-1"]),
+      additionalPractice: asAdditional(["Par-XInt-15-AQ-1", "Par-XInt-15-AQ-2"]),
+    },
+
     ]
     
 }

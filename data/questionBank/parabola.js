@@ -20224,5 +20224,142 @@ export const questions = [
     videoId: "",
   },
 
+  {
+    id: "Par-XInt-15-E-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 15,
+    questionType: "WE",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "squared-binomial", "fraction-root", "positive-root"],
+    text: `<p style="text-align:center">\\(\\dfrac{(3r - 5)^2}{25} + 4 = 13\\)</p>
+      <p>What is the <strong>positive solution</strong> to the given equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\dfrac{10}{3}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(\\dfrac{20}{3}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(10\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(15\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Desmos graphs in x, so replace r with x. Graph each side as its own equation: \\(y = \\frac{(3x - 5)^2}{25} + 4\\) and \\(y = 13\\)", note: "", gif: "", video: "" },
+      { text: "Click the two intersection points", note: "x ≈ −3.333 and x ≈ 6.667", gif: "", video: "" },
+      { text: "6.667 is \\(\\tfrac{20}{3}\\), the positive solution: choice B", note: "Algebra: (3r − 5)² = 225, so 3r − 5 = ±15", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-15-GP-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 15,
+    questionType: "GP",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "squared-binomial", "positive-root"],
+    text: `<p style="text-align:center">\\(\\dfrac{(2t - 4)^2}{16} + 3 = 12\\)</p>
+      <p>What is the <strong>positive solution</strong> to the given equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(8\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(-4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(10\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Replace t with x, then graph the left side and the right side as two separate equations", note: "", gif: "", video: "" },
+      { text: "Click both intersections", note: "", gif: "", video: "" },
+      { text: "Keep the positive x-value", note: "", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-15-Q-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 15,
+    questionType: "PR",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "squared-binomial", "fraction-root", "positive-root"],
+    text: `<p style="text-align:center">\\(\\dfrac{(4w - 8)^2}{36} + 2 = 11\\)</p>
+      <p>What is the <strong>positive solution</strong> to the given equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\dfrac{5}{2}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(4\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(\\dfrac{13}{2}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(9\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Replace w with x and graph \\(y = \\frac{(4x - 8)^2}{36} + 2\\) and \\(y = 11\\); click the intersections", note: "x = −2.5 and x = 6.5", gif: "", video: "" },
+      { text: "6.5 is \\(\\tfrac{13}{2}\\), the positive solution: choice C", note: "Algebra: (4w − 8)² = 324, so 4w − 8 = ±18", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+
+  {
+    id: "Par-XInt-15-AQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 15,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "squared-binomial", "positive-root"],
+    text: `<p style="text-align:center">\\(\\dfrac{4(2p - 7)^2}{36} - 5 = 4\\)</p>
+      <p>What is the <strong>positive solution</strong> to the given equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\dfrac{5}{2}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(\\dfrac{7}{2}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(8\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(11\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Replace p with x and graph \\(y = \\frac{4(2x - 7)^2}{36} - 5\\) and \\(y = 4\\); click the intersections", note: "x = −1 and x = 8", gif: "", video: "" },
+      { text: "The positive solution is 8: choice C", note: "Algebra: (2p − 7)² = 81, so 2p − 7 = ±9", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+ 
+  {
+    id: "Par-XInt-15-AQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 15,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: ["x-intercept", "solve", "squared-binomial", "fraction-root", "positive-root"],
+    text: `<p style="text-align:center">\\(\\dfrac{9(3k - 4)^2}{81} - 7 = 9\\)</p>
+      <p>What is the <strong>positive solution</strong> to the given equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\dfrac{8}{3}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(4\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(\\dfrac{16}{3}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\dfrac{20}{3}\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      { text: "Replace k with x and graph \\(y = \\frac{9(3x - 4)^2}{81} - 7\\) and \\(y = 9\\); click the intersections", note: "x ≈ −2.667 and x ≈ 5.333", gif: "", video: "" },
+      { text: "5.333 is \\(\\tfrac{16}{3}\\), the positive solution: choice C", note: "Algebra: (3k − 4)² = 144, so 3k − 4 = ±12", gif: "", video: "" },
+    ],
+    screenshot: "",
+    videoId: "",
+  },
+
 
 ];
