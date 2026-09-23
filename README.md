@@ -49,3 +49,10 @@ SimGr = Simple Graphing
 YInt = Y-Intercept
 XInt = X-Intercept
 Ver = Vertex
+
+Types of Questions
+
+E = Worked Example
+GP = Guided Practice
+Q = In-Class Practice Question
+AQ = Additional Practice Question
