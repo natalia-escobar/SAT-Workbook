@@ -18876,11 +18876,11 @@ export const questions = [
   },
  
   {
-    id: "Par-XInt-9-GP-1",
+    id: "Par-XInt-9-Q-1",
     topic: "parabola",
     subtopic: "x-intercept",
     problem: 9,
-    questionType: "GP",
+    questionType: "PR",
     difficulty: 2,
     tags: ["x-intercept", "number-of-solutions", "two-solutions"],
     text: `<p style="text-align:center">\\(4x^2 - 196 = 7548\\)</p>
@@ -18904,11 +18904,11 @@ export const questions = [
   },
  
   {
-    id: "Par-XInt-9-Q-1",
+    id: "Par-XInt-9-AQ-2",
     topic: "parabola",
     subtopic: "x-intercept",
     problem: 9,
-    questionType: "PR",
+    questionType: "AQ",
     difficulty: 2,
     tags: ["x-intercept", "number-of-solutions", "two-solutions"],
     text: `<p style="text-align:center">\\(5x^2 - 80 = 640\\)</p>
@@ -18928,11 +18928,11 @@ export const questions = [
   },
  
   {
-    id: "Par-XInt-9-Q-2",
+    id: "Par-XInt-9-AQ-1",
     topic: "parabola",
     subtopic: "x-intercept",
     problem: 9,
-    questionType: "PR",
+    questionType: "AQ",
     difficulty: 3,
     tags: ["x-intercept", "number-of-solutions", "one-solution", "linear-in-disguise"],
     text: `<p style="text-align:center">\\(3x(x - 8) = 3(x - 2)(x + 1) + 12\\)</p>
@@ -18952,11 +18952,11 @@ export const questions = [
   },
  
   {
-    id: "Par-XInt-9-AQ-1",
+    id: "Par-XInt-9-Q-2",
     topic: "parabola",
     subtopic: "x-intercept",
     problem: 9,
-    questionType: "AQ",
+    questionType: "PR",
     difficulty: 2,
     tags: ["x-intercept", "number-of-solutions", "no-solution"],
     text: `<p style="text-align:center">\\(2(t + 37)^2 + 50 = -400\\)</p>
@@ -18976,11 +18976,11 @@ export const questions = [
   },
  
   {
-    id: "Par-XInt-9-AQ-2",
+    id: "Par-XInt-9-GP-1",
     topic: "parabola",
     subtopic: "x-intercept",
     problem: 9,
-    questionType: "AQ",
+    questionType: "GP",
     difficulty: 3,
     tags: ["x-intercept", "number-of-solutions", "one-solution", "perfect-square"],
     text: `<p style="text-align:center">\\((m + 8)^2 + 18(m + 8) + 81 = 0\\)</p>
