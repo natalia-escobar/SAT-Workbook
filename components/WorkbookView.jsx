@@ -13,6 +13,7 @@ import ProblemNav from "./ProblemNav";
 import Link from "next/link";
 import useShowIds from "@/lib/useShowIds";
 import { logEvent } from "@/lib/db";
+import SignOutButton from "@/components/SignOutButton";
 
 function SectionAccordion({ icon, title, defaultOpen, children }) {
   const [open, setOpen] = useState(defaultOpen);
@@ -111,7 +112,7 @@ function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, show
   const handleChoiceClick = (e) => {
     const choice = e.target.closest(".mc-choice");
     if (!choice) return;
-    const parent = choice.closest(".mc-choices");
+    const parent = choice.closest(".mc-choices") || choice.parentElement;
     parent.querySelectorAll(".mc-choice").forEach((c) => {
       c.style.outline = "";
     });
@@ -192,6 +193,7 @@ export default function WorkbookView({ topic }) {
         <i className="ti ti-arrow-left" />
         All workbooks
       </Link>
+      <SignOutButton />
       <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "16px" }}>{topic.name}</h1>
       <HowThisWorks />
       <ProblemNav problemIndex={problemIndex} total={total} setProblemIndex={setProblemIndex} showIds={showIds} isFirst={isFirst} isLast={isLast} />

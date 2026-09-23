@@ -2961,24 +2961,25 @@ export const questions = [
     tags: [],
     text: `Which of the following is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( (2t - \\frac{5}{2})^2 - (t + \\frac{1}{4}) + 3(t - \\frac{1}{2})\\)?</p>
-        <div class="mc-choice">
-              <span class="mc-label">A</span>
-              <span>\\( 4t^2 - 12t + \\frac{9}{2} \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( 4t^2 - 8t + \\frac{9}{2} \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">C</span>
-              <span>\\( 4t^2 - 8t + \\frac{19}{4} \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( 4t^2 - 12t + \\frac{19}{4} \\)</span>
-            </div>
-          </div>`,
-    answer: "",
+            <div class="mc-choices">
+              <div class="mc-choice">
+                <span class="mc-label">A</span>
+                <span>\\( 4t^2 - 12t + \\frac{9}{2} \\)</span>
+              </div>
+              <div class="mc-choice correct">
+                <span class="mc-label">B</span>
+                <span>\\( 4t^2 - 8t + \\frac{9}{2} \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">C</span>
+                <span>\\( 4t^2 - 8t + \\frac{19}{4} \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">D</span>
+                <span>\\( 4t^2 - 12t + \\frac{19}{4} \\)</span>
+              </div>
+            </div>`,
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -2996,7 +2997,8 @@ export const questions = [
     tags: [],
     text: `Which of the following is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( (4k + \\frac{1}{2})^2 - 2(k - \\frac{3}{4}) + (k + \\frac{1}{4})\\)?</p>
-        <div class="mc-choice correct">
+            <div class="mc-choices">
+              <div class="mc-choice correct">
               <span class="mc-label">A</span>
               <span>\\( 16k^2 + 5k + 2 \\)</span>
             </div>
@@ -3012,7 +3014,7 @@ export const questions = [
               <span class="mc-label">D</span>
               <span>\\( 16k^2 + 5k + \\frac{7}{4} \\)</span>
             </div>
-          </div>`,
+            </div>`,
     answer: "A",
     graph: null,
     graphChoices: null,
@@ -3180,7 +3182,8 @@ export const questions = [
     text: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = 2(\\frac{x^2}{2} - 5a)\\)?</p>
             is equivalent to which of the following where \\(a\\) is a positive constant?
-            <div class="mc-choice correct">
+            <div class="mc-choices">
+                <div class="mc-choice correct">
                   <span class="mc-label">A</span>
                   <span>\\( y = (x + \\sqrt{10a})(x - \\sqrt{10a}) \\)</span>
                 </div>
@@ -3196,7 +3199,7 @@ export const questions = [
                   <span class="mc-label">D</span>
                   <span>\\( y = (x + 5a)(x - 5a) \\)</span>
                 </div>
-              </div>`,
+            </div>`,
     answer: "A",
     graph: null,
     graphChoices: null,
@@ -3235,7 +3238,8 @@ export const questions = [
     text: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = 4x^2 - 3x^2 - 18b\\)?</p>
             is equivalent to which of the folllowing where \\(b\\) is a positive constant?
-            <div class="mc-choice correct">
+            <div class="mc-choices">    
+                <div class="mc-choice correct">
                   <span class="mc-label">A</span>
                   <span>\\( y = (x + \\sqrt{9b})(x - \\sqrt{9b}) \\)</span>
                 </div>
@@ -3290,7 +3294,8 @@ export const questions = [
     text: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = \\frac{1}{5}(5x^2 - 60c) \\)?</p>
             is equivalent to which of the folllowing where \\(c\\) is a positive constant?
-            <div class="mc-choice">
+            <div class="mc-choices">
+            <div class="mc-choice correct">
                   <span class="mc-label">A</span>
                   <span>\\( y = (x + 2\\sqrt{3c})(x - 2\\sqrt{3c}) \\)</span>
                 </div>
@@ -3307,7 +3312,7 @@ export const questions = [
                   <span>\\( y = (x + 6\\sqrt{3c})(x - 6\\sqrt{3c}) \\)</span>
                 </div>
               </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3326,6 +3331,7 @@ export const questions = [
     text: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = 3(\\frac{x^2}{3} - 7d) + 2d \\)?</p>
             is equivalent to which of the folllowing where \\(d\\) is a positive constant?
+            <div class="mc-choices">
             <div class="mc-choice">
                   <span class="mc-label">A</span>
                   <span>\\( y = (x + \\sqrt{19d})(x - \\sqrt{19d}) \\)</span>
