@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import ProblemStatement from "@/components/ProblemStatement";
 import StepNavigator from "@/components/StepNavigator";
 import GuidedPractice from "@/components/GuidedPractice";
@@ -12,7 +12,7 @@ import GraphChoices from "@/components/GraphChoices";
 import ProblemNav from "./ProblemNav";
 import Link from "next/link";
 import useShowIds from "@/lib/useShowIds";
-import { logEvent } from "@/lib/db";
+import { logEvent, getSavedAnswers } from "@/lib/db";
 import SignOutButton from "@/components/SignOutButton";
 
 function SectionAccordion({ icon, title, defaultOpen, children }) {
@@ -105,9 +105,20 @@ function WorkedExampleCarousel({ problem, problemIndex, showIds }) {
   );
 }
 
-function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, showIds, container }) {
+function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, showIds, container, savedAnswer, onAnswered }) {
   const [open, setOpen] = useState(false);
+  const boxRef = useRef(null);
   const isMultipleChoice = text.includes("mc-choice") || graphChoices;
+
+  const applySaved = () => {
+  if (!savedAnswer || !boxRef.current) return;
+  boxRef.current.querySelectorAll(".mc-choice").forEach((c) => {
+    const label = c.querySelector(".mc-label")?.textContent?.trim();
+    c.style.outline = label === savedAnswer ? "2px solid #1a1a1a" : "";
+  });
+};
+
+  useEffect(() => { if (open) applySaved(); }, [savedAnswer]);
 
   const handleChoiceClick = (e) => {
     const choice = e.target.closest(".mc-choice");
@@ -126,6 +137,7 @@ function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, show
       context: "workbook",
       containerId: container,
     });
+    onAnswered?.(id, letter);
   };
 
   return (
@@ -143,8 +155,8 @@ function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, show
       {open && (
         <div style={{ marginTop: "12px" }}>
           {graph && <DesmosGraph graph={graph} />}
-          <div onClick={isMultipleChoice ? handleChoiceClick : undefined}>
-            <MathContent html={text} className="practice-text" />
+          <div ref={boxRef} onClick={isMultipleChoice ? handleChoiceClick : undefined}>
+            <MathContent html={text} className="practice-text" onRendered={applySaved} />
           </div>
           {graphChoices && <GraphChoices choices={graphChoices} showFeedback={false} />}
           {!isMultipleChoice && !graphChoices && (
@@ -176,6 +188,14 @@ export default function WorkbookView({ topic }) {
   const isFirst = problemIndex === 0;
   const isLast = problemIndex === total - 1;
   const showIds = useShowIds();
+  const [saved, setSaved] = useState({});
+  const container = topic.slug || topic.name;
+
+  useEffect(() => {
+  getSavedAnswers(container).then((m) => {
+    setSaved(m);
+  });
+}, [container]);
 
   useEffect(() => {
     if (window.MathJax) window.MathJax.typesetPromise();
@@ -216,13 +236,15 @@ export default function WorkbookView({ topic }) {
           guidedProblems={problem.guidedProblems}
           guidedIds={problem.guidedIds}
           container={topic.slug || topic.name}
+          savedAnswers={saved}
+          onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))}
         />
       </SectionAccordion>
 
       {problem.practice && problem.practice.length > 0 && (
       <SectionAccordion icon="ti-pencil" title="In-class practice problems" defaultOpen={false} key={`pp-${problemIndex}`}>
         {problem.practice.map((p, i) => (
-          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} />
+          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))}/>
         ))}
       </SectionAccordion>
       )}
@@ -233,7 +255,7 @@ export default function WorkbookView({ topic }) {
       {problem.additionalPractice && problem.additionalPractice.length > 0 && (
         <SectionAccordion icon="ti-notebook" title="Additional practice" defaultOpen={false} key={`ap-${problemIndex}`}>
           {problem.additionalPractice.map((p, i) => (
-            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} />
+            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))}/>
           ))}
         </SectionAccordion>
       )}

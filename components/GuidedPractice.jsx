@@ -1,14 +1,15 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import MathContent from "./MathContent";
 import DesmosGraph from "./DesmosGraph";
 import GraphChoices from "./GraphChoices";
 import { logEvent } from "@/lib/db";
 
-function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, container }) {
+function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, container, savedAnswer, onAnswered }) {
   const [checked, setChecked] = useState(() => gp.steps.map(() => false));
   const isMultipleChoice = gp.problem.includes("mc-choice") || gp.graphChoices;
+  const leftRef = useRef(null);
 
   const toggleStep = (i) => {
     const next = [...checked];
@@ -16,10 +17,7 @@ function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, containe
     setChecked(next);
   };
 
-  const onChoiceClick = (e) => {
-    const choice = e.target.closest(".mc-choice");
-    if (!choice) return;
-
+    const styleChoice = (choice) => {
     if (selectedChoiceRef.current && selectedChoiceRef.current !== choice) {
       selectedChoiceRef.current.style.borderColor = "";
       selectedChoiceRef.current.style.background = "";
@@ -28,11 +26,9 @@ function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, containe
       const oldLabel = selectedChoiceRef.current.querySelector(".mc-label");
       if (oldLabel) { oldLabel.style.borderColor = ""; oldLabel.style.color = ""; oldLabel.style.background = ""; }
     }
-
     const isCorrect = choice.classList.contains("correct");
     choice.style.borderColor = isCorrect ? "#1D9E75" : "#b3452e";
     choice.style.background = "#fff";
-
     if (isCorrect) {
       const label = choice.querySelector(".mc-label");
       if (label) { label.style.borderColor = "#1D9E75"; label.style.color = "#085041"; label.style.background = "#9FE1CB"; }
@@ -44,9 +40,14 @@ function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, containe
         choice.appendChild(check);
       }
     }
-
     selectedChoiceRef.current = choice;
+    return isCorrect;
+  };
 
+  const onChoiceClick = (e) => {
+    const choice = e.target.closest(".mc-choice");
+    if (!choice) return;
+    const isCorrect = styleChoice(choice);
     const letter = choice.querySelector(".mc-label")?.textContent?.trim() || null;
     logEvent({
       questionId: gp.id,
@@ -56,14 +57,22 @@ function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, containe
       context: "workbook",
       containerId: container,
     });
+    onAnswered?.(gp.id, letter);
+  };
+
+  const restoreSaved = () => {
+    if (!savedAnswer || !leftRef.current) return;
+    const choice = [...leftRef.current.querySelectorAll(".mc-choice")]
+      .find((c) => c.querySelector(".mc-label")?.textContent?.trim() === savedAnswer);
+    if (choice) styleChoice(choice);
   };
 
   return (
     <div className="guided-grid">
-      <div className="guided-grid-left" onClick={isMultipleChoice && !gp.graphChoices ? onChoiceClick : undefined}>
+      <div ref={leftRef} className="guided-grid-left" onClick={isMultipleChoice && !gp.graphChoices ? onChoiceClick : undefined}>
         {gp.graph && <DesmosGraph graph={gp.graph} />}
         <div className="guided-label">Problem</div>
-        <MathContent html={gp.problem} className="guided-text" />
+        <MathContent html={gp.problem} className="guided-text" onRendered={restoreSaved} />
         {gp.graphChoices && <GraphChoices choices={gp.graphChoices} />}
       </div>
 
@@ -87,7 +96,7 @@ function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, containe
   );
 }
 
-export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot, guidedGraph, guidedGraphChoices, guidedProblems, guidedIds, container }) {
+export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot, guidedGraph, guidedGraphChoices, guidedProblems, guidedIds, container, savedAnswers = {}, onAnswered }) {
   const selectedChoiceRef = useRef(null);
 
   // Build array of guided problems
@@ -123,7 +132,7 @@ export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswe
           </div>
         </div>
       )}
-      <GuidedPracticeCard key={currentIndex} gp={gp} handleChoiceClick={() => {}} selectedChoiceRef={selectedChoiceRef} container={container} />
+      <GuidedPracticeCard key={currentIndex} gp={gp} handleChoiceClick={() => {}} selectedChoiceRef={selectedChoiceRef} container={container} savedAnswer={savedAnswers[gp.id]} onAnswered={onAnswered} />
     </div>
   );
 }
