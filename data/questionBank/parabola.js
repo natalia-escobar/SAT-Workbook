@@ -20579,5 +20579,661 @@ export const questions = [
     videoId: ""
   },
 
+  // Amuni's Round 2 - Labels might need to be cleaned up 
+
+  {
+    id: "Par-XInt-CQ-1",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "trinomial"],
+    text: `<p>Which of the following expressions is a factor of \\(10x^2 + 29x - 21\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(5x + 3\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(5x - 3\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(2x - 7\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(10x - 3\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-2",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "trinomial"],
+    text: `<p>Which of the following expressions is a factor of \\(12x^2 - 11x - 15\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(4x - 3\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(3x + 5\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(2x - 5\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(4x + 3\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-3",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "trinomial"],
+    text: `<p>Which of the following expressions is a factor of \\(14x^2 - 25x + 6\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(7x + 2\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(7x - 2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(2x + 3\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(14x - 3\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-4",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "trinomial"],
+    text: `<p>Which of the following expressions is a factor of \\(15x^2 + 22x + 8\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(5x - 4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(3x - 2\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(5x + 4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(15x + 4\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-5",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "grouping"],
+    text: `<p style="text-align:center">\\(12x^2 - 8x + 9x - 6\\)</p>
+      <p>Which of the following expressions is <strong>not</strong> a factor of the expression above?</p><p>I. \\(4x + 3\\)<br>II. \\(3x - 2\\)<br>III. \\(2x + 3\\)</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>I only</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>II only</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>III only</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>I and II</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-6",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "grouping"],
+    text: `<p style="text-align:center">\\(15x^2 + 20x - 6x - 8\\)</p>
+      <p>Which of the following expressions is <strong>not</strong> a factor of the expression above?</p><p>I. \\(3x + 4\\)<br>II. \\(5x - 2\\)<br>III. \\(3x - 4\\)</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>III only</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>I only</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>II only</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>I and III</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-7",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "grouping"],
+    text: `<p style="text-align:center">\\(14x^2 - 21x + 8x - 12\\)</p>
+      <p>Which of the following expressions is <strong>not</strong> a factor of the expression above?</p><p>I. \\(7x + 4\\)<br>II. \\(2x - 3\\)<br>III. \\(7x - 4\\)</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>I only</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>III only</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>II only</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>I and II</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-8",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "parameter", "desmos"],
+    text: `<p>A company models its monthly profit, in thousands of dollars, with a quadratic function. The company breaks even at a value represented by the factor</p><p style="text-align:center">\\(x + 2k,\\)</p><p>where \\(k\\) is a positive integer.</p><p>Which expression could represent the company's profit model?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(4x^2 + 22x + 32k\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(4x^2 + 28x + 32k\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(4x^2 + 34x + 32k\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(4x^2 + 40x + 32k\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-9",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "parameter", "desmos"],
+    text: `<p>The cross section of a bridge arch is modeled by a quadratic function. Engineers know the model has a factor of</p><p style="text-align:center">\\(x + 3m,\\)</p><p>where \\(m\\) is a positive integer.</p><p>Which expression could represent the bridge arch?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(5x^2 + 39x + 45m\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(5x^2 + 45x + 45m\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(5x^2 + 51x + 45m\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(5x^2 + 57x + 45m\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-10",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "parameter", "desmos"],
+    text: `<p>A company's projected revenue is modeled by a quadratic function. Analysts know the model has a factor of</p><p style="text-align:center">\\(x + 4n,\\)</p><p>where \\(n\\) is a positive integer.</p><p>Which expression could represent the revenue model?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(3x^2 + 44x + 48n\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(3x^2 + 52x + 48n\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(3x^2 + 60x + 48n\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(3x^2 + 68x + 48n\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-11",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "parameter", "desmos"],
+    text: `<p>The height of a roller coaster hill is modeled by a quadratic function. Designers know the model has a factor of</p><p style="text-align:center">\\(x + 5p,\\)</p><p>where \\(p\\) is a positive integer.</p><p>Which expression could represent the height of the hill?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(6x^2 + 96x + 150p\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(6x^2 + 105x + 150p\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(6x^2 + 120x + 150p\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(6x^2 + 135x + 150p\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-12",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "parameter", "desmos"],
+    text: `<p>The value of an investment is modeled by a quadratic function. The model has a factor of</p><p style="text-align:center">\\(x + 3r,\\)</p><p>where \\(r\\) is a positive integer.</p><p>Which expression could represent the value of the investment?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(4x^2 + 32x + 48r\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(4x^2 + 28x + 48r\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(4x^2 + 36x + 48r\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(4x^2 + 40x + 48r\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  // variant of Par-XInt-12-E-6 with r
+  {
+    id: "Par-XInt-CQ-13",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "vertex-form"],
+    text: `<p style="text-align:center">\\(3(2r - 5)^2 + 9 = 84\\)</p>
+      <p>If \\(r = k\\) is the greater solution to the equation above, which of the following must be true?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(k < 1\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(1 < k < 3\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(3 < k < 6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(6 < k\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  // variant of Par-XInt-12-GP-3 with y
+  {
+    id: "Par-XInt-CQ-14",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "solve", "standard-form", "free-response", "negative-roots"],
+    text: `<p style="text-align:center">\\(y^2 + 35y + 306 = 0\\)</p>
+      <p>What is one of the solutions to the given equation?</p>`,
+    answer: "-17 or -18",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-15",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "quadratic-formula", "solve"],
+    text: `<p style="text-align:center">\\(7x(x - 3) + 17 = 10\\)</p>
+      <p>Which of the following is a zero of the equation above?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{21 + \\sqrt{637}}{14}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(\\dfrac{21 + \\sqrt{245}}{14}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\dfrac{-21 + \\sqrt{245}}{14}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\dfrac{21 + \\sqrt{245}}{7}\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-16",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "quadratic-formula", "solve"],
+    text: `<p style="text-align:center">\\(2x(x + 5) - x - 18 = 0\\)</p>
+      <p>What are the solutions to the given equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(x = \\dfrac{9 \\pm \\sqrt{225}}{4}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(x = \\dfrac{-9 \\pm \\sqrt{225}}{4}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(x = \\dfrac{-9 \\pm \\sqrt{369}}{4}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(x = \\dfrac{9 \\pm \\sqrt{369}}{4}\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-17",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "quadratic-formula", "solve"],
+    text: `<p style="text-align:center">\\(8x(x + 2) - 18 = 5\\)</p>
+      <p>Which of the following is a zero of the equation above?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(\\dfrac{-16 + \\sqrt{992}}{16}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(\\dfrac{16 + \\sqrt{992}}{16}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\dfrac{-16 + \\sqrt{480}}{16}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\dfrac{-16 + \\sqrt{992}}{8}\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-18",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "quadratic-formula", "solve"],
+    text: `<p style="text-align:center">\\(3(x^2 + 2x) - 14 = 0\\)</p>
+      <p>What are the solutions to the given equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(x = \\dfrac{-2 \\pm \\sqrt{60}}{2}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(x = \\dfrac{2 \\pm \\sqrt{60}}{2}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(x = \\dfrac{-6 \\pm \\sqrt{372}}{6}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(x = \\dfrac{-6 \\pm \\sqrt{204}}{6}\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-19",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "quadratic-formula", "solve"],
+    text: `<p style="text-align:center">\\(9x(x - 4) + 32 = 10\\)</p>
+      <p>Which of the following is a zero of the equation above?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{36 + \\sqrt{2088}}{18}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(\\dfrac{-36 + \\sqrt{504}}{18}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(\\dfrac{36 + \\sqrt{504}}{18}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(\\dfrac{36 + \\sqrt{504}}{9}\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-20",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "quadratic-formula", "solve"],
+    text: `<p style="text-align:center">\\(x(x + 11) - (x + 24) = 0\\)</p>
+      <p>What are the solutions to the given equation?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(x = \\dfrac{-10 \\pm \\sqrt{244}}{2}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(x = \\dfrac{10 \\pm \\sqrt{196}}{2}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(x = \\dfrac{-10 \\pm \\sqrt{196}}{2}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(x = \\dfrac{-10 \\pm \\sqrt{292}}{2}\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-21",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "constants"],
+    text: `<p>The expression</p><p style="text-align:center">\\(2x^2 + ckx - 22.5k^2\\)</p><p>has \\(2x - 3k\\) as a factor, where \\(c\\) and \\(k\\) are constants and \\(k > 0\\).</p><p>What is the value of \\(c\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(9\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">C</span><span>\\(12\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(15\\)</span></div>
+      </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-22",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "constants"],
+    text: `<p>The expression</p><p style="text-align:center">\\(3x^2 + dmx - 50m^2\\)</p><p>has \\(x - 4m\\) as a factor, where \\(d\\) and \\(m\\) are constants and \\(m > 0\\).</p><p>What is the value of \\(d\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(\\dfrac{1}{2}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(\\dfrac{1}{4}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(4\\)</span></div>
+      </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-23",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "constants"],
+    text: `<p>The expression</p><p style="text-align:center">\\(4x^2 + gnx - 35n^2\\)</p><p>has \\(2x - 5n\\) as a factor, where \\(g\\) and \\(n\\) are constants and \\(n > 0\\).</p><p>What is the value of \\(g\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(2\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(6\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(8\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+   {
+    id: "Par-XInt-CQ-24",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "constants"],
+    text: `<p>The expression</p><p style="text-align:center">\\(5x^2 + krx - \\dfrac{57}{4}r^2\\)</p><p>has \\(2x - 3r\\) as a factor, where \\(k\\) and \\(r\\) are constants and \\(r > 0\\).</p><p>What is the value of \\(k\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{1}{2}\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">B</span><span>\\(1\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(\\dfrac{3}{2}\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">D</span><span>\\(2\\)</span></div>
+      </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-25",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "factor", "constants"],
+    text: `<p>The expression</p><p style="text-align:center">\\(2x^2 + qtx - 62t^2\\)</p><p>has \\(x - 5t\\) as a factor, where \\(q\\) and \\(t\\) are constants and \\(t > 0\\).</p><p>What is the value of \\(q\\)?</p>
+      <div class="mc-choices">
+        <div class="mc-choice"><span class="mc-label">A</span><span>\\(1.2\\)</span></div>
+        <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(2.4\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">C</span><span>\\(3.2\\)</span></div>
+        <div class="mc-choice"><span class="mc-label">D</span><span>\\(4.8\\)</span></div>
+      </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-26",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x - 2)^2 - 3\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x + 5)^2 - 3.\\)</p><p>The zeros of \\(f\\) are \\(a\\) and \\(b\\), where \\(a < b\\), and the zeros of \\(g\\) are \\(c\\) and \\(d\\), where \\(c < d\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(a + c\\) and \\(b + d\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
+    answer: "-3",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-27",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x + 1)^2 - 5\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x - 4)^2 - 5.\\)</p><p>The zeros of \\(f\\) are \\(a\\) and \\(b\\), where \\(a < b\\), and the zeros of \\(g\\) are \\(c\\) and \\(d\\), where \\(c < d\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(a + c\\) and \\(b + d\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
+    answer: "-11",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-28",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x - 5)^2 - 6\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x + 2)^2 - 6.\\)</p><p>The zeros of \\(f\\) are \\(p\\) and \\(q\\), where \\(p < q\\), and the zeros of \\(g\\) are \\(r\\) and \\(s\\), where \\(r < s\\).</p><p>The zeros of the quadratic function \\(k\\) are \\(p + r\\) and \\(q + s\\). If the leading coefficient of \\(k\\) is 1, what is the value of \\(k(0)\\)?</p>`,
+    answer: "-15",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-29",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x + 3)^2 - 2\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x - 1)^2 - 2.\\)</p><p>The zeros of \\(f\\) are \\(m\\) and \\(n\\), where \\(m < n\\), and the zeros of \\(g\\) are \\(r\\) and \\(s\\), where \\(r < s\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(m + r\\) and \\(n + s\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
+    answer: "-4",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-30",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x - 4)^2 - 5\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x + 6)^2 - 5.\\)</p><p>The zeros of \\(f\\) are \\(j\\) and \\(k\\), where \\(j < k\\), and the zeros of \\(g\\) are \\(m\\) and \\(n\\), where \\(m < n\\).</p><p>The zeros of the quadratic function \\(P\\) are \\(j + m\\) and \\(k + n\\). If the leading coefficient of \\(P\\) is 1, what is the value of \\(P(0)\\)?</p>`,
+    answer: "-16",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+  {
+    id: "Par-XInt-CQ-31",
+    topic: "parabola",
+    subtopic: "x-intercept",
+    problem: 0,
+    questionType: "CQ",
+    difficulty: 2,
+    tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x + 2)^2 - 6\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x - 3)^2 - 6.\\)</p><p>The zeros of \\(f\\) are \\(r\\) and \\(s\\), where \\(r < s\\), and the zeros of \\(g\\) are \\(t\\) and \\(u\\), where \\(t < u\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(r + t\\) and \\(s + u\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
+    answer: "-23",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: "",
+  },
+
 
 ];
