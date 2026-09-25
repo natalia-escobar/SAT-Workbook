@@ -106,7 +106,7 @@ const equivalentTo = {
       ...asWorked("Par-Eq-13-E-1"),
       ...asGuided("Par-Eq-13-GP-1"),
       practice: asPractice(["Par-Eq-13-Q-1", "Par-Eq-13-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-13-AQ-1", "Par-Eq-13-AQ-2", "Par-Eq-13-AQ-3", "Par-Eq-13-AQ-4"]),
+      additionalPractice: asAdditional([]),
     },
  
     // Problem 14
@@ -186,7 +186,7 @@ const equivalentTo = {
       ...asWorked("Par-Eq-23-E-1"),
       ...asGuided("Par-Eq-23-GP-1"),
       practice: asPractice(["Par-Eq-23-Q-1", "Par-Eq-23-Q-2"]),
-      additionalPractice: asAdditional([]),
+      additionalPractice: asAdditional(["Par-Eq-23-AQ-1", "Par-Eq-23-AQ-2", "Par-Eq-23-AQ-3", "Par-Eq-23-AQ-4"]),
     },
  
     // Problem 24

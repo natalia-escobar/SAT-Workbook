@@ -3692,7 +3692,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-13-AQ-1",
+    id: "Par-Eq-23-AQ-1",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3734,7 +3734,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-13-AQ-2",
+    id: "Par-Eq-23-AQ-2",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3743,10 +3743,10 @@ export const questions = [
     tags: [],
     text: `<p>The expression</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( \\frac{1}{4}(4r^2 - 320) \\)</p>
+      \\( \\frac{1}{4}(4q^2 - 320) \\)</p>
     <p>is equivalent to</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( (r-t)(r+t), \\)</p>
+      \\( (q-r)(q+r), \\)</p>
     <p>where \\(t\\) is a positive constant.</p>
     <p>What is the value of \\(t\\)?</p>
     <div class="mc-choices">
@@ -3776,7 +3776,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-13-AQ-3",
+    id: "Par-Eq-23-AQ-3",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3818,7 +3818,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-13-AQ-4",
+    id: "Par-Eq-23-AQ-4",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
