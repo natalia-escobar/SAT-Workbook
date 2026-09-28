@@ -129,7 +129,7 @@ export const questions = [
                 <span>\\( 11x^2 + 4x - 6 \\)</span>
             </div>
             <div class="mc-choice">
-                <span class="mc-label">D</span>
+                <span class="mc-label correct">D</span>
                 <span>\\( 5x^2 + 4x - 6 \\)</span>
             </div>
             </div>`,
@@ -157,7 +157,7 @@ export const questions = [
                 <span class="mc-label">A</span>
                 <span>\\( 6x^2 - 8x + 9 \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
                 <span class="mc-label">B</span>
                 <span>\\( 4x^2 - 2x + 9 \\)</span>
             </div>
@@ -190,7 +190,7 @@ export const questions = [
         <p style="text-align:center;margin-bottom:12px">
         \\( 4(2x^2 - 3x + 5) + (3x^2 + 7x - 8) \\)?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
                 <span class="mc-label">A</span>
                 <span>\\( 11x^2 - 5x + 12 \\)</span>
             </div>
@@ -235,7 +235,7 @@ export const questions = [
                 <span class="mc-label">B</span>
                 <span>\\( 14x^2 - 11x + 9 \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
                 <span class="mc-label">C</span>
                 <span>\\( 4x^2 - 11x + 9 \\)</span>
             </div>
@@ -268,7 +268,7 @@ export const questions = [
                 <span class="mc-label">A</span>
                 <span>\\( 11x^2 + 4x - 27 \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
                 <span class="mc-label">B</span>
                 <span>\\( 11x^2 + 16x - 27 \\)</span>
             </div>
@@ -305,7 +305,7 @@ export const questions = [
               <span class="mc-label">A</span>
               <span>\\( 8x^2 + 7x \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
               <span class="mc-label">B</span>
               <span>\\( 8x^2 + 7x + 6 \\)</span>
             </div>
@@ -338,7 +338,7 @@ export const questions = [
         <p style="text-align:center;margin-bottom:12px">
           \\( -3(2x^2 - 5x + 4) + (8x^2 - 7x + 6) \\)?</p>
           <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
               <span class="mc-label">A</span>
               <span>\\( 2x^2 + 8x - 6 \\)</span>
             </div>
@@ -588,7 +588,7 @@ export const questions = [
                           <span class="mc-label">B</span>
                           <span>\\( 4x^2 - \\frac{22}{3}x + 20 \\)</span>
                         </div>
-                        <div class="mc-choice">
+                        <div class="mc-choice correct">
                           <span class="mc-label">C</span>
                           <span>\\( 4x^2 - \\frac{22}{3}x - 20 \\)</span>
                         </div>
@@ -628,7 +628,7 @@ export const questions = [
                           <span class="mc-label">C</span>
                           <span>\\( 2x^2 - \\frac{17}{2}x - 15 \\)</span>
                         </div>
-                        <div class="mc-choice">
+                        <div class="mc-choice correct">
                           <span class="mc-label">D</span>
                           <span>\\( 2x^2 - \\frac{23}{2}x + 15  \\)</span>
                         </div>
@@ -652,7 +652,7 @@ export const questions = [
     text: `<p>Which expression is equivalent to</p>
                   <p style="text-align:center;margin-bottom:12px"> \\( 5(x + \\frac{3}{2})(x + 2) - 4x \\)?</p>
                     <div class="mc-choices">
-                        <div class="mc-choice">
+                        <div class="mc-choice correct">
                           <span class="mc-label">A</span>
                           <span>\\( 5x^2 + \\frac{27}{2}x + 15 \\)</span>
                         </div>
@@ -794,7 +794,7 @@ export const questions = [
                           <span class="mc-label">B</span>
                           <span>\\( 16x^2 + 5x + 2 \\)</span>
                         </div>
-                        <div class="mc-choice">
+                        <div class="mc-choice correct">
                           <span class="mc-label">C</span>
                           <span>\\( 16x^2 + 3x + 2 \\)</span>
                         </div>
@@ -1103,7 +1103,7 @@ export const questions = [
         <p style="text-align:center;margin-bottom:12px">\\( y = \\frac{1}{3}(3x^2 - 84) \\)?</p>
         is equivalent to which of the following?
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
               <span class="mc-label">A</span>
               <span>\\( y = (x + 2\\sqrt{7})(x - 2\\sqrt{7}) \\)</span>
             </div>
@@ -1144,7 +1144,7 @@ export const questions = [
               <span class="mc-label">A</span>
               <span>\\( y = (x + 4\\sqrt{3})(x - 4\\sqrt{3}) \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
               <span class="mc-label">B</span>
               <span>\\( y = (x + 2\\sqrt{13})(x - 2\\sqrt{13}) \\)</span>
             </div>
@@ -1182,7 +1182,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\( y = (x + 8)(x - 8) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( y = (x + 4\\sqrt{2})(x - 4\\sqrt{2}) \\)</span>
       </div>
@@ -1216,7 +1216,7 @@ export const questions = [
       \\( y = 6x^2 - 5x^2 - 63 \\)</p>
     <p>is equivalent to which of the following?</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( y = (x + 3\\sqrt{7})(x - 3\\sqrt{7}) \\)</span>
       </div>
@@ -1262,7 +1262,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( y = (x + 4\\sqrt{10})(x - 4\\sqrt{10}) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( y = (x + 2\\sqrt{10})(x - 2\\sqrt{10}) \\)</span>
       </div>
@@ -1292,7 +1292,7 @@ export const questions = [
       \\( y = 5\\left(\\frac{x^2}{5} - 12\\right) + 12 \\)</p>
     <p>is equivalent to which of the following?</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( y = (x + 4\\sqrt{3})(x - 4\\sqrt{3}) \\)</span>
       </div>
@@ -1540,7 +1540,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\( (4x + \\sqrt{2} - 5)(4x + \\sqrt{2} + 3) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( (4x + \\sqrt{2} - 3)(4x + \\sqrt{2} + 5) \\)</span>
       </div>
@@ -1581,7 +1581,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( \\left(5x - \\frac{5}{2}\\right)\\left(5x + \\frac{17}{2}\\right) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( \\left(5x - \\frac{11}{2}\\right)\\left(5x + \\frac{9}{2}\\right) \\)</span>
       </div>
@@ -1622,7 +1622,7 @@ export const questions = [
         <span class="mc-label">C</span>
         <span>\\( (6x - \\sqrt{3} + 5)(6x - \\sqrt{3} + 4) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">D</span>
         <span>\\( (6x - \\sqrt{3} - 5)(6x - \\sqrt{3} + 4) \\)</span>
       </div>
@@ -1825,7 +1825,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( 6\\left(3x - \\frac{17}{2}\\right)\\left(3x + \\frac{7}{2}\\right) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( 6\\left(3x - \\frac{5}{2} - 6\\sqrt{2}\\right)\\left(3x - \\frac{5}{2} + 6\\sqrt{2}\\right) \\)</span>
       </div>
@@ -1854,7 +1854,7 @@ export const questions = [
     <p style="text-align:center;margin-bottom:12px">
       \\( 8(5x + 3)^2 - 968? \\)</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( 8(5x - 8)(5x + 14) \\)</span>
       </div>
@@ -2119,7 +2119,7 @@ export const questions = [
     <p>What is the value of</p>
     <p style="text-align:center;margin-bottom:12px">
       \\( f\\left(\\frac{5}{6}\\right)? \\)</p>`,
-    answer: "",
+    answer: "47/12",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -2141,7 +2141,7 @@ export const questions = [
     <p>What is the value of</p>
     <p style="text-align:center;margin-bottom:12px">
       \\( g\\left(\\frac{3}{4}\\right)? \\)</p>`,
-    answer: "",
+    answer: "101/12",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -2163,7 +2163,7 @@ export const questions = [
     <p>What is the value of</p>
     <p style="text-align:center;margin-bottom:12px">
       \\( h\\left(\\frac{6}{5}\\right)? \\)</p>`,
-    answer: "",
+    answer: "103/10",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -2392,7 +2392,7 @@ export const questions = [
                 <span class="mc-label">B</span>
                 <span>\\(400\\)</span>
                 </div>
-                <div class="mc-choice">
+                <div class="mc-choice correct">
                 <span class="mc-label">C</span>
                 <span>\\(450\\)</span>
                 </div>
@@ -2428,7 +2428,7 @@ export const questions = [
                 <span class="mc-label">A</span>
                 <span>\\(704\\)</span>
                 </div>
-                <div class="mc-choice">
+                <div class="mc-choice correct">
                 <span class="mc-label">B</span>
                 <span>\\(792\\)</span>
                 </div>
@@ -2464,7 +2464,7 @@ export const questions = [
             <p style="text-align:center;margin-bottom:12px">
                 \\( h(2)? \\)</p>
             <div class="mc-choices">
-                <div class="mc-choice">
+                <div class="mc-choice correct">
                 <span class="mc-label">A</span>
                 <span>\\(540\\)</span>
                 </div>
@@ -2516,7 +2516,7 @@ export const questions = [
                 <span class="mc-label">C</span>
                 <span>\\(864\\)</span>
                 </div>
-                <div class="mc-choice">
+                <div class="mc-choice correct">
                 <span class="mc-label">D</span>
                 <span>\\(882\\)</span>
                 </div>
@@ -2541,7 +2541,7 @@ export const questions = [
             <p style="text-align:center;margin-bottom:12px"> \\( f(x)=-0.004125x^2+16.842x-17420 \\) </p>
             where \\(x\\) is the year.
             <p style="margin-bottom:12px">Using the model, determine the absolute change in the model's estimated enrollment between September 2021 and September 2022 to the nearest thousandth.</p>`,
-    answer: "",
+    answer: "0.165",
     graph: null,
     graphChoices: null,
     steps: [
@@ -2609,7 +2609,7 @@ export const questions = [
                 <p style="text-align:center;margin-bottom:12px"> \\( P(x)=-0.015x^2+60x-59{,}800 \\) </p>
                 where \\(x\\) represents the year.
                 <p style="margin-bottom:12px">By approximately how many thousand dollars does the model predict the monthly profit changes between 2027 and 2028?</p>`,
-    answer: "",
+    answer: "-0.825",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3039,7 +3039,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\( 9a^2 + 3a + \\frac{3}{2} \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( 9a^2 + 4a + \\frac{3}{2} \\)</span>
       </div>
@@ -3084,7 +3084,7 @@ export const questions = [
         <span class="mc-label">C</span>
         <span>\\( 4b^2 - 6b + \\frac{5}{2} \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">D</span>
         <span>\\( 4b^2 - 4b + \\frac{7}{2} \\)</span>
       </div>
@@ -3109,7 +3109,7 @@ export const questions = [
     <p style="text-align:center;margin-bottom:12px">
       \\( \\left(4c - \\frac{1}{2}\\right)^2 + 2\\left(c + \\frac{3}{4}\\right) - \\left(c - \\frac{1}{4}\\right)? \\)</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( 16c^2 - 3c + 2 \\)</span>
       </div>
@@ -3154,7 +3154,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( 25d^2 + 13d + \\frac{1}{2} \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( 25d^2 + 17d + \\frac{1}{2} \\)</span>
       </div>
@@ -3332,7 +3332,7 @@ export const questions = [
             <p style="text-align:center;margin-bottom:12px">\\( y = 3(\\frac{x^2}{3} - 7d) + 2d \\)?</p>
             is equivalent to which of the folllowing where \\(d\\) is a positive constant?
             <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
                   <span class="mc-label">A</span>
                   <span>\\( y = (x + \\sqrt{19d})(x - \\sqrt{19d}) \\)</span>
                 </div>
@@ -3370,7 +3370,7 @@ export const questions = [
       \\( y = 3\\left(\\frac{x^2}{3} - 8a\\right) \\)</p>
     <p>is equivalent to which of the following, where \\(a\\) is a positive constant?</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( y = (x + \\sqrt{24a})(x - \\sqrt{24a}) \\)</span>
       </div>
@@ -3416,7 +3416,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( y = (x + 8\\sqrt{2b})(x - 8\\sqrt{2b}) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( y = (x + 4\\sqrt{2b})(x - 4\\sqrt{2b}) \\)</span>
       </div>
@@ -3446,7 +3446,7 @@ export const questions = [
       \\( y = \\frac{1}{4}(4x^2 - 80c) \\)</p>
     <p>is equivalent to which of the following, where \\(c\\) is a positive constant?</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( y = (x + 2\\sqrt{5c})(x - 2\\sqrt{5c}) \\)</span>
       </div>
@@ -3488,7 +3488,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\( y = (x + \\sqrt{45d})(x - \\sqrt{45d}) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( y = (x + 4\\sqrt{2d})(x - 4\\sqrt{2d}) \\)</span>
       </div>
@@ -3720,7 +3720,7 @@ export const questions = [
         <span class="mc-label">C</span>
         <span>\\(5\\sqrt{2}\\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">D</span>
         <span>\\(5\\sqrt{6}\\)</span>
       </div>
@@ -3796,7 +3796,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\(5\\sqrt{3}\\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\(2\\sqrt{15}\\)</span>
       </div>
@@ -3838,7 +3838,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\(2\\sqrt{14}\\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\(4\\sqrt{7}\\)</span>
       </div>
@@ -3988,7 +3988,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( 9m(3m - 5n + 2n^2) \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( 9(3m^2 - 5mn + 2n^2) \\)</span>
         </div>
@@ -4028,7 +4028,7 @@ export const questions = [
         <span class="mc-label">C</span>
         <span>\\( 8(7p^2 + 11pq - 4q^2) \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">D</span>
         <span>\\( 4(7p^2 + 11pq - 4q^2) \\)</span>
         </div>
@@ -4235,7 +4235,7 @@ export const questions = [
     <p style="text-align:center;margin-bottom:12px">
       \\( 196a^2 - 225b^2 \\)?</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( (14a - 15b)(14a + 15b) \\)</span>
       </div>
@@ -4280,7 +4280,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( (18m - 11n)^2 \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( (18m - 11n)(18m + 11n) \\)</span>
       </div>
@@ -4313,7 +4313,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\( (13p - 256q)(13p + 256q) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( (13p - 16q)(13p + 16q) \\)</span>
       </div>
@@ -4358,7 +4358,7 @@ export const questions = [
         <span class="mc-label">C</span>
         <span>\\( (20r - 17s)^2 \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">D</span>
         <span>\\( (20r - 17s)(20r + 17s) \\)</span>
       </div>
@@ -4527,7 +4527,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>\\( 6(p - q)^2 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\( 3(p - q)^2 \\)</span>
         </div>
@@ -4560,7 +4560,7 @@ export const questions = [
         \\( n = \\frac{2}{5}pq, \\)</p>
         <p>which of the following is equivalent to \\(15m - 30n\\)?</p>
         <div class="mc-choices">
-        <div class="mc-choice">
+        <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\( 6(p - q)^2 \\)</span>
         </div>
@@ -4601,7 +4601,7 @@ export const questions = [
         \\( n = \\frac{5}{7}pq, \\)</p>
         <p>which of the following is equivalent to \\(14m - 28n\\)?</p>
         <div class="mc-choices">
-        <div class="mc-choice">
+        <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\( 10(p - q)^2 \\)</span>
         </div>
@@ -4650,7 +4650,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>\\( 5(p + q)^2 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\( 5(p - q)^2 \\)</span>
         </div>
@@ -4695,7 +4695,7 @@ export const questions = [
             <span class="mc-label">C</span>
             <span>\\( 4(p + q)^2 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
             <span class="mc-label">D</span>
             <span>\\( 4(p - q)^2 \\)</span>
         </div>
@@ -4728,7 +4728,7 @@ export const questions = [
             <span class="mc-label">A</span>
             <span>\\( 3(p - q)^2 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
             <span class="mc-label">B</span>
             <span>\\( 6(p - q)^2 \\)</span>
         </div>
@@ -4950,7 +4950,7 @@ export const questions = [
                 <span class="mc-label">A</span>
                 <span>\\( (cm - fn)^2 \\)</span>
                 </div>
-                <div class="mc-choice">
+                <div class="mc-choice correct">
                 <span class="mc-label">B</span>
                 <span>\\( (cm + fn)(cm - fn) \\)</span>
                 </div>
@@ -4983,7 +4983,7 @@ export const questions = [
             <p style="text-align:center;margin-bottom:12px">
                 \\( r^2s^2 - v^2w^2 \\)?</p>
             <div class="mc-choices">
-                <div class="mc-choice">
+                <div class="mc-choice correct">
                 <span class="mc-label">A</span>
                 <span>\\( (rs)^2 - (vw)^2 \\)</span>
                 </div>
@@ -5020,7 +5020,7 @@ export const questions = [
             <p style="text-align:center;margin-bottom:12px">
                 \\( g^2j^2 - t^2u^2 \\)?</p>
             <div class="mc-choices">
-                <div class="mc-choice">
+                <div class="mc-choice correct">
                 <span class="mc-label">A</span>
                 <span>\\( (gj - tu)(gj + tu) \\)</span>
                 </div>
@@ -5069,7 +5069,7 @@ export const questions = [
                 <span class="mc-label">C</span>
                 <span>\\( (a^2k - ez)(k + ez) \\)</span>
                 </div>
-                <div class="mc-choice">
+                <div class="mc-choice correct">
                 <span class="mc-label">D</span>
                 <span>\\( ak(ak - ez) + ez(ak - ez) \\)</span>
                 </div>
@@ -5098,7 +5098,7 @@ export const questions = [
                 <span class="mc-label">A</span>
                 <span>\\( pd(pd - hq) - hq(pd - hq) \\)</span>
                 </div>
-                <div class="mc-choice">
+                <div class="mc-choice correct">
                 <span class="mc-label">B</span>
                 <span>\\( pd(pd - hq) + hq(pd - hq) \\)</span>
                 </div>
@@ -5139,7 +5139,7 @@ export const questions = [
                 <span class="mc-label">B</span>
                 <span>\\( x^2r^2 + 2xrys + y^2s^2 \\)</span>
                 </div>
-                <div class="mc-choice">
+                <div class="mc-choice correct">
                 <span class="mc-label">C</span>
                 <span>\\( (xr + ys)(xr - ys) \\)</span>
                 </div>
@@ -5375,7 +5375,7 @@ export const questions = [
     <p style="text-align:center;margin-bottom:12px">
       \\( 16(a^2 - b^2)^2? \\)</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( r(r + 4s) + 4s^2 \\)</span>
       </div>
@@ -5422,7 +5422,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\( (2q - r)^2 \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( 4q(q + r) + r^2 \\)</span>
       </div>
@@ -5459,7 +5459,7 @@ export const questions = [
       \\( w^2 = t - \\frac{2z}{3}, \\)</p>
     <p>which of the following is equal to</p>
     <p style="text-align:center;margin-bottom:12px">
-      \\( 9(v^2 - u^2)^2? \\)</p>
+      \\( 9(u^2 - w^2)^2? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -5469,7 +5469,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( (z - 2z)^2 \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( z(z + 4z) + 4z^2 \\)</span>
       </div>
@@ -5516,7 +5516,7 @@ export const questions = [
         <span class="mc-label">C</span>
         <span>\\( (3b - c)^2 \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">D</span>
         <span>\\( (3b + c)^2 \\)</span>
       </div>
@@ -5748,7 +5748,7 @@ export const questions = [
     <p style="text-align:center;margin-bottom:12px">
       \\( 3f(x) \\cdot g(x)? \\)</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( (5x + 6)(6x - 9) \\)</span>
       </div>
@@ -5791,7 +5791,7 @@ export const questions = [
     <p style="text-align:center;margin-bottom:12px">
       \\( 4p(x) \\cdot q(x)? \\)</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( 24x^2 - 49x - 40 \\)</span>
       </div>
@@ -5838,7 +5838,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\( 70x^2 + 92x - 60 \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( 2(35x^2 + 61x - 30) \\)</span>
       </div>
@@ -5877,7 +5877,7 @@ export const questions = [
     <p style="text-align:center;margin-bottom:12px">
       \\( 3m(x) \\cdot n(x)? \\)</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( 36x^2 - 127x - 30 \\)</span>
       </div>
@@ -6125,7 +6125,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\( x^2 + \\frac{47}{2}x + 9 \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( x\\left(x + \\frac{47}{2}\\right) - 9 \\)</span>
       </div>
@@ -6172,7 +6172,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( x(x - 5) - 10 \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( x(x - 7) - 10 \\)</span>
       </div>
@@ -6211,7 +6211,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\( (2x - 1)(x + 2) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( 2x(x - 1) - x - 2 \\)</span>
       </div>
@@ -6250,7 +6250,7 @@ export const questions = [
     <p style="text-align:center;margin-bottom:12px">
       \\( m(x) - n(x)? \\)</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( x^2 + \\frac{71}{2}x + 4 \\)</span>
       </div>
@@ -6891,7 +6891,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\(-9\\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\(-7\\)</span>
       </div>
@@ -6934,7 +6934,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\(1\\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\(3\\)</span>
       </div>
@@ -6989,7 +6989,7 @@ export const questions = [
         <span class="mc-label">C</span>
         <span>\\(-5\\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">D</span>
         <span>\\(-3\\)</span>
       </div>
@@ -7024,7 +7024,7 @@ export const questions = [
       \\( 10x^2 + jx - 25, \\)</p>
     <p>where \\(j\\) is a constant. What is the value of \\(j\\)?</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\(-6\\)</span>
       </div>
@@ -7476,7 +7476,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( 2(2x + 7) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( 4x \\)</span>
       </div>
@@ -7513,7 +7513,7 @@ export const questions = [
         <span class="mc-label">A</span>
         <span>\\( 8 - 5x \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( 5x - 8 \\)</span>
       </div>
@@ -7558,7 +7558,7 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( x + 12 \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
         <span>\\( 6\\left(\\frac{x}{6} + 1\\right) \\)</span>
       </div>
@@ -7591,7 +7591,7 @@ export const questions = [
       \\( \\sqrt{9q} \\)</p>
     <p>for all \\(x \\geq 5\\)?</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\( 3x - 15 \\)</span>
       </div>
@@ -7634,7 +7634,7 @@ export const questions = [
             <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
             where \\(a\\), \\(b\\), and \\(c\\) are constants.
             <p style="margin-bottom:12px">What is the value of \\(b-c\\)?</p>`,
-    answer: "",
+    answer: "3/2",
     graph: null,
     graphChoices: null,
     steps: [
@@ -7701,7 +7701,7 @@ export const questions = [
                 <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
                 where \\(a\\), \\(b\\), and \\(c\\) are constants.
                 <p style="margin-bottom:12px">What is the value of \\(a+c\\)?</p>`,
-    answer: "",
+    answer: "9",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -7727,7 +7727,7 @@ export const questions = [
                 <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
                 where \\(a\\), \\(b\\), and \\(c\\) are constants.
                 <p style="margin-bottom:12px">What is the value of \\(a-b\\)?</p>`,
-    answer: "",
+    answer: "-95",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -11970,21 +11970,21 @@ export const questions = [
             \\(y = 4(x - 1)^2 - 6\\).</p>
         <p>Which of the following describes the translation?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
-            <span>8 units to the right and 9 units downward</span>
+            <span>\\(8\\) units to the right and \\(9\\) units downward</span>
             </div>
             <div class="mc-choice">
             <span class="mc-label">B</span>
-            <span>8 units to the left and 9 units downward</span>
+            <span>\\(8\\) units to the left and \\(9\\) units downward</span>
             </div>
             <div class="mc-choice">
             <span class="mc-label">C</span>
-            <span>9 units to the right and 8 units downward</span>
+            <span>\\(9\\) units to the right and \\(8\\) units downward</span>
             </div>
             <div class="mc-choice">
             <span class="mc-label">D</span>
-            <span>8 units to the right and 9 units upward</span>
+            <span>\\(8\\) units to the right and \\(9\\) units upward</span>
             </div>
         </div>`,
         answer: "",
@@ -12009,7 +12009,7 @@ export const questions = [
         <p>A translation of the graph of \\(h\\) produces the graph of \\(j\\). Under the translation, the <strong>horizontal coordinate of every point increases by 7</strong>, and the <strong>vertical coordinate of every point decreases by 4</strong>.</p>
         <p>Which of the following equations defines \\(j\\)?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\(j(x) = 2(x - 2)^2 - 13\\)</span>
             </div>
@@ -12061,7 +12061,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>\\(y = -5(x + 2)^2 - 7\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\(y = -5(x + 2)^2 + 7\\)</span>
             </div>
@@ -12098,7 +12098,7 @@ export const questions = [
             <span class="mc-label">A</span>
             <span>\\(n(x) = -3(x - 10)^2 + 3\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">B</span>
             <span>\\(n(x) = -3(x + 2)^2 + 3\\)</span>
             </div>
@@ -12147,7 +12147,7 @@ export const questions = [
             <span class="mc-label">C</span>
             <span>\\((a - 9, b - 9)\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">D</span>
             <span>\\((a + 9, b + 9)\\)</span>
             </div>
@@ -12174,7 +12174,7 @@ export const questions = [
         <p>The graph of \\(u\\) is translated so that the <strong>horizontal coordinate of every point decreases by 5</strong> and the <strong>vertical coordinate of every point increases by 7</strong>. The resulting graph represents the function \\(v\\).</p>
         <p>Which of the following equations defines \\(v\\)?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\(v(x) = -4(x + 11)^2 + 17\\)</span>
             </div>
@@ -12344,7 +12344,7 @@ export const questions = [
             <span class="mc-label">C</span>
             <span>\\(2\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">D</span>
             <span>\\(4\\)</span>
             </div>
@@ -12376,7 +12376,7 @@ export const questions = [
             \\(g(x) = 2x^2 - x - 24\\),</p>
         <p>what is the value of \\(a\\)?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\(-3\\)</span>
             </div>
@@ -12432,7 +12432,7 @@ export const questions = [
             <span class="mc-label">C</span>
             <span>\\(2\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">D</span>
             <span>\\(3\\)</span>
             </div>
@@ -12464,7 +12464,7 @@ export const questions = [
             \\(g(x) = 3x^2 - 14x + 10\\),</p>
         <p>what is the value of \\(a\\)?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\(-4\\)</span>
             </div>
@@ -12516,7 +12516,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>\\(-2\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\(2\\)</span>
             </div>
@@ -12552,7 +12552,7 @@ export const questions = [
             \\(g(x) = 4x^2 - 11x + 10\\),</p>
         <p>what is the value of \\(a\\)?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\(-3\\)</span>
             </div>
@@ -12960,7 +12960,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>\\( -11 \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\( -12 \\)</span>
             </div>
@@ -12999,7 +12999,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The graph crosses the \\(y\\)-axis at the point \\( (0,r) \\). What is the value of \\(r\\)?</p>`,
-        answer: "",
+        answer: "8",
         graph: {
         expressions: [
             {
@@ -13486,7 +13486,7 @@ export const questions = [
             \\(p(w) = 5w^2 - 30w + c\\),</p>
         <p>what does \\(c\\) represent?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>The value of \\(p(0)\\)</span>
             </div>
@@ -13532,7 +13532,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>The greatest value of \\(q(z)\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>The value of \\(q(0)\\)</span>
             </div>
@@ -13566,7 +13566,7 @@ export const questions = [
             <span class="mc-label">A</span>
             <span>A value of \\(w\\) where the graph crosses the horizontal axis</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">B</span>
             <span>The value of the function when \\(w = 0\\)</span>
             </div>
@@ -13612,7 +13612,7 @@ export const questions = [
             <span class="mc-label">C</span>
             <span>The input at the center of the graph's symmetry</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">D</span>
             <span>The value of the function when \\(m = 0\\)</span>
             </div>
@@ -13638,7 +13638,7 @@ export const questions = [
             \\(h(q) = 8q^2 + 5q - 27\\).</p>
         <p>What does the constant represent?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>The value of the function when \\(q = 0\\)</span>
             </div>
@@ -13684,7 +13684,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>The highest point reached by the graph</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>The value of the function when \\(v = 0\\)</span>
             </div>
@@ -13819,7 +13819,7 @@ export const questions = [
         <p>where \\(N(d)\\) is the estimated number of packages waiting \\(d\\) days after a new processing system is introduced.</p>
         <p>Which statement best describes the \\(y\\)-intercept of the graph of this equation?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>Approximately \\(55\\) packages were waiting when the new processing system was introduced.</span>
             </div>
@@ -13866,7 +13866,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>The company assigns \\(7\\) new employees to the project each month.</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>Approximately \\(62\\) employees were assigned to the project when staffing began.</span>
             </div>
@@ -13948,7 +13948,7 @@ export const questions = [
             <span class="mc-label">C</span>
             <span>The total change in the amount of stored water during the monitoring period</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">D</span>
             <span>The estimated amount of water in the reservoir when monitoring begins</span>
             </div>
@@ -13975,7 +13975,7 @@ export const questions = [
         <p>where \\(0 \\leq h \\leq 10\\).</p>
         <p>In this model, what does the value \\(3{,}800\\) represent?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>The estimated number of packages processed at the beginning of the shift</span>
             </div>
@@ -14024,7 +14024,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>The number of customers served at the end of the day</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>The estimated number of customers served when the restaurant opens</span>
             </div>
@@ -14153,7 +14153,7 @@ export const questions = [
         <p style="text-align:center;margin-bottom:12px">
             \\(p(r) = -16\\left(r - \\frac{5}{4}\\right)^2 + 150\\)</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\(125\\)</span>
             </div>
@@ -14202,7 +14202,7 @@ export const questions = [
             <span class="mc-label">C</span>
             <span>\\(11\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">D</span>
             <span>\\(9\\)</span>
             </div>
@@ -14232,7 +14232,7 @@ export const questions = [
             <span class="mc-label">A</span>
             <span>\\(\\frac{11}{4}\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">B</span>
             <span>\\(\\frac{47}{6}\\)</span>
             </div>
@@ -14278,7 +14278,7 @@ export const questions = [
             <span class="mc-label">C</span>
             <span>\\(0.037^\\circ\\text{C}\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">D</span>
             <span>\\(18.475^\\circ\\text{C}\\)</span>
             </div>
@@ -14304,7 +14304,7 @@ export const questions = [
             \\(S(y) = -4.2y^2 + 31.6y + 84\\).</p>
         <p>According to the model, how many thousand subscribers did the service have when the marketing campaign began?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\(84\\)</span>
             </div>
@@ -14350,7 +14350,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>\\(90.7\\) miles</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\(137.5\\) miles</span>
             </div>
@@ -14378,7 +14378,7 @@ export const questions = [
         text: `<p>The \\(y\\)-intercept of the graph</p>
             <p style="text-align:center;margin-bottom:12px">\\(g(x) = \\frac{1}{4}(x - 6)^2 + 2\\)</p>
             <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
-        answer: "",
+        answer: "11",
         graph: null,
         graphChoices: null,
         steps: [
@@ -14416,7 +14416,7 @@ export const questions = [
         text: `<p>The \\(y\\)-intercept of the graph</p>
             <p style="text-align:center;margin-bottom:12px">\\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\)</p>
             <p>in the \\(xy\\)-plane is \\((0, g(0))\\). What is the value of \\(g(0)\\)?</p>`,
-        answer: "",
+        answer: "-104",
         graph: null,
         graphChoices: null,
         steps: [
@@ -14500,7 +14500,7 @@ export const questions = [
             <p>has a \\(y\\)-intercept of the form</p>
             <p style="text-align:center;margin-bottom:12px">\\( (0, r) \\)</p>
             <p>What is the value of \\(r\\)?</p>`,
-        answer: "",
+        answer: "-24",
         graph: null,
         graphChoices: null,
         steps: [
@@ -14611,7 +14611,7 @@ export const questions = [
         text: `<p>The \\(y\\)-intercept of the graph</p>
             <p style="text-align:center;margin-bottom:12px">\\(g(x) = -\\frac{1}{2}(x + 8)^2 + 19\\)</p>
             <p>in the \\(xy\\)-plane is \\((0, g(0))\\). What is the value of \\(g(0)\\)?</p>`,
-        answer: "",
+        answer: "-13",
         graph: null,
         graphChoices: null,
         steps: [
@@ -14671,7 +14671,7 @@ export const questions = [
             <p>intersects the \\(y\\)-axis at which point</p>
             <p style="text-align:center;margin-bottom:12px">\\( (0, r) \\)</p>
             <p>What is the value of \\(r\\)?</p>`,
-        answer: "",
+        answer: "60",
         graph: null,
         graphChoices: null,
         steps: [
@@ -14697,7 +14697,7 @@ export const questions = [
         text: `<p>The \\(y\\)-intercept of the graph</p>
                 <p style="text-align:center;margin-bottom:12px">\\(p(x) = \\frac{2}{5}(x - 5)^2 + 14\\)</p>
                 <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
-        answer: "",
+        answer: "24",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -14743,7 +14743,7 @@ export const questions = [
             <p>has a \\(y\\)-intercept of the form</p>
             <p style="text-align:center;margin-bottom:12px">\\((0, r).\\)</p>
             <p>What is the value of \\(r\\)?</p>`,
-        answer: "",
+        answer: "-105",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -14823,7 +14823,7 @@ export const questions = [
         <tr><td>\\(7\\)</td><td>\\(7\\)</td></tr>
         </table>
         <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = f(x)\\) in the \\(xy\\)-plane?</p>`,
-        answer: "",
+        answer: "-21",
         graph: null,
         graphChoices: null,
         steps: [
@@ -14878,7 +14878,7 @@ export const questions = [
         <tr><td>\\(3\\)</td><td>\\(12\\)</td></tr>
         </table>
         <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = g(x)\\) in the \\(xy\\)-plane?</p>`,
-        answer: "",
+        answer: "57",
         graph: null,
         graphChoices: null,
         steps: [
@@ -14933,7 +14933,7 @@ export const questions = [
             <tr><td>\\(10\\)</td><td>\\(15\\)</td></tr>
             </table>
             <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = h(x)\\) in the \\(xy\\)-plane?</p>`,
-        answer: "",
+        answer: "-7",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -14957,7 +14957,7 @@ export const questions = [
             <tr><td>\\(0\\)</td><td>\\(2\\)</td></tr>
             </table>
             <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = k(x)\\) in the \\(xy\\)-plane?</p>`,
-        answer: "",
+        answer: "-24",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -15005,7 +15005,7 @@ export const questions = [
             <tr><td>\\(-1\\)</td><td>\\(9\\)</td></tr>
             </table>
             <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = q(x)\\) in the \\(xy\\)-plane?</p>`,
-        answer: "",
+        answer: "17",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -15029,7 +15029,7 @@ export const questions = [
             <tr><td>\\(11\\)</td><td>\\(22\\)</td></tr>
             </table>
             <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = r(x)\\) in the \\(xy\\)-plane?</p>`,
-        answer: "",
+        answer: "10",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -15053,7 +15053,7 @@ export const questions = [
             <tr><td>\\(-2\\)</td><td>\\(14\\)</td></tr>
             </table>
             <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = s(x)\\) in the \\(xy\\)-plane?</p>`,
-        answer: "",
+        answer: "5",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -15193,7 +15193,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>\\(2\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\(4\\)</span>
             </div>
@@ -15226,7 +15226,7 @@ export const questions = [
             \\(s(x) = 4r(x) - 12\\).</p>
         <p>What is the \\(y\\)-coordinate of the point where the graph of \\(s\\) intersects the \\(y\\)-axis?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\(-24\\)</span>
             </div>
@@ -15267,7 +15267,7 @@ export const questions = [
             \\(n(x) = \\frac{1}{2}m(x) - 5\\).</p>
         <p>What is the \\(y\\)-coordinate of the point where the graph of \\(n\\) intersects the \\(y\\)-axis?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\(-2\\)</span>
             </div>
@@ -15316,7 +15316,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>\\(-21\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\(30\\)</span>
             </div>
@@ -15357,7 +15357,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>\\(-60\\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\(40\\)</span>
             </div>
@@ -15390,7 +15390,7 @@ export const questions = [
             \\(e(x) = -4d(x) + 16\\).</p>
         <p>What is the \\(y\\)-coordinate of the point where the graph of \\(e\\) intersects the \\(y\\)-axis?</p>
         <div class="mc-choices">
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">A</span>
             <span>\\(-28\\)</span>
             </div>
@@ -20521,7 +20521,7 @@ export const questions = [
     text: `<p>The equation</p>
   <p style="text-align:center;margin-bottom:12px">\\(f(x) = -2x^2 + 12x + 8\\)</p>
   <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at the point \\((0, r)\\). What is the value of \\(r\\)?</p>`,
-    answer: "",
+    answer: "8",
     graph: null,
     graphChoices: null,
     steps: [],
