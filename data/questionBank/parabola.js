@@ -13,7 +13,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Which expression is equivalent to </p>
-            <p style="text-align:center;margin-bottom:12px">          
+            <p class="eq">          
             \\(3(x^2 - 2x + 4) + (2x^2 + 5x - 7)\\)?</p>          
             <div class="mc-choices">            
                 <div class="mc-choice">              
@@ -63,7 +63,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Which expression is equivalent to </p>
-            <p style="text-align:center;margin-bottom:12px">          
+            <p class="eq">          
             \\((6x^2 - 3x + 8) - (2x^2 + 5x - 4)\\)?</p>          
             <div class="mc-choices">            
                 <div class="mc-choice correct">              
@@ -113,7 +113,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to </p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\(4(2x^2 + x - 3) - (3x^2 - 6)\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
@@ -133,7 +133,7 @@ export const questions = [
                 <span>\\( 5x^2 + 4x - 6 \\)</span>
             </div>
             </div>`,
-    answer: "",
+    answer: "D",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -150,7 +150,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to </p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( (3x^2 - 5x + 7) + (2x^2 + 4) - ( x^2 - 3x + 2)\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
@@ -170,7 +170,7 @@ export const questions = [
                 <span>\\( 4x^2 - 2x + 13 \\)</span>
             </div>
             </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -187,7 +187,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to </p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( 4(2x^2 - 3x + 5) + (3x^2 + 7x - 8) \\)?</p>
         <div class="mc-choices">
             <div class="mc-choice correct">
@@ -207,7 +207,7 @@ export const questions = [
                 <span>\\( 8x^2 - 5x + 12 \\)</span>
             </div>
         </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -224,7 +224,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to </p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( (9x^2 - 4x + 6) - (5x^2 + 7x - 3) \\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
@@ -244,7 +244,7 @@ export const questions = [
                 <span>\\( 4x^2 - 11x + 3 \\)</span>
             </div>
         </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -261,7 +261,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to </p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( 5(3x^2 + 2x - 4) - (4x^2 - 6x + 7) \\)?</p>
             <div class="mc-choices">
             <div class="mc-choice">
@@ -281,7 +281,7 @@ export const questions = [
                 <span>\\( 11x^2 + 16x - 13 \\)</span>
             </div>
             </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -298,7 +298,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to </p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
           \\( (7x^2 - 5x + 9) + 3(x^2 + 4x - 2) - (2x^2 - 3) \\)?</p>
           <div class="mc-choices">
             <div class="mc-choice">
@@ -318,7 +318,7 @@ export const questions = [
               <span>\\( 8x^2 - 17x + 6 \\)</span>
             </div>
           </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -335,7 +335,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to </p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
           \\( -3(2x^2 - 5x + 4) + (8x^2 - 7x + 6) \\)?</p>
           <div class="mc-choices">
             <div class="mc-choice correct">
@@ -355,7 +355,7 @@ export const questions = [
               <span>\\( 2x^2 + 8x + 18 \\)</span>
             </div>
           </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -372,7 +372,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to </p>
-        <p style="text-align:center;margin-bottom:12px">\\(4(x + \\frac{3}{2})(x - 7) - 5x\\)?</p>
+        <p class="eq">\\(4(x + \\frac{3}{2})(x - 7) - 5x\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
@@ -421,7 +421,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to</p>
-        <p style="text-align:center;margin-bottom:12px">\\( 3(x - \\frac{5}{2})(x + 6) + 4x \\)?</p>
+        <p class="eq">\\( 3(x - \\frac{5}{2})(x + 6) + 4x \\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
@@ -470,7 +470,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to</p>
-                   <p style="text-align:center;margin-bottom:12px">\\( 5(x + \\frac{4}{3})(x - 2) - 3x \\)?</p>
+                   <p class="eq">\\( 5(x + \\frac{4}{3})(x - 2) - 3x \\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice correct">
                           <span class="mc-label">A</span>
@@ -506,7 +506,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to</p>
-                  <p style="text-align:center;margin-bottom:12px"> \\( 2(x - \\frac{7}{4})(x - 5) + 6x \\)?</p>
+                  <p class="eq"> \\( 2(x - \\frac{7}{4})(x - 5) + 6x \\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -542,7 +542,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to</p>
-                  <p style="text-align:center;margin-bottom:12px"> \\( 3(x - \\frac{7}{2})(x + 4) + 5x \\)?</p>
+                  <p class="eq"> \\( 3(x - \\frac{7}{2})(x + 4) + 5x \\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -578,7 +578,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to</p>
-                  <p style="text-align:center;margin-bottom:12px"> \\( 4(x + \\frac{5}{3})(x - 3) - 2x \\)?</p>
+                  <p class="eq"> \\( 4(x + \\frac{5}{3})(x - 3) - 2x \\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -597,7 +597,7 @@ export const questions = [
                           <span>\\( 4x^2 - \\frac{10}{3}x - 20  \\)</span>
                         </div>
                       </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -614,7 +614,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to</p>
-                  <p style="text-align:center;margin-bottom:12px"> \\( 2(x - \\frac{5}{4})(x - 6) + 3x \\)?</p>
+                  <p class="eq"> \\( 2(x - \\frac{5}{4})(x - 6) + 3x \\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -633,7 +633,7 @@ export const questions = [
                           <span>\\( 2x^2 - \\frac{23}{2}x + 15  \\)</span>
                         </div>
                       </div>`,
-    answer: "",
+    answer: "D",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -650,7 +650,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to</p>
-                  <p style="text-align:center;margin-bottom:12px"> \\( 5(x + \\frac{3}{2})(x + 2) - 4x \\)?</p>
+                  <p class="eq"> \\( 5(x + \\frac{3}{2})(x + 2) - 4x \\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice correct">
                           <span class="mc-label">A</span>
@@ -669,7 +669,7 @@ export const questions = [
                           <span>\\( 5x^2 + \\frac{19}{2}x + 15  \\)</span>
                         </div>
                       </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -686,7 +686,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which of the following is equivalent to
-        <p style="text-align:center;margin-bottom:12px">\\((3x + \\frac{1}{2})^2 - (x - \\frac{3}{4}) + 2(x + \\frac{1}{4})\\)?</p>
+        <p class="eq">\\((3x + \\frac{1}{2})^2 - (x - \\frac{3}{4}) + 2(x + \\frac{1}{4})\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice correct">
               <span class="mc-label">A</span>
@@ -735,7 +735,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is equivalent to</p>
-        <p style="text-align:center;margin-bottom:12px">\\((2x - \\frac{3}{2})^2 + 3(x + \\frac{1}{4}) - (x - \\frac{1}{2})\\)?</p>
+        <p class="eq">\\((2x - \\frac{3}{2})^2 + 3(x + \\frac{1}{4}) - (x - \\frac{1}{2})\\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
@@ -784,7 +784,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is equivalent to</p>
-                    <p style="text-align:center;margin-bottom:12px">\\((4x + \\frac{1}{2})^2 - 2(x - \\frac{3}{4}) + (x + \\frac{1}{4})\\)?</p>
+                    <p class="eq">\\((4x + \\frac{1}{2})^2 - 2(x - \\frac{3}{4}) + (x + \\frac{1}{4})\\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -803,7 +803,7 @@ export const questions = [
                           <span>\\( 16x^2 + 5x + \\frac{7}{4} \\)</span>
                         </div>
                       </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -820,7 +820,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is equivalent to</p>
-                    <p style="text-align:center;margin-bottom:12px">\\((3x - \\frac{1}{2})^2 - (x + \\frac{3}{4}) + 3(x - \\frac{1}{4})\\)?</p>
+                    <p class="eq">\\((3x - \\frac{1}{2})^2 - (x + \\frac{3}{4}) + 3(x - \\frac{1}{4})\\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -856,7 +856,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is equivalent to</p>
-                    <p style="text-align:center;margin-bottom:12px">\\((2x + \\frac{3}{2})^2 - (x - \\frac{1}{4}) + 2(x + \\frac{1}{2})\\)?</p>
+                    <p class="eq">\\((2x + \\frac{3}{2})^2 - (x - \\frac{1}{4}) + 2(x + \\frac{1}{2})\\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -892,7 +892,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is equivalent to</p>
-                    <p style="text-align:center;margin-bottom:12px">\\((3x - \\frac{1}{2})^2 + 2(x + \\frac{3}{4}) - (x - \\frac{1}{4})\\)?</p>
+                    <p class="eq">\\((3x - \\frac{1}{2})^2 + 2(x + \\frac{3}{4}) - (x - \\frac{1}{4})\\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -928,7 +928,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is equivalent to</p>
-                    <p style="text-align:center;margin-bottom:12px">\\((4x + \\frac{1}{2})^2 - 3(x - \\frac{1}{4}) + (x + \\frac{3}{4})\\)?</p>
+                    <p class="eq">\\((4x + \\frac{1}{2})^2 - 3(x - \\frac{1}{4}) + (x + \\frac{3}{4})\\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -964,7 +964,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is equivalent to</p>
-                    <p style="text-align:center;margin-bottom:12px">\\((2x - \\frac{5}{2})^2 - (x + \\frac{1}{2}) + 3(x - \\frac{3}{4})\\)?</p>
+                    <p class="eq">\\((2x - \\frac{5}{2})^2 - (x + \\frac{1}{2}) + 3(x - \\frac{3}{4})\\)?</p>
                     <div class="mc-choices">
                         <div class="mc-choice">
                           <span class="mc-label">A</span>
@@ -1000,7 +1000,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-        <p style="text-align:center;margin-bottom:12px">\\( y = 2(\\frac{x^2}{9} - 9) \\)?</p>
+        <p class="eq">\\( y = 2(\\frac{x^2}{9} - 9) \\)?</p>
         is equivalent to which of the following?
         <div class="mc-choices">
             <div class="mc-choice correct">
@@ -1050,7 +1050,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-        <p style="text-align:center;margin-bottom:12px">\\( y = 4x^2 - 3x^2 - 45 \\)?</p>
+        <p class="eq">\\( y = 4x^2 - 3x^2 - 45 \\)?</p>
         is equivalent to which of the following?
         <div class="mc-choices">
             <div class="mc-choice correct">
@@ -1100,7 +1100,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-        <p style="text-align:center;margin-bottom:12px">\\( y = \\frac{1}{3}(3x^2 - 84) \\)?</p>
+        <p class="eq">\\( y = \\frac{1}{3}(3x^2 - 84) \\)?</p>
         is equivalent to which of the following?
         <div class="mc-choices">
             <div class="mc-choice correct">
@@ -1120,7 +1120,7 @@ export const questions = [
               <span>\\( y = (x + 4\\sqrt{7})(x - 4\\sqrt{7}) \\)</span>
             </div>
           </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1137,7 +1137,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-        <p style="text-align:center;margin-bottom:12px">\\( y = 3(\\frac{x^2}{3} - 20) + 8 \\)?</p>
+        <p class="eq">\\( y = 3(\\frac{x^2}{3} - 20) + 8 \\)?</p>
         is equivalent to which of the following?
         <div class="mc-choices">
             <div class="mc-choice">
@@ -1157,7 +1157,7 @@ export const questions = [
               <span>\\( y = (x + 6)(x - 6) \\)</span>
             </div>
           </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1174,7 +1174,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( y = 4\\left(\\frac{x^2}{4} - 8\\right) \\)</p>
     <p>is equivalent to which of the following?</p>
     <div class="mc-choices">
@@ -1195,7 +1195,7 @@ export const questions = [
         <span>\\( y = (x + 4)(x - 4) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1212,7 +1212,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( y = 6x^2 - 5x^2 - 63 \\)</p>
     <p>is equivalent to which of the following?</p>
     <div class="mc-choices">
@@ -1233,7 +1233,7 @@ export const questions = [
         <span>\\( y = (x + 7\\sqrt{3})(x - 7\\sqrt{3}) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1250,7 +1250,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( y = \\frac{1}{4}(4x^2 - 160) \\)</p>
     <p>is equivalent to which of the following?</p>
     <div class="mc-choices">
@@ -1271,7 +1271,7 @@ export const questions = [
         <span>\\( y = (x + 10)(x - 10) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1288,7 +1288,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( y = 5\\left(\\frac{x^2}{5} - 12\\right) + 12 \\)</p>
     <p>is equivalent to which of the following?</p>
     <div class="mc-choices">
@@ -1309,7 +1309,7 @@ export const questions = [
         <span>\\( y = (x + 4\\sqrt{6})(x - 4\\sqrt{6}) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1326,7 +1326,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is an equivalent form of the expression</p>
-        <p style="text-align:center;margin-bottom:12px">\\( (3x - 4)^2 - 5(3x - 4) - 24 \\)?</p>
+        <p class="eq">\\( (3x - 4)^2 - 5(3x - 4) - 24 \\)?</p>
         <div class="mc-choices">
             <div class="mc-choice">
               <span class="mc-label">A</span>
@@ -1375,7 +1375,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is an equivalent form of the expression </p>
-                        <p style="text-align:center;margin-bottom:12px">\\((4x + 1)^2 + 3(4x + 1) - 28\\)?
+                        <p class="eq">\\((4x + 1)^2 + 3(4x + 1) - 28\\)?
                         <div class="mc-choices">
                             <div class="mc-choice correct">
                               <span class="mc-label">A</span>
@@ -1424,7 +1424,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is an equivalent form of the expression </p>
-                        <p style="text-align:center;margin-bottom:12px">\\((5x - 2)^2 - (5x - 2) - 20\\)?</p>
+                        <p class="eq">\\((5x - 2)^2 - (5x - 2) - 20\\)?</p>
                         <div class="mc-choices">
                             <div class="mc-choice">
                               <span class="mc-label">A</span>
@@ -1460,7 +1460,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which of the following is an equivalent form of the expression
-            <p style="text-align:center;margin-bottom:12px">\\((6x + 5)^2 - 2(6x + 5) - 35 \\)?</p>
+            <p class="eq">\\((6x + 5)^2 - 2(6x + 5) - 35 \\)?</p>
             <div class="mc-choices">
                 <div class="mc-choice">
                   <span class="mc-label">A</span>
@@ -1496,7 +1496,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is an equivalent form of the expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\left(3x - \\frac{1}{2}\\right)^2 - 5\\left(3x - \\frac{1}{2}\\right) - 24 \\)?</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -1533,7 +1533,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is an equivalent form of the expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( (4x + \\sqrt{2})^2 + 2(4x + \\sqrt{2}) - 15 \\)?</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -1553,7 +1553,7 @@ export const questions = [
         <span>\\( (4x + \\sqrt{2} + 5)(4x + \\sqrt{2} + 3) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1570,7 +1570,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is an equivalent form of the expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\left(5x + \\frac{3}{2}\\right)^2 - 4\\left(5x + \\frac{3}{2}\\right) - 21 \\)?</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -1590,7 +1590,7 @@ export const questions = [
         <span>\\( \\left(5x - \\frac{19}{2}\\right)\\left(5x + \\frac{7}{2}\\right) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1607,7 +1607,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is an equivalent form of the expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( (6x - \\sqrt{3})^2 - (6x - \\sqrt{3}) - 20 \\)?</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -1627,7 +1627,7 @@ export const questions = [
         <span>\\( (6x - \\sqrt{3} - 5)(6x - \\sqrt{3} + 4) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "D",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1644,7 +1644,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which of the following expressions is equivalent to
-            <p style="text-align:center;margin-bottom:12px">\\( 2(3x - 5)^2 - 98 \\)?</p>
+            <p class="eq">\\( 2(3x - 5)^2 - 98 \\)?</p>
             <div class="mc-choices">
                 <div class="mc-choice correct">
                   <span class="mc-label">A</span>
@@ -1693,7 +1693,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which of the following expressions is equivalent to
-            <p style="text-align:center;margin-bottom:12px">\\( 4(2x + 3)^2 - 144 \\)?</p>
+            <p class="eq">\\( 4(2x + 3)^2 - 144 \\)?</p>
               <div class="mc-choices">
                 <div class="mc-choice">
                 <span class="mc-label">A</span>
@@ -1742,7 +1742,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which of the following expressions is equivalent to
-            <p style="text-align:center;margin-bottom:12px">\\( 5(4x - 1)^2 - 405 \\)?</p>
+            <p class="eq">\\( 5(4x - 1)^2 - 405 \\)?</p>
             <div class ="mc-choices">
               <div class="mc-choice correct">
                 <span class="mc-label">A</span>
@@ -1778,7 +1778,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which of the following expressions is equivalent to
-            <p style="text-align:center;margin-bottom:12px">\\( 3(5x + 2)^2 - 192 \\)?</p>
+            <p class="eq">\\( 3(5x + 2)^2 - 192 \\)?</p>
             <div class="mc-choices">
               <div class="mc-choice correct">
                 <span class="mc-label">A</span>
@@ -1814,7 +1814,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following expressions is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 6\\left(3x - \\frac{5}{2}\\right)^2 - 432? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -1834,7 +1834,7 @@ export const questions = [
         <span>\\( 6\\left(3x - \\frac{5}{2} - 12\\right)\\left(3x - \\frac{5}{2} + 12\\right) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1851,7 +1851,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following expressions is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 8(5x + 3)^2 - 968? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice correct">
@@ -1871,7 +1871,7 @@ export const questions = [
         <span>\\( 8(5x - 6)(5x + 12) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1888,7 +1888,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following expressions is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 5\\left(4x - \\frac{3}{2}\\right)^2 - 360? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -1925,7 +1925,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following expressions is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 7(6x - 4)^2 - 1575? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -1962,7 +1962,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(f\\) is defined by
-            <p style="text-align:center;margin-bottom:12px"> \\(f(x)=6(x-\\frac{2}{5})^2+\\frac{7}{3}\\) </p>
+            <p class="eq"> \\(f(x)=6(x-\\frac{2}{5})^2+\\frac{7}{3}\\) </p>
             What is the value of \\(f(\\frac{7}{10})\\)?
         <div class="mc-choices">
         <div class="mc-choice">
@@ -1990,7 +1990,7 @@ export const questions = [
         text: `Declare the function \\(f(x)\\) into Desmos`,
         note: "",
         gif: "",
-        answer: "",
+        answer: "B",
         video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952051/problem7-step1_e6ygig.mov"
       },
       {
@@ -2021,7 +2021,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(g\\) is defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( g(x)=4\\left(x+\\frac{1}{3}\\right)^2+\\frac{5}{2} \\) </p>
+            <p class="eq"> \\( g(x)=4\\left(x+\\frac{1}{3}\\right)^2+\\frac{5}{2} \\) </p>
             What is the value of \\( g(\\frac{1}{6}) \\)? </p>
         <div class="mc-choices">
         <div class="mc-choice">
@@ -2077,7 +2077,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(h\\) is defined by
-                <p style="text-align:center;margin-bottom:12px"> \\( h(x)=8(x-\\frac{1}{4})^2+\\frac{11}{6} \\) </p>
+                <p class="eq"> \\( h(x)=8(x-\\frac{1}{4})^2+\\frac{11}{6} \\) </p>
                 What is the value of \\(h(\\frac{5}{6}) \\)? </p>
             <div class="mc-choices">
             <div class="mc-choice">
@@ -2114,10 +2114,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The function \\(f\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( f(x) = 6\\left(x - \\frac{1}{3}\\right)^2 + 2\\left(x - \\frac{1}{4}\\right) + \\frac{5}{4}. \\)</p>
     <p>What is the value of</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( f\\left(\\frac{5}{6}\\right)? \\)</p>`,
     answer: "47/12",
     graph: null,
@@ -2136,10 +2136,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The function \\(g\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( g(x) = 8\\left(x + \\frac{1}{4}\\right)^2 - 3\\left(x - \\frac{1}{2}\\right) + \\frac{7}{6}. \\)</p>
     <p>What is the value of</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( g\\left(\\frac{3}{4}\\right)? \\)</p>`,
     answer: "101/12",
     graph: null,
@@ -2158,10 +2158,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The function \\(h\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( h(x) = 5\\left(x - \\frac{2}{5}\\right)^2 + 4\\left(x + \\frac{1}{5}\\right) + \\frac{3}{2}. \\)</p>
     <p>What is the value of</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( h\\left(\\frac{6}{5}\\right)? \\)</p>`,
     answer: "103/10",
     graph: null,
@@ -2180,10 +2180,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The function \\(k\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( k(x) = 9\\left(x - \\frac{1}{6}\\right)^2 - 2\\left(x + \\frac{1}{3}\\right) + \\frac{5}{4}. \\)</p>
     <p>What is the value of</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( k\\left(\\frac{5}{6}\\right)? \\)</p>`,
     answer: "35/12",
     graph: null,
@@ -2202,7 +2202,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(f\\) is defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=4(3x-2)(20-2x) \\) </p>
+            <p class="eq"> \\( f(x)=4(3x-2)(20-2x) \\) </p>
             What is the value of \\( f(5) \\)?
         <div class="mc-choices">
         <div class="mc-choice">
@@ -2230,7 +2230,7 @@ export const questions = [
         text: `Declare the function \\(f(x)\\) into Desmos`,
         note: "",
         gif: "",
-        answer: "",
+        answer: "B",
         video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1787952425/problem8-step1_txkmhq.mov"
       },
       {
@@ -2254,7 +2254,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(g\\) is defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( g(x)=6(2x+1)(18-3x) \\) </p>
+            <p class="eq"> \\( g(x)=6(2x+1)(18-3x) \\) </p>
             What is the value of \\( g(4) \\)?
         <div class="mc-choices">
         <div class="mc-choice">
@@ -2304,7 +2304,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(h\\) is defined by
-                <p style="text-align:center;margin-bottom:12px"> \\( h(x)=5(4x-1)(15-2x) \\) </p>
+                <p class="eq"> \\( h(x)=5(4x-1)(15-2x) \\) </p>
                 What is the value of \\( h(3) \\)?
             <div class="mc-choices">
             <div class="mc-choice">
@@ -2341,7 +2341,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(h\\) is defined by
-                <p style="text-align:center;margin-bottom:12px"> \\( h(x)=7(3x+2)(20-2x) \\) </p>
+                <p class="eq"> \\( h(x)=7(3x+2)(20-2x) \\) </p>
                 What is the value of \\( h(5) \\)?
             <div class="mc-choices">
             <div class="mc-choice">
@@ -2378,10 +2378,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(f\\) is defined by</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( f(x) = 5(2x + 3)(16 - 2x). \\)</p>
             <p>What is the value of</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( f(3)? \\)</p>
             <div class="mc-choices">
                 <div class="mc-choice">
@@ -2401,7 +2401,7 @@ export const questions = [
                 <span>\\(480\\)</span>
                 </div>
             </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -2418,10 +2418,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(g\\) is defined by</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( g(x) = 8(3x - 1)(17 - 2x). \\)</p>
             <p>What is the value of</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( g(4)? \\)</p>
             <div class="mc-choices">
                 <div class="mc-choice">
@@ -2441,7 +2441,7 @@ export const questions = [
                 <span>\\(864\\)</span>
                 </div>
             </div>`,
-        answer: "",
+        answer: "B",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -2458,10 +2458,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(h\\) is defined by</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( h(x) = 4(4x + 1)(21 - 3x). \\)</p>
             <p>What is the value of</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( h(2)? \\)</p>
             <div class="mc-choices">
                 <div class="mc-choice correct">
@@ -2481,7 +2481,7 @@ export const questions = [
                 <span>\\(648\\)</span>
                 </div>
             </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -2498,10 +2498,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(k\\) is defined by</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( k(x) = 9(2x - 3)(19 - x). \\)</p>
             <p>What is the value of</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( k(5)? \\)</p>
             <div class="mc-choices">
                 <div class="mc-choice">
@@ -2521,7 +2521,7 @@ export const questions = [
                 <span>\\(882\\)</span>
                 </div>
             </div>`,
-        answer: "",
+        answer: "D",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -2538,9 +2538,9 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `A planning committee at Beck College Prep is reviewing enrollment trends. The number of students expected to participate in September tutoring programs \\(f(x)\\) is estimated by
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=-0.004125x^2+16.842x-17420 \\) </p>
+            <p class="eq"> \\( f(x)=-0.004125x^2+16.842x-17420 \\) </p>
             where \\(x\\) is the year.
-            <p style="margin-bottom:12px">Using the model, determine the absolute change in the model's estimated enrollment between September 2021 and September 2022 to the nearest thousandth.</p>`,
+            Using the model, determine the absolute change in the model's estimated enrollment between September 2021 and September 2022 to the nearest thousandth.</p>`,
     answer: "0.165",
     graph: null,
     graphChoices: null,
@@ -2573,9 +2573,9 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `A landscaping company models the number of trees planted each year using the function
-            <p style="text-align:center;margin-bottom:12px"> \\( T(x)=-0.006x^2+24.3x-24500 \\) </p>
+            <p class="eq"> \\( T(x)=-0.006x^2+24.3x-24500 \\) </p>
             where \\(x\\) is the year.
-            <p style="margin-bottom:12px">According to the model, what is the absolute change in the estimated number of trees planted from 2024 to 2026, to the nearest tenth?</p>`,
+            According to the model, what is the absolute change in the estimated number of trees planted from 2024 to 2026, to the nearest tenth?</p>`,
     answer: "0",
     graph: null,
     graphChoices: null,
@@ -2606,9 +2606,9 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The monthly profit (in thousands of dollars) for a company is modeled by
-                <p style="text-align:center;margin-bottom:12px"> \\( P(x)=-0.015x^2+60x-59{,}800 \\) </p>
+                <p class="eq"> \\( P(x)=-0.015x^2+60x-59{,}800 \\) </p>
                 where \\(x\\) represents the year.
-                <p style="margin-bottom:12px">By approximately how many thousand dollars does the model predict the monthly profit changes between 2027 and 2028?</p>`,
+                By approximately how many thousand dollars does the model predict the monthly profit changes between 2027 and 2028?</p>`,
     answer: "-0.825",
     graph: null,
     graphChoices: null,
@@ -2626,9 +2626,9 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The average height of a species of plant is modeled by
-                <p style="text-align:center;margin-bottom:12px"> \\( h(t)=0.42t^2+3.6t+12 \\) </p>
+                <p class="eq"> \\( h(t)=0.42t^2+3.6t+12 \\) </p>
                 where \\(t\\) is measured in weeks.
-                <p style="margin-bottom:12px">Between which two consecutive weeks is the greatest increase predicted?</p>
+                Between which two consecutive weeks is the greatest increase predicted?</p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -2664,7 +2664,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(f\\) is defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=3(x^2+7x+10)+4 \\). </p>
+            <p class="eq"> \\( f(x)=3(x^2+7x+10)+4 \\). </p>
             For which value of \\(x\\) is \\(f(x)=4\\)?
         <div class="mc-choices">
         <div class="mc-choice">
@@ -2692,7 +2692,7 @@ export const questions = [
         text: `Declare the function \\(f(x)\\) into Desmos`,
         note: "",
         gif: "",
-        answer: "",
+        answer: "B",
         video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788378464/problem10new-step1_foyxzb.mov"
       },
       {
@@ -2723,7 +2723,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(h\\) is defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( h(x)=2(x^2-9x+14)-3 \\). </p>
+            <p class="eq"> \\( h(x)=2(x^2-9x+14)-3 \\). </p>
             For which value of \\(x\\) is \\(h(x)=-3\\)?
         <div class="mc-choices">
         <div class="mc-choice">
@@ -2779,7 +2779,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(p\\) is defined by
-                <p style="text-align:center;margin-bottom:12px"> \\( p(x)=4(x^2+3x-10)+7 \\). </p>
+                <p class="eq"> \\( p(x)=4(x^2+3x-10)+7 \\). </p>
                 For which value of \\(x\\) is \\(p(x)=7\\)?
             <div class="mc-choices">
             <div class="mc-choice">
@@ -2816,7 +2816,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(k\\) is defined by
-                <p style="text-align:center;margin-bottom:12px"> \\( k(x)=5(x^2-4x-12)+9 \\). </p>
+                <p class="eq"> \\( k(x)=5(x^2-4x-12)+9 \\). </p>
                 For which value of \\(x\\) is \\(k(x)=9\\)?
             <div class="mc-choices">
             <div class="mc-choice">
@@ -2853,7 +2853,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which of the following is equivalent to
-            <p style="text-align:center;margin-bottom:12px">\\( (2n + \\frac{3}{2})^2 - (n - \\frac{1}{4}) + 2(n + \\frac{3}{4})\\)?</p>
+            <p class="eq">\\( (2n + \\frac{3}{2})^2 - (n - \\frac{1}{4}) + 2(n + \\frac{3}{4})\\)?</p>
             <div class="mc-choices">
               <div class="mc-choice">
                 <span class="mc-label">A</span>
@@ -2907,7 +2907,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which of the following is equivalent to
-            <p style="text-align:center;margin-bottom:12px">\\( (3r - \\frac{1}{2})^2 + 2(r + \\frac{3}{4}) - (r - \\frac{1}{2})\\)?</p>
+            <p class="eq">\\( (3r - \\frac{1}{2})^2 + 2(r + \\frac{3}{4}) - (r - \\frac{1}{2})\\)?</p>
             <div class="mc-choices">
               <div class="mc-choice">
                   <span class="mc-label">A</span>
@@ -2962,7 +2962,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which of the following is equivalent to
-            <p style="text-align:center;margin-bottom:12px">\\( (2t - \\frac{5}{2})^2 - (t + \\frac{1}{4}) + 3(t - \\frac{1}{2})\\)?</p>
+            <p class="eq">\\( (2t - \\frac{5}{2})^2 - (t + \\frac{1}{4}) + 3(t - \\frac{1}{2})\\)?</p>
             <div class="mc-choices">
               <div class="mc-choice">
                 <span class="mc-label">A</span>
@@ -2998,7 +2998,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which of the following is equivalent to
-            <p style="text-align:center;margin-bottom:12px">\\( (4k + \\frac{1}{2})^2 - 2(k - \\frac{3}{4}) + (k + \\frac{1}{4})\\)?</p>
+            <p class="eq">\\( (4k + \\frac{1}{2})^2 - 2(k - \\frac{3}{4}) + (k + \\frac{1}{4})\\)?</p>
             <div class="mc-choices">
               <div class="mc-choice correct">
               <span class="mc-label">A</span>
@@ -3034,7 +3034,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\left(3a + \\frac{1}{2}\\right)^2 - \\left(a - \\frac{3}{4}\\right) + 2\\left(a + \\frac{1}{4}\\right)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -3054,7 +3054,7 @@ export const questions = [
         <span>\\( 9a^2 + 3a + \\frac{5}{4} \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3071,7 +3071,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\left(2b - \\frac{3}{2}\\right)^2 + 3\\left(b + \\frac{1}{4}\\right) - \\left(b - \\frac{1}{2}\\right)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -3091,7 +3091,7 @@ export const questions = [
         <span>\\( 4b^2 - 4b + \\frac{7}{2} \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "D",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3108,7 +3108,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\left(4c - \\frac{1}{2}\\right)^2 + 2\\left(c + \\frac{3}{4}\\right) - \\left(c - \\frac{1}{4}\\right)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice correct">
@@ -3128,7 +3128,7 @@ export const questions = [
         <span>\\( 16c^2 - 5c + \\frac{7}{4} \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3145,7 +3145,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which of the following is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\left(5d + \\frac{3}{2}\\right)^2 - \\left(d + \\frac{1}{4}\\right) + 3\\left(d - \\frac{1}{2}\\right)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -3165,7 +3165,7 @@ export const questions = [
         <span>\\( 25d^2 + 13d + \\frac{3}{4} \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3182,7 +3182,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equation
-            <p style="text-align:center;margin-bottom:12px">\\( y = 2(\\frac{x^2}{2} - 5a)\\)?</p>
+            <p class="eq">\\( y = 2(\\frac{x^2}{2} - 5a)\\)?</p>
             is equivalent to which of the following where \\(a\\) is a positive constant?
             <div class="mc-choices">
                 <div class="mc-choice correct">
@@ -3238,7 +3238,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equation
-            <p style="text-align:center;margin-bottom:12px">\\( y = 4x^2 - 3x^2 - 18b\\)?</p>
+            <p class="eq">\\( y = 4x^2 - 3x^2 - 18b\\)?</p>
             is equivalent to which of the following where \\(b\\) is a positive constant?
             <div class="mc-choices">    
                 <div class="mc-choice correct">
@@ -3294,7 +3294,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equation
-            <p style="text-align:center;margin-bottom:12px">\\( y = \\frac{1}{5}(5x^2 - 60c) \\)?</p>
+            <p class="eq">\\( y = \\frac{1}{5}(5x^2 - 60c) \\)?</p>
             is equivalent to which of the following where \\(c\\) is a positive constant?
             <div class="mc-choices">
             <div class="mc-choice correct">
@@ -3331,7 +3331,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equation
-            <p style="text-align:center;margin-bottom:12px">\\( y = 3(\\frac{x^2}{3} - 7d) + 2d \\)?</p>
+            <p class="eq">\\( y = 3(\\frac{x^2}{3} - 7d) + 2d \\)?</p>
             is equivalent to which of the following where \\(d\\) is a positive constant?
             <div class="mc-choices">
             <div class="mc-choice correct">
@@ -3351,7 +3351,7 @@ export const questions = [
                   <span>\\( y = (x + \\sqrt{7d})(x - \\sqrt{7d}) \\)</span>
                 </div>
               </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3368,7 +3368,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( y = 3\\left(\\frac{x^2}{3} - 8a\\right) \\)</p>
     <p>is equivalent to which of the following, where \\(a\\) is a positive constant?</p>
     <div class="mc-choices">
@@ -3389,7 +3389,7 @@ export const questions = [
         <span>\\( y = (x + 4\\sqrt{3a})(x - 4\\sqrt{3a}) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3406,7 +3406,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( y = 7x^2 - 6x^2 - 32b \\)</p>
     <p>is equivalent to which of the following, where \\(b\\) is a positive constant?</p>
     <div class="mc-choices">
@@ -3427,7 +3427,7 @@ export const questions = [
         <span>\\( y = (x + \\sqrt{8b})(x - \\sqrt{8b}) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3444,7 +3444,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( y = \\frac{1}{4}(4x^2 - 80c) \\)</p>
     <p>is equivalent to which of the following, where \\(c\\) is a positive constant?</p>
     <div class="mc-choices">
@@ -3465,7 +3465,7 @@ export const questions = [
         <span>\\( y = (x + 20c)(x - 20c) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3482,7 +3482,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( y = 5\\left(\\frac{x^2}{5} - 9d\\right) + 13d \\)</p>
     <p>is equivalent to which of the following, where \\(d\\) is a positive constant?</p>
     <div class="mc-choices">
@@ -3503,7 +3503,7 @@ export const questions = [
         <span>\\( y = (x + 8d)(x - 8d) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3520,7 +3520,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to
-        <p style="text-align:center;margin-bottom:12px"> \\( (2a - \\frac{b}{3})^2 \\) </p>
+        <p class="eq"> \\( (2a - \\frac{b}{3})^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -3575,7 +3575,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to
-        <p style="text-align:center;margin-bottom:12px"> \\( (\\frac{3m}{2} + 2n)^2 \\) </p>
+        <p class="eq"> \\( (\\frac{3m}{2} + 2n)^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
@@ -3630,7 +3630,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to
-        <p style="text-align:center;margin-bottom:12px"> \\( (\\frac{m}{4} - 5n)^2 \\) </p>
+        <p class="eq"> \\( (\\frac{m}{4} - 5n)^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
@@ -3666,7 +3666,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to
-        <p style="text-align:center;margin-bottom:12px"> \\( ( 4p - \\frac{3q}{2})^2 \\) </p>
+        <p class="eq"> \\( ( 4p - \\frac{3q}{2})^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
@@ -3702,10 +3702,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\frac{1}{6}(3p^2 - 450) \\)</p>
     <p>is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\frac{1}{2}(p-r)(p+r), \\)</p>
     <p>where \\(r\\) is a positive constant.</p>
     <p>What is the value of \\(r\\)?</p>
@@ -3727,7 +3727,7 @@ export const questions = [
         <span>\\(5\\sqrt{6}\\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "D",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3744,10 +3744,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\frac{1}{4}(4q^2 - 320) \\)</p>
     <p>is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( (q-r)(q+r), \\)</p>
     <p>where \\(t\\) is a positive constant.</p>
     <p>What is the value of \\(t\\)?</p>
@@ -3769,7 +3769,7 @@ export const questions = [
         <span>\\(4\\sqrt{3}\\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3786,10 +3786,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\frac{1}{5}(10m^2 - 600) \\)</p>
     <p>is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 2(m-r)(m+r), \\)</p>
     <p>where \\(r\\) is a positive constant.</p>
     <p>What is the value of \\(r\\)?</p>
@@ -3811,7 +3811,7 @@ export const questions = [
         <span>\\(5\\sqrt{2}\\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3828,10 +3828,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\frac{1}{8}(2n^2 - 224) \\)</p>
     <p>is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\frac{1}{4}(n-r)(n+r), \\)</p>
     <p>where \\(r\\) is a positive constant.</p>
     <p>What is the value of \\(r\\)?</p>
@@ -3853,7 +3853,7 @@ export const questions = [
         <span>\\(2\\sqrt{10}\\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3869,7 +3869,7 @@ export const questions = [
     questionType: "WE",
     difficulty: 2,
     tags: [],
-    text: `<p style="text-align:center;margin-bottom:12px"> \\( ( 18n^2 - 42np + 30p^2) \\) </p>
+    text: `<p class="eq"> \\( ( 18n^2 - 42np + 30p^2) \\) </p>
         Which expression is equivalent to the expression above?
         <div class="mc-choices">
         <div class="mc-choice correct">
@@ -3925,7 +3925,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to
-        <p style="text-align:center;margin-bottom:12px"> \\( ( 20a^2 - 32ab + 12b^2) \\) </p>
+        <p class="eq"> \\( ( 20a^2 - 32ab + 12b^2) \\) </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -3980,7 +3980,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( ( 27m^2 - 45mn + 18n^2) \\) </p>
+            <p class="eq"> \\( ( 27m^2 - 45mn + 18n^2) \\) </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -3999,7 +3999,7 @@ export const questions = [
         <span>\\( 6(4m^2 - 7mn + 3n^2) \\)</span>
         </div>
         </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -4016,7 +4016,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( ( 28p^2 + 44pq - 16q^2) \\) </p>
+            <p class="eq"> \\( ( 28p^2 + 44pq - 16q^2) \\) </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -4035,7 +4035,7 @@ export const questions = [
         <span>\\( 4(7p^2 + 11pq - 4q^2) \\)</span>
         </div>
         </div>`,
-    answer: "",
+    answer: "D",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -4052,7 +4052,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 25x^2 - 49y^2 \\) </p>
+            <p class="eq"> \\( 25x^2 - 49y^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
@@ -4107,7 +4107,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 64m^2 - 121n^2 \\) </p>
+            <p class="eq"> \\( 64m^2 - 121n^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -4162,7 +4162,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 144p^2 - 169q^2 \\) </p>
+            <p class="eq"> \\( 144p^2 - 169q^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
@@ -4198,7 +4198,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to 
-            <p style="text-align:center;margin-bottom:12px"> \\( 225r^2 - 196s^2 \\) </p>
+            <p class="eq"> \\( 225r^2 - 196s^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
@@ -4234,7 +4234,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 196a^2 - 225b^2 \\)?</p>
     <div class="mc-choices">
       <div class="mc-choice correct">
@@ -4254,7 +4254,7 @@ export const questions = [
         <span>\\( (14a - 15b)^2 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -4271,7 +4271,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 324m^2 - 121n^2 \\)?</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -4291,7 +4291,7 @@ export const questions = [
         <span>\\( (324m - 11n)(324m - 11n) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -4308,7 +4308,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 169p^2 - 256q^2 \\)?</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -4328,7 +4328,7 @@ export const questions = [
         <span>\\( (13p + 16q)^2 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -4345,7 +4345,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 400r^2 - 289s^2 \\)?</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -4365,7 +4365,7 @@ export const questions = [
         <span>\\( (20r - 17s)(20r + 17s) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "D",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -4514,10 +4514,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( m = \\frac{1}{4}p^2 + \\frac{1}{4}q^2 \\)</p>
         <p>and</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( n = \\frac{1}{4}pq, \\)</p>
         <p>which of the following is equivalent to \\(12m - 24n\\)?</p>
         <div class="mc-choices">
@@ -4538,7 +4538,7 @@ export const questions = [
             <span>\\( (3p - 3q)^2 \\)</span>
         </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -4555,10 +4555,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( m = \\frac{2}{5}p^2 + \\frac{2}{5}q^2 \\)</p>
         <p>and</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( n = \\frac{2}{5}pq, \\)</p>
         <p>which of the following is equivalent to \\(15m - 30n\\)?</p>
         <div class="mc-choices">
@@ -4579,7 +4579,7 @@ export const questions = [
             <span>\\( (6p - 6q)^2 \\)</span>
         </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -4596,10 +4596,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( m = \\frac{5}{7}p^2 + \\frac{5}{7}q^2 \\)</p>
         <p>and</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( n = \\frac{5}{7}pq, \\)</p>
         <p>which of the following is equivalent to \\(14m - 28n\\)?</p>
         <div class="mc-choices">
@@ -4620,7 +4620,7 @@ export const questions = [
             <span>\\( (5p - 5q)^2 \\)</span>
         </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -4637,10 +4637,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( m = \\frac{1}{6}p^2 + \\frac{1}{6}q^2 \\)</p>
         <p>and</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( n = \\frac{1}{6}pq, \\)</p>
         <p>which of the following is equivalent to \\(30m - 60n\\)?</p>
         <div class="mc-choices">
@@ -4661,7 +4661,7 @@ export const questions = [
             <span>\\( (5p - 5q)^2 \\)</span>
         </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -4678,10 +4678,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( m = \\frac{4}{9}p^2 + \\frac{4}{9}q^2 \\)</p>
         <p>and</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( n = \\frac{4}{9}pq, \\)</p>
         <p>which of the following is equivalent to \\(9m - 18n\\)?</p>
         <div class="mc-choices">
@@ -4702,7 +4702,7 @@ export const questions = [
             <span>\\( 4(p - q)^2 \\)</span>
         </div>
         </div>`,
-        answer: "",
+        answer: "D",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -4719,10 +4719,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( m = \\frac{3}{10}p^2 + \\frac{3}{10}q^2 \\)</p>
         <p>and</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
         \\( n = \\frac{3}{10}pq, \\)</p>
         <p>which of the following is equivalent to \\(20m - 40n\\)?</p>
         <div class="mc-choices">
@@ -4743,7 +4743,7 @@ export const questions = [
             <span>\\( (6p - 6q)^2 \\)</span>
         </div>
         </div>`,
-        answer: "",
+        answer: "B",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -4760,7 +4760,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `Which expression is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( c^2x^2 - a^2y^2 \\) </p>
+                <p class="eq"> \\( c^2x^2 - a^2y^2 \\) </p>
             <div class="mc-choices">
             <div class="mc-choice correct">
             <span class="mc-label">A</span>
@@ -4787,7 +4787,7 @@ export const questions = [
             text: `Create a slider for the variables \\(c\\), \\(a\\), \\(x\\), and \\(y\\) and invent numbers`,
             note: `Note that you cannot use \\(x\\) and \\(y\\) as variables for sliders`,
             gif: "",
-            answer: "",
+            answer: "A",
             video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788022427/problem16-step1_hijquq.mov"
         },
         {
@@ -4818,7 +4818,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `Which expression is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( m^2p^2 - n^2q^2 \\) </p>
+                <p class="eq"> \\( m^2p^2 - n^2q^2 \\) </p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -4873,7 +4873,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `Which expression is equivalent to
-                    <p style="text-align:center;margin-bottom:12px"> \\( r^2u^2 - s^2v^2 \\) </p>
+                    <p class="eq"> \\( r^2u^2 - s^2v^2 \\) </p>
                 <div class="mc-choices">
                 <div class="mc-choice correct">
                 <span class="mc-label">A</span>
@@ -4909,7 +4909,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `Which expression is equivalent to
-                    <p style="text-align:center;margin-bottom:12px"> \\( b^2h^2 - d^2k^2 \\) </p>
+                    <p class="eq"> \\( b^2h^2 - d^2k^2 \\) </p>
                 <div class="mc-choices">
                 <div class="mc-choice">
                 <span class="mc-label">A</span>
@@ -4945,7 +4945,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Which expression is equivalent to</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( c^2m^2 - f^2n^2 \\)?</p>
             <div class="mc-choices">
                 <div class="mc-choice">
@@ -4965,7 +4965,7 @@ export const questions = [
                 <span>\\( (cm + f^2n)(cm - f^2n) \\)</span>
                 </div>
             </div>`,
-        answer: "",
+        answer: "B",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -4982,7 +4982,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Which expression is equivalent to</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( r^2s^2 - v^2w^2 \\)?</p>
             <div class="mc-choices">
                 <div class="mc-choice correct">
@@ -5002,7 +5002,7 @@ export const questions = [
                 <span>\\( r(rs - vw)(s + vw) \\)</span>
                 </div>
             </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -5019,7 +5019,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Which expression is equivalent to</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( g^2j^2 - t^2u^2 \\)?</p>
             <div class="mc-choices">
                 <div class="mc-choice correct">
@@ -5039,7 +5039,7 @@ export const questions = [
                 <span>\\( gj(gj - tu) - tu(gj - tu) \\)</span>
                 </div>
             </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -5056,7 +5056,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Which expression is equivalent to</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( a^2k^2 - e^2z^2 \\)?</p>
             <div class="mc-choices">
                 <div class="mc-choice">
@@ -5076,7 +5076,7 @@ export const questions = [
                 <span>\\( ak(ak - ez) + ez(ak - ez) \\)</span>
                 </div>
             </div>`,
-        answer: "",
+        answer: "D",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -5093,7 +5093,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Which expression is equivalent to</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( p^2d^2 - h^2q^2 \\)?</p>
             <div class="mc-choices">
                 <div class="mc-choice">
@@ -5113,7 +5113,7 @@ export const questions = [
                 <span>\\( (p^2d - hq)(d + hq) \\)</span>
                 </div>
             </div>`,
-        answer: "",
+        answer: "B",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -5130,7 +5130,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Which expression is equivalent to</p>
-            <p style="text-align:center;margin-bottom:12px">
+            <p class="eq">
                 \\( x^2r^2 - y^2s^2 \\)?</p>
             <div class="mc-choices">
                 <div class="mc-choice">
@@ -5150,7 +5150,7 @@ export const questions = [
                 <span>\\( xr(xr - ys) - ys(xr + ys) \\)</span>
                 </div>
             </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -5167,11 +5167,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If 
-            <p style="text-align:center;margin-bottom:12px"> \\( m^2 = p + \\frac{q}{2} \\) </p>
+            <p class="eq"> \\( m^2 = p + \\frac{q}{2} \\) </p>
             and 
-            <p style="text-align:center;margin-bottom:12px"> \\( n^2 = p - \\frac{3r}{2} \\) </p>
+            <p class="eq"> \\( n^2 = p - \\frac{3r}{2} \\) </p>
             which of the following is equal to
-            <p style="text-align:center;margin-bottom:12px"> \\( 4 ( m^2 - n^2)^2 \\) </p>
+            <p class="eq"> \\( 4 ( m^2 - n^2)^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -5198,7 +5198,7 @@ export const questions = [
         text: `Create a slider for the variables \\(p\\), \\(q\\), and \\(r\\) and invent numbers`,
         note: "",
         gif: "",
-        answer: "",
+        answer: "D",
         video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788022942/problem17-step1_melodb.mov"
       },
       {
@@ -5229,11 +5229,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If 
-            <p style="text-align:center;margin-bottom:12px"> \\( u^2 = s + \\frac{3t}{2} \\) </p>
+            <p class="eq"> \\( u^2 = s + \\frac{3t}{2} \\) </p>
             and 
-            <p style="text-align:center;margin-bottom:12px"> \\( v^2 = s - \\frac{w}{2} \\) </p>
+            <p class="eq"> \\( v^2 = s - \\frac{w}{2} \\) </p>
             which of the following is equal to
-            <p style="text-align:center;margin-bottom:12px"> \\( 4 ( u^2 - v^2)^2 \\) </p>
+            <p class="eq"> \\( 4 ( u^2 - v^2)^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
@@ -5288,11 +5288,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If 
-            <p style="text-align:center;margin-bottom:12px"> \\( h^2 = k + \\frac{r}{3} \\) </p>
+            <p class="eq"> \\( h^2 = k + \\frac{r}{3} \\) </p>
             and 
-            <p style="text-align:center;margin-bottom:12px"> \\( j^2 = k - \\frac{2s}{3} \\) </p>
+            <p class="eq"> \\( j^2 = k - \\frac{2s}{3} \\) </p>
             which of the following is equal to
-            <p style="text-align:center;margin-bottom:12px"> \\( 9(h^2 - j^2)^2 \\) </p>
+            <p class="eq"> \\( 9(h^2 - j^2)^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
@@ -5328,11 +5328,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If 
-            <p style="text-align:center;margin-bottom:12px"> \\( f^2 = g + \\frac{2m}{5} \\) </p>
+            <p class="eq"> \\( f^2 = g + \\frac{2m}{5} \\) </p>
             and 
-            <p style="text-align:center;margin-bottom:12px"> \\( h^2 = g - \\frac{3n}{5} \\) </p>
+            <p class="eq"> \\( h^2 = g - \\frac{3n}{5} \\) </p>
             which of the following is equal to
-            <p style="text-align:center;margin-bottom:12px"> \\( 25(f^2 - h^2)^2 \\) </p>
+            <p class="eq"> \\( 25(f^2 - h^2)^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
@@ -5368,13 +5368,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( a^2 = k + \\frac{r}{4} \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( b^2 = k - \\frac{s}{2}, \\)</p>
     <p>which of the following is equal to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 16(a^2 - b^2)^2? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice correct">
@@ -5394,7 +5394,7 @@ export const questions = [
         <span>\\( 4(r + s)^2 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -5411,13 +5411,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( m^2 = p + \\frac{2q}{5} \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( n^2 = p - \\frac{r}{5}, \\)</p>
     <p>which of the following is equal to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 25(m^2 - n^2)^2? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -5437,7 +5437,7 @@ export const questions = [
         <span>\\( 2q(2q + r) + r^2 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -5454,13 +5454,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( u^2 = t + \\frac{v}{3} \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( w^2 = t - \\frac{2z}{3}, \\)</p>
     <p>which of the following is equal to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 9(u^2 - w^2)^2? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -5480,7 +5480,7 @@ export const questions = [
         <span>\\( (z + z)(z + 4z) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -5497,13 +5497,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( g^2 = a + \\frac{3b}{8} \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( h^2 = a - \\frac{c}{8}, \\)</p>
     <p>which of the following is equal to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 64(g^2 - h^2)^2? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -5523,7 +5523,7 @@ export const questions = [
         <span>\\( (3b + c)^2 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "D",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -5540,11 +5540,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions are defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( g(x) = \\frac{4}{5}x - 2 \\) </p>
+            <p class="eq"> \\( g(x) = \\frac{4}{5}x - 2 \\) </p>
             and
-            <p style="text-align:center;margin-bottom:12px"> \\( h(x) = 5x + 6 \\) </p>
+            <p class="eq"> \\( h(x) = 5x + 6 \\) </p>
             Which expression is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( 2g(x) \\cdot h(x) \\)? </p>
+            <p class="eq"> \\( 2g(x) \\cdot h(x) \\)? </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
@@ -5571,7 +5571,7 @@ export const questions = [
         text: `Declare the functions \\(g(x)\\) and \\(h(x)\\) into Desmos`,
         note: "",
         gif: "",
-        answer: "",
+        answer: "A",
         video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788024280/problem19-step1_pdoqfm.mov"
       },
       {
@@ -5602,11 +5602,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions are defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( g(x) = \\frac{3}{5}x + 4 \\) </p>
+            <p class="eq"> \\( g(x) = \\frac{3}{5}x + 4 \\) </p>
             and
-            <p style="text-align:center;margin-bottom:12px"> \\( h(x) = 10x - 3 \\) </p>
+            <p class="eq"> \\( h(x) = 10x - 3 \\) </p>
             Which expression is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( 3g(x) \\cdot h(x) \\)? </p>
+            <p class="eq"> \\( 3g(x) \\cdot h(x) \\)? </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -5661,11 +5661,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions are defined by
-                <p style="text-align:center;margin-bottom:12px"> \\( p(x) = \\frac{5}{6}x - 2 \\) </p>
+                <p class="eq"> \\( p(x) = \\frac{5}{6}x - 2 \\) </p>
                 and
-                <p style="text-align:center;margin-bottom:12px"> \\( q(x) = 12x + 9 \\) </p>
+                <p class="eq"> \\( q(x) = 12x + 9 \\) </p>
                 Which expression is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( 2p(x) \\cdot q(x) \\)? </p>
+                <p class="eq"> \\( 2p(x) \\cdot q(x) \\)? </p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -5701,11 +5701,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions are defined by
-                <p style="text-align:center;margin-bottom:12px"> \\( r(x) = \\frac{7}{4}x + 1 \\) </p>
+                <p class="eq"> \\( r(x) = \\frac{7}{4}x + 1 \\) </p>
                 and
-                <p style="text-align:center;margin-bottom:12px"> \\( s(x) = 8x - 6 \\) </p>
+                <p class="eq"> \\( s(x) = 8x - 6 \\) </p>
                 Which expression is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( 4r(x) \\cdot s(x) \\)? </p>
+                <p class="eq"> \\( 4r(x) \\cdot s(x) \\)? </p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -5741,13 +5741,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The functions are defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( f(x) = \\frac{5}{3}x + 2 \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( g(x) = 6x - 9 \\)</p>
     <p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 3f(x) \\cdot g(x)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice correct">
@@ -5767,7 +5767,7 @@ export const questions = [
         <span>\\( 30x^2 + 6x - 24 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -5784,13 +5784,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The functions are defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( p(x) = \\frac{3}{4}x - 2 \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( q(x) = 8x + 5. \\)</p>
     <p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 4p(x) \\cdot q(x)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice correct">
@@ -5810,7 +5810,7 @@ export const questions = [
         <span>\\( 8(3x^2 - 2x - 5) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -5827,13 +5827,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The functions are defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( r(x) = \\frac{7}{5}x + 3 \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( s(x) = 10x - 4. \\)</p>
     <p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 5r(x) \\cdot s(x)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -5853,7 +5853,7 @@ export const questions = [
         <span>\\( 14x(5x + 11) - 60 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -5870,13 +5870,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The functions are defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( m(x) = \\frac{4}{3}x - 5 \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( n(x) = 9x + 2. \\)</p>
     <p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 3m(x) \\cdot n(x)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice correct">
@@ -5896,7 +5896,7 @@ export const questions = [
         <span>\\( 4x(9x + 2) - 15(9x - 2) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -5913,11 +5913,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions \\(r\\) and \\(s\\) are defined by the equations shown.
-            <p style="text-align:center;margin-bottom:12px"> \\( r(x) = 2(3x - 1)(x + 4) \\) </p>
+            <p class="eq"> \\( r(x) = 2(3x - 1)(x + 4) \\) </p>
             and
-            <p style="text-align:center;margin-bottom:12px"> \\( s(x) = \\left(\\frac{5}{2}x + 3\\right)(2x - 5) \\) </p>
+            <p class="eq"> \\( s(x) = \\left(\\frac{5}{2}x + 3\\right)(2x - 5) \\) </p>
             Which expression is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( r(x) - s(x) \\)? </p>
+            <p class="eq"> \\( r(x) - s(x) \\)? </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -5944,7 +5944,7 @@ export const questions = [
         text: `Type the functions \\(r(x)\\) and \\(s(x)\\) into Desmos`,
         note: "",
         gif: "",
-        answer: "",
+        answer: "D",
         video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030024/problem20-step1_emj7ro.mov"
       },
       {
@@ -5975,11 +5975,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions \\(f\\) and \\(g\\) are defined by the equations shown.
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x) = \\left(\\frac{5}{6}x - 3\\right)(3x + 6) \\) </p>
+            <p class="eq"> \\( f(x) = \\left(\\frac{5}{6}x - 3\\right)(3x + 6) \\) </p>
             and
-            <p style="text-align:center;margin-bottom:12px"> \\( g(x) = 4(2x + 7)(x - 8) \\) </p>
+            <p class="eq"> \\( g(x) = 4(2x + 7)(x - 8) \\) </p>
             Which expression is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x) + g(x) \\)? </p>
+            <p class="eq"> \\( f(x) + g(x) \\)? </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -6034,11 +6034,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions \\(f\\) and \\(g\\) are defined by the equations shown.
-                <p style="text-align:center;margin-bottom:12px"> \\( f(x) = 3\\left(x - \\frac{5}{2}\\right)^2 \\) </p>
+                <p class="eq"> \\( f(x) = 3\\left(x - \\frac{5}{2}\\right)^2 \\) </p>
                 and
-                <p style="text-align:center;margin-bottom:12px"> \\( g(x) = 2(2x + 1)(x - 4) \\) </p>
+                <p class="eq"> \\( g(x) = 2(2x + 1)(x - 4) \\) </p>
                 Which expression is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( f(x) + g(x) \\)? </p>
+                <p class="eq"> \\( f(x) + g(x) \\)? </p>
             <div class="mc-choices">
             <div class="mc-choice correct">
             <span class="mc-label">A</span>
@@ -6074,11 +6074,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions \\(p\\) and \\(q\\) are defined by the equations shown.
-                <p style="text-align:center;margin-bottom:12px"> \\( p(x) = 5\\left(x + \\frac{3}{2}\\right)^2 \\) </p>
+                <p class="eq"> \\( p(x) = 5\\left(x + \\frac{3}{2}\\right)^2 \\) </p>
                 and
-                <p style="text-align:center;margin-bottom:12px"> \\( q(x) = 3(x - 2)(x + 5) \\) </p>
+                <p class="eq"> \\( q(x) = 3(x - 2)(x + 5) \\) </p>
                 Which expression is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( p(x) - q(x) \\)? </p>
+                <p class="eq"> \\( p(x) - q(x) \\)? </p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -6114,13 +6114,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The functions \\(r\\) and \\(s\\) are defined by the equations shown.</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( r(x) = 3(2x - 1)(x + 5) \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( s(x) = \\left(\\frac{5}{2}x - 2\\right)(2x + 3) \\)</p>
     <p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( r(x) - s(x)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -6140,7 +6140,7 @@ export const questions = [
         <span>\\( x\\left(x + \\frac{43}{2}\\right) - 9 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -6157,13 +6157,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The functions \\(f\\) and \\(g\\) are defined by the equations shown.</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( f(x) = 2(3x + 2)(x - 4) \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( g(x) = \\left(\\frac{5}{2}x + 1\\right)(2x - 6) \\)</p>
     <p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( f(x) - g(x)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -6183,7 +6183,7 @@ export const questions = [
         <span>\\( x^2 - 13x - 10 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -6200,13 +6200,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The functions \\(p\\) and \\(q\\) are defined by the equations shown.</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( p(x) = 4(x - 3)(2x + 1) \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( q(x) = \\left(\\frac{3}{2}x - 5\\right)(4x + 2) \\)</p>
     <p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( p(x) - q(x)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice">
@@ -6226,7 +6226,7 @@ export const questions = [
         <span>\\( (2x + 1)(x - 2) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -6243,13 +6243,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The functions \\(m\\) and \\(n\\) are defined by the equations shown.</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( m(x) = 2(4x - 1)(x + 3) \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( n(x) = \\left(\\frac{7}{2}x + 2\\right)(2x - 5) \\)</p>
     <p>Which expression is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( m(x) - n(x)? \\)</p>
     <div class="mc-choices">
       <div class="mc-choice correct">
@@ -6269,7 +6269,7 @@ export const questions = [
         <span>\\( 2x^2 + \\frac{71}{2}x + 4 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -6286,10 +6286,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equations below define \\(m\\) and \\(n\\) in terms of \\(x\\).
-            <p style="text-align:center;margin-bottom:12px"> \\( m=8x-7 \\) </p>
-            <p style="text-align:center;margin-bottom:12px"> \\( n=8x+7 \\) </p>
+            <p class="eq"> \\( m=8x-7 \\) </p>
+            <p class="eq"> \\( n=8x+7 \\) </p>
             Which of these answers is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( \\frac{mn-15}{8} \\)? </p>
+            <p class="eq"> \\( \\frac{mn-15}{8} \\)? </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
@@ -6316,7 +6316,7 @@ export const questions = [
         text: `Declare the functions for \\(m\\) and \\(n\\)`,
         note: "",
         gif: "",
-        answer: "",
+        answer: "A",
         video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788379631/problem21new-step1_el8czt.mov"
       },
       {
@@ -6347,10 +6347,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equations below define \\(p\\) and \\(q\\) in terms of \\(t\\).
-            <p style="text-align:center;margin-bottom:12px"> \\( p=10t-3 \\) </p>
-            <p style="text-align:center;margin-bottom:12px"> \\( q=10t+3 \\) </p>
+            <p class="eq"> \\( p=10t-3 \\) </p>
+            <p class="eq"> \\( q=10t+3 \\) </p>
             Which of these answers is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( \\frac{pq-91}{10} \\)? </p>
+            <p class="eq"> \\( \\frac{pq-91}{10} \\)? </p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -6405,10 +6405,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equations below define \\(a\\) and \\(b\\) in terms of \\(k\\).
-                <p style="text-align:center;margin-bottom:12px"> \\( a=12k-5 \\) </p>
-                <p style="text-align:center;margin-bottom:12px"> \\( b=12k+5 \\) </p>
+                <p class="eq"> \\( a=12k-5 \\) </p>
+                <p class="eq"> \\( b=12k+5 \\) </p>
                 Which of these answers is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{ab+121}{12} \\)? </p>
+                <p class="eq"> \\( \\frac{ab+121}{12} \\)? </p>
             <div class="mc-choices">
             <div class="mc-choice correct">
             <span class="mc-label">A</span>
@@ -6444,10 +6444,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equations below define \\(u\\) and \\(v\\) in terms of \\(r\\).
-                <p style="text-align:center;margin-bottom:12px"> \\( u=14r-9 \\) </p>
-                <p style="text-align:center;margin-bottom:12px"> \\( v=14r+9 \\) </p>
+                <p class="eq"> \\( u=14r-9 \\) </p>
+                <p class="eq"> \\( v=14r+9 \\) </p>
                 Which of these answers is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{uv-115}{14} \\)? </p>
+                <p class="eq"> \\( \\frac{uv-115}{14} \\)? </p>
             <div class="mc-choices">
             <div class="mc-choice correct">
             <span class="mc-label">A</span>
@@ -6483,10 +6483,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equations below define \\(a\\) and \\(b\\) in terms of \\(x\\).
-                    <p style="text-align:center;margin-bottom:12px"> \\( a=12x-7 \\) </p>
-                    <p style="text-align:center;margin-bottom:12px"> \\( b=12x+7 \\) </p>
+                    <p class="eq"> \\( a=12x-7 \\) </p>
+                    <p class="eq"> \\( b=12x+7 \\) </p>
                     Which of these answers is equivalent to
-                    <p style="text-align:center;margin-bottom:12px"> \\( \\frac{ab-95}{12} \\)? </p>
+                    <p class="eq"> \\( \\frac{ab-95}{12} \\)? </p>
                 <div class="mc-choices">
                 <div class="mc-choice">
                 <span class="mc-label">A</span>
@@ -6522,10 +6522,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equations below define \\(m\\) and \\(n\\) in terms of \\(t\\).
-                    <p style="text-align:center;margin-bottom:12px"> \\( m=15t-4 \\) </p>
-                    <p style="text-align:center;margin-bottom:12px"> \\( n=15t+4 \\) </p>
+                    <p class="eq"> \\( m=15t-4 \\) </p>
+                    <p class="eq"> \\( n=15t+4 \\) </p>
                     Which of these answers is equivalent to
-                    <p style="text-align:center;margin-bottom:12px"> \\( \\frac{mn-59}{15} \\)? </p>
+                    <p class="eq"> \\( \\frac{mn-59}{15} \\)? </p>
                 <div class="mc-choices">
                 <div class="mc-choice">
                 <span class="mc-label">A</span>
@@ -6561,10 +6561,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equations below define \\(p\\) and \\(q\\) in terms of \\(x\\).
-                    <p style="text-align:center;margin-bottom:12px"> \\( p=18z-5 \\) </p>
-                    <p style="text-align:center;margin-bottom:12px"> \\( q=18z+5 \\) </p>
+                    <p class="eq"> \\( p=18z-5 \\) </p>
+                    <p class="eq"> \\( q=18z+5 \\) </p>
                     Which of these answers is equivalent to
-                    <p style="text-align:center;margin-bottom:12px"> \\( \\frac{pq-83}{18} \\)? </p>
+                    <p class="eq"> \\( \\frac{pq-83}{18} \\)? </p>
                 <div class="mc-choices">
                 <div class="mc-choice">
                 <span class="mc-label">A</span>
@@ -6600,10 +6600,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The equations below define \\(c\\) and \\(d\\) in terms of \\(w\\).
-                    <p style="text-align:center;margin-bottom:12px"> \\( c=16w-3 \\) </p>
-                    <p style="text-align:center;margin-bottom:12px"> \\( d=16w+3 \\) </p>
+                    <p class="eq"> \\( c=16w-3 \\) </p>
+                    <p class="eq"> \\( d=16w+3 \\) </p>
                     Which of these answers is equivalent to
-                    <p style="text-align:center;margin-bottom:12px"> \\( \\frac{cd-55}{16} \\)? </p>
+                    <p class="eq"> \\( \\frac{cd-55}{16} \\)? </p>
                 <div class="mc-choices">
                 <div class="mc-choice correct">
                 <span class="mc-label">A</span>
@@ -6639,13 +6639,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If
-            <p style="text-align:center;margin-bottom:12px"> \\( p=2x+3 \\) </p>
+            <p class="eq"> \\( p=2x+3 \\) </p>
             and
-            <p style="text-align:center;margin-bottom:12px"> \\( q=3x-4 \\), </p>
+            <p class="eq"> \\( q=3x-4 \\), </p>
             the expression
-            <p style="text-align:center;margin-bottom:12px"> \\( pq+2p-q \\) </p>
+            <p class="eq"> \\( pq+2p-q \\) </p>
             is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( 6x^2+kx-2 \\), </p>
+            <p class="eq"> \\( 6x^2+kx-2 \\), </p>
             where \\(k\\) is a constant. What is the value of \\(k\\)?
         <div class="mc-choices">
         <div class="mc-choice">
@@ -6673,7 +6673,7 @@ export const questions = [
         text: `Create a slider for \\(k\\)`,
         note: "",
         gif: "",
-        answer: "",
+        answer: "B",
         video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788031562/problem22-step1_mrdneo.mov"
       },
       {
@@ -6718,13 +6718,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If
-            <p style="text-align:center;margin-bottom:12px"> \\( a=5x+2 \\) </p>
+            <p class="eq"> \\( a=5x+2 \\) </p>
             and
-            <p style="text-align:center;margin-bottom:12px"> \\( b=2x-3 \\), </p>
+            <p class="eq"> \\( b=2x-3 \\), </p>
             the expression
-            <p style="text-align:center;margin-bottom:12px"> \\( ab+a-2b \\) </p>
+            <p class="eq"> \\( ab+a-2b \\) </p>
             is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( 10x^2+kx+2 \\). </p>
+            <p class="eq"> \\( 10x^2+kx+2 \\). </p>
             What is the value of \\(k\\)?
         <div class="mc-choices">
         <div class="mc-choice">
@@ -6786,13 +6786,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If
-                <p style="text-align:center;margin-bottom:12px"> \\( r=4x-1 \\) </p>
+                <p class="eq"> \\( r=4x-1 \\) </p>
                 and
-                <p style="text-align:center;margin-bottom:12px"> \\( s=x+6 \\), </p>
+                <p class="eq"> \\( s=x+6 \\), </p>
                 the expression
-                <p style="text-align:center;margin-bottom:12px"> \\( rs-r+3s \\) </p>
+                <p class="eq"> \\( rs-r+3s \\) </p>
                 is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( 4x^2+kx+13 \\). </p>
+                <p class="eq"> \\( 4x^2+kx+13 \\). </p>
                 What is the value of \\(k\\)?
             <div class="mc-choices">
             <div class="mc-choice">
@@ -6829,13 +6829,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If
-                <p style="text-align:center;margin-bottom:12px"> \\( u=3x-5 \\) </p>
+                <p class="eq"> \\( u=3x-5 \\) </p>
                 and
-                <p style="text-align:center;margin-bottom:12px"> \\( v=4x+1 \\), </p>
+                <p class="eq"> \\( v=4x+1 \\), </p>
                 the expression
-                <p style="text-align:center;margin-bottom:12px"> \\( uv-2u+v \\) </p>
+                <p class="eq"> \\( uv-2u+v \\) </p>
                 is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( 12x^2+kx+6 \\). </p>
+                <p class="eq"> \\( 12x^2+kx+6 \\). </p>
                 What is the value of \\(k\\)?
             <div class="mc-choices">
             <div class="mc-choice">
@@ -6872,16 +6872,16 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( p = 3x + 2 \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( q = 2x - 5, \\)</p>
     <p>the expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( pq + 2p - q \\)</p>
     <p>is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 6x^2 + cx - 1, \\)</p>
     <p>where \\(c\\) is a constant. What is the value of \\(c\\)?</p>
     <div class="mc-choices">
@@ -6902,7 +6902,7 @@ export const questions = [
         <span>\\(-5\\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -6919,16 +6919,16 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( r = 5x - 2 \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( s = 2x + 3, \\)</p>
     <p>the expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( rs - 2r + s \\)</p>
     <p>is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 10x^2 + dx + 1, \\)</p>
     <p>where \\(d\\) is a constant. What is the value of \\(d\\)?</p>
     <div class="mc-choices">
@@ -6949,7 +6949,7 @@ export const questions = [
         <span>\\(7\\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -6966,16 +6966,16 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( a = 4x + 1 \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( b = 3x - 2, \\)</p>
     <p>the expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( ab - a + 2b \\)</p>
     <p>is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 12x^2 + kx - 7, \\)</p>
     <p>where \\(k\\) is a constant. What is the value of \\(k\\)?</p>
     <div class="mc-choices">
@@ -6996,7 +6996,7 @@ export const questions = [
         <span>\\(-3\\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "D",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -7013,16 +7013,16 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( u = 2x - 3 \\)</p>
     <p>and</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( v = 5x + 4, \\)</p>
     <p>the expression</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( uv + 3u - v \\)</p>
     <p>is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( 10x^2 + jx - 25, \\)</p>
     <p>where \\(j\\) is a constant. What is the value of \\(j\\)?</p>
     <div class="mc-choices">
@@ -7043,7 +7043,7 @@ export const questions = [
         <span>\\(2\\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -7060,11 +7060,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The expression
-            <p style="text-align:center;margin-bottom:12px"> \\( \\frac{1}{4}(2t^2 - 144) \\) </p>
+            <p class="eq"> \\( \\frac{1}{4}(2t^2 - 144) \\) </p>
             is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( \\frac{1}{2}(t-r)(t+r) \\), </p>
+            <p class="eq"> \\( \\frac{1}{2}(t-r)(t+r) \\), </p>
             where \\(r\\) is a positive constant.
-            <p style="margin-bottom:12px">What is the value of \\(r\\)?</p>
+            What is the value of \\(r\\)?</p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -7091,7 +7091,7 @@ export const questions = [
         text: `Create a slider for \\(r\\)`,
         note: "",
         gif: "",
-        answer: "",
+        answer: "B",
         video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788032731/problem24-step1_vnnkqa.mov"
       },
       {
@@ -7122,11 +7122,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The expression
-            <p style="text-align:center;margin-bottom:12px"> \\( \\frac{1}{5}(5y^2 - 900) \\) </p>
+            <p class="eq"> \\( \\frac{1}{5}(5y^2 - 900) \\) </p>
             is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( (y-r)(y+r) \\), </p>
+            <p class="eq"> \\( (y-r)(y+r) \\), </p>
             where \\(r\\) is a positive constant.
-            <p style="margin-bottom:12px">What is the value of \\(r\\)?</p>
+            What is the value of \\(r\\)?</p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -7181,11 +7181,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The expression
-                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{1}{3}(3z^2 - 216) \\) </p>
+                <p class="eq"> \\( \\frac{1}{3}(3z^2 - 216) \\) </p>
                 is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( (z-r)(z+r) \\), </p>
+                <p class="eq"> \\( (z-r)(z+r) \\), </p>
                 where \\(r\\) is a positive constant.
-                <p style="margin-bottom:12px">What is the value of \\(r\\)?</p>
+                What is the value of \\(r\\)?</p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -7221,11 +7221,11 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The expression
-                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{1}{8}(4w^2 - 352) \\) </p>
+                <p class="eq"> \\( \\frac{1}{8}(4w^2 - 352) \\) </p>
                 is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{1}{2}(w-r)(w+r) \\), </p>
+                <p class="eq"> \\( \\frac{1}{2}(w-r)(w+r) \\), </p>
                 where \\(r\\) is a positive constant.
-                <p style="margin-bottom:12px">What is the value of \\(r\\)?</p>
+                What is the value of \\(r\\)?</p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -7261,9 +7261,9 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If 
-            <p style="text-align:center;margin-bottom:12px"> \\( u = 3x - 5 \\) </p>
+            <p class="eq"> \\( u = 3x - 5 \\) </p>
             which of the following is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( \\sqrt{u^2 + 10u + 25} \\) </p>
+            <p class="eq"> \\( \\sqrt{u^2 + 10u + 25} \\) </p>
             for all \\(x \\geq \\frac{5}{3}\\)?
         <div class="mc-choices">
         <div class="mc-choice">
@@ -7291,7 +7291,7 @@ export const questions = [
         text: `Create a slider that follows the given constraints for \\(x\\)`,
         note: `Note that you cannot use \\(x\\) as a slider so you need to choose another variable`,
         gif: "",
-        answer: "",
+        answer: "B",
         video: "https://res.cloudinary.com/dnyaptowc/video/upload/v1788030684/problem21-step1_lq1lw2.mov"
       },
       {
@@ -7329,7 +7329,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(f\\) is defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x) = \\sqrt{(2x - 7)^2} \\) </p>
+            <p class="eq"> \\( f(x) = \\sqrt{(2x - 7)^2} \\) </p>
             If \\(x \\geq \\frac{7}{2}\\), which of the following is equivalent to \\(f(x)\\)?
         <div class="mc-choices">
         <div class="mc-choice correct">
@@ -7385,9 +7385,9 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If
-                <p style="text-align:center;margin-bottom:12px"> \\( g(x) = x^2 + 8x \\) </p>
+                <p class="eq"> \\( g(x) = x^2 + 8x \\) </p>
                 which of the following is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\sqrt{g(x) + 16} \\) </p>
+                <p class="eq"> \\( \\sqrt{g(x) + 16} \\) </p>
                 for all \\(x \\geq -4\\)?
             <div class="mc-choices">
             <div class="mc-choice">
@@ -7424,9 +7424,9 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If
-                <p style="text-align:center;margin-bottom:12px"> \\( a = x^2 + 6x + 9 \\) </p>
+                <p class="eq"> \\( a = x^2 + 6x + 9 \\) </p>
                 which of the following is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\sqrt{4a} \\) </p>
+                <p class="eq"> \\( \\sqrt{4a} \\) </p>
                 for all \\(x \\geq -3\\)?
             <div class="mc-choices">
             <div class="mc-choice">
@@ -7463,10 +7463,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( p = 4x - 7, \\)</p>
     <p>which of the following is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\sqrt{p^2 + 14p + 49} \\)</p>
     <p>for all \\(x \\geq \\frac{7}{4}\\)?</p>
     <div class="mc-choices">
@@ -7487,7 +7487,7 @@ export const questions = [
         <span>\\( 2x \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -7504,10 +7504,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The function \\(f\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( f(x) = \\sqrt{(5x - 8)^2} \\)</p>
     <p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( x \\geq \\frac{8}{5}, \\)</p>
     <p>which of the following is equivalent to \\(f(x)\\)?</p>
     <div class="mc-choices">
@@ -7528,7 +7528,7 @@ export const questions = [
         <span>\\( 10x - 8 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -7545,10 +7545,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( g(x) = x^2 + 12x, \\)</p>
     <p>which of the following is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\sqrt{g(x) + 36} \\)</p>
     <p>for all \\(x \\geq -6\\)?</p>
     <div class="mc-choices">
@@ -7569,7 +7569,7 @@ export const questions = [
         <span>\\( x - 6 \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -7586,10 +7586,10 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( q = x^2 - 10x + 25, \\)</p>
     <p>which of the following is equivalent to</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
       \\( \\sqrt{9q} \\)</p>
     <p>for all \\(x \\geq 5\\)?</p>
     <div class="mc-choices">
@@ -7610,7 +7610,7 @@ export const questions = [
         <span>\\( \\frac{3}{2}(2x - 5) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -7627,15 +7627,15 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions are defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=\\frac{5}{4}x-3 \\) </p>
+            <p class="eq"> \\( f(x)=\\frac{5}{4}x-3 \\) </p>
             and
-            <p style="text-align:center;margin-bottom:12px"> \\( g(x)=8x+6 \\). </p>
+            <p class="eq"> \\( g(x)=8x+6 \\). </p>
             The product
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x)g(x) \\) </p>
+            <p class="eq"> \\( f(x)g(x) \\) </p>
             can be written in the form
-            <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
+            <p class="eq"> \\( ax^2+bx+c \\), </p>
             where \\(a\\), \\(b\\), and \\(c\\) are constants.
-            <p style="margin-bottom:12px">What is the value of \\(b-c\\)?</p>`,
+            What is the value of \\(b-c\\)?</p>`,
     answer: "3/2",
     graph: null,
     graphChoices: null,
@@ -7661,15 +7661,15 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions are defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( p(x)=\\frac{3}{4}x+5 \\) </p>
+            <p class="eq"> \\( p(x)=\\frac{3}{4}x+5 \\) </p>
             and
-            <p style="text-align:center;margin-bottom:12px"> \\( q(x)=12x-8 \\). </p>
+            <p class="eq"> \\( q(x)=12x-8 \\). </p>
             The product
-            <p style="text-align:center;margin-bottom:12px"> \\( p(x)q(x) \\) </p>
+            <p class="eq"> \\( p(x)q(x) \\) </p>
             can be written in the form
-            <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
+            <p class="eq"> \\( ax^2+bx+c \\), </p>
             where \\(a\\), \\(b\\), and \\(c\\) are constants.
-            <p style="margin-bottom:12px">What is the value of \\(a+b\\)?</p>`,
+            What is the value of \\(a+b\\)?</p>`,
     answer: "63",
     graph: null,
     graphChoices: null,
@@ -7694,15 +7694,15 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions are defined by
-                <p style="text-align:center;margin-bottom:12px"> \\( r(x)=\\frac{7}{6}x-4 \\) </p>
+                <p class="eq"> \\( r(x)=\\frac{7}{6}x-4 \\) </p>
                 and
-                <p style="text-align:center;margin-bottom:12px"> \\( s(x)=18x+3 \\). </p>
+                <p class="eq"> \\( s(x)=18x+3 \\). </p>
                 The product
-                <p style="text-align:center;margin-bottom:12px"> \\( r(x)s(x) \\) </p>
+                <p class="eq"> \\( r(x)s(x) \\) </p>
                 can be written in the form
-                <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
+                <p class="eq"> \\( ax^2+bx+c \\), </p>
                 where \\(a\\), \\(b\\), and \\(c\\) are constants.
-                <p style="margin-bottom:12px">What is the value of \\(a+c\\)?</p>`,
+                What is the value of \\(a+c\\)?</p>`,
     answer: "9",
     graph: null,
     graphChoices: null,
@@ -7720,15 +7720,15 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The functions are defined by
-                <p style="text-align:center;margin-bottom:12px"> \\( u(x)=\\frac{2}{5}x+7 \\) </p>
+                <p class="eq"> \\( u(x)=\\frac{2}{5}x+7 \\) </p>
                 and
-                <p style="text-align:center;margin-bottom:12px"> \\( v(x)=15x-10 \\). </p>
+                <p class="eq"> \\( v(x)=15x-10 \\). </p>
                 The product
-                <p style="text-align:center;margin-bottom:12px"> \\( u(x)v(x) \\) </p>
+                <p class="eq"> \\( u(x)v(x) \\) </p>
                 can be written in the form
-                <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
+                <p class="eq"> \\( ax^2+bx+c \\), </p>
                 where \\(a\\), \\(b\\), and \\(c\\) are constants.
-                <p style="margin-bottom:12px">What is the value of \\(a-b\\)?</p>`,
+                What is the value of \\(a-b\\)?</p>`,
     answer: "-95",
     graph: null,
     graphChoices: null,
@@ -7746,15 +7746,15 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If
-            <p style="text-align:center;margin-bottom:12px"> \\( r=3x+2 \\) </p>
+            <p class="eq"> \\( r=3x+2 \\) </p>
             and
-            <p style="text-align:center;margin-bottom:12px"> \\( s=2x-5 \\), </p>
+            <p class="eq"> \\( s=2x-5 \\), </p>
             the expression
-            <p style="text-align:center;margin-bottom:12px"> \\( rs+2r-s \\) </p>
+            <p class="eq"> \\( rs+2r-s \\) </p>
             is equivalent to
-            <p style="text-align:center;margin-bottom:12px"> \\( ax^2+bx+c \\), </p>
+            <p class="eq"> \\( ax^2+bx+c \\), </p>
             where \\(a\\), \\(b\\), and \\(c\\) are constants.
-            <p style="margin-bottom:12px">What is the value of \\(a+b+c\\)?</p>
+            What is the value of \\(a+b+c\\)?</p>
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -7781,7 +7781,7 @@ export const questions = [
         text: "This question cannot be done on Desmos",
         note: "",
         gif: "",
-        answer: "",
+        answer: "B",
         video: ""
       }
     ],
@@ -7798,13 +7798,13 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `The function \\(f\\) is defined by
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=uv+u-3v \\), </p>
+            <p class="eq"> \\( f(x)=uv+u-3v \\), </p>
             where
-            <p style="text-align:center;margin-bottom:12px"> \\( u=4x-3 \\) </p>
+            <p class="eq"> \\( u=4x-3 \\) </p>
             and
-            <p style="text-align:center;margin-bottom:12px"> \\( v=x+2 \\). </p>
+            <p class="eq"> \\( v=x+2 \\). </p>
             If
-            <p style="text-align:center;margin-bottom:12px"> \\( f(x)=ax^2+bx+c \\), </p>
+            <p class="eq"> \\( f(x)=ax^2+bx+c \\), </p>
             where \\(a\\), \\(b\\), and \\(c\\) are constants, what is the value of \\(a+b+c\\)?
         <div class="mc-choices">
         <div class="mc-choice">
@@ -7848,15 +7848,15 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If
-                <p style="text-align:center;margin-bottom:12px"> \\( m=2x+1 \\) </p>
+                <p class="eq"> \\( m=2x+1 \\) </p>
                 and
-                <p style="text-align:center;margin-bottom:12px"> \\( n=x+4 \\), </p>
+                <p class="eq"> \\( n=x+4 \\), </p>
                 the expression
-                <p style="text-align:center;margin-bottom:12px"> \\( mn-m+3n \\) </p>
+                <p class="eq"> \\( mn-m+3n \\) </p>
                 is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{a}{4}x^2+\\frac{b}{4}x+\\frac{c}{4} \\), </p>
+                <p class="eq"> \\( \\frac{a}{4}x^2+\\frac{b}{4}x+\\frac{c}{4} \\), </p>
                 where \\(a\\), \\(b\\), and \\(c\\) are integers.
-                <p style="margin-bottom:12px">What is the value of \\(a+b+c\\)?</p>
+                What is the value of \\(a+b+c\\)?</p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -7892,15 +7892,15 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `If
-                <p style="text-align:center;margin-bottom:12px"> \\( p=5x+1 \\) </p>
+                <p class="eq"> \\( p=5x+1 \\) </p>
                 and
-                <p style="text-align:center;margin-bottom:12px"> \\( q=2x-3 \\), </p>
+                <p class="eq"> \\( q=2x-3 \\), </p>
                 the expression
-                <p style="text-align:center;margin-bottom:12px"> \\( pq-2p+q \\) </p>
+                <p class="eq"> \\( pq-2p+q \\) </p>
                 is equivalent to
-                <p style="text-align:center;margin-bottom:12px"> \\( \\frac{ax^2+bx+c}{5} \\), </p>
+                <p class="eq"> \\( \\frac{ax^2+bx+c}{5} \\), </p>
                 where \\(a\\), \\(b\\), and \\(c\\) are integers.
-                <p style="margin-bottom:12px">What is the value of \\(a+b+c\\)?</p>
+                What is the value of \\(a+b+c\\)?</p>
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -8583,9 +8583,15 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 2,
         questionType: "WE",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
-        text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = (x-2)^2 + 1\\)</p>
+        text: `<p class="eq">\\(f(x) = (x-2)^2 + 1\\)</p>
             <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
         answer: "C",
         graph: null,
@@ -8685,9 +8691,15 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 2,
         questionType: "GP",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
-        text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = x^2 - 4x + 1\\)</p>
+        text: `<p class="eq">\\(f(x) = x^2 - 4x + 1\\)</p>
             <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
         answer: "D",
         graph: null,
@@ -8787,9 +8799,15 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 2,
         questionType: "PR",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
-        text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = (x+3)(x-1)\\)</p>
+        text: `<p class="eq">\\(f(x) = (x+3)(x-1)\\)</p>
                 <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
         answer: "A",
         graph: null,
@@ -8882,9 +8900,15 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 2,
         questionType: "PR",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
-        text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = -(x+1)^2 + 5\\)</p>
+        text: `<p class="eq">\\(f(x) = -(x+1)^2 + 5\\)</p>
                 <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
         answer: "B",
         graph: null,
@@ -8977,9 +9001,15 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 2,
         questionType: "AQ",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
-        text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = -(x-3)(x+5)\\)</p>
+        text: `<p class="eq">\\(f(x) = -(x-3)(x+5)\\)</p>
         <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
         answer: "D",
         graph: null,
@@ -9072,9 +9102,15 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 2,
         questionType: "AQ",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
-        text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = 2(x-1)^2 - 3\\)</p>
+        text: `<p class="eq">\\(f(x) = 2(x-1)^2 - 3\\)</p>
         <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
         answer: "C",
         graph: null,
@@ -9167,9 +9203,15 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 2,
         questionType: "AQ",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
-        text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = x^2 + 6x + 8\\)</p>
+        text: `<p class="eq">\\(f(x) = x^2 + 6x + 8\\)</p>
                 <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
         answer: "B",
         graph: null,
@@ -9262,9 +9304,15 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 2,
         questionType: "AQ",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
-        text: `<p style="text-align:center;margin-bottom:12px">\\(f(x) = -x^2 + 4x + 5\\)</p>
+        text: `<p class="eq">\\(f(x) = -x^2 + 4x + 5\\)</p>
                 <p>The function f is defined as shown. Which of the following graphs in the xy-plane could be the graph of \\(y = f(x)\\)?</p>`,
         answer: "A",
         graph: null,
@@ -9790,10 +9838,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>A runner's distance from the starting line during the first several minutes of a training drill is modeled by</p>
-                <p style="text-align:center">\\(f(x)=-4x^2+40x\\),</p>
+                <p class="eq">\\(f(x)=-4x^2+40x\\),</p>
                 <p>where \\(x\\) represents the number of minutes since the drill began and \\(f(x)\\) represents the runner's distance, in meters, from the starting line.</p>
                 <p>What is the best interpretation of</p>
-                <p style="text-align:center">\\(f(3)=84\\)?</p>
+                <p class="eq">\\(f(3)=84\\)?</p>
                 <div class="mc-choices">
                 <div class="mc-choice">
                     <span class="mc-label">A</span>
@@ -9836,10 +9884,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>A drone's distance from a landing platform is modeled by</p>
-                <p style="text-align:center">\\(f(x)=3(x-5)^2\\),</p>
+                <p class="eq">\\(f(x)=3(x-5)^2\\),</p>
                 <p>where \\(x\\) represents the number of seconds since the drone passed directly above the platform and \\(f(x)\\) represents its distance, in meters, from the platform.</p>
                 <p>What is the best interpretation of</p>
-                <p style="text-align:center">\\(f(7)=12\\)?</p>
+                <p class="eq">\\(f(7)=12\\)?</p>
                 <div class="mc-choices">
                 <div class="mc-choice correct">
                     <span class="mc-label">A</span>
@@ -9882,10 +9930,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The total number of tiles used in a patio design is modeled by</p>
-                    <p style="text-align:center">\\(f(x)=2x^2+18\\),</p>
+                    <p class="eq">\\(f(x)=2x^2+18\\),</p>
                     <p>where \\(x\\) represents the side length, in feet, of the central square section and \\(f(x)\\) represents the total number of tiles required.</p>
                     <p>What is the best interpretation of</p>
-                    <p style="text-align:center">\\(f(4)=50\\)?</p>
+                    <p class="eq">\\(f(4)=50\\)?</p>
                     <div class="mc-choices">
                     <div class="mc-choice">
                         <span class="mc-label">A</span>
@@ -9921,10 +9969,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>A theater's ticket revenue during the first several hours of an event is modeled by</p>
-                    <p style="text-align:center">\\(f(x)=-2x^2+24x+5\\),</p>
+                    <p class="eq">\\(f(x)=-2x^2+24x+5\\),</p>
                     <p>where \\(x\\) represents the number of hours since ticket sales began and \\(f(x)\\) represents the revenue, in hundreds of dollars.</p>
                     <p>What is the best interpretation of</p>
-                    <p style="text-align:center">\\(f(2)=45\\)?</p>
+                    <p class="eq">\\(f(2)=45\\)?</p>
                     <div class="mc-choices">
                     <div class="mc-choice">
                         <span class="mc-label">A</span>
@@ -9960,10 +10008,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The volume of water displaced by a machine part is modeled by</p>
-                    <p style="text-align:center">\\(f(x)=5(x-2)^2\\),</p>
+                    <p class="eq">\\(f(x)=5(x-2)^2\\),</p>
                     <p>where \\(x\\) represents the machine's operating speed, in meters per second, and \\(f(x)\\) represents the volume of water displaced, in liters.</p>
                     <p>What is the best interpretation of</p>
-                    <p style="text-align:center">\\(f(6)=80\\)?</p>
+                    <p class="eq">\\(f(6)=80\\)?</p>
                     <div class="mc-choices">
                     <div class="mc-choice correct">
                         <span class="mc-label">A</span>
@@ -9999,10 +10047,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The number of photographs transferred to a device during the first several minutes is modeled by</p>
-                    <p style="text-align:center">\\(f(x)=4x^2+12x\\),</p>
+                    <p class="eq">\\(f(x)=4x^2+12x\\),</p>
                     <p>where \\(x\\) represents the number of minutes since the transfer began and \\(f(x)\\) represents the total number of photographs transferred.</p>
                     <p>What is the best interpretation of</p>
-                    <p style="text-align:center">\\(f(3)=72\\)?</p>
+                    <p class="eq">\\(f(3)=72\\)?</p>
                     <div class="mc-choices">
                     <div class="mc-choice">
                         <span class="mc-label">A</span>
@@ -10038,10 +10086,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The height of a decorative arch is modeled by</p>
-                    <p style="text-align:center">\\(f(x)=-3x^2+75\\),</p>
+                    <p class="eq">\\(f(x)=-3x^2+75\\),</p>
                     <p>where \\(x\\) represents the horizontal distance, in feet, from the center of the arch and \\(f(x)\\) represents the height of the arch, in feet.</p>
                     <p>What is the best interpretation of</p>
-                    <p style="text-align:center">\\(f(4)=27\\)?</p>
+                    <p class="eq">\\(f(4)=27\\)?</p>
                     <div class="mc-choices">
                     <div class="mc-choice">
                         <span class="mc-label">A</span>
@@ -10077,10 +10125,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>A student's progress during a review session is modeled by</p>
-                    <p style="text-align:center">\\(f(x)=-6x^2+54x\\),</p>
+                    <p class="eq">\\(f(x)=-6x^2+54x\\),</p>
                     <p>where \\(x\\) represents the number of minutes since the session began and \\(f(x)\\) represents the number of questions answered correctly.</p>
                     <p>What does the statement</p>
-                    <p style="text-align:center">\\(f(3)=108\\)</p>
+                    <p class="eq">\\(f(3)=108\\)</p>
                     <p>best indicate about the student's progress?</p>
                     <div class="mc-choices">
                     <div class="mc-choice">
@@ -10114,6 +10162,12 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 5,
         questionType: "WE",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>During a science demonstration, a model rocket followed the path shown in the graph.</p>
@@ -10243,10 +10297,16 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 5,
         questionType: "GP",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The path of a stream of water from a fountain is represented by</p>
-        <p style="text-align:center;margin-bottom:12px">\\(y = -4x^2 + 16x + 6\\)</p>
+        <p class="eq">\\(y = -4x^2 + 16x + 6\\)</p>
         <p>A second fountain produces the same-shaped path, but the entire path is translated <strong>3 units downward</strong>.</p>
         <p>Which of the following equations could represent the path of the water from the second fountain?</p>`,
         answer: "D",
@@ -10373,10 +10433,16 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 5,
         questionType: "PR",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The curved shape of an architectural arch is modeled by</p>
-            <p style="text-align:center;margin-bottom:12px">\\(y = -2x^2 + 12x + 8\\)</p>
+            <p class="eq">\\(y = -2x^2 + 12x + 8\\)</p>
             <p>A second identical arch is positioned <strong>4 feet to the right</strong> of the first arch.</p>
             <p>Which of the following equations could represent the second arch?</p>`,
         answer: "A",
@@ -10484,10 +10550,16 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 5,
         questionType: "PR",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The cross section of a curved pedestrian tunnel is modeled by</p>
-            <p style="text-align:center;margin-bottom:12px">\\(y = -3x^2 + 18x + 5\\)</p>
+            <p class="eq">\\(y = -3x^2 + 18x + 5\\)</p>
             <p>An identical tunnel section is constructed <strong>2 feet to the left</strong> of the original position.</p>
             <p>Which of the following equations could represent the new tunnel section?</p>`,
         answer: "C",
@@ -10595,10 +10667,16 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 5,
         questionType: "AQ",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The path of a stunt cyclist during a jump is modeled by</p>
-                <p style="text-align:center;margin-bottom:12px">\\(y = -5x^2 + 30x + 4\\)</p>
+                <p class="eq">\\(y = -5x^2 + 30x + 4\\)</p>
                 <p>For a second jump, the cyclist follows the same-shaped path. The <strong>horizontal coordinate of every point on the path increases by 3</strong>, and the height of every point increases by <strong>6 feet</strong>.</p>
                 <p>Which of the following could represent the second jump?</p>`,
         answer: "D",
@@ -10706,10 +10784,16 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 5,
         questionType: "AQ",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The shape of a decorative bridge support is modeled by</p>
-                <p style="text-align:center;margin-bottom:12px">\\(y = -2x^2 + 16x + 11\\)</p>
+                <p class="eq">\\(y = -2x^2 + 16x + 11\\)</p>
                 <p>A second identical support is installed. The <strong>horizontal coordinate of every point on the support decreases by 5</strong>, and the height of every point decreases by <strong>4 feet</strong>.</p>
                 <p>Which of the following equations could represent the second support?</p>`,
         answer: "A",
@@ -10817,10 +10901,16 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 5,
         questionType: "AQ",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The path of a flare during a safety test is modeled by</p>
-                <p style="text-align:center;margin-bottom:12px">\\(y = -16x^2 + 24x + 9\\)</p>
+                <p class="eq">\\(y = -16x^2 + 24x + 9\\)</p>
                 <p>During a second test, the flare follows the same-shaped path. The <strong>horizontal coordinate of every point on the path decreases by 2</strong>, and the height of every point increases by <strong>7 units</strong>.</p>
                 <p>Which of the following could represent the flare's path during the second test?</p>`,
         answer: "B",
@@ -10928,10 +11018,16 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 5,
         questionType: "AQ",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The curved path of water from a sprinkler is modeled by</p>
-                <p style="text-align:center;margin-bottom:12px">\\(y = -3x^2 + 18x + 6\\)</p>
+                <p class="eq">\\(y = -3x^2 + 18x + 6\\)</p>
                 <p>A second sprinkler produces the same-shaped path. The <strong>horizontal coordinate of every point on the path increases by 6</strong>, and the height of every point decreases by <strong>5 units</strong>.</p>
                 <p>Which of the following could represent the second path?</p>`,
         answer: "A",
@@ -11039,11 +11135,17 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 6,
         questionType: "WE",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The quadratic function \\(f\\) is defined by the graph shown above.</p>
         <p>The function \\(g\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 3) + 5\\)</p>
+        <p class="eq">\\(g(x) = f(x - 3) + 5\\)</p>
         <p>Which of the following graphs represents \\(g\\)?</p>`,
         answer: "C",
         graph: {
@@ -11169,11 +11271,17 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 6,
         questionType: "GP",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The quadratic function \\(h\\) is defined by the graph shown above.</p>
         <p>The function \\(k\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">\\(k(x) = h(x + 4) - 7\\)</p>
+        <p class="eq">\\(k(x) = h(x + 4) - 7\\)</p>
         <p>Which of the following graphs represents \\(k\\)?</p>`,
         answer: "B",
         graph: {
@@ -11299,11 +11407,17 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 6,
         questionType: "PR",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The quadratic function \\(p\\) is defined by the graph shown above.</p>
             <p>The function \\(q\\) is defined by</p>
-            <p style="text-align:center;margin-bottom:12px">\\(q(x) = p(x - 2) - 4\\)</p>
+            <p class="eq">\\(q(x) = p(x - 2) - 4\\)</p>
             <p>Which of the following graphs represents \\(q\\)?</p>`,
         answer: "D",
         graph: {
@@ -11410,11 +11524,17 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 6,
         questionType: "PR",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The quadratic function \\(r\\) is defined by the graph shown above.</p>
             <p>The function \\(s\\) is defined by</p>
-            <p style="text-align:center;margin-bottom:12px">\\(s(x) = r(x - 5) - 8\\)</p>
+            <p class="eq">\\(s(x) = r(x - 5) - 8\\)</p>
             <p>Which of the following graphs represents \\(s\\)?</p>`,
         answer: "B",
         graph: {
@@ -11521,11 +11641,17 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 6,
         questionType: "AQ",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The quadratic function \\(t\\) is defined by the graph shown above.</p>
             <p>The function \\(u\\) is defined by</p>
-            <p style="text-align:center;margin-bottom:12px">\\(u(x) = t(x + 3) + 2\\)</p>
+            <p class="eq">\\(u(x) = t(x + 3) + 2\\)</p>
             <p>Which of the following graphs represents \\(u\\)?</p>`,
         answer: "C",
         graph: {
@@ -11632,11 +11758,17 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 6,
         questionType: "AQ",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The quadratic function \\(v\\) is defined by the graph shown above.</p>
             <p>The function \\(w\\) is defined by</p>
-            <p style="text-align:center;margin-bottom:12px">\\(w(x) = v(x - 6) + 9\\)</p>
+            <p class="eq">\\(w(x) = v(x - 6) + 9\\)</p>
             <p>Which of the following graphs represents \\(w\\)?</p>`,
         answer: "A",
         graph: {
@@ -11743,11 +11875,17 @@ export const questions = [
         subtopic: "simple-graphing",
         problem: 6,
         questionType: "AQ",
+
+      steps: [],
+
+      screenshot: "",
+
+      videoId: "",
         difficulty: 2,
         tags: [],
         text: `<p>The quadratic function \\(j\\) is defined by the graph shown above.</p>
             <p>The function \\(z\\) is defined by</p>
-            <p style="text-align:center;margin-bottom:12px">\\(z(x) = j(x + 2) - 5\\)</p>
+            <p class="eq">\\(z(x) = j(x + 2) - 5\\)</p>
             <p>Which of the following graphs represents \\(z\\)?</p>`,
         answer: "D",
         graph: {
@@ -11857,10 +11995,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(f\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(f(x) = 3(x + 4)^2 - 7\\)</p>
     <p>and the function \\(g\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(g(x) = 3(x - 2)^2 + 5\\).</p>
     <p>Which of the following translations of the graph of \\(f\\) results in the graph of \\(g\\)?</p>
     <div class="mc-choices">
@@ -11911,10 +12049,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(p\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(p(x) = -2(x - 5)^2 + 8\\)</p>
     <p>and the function \\(q\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(q(x) = -2(x + 3)^2 - 4\\).</p>
     <p>Which of the following translations of the graph of \\(p\\) results in the graph of \\(q\\)?</p>
     <div class="mc-choices">
@@ -11965,10 +12103,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>In the \\(xy\\)-plane, the graph of</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(y = 4(x + 7)^2 + 3\\)</p>
         <p>is translated to produce the graph of</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(y = 4(x - 1)^2 - 6\\).</p>
         <p>Which of the following describes the translation?</p>
         <div class="mc-choices">
@@ -11989,7 +12127,7 @@ export const questions = [
             <span>\\(8\\) units to the right and \\(9\\) units upward</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12006,7 +12144,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(h\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(h(x) = 2(x + 5)^2 - 9\\).</p>
         <p>A translation of the graph of \\(h\\) produces the graph of \\(j\\). Under the translation, the <strong>horizontal coordinate of every point increases by 7</strong>, and the <strong>vertical coordinate of every point decreases by 4</strong>.</p>
         <p>Which of the following equations defines \\(j\\)?</p>
@@ -12028,7 +12166,7 @@ export const questions = [
             <span>\\(j(x) = 2(x + 12)^2 - 5\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12045,13 +12183,13 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(r\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(r(x) = -5(x - 6)^2 - 2\\).</p>
         <p>The graph of \\(r\\) is translated so that its vertex changes from</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\((6,-2)\\)</p>
         <p>to</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\((-2,7)\\).</p>
         <p>Which of the following equations represents the translated graph?</p>
         <div class="mc-choices">
@@ -12072,7 +12210,7 @@ export const questions = [
             <span>\\(y = -5(x - 2)^2 - 7\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12089,10 +12227,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(m\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(m(x) = -3(x - 4)^2 + 11\\).</p>
         <p>The function \\(n\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(n(x) = m(x + 6) - 8\\).</p>
         <p>Which of the following equations represents \\(n\\)?</p>
         <div class="mc-choices">
@@ -12113,7 +12251,7 @@ export const questions = [
             <span>\\(n(x) = -3(x - 10)^2 + 19\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "B",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12130,10 +12268,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The graph of</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(y = 6(x + 2)^2 - 5\\)</p>
         <p>is translated to produce the graph of</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(y = 6(x - 7)^2 + 4\\).</p>
         <p>If a point \\((a,b)\\) lies on the first graph, which of the following points must lie on the translated graph?</p>
         <div class="mc-choices">
@@ -12154,7 +12292,7 @@ export const questions = [
             <span>\\((a + 9, b + 9)\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "D",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12171,7 +12309,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(u\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(u(x) = -4(x + 6)^2 + 10\\).</p>
         <p>The graph of \\(u\\) is translated so that the <strong>horizontal coordinate of every point decreases by 5</strong> and the <strong>vertical coordinate of every point increases by 7</strong>. The resulting graph represents the function \\(v\\).</p>
         <p>Which of the following equations defines \\(v\\)?</p>
@@ -12193,7 +12331,7 @@ export const questions = [
             <span>\\(v(x) = -4(x + 1)^2 + 3\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12210,13 +12348,13 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(f\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(f(x) = 3x^2 - 8x + 5\\).</p>
     <p>The function \\(g\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(g(x) = f(x + a) + 6\\).</p>
     <p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(g(x) = 3x^2 + 22x + 46\\),</p>
     <p>what is the value of \\(a\\)?</p>
     <div class="mc-choices">
@@ -12267,13 +12405,13 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(f\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(f(x) = 4x^2 + 5x - 3\\).</p>
     <p>The function \\(g\\) is defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(g(x) = f(x + a) - 7\\).</p>
     <p>If</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(g(x) = 4x^2 - 27x + 34\\),</p>
     <p>what is the value of \\(a\\)?</p>
     <div class="mc-choices">
@@ -12324,13 +12462,13 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(f\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(f(x) = 5x^2 - 6x + 8\\).</p>
         <p>The function \\(g\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = f(x + a) + 9\\).</p>
         <p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = 5x^2 + 34x + 45\\),</p>
         <p>what is the value of \\(a\\)?</p>
         <div class="mc-choices">
@@ -12351,7 +12489,7 @@ export const questions = [
             <span>\\(4\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "D",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12368,13 +12506,13 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(f\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(f(x) = 2x^2 + 11x - 4\\).</p>
         <p>The function \\(g\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = f(x + a) - 5\\).</p>
         <p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = 2x^2 - x - 24\\),</p>
         <p>what is the value of \\(a\\)?</p>
         <div class="mc-choices">
@@ -12395,7 +12533,7 @@ export const questions = [
             <span>\\(3\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12412,13 +12550,13 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(f\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(f(x) = 6x^2 - 7x + 2\\).</p>
         <p>The function \\(g\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = f(x + a) + 4\\).</p>
         <p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = 6x^2 + 29x + 24\\),</p>
         <p>what is the value of \\(a\\)?</p>
         <div class="mc-choices">
@@ -12439,7 +12577,7 @@ export const questions = [
             <span>\\(3\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "D",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12456,13 +12594,13 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(f\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(f(x) = 3x^2 + 10x - 6\\).</p>
         <p>The function \\(g\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = f(x + a) - 8\\).</p>
         <p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = 3x^2 - 14x + 10\\),</p>
         <p>what is the value of \\(a\\)?</p>
         <div class="mc-choices">
@@ -12483,7 +12621,7 @@ export const questions = [
             <span>\\(4\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12500,13 +12638,13 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(f\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(f(x) = 7x^2 - 9x + 3\\).</p>
         <p>The function \\(g\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = f(x + a) + 5\\).</p>
         <p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = 7x^2 + 19x + 18\\),</p>
         <p>what is the value of \\(a\\)?</p>
         <div class="mc-choices">
@@ -12527,7 +12665,7 @@ export const questions = [
             <span>\\(3\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12544,13 +12682,13 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(f\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(f(x) = 4x^2 + 13x - 5\\).</p>
         <p>The function \\(g\\) is defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = f(x + a) - 6\\).</p>
         <p>If</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(x) = 4x^2 - 11x + 10\\),</p>
         <p>what is the value of \\(a\\)?</p>
         <div class="mc-choices">
@@ -12571,7 +12709,7 @@ export const questions = [
             <span>\\(3\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -12971,7 +13109,7 @@ export const questions = [
             <span>\\( -13 \\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: {
         expressions: [
             {
@@ -13382,7 +13520,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>For the function \\(f\\) defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(f(r) = 2r^2 + 7r + m\\),</p>
     <p>what does \\(m\\) represent?</p>
     <div class="mc-choices">
@@ -13433,7 +13571,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>For the function \\(g\\) defined by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(g(t) = -4t^2 + 20t + n\\),</p>
     <p>what does \\(n\\) represent?</p>
     <div class="mc-choices">
@@ -13484,7 +13622,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>For the function \\(p\\) defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(p(w) = 5w^2 - 30w + c\\),</p>
         <p>what does \\(c\\) represent?</p>
         <div class="mc-choices">
@@ -13505,7 +13643,7 @@ export const questions = [
             <span>The \\(y\\)-coordinate of the vertex</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -13522,7 +13660,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>For the function \\(q\\) defined by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(q(z) = -3z^2 - 18z + d\\),</p>
         <p>what does \\(d\\) represent?</p>
         <div class="mc-choices">
@@ -13543,7 +13681,7 @@ export const questions = [
             <span>The \\(x\\)-coordinate of the vertex</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -13560,7 +13698,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Consider the quadratic function</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(f(w) = 6w^2 - 18w + 18\\).</p>
         <p>What does the constant represent?</p>
         <div class="mc-choices">
@@ -13581,7 +13719,7 @@ export const questions = [
             <span>The lowest point reached by the graph</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "B",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -13598,7 +13736,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Consider the quadratic function</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(m) = -3m^2 + 20m + 42\\).</p>
         <p>What does the constant represent?</p>
         <div class="mc-choices">
@@ -13619,7 +13757,7 @@ export const questions = [
             <span>The value of the function when \\(m = 0\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "D",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -13636,7 +13774,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Consider the quadratic function</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(h(q) = 8q^2 + 5q - 27\\).</p>
         <p>What does the constant represent?</p>
         <div class="mc-choices">
@@ -13657,7 +13795,7 @@ export const questions = [
             <span>The input corresponding to the vertex</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -13674,7 +13812,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>Consider the quadratic function</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(k(v) = -7v^2 - 16v + 35\\).</p>
         <p>What does the constant represent?</p>
         <div class="mc-choices">
@@ -13695,7 +13833,7 @@ export const questions = [
             <span>The input corresponding to the graph's turning point</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -13712,7 +13850,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>A technology company models the number of active client accounts during an 8-month period with the equation</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(A(t) = 4(t + 3) - \\frac{1}{2}t^2 + 25\\),</p>
     <p>where \\(A(t)\\) is the estimated number of active client accounts \\(t\\) months after the company begins a tracking period.</p>
     <p>Which statement best describes the meaning of the \\(y\\)-intercept of the graph of this equation?</p>
@@ -13764,7 +13902,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The number of machines operating at a manufacturing facility is modeled by</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(M(w) = -2(w - 5)^2 + 74\\),</p>
     <p>where \\(M(w)\\) is the estimated number of operating machines \\(w\\) weeks after a maintenance program begins.</p>
     <p>Which statement best interprets the \\(y\\)-intercept of the graph of this equation?</p>
@@ -13816,7 +13954,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>A delivery company models the number of packages waiting at a distribution center with the equation</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(N(d) = \\frac{1}{4}(d + 8)^2 + 39\\),</p>
         <p>where \\(N(d)\\) is the estimated number of packages waiting \\(d\\) days after a new processing system is introduced.</p>
         <p>Which statement best describes the \\(y\\)-intercept of the graph of this equation?</p>
@@ -13838,7 +13976,7 @@ export const questions = [
             <span>The number of waiting packages increases by exactly \\( \\frac{1}{4} \\) of a package each day.</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -13855,7 +13993,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>A company models the number of employees assigned to a temporary project with the equation</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(E(m) = 3(2m + 7) - \\frac{3}{4}m^2 + 41\\),</p>
         <p>where \\(E(m)\\) is the estimated number of employees assigned to the project \\(m\\) months after staffing begins.</p>
         <p>Which statement best interprets the \\(y\\)-intercept of the graph of this equation?</p>
@@ -13877,7 +14015,7 @@ export const questions = [
             <span>The number of employees assigned to the project decreases by \\( \\frac{3}{4}\\) each month.</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -13894,7 +14032,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The number of electric scooters available through a transportation service \\(w\\) weeks after the beginning of a new operating period is modeled by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(S(w) = 18w^2 - 95w + 1{,}460\\),</p>
         <p>where \\(0 \\leq w \\leq 20\\).</p>
         <p>In this model, what does the value \\(1{,}460\\) represent?</p>
@@ -13916,7 +14054,7 @@ export const questions = [
             <span>The estimated change in the number of available scooters over the entire period</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -13933,7 +14071,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The amount of water, in gallons, stored in a reservoir \\(d\\) days after monitoring begins is modeled by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(W(d) = -24d^2 + 380d + 52{,}600\\),</p>
         <p>where \\(0 \\leq d \\leq 15\\).</p>
         <p>In this model, what does the value \\(52{,}600\\) represent?</p>
@@ -13955,7 +14093,7 @@ export const questions = [
             <span>The estimated amount of water in the reservoir when monitoring begins</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "D",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -13972,7 +14110,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The number of packages processed at a shipping facility \\(h\\) hours after a new shift begins is modeled by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(P(h) = 65h^2 + 240h + 3{,}800\\),</p>
         <p>where \\(0 \\leq h \\leq 10\\).</p>
         <p>In this model, what does the value \\(3{,}800\\) represent?</p>
@@ -13994,7 +14132,7 @@ export const questions = [
             <span>The average number of packages processed per hour during the shift</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -14011,10 +14149,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The number of customers served at a restaurant \\(t\\) hours after it opens is modeled by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(C(t) = 48t^2 + 175t + 1{,}250\\),</p>
         <p>where</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(0 \\leq t \\leq 12\\).</p>
         <p>In this model, what does the value \\(1{,}250\\) represent?</p>
         <div class="mc-choices">
@@ -14035,7 +14173,7 @@ export const questions = [
             <span>The increase in the number of customers served during the first hour</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -14052,7 +14190,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(h\\) gives the height, in feet, of a basketball \\(s\\) seconds after it was thrown. Based on the function, what was the height, in feet, of the basketball at the moment it was thrown?</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(h(s) = -16\\left(s - \\frac{3}{4}\\right)^2 + 105\\)</p>
     <div class="mc-choices">
         <div class="mc-choice">
@@ -14102,7 +14240,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(d\\) gives the height, in feet, of a diver above the surface of a pool \\(s\\) seconds after the diver jumped from a platform. Based on the function, what was the height, in feet, of the diver at the moment the diver jumped?</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(d(s) = -16\\left(s - \\frac{1}{2}\\right)^2 + 42\\)</p>
     <div class="mc-choices">
         <div class="mc-choice">
@@ -14152,7 +14290,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(p\\) gives the height, in feet, of a package above the ground \\(r\\) seconds after it was released from a moving drone. Based on the function, what was the height, in feet, of the package at the moment it was released?</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(p(r) = -16\\left(r - \\frac{5}{4}\\right)^2 + 150\\)</p>
         <div class="mc-choices">
             <div class="mc-choice correct">
@@ -14172,7 +14310,7 @@ export const questions = [
             <span>\\(175\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -14189,7 +14327,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function \\(g\\) gives the height, in feet, of a volleyball above the ground \\(t\\) seconds after it was served. Based on the function, what was the height, in feet, of the volleyball at the moment it was served?</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(g(t) = -16\\left(t - \\frac{1}{4}\\right)^2 + 10\\)</p>
         <div class="mc-choices">
             <div class="mc-choice">
@@ -14209,7 +14347,7 @@ export const questions = [
             <span>\\(9\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "D",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -14226,7 +14364,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The amount of water, in gallons, in a storage tank \\(t\\) hours after a pump is activated is modeled by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(W(t) = -\\frac{3}{8}t^2 + \\frac{11}{4}t + \\frac{47}{6}\\).</p>
         <p>How many gallons of water were in the tank when the pump was activated?</p>
         <div class="mc-choices">
@@ -14247,7 +14385,7 @@ export const questions = [
             <span>\\(\\frac{3}{8}\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "B",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -14264,7 +14402,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The temperature, in degrees Celsius, of a chemical solution \\(m\\) minutes after a heating process begins is modeled by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(T(m) = 0.0378m^2 + 2.058m + 18.475\\).</p>
         <p>What was the temperature of the solution at the start of the heating process?</p>
         <div class="mc-choices">
@@ -14285,7 +14423,7 @@ export const questions = [
             <span>\\(18.475^\\circ\\text{C}\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "D",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -14302,7 +14440,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The number of thousands of subscribers to an online service \\(y\\) years after a marketing campaign begins is modeled by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(S(y) = -4.2y^2 + 31.6y + 84\\).</p>
         <p>According to the model, how many thousand subscribers did the service have when the marketing campaign began?</p>
         <div class="mc-choices">
@@ -14323,7 +14461,7 @@ export const questions = [
             <span>\\(53.4\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -14340,7 +14478,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The distance, in miles, a research vessel is from a monitoring station \\(h\\) hours after tracking begins is modeled by</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(D(h) = 12.75h^2 - 46.8h + 137.5\\).</p>
         <p>How far was the research vessel from the monitoring station when tracking began?</p>
         <div class="mc-choices">
@@ -14361,7 +14499,7 @@ export const questions = [
             <span>\\(12.75\\) miles</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -14378,7 +14516,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The \\(y\\)-intercept of the graph</p>
-            <p style="text-align:center;margin-bottom:12px">\\(g(x) = \\frac{1}{4}(x - 6)^2 + 2\\)</p>
+            <p class="eq">\\(g(x) = \\frac{1}{4}(x - 6)^2 + 2\\)</p>
             <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
         answer: "11",
         graph: null,
@@ -14416,7 +14554,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The \\(y\\)-intercept of the graph</p>
-            <p style="text-align:center;margin-bottom:12px">\\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\)</p>
+            <p class="eq">\\(g(x) = -\\frac{3}{4}(x - 8)^2 - 56\\)</p>
             <p>in the \\(xy\\)-plane is \\((0, g(0))\\). What is the value of \\(g(0)\\)?</p>`,
         answer: "-104",
         graph: null,
@@ -14454,7 +14592,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The graph of the function</p>
-            <p style="text-align:center;margin-bottom:12px">\\(f(x) = 12x^2 - 84x + 155\\)</p>
+            <p class="eq">\\(f(x) = 12x^2 - 84x + 155\\)</p>
             <p>intersects the \\(y\\)-axis at which point?</p>
             <div class="mc-choices">
                 <div class="mc-choice"><span class="mc-label">A</span><span>\\((155, 0)\\)</span></div>
@@ -14498,9 +14636,9 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The graph of the quadratic function</p>
-            <p style="text-align:center;margin-bottom:12px">\\( y = 3(x - 2)(x + 4) \\)</p>
+            <p class="eq">\\( y = 3(x - 2)(x + 4) \\)</p>
             <p>has a \\(y\\)-intercept of the form</p>
-            <p style="text-align:center;margin-bottom:12px">\\( (0, r) \\)</p>
+            <p class="eq">\\( (0, r) \\)</p>
             <p>What is the value of \\(r\\)?</p>`,
         answer: "-24",
         graph: null,
@@ -14538,11 +14676,11 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
-            <p style="text-align:center;margin-bottom:12px">\\( f(x) = 8x^2 - 13x + 24\\)</p>
+            <p class="eq">\\( f(x) = 8x^2 - 13x + 24\\)</p>
             <p>and</p>
-            <p style="text-align:center;margin-bottom:12px">\\( g(x) = 5x^2 + 9x - 17 \\)</p>
+            <p class="eq">\\( g(x) = 5x^2 + 9x - 17 \\)</p>
             <p>What is the value of </p>
-            <p style="text-align:center;margin-bottom:12px">\\( (f - g)(0)? \\)</p>
+            <p class="eq">\\( (f - g)(0)? \\)</p>
             <div class="mc-choices">
                 <div class="mc-choice"><span class="mc-label">A</span><span>\\( -7 \\)</span></div>
                 <div class="mc-choice"><span class="mc-label">B</span><span>\\( 7 \\)</span></div>
@@ -14585,7 +14723,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The \\(y\\)-intercept of the graph</p>
-            <p style="text-align:center;margin-bottom:12px">\\(f(x) = \\frac{1}{3}(x - 6)^2 + 5\\)</p>
+            <p class="eq">\\(f(x) = \\frac{1}{3}(x - 6)^2 + 5\\)</p>
             <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
         answer: "17",
         graph: null,
@@ -14611,7 +14749,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The \\(y\\)-intercept of the graph</p>
-            <p style="text-align:center;margin-bottom:12px">\\(g(x) = -\\frac{1}{2}(x + 8)^2 + 19\\)</p>
+            <p class="eq">\\(g(x) = -\\frac{1}{2}(x + 8)^2 + 19\\)</p>
             <p>in the \\(xy\\)-plane is \\((0, g(0))\\). What is the value of \\(g(0)\\)?</p>`,
         answer: "-13",
         graph: null,
@@ -14637,7 +14775,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The graph of the function</p>
-            <p style="text-align:center;margin-bottom:12px">\\(h(x) = 9x^2 - 54x + 127 \\)</p>
+            <p class="eq">\\(h(x) = 9x^2 - 54x + 127 \\)</p>
             <p>intersects the \\(y\\)-axis at which point?</p>
             <div class="mc-choices">
                 <div class="mc-choice"><span class="mc-label">A</span><span>\\((127, 0)\\)</span></div>
@@ -14669,9 +14807,9 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The graph of the quadratic function</p>
-            <p style="text-align:center;margin-bottom:12px">\\( y = -4( x - 3)(x + 5) \\)</p>
+            <p class="eq">\\( y = -4( x - 3)(x + 5) \\)</p>
             <p>intersects the \\(y\\)-axis at which point</p>
-            <p style="text-align:center;margin-bottom:12px">\\( (0, r) \\)</p>
+            <p class="eq">\\( (0, r) \\)</p>
             <p>What is the value of \\(r\\)?</p>`,
         answer: "60",
         graph: null,
@@ -14697,7 +14835,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The \\(y\\)-intercept of the graph</p>
-                <p style="text-align:center;margin-bottom:12px">\\(p(x) = \\frac{2}{5}(x - 5)^2 + 14\\)</p>
+                <p class="eq">\\(p(x) = \\frac{2}{5}(x - 5)^2 + 14\\)</p>
                 <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
         answer: "24",
         graph: null,
@@ -14716,7 +14854,7 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The graph of the function</p>
-                <p style="text-align:center;margin-bottom:12px">\\(q(x) = 7x^2 + 38x - 146\\)</p>
+                <p class="eq">\\(q(x) = 7x^2 + 38x - 146\\)</p>
                 <p>intersects the \\(y\\)-axis at which point?</p>
                 <div class="mc-choices">
                 <div class="mc-choice"><span class="mc-label">A</span><span>\\((-146, 0)\\)</span></div>
@@ -14741,9 +14879,9 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The graph of the quadratic function</p>
-            <p style="text-align:center;margin-bottom:12px">\\(y = 5(x + 3)(x - 7)\\)</p>
+            <p class="eq">\\(y = 5(x + 3)(x - 7)\\)</p>
             <p>has a \\(y\\)-intercept of the form</p>
-            <p style="text-align:center;margin-bottom:12px">\\((0, r).\\)</p>
+            <p class="eq">\\((0, r).\\)</p>
             <p>What is the value of \\(r\\)?</p>`,
         answer: "-105",
         graph: null,
@@ -14762,11 +14900,11 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
-            <p style="text-align:center;margin-bottom:12px">\\(f(x) = 9x^2 - 17x + 32\\)</p>
+            <p class="eq">\\(f(x) = 9x^2 - 17x + 32\\)</p>
             <p>and</p>
-            <p style="text-align:center;margin-bottom:12px">\\(g(x) = 4x^2 + 11x - 25.\\)</p>
+            <p class="eq">\\(g(x) = 4x^2 + 11x - 25.\\)</p>
             <p>What is the value of</p>
-            <p style="text-align:center;margin-bottom:12px">\\((f - g)(0)?\\)</p>
+            <p class="eq">\\((f - g)(0)?\\)</p>
             <div class="mc-choices">
                 <div class="mc-choice"><span class="mc-label">A</span><span>\\(-57\\)</span></div>
                 <div class="mc-choice"><span class="mc-label">B</span><span>\\(7\\)</span></div>
@@ -14790,11 +14928,11 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The functions \\(h\\) and \\(j\\) are defined by</p>
-            <p style="text-align:center;margin-bottom:12px">\\(h(x) = 6x^2 + 13x - 18\\)</p>
+            <p class="eq">\\(h(x) = 6x^2 + 13x - 18\\)</p>
             <p>and</p>
-            <p style="text-align:center;margin-bottom:12px">\\(j(x) = -2x^2 + 7x + 29.\\)</p>
+            <p class="eq">\\(j(x) = -2x^2 + 7x + 29.\\)</p>
             <p>What is the value of</p>
-            <p style="text-align:center;margin-bottom:12px">\\((h + j)(0)?\\)</p>
+            <p class="eq">\\((h + j)(0)?\\)</p>
             <div class="mc-choices">
                 <div class="mc-choice"><span class="mc-label">A</span><span>\\(-47\\)</span></div>
                 <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(11\\)</span></div>
@@ -15072,10 +15210,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(h(x) = 2x^2 + 7x - 4\\)</p>
     <p>is transformed into</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(k(x) = 3h(x) - 8\\).</p>
     <p>What is the \\(y\\)-coordinate of the point where the graph of \\(k\\) intersects the \\(y\\)-axis?</p>
     <div class="mc-choices">
@@ -15126,10 +15264,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(f(x) = -x^2 + 6x + 5\\)</p>
     <p>is transformed into</p>
-    <p style="text-align:center;margin-bottom:12px">
+    <p class="eq">
         \\(g(x) = 2f(x) + 10\\).</p>
     <p>What is the \\(y\\)-coordinate of the point where the graph of \\(g\\) intersects the \\(y\\)-axis?</p>
     <div class="mc-choices">
@@ -15180,10 +15318,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(p(x) = 3x^2 - 4x + 1\\)</p>
         <p>is transformed into</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(q(x) = -2p(x) + 6\\).</p>
         <p>What is the \\(y\\)-coordinate of the point where the graph of \\(q\\) intersects the \\(y\\)-axis?</p>
         <div class="mc-choices">
@@ -15204,7 +15342,7 @@ export const questions = [
             <span>\\(8\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -15221,10 +15359,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(r(x) = x^2 + 5x - 3\\)</p>
         <p>is transformed into</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(s(x) = 4r(x) - 12\\).</p>
         <p>What is the \\(y\\)-coordinate of the point where the graph of \\(s\\) intersects the \\(y\\)-axis?</p>
         <div class="mc-choices">
@@ -15245,7 +15383,7 @@ export const questions = [
             <span>\\(28\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -15262,10 +15400,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(m(x) = -4x^2 + 8x + 6\\)</p>
         <p>is transformed into</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(n(x) = \\frac{1}{2}m(x) - 5\\).</p>
         <p>What is the \\(y\\)-coordinate of the point where the graph of \\(n\\) intersects the \\(y\\)-axis?</p>
         <div class="mc-choices">
@@ -15286,7 +15424,7 @@ export const questions = [
             <span>\\(8\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -15303,10 +15441,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(t(x) = 5x^2 - 10x - 7\\)</p>
         <p>is transformed into</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(u(x) = -3t(x) + 9\\).</p>
         <p>What is the \\(y\\)-coordinate of the point where the graph of \\(u\\) intersects the \\(y\\)-axis?</p>
         <div class="mc-choices">
@@ -15327,7 +15465,7 @@ export const questions = [
             <span>\\(21\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -15344,10 +15482,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(v(x) = x^2 - 8x + 12\\)</p>
         <p>is transformed into</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(w(x) = 5v(x) - 20\\).</p>
         <p>What is the \\(y\\)-coordinate of the point where the graph of \\(w\\) intersects the \\(y\\)-axis?</p>
         <div class="mc-choices">
@@ -15368,7 +15506,7 @@ export const questions = [
             <span>\\(60\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "C",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -15385,10 +15523,10 @@ export const questions = [
         difficulty: 2,
         tags: [],
         text: `<p>The function</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(d(x) = -2x^2 + 3x + 11\\)</p>
         <p>is transformed into</p>
-        <p style="text-align:center;margin-bottom:12px">
+        <p class="eq">
             \\(e(x) = -4d(x) + 16\\).</p>
         <p>What is the \\(y\\)-coordinate of the point where the graph of \\(e\\) intersects the \\(y\\)-axis?</p>
         <div class="mc-choices">
@@ -15409,7 +15547,7 @@ export const questions = [
             <span>\\(60\\)</span>
             </div>
         </div>`,
-        answer: "",
+        answer: "A",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -16323,7 +16461,7 @@ export const questions = [
     difficulty: 2,
     tags: ["maximum", "standard-form", "free-response", "domain"],
     text: `<p>The height \\(H(t)\\), in feet, of a model rocket \\(t\\) seconds after it is launched is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(H(t) = -\\dfrac{5}{2}t^2 + 30t + 8,\\)</p>
+      <p class="eq">\\(H(t) = -\\dfrac{5}{2}t^2 + 30t + 8,\\)</p>
       <p>where \\(0 \\le t \\le 15\\).</p>
       <p>According to the model, how many seconds after launch does the rocket reach its <strong>greatest height</strong>?</p>`,
     answer: "6",
@@ -16348,7 +16486,7 @@ export const questions = [
     difficulty: 2,
     tags: ["maximum", "standard-form", "free-response", "domain"],
     text: `<p>The daily profit \\(P(n)\\), in hundreds of dollars, from selling \\(n\\) batches of a product is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(P(n) = -0.4n^2 + 14.4n - 35,\\)</p>
+      <p class="eq">\\(P(n) = -0.4n^2 + 14.4n - 35,\\)</p>
       <p>where \\(5 \\le n \\le 30\\).</p>
       <p>According to the model, how many batches should be sold for the company to obtain its <strong>greatest daily profit</strong>?</p>`,
     answer: "18",
@@ -16373,7 +16511,7 @@ export const questions = [
     difficulty: 2,
     tags: ["maximum", "standard-form", "free-response", "domain"],
     text: `<p>The amount \\(W(r)\\), in liters, of water collected by a system when the flow rate is \\(r\\) liters per minute is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(W(r) = -\\dfrac{3}{8}r^2 + 9r + 42,\\)</p>
+      <p class="eq">\\(W(r) = -\\dfrac{3}{8}r^2 + 9r + 42,\\)</p>
       <p>where \\(2 \\le r \\le 20\\).</p>
       <p>According to the model, at what flow rate, in liters per minute, is the <strong>greatest amount of water collected</strong>?</p>`,
     answer: "12",
@@ -16393,7 +16531,7 @@ export const questions = [
     difficulty: 2,
     tags: ["maximum", "standard-form", "free-response", "domain"],
     text: `<p>The number \\(V(k)\\) of visitors to an exhibit is modeled as a function of the admission price \\(k\\), in dollars, by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(V(k) = -1.25k^2 + 35k + 180,\\)</p>
+      <p class="eq">\\(V(k) = -1.25k^2 + 35k + 180,\\)</p>
       <p>where \\(5 \\le k \\le 25\\).</p>
       <p>According to the model, what admission price, in dollars, results in the <strong>greatest number of visitors</strong>?</p>`,
     answer: "14",
@@ -16413,7 +16551,7 @@ export const questions = [
     difficulty: 3,
     tags: ["maximum", "mixed-form", "fractions"],
     text: `<p>A water-treatment facility adjusts the amount of a filtering material used during a purification cycle. The amount of water \\(W(m)\\), in hundreds of gallons, that can be processed is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(W(m) = -\\dfrac{3}{4}\\left(m - \\dfrac{5}{2}\\right)^2 + \\dfrac{9}{2}m + \\dfrac{125}{4},\\)</p>
+      <p class="eq">\\(W(m) = -\\dfrac{3}{4}\\left(m - \\dfrac{5}{2}\\right)^2 + \\dfrac{9}{2}m + \\dfrac{125}{4},\\)</p>
       <p>where \\(m\\) represents the number of pounds of filtering material added.</p>
       <p>According to the model, for what value of \\(m\\) is the amount of water that can be processed <strong>greatest</strong>?</p>
       <div class="mc-choices">
@@ -16451,7 +16589,7 @@ export const questions = [
     difficulty: 3,
     tags: ["maximum", "mixed-form", "fractions"],
     text: `<p>A bakery changes the amount of a specialty ingredient used in a batch. The number of pastries \\(P(q)\\) that meet the bakery's quality standard is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(P(q) = -\\dfrac{2}{3}\\left(q - \\dfrac{9}{4}\\right)^2 + \\dfrac{5}{3}q + \\dfrac{175}{6},\\)</p>
+      <p class="eq">\\(P(q) = -\\dfrac{2}{3}\\left(q - \\dfrac{9}{4}\\right)^2 + \\dfrac{5}{3}q + \\dfrac{175}{6},\\)</p>
       <p>where \\(q\\) represents the number of cups of the ingredient used.</p>
       <p>According to the model, for what value of \\(q\\) is the number of pastries meeting the quality standard <strong>greatest</strong>?</p>
       <div class="mc-choices">
@@ -16489,7 +16627,7 @@ export const questions = [
     difficulty: 3,
     tags: ["maximum", "mixed-form", "decimals"],
     text: `<p>A concert venue changes the amount it charges for a premium seating upgrade. The daily revenue \\(R(d)\\), in hundreds of dollars, is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(R(d) = -1.5(d - 3.5)^2 + 7.5d + 84.0,\\)</p>
+      <p class="eq">\\(R(d) = -1.5(d - 3.5)^2 + 7.5d + 84.0,\\)</p>
       <p>where \\(d\\) represents the price of the upgrade, in dollars.</p>
       <p>According to the model, for what value of \\(d\\) is the daily revenue <strong>greatest</strong>?</p>
       <div class="mc-choices">
@@ -16527,7 +16665,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "mixed-form", "x-of-vertex"],
     text: `<p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(t) = 2(t - 5)^2 + 4t + 11.\\)</p>
+      <p class="eq">\\(g(t) = 2(t - 5)^2 + 4t + 11.\\)</p>
       <p>For what value of \\(t\\) does \\(g(t)\\) reach its <strong>minimum</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(3\\)</span></div>
@@ -16557,7 +16695,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "standard-form", "y-of-vertex"],
     text: `<p>The function \\(G\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(G(x) = 18x^2 + 72x + 53\\)</p>
+      <p class="eq">\\(G(x) = 18x^2 + 72x + 53\\)</p>
       <p>What is the <strong>minimum value</strong> of \\(G(x)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-72\\)</span></div>
@@ -16586,7 +16724,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "factored-form", "x-of-vertex"],
     text: `<p>The vertical position of an object is represented by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(p(t) = (t - 8)(t + 16) + 42\\)</p>
+      <p class="eq">\\(p(t) = (t - 8)(t + 16) + 42\\)</p>
       <p>For what value of \\(t\\) is \\(p(t)\\) at its <strong>lowest point</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-16\\)</span></div>
@@ -16615,7 +16753,7 @@ export const questions = [
     difficulty: 2,
     tags: ["maximum", "mixed-form", "x-of-vertex"],
     text: `<p>The function \\(h\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(h(w) = -3(w - 6)^2 + 12w - 7\\)</p>
+      <p class="eq">\\(h(w) = -3(w - 6)^2 + 12w - 7\\)</p>
       <p>For what value of \\(w\\) does \\(h(w)\\) reach its <strong>maximum</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(6\\)</span></div>
@@ -16644,7 +16782,7 @@ export const questions = [
     difficulty: 2,
     tags: ["maximum", "standard-form", "y-of-vertex"],
     text: `<p>For the function \\(H\\),</p>
-      <p style="text-align:center;margin-bottom:12px">\\(H(t) = -20t^2 + 120t - 137\\)</p>
+      <p class="eq">\\(H(t) = -20t^2 + 120t - 137\\)</p>
       <p>what is the <strong>greatest value</strong> of \\(H(t)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-137\\)</span></div>
@@ -16673,7 +16811,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "factored-form", "x-of-vertex"],
     text: `<p>A quadratic relationship is given by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(n) = (n + 13)(n - 7) - 25\\)</p>
+      <p class="eq">\\(g(n) = (n + 13)(n - 7) - 25\\)</p>
       <p>Which value of \\(n\\) corresponds to the <strong>vertex of the graph</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-13\\)</span></div>
@@ -16702,7 +16840,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "mixed-form", "x-of-vertex"],
     text: `<p>The function \\(p\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(p(r) = 4(r + 3)^2 - 8r + 15.\\)</p>
+      <p class="eq">\\(p(r) = 4(r + 3)^2 - 8r + 15.\\)</p>
       <p>For what value of \\(r\\) does \\(p(r)\\) reach its <strong>minimum</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-4\\)</span></div>
@@ -16727,7 +16865,7 @@ export const questions = [
     difficulty: 2,
     tags: ["maximum", "mixed-form", "x-of-vertex"],
     text: `<p>The function \\(q\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(q(v) = -2(v + 4)^2 - 4v + 21.\\)</p>
+      <p class="eq">\\(q(v) = -2(v + 4)^2 - 4v + 21.\\)</p>
       <p>For what value of \\(v\\) does \\(q(v)\\) reach its <strong>maximum</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-5\\)</span></div>
@@ -16752,7 +16890,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "standard-form", "y-of-vertex"],
     text: `<p>The value of \\(P(n)\\) is given by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(P(n) = 24n^2 - 192n + 371\\)</p>
+      <p class="eq">\\(P(n) = 24n^2 - 192n + 371\\)</p>
       <p>Which of the following is the <strong>least possible value</strong> of \\(P(n)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-13\\)</span></div>
@@ -16777,7 +16915,7 @@ export const questions = [
     difficulty: 3,
     tags: ["minimum", "standard-form", "y-of-vertex", "rearrange"],
     text: `<p>The equation</p>
-      <p style="text-align:center;margin-bottom:12px">\\(q + 45 = x^2 - 12x\\)</p>
+      <p class="eq">\\(q + 45 = x^2 - 12x\\)</p>
       <p>relates each value of \\(x\\) to a corresponding value of \\(q\\).</p>
       <p>What is the <strong>minimum possible value</strong> of \\(q\\)?</p>
       <div class="mc-choices">
@@ -16803,7 +16941,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "factored-form", "x-of-vertex"],
     text: `<p>The profit adjustment for a company is modeled by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(P(x) = (x - 21)(x + 9) + 100\\)</p>
+      <p class="eq">\\(P(x) = (x - 21)(x + 9) + 100\\)</p>
       <p>At which value of \\(x\\) does \\(P(x)\\) have its <strong>minimum value</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-9\\)</span></div>
@@ -16828,7 +16966,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "factored-form", "x-of-vertex"],
     text: `<p>For a certain quadratic model,</p>
-      <p style="text-align:center;margin-bottom:12px">\\(y = (m + 18)(m - 4) - 36\\)</p>
+      <p class="eq">\\(y = (m + 18)(m - 4) - 36\\)</p>
       <p>The graph reaches its <strong>lowest point</strong> when \\(m\\) equals which of the following?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-18\\)</span></div>
@@ -16853,7 +16991,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "vertex-form", "equivalent-form"],
     text: `<p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = 8x^2 - 48x + 61\\)</p>
+      <p class="eq">\\(g(x) = 8x^2 - 48x + 61\\)</p>
       <p>In which of the following equivalent forms does the <strong>minimum value of</strong> \\(\\boldsymbol{g(x)}\\) <strong>appear directly as a constant or coefficient</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(g(x) = 8(x - 3)^2 - 11\\)</span></div>
@@ -16883,7 +17021,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "vertex-form", "equivalent-form"],
     text: `<p>The function \\(P\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(P(t) = 15t^2 + 60t + 67\\)</p>
+      <p class="eq">\\(P(t) = 15t^2 + 60t + 67\\)</p>
       <p>In which of the following equivalent forms does the <strong>minimum value of </strong> \\( \\boldsymbol{P(t)}\\) <strong>appear directly as a constant or coefficient</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(P(t) = 15(t^2 + 4t) + 67\\)</span></div>
@@ -16912,7 +17050,7 @@ export const questions = [
     difficulty: 2,
     tags: ["maximum", "vertex-form", "equivalent-form"],
     text: `<p>The function \\(Q\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(Q(n) = -14n^2 + 140n - 327\\)</p>
+      <p class="eq">\\(Q(n) = -14n^2 + 140n - 327\\)</p>
       <p>In which of the following equivalent forms does the <strong>maximum value of </strong> \\( \\boldsymbol{Q(n)}\\) <strong>appear directly as a constant or coefficient</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(Q(n) = -14(n^2 - 10n) - 327\\)</span></div>
@@ -16937,7 +17075,7 @@ export const questions = [
     difficulty: 2,
     tags: ["maximum", "vertex-form", "equivalent-form"],
     text: `<p>The function \\(R\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(R(r) = -18r^2 - 144r - 257\\)</p>
+      <p class="eq">\\(R(r) = -18r^2 - 144r - 257\\)</p>
       <p>In which of the following equivalent forms does the <strong>maximum value</strong> of \\(R(r)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(R(r) = -18r(r + 8) - 257\\)</span></div>
@@ -16962,7 +17100,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "vertex-form", "equivalent-form"],
     text: `<p>The function \\(M\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(M(x) = 6x^2 - 60x + 128\\)</p>
+      <p class="eq">\\(M(x) = 6x^2 - 60x + 128\\)</p>
       <p>In which of the following equivalent forms does the <strong>minimum value</strong> of \\(M(x)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(M(x) = 6(x - 5)^2 - 22\\)</span></div>
@@ -16987,7 +17125,7 @@ export const questions = [
     difficulty: 2,
     tags: ["maximum", "vertex-form", "equivalent-form"],
     text: `<p>The function \\(V\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(V(t) = -9t^2 + 54t - 40\\)</p>
+      <p class="eq">\\(V(t) = -9t^2 + 54t - 40\\)</p>
       <p>In which of the following equivalent forms does the <strong>maximum value</strong> of \\(V(t)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(V(t) = -9t(t - 6) - 40\\)</span></div>
@@ -17012,7 +17150,7 @@ export const questions = [
     difficulty: 2,
     tags: ["minimum", "vertex-form", "equivalent-form"],
     text: `<p>The function \\(P\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(P(n) = 12n^2 - 96n + 161\\)</p>
+      <p class="eq">\\(P(n) = 12n^2 - 96n + 161\\)</p>
       <p>In which of the following equivalent forms does the <strong>minimum value</strong> of \\(P(n)\\) <strong>appear directly as a constant or coefficient</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(P(n) = 12n(n - 8) + 161\\)</span></div>
@@ -17037,9 +17175,9 @@ export const questions = [
     difficulty: 3,
     tags: ["maximum", "factored-form", "transformation", "expression-answer"],
     text: `<p>The function \\(f\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = -2(x + 3)(x - 9).\\)</p>
+      <p class="eq">\\(f(x) = -2(x + 3)(x - 9).\\)</p>
       <p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + 4) - 5.\\)</p>
+      <p class="eq">\\(g(x) = f(x + 4) - 5.\\)</p>
       <p>Which expression represents the <strong>maximum value</strong> of \\(g(x)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-5 + 2(6)^2\\)</span></div>
@@ -17069,9 +17207,9 @@ export const questions = [
     difficulty: 3,
     tags: ["minimum", "factored-form", "transformation", "expression-answer"],
     text: `<p>The function \\(f\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 3(x + 8)(x - 4).\\)</p>
+      <p class="eq">\\(f(x) = 3(x + 8)(x - 4).\\)</p>
       <p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 6) + 7.\\)</p>
+      <p class="eq">\\(g(x) = f(x - 6) + 7.\\)</p>
       <p>Which expression represents the <strong>minimum value</strong> of \\(g(x)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(7 + 3(6)^2\\)</span></div>
@@ -17101,9 +17239,9 @@ export const questions = [
     difficulty: 3,
     tags: ["maximum", "factored-form", "transformation", "expression-answer"],
     text: `<p>The function \\(f\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = -4(x - 2)(x - 12).\\)</p>
+      <p class="eq">\\(f(x) = -4(x - 2)(x - 12).\\)</p>
       <p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + 5) + 9.\\)</p>
+      <p class="eq">\\(g(x) = f(x + 5) + 9.\\)</p>
       <p>Which expression represents the <strong>maximum value</strong> of \\(g(x)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(9 - 4(5)^2\\)</span></div>
@@ -17128,9 +17266,9 @@ export const questions = [
     difficulty: 3,
     tags: ["minimum", "factored-form", "transformation", "expression-answer"],
     text: `<p>The function \\(f\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 2(x + 10)(x - 6).\\)</p>
+      <p class="eq">\\(f(x) = 2(x + 10)(x - 6).\\)</p>
       <p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 3) - 8.\\)</p>
+      <p class="eq">\\(g(x) = f(x - 3) - 8.\\)</p>
       <p>Which expression represents the <strong>minimum value</strong> of \\(g(x)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-8 + 2(8)^2\\)</span></div>
@@ -17155,9 +17293,9 @@ export const questions = [
     difficulty: 3,
     tags: ["maximum", "factored-form", "transformation", "expression-answer"],
     text: `<p>The function \\(f\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = -3(x + 7)(x - 5).\\)</p>
+      <p class="eq">\\(f(x) = -3(x + 7)(x - 5).\\)</p>
       <p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + 6) - 4.\\)</p>
+      <p class="eq">\\(g(x) = f(x + 6) - 4.\\)</p>
       <p>Which expression represents the <strong>maximum value</strong> of \\(g(x)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-4 - 3(6)^2\\)</span></div>
@@ -17182,9 +17320,9 @@ export const questions = [
     difficulty: 3,
     tags: ["minimum", "factored-form", "transformation", "expression-answer"],
     text: `<p>The function \\(f\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 5(x + 6)(x - 10).\\)</p>
+      <p class="eq">\\(f(x) = 5(x + 6)(x - 10).\\)</p>
       <p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 4) + 11.\\)</p>
+      <p class="eq">\\(g(x) = f(x - 4) + 11.\\)</p>
       <p>Which expression represents the <strong>minimum value</strong> of \\(g(x)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(11 - 5(8)^2\\)</span></div>
@@ -17209,9 +17347,9 @@ export const questions = [
     difficulty: 3,
     tags: ["maximum", "factored-form", "transformation", "expression-answer"],
     text: `<p>The function \\(f\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = -6(x + 4)(x - 8).\\)</p>
+      <p class="eq">\\(f(x) = -6(x + 4)(x - 8).\\)</p>
       <p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 5) + 13.\\)</p>
+      <p class="eq">\\(g(x) = f(x - 5) + 13.\\)</p>
       <p>Which expression represents the <strong>maximum value</strong> of \\(g(x)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(13 - 6(6)^2\\)</span></div>
@@ -17236,9 +17374,9 @@ export const questions = [
     difficulty: 3,
     tags: ["minimum", "standard-form", "transformation", "x-of-vertex"],
     text: `<p>The function \\(f\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 3x^2 + 36x + 115.\\)</p>
+      <p class="eq">\\(f(x) = 3x^2 + 36x + 115.\\)</p>
       <p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + 4) - 7.\\)</p>
+      <p class="eq">\\(g(x) = f(x + 4) - 7.\\)</p>
       <p>For what value of \\(x\\) does \\(g(x)\\) reach its <strong>minimum</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-10\\)</span></div>
@@ -17268,9 +17406,9 @@ export const questions = [
     difficulty: 3,
     tags: ["minimum", "standard-form", "transformation", "y-of-vertex"],
     text: `<p>The function \\(f\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 5x^2 - 70x + 251.\\)</p>
+      <p class="eq">\\(f(x) = 5x^2 - 70x + 251.\\)</p>
       <p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 3) + 8.\\)</p>
+      <p class="eq">\\(g(x) = f(x - 3) + 8.\\)</p>
       <p>What is the <strong>minimum value</strong> of \\(g(x)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-2\\)</span></div>
@@ -17300,9 +17438,9 @@ export const questions = [
     difficulty: 3,
     tags: ["maximum", "standard-form", "transformation", "x-of-vertex"],
     text: `<p>The function \\(r\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(r(t) = 48t - 3t^2.\\)</p>
+      <p class="eq">\\(r(t) = 48t - 3t^2.\\)</p>
       <p>The function \\(s\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(s(t) = r(t + 5) - 9.\\)</p>
+      <p class="eq">\\(s(t) = r(t + 5) - 9.\\)</p>
       <p>For what value of \\(t\\) does \\(s(t)\\) reach its <strong>maximum</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(3\\)</span></div>
@@ -17327,9 +17465,9 @@ export const questions = [
     difficulty: 3,
     tags: ["maximum", "standard-form", "transformation", "y-of-vertex"],
     text: `<p>The function \\(p\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(p(n) = 40n - 2n^2.\\)</p>
+      <p class="eq">\\(p(n) = 40n - 2n^2.\\)</p>
       <p>The function \\(q\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(q(n) = p(n - 6) + 11.\\)</p>
+      <p class="eq">\\(q(n) = p(n - 6) + 11.\\)</p>
       <p>What is the <strong>maximum value</strong> of \\(q(n)\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(189\\)</span></div>
@@ -17354,9 +17492,9 @@ export const questions = [
     difficulty: 3,
     tags: ["minimum", "standard-form", "transformation", "x-of-vertex", "free-response"],
     text: `<p>The function \\(f\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 4x^2 + 48x + 151.\\)</p>
+      <p class="eq">\\(f(x) = 4x^2 + 48x + 151.\\)</p>
       <p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x + 5) - 9.\\)</p>
+      <p class="eq">\\(g(x) = f(x + 5) - 9.\\)</p>
       <p>For what value of \\(x\\) does \\(g(x)\\) reach its <strong>minimum</strong>?</p>`,
     answer: "-11",
     graph: null,
@@ -17375,9 +17513,9 @@ export const questions = [
     difficulty: 3,
     tags: ["minimum", "standard-form", "transformation", "y-of-vertex", "free-response"],
     text: `<p>The function \\(f\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = 2x^2 - 32x + 135.\\)</p>
+      <p class="eq">\\(f(x) = 2x^2 - 32x + 135.\\)</p>
       <p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 4) + 6.\\)</p>
+      <p class="eq">\\(g(x) = f(x - 4) + 6.\\)</p>
       <p>What is the <strong>minimum value</strong> of \\(g(x)\\)?</p>`,
     answer: "13",
     graph: null,
@@ -17396,9 +17534,9 @@ export const questions = [
     difficulty: 3,
     tags: ["maximum", "standard-form", "transformation", "x-of-vertex", "free-response"],
     text: `<p>The function \\(r\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(r(t) = -3t^2 + 54t - 100.\\)</p>
+      <p class="eq">\\(r(t) = -3t^2 + 54t - 100.\\)</p>
       <p>The function \\(s\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(s(t) = r(t + 7) - 12.\\)</p>
+      <p class="eq">\\(s(t) = r(t + 7) - 12.\\)</p>
       <p>For what value of \\(t\\) does \\(s(t)\\) reach its <strong>maximum</strong>?</p>`,
     answer: "2",
     graph: null,
@@ -17417,9 +17555,9 @@ export const questions = [
     difficulty: 3,
     tags: ["maximum", "standard-form", "transformation", "y-of-vertex", "free-response"],
     text: `<p>The function \\(p\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(p(n) = -2n^2 + 40n - 125.\\)</p>
+      <p class="eq">\\(p(n) = -2n^2 + 40n - 125.\\)</p>
       <p>The function \\(q\\) is defined by</p>
-      <p style="text-align:center;margin-bottom:12px">\\(q(n) = p(n - 3) + 15.\\)</p>
+      <p class="eq">\\(q(n) = p(n - 3) + 15.\\)</p>
       <p>What is the <strong>maximum value</strong> of \\(q(n)\\)?</p>`,
     answer: "90",
     graph: null,
@@ -17666,7 +17804,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "factored-form", "parameter"],
     text: `<p>In the \\(xy\\)-plane, the graph of a quadratic function \\(f\\) crosses the \\(x\\)-axis at \\((r, 0)\\) and \\((s, 0)\\), where \\(r\\) and \\(s\\) are positive constants and</p>
-      <p style="text-align:center;margin-bottom:12px">\\(s = 3r + 8.\\)</p>
+      <p class="eq">\\(s = 3r + 8.\\)</p>
       <p>Which of the following could define \\(f\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(f(x) = (x + r)(x - 3r - 8)\\)</span></div>
@@ -17691,7 +17829,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "factored-form", "parameter"],
     text: `<p>In the \\(xy\\)-plane, the graph of a quadratic function \\(g\\) contains the points \\((u, 0)\\) and \\((v, 0)\\), where \\(u\\) and \\(v\\) are positive constants and</p>
-      <p style="text-align:center;margin-bottom:12px">\\(v = 6u - 5.\\)</p>
+      <p class="eq">\\(v = 6u - 5.\\)</p>
       <p>Which of the following could define \\(g\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(g(x) = (x - u)(x - 6u + 5)\\)</span></div>
@@ -17716,7 +17854,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "factored-form", "parameter"],
     text: `<p>In the \\(xy\\)-plane, the graph of a quadratic function \\(h\\) crosses the \\(x\\)-axis at \\((c, 0)\\) and \\((d, 0)\\), where \\(c\\) and \\(d\\) are positive constants and</p>
-      <p style="text-align:center;margin-bottom:12px">\\(d = 4c - 9.\\)</p>
+      <p class="eq">\\(d = 4c - 9.\\)</p>
       <p>Which of the following could define \\(h\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(h(x) = (x + c)(x + 4c - 9)\\)</span></div>
@@ -17894,7 +18032,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
     text: `<p>The graph of \\(f(x)\\) is shown above. The function can also be written as</p>
-      <p style="text-align:center;margin-bottom:12px">\\(f(x) = (x - 4)(x + b),\\)</p>
+      <p class="eq">\\(f(x) = (x - 4)(x + b),\\)</p>
       <p>where \\(b\\) is a constant. What is the value of \\(5b - 6\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(18\\)</span></div>
@@ -17929,7 +18067,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
     text: `<p>The graph of \\(g(x)\\) is shown above. The function can also be written as</p>
-      <p style="text-align:center;margin-bottom:12px">\\(g(x) = (x - 5)(x + c),\\)</p>
+      <p class="eq">\\(g(x) = (x - 5)(x + c),\\)</p>
       <p>where \\(c\\) is a constant. What is the value of \\(2c - 1\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(9\\)</span></div>
@@ -17963,7 +18101,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
     text: `<p>The graph of \\(h(x)\\) is shown above. The function can also be written as</p>
-      <p style="text-align:center;margin-bottom:12px">\\(h(x) = (x - 7)(x + d),\\)</p>
+      <p class="eq">\\(h(x) = (x - 7)(x + d),\\)</p>
       <p>where \\(d\\) is a constant. What is the value of \\(3d + 2\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(10\\)</span></div>
@@ -17993,7 +18131,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
     text: `<p>The graph of \\(p(x)\\) is shown above. The function can also be written as</p>
-      <p style="text-align:center;margin-bottom:12px">\\(p(x) = (x - 9)(x + k),\\)</p>
+      <p class="eq">\\(p(x) = (x - 9)(x + k),\\)</p>
       <p>where \\(k\\) is a constant. What is the value of \\(k^2 - 1\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(15\\)</span></div>
@@ -18023,7 +18161,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
     text: `<p>The graph of \\(r(x)\\) is shown above. The function can also be written as</p>
-      <p style="text-align:center;margin-bottom:12px">\\(r(x) = (x - 6)(x + m),\\)</p>
+      <p class="eq">\\(r(x) = (x - 6)(x + m),\\)</p>
       <p>where \\(m\\) is a constant. What is the value of \\(4m - 5\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(19\\)</span></div>
@@ -18053,7 +18191,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
     text: `<p>The graph of \\(s(x)\\) is shown above. The function can also be written as</p>
-      <p style="text-align:center;margin-bottom:12px">\\(s(x) = (x - 9)(x + n),\\)</p>
+      <p class="eq">\\(s(x) = (x - 9)(x + n),\\)</p>
       <p>where \\(n\\) is a constant. What is the value of \\(3n + 4\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(18\\)</span></div>
@@ -18083,7 +18221,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
     text: `<p>The graph of \\(q(x)\\) is shown above. The function can also be written as</p>
-      <p style="text-align:center;margin-bottom:12px">\\(q(x) = (x - 5)(x + p),\\)</p>
+      <p class="eq">\\(q(x) = (x - 5)(x + p),\\)</p>
       <p>where \\(p\\) is a constant. What is the value of \\(2p + 7\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(19\\)</span></div>
@@ -18113,7 +18251,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "read-graph", "unknown-constant"],
     text: `<p>The graph of \\(w(x)\\) is shown above. The function can also be written as</p>
-      <p style="text-align:center;margin-bottom:12px">\\(w(x) = (x - 11)(x + v),\\)</p>
+      <p class="eq">\\(w(x) = (x - 11)(x + v),\\)</p>
       <p>where \\(v\\) is a constant. What is the value of \\(5v - 3\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(28\\)</span></div>
@@ -18543,7 +18681,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "context", "positive-root"],
     text: `<p>The height \\(H(t)\\), in feet, of a model rocket \\(t\\) seconds after it is launched is modeled by</p>
-      <p style="text-align:center">\\(H(t) = -2.5(t + 1.6)(t - 8.4).\\)</p>
+      <p class="eq">\\(H(t) = -2.5(t + 1.6)(t - 8.4).\\)</p>
       <p>According to the model, how many seconds after launch does the rocket <strong>reach the ground</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(1.6\\)</span></div>
@@ -18573,7 +18711,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "context", "positive-root"],
     text: `<p>The height \\(D(t)\\), in meters, of an object relative to the surface of the water \\(t\\) seconds after it is released is modeled by</p>
-      <p style="text-align:center">\\(D(t) = -1.8(t + 2.5)(t - 6.7).\\)</p>
+      <p class="eq">\\(D(t) = -1.8(t + 2.5)(t - 6.7).\\)</p>
       <p>According to the model, how many seconds after the object is released does it <strong>reach the surface of the water</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(6.7\\)</span></div>
@@ -18603,7 +18741,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "context", "positive-root"],
     text: `<p>The height \\(B(t)\\), in feet, of a ball relative to the roof of a building \\(t\\) seconds after the ball is thrown is modeled by</p>
-      <p style="text-align:center">\\(B(t) = -3.2(t + 1.5)(t - 7.5).\\)</p>
+      <p class="eq">\\(B(t) = -3.2(t + 1.5)(t - 7.5).\\)</p>
       <p>According to the model, how many seconds after the ball is thrown does it <strong>reach the roof</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(3.2\\)</span></div>
@@ -18628,7 +18766,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "context", "positive-root"],
     text: `<p>The height \\(R(t)\\), in feet, of a rocket \\(t\\) seconds after it is launched is modeled by</p>
-      <p style="text-align:center">\\(R(t) = -4.6(t + 0.8)(t - 5.9).\\)</p>
+      <p class="eq">\\(R(t) = -4.6(t + 0.8)(t - 5.9).\\)</p>
       <p>According to the model, how many seconds after launch does the rocket <strong>reach the ground</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(4.6\\)</span></div>
@@ -18653,7 +18791,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "context", "positive-root"],
     text: `<p>The height \\(W(t)\\), in meters, of an object relative to the surface of a pool \\(t\\) seconds after it is launched upward is modeled by</p>
-      <p style="text-align:center">\\(W(t) = -2.4(t + 1.3)(t - 6.2).\\)</p>
+      <p class="eq">\\(W(t) = -2.4(t + 1.3)(t - 6.2).\\)</p>
       <p>According to the model, how many seconds after the object is launched does it <strong>reach the surface of the water</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(1.3\\)</span></div>
@@ -18678,7 +18816,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "factored-form", "context", "positive-root"],
     text: `<p>The height \\(G(t)\\), in feet, of a ball relative to the roof of a building \\(t\\) seconds after it is thrown is modeled by</p>
-      <p style="text-align:center">\\(G(t) = -3.7(t + 2.1)(t - 9.3).\\)</p>
+      <p class="eq">\\(G(t) = -3.7(t + 2.1)(t - 9.3).\\)</p>
       <p>According to the model, how many seconds after the ball is thrown does it <strong>reach the roof</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(9.3\\)</span></div>
@@ -18703,7 +18841,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "factored-form", "equivalent-form"],
     text: `<p>The function \\(g\\) is defined by</p>
-      <p style="text-align:center">\\(g(t) = 12t^2 - 23t + 10.\\)</p>
+      <p class="eq">\\(g(t) = 12t^2 - 23t + 10.\\)</p>
       <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{g(t) = 0}\\) as constants or coefficients</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(g(t) = t(12t - 23) + 10\\)</span></div>
@@ -18733,7 +18871,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "factored-form", "equivalent-form"],
     text: `<p>The function \\(h\\) is defined by</p>
-      <p style="text-align:center">\\(h(r) = 14r^2 - 33r + 18.\\)</p>
+      <p class="eq">\\(h(r) = 14r^2 - 33r + 18.\\)</p>
       <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{h(r) = 0}\\) as constants or coefficients</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(h(r) = r(14r - 33) + 18\\)</span></div>
@@ -18762,7 +18900,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "factored-form", "equivalent-form"],
     text: `<p>The function \\(P\\) is defined by</p>
-      <p style="text-align:center">\\(P(m) = 15m^2 - 47m + 28.\\)</p>
+      <p class="eq">\\(P(m) = 15m^2 - 47m + 28.\\)</p>
       <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{P(m) = 0}\\) as constants or coefficients</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(P(m) = m(15m - 47) + 28\\)</span></div>
@@ -18787,7 +18925,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "factored-form", "equivalent-form"],
     text: `<p>The function \\(Q\\) is defined by</p>
-      <p style="text-align:center">\\(Q(v) = 24v^2 - 65v + 21.\\)</p>
+      <p class="eq">\\(Q(v) = 24v^2 - 65v + 21.\\)</p>
       <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{Q(v) = 0}\\) as constants or coefficients</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(Q(v) = v(24v - 65) + 21\\)</span></div>
@@ -18812,7 +18950,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "factored-form", "equivalent-form"],
     text: `<p>The function \\(R\\) is defined by</p>
-      <p style="text-align:center">\\(R(t) = 30t^2 - 79t + 45.\\)</p>
+      <p class="eq">\\(R(t) = 30t^2 - 79t + 45.\\)</p>
       <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{R(t) = 0}\\) as constants or coefficients</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(R(t) = t(30t - 79) + 45\\)</span></div>
@@ -18837,7 +18975,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "factored-form", "equivalent-form"],
     text: `<p>The function \\(S\\) is defined by</p>
-      <p style="text-align:center">\\(S(w) = 28w^2 - 53w + 20.\\)</p>
+      <p class="eq">\\(S(w) = 28w^2 - 53w + 20.\\)</p>
       <p>Which of the following equivalent forms <strong>displays the solutions of \\(\\boldsymbol{S(w) = 0}\\) as constants or coefficients</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(S(w) = (7w - 4)(4w - 5)\\)</span></div>
@@ -18861,7 +18999,7 @@ export const questions = [
     questionType: "WE",
     difficulty: 2,
     tags: ["x-intercept", "number-of-solutions", "no-solution"],
-    text: `<p style="text-align:center">\\(3x^2 + 27 = -2400\\)</p>
+    text: `<p class="eq">\\(3x^2 + 27 = -2400\\)</p>
       <p>How many distinct real solutions does the given equation have?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>Exactly one</span></div>
@@ -18890,7 +19028,7 @@ export const questions = [
     questionType: "PR",
     difficulty: 2,
     tags: ["x-intercept", "number-of-solutions", "two-solutions"],
-    text: `<p style="text-align:center">\\(4x^2 - 196 = 7548\\)</p>
+    text: `<p class="eq">\\(4x^2 - 196 = 7548\\)</p>
       <p>How many distinct real solutions does the given equation have?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>Zero</span></div>
@@ -18918,7 +19056,7 @@ export const questions = [
     questionType: "AQ",
     difficulty: 2,
     tags: ["x-intercept", "number-of-solutions", "two-solutions"],
-    text: `<p style="text-align:center">\\(5x^2 - 80 = 640\\)</p>
+    text: `<p class="eq">\\(5x^2 - 80 = 640\\)</p>
       <p>How many distinct real solutions does the given equation have?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>Exactly two</span></div>
@@ -18942,7 +19080,7 @@ export const questions = [
     questionType: "AQ",
     difficulty: 3,
     tags: ["x-intercept", "number-of-solutions", "one-solution", "linear-in-disguise"],
-    text: `<p style="text-align:center">\\(3x(x - 8) = 3(x - 2)(x + 1) + 12\\)</p>
+    text: `<p class="eq">\\(3x(x - 8) = 3(x - 2)(x + 1) + 12\\)</p>
       <p>How many distinct real solutions does the given equation have?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>Zero</span></div>
@@ -18966,7 +19104,7 @@ export const questions = [
     questionType: "PR",
     difficulty: 2,
     tags: ["x-intercept", "number-of-solutions", "no-solution"],
-    text: `<p style="text-align:center">\\(2(t + 37)^2 + 50 = -400\\)</p>
+    text: `<p class="eq">\\(2(t + 37)^2 + 50 = -400\\)</p>
       <p>How many distinct real solutions does the given equation have?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>Exactly one</span></div>
@@ -18990,7 +19128,7 @@ export const questions = [
     questionType: "GP",
     difficulty: 3,
     tags: ["x-intercept", "number-of-solutions", "one-solution", "perfect-square"],
-    text: `<p style="text-align:center">\\((m + 8)^2 + 18(m + 8) + 81 = 0\\)</p>
+    text: `<p class="eq">\\((m + 8)^2 + 18(m + 8) + 81 = 0\\)</p>
       <p>How many distinct real solutions does the given equation have?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>Exactly one</span></div>
@@ -19014,7 +19152,7 @@ export const questions = [
     questionType: "AQ",
     difficulty: 2,
     tags: ["x-intercept", "number-of-solutions", "two-solutions"],
-    text: `<p style="text-align:center">\\(5p^2 - 35p + 30 = 0\\)</p>
+    text: `<p class="eq">\\(5p^2 - 35p + 30 = 0\\)</p>
       <p>How many distinct real solutions does the given equation have?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>Infinitely many</span></div>
@@ -19163,7 +19301,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "projectile", "free-response", "offset-height", "decimal-answer"],
     text: `<p>A model rocket is launched from a platform 30 meters above the ground. The rocket's height, \\(h\\), above the launch platform, in meters, \\(t\\) seconds after launch is modeled by</p>
-      <p style="text-align:center">\\(h = -4.9t^2 + 39.2t.\\)</p>
+      <p class="eq">\\(h = -4.9t^2 + 39.2t.\\)</p>
       <p>Approximately how many seconds after launch does the rocket reach the ground?</p>`,
     answer: "8.70",
     graph: null,
@@ -19187,7 +19325,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "projectile", "free-response", "offset-height", "decimal-answer"],
     text: `<p>A stream of water leaves a fountain located 18 feet above the ground. The height, \\(h\\), above the top of the fountain, in feet, \\(t\\) seconds after the water leaves the nozzle is modeled by</p>
-      <p style="text-align:center">\\(h = -4t^2 + 28t.\\)</p>
+      <p class="eq">\\(h = -4t^2 + 28t.\\)</p>
       <p>How many seconds after leaving the nozzle does the water reach the ground?</p>`,
     answer: "7.59",
     graph: null,
@@ -19210,7 +19348,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "projectile", "free-response", "offset-height"],
     text: `<p>A ball is launched upward from the roof of a building <strong>96 feet above the ground</strong>. The height, \\(h\\), above the roof, in feet, \\(t\\) seconds after launch is modeled by</p>
-      <p style="text-align:center">\\(h = -16t^2 + 80t.\\)</p>
+      <p class="eq">\\(h = -16t^2 + 80t.\\)</p>
       <p>Approximately how many seconds after launch does the ball reach the ground?</p>`,
     answer: "6",
     graph: null,
@@ -19229,7 +19367,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "projectile", "free-response"],
     text: `<p>An emergency flare is launched upward from a platform 35 meters above the ground. The height \\(h\\), in meters, above the ground \\(t\\) seconds after launch is modeled by</p>
-      <p style="text-align:center">\\(h = -5t^2 + 30t + 35.\\)</p>
+      <p class="eq">\\(h = -5t^2 + 30t + 35.\\)</p>
       <p>How many seconds after launch does the flare reach the ground?</p>`,
     answer: "7",
     graph: null,
@@ -19248,7 +19386,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "projectile", "free-response"],
     text: `<p>A signal rocket is launched upward from a tower 24 meters above the ground. The height \\(h\\), in meters, above the ground \\(t\\) seconds after launch is modeled by</p>
-      <p style="text-align:center">\\(h = -4t^2 + 32t + 24.\\)</p>
+      <p class="eq">\\(h = -4t^2 + 32t + 24.\\)</p>
       <p>How many seconds after launch does the rocket reach the ground?</p>`,
     answer: "8",
     graph: null,
@@ -19266,7 +19404,7 @@ export const questions = [
     questionType: "WE",
     difficulty: 2,
     tags: ["x-intercept", "solve", "factored-form", "free-response", "positive-root"],
-    text: `<p style="text-align:center">\\(4(2x - 18)(3x + 12) = 0\\)</p>
+    text: `<p class="eq">\\(4(2x - 18)(3x + 12) = 0\\)</p>
       <p>What <strong>positive value of \\(\\boldsymbol{x}\\)</strong> satisfies the equation above?</p>`,
     answer: "9",
     graph: null,
@@ -19289,7 +19427,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "solve", "standard-form", "zero-root"],
     text: `<p>What is a solution to the given equation?</p>
-      <p style="text-align:center">\\(144x^2 - 1728x = 0\\)</p>
+      <p class="eq">\\(144x^2 - 1728x = 0\\)</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(10\\)</span></div>
         <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(12\\)</span></div>
@@ -19316,7 +19454,7 @@ export const questions = [
     questionType: "WE",
     difficulty: 2,
     tags: ["x-intercept", "solve", "standard-form", "free-response", "negative-roots"],
-    text: `<p style="text-align:center">\\(x^2 + 33x + 272 = 0\\)</p>
+    text: `<p class="eq">\\(x^2 + 33x + 272 = 0\\)</p>
       <p>What is one of the solutions to the given equation?</p>`,
     answer: "-16 or -17",
     graph: null,
@@ -19338,7 +19476,7 @@ export const questions = [
     questionType: "WE",
     difficulty: 2,
     tags: ["x-intercept", "solve", "standard-form", "free-response", "fraction-root"],
-    text: `<p style="text-align:center">\\(8x^2 + 19x - 15 = 0\\)</p>
+    text: `<p class="eq">\\(8x^2 + 19x - 15 = 0\\)</p>
       <p>What is a solution to the given equation?</p>`,
     answer: "-3 or 5/8",
     graph: null,
@@ -19360,7 +19498,7 @@ export const questions = [
     questionType: "WE",
     difficulty: 3,
     tags: ["x-intercept", "solve", "squared-binomial", "fraction-root", "positive-root"],
-    text: `<p style="text-align:center">\\(\\dfrac{(3x - 5)^2}{25} + 4 = 13\\)</p>
+    text: `<p class="eq">\\(\\dfrac{(3x - 5)^2}{25} + 4 = 13\\)</p>
       <p>What is the <strong>positive solution</strong> to the given equation?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\dfrac{10}{3}\\)</span></div>
@@ -19388,7 +19526,7 @@ export const questions = [
     questionType: "WE",
     difficulty: 3,
     tags: ["x-intercept", "solve", "squared-binomial", "inequality-range"],
-    text: `<p style="text-align:center">\\(3(2x - 5)^2 + 9 = 84\\)</p>
+    text: `<p class="eq">\\(3(2x - 5)^2 + 9 = 84\\)</p>
       <p>If \\(x = k\\) is the greater solution to the equation above, which of the following must be true?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(k < 1\\)</span></div>
@@ -19417,7 +19555,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "common-factor", "fraction-root"],
     text: `<p>If</p>
-      <p style="text-align:center">\\(5(3x + 4)^2 = 45(3x + 4),\\)</p>
+      <p class="eq">\\(5(3x + 4)^2 = 45(3x + 4),\\)</p>
       <p>what is the <strong>greater</strong> possible value of \\(x\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{2}{3}\\)</span></div>
@@ -19446,7 +19584,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "common-factor", "cannot-be-solution"],
     text: `<p>If</p>
-      <p style="text-align:center">\\(6(2x - 5)(x + 3) = 12(2x - 5),\\)</p>
+      <p class="eq">\\(6(2x - 5)(x + 3) = 12(2x - 5),\\)</p>
       <p>is true, which of the following values <strong>cannot</strong> be a solution to the equation?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{5}{2}\\)</span></div>
@@ -19475,7 +19613,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "hidden-substitution", "fraction-root", "least-solution"],
     text: `<p>What is the least solution to the equation?</p>
-      <p style="text-align:center">\\(36x^2 + 84x + 49 - 13(6x + 7) + 42 = 0\\)</p>
+      <p class="eq">\\(36x^2 + 84x + 49 - 13(6x + 7) + 42 = 0\\)</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-\\dfrac{1}{6}\\)</span></div>
         <div class="mc-choice"><span class="mc-label">B</span><span>\\(0\\)</span></div>
@@ -19502,7 +19640,7 @@ export const questions = [
     questionType: "GP",
     difficulty: 2,
     tags: ["x-intercept", "solve", "factored-form", "free-response", "positive-root"],
-    text: `<p style="text-align:center">\\(-3(5x - 40)(2x + 14) = 0\\)</p>
+    text: `<p class="eq">\\(-3(5x - 40)(2x + 14) = 0\\)</p>
       <p>What <strong>positive value of \\(\\boldsymbol{x}\\)</strong> satisfies the equation above?</p>`,
     answer: "8",
     graph: null,
@@ -19525,7 +19663,7 @@ export const questions = [
     difficulty: 2,
     tags: ["x-intercept", "solve", "standard-form", "zero-root"],
     text: `<p>What is a solution to the given equation?</p>
-      <p style="text-align:center">\\(126x^2 - 3150x = 0\\)</p>
+      <p class="eq">\\(126x^2 - 3150x = 0\\)</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(20\\)</span></div>
         <div class="mc-choice"><span class="mc-label">B</span><span>\\(126\\)</span></div>
@@ -19552,7 +19690,7 @@ export const questions = [
     questionType: "GP",
     difficulty: 2,
     tags: ["x-intercept", "solve", "standard-form", "free-response", "negative-roots"],
-    text: `<p style="text-align:center">\\(x^2 + 35x + 306 = 0\\)</p>
+    text: `<p class="eq">\\(x^2 + 35x + 306 = 0\\)</p>
       <p>What is one of the solutions to the given equation?</p>`,
     answer: "-17 or -18",
     graph: null,
@@ -19574,7 +19712,7 @@ export const questions = [
     questionType: "GP",
     difficulty: 2,
     tags: ["x-intercept", "solve", "standard-form", "free-response", "fraction-root"],
-    text: `<p style="text-align:center">\\(9x^2 - 59x - 28 = 0\\)</p>
+    text: `<p class="eq">\\(9x^2 - 59x - 28 = 0\\)</p>
       <p>What is a solution to the given equation?</p>`,
     answer: "7 or -4/9",
     graph: null,
@@ -19596,7 +19734,7 @@ export const questions = [
     questionType: "GP",
     difficulty: 3,
     tags: ["x-intercept", "solve", "squared-binomial", "positive-root"],
-    text: `<p style="text-align:center">\\(\\dfrac{4(2x - 4)^2}{64} + 3 = 12\\)</p>
+    text: `<p class="eq">\\(\\dfrac{4(2x - 4)^2}{64} + 3 = 12\\)</p>
       <p>What is the <strong>positive solution</strong> to the given equation?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(8\\)</span></div>
@@ -19624,7 +19762,7 @@ export const questions = [
     questionType: "GP",
     difficulty: 3,
     tags: ["x-intercept", "solve", "squared-binomial", "inequality-range"],
-    text: `<p style="text-align:center">\\(4(2x - 3)^2 + 11 = 111\\)</p>
+    text: `<p class="eq">\\(4(2x - 3)^2 + 11 = 111\\)</p>
       <p>If \\(x = k\\) is the <strong>greater solution</strong> to the equation above, which of the following must be true?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(k < 0\\)</span></div>
@@ -19653,7 +19791,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "common-factor", "decimal-root"],
     text: `<p>If</p>
-      <p style="text-align:center">\\(4(2x - 1)^2 = 24(2x - 1),\\)</p>
+      <p class="eq">\\(4(2x - 1)^2 = 24(2x - 1),\\)</p>
       <p>what is the <strong>greater</strong> possible value of \\(x\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(2.5\\)</span></div>
@@ -19682,7 +19820,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "common-factor", "cannot-be-solution"],
     text: `<p>If</p>
-      <p style="text-align:center">\\(5(x - 4)(3x + 2) = 20(x - 4),\\)</p>
+      <p class="eq">\\(5(x - 4)(3x + 2) = 20(x - 4),\\)</p>
       <p>is true, which of the following values <strong>cannot</strong> be a solution to the equation?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-2\\)</span></div>
@@ -19711,7 +19849,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "hidden-substitution", "fraction-root", "free-response"],
     text: `<p>What is one possible value of \\(x\\)?</p>
-      <p style="text-align:center">\\(49x^2 - 98x + 49 - 8(7x - 7) + 12 = 0\\)</p>`,
+      <p class="eq">\\(49x^2 - 98x + 49 - 8(7x - 7) + 12 = 0\\)</p>`,
     answer: "9/7 or 13/7",
     graph: null,
     graphChoices: null,
@@ -19732,7 +19870,7 @@ export const questions = [
     questionType: "PR",
     difficulty: 2,
     tags: ["x-intercept", "solve", "factored-form", "free-response", "positive-root"],
-    text: `<p style="text-align:center">\\(7(4x - 44)(3x + 15) = 0\\)</p>
+    text: `<p class="eq">\\(7(4x - 44)(3x + 15) = 0\\)</p>
       <p>What <strong>positive value of \\(\\boldsymbol{x}\\)</strong> satisfies the equation above?</p>`,
     answer: "11",
     graph: null,
@@ -19750,7 +19888,7 @@ export const questions = [
     questionType: "PR",
     difficulty: 2,
     tags: ["x-intercept", "solve", "standard-form", "free-response", "fraction-root"],
-    text: `<p style="text-align:center">\\(11x^2 + 63x - 18 = 0\\)</p>
+    text: `<p class="eq">\\(11x^2 + 63x - 18 = 0\\)</p>
       <p>What is a solution to the given equation?</p>`,
     answer: "-6 or 3/11",
     graph: null,
@@ -19769,7 +19907,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "common-factor", "fraction-root"],
     text: `<p>If</p>
-      <p style="text-align:center">\\(6(4x - 3)^2 = 48(4x - 3),\\)</p>
+      <p class="eq">\\(6(4x - 3)^2 = 48(4x - 3),\\)</p>
       <p>what is the <strong>greater</strong> possible value of \\(x\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{3}{4}\\)</span></div>
@@ -19794,7 +19932,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "common-factor", "cannot-be-solution"],
     text: `<p>If</p>
-      <p style="text-align:center">\\(8(x + 6)(2x - 1) = 24(x + 6),\\)</p>
+      <p class="eq">\\(8(x + 6)(2x - 1) = 24(x + 6),\\)</p>
       <p>is true, which of the following values <strong>cannot</strong> be a solution to the equation?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(2\\)</span></div>
@@ -19819,7 +19957,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "hidden-substitution", "fraction-root", "free-response"],
     text: `<p>What is one possible value of \\(x\\)?</p>
-      <p style="text-align:center">\\(36x^2 - 72x + 36 - 4(6x - 6) - 5 = 0\\)</p>`,
+      <p class="eq">\\(36x^2 - 72x + 36 - 4(6x - 6) - 5 = 0\\)</p>`,
     answer: "5/6 or 11/6",
     graph: null,
     graphChoices: null,
@@ -19834,7 +19972,11 @@ export const questions = [
   subtopic: "x-intercept",
   problem: 13,
   questionType: "WE",
-  text: `<p style="text-align:center;margin-bottom:12px">\\(3(2r - 5)(r + 1) = 45\\)</p>
+  difficulty: 2,
+  tags: [],
+  screenshot: "",
+  videoId: "",
+  text: `<p class="eq">\\(3(2r - 5)(r + 1) = 45\\)</p>
     <p>What <strong>positive</strong> value of \\(r\\) satisfies the equation above?</p>`,
   answer: "4",
   graph: null,
@@ -19852,7 +19994,11 @@ export const questions = [
   subtopic: "x-intercept",
   problem: 13,
   questionType: "GP",
-  text: `<p style="text-align:center;margin-bottom:12px">\\(8p^2 + 10p - 5 = 7\\)</p>
+  difficulty: 2,
+  tags: [],
+  screenshot: "",
+  videoId: "",
+  text: `<p class="eq">\\(8p^2 + 10p - 5 = 7\\)</p>
     <p>What is a solution to the given equation?</p>`,
   answer: "-2 or 3/4",
   graph: null,
@@ -19870,8 +20016,12 @@ export const questions = [
   subtopic: "x-intercept",
   problem: 13,
   questionType: "PR",
+  difficulty: 2,
+  tags: [],
+  screenshot: "",
+  videoId: "",
   text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">\\(4(2w - 3)^2 = 28(2w - 3),\\)</p>
+    <p class="eq">\\(4(2w - 3)^2 = 28(2w - 3),\\)</p>
     <p>what is the <strong>greater</strong> possible value of \\(w\\)?</p>
     <div class="mc-choices">
       <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\frac{3}{2}\\)</span></div>
@@ -19882,7 +20032,7 @@ export const questions = [
   answer: "D",
   graph: null,
   graphChoices: null,
-  steps: null,
+  steps: [],
 },
 
 {
@@ -19891,8 +20041,12 @@ export const questions = [
   subtopic: "x-intercept",
   problem: 13,
   questionType: "PR",
+  difficulty: 2,
+  tags: [],
+  screenshot: "",
+  videoId: "",
   text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">\\(5(3k - 4)(k + 2) = 15(3k - 4),\\)</p>
+    <p class="eq">\\(5(3k - 4)(k + 2) = 15(3k - 4),\\)</p>
     <p>is true, which of the following values <strong>cannot</strong> be a solution to the equation?</p>
     <div class="mc-choices">
       <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\frac{4}{3}\\)</span></div>
@@ -19903,7 +20057,7 @@ export const questions = [
   answer: "D",
   graph: null,
   graphChoices: null,
-  steps: null,
+  steps: [],
 },
 
 {
@@ -19912,8 +20066,12 @@ export const questions = [
   subtopic: "x-intercept",
   problem: 13,
   questionType: "PR",
+  difficulty: 2,
+  tags: [],
+  screenshot: "",
+  videoId: "",
   text: `<p>What is the <strong>least</strong> solution to the equation?</p>
-    <p style="text-align:center;margin-bottom:12px">\\(25m^2 + 30m + 9 - 9(5m + 3) + 20 = 6\\)</p>
+    <p class="eq">\\(25m^2 + 30m + 9 - 9(5m + 3) + 20 = 6\\)</p>
     <div class="mc-choices">
       <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-\\frac{1}{5}\\)</span></div>
       <div class="mc-choice"><span class="mc-label">B</span><span>\\(\\frac{1}{5}\\)</span></div>
@@ -19923,7 +20081,7 @@ export const questions = [
   answer: "A",
   graph: null,
   graphChoices: null,
-  steps: null,
+  steps: [],
 },
 
 {
@@ -19932,8 +20090,12 @@ export const questions = [
   subtopic: "x-intercept",
   problem: 13,
   questionType: "AQ",
+  difficulty: 2,
+  tags: [],
+  screenshot: "",
+  videoId: "",
   text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">\\(6(2q + 5)^2 = 42(2q + 5),\\)</p>
+    <p class="eq">\\(6(2q + 5)^2 = 42(2q + 5),\\)</p>
     <p>what is the <strong>greater</strong> possible value of \\(q\\)?</p>
     <div class="mc-choices">
       <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\frac{5}{2}\\)</span></div>
@@ -19944,7 +20106,7 @@ export const questions = [
   answer: "B",
   graph: null,
   graphChoices: null,
-  steps: null,
+  steps: [],
 },
 
 {
@@ -19953,8 +20115,12 @@ export const questions = [
   subtopic: "x-intercept",
   problem: 13,
   questionType: "AQ",
+  difficulty: 2,
+  tags: [],
+  screenshot: "",
+  videoId: "",
   text: `<p>What is the <strong>least</strong> solution to the equation?</p>
-    <p style="text-align:center;margin-bottom:12px">\\(16n^2 + 40n + 25 - 7(4n + 5) + 18 = 6\\)</p>
+    <p class="eq">\\(16n^2 + 40n + 25 - 7(4n + 5) + 18 = 6\\)</p>
     <div class="mc-choices">
       <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-\\frac{1}{2}\\)</span></div>
       <div class="mc-choice"><span class="mc-label">B</span><span>\\(-\\frac{1}{4}\\)</span></div>
@@ -19964,7 +20130,7 @@ export const questions = [
   answer: "A",
   graph: null,
   graphChoices: null,
-  steps: null,
+  steps: [],
 },
 
 {
@@ -19973,12 +20139,16 @@ export const questions = [
   subtopic: "x-intercept",
   problem: 13,
   questionType: "AQ",
-  text: `<p style="text-align:center;margin-bottom:12px">\\(5(3s - 7)(2s + 1) = 70\\)</p>
+  difficulty: 2,
+  tags: [],
+  screenshot: "",
+  videoId: "",
+  text: `<p class="eq">\\(5(3s - 7)(2s + 1) = 70\\)</p>
     <p>What <strong>positive</strong> value of \\(s\\) satisfies the equation above?</p>`,
   answer: "3",
   graph: null,
   graphChoices: null,
-  steps: null,
+  steps: [],
 },
 
 {
@@ -19987,8 +20157,16 @@ export const questions = [
   subtopic: "x-intercept",
   problem: 13,
   questionType: "AQ",
+
+  difficulty: 2,
+
+  tags: [],
+
+  screenshot: "",
+
+  videoId: "",
   text: `<p>If</p>
-    <p style="text-align:center;margin-bottom:12px">\\(4(5r - 3)(r + 4) = 12(5r - 3),\\)</p>
+    <p class="eq">\\(4(5r - 3)(r + 4) = 12(5r - 3),\\)</p>
     <p>is true, which of the following values <strong>cannot</strong> be a solution to the equation?</p>
     <div class="mc-choices">
       <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\frac{3}{5}\\)</span></div>
@@ -19999,7 +20177,7 @@ export const questions = [
   answer: "D",
   graph: null,
   graphChoices: null,
-  steps: null,
+  steps: [],
 },
 
 {
@@ -20008,12 +20186,20 @@ export const questions = [
   subtopic: "x-intercept",
   problem: 13,
   questionType: "AQ",
-  text: `<p style="text-align:center;margin-bottom:12px">\\(6p^2 + 13p - 7 = 8\\)</p>
+
+  difficulty: 2,
+
+  tags: [],
+
+  screenshot: "",
+
+  videoId: "",
+  text: `<p class="eq">\\(6p^2 + 13p - 7 = 8\\)</p>
     <p>What is a solution to the given equation?</p>`,
   answer: "-3 or 5/6",
   graph: null,
   graphChoices: null,
-  steps: null,
+  steps: [],
 },
 
 {
@@ -20025,7 +20211,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "hidden-substitution", "evaluate-expression", "least-value"],
     text: `<p>Given that</p>
-      <p style="text-align:center">\\((6x - 6)^2 - 7(6x - 6) + 12 = 0,\\)</p>
+      <p class="eq">\\((6x - 6)^2 - 7(6x - 6) + 12 = 0,\\)</p>
       <p>what is the <strong>least possible value</strong> of \\(12x - 10\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(6\\)</span></div>
@@ -20055,7 +20241,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "hidden-substitution", "free-response", "greater-solution"],
     text: `<p>If</p>
-      <p style="text-align:center">\\(\\left(\\dfrac{2x + 1}{5}\\right)^2 - 7\\left(\\dfrac{2x + 1}{5}\\right) + 12 = 0,\\)</p>
+      <p class="eq">\\(\\left(\\dfrac{2x + 1}{5}\\right)^2 - 7\\left(\\dfrac{2x + 1}{5}\\right) + 12 = 0,\\)</p>
       <p>what is the <strong>greater solution</strong>?</p>`,
     answer: "9.5",
     graph: null,
@@ -20077,9 +20263,9 @@ export const questions = [
     questionType: "PR",
     difficulty: 2,
     tags: ["x-intercept", "solve", "standard-form", "evaluate-expression", "free-response"],
-    text: `<p style="text-align:center">\\(12r^2 - 132r + 288 = 0\\)</p>
+    text: `<p class="eq">\\(12r^2 - 132r + 288 = 0\\)</p>
       <p>If \\(r\\) satisfies the given equation, what is <strong>one possible value</strong> of</p>
-      <p style="text-align:center">\\(2(3r - 5) + 7?\\)</p>`,
+      <p class="eq">\\(2(3r - 5) + 7?\\)</p>`,
     answer: "15 or 45",
     graph: null,
     graphChoices: null,
@@ -20100,9 +20286,9 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "evaluate-expression", "hidden-substitution"],
     text: `<p>If</p>
-      <p style="text-align:center">\\(20x^2 + 100x - 80 = 0,\\)</p>
+      <p class="eq">\\(20x^2 + 100x - 80 = 0,\\)</p>
       <p>what is the value of</p>
-      <p style="text-align:center">\\(\\dfrac{x^2 + 5x}{2}?\\)</p>
+      <p class="eq">\\(\\dfrac{x^2 + 5x}{2}?\\)</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-4\\)</span></div>
         <div class="mc-choice"><span class="mc-label">B</span><span>\\(-2\\)</span></div>
@@ -20130,7 +20316,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "hidden-substitution", "fraction-root", "least-solution"],
     text: `<p>If</p>
-      <p style="text-align:center">\\((5x - 4)^2 = 9(5x - 4) + 10,\\)</p>
+      <p class="eq">\\((5x - 4)^2 = 9(5x - 4) + 10,\\)</p>
       <p>what is the <strong>least solution</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(\\dfrac{3}{5}\\)</span></div>
@@ -20159,7 +20345,7 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "hidden-substitution", "least-solution"],
     text: `<p>If</p>
-      <p style="text-align:center">\\(\\left(\\dfrac{x - 2}{4}\\right)^2 - 3\\left(\\dfrac{x - 2}{4}\\right) + 2 = 0,\\)</p>
+      <p class="eq">\\(\\left(\\dfrac{x - 2}{4}\\right)^2 - 3\\left(\\dfrac{x - 2}{4}\\right) + 2 = 0,\\)</p>
       <p>what is the <strong>least solution</strong>?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(6\\)</span></div>
@@ -20187,9 +20373,9 @@ export const questions = [
     questionType: "AQ",
     difficulty: 2,
     tags: ["x-intercept", "solve", "standard-form", "evaluate-expression", "free-response"],
-    text: `<p style="text-align:center">\\(8p^2 - 104p + 240 = 0\\)</p>
+    text: `<p class="eq">\\(8p^2 - 104p + 240 = 0\\)</p>
       <p>If \\(p\\) satisfies the given equation, what is <strong>one possible value</strong> of</p>
-      <p style="text-align:center">\\(4(2p - 3) + 5?\\)</p>`,
+      <p class="eq">\\(4(2p - 3) + 5?\\)</p>`,
     answer: "17 or 73",
     graph: null,
     graphChoices: null,
@@ -20210,9 +20396,9 @@ export const questions = [
     difficulty: 3,
     tags: ["x-intercept", "solve", "evaluate-expression", "hidden-substitution"],
     text: `<p>If</p>
-      <p style="text-align:center">\\(18x^2 - 72x + 54 = 0,\\)</p>
+      <p class="eq">\\(18x^2 - 72x + 54 = 0,\\)</p>
       <p>what is the value of</p>
-      <p style="text-align:center">\\(\\dfrac{x^2 - 4x}{3}?\\)</p>
+      <p class="eq">\\(\\dfrac{x^2 - 4x}{3}?\\)</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-3\\)</span></div>
         <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(-1\\)</span></div>
@@ -20239,7 +20425,7 @@ export const questions = [
     questionType: "WE",
     difficulty: 3,
     tags: ["x-intercept", "solve", "squared-binomial", "fraction-root", "positive-root"],
-    text: `<p style="text-align:center">\\(\\dfrac{(3r - 5)^2}{25} + 4 = 13\\)</p>
+    text: `<p class="eq">\\(\\dfrac{(3r - 5)^2}{25} + 4 = 13\\)</p>
       <p>What is the <strong>positive solution</strong> to the given equation?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\dfrac{10}{3}\\)</span></div>
@@ -20267,7 +20453,7 @@ export const questions = [
     questionType: "GP",
     difficulty: 3,
     tags: ["x-intercept", "solve", "squared-binomial", "positive-root"],
-    text: `<p style="text-align:center">\\(\\dfrac{(2t - 4)^2}{16} + 3 = 12\\)</p>
+    text: `<p class="eq">\\(\\dfrac{(2t - 4)^2}{16} + 3 = 12\\)</p>
       <p>What is the <strong>positive solution</strong> to the given equation?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(8\\)</span></div>
@@ -20295,7 +20481,7 @@ export const questions = [
     questionType: "PR",
     difficulty: 3,
     tags: ["x-intercept", "solve", "squared-binomial", "fraction-root", "positive-root"],
-    text: `<p style="text-align:center">\\(\\dfrac{(4w - 8)^2}{36} + 2 = 11\\)</p>
+    text: `<p class="eq">\\(\\dfrac{(4w - 8)^2}{36} + 2 = 11\\)</p>
       <p>What is the <strong>positive solution</strong> to the given equation?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\dfrac{5}{2}\\)</span></div>
@@ -20322,7 +20508,7 @@ export const questions = [
     questionType: "AQ",
     difficulty: 3,
     tags: ["x-intercept", "solve", "squared-binomial", "positive-root"],
-    text: `<p style="text-align:center">\\(\\dfrac{4(2p - 7)^2}{36} - 5 = 4\\)</p>
+    text: `<p class="eq">\\(\\dfrac{4(2p - 7)^2}{36} - 5 = 4\\)</p>
       <p>What is the <strong>positive solution</strong> to the given equation?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\dfrac{5}{2}\\)</span></div>
@@ -20349,7 +20535,7 @@ export const questions = [
     questionType: "AQ",
     difficulty: 3,
     tags: ["x-intercept", "solve", "squared-binomial", "fraction-root", "positive-root"],
-    text: `<p style="text-align:center">\\(\\dfrac{9(3k - 4)^2}{81} - 7 = 9\\)</p>
+    text: `<p class="eq">\\(\\dfrac{9(3k - 4)^2}{81} - 7 = 9\\)</p>
       <p>What is the <strong>positive solution</strong> to the given equation?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(-\\dfrac{8}{3}\\)</span></div>
@@ -20377,9 +20563,9 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The quadratic function \\(f\\) is defined by</p>
-  <p style="text-align:center;margin-bottom:12px">\\(f(x) = x^2 - 4x + 1\\).</p>
+  <p class="eq">\\(f(x) = x^2 - 4x + 1\\).</p>
   <p>The function \\(g\\) is defined by</p>
-  <p style="text-align:center;margin-bottom:12px">\\(g(x) = f(x - 3) + 5\\).</p>
+  <p class="eq">\\(g(x) = f(x - 3) + 5\\).</p>
   <p>Which of the following equations represents \\(g\\)?</p>
   <div class="mc-choices">
     <div class="mc-choice"><span class="mc-label">A</span><span>\\(g(x) = (x + 3)^2 - 4(x + 3) + 6\\)</span></div>
@@ -20404,9 +20590,9 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The quadratic function \\(h\\) is defined by</p>
-  <p style="text-align:center;margin-bottom:12px">\\(h(x) = -2x^2 + 8x + 3\\).</p>
+  <p class="eq">\\(h(x) = -2x^2 + 8x + 3\\).</p>
   <p>The function \\(k\\) is defined by</p>
-  <p style="text-align:center;margin-bottom:12px">\\(k(x) = h(x + 4) - 7\\).</p>
+  <p class="eq">\\(k(x) = h(x + 4) - 7\\).</p>
   <p>Which of the following equations represents \\(k\\)?</p>
   <div class="mc-choices">
     <div class="mc-choice"><span class="mc-label">A</span><span>\\(k(x) = -2(x - 4)^2 + 8(x - 4) - 4\\)</span></div>
@@ -20431,9 +20617,9 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The quadratic function \\(p\\) is defined by</p>
-  <p style="text-align:center;margin-bottom:12px">\\(p(x) = 3x^2 + 6x - 5\\).</p>
+  <p class="eq">\\(p(x) = 3x^2 + 6x - 5\\).</p>
   <p>The function \\(q\\) is defined by</p>
-  <p style="text-align:center;margin-bottom:12px">\\(q(x) = p(x - 2) - 4\\).</p>
+  <p class="eq">\\(q(x) = p(x - 2) - 4\\).</p>
   <p>Which of the following equations represents \\(q\\)?</p>
   <div class="mc-choices">
     <div class="mc-choice"><span class="mc-label">A</span><span>\\(q(x) = 3(x + 2)^2 + 6(x + 2) - 9\\)</span></div>
@@ -20455,6 +20641,12 @@ export const questions = [
     subtopic: "y-intercept",
     problem: 0,
     questionType: "CQ",
+
+    steps: [],
+
+    screenshot: "",
+
+    videoId: "",
     difficulty: 2,
     tags: [],
     text: `<p>The function \\(f\\) is defined by the graph shown above.</p>
@@ -20496,7 +20688,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The function \\(f\\) is defined by</p>
-  <p style="text-align:center;margin-bottom:12px">\\(f(x) = -\\frac{1}{2}(x - 3)^2 + 7\\).</p>
+  <p class="eq">\\(f(x) = -\\frac{1}{2}(x - 3)^2 + 7\\).</p>
   <p>What is the value of \\(f(0)\\)?</p>
   <div class="mc-choices">
     <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(2.5\\)</span></div>
@@ -20521,7 +20713,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-  <p style="text-align:center;margin-bottom:12px">\\(f(x) = -2x^2 + 12x + 8\\)</p>
+  <p class="eq">\\(f(x) = -2x^2 + 12x + 8\\)</p>
   <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at the point \\((0, r)\\). What is the value of \\(r\\)?</p>`,
     answer: "8",
     graph: null,
@@ -20540,7 +20732,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-  <p style="text-align:center;margin-bottom:12px">\\(g(x) = 3x^2 - 18x + 11\\)</p>
+  <p class="eq">\\(g(x) = 3x^2 - 18x + 11\\)</p>
   <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at \\((0, r)\\). What is the value of \\(r\\)?</p>
   <div class="mc-choices">
     <div class="mc-choice"><span class="mc-label">A</span><span>\\(3\\)</span></div>
@@ -20565,7 +20757,7 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `<p>The equation</p>
-  <p style="text-align:center;margin-bottom:12px">\\(h(x) = -4x^2 + 20x - \\frac{15}{2}\\)</p>
+  <p class="eq">\\(h(x) = -4x^2 + 20x - \\frac{15}{2}\\)</p>
   <p>is graphed in the \\(xy\\)-plane. The graph crosses the \\(y\\)-axis at \\((0, k)\\). What is the value of \\(k\\)?</p>
   <div class="mc-choices">
     <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(-\\frac{15}{2}\\)</span></div>
@@ -20679,7 +20871,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "grouping"],
-    text: `<p style="text-align:center">\\(12x^2 - 8x + 9x - 6\\)</p>
+    text: `<p class="eq">\\(12x^2 - 8x + 9x - 6\\)</p>
       <p>Which of the following expressions is <strong>not</strong> a factor of the expression above?</p><p>I. \\(4x + 3\\)<br>II. \\(3x - 2\\)<br>III. \\(2x + 3\\)</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>I only</span></div>
@@ -20702,7 +20894,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "grouping"],
-    text: `<p style="text-align:center">\\(15x^2 + 20x - 6x - 8\\)</p>
+    text: `<p class="eq">\\(15x^2 + 20x - 6x - 8\\)</p>
       <p>Which of the following expressions is <strong>not</strong> a factor of the expression above?</p><p>I. \\(3x + 4\\)<br>II. \\(5x - 2\\)<br>III. \\(3x - 4\\)</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>III only</span></div>
@@ -20725,7 +20917,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "grouping"],
-    text: `<p style="text-align:center">\\(14x^2 - 21x + 8x - 12\\)</p>
+    text: `<p class="eq">\\(14x^2 - 21x + 8x - 12\\)</p>
       <p>Which of the following expressions is <strong>not</strong> a factor of the expression above?</p><p>I. \\(7x + 4\\)<br>II. \\(2x - 3\\)<br>III. \\(7x - 4\\)</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>I only</span></div>
@@ -20748,7 +20940,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "parameter", "desmos"],
-    text: `<p>A company models its monthly profit, in thousands of dollars, with a quadratic function. The company breaks even at a value represented by the factor</p><p style="text-align:center">\\(x + 2k,\\)</p><p>where \\(k\\) is a positive integer.</p><p>Which expression could represent the company's profit model?</p>
+    text: `<p>A company models its monthly profit, in thousands of dollars, with a quadratic function. The company breaks even at a value represented by the factor</p><p class="eq">\\(x + 2k,\\)</p><p>where \\(k\\) is a positive integer.</p><p>Which expression could represent the company's profit model?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(4x^2 + 22x + 32k\\)</span></div>
         <div class="mc-choice"><span class="mc-label">B</span><span>\\(4x^2 + 28x + 32k\\)</span></div>
@@ -20770,7 +20962,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "parameter", "desmos"],
-    text: `<p>The cross section of a bridge arch is modeled by a quadratic function. Engineers know the model has a factor of</p><p style="text-align:center">\\(x + 3m,\\)</p><p>where \\(m\\) is a positive integer.</p><p>Which expression could represent the bridge arch?</p>
+    text: `<p>The cross section of a bridge arch is modeled by a quadratic function. Engineers know the model has a factor of</p><p class="eq">\\(x + 3m,\\)</p><p>where \\(m\\) is a positive integer.</p><p>Which expression could represent the bridge arch?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(5x^2 + 39x + 45m\\)</span></div>
         <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(5x^2 + 45x + 45m\\)</span></div>
@@ -20792,7 +20984,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "parameter", "desmos"],
-    text: `<p>A company's projected revenue is modeled by a quadratic function. Analysts know the model has a factor of</p><p style="text-align:center">\\(x + 4n,\\)</p><p>where \\(n\\) is a positive integer.</p><p>Which expression could represent the revenue model?</p>
+    text: `<p>A company's projected revenue is modeled by a quadratic function. Analysts know the model has a factor of</p><p class="eq">\\(x + 4n,\\)</p><p>where \\(n\\) is a positive integer.</p><p>Which expression could represent the revenue model?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(3x^2 + 44x + 48n\\)</span></div>
         <div class="mc-choice"><span class="mc-label">B</span><span>\\(3x^2 + 52x + 48n\\)</span></div>
@@ -20814,7 +21006,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "parameter", "desmos"],
-    text: `<p>The height of a roller coaster hill is modeled by a quadratic function. Designers know the model has a factor of</p><p style="text-align:center">\\(x + 5p,\\)</p><p>where \\(p\\) is a positive integer.</p><p>Which expression could represent the height of the hill?</p>
+    text: `<p>The height of a roller coaster hill is modeled by a quadratic function. Designers know the model has a factor of</p><p class="eq">\\(x + 5p,\\)</p><p>where \\(p\\) is a positive integer.</p><p>Which expression could represent the height of the hill?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(6x^2 + 96x + 150p\\)</span></div>
         <div class="mc-choice"><span class="mc-label">B</span><span>\\(6x^2 + 105x + 150p\\)</span></div>
@@ -20836,7 +21028,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "parameter", "desmos"],
-    text: `<p>The value of an investment is modeled by a quadratic function. The model has a factor of</p><p style="text-align:center">\\(x + 3r,\\)</p><p>where \\(r\\) is a positive integer.</p><p>Which expression could represent the value of the investment?</p>
+    text: `<p>The value of an investment is modeled by a quadratic function. The model has a factor of</p><p class="eq">\\(x + 3r,\\)</p><p>where \\(r\\) is a positive integer.</p><p>Which expression could represent the value of the investment?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(4x^2 + 32x + 48r\\)</span></div>
         <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(4x^2 + 28x + 48r\\)</span></div>
@@ -20859,7 +21051,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "solve", "vertex-form"],
-    text: `<p style="text-align:center">\\(3(2r - 5)^2 + 9 = 84\\)</p>
+    text: `<p class="eq">\\(3(2r - 5)^2 + 9 = 84\\)</p>
       <p>If \\(r = k\\) is the greater solution to the equation above, which of the following must be true?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(k < 1\\)</span></div>
@@ -20883,7 +21075,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "solve", "standard-form", "free-response", "negative-roots"],
-    text: `<p style="text-align:center">\\(y^2 + 35y + 306 = 0\\)</p>
+    text: `<p class="eq">\\(y^2 + 35y + 306 = 0\\)</p>
       <p>What is one of the solutions to the given equation?</p>`,
     answer: "-17 or -18",
     graph: null,
@@ -20900,7 +21092,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "quadratic-formula", "solve"],
-    text: `<p style="text-align:center">\\(7x(x - 3) + 17 = 10\\)</p>
+    text: `<p class="eq">\\(7x(x - 3) + 17 = 10\\)</p>
       <p>Which of the following is a zero of the equation above?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{21 + \\sqrt{637}}{14}\\)</span></div>
@@ -20923,7 +21115,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "quadratic-formula", "solve"],
-    text: `<p style="text-align:center">\\(2x(x + 5) - x - 18 = 0\\)</p>
+    text: `<p class="eq">\\(2x(x + 5) - x - 18 = 0\\)</p>
       <p>What are the solutions to the given equation?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(x = \\dfrac{9 \\pm \\sqrt{225}}{4}\\)</span></div>
@@ -20946,7 +21138,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "quadratic-formula", "solve"],
-    text: `<p style="text-align:center">\\(8x(x + 2) - 18 = 5\\)</p>
+    text: `<p class="eq">\\(8x(x + 2) - 18 = 5\\)</p>
       <p>Which of the following is a zero of the equation above?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(\\dfrac{-16 + \\sqrt{992}}{16}\\)</span></div>
@@ -20969,7 +21161,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "quadratic-formula", "solve"],
-    text: `<p style="text-align:center">\\(3(x^2 + 2x) - 14 = 0\\)</p>
+    text: `<p class="eq">\\(3(x^2 + 2x) - 14 = 0\\)</p>
       <p>What are the solutions to the given equation?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(x = \\dfrac{-2 \\pm \\sqrt{60}}{2}\\)</span></div>
@@ -20992,7 +21184,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "quadratic-formula", "solve"],
-    text: `<p style="text-align:center">\\(9x(x - 4) + 32 = 10\\)</p>
+    text: `<p class="eq">\\(9x(x - 4) + 32 = 10\\)</p>
       <p>Which of the following is a zero of the equation above?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{36 + \\sqrt{2088}}{18}\\)</span></div>
@@ -21015,7 +21207,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "quadratic-formula", "solve"],
-    text: `<p style="text-align:center">\\(x(x + 11) - (x + 24) = 0\\)</p>
+    text: `<p class="eq">\\(x(x + 11) - (x + 24) = 0\\)</p>
       <p>What are the solutions to the given equation?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(x = \\dfrac{-10 \\pm \\sqrt{244}}{2}\\)</span></div>
@@ -21038,7 +21230,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "constants"],
-    text: `<p>The expression</p><p style="text-align:center">\\(2x^2 + ckx - 22.5k^2\\)</p><p>has \\(2x - 3k\\) as a factor, where \\(c\\) and \\(k\\) are constants and \\(k > 0\\).</p><p>What is the value of \\(c\\)?</p>
+    text: `<p>The expression</p><p class="eq">\\(2x^2 + ckx - 22.5k^2\\)</p><p>has \\(2x - 3k\\) as a factor, where \\(c\\) and \\(k\\) are constants and \\(k > 0\\).</p><p>What is the value of \\(c\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(6\\)</span></div>
         <div class="mc-choice"><span class="mc-label">B</span><span>\\(9\\)</span></div>
@@ -21060,7 +21252,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "constants"],
-    text: `<p>The expression</p><p style="text-align:center">\\(3x^2 + dmx - 50m^2\\)</p><p>has \\(x - 4m\\) as a factor, where \\(d\\) and \\(m\\) are constants and \\(m > 0\\).</p><p>What is the value of \\(d\\)?</p>
+    text: `<p>The expression</p><p class="eq">\\(3x^2 + dmx - 50m^2\\)</p><p>has \\(x - 4m\\) as a factor, where \\(d\\) and \\(m\\) are constants and \\(m > 0\\).</p><p>What is the value of \\(d\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice correct"><span class="mc-label">A</span><span>\\(\\dfrac{1}{2}\\)</span></div>
         <div class="mc-choice"><span class="mc-label">B</span><span>\\(\\dfrac{1}{4}\\)</span></div>
@@ -21082,7 +21274,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "constants"],
-    text: `<p>The expression</p><p style="text-align:center">\\(4x^2 + gnx - 35n^2\\)</p><p>has \\(2x - 5n\\) as a factor, where \\(g\\) and \\(n\\) are constants and \\(n > 0\\).</p><p>What is the value of \\(g\\)?</p>
+    text: `<p>The expression</p><p class="eq">\\(4x^2 + gnx - 35n^2\\)</p><p>has \\(2x - 5n\\) as a factor, where \\(g\\) and \\(n\\) are constants and \\(n > 0\\).</p><p>What is the value of \\(g\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(2\\)</span></div>
         <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(4\\)</span></div>
@@ -21104,7 +21296,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "constants"],
-    text: `<p>The expression</p><p style="text-align:center">\\(5x^2 + krx - \\dfrac{57}{4}r^2\\)</p><p>has \\(2x - 3r\\) as a factor, where \\(k\\) and \\(r\\) are constants and \\(r > 0\\).</p><p>What is the value of \\(k\\)?</p>
+    text: `<p>The expression</p><p class="eq">\\(5x^2 + krx - \\dfrac{57}{4}r^2\\)</p><p>has \\(2x - 3r\\) as a factor, where \\(k\\) and \\(r\\) are constants and \\(r > 0\\).</p><p>What is the value of \\(k\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(\\dfrac{1}{2}\\)</span></div>
         <div class="mc-choice"><span class="mc-label">B</span><span>\\(1\\)</span></div>
@@ -21126,7 +21318,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "factor", "constants"],
-    text: `<p>The expression</p><p style="text-align:center">\\(2x^2 + qtx - 62t^2\\)</p><p>has \\(x - 5t\\) as a factor, where \\(q\\) and \\(t\\) are constants and \\(t > 0\\).</p><p>What is the value of \\(q\\)?</p>
+    text: `<p>The expression</p><p class="eq">\\(2x^2 + qtx - 62t^2\\)</p><p>has \\(x - 5t\\) as a factor, where \\(q\\) and \\(t\\) are constants and \\(t > 0\\).</p><p>What is the value of \\(q\\)?</p>
       <div class="mc-choices">
         <div class="mc-choice"><span class="mc-label">A</span><span>\\(1.2\\)</span></div>
         <div class="mc-choice correct"><span class="mc-label">B</span><span>\\(2.4\\)</span></div>
@@ -21148,7 +21340,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
-    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x - 2)^2 - 3\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x + 5)^2 - 3.\\)</p><p>The zeros of \\(f\\) are \\(a\\) and \\(b\\), where \\(a < b\\), and the zeros of \\(g\\) are \\(c\\) and \\(d\\), where \\(c < d\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(a + c\\) and \\(b + d\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p class="eq">\\(f(x) = (x - 2)^2 - 3\\)</p><p class="eq">and</p><p class="eq">\\(g(x) = (x + 5)^2 - 3.\\)</p><p>The zeros of \\(f\\) are \\(a\\) and \\(b\\), where \\(a < b\\), and the zeros of \\(g\\) are \\(c\\) and \\(d\\), where \\(c < d\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(a + c\\) and \\(b + d\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
     answer: "-3",
     graph: null,
     graphChoices: null,
@@ -21164,7 +21356,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
-    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x + 1)^2 - 5\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x - 4)^2 - 5.\\)</p><p>The zeros of \\(f\\) are \\(a\\) and \\(b\\), where \\(a < b\\), and the zeros of \\(g\\) are \\(c\\) and \\(d\\), where \\(c < d\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(a + c\\) and \\(b + d\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p class="eq">\\(f(x) = (x + 1)^2 - 5\\)</p><p class="eq">and</p><p class="eq">\\(g(x) = (x - 4)^2 - 5.\\)</p><p>The zeros of \\(f\\) are \\(a\\) and \\(b\\), where \\(a < b\\), and the zeros of \\(g\\) are \\(c\\) and \\(d\\), where \\(c < d\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(a + c\\) and \\(b + d\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
     answer: "-11",
     graph: null,
     graphChoices: null,
@@ -21180,7 +21372,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
-    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x - 5)^2 - 6\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x + 2)^2 - 6.\\)</p><p>The zeros of \\(f\\) are \\(p\\) and \\(q\\), where \\(p < q\\), and the zeros of \\(g\\) are \\(r\\) and \\(s\\), where \\(r < s\\).</p><p>The zeros of the quadratic function \\(k\\) are \\(p + r\\) and \\(q + s\\). If the leading coefficient of \\(k\\) is 1, what is the value of \\(k(0)\\)?</p>`,
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p class="eq">\\(f(x) = (x - 5)^2 - 6\\)</p><p class="eq">and</p><p class="eq">\\(g(x) = (x + 2)^2 - 6.\\)</p><p>The zeros of \\(f\\) are \\(p\\) and \\(q\\), where \\(p < q\\), and the zeros of \\(g\\) are \\(r\\) and \\(s\\), where \\(r < s\\).</p><p>The zeros of the quadratic function \\(k\\) are \\(p + r\\) and \\(q + s\\). If the leading coefficient of \\(k\\) is 1, what is the value of \\(k(0)\\)?</p>`,
     answer: "-15",
     graph: null,
     graphChoices: null,
@@ -21196,7 +21388,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
-    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x + 3)^2 - 2\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x - 1)^2 - 2.\\)</p><p>The zeros of \\(f\\) are \\(m\\) and \\(n\\), where \\(m < n\\), and the zeros of \\(g\\) are \\(r\\) and \\(s\\), where \\(r < s\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(m + r\\) and \\(n + s\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p class="eq">\\(f(x) = (x + 3)^2 - 2\\)</p><p class="eq">and</p><p class="eq">\\(g(x) = (x - 1)^2 - 2.\\)</p><p>The zeros of \\(f\\) are \\(m\\) and \\(n\\), where \\(m < n\\), and the zeros of \\(g\\) are \\(r\\) and \\(s\\), where \\(r < s\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(m + r\\) and \\(n + s\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
     answer: "-4",
     graph: null,
     graphChoices: null,
@@ -21212,7 +21404,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
-    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x - 4)^2 - 5\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x + 6)^2 - 5.\\)</p><p>The zeros of \\(f\\) are \\(j\\) and \\(k\\), where \\(j < k\\), and the zeros of \\(g\\) are \\(m\\) and \\(n\\), where \\(m < n\\).</p><p>The zeros of the quadratic function \\(P\\) are \\(j + m\\) and \\(k + n\\). If the leading coefficient of \\(P\\) is 1, what is the value of \\(P(0)\\)?</p>`,
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p class="eq">\\(f(x) = (x - 4)^2 - 5\\)</p><p class="eq">and</p><p class="eq">\\(g(x) = (x + 6)^2 - 5.\\)</p><p>The zeros of \\(f\\) are \\(j\\) and \\(k\\), where \\(j < k\\), and the zeros of \\(g\\) are \\(m\\) and \\(n\\), where \\(m < n\\).</p><p>The zeros of the quadratic function \\(P\\) are \\(j + m\\) and \\(k + n\\). If the leading coefficient of \\(P\\) is 1, what is the value of \\(P(0)\\)?</p>`,
     answer: "-16",
     graph: null,
     graphChoices: null,
@@ -21228,7 +21420,7 @@ export const questions = [
     questionType: "CQ",
     difficulty: 2,
     tags: ["x-intercept", "zeros", "vertex-form", "free-response", "radicals"],
-    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p style="text-align:center">\\(f(x) = (x + 2)^2 - 6\\)</p><p style="text-align:center">and</p><p style="text-align:center">\\(g(x) = (x - 3)^2 - 6.\\)</p><p>The zeros of \\(f\\) are \\(r\\) and \\(s\\), where \\(r < s\\), and the zeros of \\(g\\) are \\(t\\) and \\(u\\), where \\(t < u\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(r + t\\) and \\(s + u\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p><p class="eq">\\(f(x) = (x + 2)^2 - 6\\)</p><p class="eq">and</p><p class="eq">\\(g(x) = (x - 3)^2 - 6.\\)</p><p>The zeros of \\(f\\) are \\(r\\) and \\(s\\), where \\(r < s\\), and the zeros of \\(g\\) are \\(t\\) and \\(u\\), where \\(t < u\\).</p><p>The zeros of the quadratic function \\(h\\) are \\(r + t\\) and \\(s + u\\). If the leading coefficient of \\(h\\) is 1, what is the value of \\(h(0)\\)?</p>`,
     answer: "-23",
     graph: null,
     graphChoices: null,
