@@ -128,8 +128,8 @@ export const questions = [
                 <span class="mc-label">C</span>
                 <span>\\( 11x^2 + 4x - 6 \\)</span>
             </div>
-            <div class="mc-choice">
-                <span class="mc-label correct">D</span>
+            <div class="mc-choice correct">
+                <span class="mc-label">D</span>
                 <span>\\( 5x^2 + 4x - 6 \\)</span>
             </div>
             </div>`,
@@ -1501,22 +1501,22 @@ export const questions = [
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
-        <span>\\( \\left(5x - \\frac{13}{2}\\right)\\left(5x + \\frac{7}{2}\\right) \\)</span>
+        <span>\\( \\left(3x - \\frac{15}{2}\\right)\\left(3x + \\frac{7}{2}\\right) \\)</span>
       </div>
       <div class="mc-choice">
         <span class="mc-label">B</span>
-        <span>\\( \\left(5x - \\frac{13}{2}\\right)\\left(5x + \\frac{5}{2}\\right) \\)</span>
+        <span>\\( \\left(3x - \\frac{13}{2}\\right)\\left(3x + \\frac{5}{2}\\right) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">C</span>
-        <span>\\( \\left(5x - \\frac{17}{2}\\right)\\left(5x + \\frac{1}{2}\\right) \\)</span>
+        <span>\\( \\left(3x - \\frac{17}{2}\\right)\\left(3x + \\frac{5}{2}\\right) \\)</span>
       </div>
       <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( \\left(5x - \\frac{7}{2}\\right)\\left(5x + \\frac{13}{2}\\right) \\)</span>
+        <span>\\( \\left(3x - \\frac{9}{2}\\right)\\left(3x + \\frac{11}{2}\\right) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1893,11 +1893,11 @@ export const questions = [
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
-        <span>\\( 5(4x - 1 - 3\\sqrt{3})(4x - 1 + 3\\sqrt{3}) \\)</span>
+        <span>\\( 5(4x - \\frac{3}{2} - 3\\sqrt{2})(4x - \\frac{3}{2} + 3\\sqrt{2}) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">B</span>
-        <span>\\( 5(4x - \\frac{3}{2} - 6\\sqrt{3})(4x - \\frac{3}{2} + 6\\sqrt{3}) \\)</span>
+        <span>\\( 5(4x - \\frac{3}{2} - 6\\sqrt{2})(4x - \\frac{3}{2} + 6\\sqrt{2}) \\)</span>
       </div>
       <div class="mc-choice">
         <span class="mc-label">C</span>
@@ -1905,10 +1905,10 @@ export const questions = [
       </div>
       <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( 5(4x - \\frac{3}{2} - 4\\sqrt{3})(4x - \\frac{3}{2} + 4\\sqrt{3}) \\)</span>
+        <span>\\( 5(4x - \\frac{3}{2} - 4\\sqrt{2})(4x - \\frac{3}{2} + 4\\sqrt{2}) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1930,22 +1930,22 @@ export const questions = [
     <div class="mc-choices">
       <div class="mc-choice">
         <span class="mc-label">A</span>
-        <span>\\( 7(4x - 15)(4x + 15) \\)</span>
+        <span>\\( 7(6x - 15)(6x + 15) \\)</span>
       </div>
       <div class="mc-choice">
         <span class="mc-label">B</span>
-        <span>\\( 7(4x - 11)(4x + 19) \\)</span>
+        <span>\\( 7(6x - 11)(6x + 19) \\)</span>
       </div>
       <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( 7(4x - 19)(4x + 15) \\)</span>
+        <span>\\( 7(6x - 19)(6x + 19) \\)</span>
       </div>
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">D</span>
-        <span>\\( 7(4x - 19)(4x + 11) \\)</span>
+        <span>\\( 7(6x - 19)(6x + 11) \\)</span>
       </div>
     </div>`,
-    answer: "",
+    answer: "D",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -2185,7 +2185,7 @@ export const questions = [
     <p>What is the value of</p>
     <p style="text-align:center;margin-bottom:12px">
       \\( k\\left(\\frac{5}{6}\\right)? \\)</p>`,
-    answer: "",
+    answer: "35/12",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -2854,23 +2854,24 @@ export const questions = [
     tags: [],
     text: `Which of the following is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( (2n + \\frac{3}{2})^2 - (n - \\frac{1}{4}) + 2(n + \\frac{3}{4})\\)?</p>
-        <div class="mc-choice">
-              <span class="mc-label">A</span>
-              <span>\\( 4n^2 + 5n + 4 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( 4n^2 + 7n + \\frac{15}{4} \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">C</span>
-              <span>\\( 4n^2 + 7n + 4 \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">D</span>
-              <span>\\( 4n^2 + 5n + \\frac{15}{4} \\)</span>
-            </div>
-          </div>`,
+            <div class="mc-choices">
+              <div class="mc-choice">
+                <span class="mc-label">A</span>
+                <span>\\( 4n^2 + 5n + 4 \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">B</span>
+                <span>\\( 4n^2 + 7n + \\frac{15}{4} \\)</span>
+              </div>
+              <div class="mc-choice correct">
+                <span class="mc-label">C</span>
+                <span>\\( 4n^2 + 7n + 4 \\)</span>
+              </div>
+              <div class="mc-choice">
+                <span class="mc-label">D</span>
+                <span>\\( 4n^2 + 5n + \\frac{15}{4} \\)</span>
+              </div>
+            </div>`,
     answer: "C",
     graph: null,
     graphChoices: null,
@@ -2907,23 +2908,24 @@ export const questions = [
     tags: [],
     text: `Which of the following is equivalent to
             <p style="text-align:center;margin-bottom:12px">\\( (3r - \\frac{1}{2})^2 + 2(r + \\frac{3}{4}) - (r - \\frac{1}{2})\\)?</p>
-        <div class="mc-choice">
-              <span class="mc-label">A</span>
-              <span>\\( 9r^2 - 4r + \\frac{9}{4} \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">B</span>
-              <span>\\( 9r^2 - 2r + \\frac{7}{4} \\)</span>
-            </div>
-            <div class="mc-choice">
-              <span class="mc-label">C</span>
-              <span>\\( 9r^2 - 4r + \\frac{7}{4} \\)</span>
-            </div>
-            <div class="mc-choice correct">
-              <span class="mc-label">D</span>
-              <span>\\( 9r^2 - 2r + \\frac{9}{4} \\)</span>
-            </div>
-          </div>`,
+            <div class="mc-choices">
+              <div class="mc-choice">
+                  <span class="mc-label">A</span>
+                  <span>\\( 9r^2 - 4r + \\frac{9}{4} \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">B</span>
+                  <span>\\( 9r^2 - 2r + \\frac{7}{4} \\)</span>
+                </div>
+                <div class="mc-choice">
+                  <span class="mc-label">C</span>
+                  <span>\\( 9r^2 - 4r + \\frac{7}{4} \\)</span>
+                </div>
+                <div class="mc-choice correct">
+                  <span class="mc-label">D</span>
+                  <span>\\( 9r^2 - 2r + \\frac{9}{4} \\)</span>
+                </div>
+            </div>`,
     answer: "D",
     graph: null,
     graphChoices: null,
@@ -3237,7 +3239,7 @@ export const questions = [
     tags: [],
     text: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = 4x^2 - 3x^2 - 18b\\)?</p>
-            is equivalent to which of the folllowing where \\(b\\) is a positive constant?
+            is equivalent to which of the following where \\(b\\) is a positive constant?
             <div class="mc-choices">    
                 <div class="mc-choice correct">
                   <span class="mc-label">A</span>
@@ -3293,7 +3295,7 @@ export const questions = [
     tags: [],
     text: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = \\frac{1}{5}(5x^2 - 60c) \\)?</p>
-            is equivalent to which of the folllowing where \\(c\\) is a positive constant?
+            is equivalent to which of the following where \\(c\\) is a positive constant?
             <div class="mc-choices">
             <div class="mc-choice correct">
                   <span class="mc-label">A</span>
@@ -3330,7 +3332,7 @@ export const questions = [
     tags: [],
     text: `The equation
             <p style="text-align:center;margin-bottom:12px">\\( y = 3(\\frac{x^2}{3} - 7d) + 2d \\)?</p>
-            is equivalent to which of the folllowing where \\(d\\) is a positive constant?
+            is equivalent to which of the following where \\(d\\) is a positive constant?
             <div class="mc-choices">
             <div class="mc-choice correct">
                   <span class="mc-label">A</span>
@@ -3666,9 +3668,9 @@ export const questions = [
     text: `Which expression is equivalent to
         <p style="text-align:center;margin-bottom:12px"> \\( ( 4p - \\frac{3q}{2})^2 \\) </p>
         <div class="mc-choices">
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">A</span>
-        <span>\\( 16p^2 - 12pq - \\frac{9q^2}{4} \\)</span>
+        <span>\\( 16p^2 - 12pq + \\frac{9q^2}{4} \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">B</span>
@@ -3683,7 +3685,7 @@ export const questions = [
         <span>\\( 8p^2 - 12pq + \\frac{9q^2}{4} \\)</span>
         </div>
         </div>`,
-    answer: "",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -3750,7 +3752,7 @@ export const questions = [
     <p>where \\(t\\) is a positive constant.</p>
     <p>What is the value of \\(t\\)?</p>
     <div class="mc-choices">
-      <div class="mc-choice">
+      <div class="mc-choice correct">
         <span class="mc-label">A</span>
         <span>\\(4\\sqrt{5}\\)</span>
       </div>
@@ -7934,7 +7936,7 @@ export const questions = [
         questionType: "WE",
         difficulty: 2,
         tags: [],
-        text: `<p>The height, \\(y\\) meters, is modeled by the graph, where \\(y = 0\\) represents ground level. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
+        text: `<p>The height, \\(y\\) meters, is modeled by the graph, where \\(y = 0\\) represents ground problem. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
                 <div class="mc-choices">
                 <div class="mc-choice">
                     <span class="mc-label">A</span>
@@ -8023,7 +8025,7 @@ export const questions = [
         questionType: "GP",
         difficulty: 2,
         tags: [],
-        text: `<p>The height, \\(y\\) feet, is modeled by the graph, where \\(y = 0\\) represents ground level. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
+        text: `<p>The height, \\(y\\) feet, is modeled by the graph, where \\(y = 0\\) represents ground problem. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
                 <div class="mc-choices">
                 <div class="mc-choice">
                     <span class="mc-label">A</span>
@@ -8112,7 +8114,7 @@ export const questions = [
         questionType: "PR",
         difficulty: 2,
         tags: [],
-        text: `<p>The water level, \\(y\\) meters, is modeled by the graph, where \\(y = 0\\) represents the spillway level. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
+        text: `<p>The water problem, \\(y\\) meters, is modeled by the graph, where \\(y = 0\\) represents the spillway problem. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
                     <div class="mc-choices">
                     <div class="mc-choice correct">
                         <span class="mc-label">A</span>
@@ -8269,7 +8271,7 @@ export const questions = [
         questionType: "AQ",
         difficulty: 2,
         tags: [],
-        text: `<p>The height, \\(y\\) meters, is modeled by the graph, where \\(y = 0\\) represents ground level. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
+        text: `<p>The height, \\(y\\) meters, is modeled by the graph, where \\(y = 0\\) represents ground problem. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
                     <div class="mc-choices">
                     <div class="mc-choice correct">
                         <span class="mc-label">A</span>
@@ -8345,7 +8347,7 @@ export const questions = [
         questionType: "AQ",
         difficulty: 2,
         tags: [],
-        text: `<p>The height, \\(y\\) feet, is modeled by the graph, where \\(y = 0\\) represents ground level. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
+        text: `<p>The height, \\(y\\) feet, is modeled by the graph, where \\(y = 0\\) represents ground problem. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
                     <div class="mc-choices">
                     <div class="mc-choice">
                         <span class="mc-label">A</span>
@@ -8426,7 +8428,7 @@ export const questions = [
         questionType: "AQ",
         difficulty: 2,
         tags: [],
-        text: `<p>The water level, \\(y\\) meters, is modeled by the graph, where \\(y = 0\\) represents the spillway level. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
+        text: `<p>The water problem, \\(y\\) meters, is modeled by the graph, where \\(y = 0\\) represents the spillway problem. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
                     <div class="mc-choices">
                     <div class="mc-choice correct">
                         <span class="mc-label">A</span>
@@ -13905,7 +13907,7 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>The estimated number of scooters available when the operating period began</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>The number of scooters added to the service during the first week</span>
             </div>
@@ -14585,7 +14587,7 @@ export const questions = [
         text: `<p>The \\(y\\)-intercept of the graph</p>
             <p style="text-align:center;margin-bottom:12px">\\(f(x) = \\frac{1}{3}(x - 6)^2 + 5\\)</p>
             <p>in the \\(xy\\)-plane is \\((0, y)\\). What is the value of \\(y\\)?</p>`,
-        answer: "",
+        answer: "17",
         graph: null,
         graphChoices: null,
         steps: [
@@ -14981,7 +14983,7 @@ export const questions = [
             <tr><td>\\(8\\)</td><td>\\(18\\)</td></tr>
             </table>
             <p>What is the \\(y\\)-coordinate of the \\(y\\)-intercept of the graph of \\(y = p(x)\\) in the \\(xy\\)-plane?</p>`,
-        answer: "",
+        answer: "11",
         graph: null,
         graphChoices: null,
         steps: [],
@@ -15421,7 +15423,7 @@ export const questions = [
     id: "Par-Vert-1-E-1",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "WE",
     difficulty: 1,
     tags: ["minimum", "read-graph"],
@@ -15466,7 +15468,7 @@ export const questions = [
     id: "Par-Vert-1-GP-1",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "GP",
     difficulty: 1,
     tags: ["minimum", "read-graph"],
@@ -15511,7 +15513,7 @@ export const questions = [
     id: "Par-Vert-1-Q-1",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "PR",
     difficulty: 1,
     tags: ["maximum", "read-graph"],
@@ -15552,7 +15554,7 @@ export const questions = [
     id: "Par-Vert-1-Q-2",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "PR",
     difficulty: 1,
     tags: ["maximum", "read-graph"],
@@ -15593,7 +15595,7 @@ export const questions = [
     id: "Par-Vert-1-AQ-1",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "AQ",
     difficulty: 1,
     tags: ["maximum", "read-graph"],
@@ -15633,7 +15635,7 @@ export const questions = [
     id: "Par-Vert-1-AQ-2",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "AQ",
     difficulty: 1,
     tags: ["maximum", "read-graph"],
@@ -15673,7 +15675,7 @@ export const questions = [
     id: "Par-Vert-1-AQ-3",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "AQ",
     difficulty: 1,
     tags: ["maximum", "read-graph"],
@@ -15713,7 +15715,7 @@ export const questions = [
     id: "Par-Vert-1-AQ-4",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "AQ",
     difficulty: 1,
     tags: ["maximum", "read-graph"],
@@ -15753,7 +15755,7 @@ export const questions = [
     id: "Par-Vert-2-E-1",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "WE",
     difficulty: 2,
     tags: ["maximum", "revenue"],
@@ -15793,7 +15795,7 @@ export const questions = [
     id: "Par-Vert-2-GP-1",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "GP",
     difficulty: 2,
     tags: ["maximum", "projectile"],
@@ -15831,7 +15833,7 @@ export const questions = [
     id: "Par-Vert-2-Q-1",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "PR",
     difficulty: 2,
     tags: ["minimum", "temperature"],
@@ -15869,7 +15871,7 @@ export const questions = [
     id: "Par-Vert-2-Q-2",
     topic: "parabola",
     subtopic: "vertex",
-    level: 1,
+    problem: 1,
     questionType: "PR",
     difficulty: 2,
     tags: ["maximum", "profit", "units-scaling"],
