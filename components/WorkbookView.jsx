@@ -14,6 +14,7 @@ import Link from "next/link";
 import useShowIds from "@/lib/useShowIds";
 import { logEvent, getSavedAnswers } from "@/lib/db";
 import SignOutButton from "@/components/SignOutButton";
+import { gradeFreeResponse } from "@/lib/questions";
 
 function SectionAccordion({ icon, title, defaultOpen, children }) {
   const [open, setOpen] = useState(defaultOpen);
@@ -105,10 +106,32 @@ function WorkedExampleCarousel({ problem, problemIndex, showIds }) {
   );
 }
 
-function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, showIds, container, savedAnswer, onAnswered }) {
+function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, showIds, container, savedAnswer, onAnswered, answer }) {
   const [open, setOpen] = useState(false);
   const boxRef = useRef(null);
   const isMultipleChoice = text.includes("mc-choice") || graphChoices;
+  const [typed, setTyped] = useState("");
+  const [savedFlag, setSavedFlag] = useState(false);
+
+  // restore a saved free-response answer
+  useEffect(() => {
+    if (!isMultipleChoice && savedAnswer) { setTyped(savedAnswer); setSavedFlag(true); }
+  }, [savedAnswer]);
+
+  const submitTyped = () => {
+    const value = typed.trim();
+    if (!value) return;
+    logEvent({
+      questionId: id,
+      eventType: "answered",
+      answer: value,
+      correct: gradeFreeResponse(value, answer),
+      context: "workbook",
+      containerId: container,
+    });
+    onAnswered?.(id, value);
+    setSavedFlag(true);
+  };
 
   const applySaved = () => {
   if (!savedAnswer || !boxRef.current) return;
@@ -164,15 +187,27 @@ function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, show
               <input
                 type="text"
                 placeholder="Type your answer"
-                style={{
-                  padding: "10px 14px",
-                  border: "1.5px solid #e0e0de",
-                  borderRadius: "8px",
-                  fontSize: "14px",
-                  width: "220px",
-                  textAlign: "center",
+                value={typed}
+                onChange={(e) => { setTyped(e.target.value); setSavedFlag(false); }}
+                onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); submitTyped(); } }}
+                style={{ 
+                  padding: "10px 14px", 
+                  border: "1.5px solid #e0e0de", 
+                  borderRadius: "8px", 
+                  fontSize: "14px", 
+                  width: "220px", 
+                  textAlign: "center" 
                 }}
               />
+              <button
+                type="button"
+                className="nav-btn"
+                onClick={submitTyped}
+                disabled={savedFlag}
+                style={savedFlag ? { color: "#1D9E75", borderColor: "#1D9E75", opacity: 1 } : undefined}
+              >
+              {savedFlag ? "Saved ✓" : "Submit"}
+              </button>
             </div>
           )}
         </div>
@@ -244,7 +279,7 @@ export default function WorkbookView({ topic }) {
       {problem.practice && problem.practice.length > 0 && (
       <SectionAccordion icon="ti-pencil" title="In-class practice problems" defaultOpen={false} key={`pp-${problemIndex}`}>
         {problem.practice.map((p, i) => (
-          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))}/>
+          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))} answer={p.answer} />
         ))}
       </SectionAccordion>
       )}
@@ -255,7 +290,7 @@ export default function WorkbookView({ topic }) {
       {problem.additionalPractice && problem.additionalPractice.length > 0 && (
         <SectionAccordion icon="ti-notebook" title="Additional practice" defaultOpen={false} key={`ap-${problemIndex}`}>
           {problem.additionalPractice.map((p, i) => (
-            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))}/>
+            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))} answer={p.answer}/>
           ))}
         </SectionAccordion>
       )}
