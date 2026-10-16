@@ -58,30 +58,30 @@ const equivalentTo = {
       ...asWorked("Par-Eq-7-E-1"),
       ...asGuided("Par-Eq-7-GP-1"),
       practice: asPractice(["Par-Eq-7-Q-1"]),
-      additionalPractice: asAdditional(["Par-Eq-7-AQ-1", "Par-Eq-7-AQ-2", "Par-Eq-7-AQ-3", "Par-Eq-7-AQ-4"]),
+      additionalPractice: asAdditional(["Par71962", "Par27418", "Par89206", "Par77590"]),
     },
  
     // Problem 8
     {
-      ...asWorked("Par-Eq-8-E-1"),
-      ...asGuided("Par-Eq-8-GP-1"),
-      practice: asPractice(["Par-Eq-8-Q-1", "Par-Eq-8-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-8-AQ-1", "Par-Eq-8-AQ-2", "Par-Eq-8-AQ-3", "Par-Eq-8-AQ-4"]),
+      ...asWorked("Par86722"),
+      ...asGuided("Par56885"),
+      practice: asPractice(["Par83095", "Par90556"]),
+      additionalPractice: asAdditional(["Par19540", "Par37365", "Par58404", "Par11142"]),
     },
  
     // Problem 9
     {
-      ...asWorked("Par-Eq-9-E-1"),
-      ...asGuided("Par-Eq-9-GP-1"),
-      practice: asPractice(["Par-Eq-9-Q-1", "Par-Eq-9-Q-2"]),
+      ...asWorked("Par37276"),
+      ...asGuided("Par20312"),
+      practice: asPractice(["Par60053", "Par30945"]),
       additionalPractice: asAdditional([]),
     },
  
     // Problem 10
     {
-      ...asWorked("Par-Eq-10-E-1"),
-      ...asGuided("Par-Eq-10-GP-1"),
-      practice: asPractice(["Par-Eq-10-Q-1", "Par-Eq-10-Q-2"]),
+      ...asWorked("Par24387-1"),
+      ...asGuided("Par52038"),
+      practice: asPractice(["Par90372", "Par79932"]),
       additionalPractice: asAdditional([]),
     },
  

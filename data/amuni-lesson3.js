@@ -4,11 +4,11 @@ const amuniLesson3 = {
   name: "DDCUS-A Lesson 3",
   problems: asClassroom([
 
-    "Par-Eq-9-Q-1",
-    "Par-Eq-9-Q-2",
-    "Par-Eq-10-GP-1",
-    "Par-Eq-10-Q-1",
-    "Par-Eq-10-Q-2",
+    "Par60053",
+    "Par30945",
+    "Par52038",
+    "Par90372",
+    "Par79932",
     "Par-Eq-15-E-1",
     "Par-Eq-16-E-1",
     "Par-Eq-16-GP-1",

@@ -2022,7 +2022,7 @@ export const questions = [
     tags: [],
     text: `The function \\(g\\) is defined by
             <p class="eq"> \\( g(x)=4\\left(x+\\frac{1}{3}\\right)^2+\\frac{5}{2} \\) </p>
-            What is the value of \\( g(\\frac{1}{6}) \\)? </p>
+            What is the value of \\( g(\\frac{1}{6}) \\)?
         <div class="mc-choices">
         <div class="mc-choice">
         <span class="mc-label">A</span>
@@ -2078,7 +2078,7 @@ export const questions = [
     tags: [],
     text: `The function \\(h\\) is defined by
                 <p class="eq"> \\( h(x)=8(x-\\frac{1}{4})^2+\\frac{11}{6} \\) </p>
-                What is the value of \\(h(\\frac{5}{6}) \\)? </p>
+                What is the value of \\(h(\\frac{5}{6}) \\)? 
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -2106,7 +2106,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-7-AQ-1",
+    id: "Par71962",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 7,
@@ -2128,7 +2128,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-7-AQ-2",
+    id: "Par27418",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 7,
@@ -2150,7 +2150,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-7-AQ-3",
+    id: "Par89206",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 7,
@@ -2172,7 +2172,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-7-AQ-4",
+    id: "Par77590",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 7,
@@ -2194,7 +2194,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-8-E-1",
+    id: "Par86722",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 8,
@@ -2246,7 +2246,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-8-GP-1",
+    id: "Par56885",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 8,
@@ -2296,7 +2296,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-8-Q-1",
+    id: "Par83095",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 8,
@@ -2333,7 +2333,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-8-Q-2",
+    id: "Par90556",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 8,
@@ -2370,7 +2370,7 @@ export const questions = [
   },
 
     {
-        id: "Par-Eq-8-AQ-1",
+        id: "Par19540",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 8,
@@ -2410,7 +2410,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-8-AQ-2",
+        id: "Par37365",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 8,
@@ -2450,7 +2450,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-8-AQ-3",
+        id: "Par58404",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 8,
@@ -2490,7 +2490,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-8-AQ-4",
+        id: "Par11142",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 8,
@@ -2530,7 +2530,7 @@ export const questions = [
     },
 
     {
-    id: "Par-Eq-9-E-1",
+    id: "Par37276",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 9,
@@ -2565,7 +2565,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-9-GP-1",
+    id: "Par20312",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 9,
@@ -2598,7 +2598,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-9-Q-1",
+    id: "Par60053",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 9,
@@ -2618,7 +2618,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-9-Q-2",
+    id: "Par30945",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 9,
@@ -2656,7 +2656,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-10-E-1",
+    id: "Par24387",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 10,
@@ -2715,7 +2715,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-10-GP-1",
+    id: "Par52038",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 10,
@@ -2771,7 +2771,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-10-Q-1",
+    id: "Par90372",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 10,
@@ -2808,7 +2808,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-10-Q-2",
+    id: "Par79932",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 10,
@@ -21427,6 +21427,1306 @@ export const questions = [
     steps: [],
     screenshot: "",
     videoId: "",
+  },
+
+   {
+    id: "Par43269",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 7,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = 6\\left(x - \\frac{2}{5}\\right)^2 + \\frac{7}{3}. \\)</p>
+    <p>What is the value of</p>
+    <p class="eq">
+      \\( f\\left(\\frac{7}{10}\\right)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{19}{6} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{431}{150} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{91}{30} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{47}{15} \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the function \\(f(x)\\) into Desmos`,
+        note: "",
+        gif: "",
+        answer: "B",
+        video: ""
+      },
+      {
+        text: `Plug in \\( \\frac{7}{10} \\) into the function in Desmos`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: "Match the value the function returns to an answer choice",
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par60427",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 7,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = 4\\left(x + \\frac{1}{3}\\right)^2 + \\frac{5}{2}. \\)</p>
+    <p>What is the value of</p>
+    <p class="eq">
+      \\( g\\left(\\frac{1}{6}\\right)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{10}{3} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{19}{6} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{7}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{23}{6} \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the function \\(g(x)\\) into Desmos`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Plug in \\( \\frac{1}{6} \\) into Desmos`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Match the value Desmos returns to an answer choice",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par71314",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(h\\) is defined by</p>
+    <p class="eq">
+      \\( h(x) = 8\\left(x - \\frac{1}{4}\\right)^2 + \\frac{11}{6}. \\)</p>
+    <p>What is the value of</p>
+    <p class="eq">
+      \\( h\\left(\\frac{5}{6}\\right)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{37}{9} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{41}{9} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{43}{9} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{47}{9} \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par37512",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = 12\\left(x - \\frac{1}{6}\\right)^2 + \\frac{7}{5}. \\)</p>
+    <p>What is the value of</p>
+    <p class="eq">
+      \\( g\\left(\\frac{2}{3}\\right)? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{17}{5} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{19}{5} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{22}{5} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{24}{5} \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par85149",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = 4\\left(\\frac{1}{2}x^2 + 3x - 8\\right) + 5. \\)</p>
+    <p>For which value of \\(x\\) is \\(f(x) = 5\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-4\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(4\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par63493",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(h\\) is defined by</p>
+    <p class="eq">
+      \\( h(x) = 3\\left(\\frac{2}{3}x^2 - 5x + 6\\right) - 4. \\)</p>
+    <p>For which value of \\(x\\) is \\(h(x) = -4\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{3}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(8\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par18696",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(p\\) is defined by</p>
+    <p class="eq">
+      \\( p(x) = 6\\left(\\frac{3}{8}x^2 + 2x - 8\\right) + 7. \\)</p>
+    <p>For which value of \\(x\\) is \\(p(x) = 7\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( -\\frac{8}{3} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{8}{3} \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par63076",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(k\\) is defined by</p>
+    <p class="eq">
+      \\( k(x) = 5\\left(\\frac{2}{5}x^2 - x - \\frac{3}{5}\\right) + 9. \\)</p>
+    <p>For which value of \\(x\\) is \\(k(x) = 9\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( -\\frac{1}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{1}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{3}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(2\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par68538",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 11,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>In the \\(xy\\)-plane, the points \\((n, 10)\\) and \\((m, 10)\\) lie on the graph of</p>
+    <p class="eq">
+      \\( y = 2(x - 4)^2 - 8. \\)</p>
+    <p>If \\(n < m\\), what is the value of \\(5m^2 - 4n^2\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(221\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(237\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(241\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(245\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Graph \\(y = 2(x - 4)^2 - 8\\) and the line \\(y = 10\\) in Desmos`,
+        note: "",
+        gif: "",
+        answer: "C",
+        video: ""
+      },
+      {
+        text: `Click the two intersection points to find \\(n = 1\\) and \\(m = 7\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Type \\(5(7)^2 - 4(1)^2\\) into Desmos and match the result to an answer choice`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par74150",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 11,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>In the \\(xy\\)-plane, the points \\((n, 22)\\) and \\((m, 22)\\) lie on the graph of</p>
+    <p class="eq">
+      \\( y = 3(x - 5)^2 - 5. \\)</p>
+    <p>If \\(n < m\\), what is the value of \\(7m^2 - 5n^2\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(428\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(438\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(443\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(448\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Graph \\(y = 3(x - 5)^2 - 5\\) and the line \\(y = 22\\) in Desmos`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Click the two intersection points to find \\(n\\) and \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Type \\(7m^2 - 5n^2\\) with those values into Desmos and match the result to an answer choice`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par71454",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 11,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>In the \\(xy\\)-plane, the points \\((n, 29)\\) and \\((m, 29)\\) lie on the graph of</p>
+    <p class="eq">
+      \\( y = 2(x - 6)^2 - 3. \\)</p>
+    <p>If \\(n < m\\), what is the value of \\(6m^2 - 5n^2\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(534\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(580\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(544\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(549\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par85686",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 11,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>In the \\(xy\\)-plane, the points \\((n, 32)\\) and \\((m, 32)\\) lie on the graph of</p>
+    <p class="eq">
+      \\( y = 4(x - 7)^2 - 4. \\)</p>
+    <p>If \\(n < m\\), what is the value of \\(8m^2 - 5n^2\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(755\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(765\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(720\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(785\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par46519",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>In the \\(xy\\)-plane, the points \\((n, 43)\\) and \\((m, 43)\\) lie on the graph of</p>
+    <p class="eq">
+      \\( y = 3(x - 8)^2 - 5. \\)</p>
+    <p>If \\(n < m\\), what is the value of \\(7m^2 - 4n^2\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(944\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(975\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(995\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(1{,}015\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par77978",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>In the \\(xy\\)-plane, the points \\((n, 20)\\) and \\((m, 20)\\) lie on the graph of</p>
+    <p class="eq">
+      \\( y = 5(x - 5)^2 - 25. \\)</p>
+    <p>If \\(n < m\\), what is the value of \\(9m^2 - 4n^2\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(536\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(551\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(566\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(560\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par32625",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>In the \\(xy\\)-plane, the points \\((n, 44)\\) and \\((m, 44)\\) lie on the graph of</p>
+    <p class="eq">
+      \\( y = 2(x - 9)^2 - 6. \\)</p>
+    <p>If \\(n < m\\), what is the value of \\(8m^2 - 5n^2\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(1{,}507\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(1{,}488\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(1{,}547\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(1{,}567\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par32392",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>In the \\(xy\\)-plane, the points \\((n, 68)\\) and \\((m, 68)\\) lie on the graph of</p>
+    <p class="eq">
+      \\( y = 3(x - 10)^2 - 7. \\)</p>
+    <p>If \\(n < m\\), what is the value of \\(6m^2 - 4n^2\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(1{,}346\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(1{,}366\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(1{,}386\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(1{,}250\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par58111",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = x^2 - 5x + 8. \\)</p>
+    <p>If \\(k\\) is a positive constant such that</p>
+    <p class="eq">
+      \\( g(2k) = 2g(k), \\)</p>
+    <p>what is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(1\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(8\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the function \\(g(x)\\) into Desmos`,
+        note: "",
+        gif: "",
+        answer: "B",
+        video: ""
+      },
+      {
+        text: `Type \\(g(2k) = 2g(k)\\) into Desmos as an equation in \\(k\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Read the positive solution from the graph and match it to an answer choice`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par85995",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(p\\) is defined by</p>
+    <p class="eq">
+      \\( p(x) = 2x^2 + 3x + 6. \\)</p>
+    <p>If \\(k\\) is a positive constant such that</p>
+    <p class="eq">
+      \\( p(3k) = 3p(k), \\)</p>
+    <p>what is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{1}{4} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{1}{2} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(1\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(2\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the function \\(p(x)\\) into Desmos`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Type \\(p(3k) = 3p(k)\\) into Desmos as an equation in \\(k\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Read the positive solution from the graph and match it to an answer choice`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par81908",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = 3x^2 - 7x + 24. \\)</p>
+    <p>If \\(k\\) is a positive constant such that</p>
+    <p class="eq">
+      \\( f(2k) = 2f(k), \\)</p>
+    <p>what is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(3\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(6\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par36327",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(h\\) is defined by</p>
+    <p class="eq">
+      \\( h(x) = 2x^2 - 3x + 16. \\)</p>
+    <p>If \\(k\\) is a positive constant such that</p>
+    <p class="eq">
+      \\( h(2k) = 2h(k), \\)</p>
+    <p>what is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{1}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(1\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{3}{2} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(2\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par51039",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(q\\) is defined by</p>
+    <p class="eq">
+      \\( q(x) = x^2 + 4x + 16. \\)</p>
+    <p>If \\(k\\) is a positive constant such that</p>
+    <p class="eq">
+      \\( q(4k) = 4q(k), \\)</p>
+    <p>what is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{1}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(1\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(4\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par16622",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(r\\) is defined by</p>
+    <p class="eq">
+      \\( r(x) = 2x^2 - 5x + 40. \\)</p>
+    <p>If \\(k\\) is a positive constant such that</p>
+    <p class="eq">
+      \\( r(5k) = 5r(k), \\)</p>
+    <p>what is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(5\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(10\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par79236",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(m\\) is defined by</p>
+    <p class="eq">
+      \\( m(x) = 3x^2 + 7x + 72. \\)</p>
+    <p>If \\(k\\) is a positive constant such that</p>
+    <p class="eq">
+      \\( m(6k) = 6m(k), \\)</p>
+    <p>what is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{1}{3} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{1}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(1\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(2\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par13713",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(w\\) is defined by</p>
+    <p class="eq">
+      \\( w(x) = 2x^2 - 9x + 144. \\)</p>
+    <p>If \\(k\\) is a positive constant such that</p>
+    <p class="eq">
+      \\( w(8k) = 8w(k), \\)</p>
+    <p>what is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(1\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(3\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(6\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par73529",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Consider the following two functions:</p>
+    <p class="eq">
+      \\( p(t) = -2(3t - 4) + 1 \\)</p>
+    <p class="eq">
+      \\( q(t) = t^2 - t + 3 \\)</p>
+    <p>For what <strong>greater value of \\(t\\)</strong> does</p>
+    <p class="eq">
+      \\( p(t) + q(t) = 2? \\)</p>`,
+    answer: "5",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the functions \\(p(t)\\) and \\(q(t)\\) into Desmos`,
+        note: "",
+        gif: "",
+        answer: "5",
+        video: ""
+      },
+      {
+        text: `Type \\(p(t) + q(t) = 2\\) into Desmos`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Read the two solutions from the graph and choose the greater one`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par54429",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Two functions are given below:</p>
+    <p class="eq">
+      \\( h(r) = -3(2r - 5) + 2 \\)</p>
+    <p class="eq">
+      \\( k(r) = r^2 - 2r + 4 \\)</p>
+    <p>For what <strong>greater value of \\(r\\)</strong> does</p>
+    <p class="eq">
+      \\( h(r) + k(r) = 6? \\)</p>`,
+    answer: "5",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the functions \\(h(r)\\) and \\(k(r)\\) into Desmos`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Type \\(h(r) + k(r) = 6\\) into Desmos`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Read the two solutions from the graph and choose the greater one`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par10520",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Consider the functions shown below:</p>
+    <p class="eq">
+      \\( m(v) = -2(3v - 5) + 4 \\)</p>
+    <p class="eq">
+      \\( n(v) = v^2 - v + 2 \\)</p>
+    <p>For what <strong>greater value of \\(v\\)</strong> does</p>
+    <p class="eq">
+      \\( m(v) + n(v) = 10? \\)</p>`,
+    answer: "6",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par77355",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Let \\(R\\) and \\(S\\) be the functions shown below:</p>
+    <p class="eq">
+      \\( R(w) = -2(4w - 7) + 3 \\)</p>
+    <p class="eq">
+      \\( S(w) = w^2 - w + 5 \\)</p>
+    <p>For what <strong>greater value of \\(w\\)</strong> does</p>
+    <p class="eq">
+      \\( R(w) + S(w) = 8? \\)</p>`,
+    answer: "7",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par47530",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Consider the following two functions:</p>
+    <p class="eq">
+      \\( f(x) = -2(3x - 7) + 3 \\)</p>
+    <p class="eq">
+      \\( g(x) = x^2 - 2x + 4 \\)</p>
+    <p>For what <strong>greater value of \\(x\\)</strong> does</p>
+    <p class="eq">
+      \\( f(x) + g(x) = 9? \\)</p>`,
+    answer: "6",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par94360",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Two functions are given below:</p>
+    <p class="eq">
+      \\( p(t) = -3(2t - 4) + 5 \\)</p>
+    <p class="eq">
+      \\( q(t) = t^2 - t + 6 \\)</p>
+    <p>For what <strong>greater value of \\(t\\)</strong> does</p>
+    <p class="eq">
+      \\( p(t) + q(t) = 23? \\)</p>`,
+    answer: "7",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par11759",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Consider the functions shown below:</p>
+    <p class="eq">
+      \\( h(r) = -2(4r - 9) + 1 \\)</p>
+    <p class="eq">
+      \\( k(r) = r^2 - 3r + 5 \\)</p>
+    <p>For what <strong>greater value of \\(r\\)</strong> does</p>
+    <p class="eq">
+      \\( h(r) + k(r) = 24? \\)</p>`,
+    answer: "11",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par35467",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Let \\(M\\) and \\(N\\) be the functions shown below:</p>
+    <p class="eq">
+      \\( M(w) = -3(3w - 5) + 2 \\)</p>
+    <p class="eq">
+      \\( N(w) = w^2 - 2w + 7 \\)</p>
+    <p>For what <strong>greater value of \\(w\\)</strong> does</p>
+    <p class="eq">
+      \\( M(w) + N(w) = 24? \\)</p>`,
+    answer: "11",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
   },
 
 

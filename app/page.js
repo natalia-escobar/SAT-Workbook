@@ -43,7 +43,7 @@ export default function Home() {
       </h1>
 
       <Collapsible title="Parabola" defaultOpen={false}>
-        <Collapsible title="Equivalent to" defaultOpen={false}>
+        <Collapsible title="Equivalent to & Evaluating a Function" defaultOpen={false}>
           <Link
             href="/workbook/parabola/equivalent-to/simple-equivalent-to"
             style={{
@@ -55,7 +55,20 @@ export default function Home() {
               color: "#1a1a1a",
             }}
           >
-            <div style={{ fontSize: "16px", fontWeight: 600 }}>Basic Equivalent to & Evaluating a Function</div>
+            <div style={{ fontSize: "16px", fontWeight: 600 }}>Basic Equivalent to</div>
+          </Link>
+          <Link
+            href="/workbook/parabola/equivalent-to/evaluating-a-function"
+            style={{
+              display: "block",
+              padding: "16px 20px",
+              border: "0.5px solid #e0e0de",
+              borderRadius: "10px",
+              textDecoration: "none",
+              color: "#1a1a1a",
+            }}
+          >
+            <div style={{ fontSize: "16px", fontWeight: 600 }}>Evaluating a Function</div>
           </Link>
         </Collapsible>
         <Collapsible title="Simple Graphing, X-Intercept, & Y-Intercept" defaultOpen={false}>
