@@ -23564,5 +23564,222 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par18744",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 14,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The total cost \\(C\\), in dollars, of producing \\(x\\) custom signs is modeled by</p>
+    <p class="eq">
+      \\( C = mx^2 + 18x + 250, \\)</p>
+    <p>where \\(m\\) is the additional production-cost factor.</p>
+    <p>When \\(20\\) signs are produced, the total cost is \\(\\$1{,}410\\).</p>
+    <p>According to the model, what is the total cost of producing <strong>\\(30\\) signs</strong>?</p>`,
+    answer: "2590",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare \\(C(x) = mx^2 + 18x + 250\\) into Desmos, leaving \\(m\\) as a variable`,
+        note: "",
+        gif: "",
+        answer: "2590",
+        video: ""
+      },
+      {
+        text: `Type \\(C(20) = 1410\\) into Desmos to solve for \\(m\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Set \\(m\\) to that value, then type \\(C(30)\\) into Desmos and read the result`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par99940",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 14,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The stopping distance \\(D\\), in feet, of a vehicle traveling at a speed of \\(v\\) is modeled by</p>
+    <p class="eq">
+      \\( D = rv^2 + 20, \\)</p>
+    <p>where \\(r\\) is the road-condition factor.</p>
+    <p>When the vehicle's speed is \\(10\\), its stopping distance is \\(170\\) feet.</p>
+    <p>According to the model, what is the stopping distance when the vehicle's speed is <strong>\\(14\\)</strong>?</p>`,
+    answer: "314",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare \\(D(v) = rv^2 + 20\\) into Desmos, leaving \\(r\\) as a variable`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Type \\(D(10) = 170\\) into Desmos to solve for \\(r\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set \\(r\\) to that value, then type \\(D(14)\\) into Desmos and read the result`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par11274",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 14,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The amount \\(E\\), in kilowatt-hours, of energy used by a machine after operating for \\(t\\) hours is modeled by</p>
+    <p class="eq">
+      \\( E = pt^2 + 6t, \\)</p>
+    <p>where \\(p\\) is the machine's power factor.</p>
+    <p>When the machine operates for \\(4\\) hours, it uses \\(64\\) kilowatt-hours of energy.</p>
+    <p>According to the model, how many kilowatt-hours of energy will the machine use after operating for <strong>\\(6\\) hours</strong>?</p>`,
+    answer: "126",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par63006",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 14,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The revenue \\(R\\), in dollars, from selling \\(x\\) tickets to an event is modeled by</p>
+    <p class="eq">
+      \\( R = -2x^2 + qx, \\)</p>
+    <p>where \\(q\\) is the initial revenue-per-ticket parameter.</p>
+    <p>When \\(20\\) tickets are sold, the revenue is \\(\\$1{,}200\\).</p>
+    <p>According to the model, what is the revenue when <strong>\\(30\\) tickets</strong> are sold?</p>`,
+    answer: "1200",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par78227",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The height \\(H\\), in centimeters, of a plant \\(t\\) weeks after it is first measured is modeled by</p>
+    <p class="eq">
+      \\( H = gt^2 + 4t + 15, \\)</p>
+    <p>where \\(g\\) is the plant's growth factor.</p>
+    <p>After \\(5\\) weeks, the plant is \\(85\\) centimeters tall.</p>
+    <p>According to the model, what will the plant's height be after <strong>\\(8\\) weeks</strong>?</p>`,
+    answer: "175",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par40944",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The amount \\(F\\), in gallons, of fuel consumed by a delivery vehicle after being driven for \\(t\\) hours is modeled by</p>
+    <p class="eq">
+      \\( F = dt^2 + 3t + 8, \\)</p>
+    <p>where \\(d\\) is the vehicle's fuel-consumption factor.</p>
+    <p>After \\(6\\) hours, the vehicle has consumed \\(62\\) gallons of fuel.</p>
+    <p>According to the model, how many gallons of fuel will the vehicle have consumed after <strong>\\(9\\) hours</strong>?</p>`,
+    answer: "116",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par31218",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The number \\(N\\) of bacteria in a laboratory culture \\(t\\) hours after an experiment begins is modeled by</p>
+    <p class="eq">
+      \\( N = kt^2 + 120, \\)</p>
+    <p>where \\(k\\) is the culture's growth constant.</p>
+    <p>After \\(4\\) hours, there are \\(520\\) bacteria in the culture.</p>
+    <p>According to the model, how many bacteria will be in the culture after <strong>\\(7\\) hours</strong>?</p>`,
+    answer: "1345",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par31516",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The distance \\(D\\), in meters, traveled by a small boat after \\(t\\) seconds is modeled by</p>
+    <p class="eq">
+      \\( D = at^2 + 8t, \\)</p>
+    <p>where \\(a\\) is the boat's acceleration factor.</p>
+    <p>After \\(5\\) seconds, the boat has traveled \\(90\\) meters.</p>
+    <p>According to the model, how far will the boat have traveled after <strong>\\(12\\) seconds</strong>?</p>`,
+    answer: "384",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
 
 ];
