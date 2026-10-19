@@ -79,7 +79,7 @@ const equivalentTo = {
  
     // Problem 10
     {
-      ...asWorked("Par24387-1"),
+      ...asWorked("Par24387"),
       ...asGuided("Par52038"),
       practice: asPractice(["Par90372", "Par79932"]),
       additionalPractice: asAdditional([]),
