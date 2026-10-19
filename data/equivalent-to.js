@@ -3,6 +3,7 @@ import { asWorked, asGuided, asPractice, asAdditional } from "@/lib/questions";
 const equivalentTo = {
   icon: "ti-line",
   name: "Parabola",
+  lesson: "Equivalent To",
   meta: "",
   workedProblems: [
     // Problem 1

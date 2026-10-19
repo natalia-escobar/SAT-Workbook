@@ -53,6 +53,7 @@ export default function Home() {
               borderRadius: "10px",
               textDecoration: "none",
               color: "#1a1a1a",
+              marginTop: "8px",
             }}
           >
             <div style={{ fontSize: "16px", fontWeight: 600 }}>Basic Equivalent to</div>
@@ -66,6 +67,7 @@ export default function Home() {
               borderRadius: "10px",
               textDecoration: "none",
               color: "#1a1a1a",
+              marginTop: "8px",
             }}
           >
             <div style={{ fontSize: "16px", fontWeight: 600 }}>Evaluating a Function</div>

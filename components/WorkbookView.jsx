@@ -249,8 +249,12 @@ export default function WorkbookView({ topic }) {
         All workbooks
       </Link>
       <SignOutButton />
-      <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "16px" }}>{topic.name}</h1>
-      <HowThisWorks />
+      <div style={{ marginBottom: "16px" }}>
+        <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "4px" }}>{topic.name}</h1>
+        {topic.lesson && <p style={{ fontSize: "15px", color: "#555", margin: 0 }}>{topic.lesson}</p>}
+      </div>
+      {/* <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "16px" }}>{topic.name}</h1> */}
+      {/* <HowThisWorks /> */}
       <ProblemNav problemIndex={problemIndex} total={total} setProblemIndex={setProblemIndex} showIds={showIds} isFirst={isFirst} isLast={isLast} />
 
       <SectionAccordion icon="ti-book" title="Worked example" defaultOpen={true} key={`we-${problemIndex}`}>

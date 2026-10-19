@@ -1,7 +1,8 @@
 import { asWorked, asGuided, asPractice, asAdditional } from "@/lib/questions";
 
 const xIntercept = {
-    name: "X-Intercept",
+    name: "Parabola",
+    lesson: "X-Intercept",
     workedProblems: [
     
     // Problem 1

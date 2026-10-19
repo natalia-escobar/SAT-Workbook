@@ -1,7 +1,8 @@
 import { asWorked, asGuided, asPractice, asAdditional } from "@/lib/questions";
 
 const simpleGraphing = {
-  name: "Simple Graphing",
+  name: "Parabola",
+  lesson: "Simple Graphing",
   workedProblems: [
     // Problem 1
     {

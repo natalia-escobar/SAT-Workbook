@@ -3,6 +3,7 @@ import { asWorked, asGuided, asPractice, asAdditional } from "@/lib/questions";
 const evaluatingAFunction = {
   icon: "ti-line",
   name: "Parabola",
+  lesson: "Evaluating a Function",
   meta: "",
   workedProblems: [
     // Problem 1

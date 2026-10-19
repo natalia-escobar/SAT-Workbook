@@ -1,7 +1,8 @@
 import { asWorked, asGuided, asPractice, asAdditional } from "@/lib/questions";
 
 const vertex = {
-  name: "Vertex",
+  name: "Parabola",
+  lesson: "Vertex",
   workedProblems: [
 
     // Problem 1
