@@ -23363,5 +23363,206 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par80304",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = (x + 5)(t - 2x) + 3, \\)</p>
+    <p>where \\(t\\) is a constant. In the \\(xy\\)-plane, the graph of \\(y = g(x)\\) passes through the point \\((4, 39)\\). What is the value of \\(g(2)\\)?</p>`,
+    answer: "59",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the function \\(g(x)\\) into Desmos, leaving \\(t\\) as a variable`,
+        note: "",
+        gif: "",
+        answer: "59",
+        video: ""
+      },
+      {
+        text: `Type \\(g(4) = 39\\) into Desmos to solve for \\(t\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Set \\(t\\) to that value, then type \\(g(2)\\) into Desmos and read the result`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par78209",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(h\\) is defined by</p>
+    <p class="eq">
+      \\( h(x) = (2x - 3)(t + x) - 4, \\)</p>
+    <p>where \\(t\\) is a constant. In the \\(xy\\)-plane, the graph of \\(y = h(x)\\) passes through the point \\((5, 87)\\). What is the value of \\(h(2)\\)?</p>`,
+    answer: "6",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the function \\(h(x)\\) into Desmos, leaving \\(t\\) as a variable`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Type \\(h(5) = 87\\) into Desmos to solve for \\(t\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set \\(t\\) to that value, then type \\(h(2)\\) into Desmos and read the result`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par98140",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(p\\) is defined by</p>
+    <p class="eq">
+      \\( p(x) = (x - 6)(t - 3x) + 5, \\)</p>
+    <p>where \\(t\\) is a constant. In the \\(xy\\)-plane, the graph of \\(y = p(x)\\) passes through the point \\((2, -19)\\). What is the value of \\(p(4)\\)?</p>`,
+    answer: "5",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par22526",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = (x + 2)(2t - x) - 7, \\)</p>
+    <p>where \\(t\\) is a constant. In the \\(xy\\)-plane, the graph of \\(y = f(x)\\) passes through the point \\((3, 48)\\). What is the value of \\(f(1)\\)?</p>`,
+    answer: "32",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par95861",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(k\\) is defined by</p>
+    <p class="eq">
+      \\( k(x) = (3x + 1)(t - x) + 2, \\)</p>
+    <p>where \\(t\\) is a constant. In the \\(xy\\)-plane, the graph of \\(y = k(x)\\) passes through the point \\((2, 37)\\). What is the value of \\(k(4)\\)?</p>`,
+    answer: "41",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par78949",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(r\\) is defined by</p>
+    <p class="eq">
+      \\( r(x) = (x - 1)(t + 2x) - 6, \\)</p>
+    <p>where \\(t\\) is a constant. In the \\(xy\\)-plane, the graph of \\(y = r(x)\\) passes through the point \\((5, 58)\\). What is the value of \\(r(3)\\)?</p>`,
+    answer: "18",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par55001",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(q\\) is defined by</p>
+    <p class="eq">
+      \\( q(x) = (2x + 5)(t - x) + 1, \\)</p>
+    <p>where \\(t\\) is a constant. In the \\(xy\\)-plane, the graph of \\(y = q(x)\\) passes through the point \\((3, 45)\\). What is the value of \\(q(1)\\)?</p>`,
+    answer: "43",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par81069",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(m\\) is defined by</p>
+    <p class="eq">
+      \\( m(x) = (x + 4)(t + 3x) - 2, \\)</p>
+    <p>where \\(t\\) is a constant. In the \\(xy\\)-plane, the graph of \\(y = m(x)\\) passes through the point \\((2, 64)\\). What is the value of \\(m(5)\\)?</p>`,
+    answer: "178",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
 
 ];

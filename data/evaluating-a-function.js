@@ -77,6 +77,14 @@ const evaluatingAFunction = {
       additionalPractice: asAdditional(["Par74774", "Par61753", "Par73308", "Par17403"]),
     },
 
+     // Problem 10
+    {
+      ...asWorked("Par80304"),
+      ...asGuided("Par78209"),
+      practice: asPractice(["Par98140", "Par22526"]),
+      additionalPractice: asAdditional(["Par95861","Par78949", "Par55001", "Par81069"]),
+    },
+
     ],
 };
 
