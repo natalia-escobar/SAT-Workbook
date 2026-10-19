@@ -52,6 +52,31 @@ const evaluatingAFunction = {
       practice: asPractice(["Par10520", "Par77355"]),
       additionalPractice: asAdditional(["Par47530", "Par94360", "Par11759", "Par35467"]),
     },
+
+     // Problem 7
+    {
+      ...asWorked("Par74071"),
+      ...asGuided("Par64671"),
+      practice: asPractice(["Par74482"]),
+      additionalPractice: asAdditional(["Par95517", "Par42701"]),
+    },
+
+     // Problem 8
+    {
+      ...asWorked("Par37276"),
+      ...asGuided("Par20312"),
+      practice: asPractice(["Par60053", "Par30945"]),
+      additionalPractice: asAdditional(["Par13174", "Par81973", "Par67383", "Par92944"]),
+    },
+
+     // Problem 9
+    {
+      ...asWorked("Par67448"),
+      ...asGuided("Par98677"),
+      practice: asPractice(["Par84367", "Par34187"]),
+      additionalPractice: asAdditional(["Par74774", "Par61753", "Par73308", "Par17403"]),
+    },
+
     ],
 };
 

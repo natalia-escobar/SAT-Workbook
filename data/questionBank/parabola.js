@@ -2632,19 +2632,19 @@ export const questions = [
             <div class="mc-choices">
             <div class="mc-choice">
             <span class="mc-label">A</span>
-            <span>Weeks 3 and 4</span>
+            <span>Weeks \\(3\\) and \\(4\\)</span>
             </div>
             <div class="mc-choice">
             <span class="mc-label">B</span>
-            <span>Weeks 4 and 5</span>
+            <span>Weeks \\(4\\) and \\(5\\)</span>
             </div>
             <div class="mc-choice">
             <span class="mc-label">C</span>
-            <span>Weeks 5 and 6</span>
+            <span>Weeks \\(5\\) and \\(6\\)</span>
             </div>
             <div class="mc-choice correct">
             <span class="mc-label">D</span>
-            <span>Weeks 6 and 7</span>
+            <span>Weeks \\(6\\) and \\(7\\)</span>
             </div>
             </div>`,
     answer: "D",
@@ -22722,6 +22722,640 @@ export const questions = [
     <p class="eq">
       \\( M(w) + N(w) = 24? \\)</p>`,
     answer: "11",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par74071",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 8,
+    questionType: "WE",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The number of customers at a recreational facility is modeled by</p>
+    <p class="eq">
+      \\( C(t) = -2.5t^2 + 48t + 120, \\)</p>
+    <p>where \\(t\\) is the number of hours after the facility opens.</p>
+    <p>According to the model, how many customers are at the facility <strong>6 hours after it opens</strong>?</p>`,
+    answer: "318",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the function \\(C(t)\\) into Desmos`,
+        note: "",
+        gif: "",
+        answer: "318",
+        video: ""
+      },
+      {
+        text: `Plug in \\(6\\) for \\(t\\) by typing \\(C(6)\\) into Desmos`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Read the value Desmos returns`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par64671",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 8,
+    questionType: "GP",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The height \\(h(t)\\), in feet, of a ball \\(t\\) seconds after it is thrown is modeled by</p>
+    <p class="eq">
+      \\( h(t) = -16t^2 + 72t + 5. \\)</p>
+    <p>What is the predicted height of the ball <strong>3 seconds after it is thrown</strong>?</p>`,
+    answer: "77",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the function \\(h(t)\\) into Desmos`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Plug in \\(3\\) for \\(t\\) by typing \\(h(3)\\) into Desmos`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Read the value Desmos returns`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par74482",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 8,
+    questionType: "PR",
+    difficulty: 1,
+    tags: [],
+    text: `<p>A company's monthly revenue, in thousands of dollars, is modeled by</p>
+    <p class="eq">
+      \\( R(x) = 1.25x^2 + 6.5x + 42, \\)</p>
+    <p>where \\(x\\) represents the number of months after January.</p>
+    <p>According to the model, what is the company's predicted monthly revenue <strong>5 months after January</strong>, in thousands of dollars?</p>`,
+    answer: "105.75",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par95517",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The temperature \\(T(t)\\), in degrees Fahrenheit, of a substance is modeled by</p>
+    <p class="eq">
+      \\( T(t) = 0.8t^2 - 9.6t + 75, \\)</p>
+    <p>where \\(t\\) represents the number of minutes after an experiment begins.</p>
+    <p>What temperature does the model predict <strong>4 minutes after the experiment begins</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(46.4^\\circ\\text{F}\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(49.4^\\circ\\text{F}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(52.8^\\circ\\text{F}\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(59.4^\\circ\\text{F}\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par42701",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The number of bacteria, in thousands, in a laboratory sample is modeled by</p>
+    <p class="eq">
+      \\( B(t) = 3.5t^2 + 12t + 80, \\)</p>
+    <p>where \\(t\\) is the number of hours after the sample is prepared.</p>
+    <p>According to the model, what is the predicted number of bacteria <strong>2 hours after the sample is prepared</strong>, in thousands?</p>`,
+    answer: "118",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par13174",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The temperature \\(T(t)\\), in degrees Celsius, inside a storage facility is modeled by</p>
+    <p class="eq">
+      \\( T(t) = 0.25t^2 - 3t + 18, \\)</p>
+    <p>where \\(t\\) represents the number of hours after \\(8{:}00\\) a.m.</p>
+    <p>According to the model, what is the <strong>absolute difference in temperature between \\(10{:}00\\) a.m. and \\(2{:}00\\) p.m.</strong>?</p>`,
+    answer: "4",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par81973",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The number of customers, in hundreds, expected to visit a store is modeled by</p>
+    <p class="eq">
+      \\( C(t) = -1.5t^2 + 18t + 240, \\)</p>
+    <p>where \\(t\\) is the number of years after \\(2020\\).</p>
+    <p>According to the model, <strong>how many more hundreds of customers</strong> are expected in \\(2026\\) than in \\(2023\\)?</p>`,
+    answer: "13.5",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par67383",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The annual revenue of a company, in thousands of dollars, is modeled by</p>
+    <p class="eq">
+      \\( R(t) = -2t^2 + 24t + 150, \\)</p>
+    <p>where \\(t\\) is the number of years after \\(2020\\).</p>
+    <p>According to the model, by how many <strong>thousand dollars does the annual revenue decrease</strong> from \\(2027\\) to \\(2029\\)?</p>`,
+    answer: "16",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par92944",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The height of a plant, in centimeters, is modeled by</p>
+    <p class="eq">
+      \\( h(t) = -0.6t^2 + 8.4t + 12, \\)</p>
+    <p>where \\(t\\) is measured in weeks.</p>
+    <p>Between which two consecutive weeks is the <strong>greatest increase</strong> in height predicted?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>Weeks \\(2\\) and \\(3\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>Weeks \\(4\\) and \\(5\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>Weeks \\(6\\) and \\(7\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>Weeks \\(8\\) and \\(9\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par67448",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( f(x) = 3x(x - 4) + px + 5, \\)</p>
+    <p>where \\(p\\) is a constant, and</p>
+    <p class="eq">
+      \\( f(2) = 11, \\)</p>
+    <p>what is the value of \\(p\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(5\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(11\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the function \\(f(x)\\) into Desmos, leaving \\(p\\) as a variable`,
+        note: "",
+        gif: "",
+        answer: "C",
+        video: ""
+      },
+      {
+        text: `Type \\(f(2) = 11\\) into Desmos to get an equation in \\(p\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Read the value of \\(p\\) and match it to an answer choice`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par98677",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( g(x) = 4x(x + 1) - mx + 2, \\)</p>
+    <p>where \\(m\\) is a constant, and</p>
+    <p class="eq">
+      \\( g(3) = 50, \\)</p>
+    <p>what is the value of \\(m\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-2\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(0\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(4\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare the function \\(g(x)\\) into Desmos, leaving \\(m\\) as a variable`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Type \\(g(3) = 50\\) into Desmos to get an equation in \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Read the value of \\(m\\) and match it to an answer choice`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par84367",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( h(x) = 5x(x - 2) + rx - 6, \\)</p>
+    <p>where \\(r\\) is a constant, and</p>
+    <p class="eq">
+      \\( h(4) = 90, \\)</p>
+    <p>what is the value of \\(r\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(10\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(12\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(14\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(16\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par34187",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( q(x) = 2x(x + 5) - tx + 7, \\)</p>
+    <p>where \\(t\\) is a constant, and</p>
+    <p class="eq">
+      \\( q(1) = 15, \\)</p>
+    <p>what is the value of \\(t\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(8\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par74774",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( j(x) = 4x(x - 3) + kx + 6, \\)</p>
+    <p>where \\(k\\) is a constant, and</p>
+    <p class="eq">
+      \\( j(2) = 14, \\)</p>
+    <p>what is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(8\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(9\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par61753",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( r(x) = 3x(x + 2) - wx - 4, \\)</p>
+    <p>where \\(w\\) is a constant, and</p>
+    <p class="eq">
+      \\( r(3) = 20, \\)</p>
+    <p>what is the value of \\(w\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(5\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(11\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par73308",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( p(x) = 2x(x - 5) + sx + 3, \\)</p>
+    <p>where \\(s\\) is a constant, and</p>
+    <p class="eq">
+      \\( p(4) = 27, \\)</p>
+    <p>what is the value of \\(s\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(8\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(9\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par17403",
+    topic: "parabola",
+    subtopic: "evaluating-a-function",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( m(x) = 5x(x + 1) - vx + 8, \\)</p>
+    <p>where \\(v\\) is a constant, and</p>
+    <p class="eq">
+      \\( m(2) = 24, \\)</p>
+    <p>what is the value of \\(v\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(5\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(6\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(8\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
