@@ -5,7 +5,7 @@ export const questions = [
     // Parabola - Equivalent to
 
     {
-        id: "Par-Eq-1-E-1",
+        id: "Par47578",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 1,
@@ -55,7 +55,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-1-GP-1",
+        id: "Par84345",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 1,
@@ -105,7 +105,7 @@ export const questions = [
     },
 
     {
-    id: "Par-Eq-1-Q-1",
+    id: "Par97322",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -142,7 +142,7 @@ export const questions = [
     },
 
     {
-    id: "Par-Eq-1-Q-2",
+    id: "Par34428",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -179,7 +179,7 @@ export const questions = [
     },
     
     {
-    id: "Par-Eq-1-AQ-1",
+    id: "Par13482",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -216,7 +216,7 @@ export const questions = [
     },
 
     {
-    id: "Par-Eq-1-AQ-2",
+    id: "Par18497",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -253,7 +253,7 @@ export const questions = [
     },
     
     {
-    id: "Par-Eq-1-AQ-3",
+    id: "Par14316",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -290,7 +290,7 @@ export const questions = [
     },
 
     {
-    id: "Par-Eq-1-AQ-4",
+    id: "Par22227",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -327,7 +327,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-1-AQ-5",
+    id: "Par52481",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 1,
@@ -364,7 +364,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-2-E-1",
+    id: "Par16040",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -413,7 +413,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-2-GP-1",
+    id: "Par26171",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -462,7 +462,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-2-Q-1",
+    id: "Par43497",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -498,7 +498,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-2-Q-2",
+    id: "Par46291",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -534,7 +534,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-2-AQ-1",
+    id: "Par57863",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -570,7 +570,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-2-AQ-2",
+    id: "Par98999",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -606,7 +606,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-2-AQ-3",
+    id: "Par86518",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -642,7 +642,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-2-AQ-4",
+    id: "Par17312",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 2,
@@ -678,7 +678,7 @@ export const questions = [
     },
 
     {
-    id: "Par-Eq-3-E-1",
+    id: "Par72859",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -727,7 +727,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-3-GP-1",
+    id: "Par34836",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -776,7 +776,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-3-Q-1",
+    id: "Par85171",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -812,7 +812,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-3-Q-2",
+    id: "Par64191",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -848,7 +848,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-3-AQ-1",
+    id: "Par61106",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -884,7 +884,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-3-AQ-2",
+    id: "Par92358",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -920,7 +920,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-3-AQ-3",
+    id: "Par59927",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -956,7 +956,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-3-AQ-4",
+    id: "Par25436",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 3,
@@ -992,7 +992,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-4-E-1",
+    id: "Par65415",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1042,7 +1042,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-4-GP-1",
+    id: "Par26630",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1092,7 +1092,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-4-Q-1",
+    id: "Par35369",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1129,7 +1129,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-4-Q-2",
+    id: "Par54671",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1166,7 +1166,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-4-AQ-1",
+    id: "Par42843",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1204,7 +1204,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-4-AQ-2",
+    id: "Par82284",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1242,7 +1242,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-4-AQ-3",
+    id: "Par86589",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1280,7 +1280,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-4-AQ-4",
+    id: "Par32734",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 4,
@@ -1318,7 +1318,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-5-E-1",
+    id: "Par26843",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1367,7 +1367,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-5-GP-1",
+    id: "Par22864",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1416,7 +1416,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-5-Q-1",
+    id: "Par33760",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1452,7 +1452,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-5-Q-2",
+    id: "Par49894",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1488,7 +1488,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-5-AQ-1",
+    id: "Par80549",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1525,7 +1525,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-5-AQ-2",
+    id: "Par49414",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1562,7 +1562,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-5-AQ-3",
+    id: "Par96191",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1599,7 +1599,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-5-AQ-4",
+    id: "Par57995",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 5,
@@ -1636,7 +1636,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-6-E-1",
+    id: "Par40565",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1685,7 +1685,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-6-GP-1",
+    id: "Par54381",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1734,7 +1734,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-6-Q-1",
+    id: "Par19309",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1770,7 +1770,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-6-Q-2",
+    id: "Par88665",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1806,7 +1806,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-6-AQ-1",
+    id: "Par39967",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1843,7 +1843,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-6-AQ-2",
+    id: "Par69024",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1880,7 +1880,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-6-AQ-3",
+    id: "Par55541",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -1917,7 +1917,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-6-AQ-4",
+    id: "Par68384",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 6,
@@ -2845,7 +2845,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-11-E-1",
+    id: "Par40686",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -2899,7 +2899,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-11-GP-1",
+    id: "Par95721",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -2954,7 +2954,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-11-Q-1",
+    id: "Par10777",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -2990,7 +2990,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-11-Q-2",
+    id: "Par44336",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -3026,7 +3026,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-11-AQ-1",
+    id: "Par80238",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -3063,7 +3063,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-11-AQ-2",
+    id: "Par11838",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -3100,7 +3100,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-11-AQ-3",
+    id: "Par62698",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -3137,7 +3137,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-11-AQ-4",
+    id: "Par71033",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 11,
@@ -3174,7 +3174,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-12-E-1",
+    id: "Par18899",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3230,7 +3230,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-12-GP-1",
+    id: "Par46870",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3241,7 +3241,7 @@ export const questions = [
             <p class="eq">\\( y = 4x^2 - 3x^2 - 18b\\)?</p>
             is equivalent to which of the following where \\(b\\) is a positive constant?
             <div class="mc-choices">    
-                <div class="mc-choice correct">
+                <div class="mc-choice">
                   <span class="mc-label">A</span>
                   <span>\\( y = (x + \\sqrt{9b})(x - \\sqrt{9b}) \\)</span>
                 </div>
@@ -3286,7 +3286,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-12-Q-1",
+    id: "Par49745",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3323,7 +3323,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-12-Q-2",
+    id: "Par57701",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3360,7 +3360,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-12-AQ-1",
+    id: "Par79533",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3398,7 +3398,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-12-AQ-2",
+    id: "Par79870",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3436,7 +3436,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-12-AQ-3",
+    id: "Par32010",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3474,7 +3474,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-12-AQ-4",
+    id: "Par32840",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 12,
@@ -3512,7 +3512,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-13-E-1",
+    id: "Par33244",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3567,7 +3567,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-13-GP-1",
+    id: "Par76825",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3622,7 +3622,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-13-Q-1",
+    id: "Par62028",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3630,23 +3630,23 @@ export const questions = [
     difficulty: 2,
     tags: [],
     text: `Which expression is equivalent to
-        <p class="eq"> \\( (\\frac{m}{4} - 5n)^2 \\) </p>
+        <p class="eq"> \\( (\\frac{x}{4} - 5y)^2 \\) </p>
         <div class="mc-choices">
         <div class="mc-choice correct">
         <span class="mc-label">A</span>
-        <span>\\( \\frac{m^2}{16} - \\frac{5mn}{2} + 25n^2 \\)</span>
+        <span>\\( \\frac{x^2}{16} - \\frac{5xy}{2} + 25y^2 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">B</span>
-        <span>\\( \\frac{m^2}{16} - \\frac{5mn}{4} - 25n^2 \\)</span>
+        <span>\\( \\frac{x^2}{16} - \\frac{5xy}{4} + 25y^2 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">C</span>
-        <span>\\( \\frac{m^2}{8} - \\frac{5mn}{2} + 25n^2 \\)</span>
+        <span>\\( \\frac{x^2}{8} - \\frac{5xy}{2} + 25y^2 \\)</span>
         </div>
         <div class="mc-choice">
         <span class="mc-label">D</span>
-        <span>\\( \\frac{m^2}{16} + 6mn + 4n^2 \\)</span>
+        <span>\\( \\frac{x^2}{16} + \\frac{5xy}{2} + 25y^2 \\)</span>
         </div>
         </div>`,
     answer: "A",
@@ -3658,7 +3658,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-13-Q-2",
+    id: "Par86300",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3694,7 +3694,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-23-AQ-1",
+    id: "Par74005",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3736,7 +3736,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-23-AQ-2",
+    id: "Par16882",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3778,7 +3778,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-23-AQ-3",
+    id: "Par81646",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3820,7 +3820,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-23-AQ-4",
+    id: "Par87266",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 13,
@@ -3862,7 +3862,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-14-E-1",
+    id: "Par16810",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 14,
@@ -3917,7 +3917,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-14-GP-1",
+    id: "Par44530",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 14,
@@ -3972,7 +3972,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-14-Q-1",
+    id: "Par72461",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 14,
@@ -4008,7 +4008,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-14-Q-2",
+    id: "Par17090",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 14,
@@ -4044,7 +4044,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-15-E-1",
+    id: "Par43077",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4099,7 +4099,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-15-GP-1",
+    id: "Par29349",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4154,7 +4154,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-15-Q-1",
+    id: "Par18972",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4190,7 +4190,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-15-Q-2",
+    id: "Par78260",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4226,7 +4226,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-15-AQ-1",
+    id: "Par17194",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4263,7 +4263,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-15-AQ-2",
+    id: "Par52753",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4300,7 +4300,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-15-AQ-3",
+    id: "Par66094",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4337,7 +4337,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-15-AQ-4",
+    id: "Par54276",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 15,
@@ -4374,7 +4374,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-16-E-1",
+    id: "Par69449",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 16,
@@ -4440,7 +4440,7 @@ export const questions = [
   },
 
     {
-        id: "Par-Eq-16-GP-1",
+        id: "Par91371",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4506,7 +4506,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-16-Q-1",
+        id: "Par54837",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4547,7 +4547,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-16-Q-2",
+        id: "Par25151",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4588,7 +4588,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-16-AQ-1",
+        id: "Par30521",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4629,7 +4629,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-16-AQ-2",
+        id: "Par70709",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4670,7 +4670,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-16-AQ-3",
+        id: "Par88129",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4711,7 +4711,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-16-AQ-4",
+        id: "Par50831",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 16,
@@ -4752,7 +4752,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-17-E-1",
+        id: "Par17270",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -4810,7 +4810,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-17-GP-1",
+        id: "Par95266",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -4865,7 +4865,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-17-Q-1",
+        id: "Par54011",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -4901,7 +4901,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-17-Q-2",
+        id: "Par59429",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -4937,7 +4937,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-17-AQ-1",
+        id: "Par66432",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -4974,7 +4974,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-17-AQ-2",
+        id: "Par92779",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -5011,7 +5011,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-17-AQ-3",
+        id: "Par57364",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -5048,7 +5048,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-17-AQ-4",
+        id: "Par99641",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -5085,7 +5085,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-17-AQ-5",
+        id: "Par52592",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -5122,7 +5122,7 @@ export const questions = [
     },
 
     {
-        id: "Par-Eq-17-AQ-6",
+        id: "Par60867",
         topic: "parabola",
         subtopic: "equivalent-to",
         problem: 17,
@@ -5159,7 +5159,7 @@ export const questions = [
     },
 
     {
-    id: "Par-Eq-18-E-1",
+    id: "Par96844",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5221,7 +5221,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-18-GP-1",
+    id: "Par17200",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5280,7 +5280,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-18-Q-1",
+    id: "Par66508",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5320,7 +5320,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-18-Q-2",
+    id: "Par71517",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5360,7 +5360,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-18-AQ-1",
+    id: "Par50337",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5403,7 +5403,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-18-AQ-2",
+    id: "Par25867",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5446,7 +5446,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-18-AQ-3",
+    id: "Par89279",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5489,7 +5489,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-18-AQ-4",
+    id: "Par65249",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 18,
@@ -5532,7 +5532,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-19-E-1",
+    id: "Par53266",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5594,7 +5594,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-19-GP-1",
+    id: "Par67922",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5653,7 +5653,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-19-Q-1",
+    id: "Par67084",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5693,7 +5693,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-19-Q-2",
+    id: "Par32903",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5733,7 +5733,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-19-AQ-1",
+    id: "Par41558",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5776,7 +5776,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-19-AQ-2",
+    id: "Par71803",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5819,7 +5819,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-19-AQ-3",
+    id: "Par82289",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5862,7 +5862,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-19-AQ-4",
+    id: "Par75472",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 19,
@@ -5905,7 +5905,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-20-E-1",
+    id: "Par68456",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -5967,7 +5967,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-20-GP-1",
+    id: "Par14087",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6026,7 +6026,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-20-Q-1",
+    id: "Par25961",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6066,7 +6066,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-20-Q-2",
+    id: "Par73555",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6106,7 +6106,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-20-AQ-1",
+    id: "Par42821",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6149,7 +6149,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-20-AQ-2",
+    id: "Par65469",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6192,7 +6192,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-20-AQ-3",
+    id: "Par92984",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6235,7 +6235,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-20-AQ-4",
+    id: "Par12640",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 20,
@@ -6278,7 +6278,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-21-E-1",
+    id: "Par51956",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6339,7 +6339,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-21-GP-1",
+    id: "Par89744",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6397,7 +6397,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-21-Q-1",
+    id: "Par99129",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6436,7 +6436,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-21-Q-2",
+    id: "Par50242",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6475,7 +6475,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-21-AQ-1",
+    id: "Par44136",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6514,7 +6514,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-21-AQ-2",
+    id: "Par89799",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6553,7 +6553,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-21-AQ-3",
+    id: "Par81051",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6592,7 +6592,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-21-AQ-4",
+    id: "Par89917",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 21,
@@ -6631,7 +6631,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-22-E-1",
+    id: "Par32339",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6710,7 +6710,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-22-GP-1",
+    id: "Par18007",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6778,7 +6778,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-22-Q-1",
+    id: "Par22740",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6821,7 +6821,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-22-Q-2",
+    id: "Par16669",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6864,7 +6864,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-22-AQ-1",
+    id: "Par85471",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6911,7 +6911,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-22-AQ-2",
+    id: "Par84089",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -6958,7 +6958,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-22-AQ-3",
+    id: "Par49727",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -7005,7 +7005,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-22-AQ-4",
+    id: "Par97039",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 22,
@@ -7052,7 +7052,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-23-E-1",
+    id: "Par39271",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 23,
@@ -7114,7 +7114,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-23-GP-1",
+    id: "Par80999",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 23,
@@ -7173,7 +7173,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-23-Q-1",
+    id: "Par51006",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 23,
@@ -7213,7 +7213,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-23-Q-2",
+    id: "Par96661",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 23,
@@ -7253,7 +7253,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-24-E-1",
+    id: "Par83534",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7321,7 +7321,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-24-GP-1",
+    id: "Par32207",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7377,7 +7377,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-24-Q-1",
+    id: "Par36551",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7416,7 +7416,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-24-Q-2",
+    id: "Par79716",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7455,7 +7455,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-24-AQ-1",
+    id: "Par88361",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7496,7 +7496,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-24-AQ-2",
+    id: "Par90548",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7537,7 +7537,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-24-AQ-3",
+    id: "Par49292",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -7578,7 +7578,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-24-AQ-4",
+    id: "Par15341",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 24,
@@ -23777,6 +23777,420 @@ export const questions = [
     graph: null,
     graphChoices: null,
     steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par73470",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 15,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>Which expression is equivalent to</p>
+    <p class="eq">
+      \\( \\left(3r - \\frac{s}{4}\\right)^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( 9r^2 - \\frac{3rs}{2} + \\frac{s^2}{16} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 9r^2 - \\frac{3rs}{4} + \\frac{s^2}{16} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 9r^2 + \\frac{3rs}{2} + \\frac{s^2}{16} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 6r^2 - \\frac{3rs}{2} + \\frac{s^2}{16} \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par75492",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 15,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>Which expression is equivalent to</p>
+    <p class="eq">
+      \\( \\left(\\frac{5m}{3} + 2n\\right)^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{25m^2}{9} + \\frac{10mn}{3} + 4n^2 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{25m^2}{9} + \\frac{20mn}{3} + 4n^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{10m^2}{3} + \\frac{20mn}{3} + 4n^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{25m^2}{9} - \\frac{20mn}{3} + 4n^2 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par51641",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 15,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>Which expression is equivalent to</p>
+    <p class="eq">
+      \\( \\left(\\frac{p}{5} - 4q\\right)^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{p^2}{25} - \\frac{4pq}{5} + 16q^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{p^2}{5} - \\frac{8pq}{5} + 16q^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{p^2}{25} + \\frac{8pq}{5} + 16q^2 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{p^2}{25} - \\frac{8pq}{5} + 16q^2 \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par40579",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 15,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>Which expression is equivalent to</p>
+    <p class="eq">
+      \\( \\left(6a + \\frac{5b}{2}\\right)^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 36a^2 + 15ab + \\frac{25b^2}{4} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 12a^2 + 30ab + \\frac{25b^2}{4} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( 36a^2 + 30ab + \\frac{25b^2}{4} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 36a^2 - 30ab + \\frac{25b^2}{4} \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par87896",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 16,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>Which expression is equivalent to</p>
+    <p class="eq">
+      \\( 24r^2 - 36rs + 60s^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( 6(4r^2 - 6rs + 10s^2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 4(6r^2 - 6rs + 15s^2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 12(2r^2 - 3rs + 10s^2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 6(4r^2 - 3rs + 10s^2) \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par48905",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 16,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>Which expression is equivalent to</p>
+    <p class="eq">
+      \\( 35a^2 + 70ab - 105b^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 5(7a^2 + 7ab - 21b^2) \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( 7(5a^2 + 10ab - 15b^2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 5a(7a + 14b - 21b^2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 7(5a^2 + 5ab - 15b^2) \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par49277",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 16,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>Which expression is equivalent to</p>
+    <p class="eq">
+      \\( 48m^2 - 72mn + 32n^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 4(12m^2 - 9mn + 8n^2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 6(8m^2 - 12mn + 8n^2) \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( 8(6m^2 - 9mn + 4n^2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( 8m(6m - 9n + 4n^2) \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par20441",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 16,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>Which expression is equivalent to</p>
+    <p class="eq">
+      \\( 54p^2 + 90pq - 72q^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( 9(6p^2 + 5pq - 8q^2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 6(9p^2 + 10pq - 12q^2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 18(3p^2 + 5pq - 2q^2) \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( 6(9p^2 + 15pq - 12q^2) \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par45305",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 17,
+    questionType: "WE",
+    difficulty: 1,
+    tags: [],
+    text: `<p>Which expression is equivalent to</p>
+    <p class="eq">
+      \\( 25m^2 - 49n^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (5m - 7n)(5m + 7n) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (25m - 49n)(25m + 49n) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (5m - 49n)(5m + 49n) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (25m - 7n)(25m + 7n) \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `In Desmos, replace \\(n\\) with \\(1\\) and \\(m\\) with \\(x\\), then graph \\(y = 25x^2 - 49\\)`,
+        note: "",
+        gif: "",
+        answer: "A",
+        video: ""
+      },
+      {
+        text: `Graph each answer choice with the same substitution and look for the one that lies exactly on top of the original`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Confirm algebraically: \\(25m^2 - 49n^2 = (5m)^2 - (7n)^2 = (5m - 7n)(5m + 7n)\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par48618",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 18,
+    questionType: "WE",
+    difficulty: 1,
+    tags: [],
+    text: `<p>Which expression is equivalent to</p>
+    <p class="eq">
+      \\( c^2m^2 - a^2n^2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( (cm - an)(cm + an) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( (c^2m - an)(c^2m + an) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( (cm - a^2n)(cm + a^2n) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( (cm - an)^2 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Rewrite each term as a perfect square: \\(c^2m^2 = (cm)^2\\) and \\(a^2n^2 = (an)^2\\)`,
+        note: "",
+        gif: "",
+        answer: "A",
+        video: ""
+      },
+      {
+        text: `Apply the difference of squares pattern \\(p^2 - q^2 = (p - q)(p + q)\\) with \\(p = cm\\) and \\(q = an\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Check in Desmos by setting \\(a\\), \\(c\\), and \\(n\\) to simple values, replacing \\(m\\) with \\(x\\), and confirming the original and choice A graph as the same curve`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
     screenshot: "",
     videoId: ""
   },

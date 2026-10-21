@@ -8,211 +8,180 @@ const equivalentTo = {
   workedProblems: [
     // Problem 1
     {
-      ...asWorked("Par-Eq-1-E-1"),
-      ...asGuided("Par-Eq-1-GP-1"),
-      practice: asPractice(["Par-Eq-1-Q-1", "Par-Eq-1-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-1-AQ-1", "Par-Eq-1-AQ-2", "Par-Eq-1-AQ-3", "Par-Eq-1-AQ-4", "Par-Eq-1-AQ-5"]),
+      ...asWorked("Par47578"),
+      ...asGuided("Par84345"),
+      practice: asPractice(["Par97322", "Par34428"]),
+      additionalPractice: asAdditional(["Par13482", "Par18497", "Par14316", "Par22227", "Par52481"]),
     },
  
     // Problem 2
     {
-      ...asWorked("Par-Eq-2-E-1"),
-      ...asGuided("Par-Eq-2-GP-1"),
-      practice: asPractice(["Par-Eq-2-Q-1", "Par-Eq-2-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-2-AQ-1", "Par-Eq-2-AQ-2", "Par-Eq-2-AQ-3", "Par-Eq-2-AQ-4"]),
+      ...asWorked("Par16040"),
+      ...asGuided("Par26171"),
+      practice: asPractice(["Par43497", "Par46291"]),
+      additionalPractice: asAdditional(["Par57863", "Par98999", "Par86518", "Par17312"]),
     },
  
     // Problem 3
     {
-      ...asWorked("Par-Eq-3-E-1"),
-      ...asGuided("Par-Eq-3-GP-1"),
-      practice: asPractice(["Par-Eq-3-Q-1", "Par-Eq-3-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-3-AQ-1", "Par-Eq-3-AQ-2", "Par-Eq-3-AQ-3", "Par-Eq-3-AQ-4"]),
+      ...asWorked("Par72859"),
+      ...asGuided("Par34836"),
+      practice: asPractice(["Par85171", "Par64191"]),
+      additionalPractice: asAdditional(["Par61106", "Par92358", "Par59927", "Par25436"]),
     },
  
     // Problem 4
     {
-      ...asWorked("Par-Eq-4-E-1"),
-      ...asGuided("Par-Eq-4-GP-1"),
-      practice: asPractice(["Par-Eq-4-Q-1", "Par-Eq-4-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-4-AQ-1", "Par-Eq-4-AQ-2", "Par-Eq-4-AQ-3", "Par-Eq-4-AQ-4"]),
+      ...asWorked("Par40686"),
+      ...asGuided("Par95721"),
+      practice: asPractice(["Par10777", "Par44336"]),
+      additionalPractice: asAdditional(["Par80238", "Par11838", "Par62698", "Par71033"]),
     },
  
     // Problem 5
+
     {
-      ...asWorked("Par-Eq-5-E-1"),
-      ...asGuided("Par-Eq-5-GP-1"),
-      practice: asPractice(["Par-Eq-5-Q-1", "Par-Eq-5-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-5-AQ-1", "Par-Eq-5-AQ-2", "Par-Eq-5-AQ-3", "Par-Eq-5-AQ-4"]),
+      ...asWorked("Par65415"),
+      ...asGuided("Par26630"),
+      practice: asPractice(["Par35369", "Par54671"]),
+      additionalPractice: asAdditional(["Par42843", "Par82284", "Par86589", "Par32734"]),
     },
- 
+
     // Problem 6
+
     {
-      ...asWorked("Par-Eq-6-E-1"),
-      ...asGuided("Par-Eq-6-GP-1"),
-      practice: asPractice(["Par-Eq-6-Q-1", "Par-Eq-6-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-6-AQ-1", "Par-Eq-6-AQ-2", "Par-Eq-6-AQ-3", "Par-Eq-6-AQ-4"]),
+      ...asWorked("Par18899"),
+      ...asGuided("Par46870"),
+      practice: asPractice(["Par49745", "Par57701"]),
+      additionalPractice: asAdditional(["Par79533", "Par79870", "Par32010", "Par32840"]),
     },
- 
+
     // Problem 7
+
     {
-      ...asWorked("Par-Eq-7-E-1"),
-      ...asGuided("Par-Eq-7-GP-1"),
-      practice: asPractice(["Par-Eq-7-Q-1"]),
-      additionalPractice: asAdditional(["Par71962", "Par27418", "Par89206", "Par77590"]),
+      ...asWorked("Par26843"),
+      ...asGuided("Par22864"),
+      practice: asPractice(["Par33760", "Par49894"]),
+      additionalPractice: asAdditional(["Par80549", "Par49414", "Par96191", "Par57995"]),
     },
+
  
     // Problem 8
     {
-      ...asWorked("Par86722"),
-      ...asGuided("Par56885"),
-      practice: asPractice(["Par83095", "Par90556"]),
-      additionalPractice: asAdditional(["Par19540", "Par37365", "Par58404", "Par11142"]),
+      ...asWorked("Par40565"),
+      ...asGuided("Par54381"),
+      practice: asPractice(["Par19309", "Par88665"]),
+      additionalPractice: asAdditional(["Par39967", "Par69024", "Par55541", "Par68384"]),
     },
  
     // Problem 9
+
     {
-      ...asWorked("Par37276"),
-      ...asGuided("Par20312"),
-      practice: asPractice(["Par60053", "Par30945"]),
-      additionalPractice: asAdditional([]),
+      ...asWorked("Par33244"),
+      ...asGuided("Par76825"),
+      practice: asPractice(["Par62028", "Par86300"]),
+      additionalPractice: asAdditional(["Par73470","Par75492","Par51641","Par40579"]),
     },
- 
+
     // Problem 10
+
     {
-      ...asWorked("Par24387"),
-      ...asGuided("Par52038"),
-      practice: asPractice(["Par90372", "Par79932"]),
-      additionalPractice: asAdditional([]),
+      ...asWorked("Par16810"),
+      ...asGuided("Par44530"),
+      practice: asPractice(["Par72461", "Par17090"]),
+      additionalPractice: asAdditional(["Par87896","Par48905", "Par49277", "Par20441"]),
     },
- 
+
     // Problem 11
+
     {
-      ...asWorked("Par-Eq-11-E-1"),
-      ...asGuided("Par-Eq-11-GP-1"),
-      practice: asPractice(["Par-Eq-11-Q-1", "Par-Eq-11-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-11-AQ-1", "Par-Eq-11-AQ-2", "Par-Eq-11-AQ-3", "Par-Eq-11-AQ-4"]),
+      ...asWorked("Par45305"),
+      ...asGuided("Par29349"),
+      practice: asPractice(["Par18972", "Par78260"]),
+      additionalPractice: asAdditional(["Par17194", "Par52753", "Par66094", "Par54276"]),
     },
- 
-    // Problem 12
+
+    // Problem 12 
+
     {
-      ...asWorked("Par-Eq-12-E-1"),
-      ...asGuided("Par-Eq-12-GP-1"),
-      practice: asPractice(["Par-Eq-12-Q-1", "Par-Eq-12-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-12-AQ-1", "Par-Eq-12-AQ-2", "Par-Eq-12-AQ-3", "Par-Eq-12-AQ-4"]),
+      ...asWorked("Par69449"),
+      ...asGuided("Par91371"),
+      practice: asPractice(["Par54837", "Par25151"]),
+      additionalPractice: asAdditional(["Par30521", "Par70709", "Par88129", "Par50831"]),
     },
- 
+
     // Problem 13
+
     {
-      ...asWorked("Par-Eq-13-E-1"),
-      ...asGuided("Par-Eq-13-GP-1"),
-      practice: asPractice(["Par-Eq-13-Q-1", "Par-Eq-13-Q-2"]),
-      additionalPractice: asAdditional([]),
+      ...asWorked("Par48618"),
+      ...asGuided("Par95266"),
+      practice: asPractice(["Par54011", "Par59429"]),
+      additionalPractice: asAdditional(["Par66432", "Par92779", "Par57364", "Par99641", "Par52592", "Par60867"]),
     },
- 
-    // Problem 14
+
+    // Problem 14 
+
     {
-      ...asWorked("Par-Eq-14-E-1"),
-      ...asGuided("Par-Eq-14-GP-1"),
-      practice: asPractice(["Par-Eq-14-Q-1", "Par-Eq-14-Q-2"]),
-      additionalPractice: asAdditional([]),
+      ...asWorked("Par96844"),
+      ...asGuided("Par17200"),
+      practice: asPractice(["Par66508", "Par71517"]),
+      additionalPractice: asAdditional(["Par50337", "Par25867", "Par89279", "Par65249"]),
     },
- 
+
     // Problem 15
+
     {
-      ...asWorked("Par-Eq-15-E-1"),
-      ...asGuided("Par-Eq-15-GP-1"),
-      practice: asPractice(["Par-Eq-15-Q-1", "Par-Eq-15-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-15-AQ-1", "Par-Eq-15-AQ-2", "Par-Eq-15-AQ-3", "Par-Eq-15-AQ-4"]),
+      ...asWorked("Par53266"),
+      ...asGuided("Par67922"),
+      practice: asPractice(["Par67084", "Par32903"]),
+      additionalPractice: asAdditional(["Par41558", "Par71803", "Par82289", "Par75472"]),
     },
- 
+
     // Problem 16
+
     {
-      ...asWorked("Par-Eq-16-E-1"),
-      ...asGuided("Par-Eq-16-GP-1"),
-      practice: asPractice(["Par-Eq-16-Q-1", "Par-Eq-16-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-16-AQ-1", "Par-Eq-16-AQ-2", "Par-Eq-16-AQ-3", "Par-Eq-16-AQ-4"]),
+      ...asWorked("Par68456"),
+      ...asGuided("Par14087"),
+      practice: asPractice(["Par25961", "Par73555"]),
+      additionalPractice: asAdditional(["Par42821", "Par65469", "Par92984", "Par12640"]),
     },
- 
+
     // Problem 17
+
     {
-      ...asWorked("Par-Eq-17-E-1"),
-      ...asGuided("Par-Eq-17-GP-1"),
-      practice: asPractice(["Par-Eq-17-Q-1", "Par-Eq-17-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-17-AQ-1", "Par-Eq-17-AQ-2", "Par-Eq-17-AQ-3", "Par-Eq-17-AQ-4", "Par-Eq-17-AQ-5", "Par-Eq-17-AQ-6"]),
+      ...asWorked("Par51956"),
+      ...asGuided("Par89744"),
+      practice: asPractice(["Par99129", "Par50242"]),
+      additionalPractice: asAdditional(["Par44136", "Par89799", "Par81051", "Par89917"]),
     },
- 
+
     // Problem 18
+
     {
-      ...asWorked("Par-Eq-18-E-1"),
-      ...asGuided("Par-Eq-18-GP-1"),
-      practice: asPractice(["Par-Eq-18-Q-1", "Par-Eq-18-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-18-AQ-1", "Par-Eq-18-AQ-2", "Par-Eq-18-AQ-3", "Par-Eq-18-AQ-4"]),
+      ...asWorked("Par32339"),
+      ...asGuided("Par18007"),
+      practice: asPractice(["Par22740", "Par16669"]),
+      additionalPractice: asAdditional(["Par85471", "Par84089", "Par49727", "Par97039"]),
     },
- 
+
     // Problem 19
+
     {
-      ...asWorked("Par-Eq-19-E-1"),
-      ...asGuided("Par-Eq-19-GP-1"),
-      practice: asPractice(["Par-Eq-19-Q-1", "Par-Eq-19-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-19-AQ-1", "Par-Eq-19-AQ-2", "Par-Eq-19-AQ-3", "Par-Eq-19-AQ-4"]),
+      ...asWorked("Par39271"),
+      ...asGuided("Par80999"),
+      practice: asPractice(["Par51006", "Par96661"]),
+      additionalPractice: asAdditional(["Par74005", "Par16882", "Par81646", "Par87266"]),
     },
- 
+
     // Problem 20
+
     {
-      ...asWorked("Par-Eq-20-E-1"),
-      ...asGuided("Par-Eq-20-GP-1"),
-      practice: asPractice(["Par-Eq-20-Q-1", "Par-Eq-20-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-20-AQ-1", "Par-Eq-20-AQ-2", "Par-Eq-20-AQ-3", "Par-Eq-20-AQ-4"]),
+      ...asWorked("Par83534"),
+      ...asGuided("Par32207"),
+      practice: asPractice(["Par36551", "Par79716"]),
+      additionalPractice: asAdditional(["Par88361", "Par90548", "Par49292", "Par15341"]),
     },
- 
-    // Problem 21
-    {
-      ...asWorked("Par-Eq-21-E-1"),
-      ...asGuided("Par-Eq-21-GP-1"),
-      practice: asPractice(["Par-Eq-21-Q-1", "Par-Eq-21-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-21-AQ-1", "Par-Eq-21-AQ-2", "Par-Eq-21-AQ-3", "Par-Eq-21-AQ-4"]),
-    },
- 
-    // Problem 22
-    {
-      ...asWorked("Par-Eq-22-E-1"),
-      ...asGuided("Par-Eq-22-GP-1"),
-      practice: asPractice(["Par-Eq-22-Q-1", "Par-Eq-22-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-22-AQ-1", "Par-Eq-22-AQ-2", "Par-Eq-22-AQ-3", "Par-Eq-22-AQ-4"]),
-    },
- 
-    // Problem 23
-    {
-      ...asWorked("Par-Eq-23-E-1"),
-      ...asGuided("Par-Eq-23-GP-1"),
-      practice: asPractice(["Par-Eq-23-Q-1", "Par-Eq-23-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-23-AQ-1", "Par-Eq-23-AQ-2", "Par-Eq-23-AQ-3", "Par-Eq-23-AQ-4"]),
-    },
- 
-    // Problem 24
-    {
-      ...asWorked("Par-Eq-24-E-1"),
-      ...asGuided("Par-Eq-24-GP-1"),
-      practice: asPractice(["Par-Eq-24-Q-1", "Par-Eq-24-Q-2"]),
-      additionalPractice: asAdditional(["Par-Eq-24-AQ-1", "Par-Eq-24-AQ-2", "Par-Eq-24-AQ-3", "Par-Eq-24-AQ-4"]),
-    },
- 
-    // Problem 25
-    {
-      ...asWorked("Par-Eq-25-E-1"),
-      ...asGuided("Par-Eq-25-GP-1"),
-      practice: asPractice(["Par-Eq-25-Q-1", "Par-Eq-25-Q-2"]),
-      additionalPractice: asAdditional([]),
-    },
- 
-    // Problem 26
-    {
-      ...asWorked("Par-Eq-26-E-1"),
-      ...asGuided("Par-Eq-26-GP-1"),
-      practice: asPractice(["Par-Eq-26-Q-1", "Par-Eq-26-Q-2"]),
-      additionalPractice: asAdditional([]),
-    },
+
   ],
 };
 
