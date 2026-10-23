@@ -24195,5 +24195,2253 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par71484",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 1,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 2x(x - 5) = k \\)</p>
+    <p>In the equation above, \\(k\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>greatest possible value of \\(k\\)</strong>?</p>`,
+    answer: "-13",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Graph \\(y = 2x(x - 5)\\) in Desmos and add \\(y = k\\) with a slider for \\(k\\)`,
+        note: "",
+        gif: "",
+        answer: "-13",
+        video: ""
+      },
+      {
+        text: `Click the vertex of the parabola to find its minimum \\(y\\)-value, \\(-12.5\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `For no real solutions the line \\(y = k\\) must sit below the vertex, so the greatest integer \\(k\\) is \\(-13\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par97237",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 1,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 3x(x + 4) = m \\)</p>
+    <p>In the equation above, \\(m\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>greatest possible value of \\(m\\)</strong>?</p>`,
+    answer: "-13",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Graph \\(y = 3x(x + 4)\\) in Desmos and add \\(y = m\\) with a slider for \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Click the vertex of the parabola to find its minimum \\(y\\)-value`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Choose the greatest integer \\(m\\) that keeps the line \\(y = m\\) strictly below the vertex`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par12395",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 1,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 4x(x - 3) = p \\)</p>
+    <p>In the equation above, \\(p\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>greatest possible value of \\(p\\)</strong>?</p>`,
+    answer: "-10",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par13311",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 1,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 2x(x + 7) = r \\)</p>
+    <p>In the equation above, \\(r\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>greatest possible value of \\(r\\)</strong>?</p>`,
+    answer: "-25",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par72166",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 3x(x - 7) = k \\)</p>
+    <p>In the equation above, \\(k\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>greatest possible value of \\(k\\)</strong>?</p>`,
+    answer: "-37",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par36102",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 5x(x + 6) = m \\)</p>
+    <p>In the equation above, \\(m\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>greatest possible value of \\(m\\)</strong>?</p>`,
+    answer: "-46",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par71983",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 6x(x - 5) = p \\)</p>
+    <p>The value of \\(p\\) is an integer. What is the <strong>greatest possible value of \\(p\\)</strong> for which the equation has <strong>no real solutions</strong>?</p>`,
+    answer: "-38",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par67986",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 4x(x + 9) = r \\)</p>
+    <p>In the equation above, \\(r\\) is an integer constant. The equation has <strong>no real solutions</strong>. What is the <strong>greatest possible value of \\(r\\)</strong>?</p>`,
+    answer: "-82",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par14415",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -2x(x - 3) + bx - 200 = 0 \\)</p>
+    <p>In the given equation, \\(b\\) is a positive integer. The equation has <strong>no real solutions</strong>. What is the <strong>greatest possible value of \\(b\\)</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(32\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(33\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(34\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(40\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand into standard form: \\(-2x^2 + (b + 6)x - 200 = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "B",
+        video: ""
+      },
+      {
+        text: `No real solutions means the discriminant is negative: \\((b + 6)^2 - 4(-2)(-200) < 0\\), so \\((b + 6)^2 < 1600\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Solve \\(b + 6 < 40\\) to get \\(b < 34\\); the greatest integer is \\(33\\). Confirm in Desmos by graphing with a slider for \\(b\\) and checking the parabola never crosses the \\(x\\)-axis at \\(b = 33\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par81513",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -3x(x + 2) + mx - 243 = 0 \\)</p>
+    <p>In the given equation, \\(m\\) is a positive integer. The equation has <strong>no real solutions</strong>. What is the <strong>greatest possible value of \\(m\\)</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(60\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(54\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(59\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(61\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand into standard form: \\(-3x^2 + (m - 6)x - 243 = 0\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set the discriminant less than zero: \\((m - 6)^2 - 4(-3)(-243) < 0\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Solve for \\(m\\) and choose the greatest integer that satisfies the inequality`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par96216",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -x(x - 8) + px - 400 = 0 \\)</p>
+    <p>In the given equation, \\(p\\) is a positive integer. The equation has <strong>no real solutions</strong>. What is the <strong>greatest possible value of \\(p\\)</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(31\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(32\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(40\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(30\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par46333",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -4x(x + 3) + qx - 196 = 0 \\)</p>
+    <p>In the given equation, \\(q\\) is a positive integer. The equation has <strong>no real solutions</strong>. What is the <strong>greatest possible value of \\(q\\)</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(56\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(68\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(66\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(67\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par59896",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -2x(x - 5) + px - 72 = 0 \\)</p>
+    <p>In the given equation, \\(p\\) is an integer. The equation has <strong>no real solutions</strong>. What is the <strong>least possible value of \\(p\\)</strong>?</p>`,
+    answer: "-33",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par67326",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -5x(x - 7) + mx - 125 = 0 \\)</p>
+    <p>In the given equation, \\(m\\) is an integer. The equation has <strong>no real solutions</strong>. What is the <strong>least possible value of \\(m\\)</strong>?</p>`,
+    answer: "-84",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par96985",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -3x(x - 4) + qx - 300 = 0 \\)</p>
+    <p>In the given equation, \\(q\\) is an integer. The equation has <strong>no real solutions</strong>. What is the <strong>least possible value of \\(q\\)</strong>?</p>`,
+    answer: "-71",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par28759",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -8x(x - 9) + rx - 98 = 0 \\)</p>
+    <p>In the given equation, \\(r\\) is an integer. The equation has <strong>no real solutions</strong>. What is the <strong>least possible value of \\(r\\)</strong>?</p>`,
+    answer: "-127",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par26495",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 4x(x + p) - 2x + 25 = 0 \\)</p>
+    <p>In the equation above, \\(p\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>least possible value of \\(p\\)</strong>?</p>`,
+    answer: "-4",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par20408",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 4x(x + m) + 2x + 25 = 0 \\)</p>
+    <p>In the equation above, \\(m\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>least possible value of \\(m\\)</strong>?</p>`,
+    answer: "-5",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par17480",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 4x(x + q) + 6x + 25 = 0 \\)</p>
+    <p>The value of \\(q\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>least possible value of \\(q\\)</strong>?</p>`,
+    answer: "-6",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par63063",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 4x(x + r) + 10x + 25 = 0 \\)</p>
+    <p>In the equation above, \\(r\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>least possible value of \\(r\\)</strong>?</p>`,
+    answer: "-7",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par67319",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 3,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -2(x - 5)(x + 5) + mx = 148 \\)</p>
+    <p>In the equation above, \\(m\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>greatest possible value of \\(m\\)</strong>?</p>`,
+    answer: "27",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand and move everything to one side: \\(-2x^2 + mx + 50 - 148 = 0\\), so \\(-2x^2 + mx - 98 = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "27",
+        video: ""
+      },
+      {
+        text: `No real solutions means the discriminant is negative: \\(m^2 - 4(-2)(-98) < 0\\), so \\(m^2 < 784\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Solve \\(m < 28\\); the greatest integer is \\(27\\). Confirm in Desmos by graphing \\(y = -2(x - 5)(x + 5) + mx\\) and \\(y = 148\\) with a slider for \\(m\\) and checking they do not intersect at \\(m = 27\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par49943",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 3,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -3(x - 6)(x + 6) + px = 255 \\)</p>
+    <p>The value of \\(p\\) is an integer. If the equation has <strong>no real solutions</strong>, what is the <strong>greatest possible value of \\(p\\)</strong>?</p>`,
+    answer: "41",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand and move everything to one side to get a quadratic in standard form`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set the discriminant less than zero and simplify to an inequality in \\(p^2\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Solve for \\(p\\) and choose the greatest integer that satisfies the inequality`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par85180",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 3,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -5(x - 3)(x + 3) + qx = 125 \\)</p>
+    <p>In the equation shown, \\(q\\) represents an integer constant. The equation has <strong>no real solutions</strong>. What is the <strong>greatest possible value of \\(q\\)</strong>?</p>`,
+    answer: "39",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par16633",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 3,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -8(x - 7)(x + 7) + rx = 464 \\)</p>
+    <p>For the equation above, \\(r\\) is an integer. If there are <strong>no real values of \\(x\\)</strong> that satisfy the equation, what is the <strong>greatest possible value of \\(r\\)</strong>?</p>`,
+    answer: "47",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par51409",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -6(x - 4)(x + 4) + mx = 246 \\)</p>
+    <p>In the equation above, \\(m\\) is an integer constant. If the equation has <strong>no real solutions</strong>, what is the <strong>greatest possible value of \\(m\\)</strong>?</p>`,
+    answer: "59",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par70959",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -4(x - 8)(x + 8) + px = 452 \\)</p>
+    <p>The value of \\(p\\) is an integer. If the equation has <strong>no real solutions</strong>, what is the <strong>greatest possible value of \\(p\\)</strong>?</p>`,
+    answer: "55",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par53628",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -7(x - 5)(x + 5) + qx = 518 \\)</p>
+    <p>In the equation shown, \\(q\\) represents an integer constant. The equation has <strong>no real solutions</strong>. What is the <strong>greatest possible value of \\(q\\)</strong>?</p>`,
+    answer: "97",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par91575",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( -9(x - 6)(x + 6) + rx = 468 \\)</p>
+    <p>For the equation above, \\(r\\) is an integer. If there are <strong>no real values of \\(x\\)</strong> that satisfy the equation, what is the <strong>greatest possible value of \\(r\\)</strong>?</p>`,
+    answer: "71",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par22682",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 4,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( px^2 + 12x + 9 = 0 \\)</p>
+    <p>In the equation above, \\(p\\) is a positive constant. If the equation has <strong>exactly one real solution</strong>, what is the value of \\(p\\)?</p>`,
+    answer: "4",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Exactly one real solution means the discriminant equals zero: \\(b^2 - 4ac = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "4",
+        video: ""
+      },
+      {
+        text: `Substitute \\(a = p\\), \\(b = 12\\), \\(c = 9\\): \\(144 - 36p = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Solve to get \\(p = 4\\). Confirm in Desmos by graphing \\(y = 4x^2 + 12x + 9\\) and checking the vertex just touches the \\(x\\)-axis`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par13889",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 4,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( qx^2 - 18x + 27 = 0 \\)</p>
+    <p>In the equation above, \\(q\\) is a positive constant. If the equation has <strong>exactly one real solution</strong>, what is the value of \\(q\\)?</p>`,
+    answer: "3",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Set the discriminant equal to zero: \\(b^2 - 4ac = 0\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Substitute \\(a = q\\), \\(b = -18\\), \\(c = 27\\) and simplify`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Solve the resulting equation for \\(q\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par11595",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 4,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( rx^2 + 30x + 45 = 0 \\)</p>
+    <p>The equation above has <strong>exactly one real solution</strong>, where \\(r\\) is a positive constant. What is the value of \\(r\\)?</p>`,
+    answer: "5",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par36289",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 4,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( mx^2 - 28x + 7 = 0 \\)</p>
+    <p>For what value of the positive constant \\(m\\) does the equation above have <strong>exactly one real solution</strong>?</p>`,
+    answer: "28",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par35531",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( nx^2 + 24x + 18 = 0 \\)</p>
+    <p>In the equation above, \\(n\\) is a positive constant. If the equation has <strong>exactly one real solution</strong>, what is the value of \\(n\\)?</p>`,
+    answer: "8",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par92645",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( wx^2 - 42x + 63 = 0 \\)</p>
+    <p>The equation above has <strong>exactly one real solution</strong>, where \\(w\\) is a positive constant. What is the value of \\(w\\)?</p>`,
+    answer: "7",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par75678",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( px^2 + 36x + 27 = 0 \\)</p>
+    <p>For what value of the positive constant \\(p\\) does the equation above have <strong>exactly one real solution</strong>?</p>`,
+    answer: "12",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par59561",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( qx^2 - 40x + 25 = 0 \\)</p>
+    <p>In the equation above, \\(q\\) is a positive constant. If the equation has <strong>exactly one real solution</strong>, what is the value of \\(q\\)?</p>`,
+    answer: "16",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par83759",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 4(x + 3)^2 - 5x + 2 = 7x + a \\)</p>
+    <p>In the equation above, \\(a\\) is a constant. If the equation has <strong>exactly one real solution</strong>, what is the value of \\(a\\)?</p>`,
+    answer: "29",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand and move everything to one side: \\(4x^2 + 12x + (38 - a) = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "29",
+        video: ""
+      },
+      {
+        text: `Exactly one real solution means the discriminant is zero: \\(12^2 - 4(4)(38 - a) = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Solve \\(144 = 16(38 - a)\\) to get \\(a = 29\\). Confirm in Desmos by graphing both sides and checking they touch at exactly one point`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par21704",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 3(x - 4)^2 + 2x + 7 = 8x + m \\)</p>
+    <p>The equation above has <strong>exactly one real solution</strong>, where \\(m\\) is a constant. What is the value of \\(m\\)?</p>`,
+    answer: "-20",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand and move everything to one side to get a quadratic in standard form`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set the discriminant \\(b^2 - 4ac\\) equal to zero`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Solve the resulting equation for \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par58509",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 5(x + 2)^2 - 6x + 4 = 4x + p \\)</p>
+    <p>For what value of the constant \\(p\\) does the equation have <strong>exactly one real solution</strong>?</p>`,
+    answer: "19",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par43664",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 2(x - 5)^2 + 3x - 6 = 7x + q \\)</p>
+    <p>The value of \\(q\\) is a constant. If the equation above has <strong>only one real solution</strong>, what is the value of \\(q\\)?</p>`,
+    answer: "-28",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par95844",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 5x(x + 2) + px + 20 = 0 \\)</p>
+    <p>In the given equation, \\(p\\) is a constant. The equation has <strong>exactly one real solution</strong>. What is the <strong>positive value of \\(p\\)</strong>?</p>`,
+    answer: "10",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par82102",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 4x(x + 1) + mx + 9 = 0 \\)</p>
+    <p>In the equation above, \\(m\\) is a constant. For what <strong>positive value of \\(m\\)</strong> does the equation have <strong>exactly one real solution</strong>?</p>`,
+    answer: "8",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par95332",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 6x(x + 1) + qx + 24 = 0 \\)</p>
+    <p>The equation above has <strong>exactly one real solution</strong>, where \\(q\\) is a constant. What is the <strong>positive value of \\(q\\)</strong>?</p>`,
+    answer: "18",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par46739",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 4(x + 1)^2 - 3x + 7 = 5x + a \\)</p>
+    <p>In the equation above, \\(a\\) is a constant. If the equation has <strong>exactly one real solution</strong>, what is the value of \\(a\\)?</p>`,
+    answer: "11",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par42652",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 2(x - 3)^2 + 5x + 4 = 9x + m \\)</p>
+    <p>In the given equation, \\(m\\) is a constant. The equation has <strong>exactly one real solution</strong>. What is the value of \\(m\\)?</p>`,
+    answer: "-10",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par14183",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 5(x + 2)^2 - 4x + 1 = 6x + p \\)</p>
+    <p>The equation above has <strong>exactly one real solution</strong>, where \\(p\\) is a constant. What is the value of \\(p\\)?</p>`,
+    answer: "16",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par14029",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 3(x - 4)^2 + 7x - 2 = x + q \\)</p>
+    <p>For what value of the constant \\(q\\) does the equation above have <strong>exactly one real solution</strong>?</p>`,
+    answer: "19",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par21620",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 6,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( (2x + 8)(3x + a) = 0 \\)</p>
+    <p>In the equation above, \\(a\\) is a constant. If the equation has <strong>exactly one real solution</strong>, what is the value of \\(a\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-12\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-8\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(4\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(12\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `A product is zero when either factor is zero, so the first factor gives \\(2x + 8 = 0\\), or \\(x = -4\\)`,
+        note: "",
+        gif: "",
+        answer: "D",
+        video: ""
+      },
+      {
+        text: `For exactly one real solution, the second factor must have the same root: \\(3(-4) + a = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Solve to get \\(a = 12\\). Confirm in Desmos by graphing \\(y = (2x + 8)(3x + 12)\\) and checking it touches the \\(x\\)-axis only once`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par74828",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 6,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( (3x - 6)(2x + m) = 0 \\)</p>
+    <p>The value of \\(m\\) is a constant. For what value of \\(m\\) does the equation have <strong>exactly one real solution</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-6\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(-4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(4\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Find the root of the first factor by solving \\(3x - 6 = 0\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Substitute that root into the second factor and set it equal to zero`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Solve for \\(m\\) and match to an answer choice`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par63400",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 6,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( (4x + 12)(5x + p) = 0 \\)</p>
+    <p>If the equation above has <strong>only one real solution</strong>, what is the value of the constant \\(p\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-15\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-12\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(3\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(15\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par61472",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 6,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( (5x - 10)(3x + q) = 0 \\)</p>
+    <p>The equation above has <strong>exactly one real solution</strong>. What must be the value of \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-10\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(-6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(5\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(6\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par19335",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( (6x + 18)(4x + r) = 0 \\)</p>
+    <p>In the equation above, \\(r\\) is a constant. If the equation has <strong>exactly one real solution</strong>, what is the value of \\(r\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(12\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-12\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(3\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(18\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par95656",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( (4x - 20)(7x + m) = 0 \\)</p>
+    <p>For what value of the constant \\(m\\) does the equation above have <strong>exactly one real solution</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(35\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-20\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(-35\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(5\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par30173",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( (8x + 28)(6x + p) = 0 \\)</p>
+    <p>The equation above has <strong>exactly one real solution</strong>, where \\(p\\) is a constant. What is the value of \\(p\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-21\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(28\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(21\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par51357",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p class="eq">
+      \\( (9x - 24)(3x + q) = 0 \\)</p>
+    <p>In the equation above, \\(q\\) is a constant. If the equation has <strong>exactly one real solution</strong>, what is the value of \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(-8\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(8\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-24\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(24\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par83099",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 7,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x^2 + 7x + a = 3x + 6 \\)</p>
+    <p>In the equation above, \\(a\\) is a constant. Which value of \\(a\\) makes the equation have <strong>two distinct solutions that are both integers</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(1\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(3\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(5\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(7\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Move everything to one side: \\(x^2 + 4x + (a - 6) = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "A",
+        video: ""
+      },
+      {
+        text: `Two distinct integer solutions require the discriminant \\(16 - 4(a - 6) = 40 - 4a\\) to be a positive perfect square`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Test the choices: only \\(a = 1\\) gives \\(36\\), a perfect square, so the solutions are \\(x = 1\\) and \\(x = -5\\). Confirm in Desmos by graphing both sides and checking the intersections land on integers`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par35027",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 7,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x^2 - 2x + m = 4x - 5 \\)</p>
+    <p>The value of \\(m\\) is a constant. For which value of \\(m\\) are the two solutions of the equation <strong>different integers</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(1\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(3\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(5\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Move everything to one side to get a quadratic in standard form`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Write the discriminant in terms of \\(m\\); it must be a positive perfect square for two different integer solutions`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Test each answer choice and pick the one that makes the discriminant a perfect square`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par90734",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x^2 + 3x + p = -x + 10 \\)</p>
+    <p>Which value of the constant \\(p\\) results in the equation having <strong>two unequal integer solutions</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(5\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(8\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(11\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par33426",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x^2 - 5x + r = 2x + 8 \\)</p>
+    <p>The equation above has <strong>two different integer solutions</strong> for one of the following values of \\(r\\). What is that value?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(5\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(8\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(10\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par65634",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x^2 + 9x + m = 2x + 12 \\)</p>
+    <p>In the equation above, \\(m\\) is a constant. Which value of \\(m\\) makes the equation have <strong>two distinct integer solutions</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(16\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(18\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(20\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(23\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par36007",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x^2 - 3x + p = 5x - 7 \\)</p>
+    <p>For which value of the constant \\(p\\) does the equation above have <strong>two different integer solutions</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(10\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(5\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par35404",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x^2 + 2x + q = -3x + 14 \\)</p>
+    <p>In the equation above, \\(q\\) is a constant. Which value of \\(q\\) results in <strong>two unequal integer solutions</strong>?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(8\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(11\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(13\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par82687",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x^2 - 6x + r = 3x + 4 \\)</p>
+    <p>The equation above has <strong>two distinct solutions that are both integers</strong> for one of the following values of \\(r\\). What is that value?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(15\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(16\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(18\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(20\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par81371",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 8,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x + 3)\\big(a(x + 3) - 20\\big) = -20 \\)</p>
+    <p>The value of \\(a\\) is an integer. What is the <strong>greatest possible value of \\(a\\)</strong> for which the equation has <strong>two distinct real solutions</strong>?</p>`,
+    answer: "4",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Let \\(u = x + 3\\), so the equation becomes \\(u(au - 20) = -20\\), or \\(au^2 - 20u + 20 = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "4",
+        video: ""
+      },
+      {
+        text: `Two distinct real solutions require a positive discriminant: \\(400 - 80a > 0\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Solve \\(a < 5\\); the greatest integer is \\(4\\). Confirm in Desmos by graphing both sides with a slider for \\(a\\) and checking there are two intersections at \\(a = 4\\) but only one at \\(a = 5\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par92870",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 8,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x - 4)\\big(m(x - 4) - 24\\big) = -18 \\)</p>
+    <p>The value of \\(m\\) is an integer. What is the <strong>greatest possible value of \\(m\\)</strong> for which the equation has <strong>two distinct real solutions</strong>?</p>`,
+    answer: "7",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Substitute \\(u = x - 4\\) and rewrite the equation as a quadratic in \\(u\\) in standard form`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set the discriminant greater than zero and simplify to an inequality in \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Choose the greatest integer \\(m\\) that satisfies the inequality`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par42726",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 8,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x(px - 22) + 6x = -16 \\)</p>
+    <p>The equation above has <strong>two distinct real solutions</strong>, where \\(p\\) is an integer. What is the <strong>maximum possible value of \\(p\\)</strong>?</p>`,
+    answer: "3",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par63752",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 8,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x(rx - 30) + 10x = -20 \\)</p>
+    <p>The value of \\(r\\) is an integer. What is the <strong>largest value \\(r\\) can have</strong> if the equation has <strong>two different real solutions</strong>?</p>`,
+    answer: "4",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par80528",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x + 5)\\big(q(x + 5) - 30\\big) = -25 \\)</p>
+    <p>In the equation above, \\(q\\) is an integer. What is the <strong>greatest possible value of \\(q\\)</strong> for which the equation has <strong>two distinct real solutions</strong>?</p>`,
+    answer: "8",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par60587",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x - 6)\\big(m(x - 6) - 28\\big) = -20 \\)</p>
+    <p>The equation above has <strong>two distinct real solutions</strong>, where \\(m\\) is an integer. What is the <strong>maximum possible value of \\(m\\)</strong>?</p>`,
+    answer: "9",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par20100",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x(px - 34) + 10x = -18 \\)</p>
+    <p>The value of \\(p\\) is an integer. What is the <strong>greatest possible value of \\(p\\)</strong> for which the equation has <strong>two different real solutions</strong>?</p>`,
+    answer: "7",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par10669",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( x(rx - 41) + 11x = -24 \\)</p>
+    <p>In the equation above, \\(r\\) is an integer. If the equation has <strong>two distinct real solutions</strong>, what is the <strong>largest possible value of \\(r\\)</strong>?</p>`,
+    answer: "9",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par99010",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 8x(x + 2) + tx + 18 = 0 \\)</p>
+    <p>The value of \\(t\\) is a constant. If the equation has <strong>exactly one real solution</strong>, what is the <strong>positive value of \\(t\\)</strong>?</p>`,
+    answer: "8",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par21474",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 9,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( ax^2 - 7x + 5 = 18x^2 + 5x - 7 \\)</p>
+    <p>In the equation above, \\(a\\) is an integer constant. What is the <strong>largest possible value of \\(a\\)</strong> for which the equation has <strong>two distinct real solutions</strong>?</p>`,
+    answer: "20",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Move everything to one side: \\((a - 18)x^2 - 12x + 12 = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "20",
+        video: ""
+      },
+      {
+        text: `Two distinct real solutions require a positive discriminant: \\(144 - 48(a - 18) > 0\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Solve \\(a - 18 < 3\\), so \\(a < 21\\); the largest integer is \\(20\\). Confirm in Desmos by graphing both sides with a slider for \\(a\\) and checking for two intersections at \\(a = 20\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par55221",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 9,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( mx^2 + 4x + 9 = 15x^2 - 8x - 3 \\)</p>
+    <p>The value of \\(m\\) is an integer. If the equation has <strong>two distinct real solutions</strong>, what is the <strong>greatest possible value of \\(m\\)</strong>?</p>`,
+    answer: "17",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Move everything to one side to get a quadratic in standard form with a leading coefficient in terms of \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set the discriminant greater than zero and simplify to an inequality in \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Choose the greatest integer \\(m\\) that satisfies the inequality`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par89351",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 9,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( px^2 - 6x + 11 = 20x^2 + 10x - 5 \\)</p>
+    <p>For an integer constant \\(p\\), the equation above has <strong>two distinct real solutions</strong>. What is the <strong>maximum possible value of \\(p\\)</strong>?</p>`,
+    answer: "23",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par41505",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 9,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( rx^2 + 9x + 8 = 12x^2 - 5x - 6 \\)</p>
+    <p>What is the <strong>greatest integer value of \\(r\\)</strong> for which the equation has <strong>two distinct real solutions</strong>?</p>`,
+    answer: "15",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par98574",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( qx^2 - 9x + 7 = 16x^2 + 9x - 11 \\)</p>
+    <p>In the equation above, \\(q\\) is an integer constant. What is the <strong>greatest possible value of \\(q\\)</strong> for which the equation has <strong>two distinct real solutions</strong>?</p>`,
+    answer: "20",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par32951",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( mx^2 + 7x + 13 = 22x^2 - 13x - 7 \\)</p>
+    <p>The equation above has <strong>two distinct real solutions</strong>, where \\(m\\) is an integer. What is the <strong>maximum possible value of \\(m\\)</strong>?</p>`,
+    answer: "26",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par94601",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( px^2 - 11x + 15 = 14x^2 + 13x - 9 \\)</p>
+    <p>The value of \\(p\\) is an integer. What is the <strong>largest possible value of \\(p\\)</strong> for which the equation has <strong>two distinct real solutions</strong>?</p>`,
+    answer: "19",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par23069",
+    topic: "parabola",
+    subtopic: "discriminant-theory",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( rx^2 + 8x + 10 = 25x^2 - 10x - 5 \\)</p>
+    <p>In the equation above, \\(r\\) is an integer constant. If the equation has <strong>two distinct real solutions</strong>, what is the <strong>greatest possible value of \\(r\\)</strong>?</p>`,
+    answer: "30",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
 
 ];

@@ -174,6 +174,20 @@ export default function Home() {
           >
           <div style={{ fontSize: "16px", fontWeight: 600 }}>Lesson 5</div>
           </Link>
+          <Link
+            href="/classroom/amuni/lesson-6"
+            style={{
+              display: "block",
+              padding: "16px 20px",
+              border: "0.5px solid #e0e0de",
+              borderRadius: "10px",
+              textDecoration: "none",
+              color: "#1a1a1a",
+              marginTop: "8px",
+            }}
+          >
+          <div style={{ fontSize: "16px", fontWeight: 600 }}>Lesson 6</div>
+          </Link>
       </Collapsible>
     </main>
   );
