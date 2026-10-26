@@ -26,9 +26,14 @@ export default async function TutorLayout({ children }) {
         <Link href="/tutor" style={{ fontWeight: 600, color: "#1a1a1a", textDecoration: "none" }}>
           Tutor view
         </Link>
-        <span style={{ color: "#777" }}>
-          {me.full_name} · {me.role}
-        </span>
+        <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+          <span style={{ color: "#777" }}>
+            {me.full_name} · {me.role}
+          </span>
+          <Link href="/" style={{ color: "#1a1a1a", textDecoration: "none", fontWeight: 600 }}>
+            Workbooks &rarr;
+          </Link>
+        </div>
       </div>
       {children}
     </>
