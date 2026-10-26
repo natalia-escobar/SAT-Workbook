@@ -6,7 +6,7 @@
 const equivalentToQuiz = {
   id: "par-eq-quiz-1",
   title: "Equivalent To Quiz",
-  minutesPerQuestion: 2,
+  minutesPerQuestion: 1.5,
  
   // Where this quiz sits in the sequence (used for the "Continue" link on the results screen).
   after: {
@@ -20,6 +20,7 @@ const equivalentToQuiz = {
  
   // Served in exactly this order.
   questionIds: [
+    "Par40686",
     "Par52592",
     "Par71803",
     "Par97039",
