@@ -35,6 +35,43 @@ function Collapsible({ title, defaultOpen, children }) {
   );
 }
 
+// One menu card. `kind="quiz"` gives it a small label so checkpoints stand out in the sequence.
+function Card({ href, title, kind }) {
+  const isQuiz = kind === "quiz";
+  return (
+    <Link
+      href={href}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+        padding: "16px 20px",
+        border: isQuiz ? "0.5px dashed #b0b0ae" : "0.5px solid #e0e0de",
+        borderRadius: "10px",
+        textDecoration: "none",
+        color: "#1a1a1a",
+        marginTop: "8px",
+      }}
+    >
+      <div style={{ fontSize: "16px", fontWeight: 600 }}>{title}</div>
+      {isQuiz && (
+        <span
+          style={{
+            fontSize: "12px",
+            fontWeight: 600,
+            letterSpacing: ".04em",
+            textTransform: "uppercase",
+            color: "#777",
+          }}
+        >
+          <i className="ti ti-clock" style={{ marginRight: "4px" }} />
+          Quiz
+        </span>
+      )}
+    </Link>
+  );
+}
+
 export default function Home() {
   return (
     <main className="page">
@@ -44,150 +81,24 @@ export default function Home() {
 
       <Collapsible title="Parabola" defaultOpen={false}>
         <Collapsible title="Equivalent to & Evaluating a Function" defaultOpen={false}>
-          <Link
-            href="/workbook/parabola/equivalent-to/simple-equivalent-to"
-            style={{
-              display: "block",
-              padding: "16px 20px",
-              border: "0.5px solid #e0e0de",
-              borderRadius: "10px",
-              textDecoration: "none",
-              color: "#1a1a1a",
-              marginTop: "8px",
-            }}
-          >
-            <div style={{ fontSize: "16px", fontWeight: 600 }}>Basic Equivalent to</div>
-          </Link>
-          <Link
-            href="/workbook/parabola/equivalent-to/evaluating-a-function"
-            style={{
-              display: "block",
-              padding: "16px 20px",
-              border: "0.5px solid #e0e0de",
-              borderRadius: "10px",
-              textDecoration: "none",
-              color: "#1a1a1a",
-              marginTop: "8px",
-            }}
-          >
-            <div style={{ fontSize: "16px", fontWeight: 600 }}>Evaluating a Function</div>
-          </Link>
+          <Card href="/workbook/parabola/equivalent-to/simple-equivalent-to" title="Basic Equivalent to" />
+          <Card href="/workbook/parabola/equivalent-to/quiz" title="Equivalent To Quiz" kind="quiz" />
+          <Card href="/workbook/parabola/equivalent-to/evaluating-a-function" title="Evaluating a Function" />
         </Collapsible>
         <Collapsible title="Simple Graphing, X-Intercept, & Y-Intercept" defaultOpen={false}>
-          <Link
-            href="/workbook/parabola/simple-graphing-x-y-intercept/simple-graphing"
-            style={{
-              display: "block",
-              padding: "16px 20px",
-              border: "0.5px solid #e0e0de",
-              borderRadius: "10px",
-              textDecoration: "none",
-              color: "#1a1a1a",
-            }}
-          >
-            <div style={{ fontSize: "16px", fontWeight: 600 }}>Simple Graphing</div>
-          </Link>
-          <Link
-            href="/workbook/parabola/simple-graphing-x-y-intercept/y-intercept"
-            style={{
-              display: "block",
-              padding: "16px 20px",
-              border: "0.5px solid #e0e0de",
-              borderRadius: "10px",
-              textDecoration: "none",
-              color: "#1a1a1a",
-              marginTop: "8px",
-            }}
-          >
-            <div style={{ fontSize: "16px", fontWeight: 600 }}>Y-Intercept</div>
-          </Link>
-          <Link
-            href="/workbook/parabola/simple-graphing-x-y-intercept/vertex"
-            style={{
-              display: "block",
-              padding: "16px 20px",
-              border: "0.5px solid #e0e0de",
-              borderRadius: "10px",
-              textDecoration: "none",
-              color: "#1a1a1a",
-              marginTop: "8px",
-            }}
-          >
-            <div style={{ fontSize: "16px", fontWeight: 600 }}>Vertex</div>
-          </Link>
-          <Link
-            href="/workbook/parabola/simple-graphing-x-y-intercept/x-intercept"
-            style={{
-              display: "block",
-              padding: "16px 20px",
-              border: "0.5px solid #e0e0de",
-              borderRadius: "10px",
-              textDecoration: "none",
-              color: "#1a1a1a",
-              marginTop: "8px",
-            }}
-          >
-            <div style={{ fontSize: "16px", fontWeight: 600 }}>X-Intercept</div>
-          </Link>
+          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/simple-graphing" title="Simple Graphing" />
+          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/y-intercept" title="Y-Intercept" />
+          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/vertex" title="Vertex" />
+          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/x-intercept" title="X-Intercept" />
+          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/discriminant-theory" title="Discriminant Theory" />
         </Collapsible>
       </Collapsible>
-          <Collapsible title="DDCUS-A" defaultOpen={false}>
-          <Link
-            href="/classroom/amuni/lesson-3"
-            style={{
-              display: "block",
-              padding: "16px 20px",
-              border: "0.5px solid #e0e0de",
-              borderRadius: "10px",
-              textDecoration: "none",
-              color: "#1a1a1a",
-              marginTop: "8px",
-            }}
-          >
-          <div style={{ fontSize: "16px", fontWeight: 600 }}>Lesson 3</div>
-          </Link>
-          <Link
-            href="/classroom/amuni/lesson-4"
-            style={{
-              display: "block",
-              padding: "16px 20px",
-              border: "0.5px solid #e0e0de",
-              borderRadius: "10px",
-              textDecoration: "none",
-              color: "#1a1a1a",
-              marginTop: "8px",
-            }}
-          >
-          <div style={{ fontSize: "16px", fontWeight: 600 }}>Lesson 4</div>
-          </Link>
-          <Link
-            href="/classroom/amuni/lesson-5"
-            style={{
-              display: "block",
-              padding: "16px 20px",
-              border: "0.5px solid #e0e0de",
-              borderRadius: "10px",
-              textDecoration: "none",
-              color: "#1a1a1a",
-              marginTop: "8px",
-            }}
-          >
-          <div style={{ fontSize: "16px", fontWeight: 600 }}>Lesson 5</div>
-          </Link>
-          <Link
-            href="/classroom/amuni/lesson-6"
-            style={{
-              display: "block",
-              padding: "16px 20px",
-              border: "0.5px solid #e0e0de",
-              borderRadius: "10px",
-              textDecoration: "none",
-              color: "#1a1a1a",
-              marginTop: "8px",
-            }}
-          >
-          <div style={{ fontSize: "16px", fontWeight: 600 }}>Lesson 6</div>
-          </Link>
+
+      <Collapsible title="DDCUS-A" defaultOpen={false}>
+        <Card href="/classroom/amuni/lesson-3" title="Lesson 3" />
+        <Card href="/classroom/amuni/lesson-4" title="Lesson 4" />
+        <Card href="/classroom/amuni/lesson-5" title="Lesson 5" />
+        <Card href="/classroom/amuni/lesson-6" title="Lesson 6" />
       </Collapsible>
     </main>
   );

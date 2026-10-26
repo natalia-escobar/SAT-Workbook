@@ -224,8 +224,17 @@
 
 .quiz-dots{display:flex;gap:6px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
 .quiz-dot{width:10px;height:10px;border-radius:50%;border:none;background:#e0e0de;cursor:pointer;padding:0;transition:all .15s}
-.quiz-dot.active{background:#D13B31;transform:scale(1.2)}
-.quiz-dot.answered{background:#1D9E75}
+.quiz-dot.active {
+  background: transparent;
+  border: 2px solid #1a1a1a;
+}
+.quiz-dot.active.answered {
+  background: #1a1a1a;
+}
+.quiz-dot.answered {
+  background: #1a1a1a;
+  border-color: #1a1a1a;
+}
 
 .quiz-question{background:#fff;border:0.5px solid #e0e0de;border-radius:12px;padding:24px;margin-bottom:16px}
 .quiz-problem-text{font-size:16px;line-height:1.7}
