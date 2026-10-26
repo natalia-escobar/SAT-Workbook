@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import TutorLink from "@/components/TutorLink";
 
 function Collapsible({ title, defaultOpen, children }) {
   const [open, setOpen] = useState(defaultOpen);
@@ -78,6 +79,7 @@ export default function Home() {
       <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "20px" }}>
         Practice Workbooks
       </h1>
+      <TutorLink />
 
       <Collapsible title="Parabola" defaultOpen={false}>
         <Collapsible title="Equivalent to & Evaluating a Function" defaultOpen={false}>

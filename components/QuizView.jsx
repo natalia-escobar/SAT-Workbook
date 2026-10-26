@@ -29,6 +29,7 @@ export default function QuizView({ quiz }) {
 
   const deadlineRef = useRef(null);
   const problemRef = useRef(null);
+  const attemptRef = useRef(null); // one id per Start click, so retakes are separate attempts
 
   // ── Grading ──
   const grade = useCallback(
@@ -60,6 +61,7 @@ export default function QuizView({ quiz }) {
         correct: r.correct,
         context: "quiz",
         containerId: quiz.id,
+        attemptId: attemptRef.current,
       });
     });
   }, [answers, finished, grade, questions, quiz.id]);
@@ -104,8 +106,14 @@ export default function QuizView({ quiz }) {
     });
   }, [currentIndex, answers, started]);
 
+  const start = () => {
+    attemptRef.current = crypto.randomUUID();
+    setStarted(true);
+  };
+
   const reset = () => {
     deadlineRef.current = null;
+    attemptRef.current = null;
     setAnswers({});
     setResults([]);
     setCurrentIndex(0);
@@ -137,7 +145,7 @@ export default function QuizView({ quiz }) {
             You can move between questions and change answers until you finish.
             The quiz closes automatically when the time is up.
           </p>
-          <button className="quiz-start-btn" onClick={() => setStarted(true)}>
+          <button className="quiz-start-btn" onClick={start}>
             Start quiz
           </button>
         </div>
