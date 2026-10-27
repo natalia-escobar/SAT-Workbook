@@ -1,6 +1,7 @@
 import Script from "next/script";
 import "./globals.css";
 import DesmosCalculator from "@/components/DesmosCalculator";
+import SiteHeader from "@/components/SiteHeader";
 
 export const metadata = {
   title: "SAT Workbook",
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
           id="mathjax-config"
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
-          __html: `window.MathJax = { 
+          __html: `window.MathJax = {
             loader: { load: ["[tex]/boldsymbol"] },
             tex: {
             packages: { "[+]": ["boldsymbol"] },
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
           src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"
           strategy="beforeInteractive"
         />
+        <SiteHeader />
         {children}
         <DesmosCalculator />
       </body>
