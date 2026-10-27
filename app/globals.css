@@ -298,3 +298,220 @@
 }
 
 .eq { text-align: center; margin: 12px 0; }
+
+/* results rows are now buttons */
+.quiz-results-row {
+  width: 100%;
+  background: #fff;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+}
+.quiz-results-row:hover { background: #f8f8f6; }
+.quiz-results-row.open { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+ 
+.quiz-results-detail {
+  border: 0.5px solid #e0e0de;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  padding: 16px;
+  background: #fafaf8;
+}
+ 
+/* QuestionCard */
+.question-card { text-align: left; }
+.question-card .mc-choice { border-radius: 8px; }
+ 
+/* never show the keyed answer unless show-key is set (tutor) */
+.question-card-body .mc-choice.correct { background: inherit; color: inherit; font-weight: inherit; }
+ 
+/* the student's pick */
+.question-card .mc-choice.qc-selected.qc-right { outline: 2px solid #2e7d32; background: #eef7ee; }
+.question-card .mc-choice.qc-selected.qc-wrong { outline: 2px solid #c0392b; background: #fbeeec; }
+ 
+/* the keyed answer, tutor view only */
+.question-card .mc-choice.qc-key { background: #eef7ee; }
+.question-card .mc-choice.qc-key .mc-label { background: #2e7d32; color: #fff; }
+ 
+/* write-in display */
+.question-card-writein { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 14px; }
+.qc-answer {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  border: 1.5px solid #e0e0de;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.qc-answer-label { font-size: 12px; color: #777; }
+.qc-answer-value { font-weight: 600; }
+.qc-answer.qc-right { border-color: #2e7d32; background: #eef7ee; }
+.qc-answer.qc-right .ti { color: #2e7d32; }
+.qc-answer.qc-wrong { border-color: #c0392b; background: #fbeeec; }
+.qc-answer.qc-wrong .ti { color: #c0392b; }
+.qc-answer.qc-key { border-color: #2e7d32; }
+
+/* ── App shell / sidebar ────────────────────────────────────────────────
+   Append to app/globals.css. */
+
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-sidebar {
+  width: 240px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 12px;
+  border-right: 0.5px solid #e0e0de;
+  background: #fafaf8;
+  box-sizing: border-box;
+  transition: width .2s ease;
+}
+.app-shell.collapsed .app-sidebar { width: 64px; }
+
+/* top row: brand + toggle */
+.app-sidebar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4px 16px 12px;
+}
+.app-brand {
+  font-weight: 600;
+  font-size: 15px;
+  color: #1a1a1a;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.app-brand-short { display: none; }
+.app-shell.collapsed .app-brand-full { display: none; }
+.app-shell.collapsed .app-brand-short { display: inline; }
+.app-shell.collapsed .app-sidebar-top {
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 0 12px;
+}
+
+.app-toggle {
+  background: none;
+  border: none;
+  padding: 6px;
+  border-radius: 6px;
+  color: #999;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+}
+.app-toggle:hover { background: #f0f0ee; color: #1a1a1a; }
+
+/* nav */
+.app-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.app-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.app-nav-link .ti { font-size: 18px; color: #999; flex-shrink: 0; }
+.app-nav-link:hover { background: #f0f0ee; color: #1a1a1a; }
+.app-nav-link.active { background: #fff; color: #1a1a1a; font-weight: 600; border: 0.5px solid #e0e0de; }
+.app-nav-link.active .ti { color: #1a1a1a; }
+.app-shell.collapsed .app-nav-link { justify-content: center; padding: 9px 0; }
+.app-shell.collapsed .app-nav-link span { display: none; }
+
+/* account block */
+.app-account {
+  margin-top: auto;
+  padding: 12px 12px 0;
+  border-top: 0.5px solid #e0e0de;
+  font-size: 13px;
+}
+.app-account-name { font-weight: 600; color: #1a1a1a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.app-account-role {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: #777;
+  margin-top: 2px;
+}
+.app-signout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 12px;
+  padding: 8px 10px;
+  background: none;
+  border: 1.5px solid #e0e0de;
+  border-radius: 8px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1a1a;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.app-signout:hover { background: #fff; }
+.app-shell.collapsed .app-account { padding: 12px 0 0; }
+.app-shell.collapsed .app-account-text { display: none; }
+.app-shell.collapsed .app-signout { margin-top: 0; padding: 8px 0; }
+.app-shell.collapsed .app-signout span { display: none; }
+
+.app-main {
+  flex: 1;
+  min-width: 0;
+}
+
+/* phones: sidebar becomes a top bar; collapse toggle hidden */
+@media (max-width: 768px) {
+  .app-shell { flex-direction: column; }
+  .app-sidebar, .app-shell.collapsed .app-sidebar {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    border-right: none;
+    border-bottom: 0.5px solid #e0e0de;
+  }
+  .app-sidebar-top, .app-shell.collapsed .app-sidebar-top { flex-direction: row; padding: 0 8px 0 0; }
+  .app-toggle { display: none; }
+  .app-shell.collapsed .app-brand-full { display: inline; }
+  .app-shell.collapsed .app-brand-short { display: none; }
+  .app-nav { flex-direction: row; }
+  .app-shell.collapsed .app-nav-link { padding: 9px 12px; }
+  .app-shell.collapsed .app-nav-link span { display: inline; }
+  .app-account, .app-shell.collapsed .app-account {
+    margin-top: 0;
+    margin-left: auto;
+    padding: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .app-account-text { display: none; }
+  .app-signout, .app-shell.collapsed .app-signout { margin: 0; width: auto; padding: 6px 10px; }
+  .app-shell.collapsed .app-signout span { display: inline; }
+}

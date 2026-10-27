@@ -79,7 +79,6 @@ export default function Home() {
       <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "20px" }}>
         Practice Workbooks
       </h1>
-      <TutorLink />
 
       <Collapsible title="Parabola" defaultOpen={false}>
         <Collapsible title="Equivalent Forms & Evaluating a Function" defaultOpen={false}>

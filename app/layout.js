@@ -1,7 +1,7 @@
 import Script from "next/script";
 import "./globals.css";
 import DesmosCalculator from "@/components/DesmosCalculator";
-import SiteHeader from "@/components/SiteHeader";
+import AppShell from "@/components/AppShell";
 
 export const metadata = {
   title: "SAT Workbook",
@@ -39,8 +39,7 @@ export default function RootLayout({ children }) {
           src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"
           strategy="beforeInteractive"
         />
-        <SiteHeader />
-        {children}
+        <AppShell>{children}</AppShell>
         <DesmosCalculator />
       </body>
     </html>

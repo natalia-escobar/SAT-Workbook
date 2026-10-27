@@ -1,7 +1,9 @@
-// app/tutor/[studentId]/page.js — one student's quizzes and workbook progress
+// app/tutor/[studentId]/page.js — one student's quizzes and workbook progress.
+// Click any question row to see the question, the student's answer, and the correct answer.
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getStudentReport } from "@/lib/tutor";
+import TutorQuestionRow from "@/components/TutorQuestionRow";
 
 export const dynamic = "force-dynamic";
 
@@ -17,10 +19,6 @@ const card = {
   marginTop: 8,
 };
 
-const Check = ({ ok }) => (
-  <i className={`ti ${ok ? "ti-check" : "ti-x"}`} style={{ color: ok ? "#2e7d32" : "#c0392b" }} />
-);
-
 export default async function StudentPage({ params }) {
   const { studentId } = await params;
   const report = await getStudentReport(studentId);
@@ -34,7 +32,7 @@ export default async function StudentPage({ params }) {
         &larr; All students
       </Link>
       <h1 style={{ fontSize: "1.6rem", fontWeight: 600, margin: "8px 0 4px" }}>{student.full_name}</h1>
-      {student.class_label && <p style={{ color: "#777", fontSize: 14, marginBottom: 24 }}>{student.class_label}</p>}
+      {student.class_label && <p style={{ color: "#777", fontSize: 14 }}>{student.class_label}</p>}
 
       {/* ── Quizzes ── */}
       <h2 style={{ fontSize: 15, fontWeight: 600, margin: "28px 0 4px" }}>Quizzes</h2>
@@ -55,25 +53,17 @@ export default async function StudentPage({ params }) {
           </div>
 
           {q.questions.map((qq, i) => (
-            <div
+            <TutorQuestionRow
               key={qq.id}
-              style={{
-                display: "grid",
-                gridTemplateColumns: "36px 1fr auto 24px",
-                gap: 12,
-                alignItems: "center",
-                padding: "6px 0",
-                borderTop: i === 0 ? "none" : "0.5px solid #f0f0ee",
-                fontSize: 14,
-              }}
-            >
-              <span style={{ fontWeight: 600 }}>Q{i + 1}</span>
-              <span style={{ color: "#777", fontSize: 13 }}>{qq.id}</span>
-              <span style={{ color: "#555", fontSize: 13 }}>
-                {qq.answered ? `answered ${qq.answer}` : "no answer"}
-              </span>
-              <Check ok={qq.correct} />
-            </div>
+              question={qq}
+              left={
+                <>
+                  <strong style={{ marginRight: 10 }}>Q{i + 1}</strong>
+                  <span style={{ color: "#777", fontSize: 13 }}>{qq.id}</span>
+                </>
+              }
+              middle={qq.answered ? `answered ${qq.answer}` : "no answer"}
+            />
           ))}
         </div>
       ))}
@@ -97,25 +87,17 @@ export default async function StudentPage({ params }) {
           </summary>
           <div style={{ marginTop: 12 }}>
             {b.questions.map((qq) => (
-              <div
+              <TutorQuestionRow
                 key={qq.id}
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "1fr auto 24px",
-                  gap: 12,
-                  alignItems: "center",
-                  padding: "6px 0",
-                  borderTop: "0.5px solid #f0f0ee",
-                  fontSize: 13,
-                }}
-              >
-                <span style={{ color: "#555" }}>
-                  {qq.problem != null ? `Problem ${qq.problem}` : ""}{qq.type ? ` · ${qq.type}` : ""}
-                  <span style={{ color: "#aaa", marginLeft: 8 }}>{qq.id}</span>
-                </span>
-                <span style={{ color: "#777" }}>{fmtDate(qq.at)}</span>
-                <Check ok={qq.correct} />
-              </div>
+                question={qq}
+                left={
+                  <span style={{ fontSize: 13, color: "#555" }}>
+                    {qq.problem != null ? `Problem ${qq.problem}` : ""}{qq.type ? ` · ${qq.type}` : ""}
+                    <span style={{ color: "#aaa", marginLeft: 8 }}>{qq.id}</span>
+                  </span>
+                }
+                middle={fmtDate(qq.at)}
+              />
             ))}
           </div>
         </details>

@@ -4,8 +4,9 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import MathContent from "./MathContent";
 import DesmosGraph from "./DesmosGraph";
+import QuestionCard from "./QuestionCard";
 import { gradeFreeResponse } from "@/lib/questions";
-import { logEvent } from "@/lib/db";
+import { logEvent, getLatestQuizAttempt } from "@/lib/db";
 
 /**
  * QuizView — a fixed-order, timed checkpoint quiz.
@@ -14,7 +15,9 @@ import { logEvent } from "@/lib/db";
  *   { id, title, timeMinutes, questions: [{ id, problem, graph, graphChoices, answer, kind }], next, after }
  *
  * Flow: start screen → questions (answers can be changed freely, no feedback)
- *       → results on Finish or when the timer runs out (score + right/wrong per question only).
+ *       → results on Finish or when the timer runs out (score + right/wrong per question;
+ *         each row expands to show the question with the student's answer marked).
+ * The start screen also offers "Review last attempt" if the student has taken it before.
  */
 export default function QuizView({ quiz }) {
   const { questions, timeMinutes } = quiz;
@@ -26,6 +29,31 @@ export default function QuizView({ quiz }) {
   const [answers, setAnswers] = useState({}); // { [index]: "B" | "10" }
   const [results, setResults] = useState([]); // [{ id, answered, correct }]
   const [timeLeft, setTimeLeft] = useState(totalSeconds);
+  const [openRow, setOpenRow] = useState(null);         // which results row is expanded
+  const [reviewing, setReviewing] = useState(false);    // results screen reached via "Review", not a fresh run
+  const [lastAttempt, setLastAttempt] = useState(undefined); // undefined = loading, null = none
+
+  // Look up the student's last attempt for the "Review" button.
+  useEffect(() => {
+    let cancelled = false;
+    getLatestQuizAttempt(quiz.id).then((a) => { if (!cancelled) setLastAttempt(a); });
+    return () => { cancelled = true; };
+  }, [quiz.id]);
+
+  const review = () => {
+    if (!lastAttempt) return;
+    const graded = questions.map((q) => {
+      const r = lastAttempt.answers[q.id];
+      return { id: q.id, answered: !!r, correct: r?.correct ?? false };
+    });
+    const idxAnswers = {};
+    questions.forEach((q, i) => { if (lastAttempt.answers[q.id]) idxAnswers[i] = lastAttempt.answers[q.id].answer; });
+    setAnswers(idxAnswers);
+    setResults(graded);
+    setReviewing(true);
+    setStarted(true);
+    setFinished(true);
+  };
 
   const deadlineRef = useRef(null);
   const problemRef = useRef(null);
@@ -120,7 +148,12 @@ export default function QuizView({ quiz }) {
     setTimeLeft(totalSeconds);
     setFinished(false);
     setStarted(false);
+    setOpenRow(null);
+    setReviewing(false);
   };
+
+  const fmtDate = (iso) =>
+    new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric" });
 
   const answeredCount = Object.values(answers).filter((v) => String(v).trim() !== "").length;
   const score = results.filter((r) => r.correct).length;
@@ -145,9 +178,16 @@ export default function QuizView({ quiz }) {
             You can move between questions and change answers until you finish.
             The quiz closes automatically when the time is up.
           </p>
-          <button className="quiz-start-btn" onClick={start}>
-            Start quiz
-          </button>
+          <div className="quiz-results-actions">
+            <button className="quiz-start-btn" onClick={start}>
+              Start quiz
+            </button>
+            {lastAttempt && (
+              <button className="nav-btn" onClick={review}>
+                Review last attempt ({fmtDate(lastAttempt.takenAt)})
+              </button>
+            )}
+          </div>
         </div>
       </main>
     );
@@ -159,8 +199,13 @@ export default function QuizView({ quiz }) {
       <main className="page">
         <div className="quiz-results">
           <h1 className="quiz-results-title">
-            {timeLeft <= 0 ? "Time's up" : "Quiz complete"}
+            {reviewing ? "Your last attempt" : timeLeft <= 0 ? "Time's up" : "Quiz complete"}
           </h1>
+          {reviewing && lastAttempt && (
+            <p style={{ color: "#777", fontSize: 13, marginTop: -16, marginBottom: 16 }}>
+              Taken {fmtDate(lastAttempt.takenAt)}
+            </p>
+          )}
           <div className="quiz-results-score">
             <span className="quiz-results-num">{score}</span>
             <span className="quiz-results-of">/ {questions.length}</span>
@@ -169,20 +214,40 @@ export default function QuizView({ quiz }) {
             {Math.round((score / questions.length) * 100)}% correct
           </p>
 
+          <p style={{ color: "#777", fontSize: 13, marginBottom: 8 }}>
+            Tap a question to see it again.
+          </p>
           <div className="quiz-results-breakdown">
-            {results.map((r, i) => (
-              <div
-                key={r.id}
-                className={`quiz-results-row ${r.correct ? "correct" : "incorrect"}`}
-              >
-                <span className="quiz-results-qnum">Q{i + 1}</span>
-                <span className="quiz-results-qid">{r.id}</span>
-                <span className="quiz-results-status">
-                  {r.correct ? "Correct" : r.answered ? "Incorrect" : "No answer"}
-                </span>
-                <i className={`ti ${r.correct ? "ti-check" : "ti-x"}`} />
-              </div>
-            ))}
+            {results.map((r, i) => {
+              const isOpen = openRow === i;
+              return (
+                <div key={r.id}>
+                  <button
+                    type="button"
+                    className={`quiz-results-row ${r.correct ? "correct" : "incorrect"} ${isOpen ? "open" : ""}`}
+                    onClick={() => setOpenRow(isOpen ? null : i)}
+                    aria-expanded={isOpen}
+                  >
+                    <span className="quiz-results-qnum">Q{i + 1}</span>
+                    <span className="quiz-results-qid">{r.id}</span>
+                    <span className="quiz-results-status">
+                      {r.correct ? "Correct" : r.answered ? "Incorrect" : "No answer"}
+                    </span>
+                    <i className={`ti ${r.correct ? "ti-check" : "ti-x"}`} />
+                  </button>
+                  {isOpen && (
+                    <div className="quiz-results-detail">
+                      <QuestionCard
+                        question={questions[i]}
+                        selected={answers[i] ?? null}
+                        correct={r.correct}
+                        showCorrect={false}
+                      />
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
 
           <div className="quiz-results-actions">
