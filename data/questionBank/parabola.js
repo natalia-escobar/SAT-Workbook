@@ -2348,11 +2348,11 @@ export const questions = [
             <span class="mc-label">A</span>
             <span>\\( 980 \\)</span>
             </div>
-            <div class="mc-choice correct">
+            <div class="mc-choice">
             <span class="mc-label">B</span>
             <span>\\( 1050 \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">C</span>
             <span>\\( 1190 \\)</span>
             </div>
@@ -2361,7 +2361,7 @@ export const questions = [
             <span>\\( 1260 \\)</span>
             </div>
             </div>`,
-    answer: "B",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -7929,7 +7929,7 @@ export const questions = [
 
     // Parabola - Simple Graphing
     {
-        id: "Par-SimGr-1-E-1",
+        id: "Par34378",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 1,
@@ -8018,7 +8018,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-1-GP-1",
+        id: "Par97742",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 1,
@@ -8107,7 +8107,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-1-Q-1",
+        id: "Par73907",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 1,
@@ -8188,7 +8188,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-1-Q-2",
+        id: "Par80055",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 1,
@@ -8264,7 +8264,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-1-AQ-1",
+        id: "Par79460",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 1,
@@ -8340,7 +8340,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-1-AQ-2",
+        id: "Par70963",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 1,
@@ -8421,7 +8421,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-1-AQ-3",
+        id: "Par79991",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 1,
@@ -8502,7 +8502,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-1-AQ-4",
+        id: "Par55114",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 1,
@@ -8578,7 +8578,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-2-E-1",
+        id: "Par18600",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 2,
@@ -8686,9 +8686,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-2-GP-1",
+        id: "Par77838",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-functions",
         problem: 2,
         questionType: "GP",
 
@@ -8794,7 +8794,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-2-Q-1",
+        id: "Par91613",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 2,
@@ -8895,7 +8895,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-2-Q-2",
+        id: "Par86603",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 2,
@@ -8996,7 +8996,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-2-AQ-1",
+        id: "Par74195",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 2,
@@ -9097,7 +9097,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-2-AQ-2",
+        id: "Par39174",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 2,
@@ -9198,7 +9198,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-2-AQ-3",
+        id: "Par81034",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 2,
@@ -9299,7 +9299,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-2-AQ-4",
+        id: "Par23233",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 2,
@@ -26438,6 +26438,865 @@ export const questions = [
     <p>In the equation above, \\(r\\) is an integer constant. If the equation has <strong>two distinct real solutions</strong>, what is the <strong>greatest possible value of \\(r\\)</strong>?</p>`,
     answer: "30",
     graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par15321",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 9,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<Which>The displayed graph is the graph of \\(f(x)\\). Which of the following could define \\(f(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( f(x) = x^2 - 4x - 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( f(x) = (x - 5)(x + 2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( f(x) = (x - 2)^2 - 4 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( f(x) = -x^2 + 4x + 5 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: {
+      expressions: [
+        {
+          latex: "y = (x-2)^2 - 9",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -6,
+        right: 10,
+        bottom: -12,
+        top: 8
+      }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: "Type each answer choice into Desmos and look for the one that looks exactly like the original graph",
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par29916",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 9,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The displayed graph is the graph of \\(f(x)\\). Which of the following could define \\(f(x) \\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( f(x) = x^2 + 2x - 6 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( f(x) = (x + 4)(x - 2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( f(x) = (x - 1)^2 - 9 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( f(x) = -x^2 - 2x + 8 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        {
+          latex: "y = (x+1)^2 - 9",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -8,
+        right: 6,
+        bottom: -12,
+        top: 8
+      }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: "Type each answer choice into Desmos and look for the one that looks exactly like the original graph",
+        note: "",
+        gif: "",
+        video: ""
+      },
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par77374",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 9,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<Which>The displayed graph is the graph of \\(g(x)\\). Which of the following could define \\(g(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( g(x) = (x - 1)(x - 4) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( g(x) = x^2 - 6x + 4 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( g(x) = x^2 - 6x + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( g(x) = (x - 2)^2 - 4 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        {
+          latex: "y = (x-3)^2 - 4",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -4,
+        right: 10,
+        bottom: -6,
+        top: 8
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par92970",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 9,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<Which>The displayed graph is the graph of \\(h(x)\\). Which of the following could define \\(h(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( h(x) = -(x - 1)(x + 5) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( h(x) = -x^2 - 4x + 9 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( h(x) = (x + 2)^2 - 9 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( h(x) = -(x + 2)^2 + 4 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: {
+      expressions: [
+        {
+          latex: "y = -(x+2)^2 + 9",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -9,
+        right: 5,
+        bottom: -4,
+        top: 12
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par32282",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The displayed graph is the graph of \\(p(x)\\). Which of the following could define \\(p(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( p(x) = (x - 8)(x + 1) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( p(x) = x^2 - 8x + 4 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( p(x) = (x - 4)^2 - 8 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( p(x) = x^2 - 8x \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: {
+      expressions: [
+        {
+          latex: "y = (x-4)^2 - 16",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -3,
+        right: 11,
+        bottom: -20,
+        top: 8
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par34788",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The displayed graph is the graph of</p>
+    <p class="eq">
+      \\( q(x) = -(x - 1)^2 + 16 \\)</p>
+    <p>Which of the following could define \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( q(x) = -x^2 + 2x + 16 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( q(x) = -(x - 1)^2 + 16 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( q(x) = -(x - 3)(x + 5) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( q(x) = (x - 1)^2 - 16 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        {
+          latex: "y = -(x-1)^2 + 16",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -6,
+        right: 8,
+        bottom: -4,
+        top: 20
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par75700",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The displayed graph is the graph of \\(r(x)\\). Which of the following could define \\(r(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( r(x) = x^2 + 6x - 15 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( r(x) = (x + 5)(x - 2) \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( r(x) = (x + 8)(x - 2) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( r(x) = (x + 3)^2 - 16 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        {
+          latex: "y = (x+3)^2 - 25",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -12,
+        right: 6,
+        bottom: -30,
+        top: 8
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par58821",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The displayed graph is the graph of \\(s(x)\\). Which of the following could define \\(s(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( s(x) = -2(x - 1)(x + 3) \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( s(x) = -2x^2 - 4x + 8 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( s(x) = 2(x + 1)^2 - 8 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( s(x) = -2x^2 - 4x + 4 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: {
+      expressions: [
+        {
+          latex: "y = -2(x+1)^2 + 8",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -6,
+        right: 4,
+        bottom: -4,
+        top: 10
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par94354",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 10,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graphs of \\(y = -4x^2\\) and \\(y = ax^2\\), where \\(a\\) is a negative constant, are shown in the \\(xy\\)-plane. The graph of \\(y = ax^2\\) is wider than the graph of \\(y = -4x^2\\). Which of the following must be true?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( a < -4 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( -4 < a < 0 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 0 < a < 4 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( a > 4 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        {
+          latex: "y = -4x^2",
+          color: "#2563eb"
+        },
+        {
+          latex: "y = -x^2",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -5,
+        right: 5,
+        bottom: -10,
+        top: 2
+      }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: `Type \\(y = -4x^2\\) and \\(y = ax^2\\) into Desmos and add a slider for \\(a\\)`,
+        note: "",
+        gif: "",
+        answer: "B",
+        video: ""
+      },
+      {
+        text: `Drag the slider: the parabola opens downward only when \\(a < 0\\), and it is wider than \\(y = -4x^2\\) only when \\(|a| < 4\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Combine the two conditions to get \\(-4 < a < 0\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par89877",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 10,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graphs of \\(y = \\frac{1}{2}x^2\\) and \\(y = bx^2\\), where \\(b\\) is a positive constant, are shown in the \\(xy\\)-plane. The graph of \\(y = bx^2\\) is narrower than the graph of \\(y = \\frac{1}{2}x^2\\). Which of the following must be true?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( b < -\\frac{1}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 0 < b < \\frac{1}{2} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( b = \\frac{1}{2} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( b > \\frac{1}{2} \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: {
+      expressions: [
+        {
+          latex: "y = \\frac{1}{2}x^2",
+          color: "#2563eb"
+        },
+        {
+          latex: "y = 2x^2",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -5,
+        right: 5,
+        bottom: -2,
+        top: 10
+      }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: `Type \\(y = \\frac{1}{2}x^2\\) and \\(y = bx^2\\) into Desmos and add a slider for \\(b\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Drag the slider and watch which values of \\(b\\) keep the parabola opening upward and narrower than the original",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Match the range of working values to an answer choice",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par34246",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 10,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graphs of \\(y = -\\frac{3}{4}x^2\\) and \\(y = cx^2\\), where \\(c\\) is a negative constant, are shown in the \\(xy\\)-plane. The graph of \\(y = cx^2\\) is narrower than the graph of \\(y = -\\frac{3}{4}x^2\\). Which of the following must be true?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( c < -\\frac{3}{4} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( -\\frac{3}{4} < c < 0 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 0 < c < \\frac{3}{4} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( c > \\frac{3}{4} \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: {
+      expressions: [
+        {
+          latex: "y = -\\frac{3}{4}x^2",
+          color: "#2563eb"
+        },
+        {
+          latex: "y = -3x^2",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -5,
+        right: 5,
+        bottom: -10,
+        top: 2
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par60783",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 10,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graphs of \\(y = 5x^2\\) and \\(y = dx^2\\), where \\(d\\) is a positive constant, are shown in the \\(xy\\)-plane. The graph of \\(y = dx^2\\) is wider than the graph of \\(y = 5x^2\\). Which of the following must be true?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( d > 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( d < 0 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( 0 < d < 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( d = 5 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        {
+          latex: "y = 5x^2",
+          color: "#2563eb"
+        },
+        {
+          latex: "y = x^2",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -5,
+        right: 5,
+        bottom: -2,
+        top: 10
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par31856",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graphs of \\(y = -\\frac{1}{3}x^2\\) and \\(y = kx^2\\), where \\(k\\) is a negative constant, are shown in the \\(xy\\)-plane. The graph of \\(y = kx^2\\) is wider than the graph of \\(y = -\\frac{1}{3}x^2\\). Which of the following must be true?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( -\\frac{1}{3} < k < 0 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( k < -\\frac{1}{3} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( 0 < k < \\frac{1}{3} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( k > \\frac{1}{3} \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: {
+      expressions: [
+        {
+          latex: "y = -\\frac{1}{3}x^2",
+          color: "#2563eb"
+        },
+        {
+          latex: "y = -\\frac{1}{10}x^2",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -8,
+        right: 8,
+        bottom: -10,
+        top: 2
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par82408",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graphs of \\(y = -6x^2\\) and \\(y = mx^2\\), where \\(m\\) is a negative constant, are shown in the \\(xy\\)-plane. The graph of \\(y = mx^2\\) is narrower than the graph of \\(y = -6x^2\\). Which of the following must be true?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( -6 < m < 0 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( 0 < m < 6 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( m < -6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( m > 6 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        {
+          latex: "y = -6x^2",
+          color: "#2563eb"
+        },
+        {
+          latex: "y = -15x^2",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -3,
+        right: 3,
+        bottom: -20,
+        top: 4
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par81845",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graphs of \\(y = \\frac{2}{5}x^2\\) and \\(y = px^2\\), where \\(p\\) is a positive constant, are shown in the \\(xy\\)-plane. The graph of \\(y = px^2\\) is wider than the graph of \\(y = \\frac{2}{5}x^2\\). Which of the following must be true?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( p > \\frac{2}{5} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( 0 < p < \\frac{2}{5} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( p < -\\frac{2}{5} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( p = \\frac{2}{5} \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        {
+          latex: "y = \\frac{2}{5}x^2",
+          color: "#2563eb"
+        },
+        {
+          latex: "y = \\frac{1}{10}x^2",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -8,
+        right: 8,
+        bottom: -2,
+        top: 10
+      }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par45598",
+    topic: "parabola",
+    subtopic: "graphing-functions",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graphs of \\(y = -\\frac{5}{2}x^2\\) and \\(y = rx^2\\), where \\(r\\) is a negative constant, are shown in the \\(xy\\)-plane. The graph of \\(y = rx^2\\) is narrower than the graph of \\(y = -\\frac{5}{2}x^2\\). Which of the following must be true?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( -\\frac{5}{2} < r < 0 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( r > 0 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( r = -\\frac{5}{2} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( r < -\\frac{5}{2} \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: {
+      expressions: [
+        {
+          latex: "y = -\\frac{5}{2}x^2",
+          color: "#2563eb"
+        },
+        {
+          latex: "y = -8x^2",
+          color: "#2563eb"
+        }
+      ],
+      bounds: {
+        left: -4,
+        right: 4,
+        bottom: -12,
+        top: 2
+      }
+    },
     graphChoices: null,
     steps: [],
     screenshot: "",

@@ -82,13 +82,14 @@ export default function Home() {
       <TutorLink />
 
       <Collapsible title="Parabola" defaultOpen={false}>
-        <Collapsible title="Equivalent to & Evaluating a Function" defaultOpen={false}>
-          <Card href="/workbook/parabola/equivalent-to/simple-equivalent-to" title="Basic Equivalent to" />
-          <Card href="/workbook/parabola/equivalent-to/quiz" title="Equivalent To Quiz" kind="quiz" />
+        <Collapsible title="Equivalent Forms & Evaluating a Function" defaultOpen={false}>
+          <Card href="/workbook/parabola/equivalent-to/simple-equivalent-to" title="Equivalent Forms" />
+          <Card href="/workbook/parabola/equivalent-to/quiz" title="Equivalent Forms Quiz" kind="quiz" />
           <Card href="/workbook/parabola/equivalent-to/evaluating-a-function" title="Evaluating a Function" />
         </Collapsible>
         <Collapsible title="Simple Graphing, X-Intercept, & Y-Intercept" defaultOpen={false}>
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/simple-graphing" title="Simple Graphing" />
+          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/graphing-functions" title="Graphing Functions" />
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/y-intercept" title="Y-Intercept" />
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/vertex" title="Vertex" />
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/x-intercept" title="X-Intercept" />

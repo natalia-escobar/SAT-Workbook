@@ -20,9 +20,9 @@ const amuniLesson3 = {
     "Par-SimGr-3-Q-2",
     "Par-SimGr-4-GP-1",
     "Par-SimGr-4-Q-2",
-    "Par-SimGr-2-E-1",
-    "Par-SimGr-2-Q-1",
-    "Par-SimGr-2-Q-2",
+    "Par18600",
+    "Par91613",
+    "Par86603",
     "Par-SimGr-5-E-1",
     "Par-SimGr-5-GP-1",
     "Par-SimGr-CQ-1",   // NEW — provisional id

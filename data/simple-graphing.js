@@ -6,18 +6,18 @@ const simpleGraphing = {
   workedProblems: [
     // Problem 1
     {
-      ...asWorked("Par-SimGr-1-E-1"),
-      ...asGuided("Par-SimGr-1-GP-1"),
-      practice: asPractice(["Par-SimGr-1-Q-1","Par-SimGr-1-Q-2"]),
-      additionalPractice: asAdditional(["Par-SimGr-1-AQ-1","Par-SimGr-1-AQ-2","Par-SimGr-1-AQ-3","Par-SimGr-1-AQ-4"]),
+      ...asWorked("Par34378"),
+      ...asGuided("Par97742"),
+      practice: asPractice(["Par73907","Par80055"]),
+      additionalPractice: asAdditional(["Par79460","Par70963","Par79991","Par55114"]),
     },
 
     // Problem 2
     {
-      ...asWorked("Par-SimGr-2-E-1"),
-      ...asGuided("Par-SimGr-2-GP-1"),
-      practice: asPractice(["Par-SimGr-2-Q-1","Par-SimGr-2-Q-2"]),
-      additionalPractice: asAdditional(["Par-SimGr-2-AQ-1","Par-SimGr-2-AQ-2","Par-SimGr-2-AQ-3","Par-SimGr-2-AQ-4"]),
+      ...asWorked("Par18600"),
+      ...asGuided("Par77838"),
+      practice: asPractice(["Par91613","Par86603"]),
+      additionalPractice: asAdditional(["Par74195","Par39174","Par81034","Par23233"]),
     },
 
     // Problem 3
