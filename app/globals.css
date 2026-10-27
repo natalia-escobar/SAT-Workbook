@@ -515,3 +515,86 @@
   .app-signout, .app-shell.collapsed .app-signout { margin: 0; width: auto; padding: 6px 10px; }
   .app-shell.collapsed .app-signout span { display: inline; }
 }
+
+/* ── Tutor "Show answers" switch (sidebar) ─────────────────────────────
+   Append to app/globals.css. */
+
+.app-switch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  background: none;
+  border: none;
+  font: inherit;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+}
+.app-switch .ti { font-size: 18px; color: #999; flex-shrink: 0; }
+.app-switch:hover { background: #f0f0ee; color: #1a1a1a; }
+.app-switch.on { color: #1a1a1a; }
+.app-switch.on .ti { color: #2e7d32; }
+.app-switch-label { flex: 1; }
+.app-switch-track {
+  width: 32px; height: 18px;
+  border-radius: 999px;
+  background: #d8d8d6;
+  position: relative;
+  flex-shrink: 0;
+  transition: background .15s;
+}
+.app-switch-knob {
+  position: absolute; top: 2px; left: 2px;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  transition: transform .15s;
+}
+.app-switch.on .app-switch-track { background: #2e7d32; }
+.app-switch.on .app-switch-knob { transform: translateX(14px); }
+
+.app-shell.collapsed .app-switch { justify-content: center; padding: 9px 0; }
+.app-shell.collapsed .app-switch-label,
+.app-shell.collapsed .app-switch-track { display: none; }
+
+@media (max-width: 768px) {
+  .app-switch, .app-shell.collapsed .app-switch { margin: 0; width: auto; padding: 6px 10px; }
+  .app-switch-label, .app-shell.collapsed .app-switch-label { display: none; }
+  .app-switch-track, .app-shell.collapsed .app-switch-track { display: inline-block; }
+}
+
+/* ── What the switch does inside a workbook ── */
+
+/* highlight the keyed multiple-choice answer in practice sections */
+.show-answers .practice-text .mc-choice.correct,
+.show-answers .guided-text .mc-choice.correct {
+  background: #eef7ee;
+  box-shadow: inset 0 0 0 1.5px #2e7d32;
+}
+.show-answers .practice-text .mc-choice.correct .mc-label,
+.show-answers .guided-text .mc-choice.correct .mc-label {
+  background: #2e7d32;
+  color: #fff;
+}
+
+/* write-in answer shown under the input */
+.show-answers-value {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border: 1.5px solid #2e7d32;
+  border-radius: 8px;
+  background: #eef7ee;
+  font-size: 14px;
+}
+.show-answers-value .label { font-size: 12px; color: #2e7d32; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+.show-answers-value .value { font-weight: 600; }

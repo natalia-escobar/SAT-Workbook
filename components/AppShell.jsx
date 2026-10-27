@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { supabase, signOut } from "@/lib/db";
+import useShowAnswers, { setShowAnswers } from "@/lib/useShowAnswers";
 
 const STORAGE_KEY = "sidebar-collapsed";
 
@@ -17,6 +18,7 @@ export default function AppShell({ children }) {
   const router = useRouter();
   const [me, setMe] = useState(null);
   const [collapsed, setCollapsed] = useState(false);
+  const showAnswers = useShowAnswers();
 
   // who's logged in
   useEffect(() => {
@@ -89,6 +91,21 @@ export default function AppShell({ children }) {
             </Link>
           )}
         </nav>
+
+        {isTutor && (
+          <button
+            type="button"
+            className={`app-switch ${showAnswers ? "on" : ""}`}
+            onClick={() => setShowAnswers(!showAnswers)}
+            role="switch"
+            aria-checked={showAnswers}
+            title={showAnswers ? "Answers shown — click to hide" : "Show answers in workbooks"}
+          >
+            <i className={`ti ${showAnswers ? "ti-eye" : "ti-eye-off"}`} />
+            <span className="app-switch-label">Show answers</span>
+            <span className="app-switch-track"><span className="app-switch-knob" /></span>
+          </button>
+        )}
 
         <div className="app-account">
           <div className="app-account-text">

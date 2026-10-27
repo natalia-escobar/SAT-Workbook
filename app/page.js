@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import TutorLink from "@/components/TutorLink";
 
 function Collapsible({ title, defaultOpen, children }) {
   const [open, setOpen] = useState(defaultOpen);

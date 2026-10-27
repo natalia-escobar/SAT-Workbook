@@ -12,8 +12,8 @@ import GraphChoices from "@/components/GraphChoices";
 import ProblemNav from "./ProblemNav";
 import Link from "next/link";
 import useShowIds from "@/lib/useShowIds";
+import useShowAnswers from "@/lib/useShowAnswers";
 import { logEvent, getSavedAnswers } from "@/lib/db";
-import SignOutButton from "@/components/SignOutButton";
 import { gradeFreeResponse } from "@/lib/questions";
 
 function SectionAccordion({ icon, title, defaultOpen, children }) {
@@ -106,7 +106,7 @@ function WorkedExampleCarousel({ problem, problemIndex, showIds }) {
   );
 }
 
-function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, showIds, container, savedAnswer, onAnswered, answer }) {
+function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, showIds, showAnswers, container, savedAnswer, onAnswered, answer }) {
   const [open, setOpen] = useState(false);
   const boxRef = useRef(null);
   const isMultipleChoice = text.includes("mc-choice") || graphChoices;
@@ -210,6 +210,14 @@ function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, show
               </button>
             </div>
           )}
+          {showAnswers && answer && (
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <span className="show-answers-value">
+                <span className="label">Answer</span>
+                <span className="value">{answer}</span>
+              </span>
+            </div>
+          )}
         </div>
       )}
     </div>
@@ -223,6 +231,7 @@ export default function WorkbookView({ topic }) {
   const isFirst = problemIndex === 0;
   const isLast = problemIndex === total - 1;
   const showIds = useShowIds();
+  const showAnswers = useShowAnswers(); // tutor switch in the sidebar
   const [saved, setSaved] = useState({});
   const container = topic.slug || topic.name;
 
@@ -243,12 +252,11 @@ export default function WorkbookView({ topic }) {
   }, [problemIndex]);
 
   return (
-    <main className="page">
+    <main className={`page ${showAnswers ? "show-answers" : ""}`}>
       <Link href="/" className="back-link">
         <i className="ti ti-arrow-left" />
         All workbooks
       </Link>
-      <SignOutButton />
       <div style={{ marginBottom: "16px" }}>
         <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "4px" }}>{topic.name}</h1>
         {topic.lesson && <p style={{ fontSize: "15px", color: "#555", margin: 0 }}>{topic.lesson}</p>}
@@ -283,7 +291,7 @@ export default function WorkbookView({ topic }) {
       {problem.practice && problem.practice.length > 0 && (
       <SectionAccordion icon="ti-pencil" title="In-class practice problems" defaultOpen={false} key={`pp-${problemIndex}`}>
         {problem.practice.map((p, i) => (
-          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))} answer={p.answer} />
+          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} showAnswers={showAnswers} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))} answer={p.answer} />
         ))}
       </SectionAccordion>
       )}
@@ -294,7 +302,7 @@ export default function WorkbookView({ topic }) {
       {problem.additionalPractice && problem.additionalPractice.length > 0 && (
         <SectionAccordion icon="ti-notebook" title="Additional practice" defaultOpen={false} key={`ap-${problemIndex}`}>
           {problem.additionalPractice.map((p, i) => (
-            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))} answer={p.answer}/>
+            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} showAnswers={showAnswers} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))} answer={p.answer}/>
           ))}
         </SectionAccordion>
       )}
