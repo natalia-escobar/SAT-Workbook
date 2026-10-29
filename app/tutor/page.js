@@ -97,7 +97,9 @@ export default async function TutorHome() {
         </p>
       )}
 
-            {isAdmin &&
+      {!isAdmin && students.map((s) => <StudentCard key={s.id} s={s} />)}
+      
+      {isAdmin &&
         groups.map((g) => (
           <details key={g.key} open={g.students.length <= 3} style={{ marginTop: 16 }}>
             <summary
