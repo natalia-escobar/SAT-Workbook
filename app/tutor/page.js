@@ -97,12 +97,22 @@ export default async function TutorHome() {
         </p>
       )}
 
-      {!isAdmin && students.map((s) => <StudentCard key={s.id} s={s} />)}
-
-      {isAdmin &&
+            {isAdmin &&
         groups.map((g) => (
-          <section key={g.key} style={{ marginTop: 28 }}>
-            <div style={{ display: "flex", alignItems: "baseline", gap: 12, marginBottom: 4 }}>
+          <details key={g.key} open={g.students.length <= 3} style={{ marginTop: 16 }}>
+            <summary
+              style={{
+                display: "flex",
+                alignItems: "baseline",
+                gap: 12,
+                padding: "10px 16px",
+                borderRadius: 8,
+                cursor: "pointer",
+                listStyle: "none",
+                userSelect: "none",
+              }}
+            >
+              <i className="ti ti-chevron-right tutor-chevron" style={{ color: "#aaa", fontSize: 16 }} />
               <h2 style={{ fontSize: 15, fontWeight: 600, margin: 0 }}>{g.name}</h2>
               <span style={{ fontSize: 13, color: "#777" }}>
                 {g.students.length} {g.students.length === 1 ? "student" : "students"}
@@ -124,9 +134,11 @@ export default async function TutorHome() {
                   {g.code}
                 </span>
               )}
+            </summary>
+            <div style={{ paddingLeft: 16 }}>
+              {g.students.map((s) => <StudentCard key={s.id} s={s} />)}
             </div>
-            {g.students.map((s) => <StudentCard key={s.id} s={s} />)}
-          </section>
+          </details>
         ))}
     </main>
   );
