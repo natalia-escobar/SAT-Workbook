@@ -2,6 +2,7 @@ import { asClassroom } from "@/lib/questions";
 
 const amuniLesson5 = {
     name: "DDCUS-A Lesson 5",
+    slug: "amuni-lesson-5",
     problems: asClassroom(
         [
             "Par-XInt-2-E-1",

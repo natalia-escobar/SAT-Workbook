@@ -2,6 +2,7 @@ import { asClassroom } from "@/lib/questions";
 
 const amuniLesson6 = {
   name: "DDCUS-A Lesson 6",
+  slug: "amuni-lesson-6",
   problems: asClassroom([
 
     // Discrimant Theory

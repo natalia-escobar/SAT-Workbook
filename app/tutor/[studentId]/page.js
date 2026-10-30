@@ -24,7 +24,7 @@ export default async function StudentPage({ params }) {
   const report = await getStudentReport(studentId);
   if (!report) notFound();
 
-  const { student, quizzes, workbook } = report;
+  const { student, quizzes, workbook, classroom } = report;
 
   return (
     <main className="page">
@@ -66,6 +66,40 @@ export default async function StudentPage({ params }) {
             />
           ))}
         </div>
+      ))}
+
+      {/* ── Classroom ── */}
+      <h2 style={{ fontSize: 15, fontWeight: 600, margin: "32px 0 4px" }}>Classroom</h2>
+      {classroom.length === 0 && <p style={{ color: "#777", fontSize: 14 }}>No classroom activity yet.</p>}
+      {classroom.map((l) => (
+        <details key={l.lesson} style={card}>
+          <summary style={{ cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "baseline", listStyle: "none" }}>
+            <div>
+              <div style={{ fontSize: 16, fontWeight: 600 }}>{l.lesson}</div>
+              <div style={{ fontSize: 13, color: "#777", marginTop: 2 }}>last active {fmtDate(l.lastActive)}</div>
+            </div>
+            <div style={{ fontSize: 14 }}>
+              <strong>{l.correct}</strong>
+              <span style={{ color: "#777" }}> / {l.attempted} correct</span>
+            </div>
+          </summary>
+          <div style={{ marginTop: 12 }}>
+            {l.questions.map((qq, i) => (
+              <TutorQuestionRow
+                key={qq.id}
+                question={qq}
+                left={
+                  <span style={{ fontSize: 13, color: "#555" }}>
+                    <strong style={{ marginRight: 10 }}>{i + 1}.</strong>
+                    {qq.type ? `${qq.type}` : ""}
+                    <span style={{ color: "#aaa", marginLeft: 8 }}>{qq.id}</span>
+                  </span>
+                }
+                middle={qq.answer ? `answered ${qq.answer}` : fmtDate(qq.at)}
+              />
+            ))}
+          </div>
+        </details>
       ))}
 
       {/* ── Workbook ── */}
