@@ -53,6 +53,7 @@ export default function AppShell({ children }) {
 
   const isTutor = me.role === "tutor" || me.role === "admin";
   const inTutorView = pathname.startsWith("/tutor");
+  const inProgress = pathname.startsWith("/progress");
 
   const handleSignOut = async () => {
     await signOut();
@@ -80,10 +81,16 @@ export default function AppShell({ children }) {
         </div>
 
         <nav className="app-nav">
-          <Link href="/" className={`app-nav-link ${!inTutorView ? "active" : ""}`} title="Workbooks">
+          <Link href="/" className={`app-nav-link ${!inTutorView && !inProgress ? "active" : ""}`} title="Workbooks">
             <i className="ti ti-book" />
             <span>Workbooks</span>
           </Link>
+          {!isTutor && (
+            <Link href="/progress" className={`app-nav-link ${inProgress ? "active" : ""}`} title="My progress">
+              <i className="ti ti-chart-bar" />
+              <span>My progress</span>
+            </Link>
+          )}
           {isTutor && (
             <Link href="/tutor" className={`app-nav-link ${inTutorView ? "active" : ""}`} title="My students">
               <i className="ti ti-users" />
