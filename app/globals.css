@@ -602,3 +602,36 @@
 details > summary::-webkit-details-marker { display: none; }
 details[open] > summary .tutor-chevron { transform: rotate(90deg); }
 .tutor-chevron { transition: transform .2s; }
+
+/* collapsed: only the toggle button, floating at top-left */
+.app-shell.collapsed .app-sidebar {
+  width: 0;
+  padding: 0;
+  border-right: none;
+  background: transparent;
+  overflow: visible;
+}
+.app-shell.collapsed .app-sidebar-top {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  padding: 0;
+  z-index: 60;
+}
+.app-shell.collapsed .app-brand,
+.app-shell.collapsed .app-nav,
+.app-shell.collapsed .app-switch,
+.app-shell.collapsed .app-account {
+  display: none;
+}
+.app-shell.collapsed .app-toggle {
+  background: #fff;
+  border: 0.5px solid #e0e0de;
+  border-radius: 8px;
+  padding: 8px;
+  color: #555;
+}
+.app-shell.collapsed .app-toggle:hover { color: #1a1a1a; }
+
+/* keep page content clear of the floating button */
+.app-shell.collapsed .app-main { padding-top: 48px; }
