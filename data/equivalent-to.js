@@ -5,6 +5,7 @@ const equivalentTo = {
   name: "Parabola",
   lesson: "Equivalent To",
   meta: "",
+  slug: "equivalent-to",
   workedProblems: [
     // Problem 1
     {
