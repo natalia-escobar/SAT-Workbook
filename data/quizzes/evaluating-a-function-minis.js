@@ -19,21 +19,21 @@ export const evalMini2 = {
   ...base,
   id: "eval-mini-2",
   title: "Quiz · Problems 5–6",
-  questionIds: ["Par77978", "Par16622", "Par32392"],
+  questionIds: ["Par77978", "Par16622", "Par83095", "Par32392"],
 };
 
 export const evalMini3 = {
   ...base,
   id: "eval-mini-3",
   title: "Quiz · Problems 7–8",
-  questionIds: ["Par42701", "Par81973", "Par67383"],
+  questionIds: ["Par42701", "Par81973", "Par67383", "Par90556", "Par77978"],
 };
 
 export const evalMini4 = {
   ...base,
   id: "eval-mini-4",
   title: "Quiz · Problems 9–11",
-  questionIds: ["Par61753", "Par78949", "Par40944", "Par31218"],
+  questionIds: ["Par61753", "Par78949", "Par40944", "Par31218", "Par37365", "Par13174"],
 };
 
 const evaluatingAFunctionMinis = [evalMini1, evalMini2, evalMini3, evalMini4];
