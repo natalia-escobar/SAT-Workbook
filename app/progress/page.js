@@ -10,7 +10,13 @@ import ProgressQuestionRow from "@/components/ProgressQuestionRow";
 export const dynamic = "force-dynamic";
 
 const fmtDate = (iso) =>
-  iso ? new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric" }) : "—";
+  iso
+    ? new Date(iso).toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric",
+        timeZone: "America/New_York", // server runs in UTC; show Eastern time
+      })
+    : "—";
 
 const card = { border: "0.5px solid #e0e0de", borderRadius: 10, padding: "16px 20px", marginTop: 8 };
 const h2 = { fontSize: 15, fontWeight: 600, margin: "32px 0 4px" };

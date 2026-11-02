@@ -9,7 +9,13 @@ export const dynamic = "force-dynamic";
 
 const fmtDate = (iso) =>
   iso
-    ? new Date(iso).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })
+    ? new Date(iso).toLocaleString("en-US", {
+        month: "short",
+        day: "numeric",
+        hour: "numeric",
+        minute: "2-digit",
+        timeZone: "America/New_York", // server runs in UTC; show Eastern time
+      })
     : "—";
 
 const card = {
