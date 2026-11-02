@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import ProblemStatement from "@/components/ProblemStatement";
 import StepNavigator from "@/components/StepNavigator";
 import GuidedPractice from "@/components/GuidedPractice";
@@ -14,7 +14,24 @@ import Link from "next/link";
 import useShowIds from "@/lib/useShowIds";
 import useShowAnswers from "@/lib/useShowAnswers";
 import { logEvent, getSavedAnswers } from "@/lib/db";
-import { gradeFreeResponse } from "@/lib/questions";
+import { gradeFreeResponse, asQuiz } from "@/lib/questions";
+import QuizView from "@/components/QuizView";
+import quizzes from "@/data/quizzes";
+
+/**
+ * Build the stop sequence: every problem, with a mini quiz slot inserted after any
+ * problem listed in topic.miniQuizzes ({ [problemNumber]: quizId }).
+ */
+function buildSlots(topic) {
+  const minis = topic.miniQuizzes || {};
+  const slots = [];
+  topic.workedProblems.forEach((_, i) => {
+    slots.push({ type: "problem", problemIndex: i });
+    const quizId = minis[i + 1];
+    if (quizId) slots.push({ type: "quiz", quizId, afterProblem: i + 1 });
+  });
+  return slots;
+}
 
 function SectionAccordion({ icon, title, defaultOpen, children }) {
   const [open, setOpen] = useState(defaultOpen);
@@ -225,11 +242,13 @@ function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, show
 }
 
 export default function WorkbookView({ topic }) {
-  const [problemIndex, setProblemIndex] = useState(0);
+  const slots = useMemo(() => buildSlots(topic), [topic]);
+  const [slotIndex, setSlotIndex] = useState(0);
+  const slot = slots[slotIndex];
+  const isQuizSlot = slot.type === "quiz";
+  // For a quiz slot, keep the previous problem's index so hooks below have something to key on.
+  const problemIndex = isQuizSlot ? slot.afterProblem - 1 : slot.problemIndex;
   const problem = topic.workedProblems[problemIndex];
-  const total = topic.workedProblems.length;
-  const isFirst = problemIndex === 0;
-  const isLast = problemIndex === total - 1;
   const showIds = useShowIds();
   const showAnswers = useShowAnswers(); // tutor switch in the sidebar
   const [saved, setSaved] = useState({});
@@ -243,13 +262,47 @@ export default function WorkbookView({ topic }) {
 
   useEffect(() => {
     if (window.MathJax) window.MathJax.typesetPromise();
+    if (isQuizSlot) return;
     logEvent({
-    questionId: problem.id || problem.workedExamples?.[0]?.id,
-    eventType: "viewed",
-    context: "workbook",
-    containerId: topic.slug || topic.name,
-  });
-  }, [problemIndex]);
+      questionId: problem.id || problem.workedExamples?.[0]?.id,
+      eventType: "viewed",
+      context: "workbook",
+      containerId: topic.slug || topic.name,
+    });
+  }, [slotIndex]);
+
+  // ── Mini quiz stop ──
+  if (isQuizSlot) {
+    const def = quizzes[slot.quizId];
+    const nextProblem = slot.afterProblem + 1;
+    const hasNext = slotIndex < slots.length - 1;
+    return (
+      <main className={`page ${showAnswers ? "show-answers" : ""}`}>
+        <Link href="/" className="back-link">
+          <i className="ti ti-arrow-left" />
+          All workbooks
+        </Link>
+        <div style={{ marginBottom: "16px" }}>
+            <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "4px" }}>{topic.name}</h1>
+            {topic.lesson && <p style={{ fontSize: "15px", color: "#555", margin: 0 }}>{topic.lesson}</p>}
+        </div>
+        <ProblemNav slots={slots} slotIndex={slotIndex} setSlotIndex={setSlotIndex} showIds={showIds} />
+        {def ? (
+          <div className="mini-quiz-card">
+            <QuizView
+              key={slot.quizId}
+              quiz={asQuiz(def)}
+              inline
+              onContinue={hasNext ? () => setSlotIndex((i) => i + 1) : undefined}
+              continueLabel={hasNext ? `Continue to problem ${nextProblem}` : "Done"}
+            />
+          </div>
+        ) : (
+          <p style={{ color: "#c0392b" }}>Quiz "{slot.quizId}" isn't in data/quizzes/index.js.</p>
+        )}
+      </main>
+    );
+  }
 
   return (
     <main className={`page ${showAnswers ? "show-answers" : ""}`}>
@@ -258,12 +311,12 @@ export default function WorkbookView({ topic }) {
         All workbooks
       </Link>
       <div style={{ marginBottom: "16px" }}>
-        <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "4px" }}>{topic.name}</h1>
-        {topic.lesson && <p style={{ fontSize: "15px", color: "#555", margin: 0 }}>{topic.lesson}</p>}
+          <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "4px" }}>{topic.name}</h1>
+          {topic.lesson && <p style={{ fontSize: "15px", color: "#555", margin: 0 }}>{topic.lesson}</p>}
       </div>
       {/* <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "16px" }}>{topic.name}</h1> */}
       {/* <HowThisWorks /> */}
-      <ProblemNav problemIndex={problemIndex} total={total} setProblemIndex={setProblemIndex} showIds={showIds} isFirst={isFirst} isLast={isLast} />
+      <ProblemNav slots={slots} slotIndex={slotIndex} setSlotIndex={setSlotIndex} showIds={showIds} />
 
       <SectionAccordion icon="ti-book" title="Worked example" defaultOpen={true} key={`we-${problemIndex}`}>
         <WorkedExampleCarousel problem={problem} problemIndex={problemIndex} showIds={showIds} key={`wec-${problemIndex}`} />

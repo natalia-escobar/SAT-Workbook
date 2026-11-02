@@ -19,7 +19,13 @@ import { logEvent, getLatestQuizAttempt } from "@/lib/db";
  *         each row expands to show the question with the student's answer marked).
  * The start screen also offers "Review last attempt" if the student has taken it before.
  */
-export default function QuizView({ quiz }) {
+/**
+ * `inline` renders without the page wrapper (for a quiz embedded in a workbook);
+ * `onContinue` / `continueLabel` replace the next-subtopic link in that case.
+ */
+export default function QuizView({ quiz, inline = false, onContinue, continueLabel = "Continue" }) {
+  const Wrap = inline ? "div" : "main";
+  const wrapClass = inline ? "quiz-inline" : "page";
   const { questions, timeMinutes } = quiz;
   const totalSeconds = timeMinutes * 60;
 
@@ -161,7 +167,7 @@ export default function QuizView({ quiz }) {
   // ── START SCREEN ──
   if (!started) {
     return (
-      <main className="page">
+      <Wrap className={wrapClass}>
         <div className="quiz-start">
           <h1 className="quiz-start-title">{quiz.title}</h1>
           <div className="quiz-start-stats">
@@ -189,14 +195,14 @@ export default function QuizView({ quiz }) {
             )}
           </div>
         </div>
-      </main>
+      </Wrap>
     );
   }
 
   // ── RESULTS SCREEN ──
   if (finished) {
     return (
-      <main className="page">
+      <Wrap className={wrapClass}>
         <div className="quiz-results">
           <h1 className="quiz-results-title">
             {reviewing ? "Your last attempt" : timeLeft <= 0 ? "Time's up" : "Quiz complete"}
@@ -254,14 +260,18 @@ export default function QuizView({ quiz }) {
             <button className="nav-btn" onClick={reset}>
               Try again
             </button>
-            {quiz.next && (
+            {inline && onContinue ? (
+              <button className="quiz-start-btn" onClick={onContinue}>
+                {continueLabel} &rarr;
+              </button>
+            ) : quiz.next ? (
               <Link href={quiz.next.href} className="quiz-start-btn">
                 Continue to {quiz.next.title} &rarr;
               </Link>
-            )}
+            ) : null}
           </div>
         </div>
-      </main>
+      </Wrap>
     );
   }
 
@@ -270,7 +280,7 @@ export default function QuizView({ quiz }) {
   const isLast = currentIndex === questions.length - 1;
 
   return (
-    <main className="page">
+    <Wrap className={wrapClass}>
       <div className="quiz-header">
         <span className="quiz-header-title">{quiz.title}</span>
         <div className="quiz-header-right">
@@ -348,6 +358,6 @@ export default function QuizView({ quiz }) {
           </button>
         )}
       </div>
-    </main>
+    </Wrap>
   );
 }

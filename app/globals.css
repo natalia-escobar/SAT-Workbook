@@ -560,15 +560,14 @@
 .app-switch.on .app-switch-track { background: #2e7d32; }
 .app-switch.on .app-switch-knob { transform: translateX(14px); }
 
-.app-shell.collapsed .app-switch { justify-content: center; padding: 9px 0; }
-.app-shell.collapsed .app-switch-label,
-.app-shell.collapsed .app-switch-track { display: none; }
-
 @media (max-width: 768px) {
   .app-switch, .app-shell.collapsed .app-switch { margin: 0; width: auto; padding: 6px 10px; }
-  .app-switch-label, .app-shell.collapsed .app-switch-label { display: none; }
-  .app-switch-track, .app-shell.collapsed .app-switch-track { display: inline-block; }
 }
+
+/* the inline Show-answers switch is independent of the sidebar */
+.app-shell.collapsed .app-switch.inline-switch { display: flex; }
+.app-shell.collapsed .app-switch.inline-switch .app-switch-label,
+.app-shell.collapsed .app-switch.inline-switch .app-switch-track { display: inline-block; }
 
 /* ── What the switch does inside a workbook ── */
 
@@ -635,3 +634,73 @@ details[open] > summary .tutor-chevron { transform: rotate(90deg); }
 
 /* keep page content clear of the floating button */
 .app-shell.collapsed .app-main { padding-top: 48px; }
+
+/* ── Mini quizzes inside a workbook ─────────────────────────────────────
+   Append to app/globals.css. */
+
+/* stop strip under the Problem N of M line */
+.stop-strip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.stop {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1.5px solid #c8c8c6;
+  background: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.stop:hover { border-color: #1a1a1a; }
+.stop.active { background: #1a1a1a; border-color: #1a1a1a; }
+.stop.quiz {
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  border-style: dashed;
+  color: #888;
+  font-size: 11px;
+}
+.stop.quiz.active { color: #fff; border-style: solid; }
+
+/* the embedded quiz */
+.mini-quiz-card {
+  border: 0.5px dashed #b0b0ae;
+  border-radius: 12px;
+  padding: 8px 24px 24px;
+  background: #fafaf8;
+}
+.quiz-inline .quiz-start,
+.quiz-inline .quiz-results { margin: 24px auto; }
+
+/* ── Nav second row: stop strip left, Show answers switch right ──────── */
+
+.nav-row2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 8px;
+}
+.nav-row2 .stop-strip { margin-top: 0; }
+
+.app-switch.inline-switch {
+  width: auto;
+  margin: 0;
+  padding: 5px 10px 5px 8px;
+  border: 1.5px solid #e0e0de;
+  border-radius: 999px;
+  background: #fff;
+  font-size: 13px;
+  flex-shrink: 0;
+}
+.app-switch.inline-switch:hover { background: #fafaf8; }
+.app-switch.inline-switch.on { border-color: #2e7d32; }
+.app-switch.inline-switch .app-switch-label { flex: none; margin-right: 4px; }

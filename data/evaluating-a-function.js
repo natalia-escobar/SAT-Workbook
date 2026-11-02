@@ -5,6 +5,8 @@ const evaluatingAFunction = {
   name: "Parabola",
   lesson: "Evaluating a Function",
   meta: "",
+  slug: "evaluating-a-function",
+  miniQuizzes: { 4: "eval-mini-1", 6: "eval-mini-2", 8: "eval-mini-3", 11: "eval-mini-4" },
   workedProblems: [
     // Problem 1
     {
@@ -32,26 +34,27 @@ const evaluatingAFunction = {
 
      // Problem 4
     {
+      ...asWorked("Par73529"),
+      ...asGuided("Par54429"),
+      practice: asPractice(["Par10520", "Par77355"]),
+      additionalPractice: asAdditional(["Par47530", "Par94360", "Par11759", "Par35467"]),
+    },
+
+
+     // Problem 5
+    {
       ...asWorked("Par68538"),
       ...asGuided("Par74150"),
       practice: asPractice(["Par71454", "Par85686"]),
       additionalPractice: asAdditional(["Par46519", "Par77978", "Par32625", "Par32392"]),
     },
 
-     // Problem 5
+     // Problem 6
     {
       ...asWorked("Par58111"),
       ...asGuided("Par85995"),
       practice: asPractice(["Par81908", "Par36327"]),
       additionalPractice: asAdditional(["Par51039", "Par16622", "Par79236", "Par13713"]),
-    },
-
-     // Problem 6
-    {
-      ...asWorked("Par73529"),
-      ...asGuided("Par54429"),
-      practice: asPractice(["Par10520", "Par77355"]),
-      additionalPractice: asAdditional(["Par47530", "Par94360", "Par11759", "Par35467"]),
     },
 
      // Problem 7
