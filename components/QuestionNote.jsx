@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { saveNote } from "@/lib/db";
 
-const MAX = 300;
+const MAX = 2000;
 
 /**
  * One student note under a question box.
