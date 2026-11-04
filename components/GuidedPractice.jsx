@@ -5,8 +5,9 @@ import MathContent from "./MathContent";
 import DesmosGraph from "./DesmosGraph";
 import GraphChoices from "./GraphChoices";
 import { logEvent } from "@/lib/db";
+import QuestionNote from "./QuestionNote";
 
-function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, container, savedAnswer, onAnswered }) {
+function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, container, savedAnswer, onAnswered, notes, onNoteSaved}) {
   const [checked, setChecked] = useState(() => gp.steps.map(() => false));
   const isMultipleChoice = gp.problem.includes("mc-choice") || gp.graphChoices;
   const leftRef = useRef(null);
@@ -68,6 +69,7 @@ function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, containe
   };
 
   return (
+    <>
     <div className="guided-grid">
       <div ref={leftRef} className="guided-grid-left" onClick={isMultipleChoice && !gp.graphChoices ? onChoiceClick : undefined}>
         {gp.graph && <DesmosGraph graph={gp.graph} />}
@@ -93,10 +95,12 @@ function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, containe
         </div>
       </div>
     </div>
+    {gp.id && <QuestionNote questionId={gp.id} initialBody={notes[gp.id]?.body} onSaved={onNoteSaved} />}
+    </>
   );
 }
 
-export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot, guidedGraph, guidedGraphChoices, guidedProblems, guidedIds, container, savedAnswers = {}, onAnswered }) {
+export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot, guidedGraph, guidedGraphChoices, guidedProblems, guidedIds, container, savedAnswers = {}, onAnswered, notes = {}, onNoteSaved }) {
   const selectedChoiceRef = useRef(null);
 
   // Build array of guided problems
@@ -132,7 +136,7 @@ export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswe
           </div>
         </div>
       )}
-      <GuidedPracticeCard key={currentIndex} gp={gp} handleChoiceClick={() => {}} selectedChoiceRef={selectedChoiceRef} container={container} savedAnswer={savedAnswers[gp.id]} onAnswered={onAnswered} />
+      <GuidedPracticeCard key={currentIndex} gp={gp} handleChoiceClick={() => {}} selectedChoiceRef={selectedChoiceRef} container={container} savedAnswer={savedAnswers[gp.id]} onAnswered={onAnswered} notes={notes} onNoteSaved={onNoteSaved} />
     </div>
   );
 }

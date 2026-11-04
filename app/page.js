@@ -78,7 +78,7 @@ export default function Home() {
       <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "20px" }}>
         Practice Workbooks
       </h1>
-
+  
       <Collapsible title="Parabola" defaultOpen={false}>
         <Collapsible title="Equivalent Forms & Evaluating a Function" defaultOpen={false}>
           <Card href="/workbook/parabola/equivalent-to/simple-equivalent-to" title="Equivalent Forms" />
@@ -103,4 +103,5 @@ export default function Home() {
       </Collapsible>
     </main>
   );
+
 }

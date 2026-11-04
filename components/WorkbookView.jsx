@@ -13,10 +13,11 @@ import ProblemNav from "./ProblemNav";
 import Link from "next/link";
 import useShowIds from "@/lib/useShowIds";
 import useShowAnswers from "@/lib/useShowAnswers";
-import { logEvent, getSavedAnswers } from "@/lib/db";
 import { gradeFreeResponse, asQuiz } from "@/lib/questions";
 import QuizView from "@/components/QuizView";
 import quizzes from "@/data/quizzes";
+import { logEvent, getSavedAnswers, getNotes } from "@/lib/db";
+import QuestionNote from "@/components/QuestionNote";
 
 /**
  * Build the stop sequence: every problem, with a mini quiz slot inserted after any
@@ -31,6 +32,19 @@ function buildSlots(topic) {
     if (quizId) slots.push({ type: "quiz", quizId, afterProblem: i + 1 });
   });
   return slots;
+}
+
+/** Every question id this topic renders, so notes can be fetched in one call. */
+function collectIds(topic) {
+  const ids = [];
+  for (const p of topic.workedProblems) {
+    if (p.workedExamples?.length) p.workedExamples.forEach((ex) => ex.id && ids.push(ex.id));
+    else if (p.id) ids.push(p.id);
+    p.guidedIds?.forEach((id) => ids.push(id));
+    p.practice?.forEach((q) => q.id && ids.push(q.id));
+    p.additionalPractice?.forEach((q) => q.id && ids.push(q.id));
+  }
+  return ids;
 }
 
 function SectionAccordion({ icon, title, defaultOpen, children }) {
@@ -52,7 +66,7 @@ function SectionAccordion({ icon, title, defaultOpen, children }) {
   );
 }
 
-function WorkedExampleCarousel({ problem, problemIndex, showIds }) {
+function WorkedExampleCarousel({ problem, problemIndex, showIds, notes, onNoteSaved }) {
   // Normalize: use workedExamples array if present, otherwise wrap the single example
   const examples = problem.workedExamples && problem.workedExamples.length > 0
     ? problem.workedExamples
@@ -119,11 +133,12 @@ function WorkedExampleCarousel({ problem, problemIndex, showIds }) {
           ))}
         </div>
       </div>
+      {example.id && <QuestionNote questionId={example.id} initialBody={notes[example.id]?.body} onSaved={onNoteSaved} />}
     </>
   );
 }
 
-function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, showIds, showAnswers, container, savedAnswer, onAnswered, answer }) {
+function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, showIds, showAnswers, container, savedAnswer, onAnswered, answer, notes, onNoteSaved }) {
   const [open, setOpen] = useState(false);
   const boxRef = useRef(null);
   const isMultipleChoice = text.includes("mc-choice") || graphChoices;
@@ -235,6 +250,7 @@ function AdditionalPracticeQuestion({ text, index, graph, graphChoices, id, show
               </span>
             </div>
           )}
+          <QuestionNote questionId={id} initialBody={notes[id]?.body} onSaved={onNoteSaved} />
         </div>
       )}
     </div>
@@ -252,13 +268,14 @@ export default function WorkbookView({ topic }) {
   const showIds = useShowIds();
   const showAnswers = useShowAnswers(); // tutor switch in the sidebar
   const [saved, setSaved] = useState({});
+  const [notes, setNotes] = useState({});
+  const onNoteSaved = (qid, body) => setNotes((n) => ({ ...n, [qid]: { ...n[qid], body } }));
   const container = topic.slug || topic.name;
 
-  useEffect(() => {
-  getSavedAnswers(container).then((m) => {
-    setSaved(m);
-  });
-}, [container]);
+    useEffect(() => {
+    getSavedAnswers(container).then(setSaved);
+    getNotes(collectIds(topic)).then(setNotes);
+  }, [container]);
 
   useEffect(() => {
     if (window.MathJax) window.MathJax.typesetPromise();
@@ -319,7 +336,7 @@ export default function WorkbookView({ topic }) {
       <ProblemNav slots={slots} slotIndex={slotIndex} setSlotIndex={setSlotIndex} showIds={showIds} />
 
       <SectionAccordion icon="ti-book" title="Worked example" defaultOpen={true} key={`we-${problemIndex}`}>
-        <WorkedExampleCarousel problem={problem} problemIndex={problemIndex} showIds={showIds} key={`wec-${problemIndex}`} />
+        <WorkedExampleCarousel problem={problem} problemIndex={problemIndex} showIds={showIds} notes={notes} onNoteSaved={onNoteSaved} key={`wec-${problemIndex}`} />
       </SectionAccordion>
 
       <SectionAccordion icon="ti-checkbox" title="Guided practice — follow the steps" defaultOpen={false} key={`gp-${problemIndex}`}>
@@ -338,13 +355,15 @@ export default function WorkbookView({ topic }) {
           container={topic.slug || topic.name}
           savedAnswers={saved}
           onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))}
+          notes={notes}
+          onNoteSaved={onNoteSaved}
         />
       </SectionAccordion>
 
       {problem.practice && problem.practice.length > 0 && (
       <SectionAccordion icon="ti-pencil" title="In-class practice problems" defaultOpen={false} key={`pp-${problemIndex}`}>
         {problem.practice.map((p, i) => (
-          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} showAnswers={showAnswers} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))} answer={p.answer} />
+          <AdditionalPracticeQuestion key={`${problemIndex}-pp-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} showAnswers={showAnswers} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))} answer={p.answer} notes={notes} onNoteSaved={onNoteSaved}/>
         ))}
       </SectionAccordion>
       )}
@@ -355,7 +374,7 @@ export default function WorkbookView({ topic }) {
       {problem.additionalPractice && problem.additionalPractice.length > 0 && (
         <SectionAccordion icon="ti-notebook" title="Additional practice" defaultOpen={false} key={`ap-${problemIndex}`}>
           {problem.additionalPractice.map((p, i) => (
-            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} showAnswers={showAnswers} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))} answer={p.answer}/>
+            <AdditionalPracticeQuestion key={`${problemIndex}-ap-${i}`} text={p.text} index={i} graph={p.graph} graphChoices={p.graphChoices} id={p.id} showIds={showIds} showAnswers={showAnswers} container={topic.slug || topic.name} savedAnswer={saved[p.id]} onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))} answer={p.answer} notes={notes} onNoteSaved={onNoteSaved}/>
           ))}
         </SectionAccordion>
       )}

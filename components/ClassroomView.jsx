@@ -8,8 +8,9 @@ import ProblemNav from "./ProblemNav";
 import useShowIds from "@/lib/useShowIds";
 import useShowAnswers from "@/lib/useShowAnswers";
 import Link from "next/link";
-import { logEvent, getSavedAnswers } from "@/lib/db";
 import { gradeFreeResponse } from "@/lib/questions";
+import { logEvent, getSavedAnswers, getNotes } from "@/lib/db";
+import QuestionNote from "./QuestionNote";
 
 export default function ClassroomView({ topic }) {
   const [problemIndex, setProblemIndex] = useState(0);
@@ -28,10 +29,13 @@ export default function ClassroomView({ topic }) {
   const [saved, setSaved] = useState({});     // { [questionId]: answer }
   const [typed, setTyped] = useState("");
   const [savedFlag, setSavedFlag] = useState(false);
+  const [notes, setNotes] = useState({});
+  const onNoteSaved = (qid, body) => setNotes((n) => ({ ...n, [qid]: { ...n[qid], body } }));
 
   // Load this student's previous answers for the lesson.
   useEffect(() => {
     getSavedAnswers(container).then(setSaved);
+    getNotes(topic.problems.map((p) => p.id).filter(Boolean)).then(setNotes);
   }, [container]);
 
   const isMultipleChoice = problem.problem.includes("mc-choice");
@@ -148,6 +152,12 @@ export default function ClassroomView({ topic }) {
             </span>
           </div>
         )}
+        <QuestionNote
+          key={problem.id}
+          questionId={problem.id}
+          initialBody={notes[problem.id]?.body}
+          onSaved={onNoteSaved}
+        />
       </div>
     </main>
   );
