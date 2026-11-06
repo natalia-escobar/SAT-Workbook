@@ -97,11 +97,16 @@ export default function Home() {
         <Card href="/workbook/parabola/misc/miscellaneous" title="Miscellaneous" />
       </Collapsible>
 
-      <Collapsible title="DDCUS-A" defaultOpen={false}>
-        <Card href="/classroom/amuni/lesson-3" title="Lesson 3" />
-        <Card href="/classroom/amuni/lesson-4" title="Lesson 4" />
-        <Card href="/classroom/amuni/lesson-5" title="Lesson 5" />
-        <Card href="/classroom/amuni/lesson-6" title="Lesson 6" />
+      <Collapsible title="DDCUS" defaultOpen={false}>
+        <Collapsible title="Amuni's Class" defaultOpen={false}>
+          <Card href="/classroom/amuni/lesson-3" title="Lesson 3" />
+          <Card href="/classroom/amuni/lesson-4" title="Lesson 4" />
+          <Card href="/classroom/amuni/lesson-5" title="Lesson 5" />
+          <Card href="/classroom/amuni/lesson-6" title="Lesson 6" />
+        </Collapsible>
+        <Collapsible title="Natalia's Class" defaultOpen={false}>
+          <Card href="/classroom/natalia/triangles" title="Triangles" />
+        </Collapsible>
       </Collapsible>
     </main>
   );

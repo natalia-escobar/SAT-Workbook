@@ -9,9 +9,9 @@ const MODES = [
   { id: "point", label: "Point", hint: "Click the canvas to add a point" },
   { id: "segment", label: "Segment", hint: "Click two points" },
   { id: "circle", label: "Circle", hint: "Click the center, then a point on the circle" },
-  { id: "angle", label: "Angle mark", hint: "Click the vertex, then the two arms" },
+  { id: "angle", label: "Angle mark", hint: "Click the vertex (if it has more than two sides, then click the two arms)" },
   { id: "tick", label: "Tick", hint: "Click a segment (click again for a double tick)" },
-  { id: "right", label: "Right angle", hint: "Click the vertex, then the two arms" },
+  { id: "right", label: "Right angle", hint: "Click the vertex (if it has more than two sides, then click the two arms)" },
   { id: "label", label: "Label", hint: "Click a segment to label it" },
 ];
 
@@ -70,7 +70,16 @@ export default function FigureBuilder({ initial, onSave }) {
     if (mode === "select") { setSelected({ kind: "point", name }); return; }
     if (mode === "point") return;
     if (pending.includes(name)) return;
-    const next = [...pending, name];
+    let next = [...pending, name];
+
+    // Angle / right-angle: if the vertex has exactly two segments attached,
+    // the arms are unambiguous, so draw it on the first click.
+    if ((mode === "angle" || mode === "right") && next.length === 1) {
+      const arms = fig.segments
+        .filter((s) => s.from === name || s.to === name)
+        .map((s) => (s.from === name ? s.to : s.from));
+      if (arms.length === 2) next = [name, arms[0], arms[1]];
+    }
 
     if (mode === "segment" && next.length === 2) {
       const seg = { from: next[0], to: next[1] };
@@ -280,3 +289,5 @@ export default function FigureBuilder({ initial, onSave }) {
     </div>
   );
 }
+
+

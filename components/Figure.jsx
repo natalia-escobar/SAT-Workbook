@@ -29,6 +29,11 @@ import {
  *   onCircleClick(index)
  *   onItemClick(kind, index)   angle / tick / rightAngle / label
  *   onPointDrag(name, x, y)    pointer drag of a point
+ *   background  fill color behind the figure (default "white"); null for transparent
+ *   radius      corner radius of that background in px (default 8, matches .desmos-container)
+ *   border      hairline color around it (default "#e0e0de", matches .desmos-container); null for none
+ *   fit         crop the view to the drawing plus `margin` (default: on when not editable)
+ *   margin      space around the drawing when fitting, in figure units (default 44)
  */
 export default function Figure({
   spec,
@@ -43,11 +48,35 @@ export default function Figure({
   onItemClick,
   onPointDrag,
   style,
+  background = "white",   // fill behind the figure; pass null for transparent
+  radius = 8,             // corner radius of the background, in px
+  border = "#e0e0de",     // hairline around the background; pass null for none
+  fit = !editable,        // crop the view to the drawing (+ margin) instead of the full canvas
+  margin = 44,            // space around the drawing when fit is on, in figure units
 }) {
   const svgRef = React.useRef(null);
-  const [w, h] = spec.size;
   const center = centroid(spec.points);
   const P = (name) => spec.points[name];
+
+  // Visible area: the whole canvas while editing, or a box around the drawing when showing.
+  const box = React.useMemo(() => {
+    const [cw, ch] = spec.size;
+    const pts = Object.values(spec.points);
+    if (!fit || !pts.length) return { x: 0, y: 0, w: cw, h: ch };
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    const grow = (x, y, r = 0) => {
+      minX = Math.min(minX, x - r); maxX = Math.max(maxX, x + r);
+      minY = Math.min(minY, y - r); maxY = Math.max(maxY, y + r);
+    };
+    pts.forEach((p) => grow(p[0], p[1]));
+    spec.circles.forEach((c) => {
+      const O = spec.points[c.center], T = spec.points[c.through];
+      if (O && T) grow(O[0], O[1], dist(O, T));
+    });
+    const extra = spec.notToScale ? 22 : 0; // room for the note under the drawing
+    return { x: minX - margin, y: minY - margin, w: maxX - minX + 2 * margin, h: maxY - minY + 2 * margin + extra };
+  }, [spec, fit, margin]);
+  const { x: bx, y: by, w, h } = box;
 
   const stroke = "currentColor";
   const accent = "#2563eb";
@@ -94,9 +123,14 @@ export default function Figure({
   return (
     <svg
       ref={svgRef}
-      viewBox={`0 0 ${w} ${h}`}
+      viewBox={`${bx} ${by} ${w} ${h}`}
       width={width}
-      style={{ display: "block", touchAction: "none", userSelect: "none", ...style }}
+      style={{
+        display: "block", touchAction: "none", userSelect: "none",
+        borderRadius: radius, overflow: "hidden",
+        border: border ? `0.5px solid ${border}` : "none",
+        ...style,
+      }}
       onClick={(e) => {
         if (!editable || !onCanvasClick) return;
         const [x, y] = toFigureCoords(e);
@@ -106,6 +140,7 @@ export default function Figure({
       onPointerUp={endDrag}
       onPointerLeave={endDrag}
     >
+      {background && <rect x={bx} y={by} width={w} height={h} rx={radius} ry={radius} fill={background} />}
       {editable && (
         <>
           <defs>
@@ -113,7 +148,7 @@ export default function Figure({
               <path d={`M ${GRID} 0 H 0 V ${GRID}`} fill="none" stroke="#9ca3af" strokeOpacity="0.35" strokeWidth="0.5" />
             </pattern>
           </defs>
-          <rect width={w} height={h} fill="url(#fig-grid)" />
+          <rect x={bx} y={by} width={w} height={h} fill="url(#fig-grid)" />
         </>
       )}
 
@@ -225,7 +260,7 @@ export default function Figure({
       })}
 
       {spec.notToScale && (
-        <text x={w - 8} y={h - 8} fontSize="12" textAnchor="end" fill={stroke} fillOpacity="0.7">
+        <text x={bx + w - 10} y={by + h - 10} fontSize="12" textAnchor="end" fill={stroke} fillOpacity="0.7">
           Note: Figure not drawn to scale.
         </text>
       )}

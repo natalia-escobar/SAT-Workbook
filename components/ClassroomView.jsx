@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import MathContent from "./MathContent";
 import DesmosGraph from "./DesmosGraph";
+import Figure from "@/components/Figure";
 import GraphChoices from "./GraphChoices";
 import ProblemNav from "./ProblemNav";
 import useShowIds from "@/lib/useShowIds";
@@ -111,6 +112,11 @@ export default function ClassroomView({ topic }) {
           <div className="classroom-graph">
             <DesmosGraph graph={problem.graph} />
           </div>
+        )}
+        {problem.figure && (
+          <div className="classroom-graph">
+            <Figure spec={problem.figure} />
+            </div>
         )}
         <div ref={boxRef} onClick={isMultipleChoice ? handleChoiceClick : undefined}>
           <MathContent html={problem.problem} className="problem-text" onRendered={applySaved} />
