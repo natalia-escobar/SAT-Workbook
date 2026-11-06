@@ -212,7 +212,7 @@ export const questions = [
         </div>
         </div>`,
         answer: "B",
-        figure: null,
+        figure: {"size":[600,400],"points":{"A":[180,320],"B":[500,320],"C":[500,60]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"B","arms":["A","C"]}],"labels":[{"text":"28","on":["A","B"]},{"text":"x","on":["C","A"]}],"notToScale":true},
         graph: null,
         graphChoices: null,
         steps: [],
@@ -248,7 +248,7 @@ export const questions = [
         </div>
         </div>`,
         answer: "A",
-        figure: null,
+        figure: {"size":[600,400],"points":{"A":[140,320],"B":[500,320],"C":[500,160]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"B","arms":["A","C"]}],"labels":[{"text":"85","on":["C","A"]},{"text":"x","on":["B","C"]}],"notToScale":true},
         graph: null,
         graphChoices: null,
         steps: [],
