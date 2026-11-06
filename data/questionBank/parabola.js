@@ -544,7 +544,7 @@ export const questions = [
     text: `<p>Which expression is equivalent to</p>
                   <p class="eq"> \\( 3(x - \\frac{7}{2})(x + 4) + 5x \\)?</p>
                     <div class="mc-choices">
-                        <div class="mc-choice">
+                        <div class="mc-choice correct">
                           <span class="mc-label">A</span>
                           <span>\\( 3x^2 + \\frac{13}{2}x - 42 \\)</span>
                         </div>
@@ -556,12 +556,12 @@ export const questions = [
                           <span class="mc-label">C</span>
                           <span>\\( 3x^2 + \\frac{13}{2}x + 42 \\)</span>
                         </div>
-                        <div class="mc-choice correct">
+                        <div class="mc-choice">
                           <span class="mc-label">D</span>
                           <span>\\( 3x^2 + \\frac{23}{2}x + 42  \\)</span>
                         </div>
                       </div>`,
-    answer: "D",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -858,7 +858,7 @@ export const questions = [
     text: `<p>Which of the following is equivalent to</p>
                     <p class="eq">\\((2x + \\frac{3}{2})^2 - (x - \\frac{1}{4}) + 2(x + \\frac{1}{2})\\)?</p>
                     <div class="mc-choices">
-                        <div class="mc-choice">
+                        <div class="mc-choice correct">
                           <span class="mc-label">A</span>
                           <span>\\( 4x^2 + 7x + \\frac{7}{2} \\)</span>
                         </div>
@@ -866,7 +866,7 @@ export const questions = [
                           <span class="mc-label">B</span>
                           <span>\\( 4x^2 + 5x + \\frac{7}{2} \\)</span>
                         </div>
-                        <div class="mc-choice correct">
+                        <div class="mc-choice">
                           <span class="mc-label">C</span>
                           <span>\\( 4x^2 + 7x + \\frac{5}{2} \\)</span>
                         </div>
@@ -875,7 +875,7 @@ export const questions = [
                           <span>\\( 4x^2 + 5x + \\frac{5}{2} \\)</span>
                         </div>
                       </div>`,
-    answer: "C",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -4164,15 +4164,15 @@ export const questions = [
     text: `Which expression is equivalent to 
             <p class="eq"> \\( 144p^2 - 169q^2 \\) </p>
         <div class="mc-choices">
-        <div class="mc-choice correct">
+        <div class="mc-choice">
         <span class="mc-label">A</span>
         <span>\\( (12p - 169q)(12p + 169q) \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">B</span>
         <span>\\( (12p - 13q)(12p + 13q) \\)</span>
         </div>
-        <div class="mc-choice correct">
+        <div class="mc-choice">
         <span class="mc-label">C</span>
         <span>\\( (144p - 13q)(144p + 13q) \\)</span>
         </div>
@@ -4181,7 +4181,7 @@ export const questions = [
         <span>\\( (12p + 13q)^2 \\)</span>
         </div>
         </div>`,
-    answer: "A",
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -4200,7 +4200,7 @@ export const questions = [
     text: `Which expression is equivalent to 
             <p class="eq"> \\( 225r^2 - 196s^2 \\) </p>
         <div class="mc-choices">
-        <div class="mc-choice correct">
+        <div class="mc-choice">
         <span class="mc-label">A</span>
         <span>\\( (15r - 196s)(15r + 196s) \\)</span>
         </div>
@@ -4208,16 +4208,16 @@ export const questions = [
         <span class="mc-label">B</span>
         <span>\\( (225r - 14s)(225r + 14s) \\)</span>
         </div>
-        <div class="mc-choice correct">
+        <div class="mc-choice">
         <span class="mc-label">C</span>
         <span>\\( (15r - 14s)^2 \\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
         <span class="mc-label">D</span>
         <span>\\( (15r - 14s)(15r + 14s) \\)</span>
         </div>
         </div>`,
-    answer: "A",
+    answer: "D",
     graph: null,
     graphChoices: null,
     steps: [],
