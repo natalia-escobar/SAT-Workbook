@@ -5,6 +5,7 @@ const graphingFunctions = {
   name: "Parabola",
   lesson: "Graphing Functions",
   meta: "",
+  slug: "graphing-functions",
   workedProblems: [
 
     // Problem 1

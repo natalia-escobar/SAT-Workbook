@@ -27303,4 +27303,1380 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par67523",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 1,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = ax^2 + bx + c, \\)</p>
+    <p>where \\(a\\), \\(b\\), and \\(c\\) are constants. The roots of \\(f\\) are \\(8\\) and \\(-2\\). If the leading coefficient of \\(f\\) is an integer greater than \\(5\\), which of the following is the greatest possible value of \\(2a + b\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-32\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-28\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(-24\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(-20\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Write \\(f\\) in factored form using the roots: \\(f(x) = a(x - 8)(x + 2) = a(x^2 - 6x - 16)\\), so \\(b = -6a\\)`,
+        note: "",
+        gif: "",
+        answer: "C",
+        video: ""
+      },
+      {
+        text: `Substitute: \\(2a + b = 2a - 6a = -4a\\). This is greatest when \\(a\\) is as small as allowed`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `The smallest integer greater than \\(5\\) is \\(a = 6\\), giving \\(-4(6) = -24\\). Confirm in Desmos by graphing \\(y = 6(x - 8)(x + 2)\\) and checking the roots`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par36615",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 1,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = mx^2 + nx + p, \\)</p>
+    <p>where \\(m\\), \\(n\\), and \\(p\\) are constants. The roots of \\(g\\) are \\(-4\\) and \\(7\\). If the leading coefficient of \\(g\\) is an integer greater than \\(5\\), which of the following is the least possible value of \\(m - n\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(20\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(22\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(24\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(26\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Write \\(g\\) in factored form using the roots and expand to find \\(n\\) in terms of \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Substitute into \\(m - n\\) to get an expression in \\(m\\) alone`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Use the smallest integer greater than \\(5\\) for \\(m\\) and match the result to an answer choice`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par74842",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 1,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(h\\) is defined by</p>
+    <p class="eq">
+      \\( h(x) = px^2 + qx + r, \\)</p>
+    <p>where \\(p\\), \\(q\\), and \\(r\\) are constants. The roots of \\(h\\) are \\(1\\) and \\(10\\). If the leading coefficient of \\(h\\) is an integer greater than \\(5\\), which of the following is the greatest possible value of \\(q - p\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-84\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-78\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(-72\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(-66\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par48241",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 1,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(F\\) is defined by</p>
+    <p class="eq">
+      \\( F(x) = ux^2 + vx + w, \\)</p>
+    <p>where \\(u\\), \\(v\\), and \\(w\\) are constants. The roots of \\(F\\) are \\(4\\) and \\(11\\). If the leading coefficient of \\(F\\) is an integer greater than \\(5\\), what is the least possible value of \\(u - v\\)?</p>`,
+    answer: "96",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par47058",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(P\\) is defined by</p>
+    <p class="eq">
+      \\( P(x) = kx^2 + \\ell x + m, \\)</p>
+    <p>where \\(k\\), \\(\\ell\\), and \\(m\\) are constants. The roots of \\(P\\) are \\(-6\\) and \\(5\\). If the leading coefficient of \\(P\\) is an integer greater than \\(5\\), what is the least possible value of \\(3k + \\ell\\)?</p>`,
+    answer: "24",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par86751",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(R\\) is defined by</p>
+    <p class="eq">
+      \\( R(x) = sx^2 + tx + v, \\)</p>
+    <p>where \\(s\\), \\(t\\), and \\(v\\) are constants. The roots of \\(R\\) are \\(-9\\) and \\(2\\). If the leading coefficient of \\(R\\) is an integer greater than \\(5\\), what is the greatest possible value of \\(2s - t\\)?</p>`,
+    answer: "-30",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par81606",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(Q\\) is defined by</p>
+    <p class="eq">
+      \\( Q(x) = ax^2 + bx + c, \\)</p>
+    <p>where \\(a\\), \\(b\\), and \\(c\\) are constants. The roots of \\(Q\\) are \\(-7\\) and \\(4\\). If the leading coefficient of \\(Q\\) is an integer greater than \\(6\\), what is the <strong>least possible value</strong> of \\(5a + b\\)?</p>`,
+    answer: "56",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par65559",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(H\\) is defined by</p>
+    <p class="eq">
+      \\( H(x) = px^2 + qx + r, \\)</p>
+    <p>where \\(p\\), \\(q\\), and \\(r\\) are constants. The roots of \\(H\\) are \\(-8\\) and \\(3\\). If the leading coefficient of \\(H\\) is an integer greater than \\(7\\), what is the <strong>greatest possible value</strong> of \\(3p - q\\)?</p>`,
+    answer: "-16",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par54284",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 2,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The expression</p>
+    <p class="eq">
+      \\( (px + q)(mx + n), \\)</p>
+    <p>where \\(p\\), \\(q\\), \\(m\\), and \\(n\\) are positive constants, expands to a quadratic expression whose coefficient of \\(x\\) is \\(180\\).</p>
+    <p>What is the greatest possible value of the product of the coefficient of the \\(x^2\\) term and the constant term?</p>`,
+    answer: "8100",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand: \\((px + q)(mx + n) = pmx^2 + (pn + qm)x + qn\\), so \\(pn + qm = 180\\)`,
+        note: "",
+        gif: "",
+        answer: "8100",
+        video: ""
+      },
+      {
+        text: `The product of the \\(x^2\\) coefficient and the constant is \\(pm \\cdot qn = (pn)(qm)\\), the product of two positive numbers that add to \\(180\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Two numbers with a fixed sum have the greatest product when they are equal, so the maximum is \\(90 \\cdot 90 = 8100\\). Confirm in Desmos by graphing \\(y = x(180 - x)\\) and reading the vertex`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par23606",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 2,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The expression</p>
+    <p class="eq">
+      \\( (ax + b)(cx + d), \\)</p>
+    <p>where \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are positive constants, expands to a quadratic expression whose coefficient of \\(x\\) is \\(156\\).</p>
+    <p>What is the greatest possible value of the product of the coefficient of the \\(x^2\\) term and the constant term?</p>`,
+    answer: "6084",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand the expression and write the coefficient of \\(x\\) as a sum of two products`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Show that the product of the \\(x^2\\) coefficient and the constant equals the product of those same two numbers`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Maximize the product of two numbers with a fixed sum by making them equal, then square half the sum`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par96692",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 2,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The expression</p>
+    <p class="eq">
+      \\( (rx + s)(tx + u), \\)</p>
+    <p>where \\(r\\), \\(s\\), \\(t\\), and \\(u\\) are positive constants, expands to a quadratic expression whose coefficient of \\(x\\) is \\(164\\).</p>
+    <p>What is the greatest possible value of the product of the coefficient of the \\(x^2\\) term and the constant term?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(6{,}396\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(6{,}724\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(6{,}889\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(7{,}056\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par21926",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 2,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The expression</p>
+    <p class="eq">
+      \\( (vx + w)(yx + z), \\)</p>
+    <p>where \\(v\\), \\(w\\), \\(y\\), and \\(z\\) are positive constants, expands to a quadratic expression whose coefficient of \\(x\\) is \\(192\\).</p>
+    <p>What is the greatest possible value of the product of the coefficient of the \\(x^2\\) term and the constant term?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(9{,}216\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(9{,}024\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(9{,}408\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(9{,}600\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par61660",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The expression</p>
+    <p class="eq">
+      \\( (ax + b)(cx + d), \\)</p>
+    <p>where \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are positive constants, expands to a quadratic expression whose coefficient of \\(x\\) is \\(148\\).</p>
+    <p>What is the greatest possible value of the product of the coefficient of the \\(x^2\\) term and the constant term?</p>`,
+    answer: "5476",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par21928",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The expression</p>
+    <p class="eq">
+      \\( (mx + n)(px + q), \\)</p>
+    <p>where \\(m\\), \\(n\\), \\(p\\), and \\(q\\) are positive constants, expands to a quadratic expression whose coefficient of \\(x\\) is \\(176\\).</p>
+    <p>What is the greatest possible value of the product of the coefficient of the \\(x^2\\) term and the constant term?</p>`,
+    answer: "7744",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par79355",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The expression</p>
+    <p class="eq">
+      \\( (rx + s)(tx + u), \\)</p>
+    <p>where \\(r\\), \\(s\\), \\(t\\), and \\(u\\) are positive constants, expands to a quadratic expression whose coefficient of \\(x\\) is \\(168\\).</p>
+    <p>What is the greatest possible value of the product of the coefficient of the \\(x^2\\) term and the constant term?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(6{,}889\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(7{,}056\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(7{,}225\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(7{,}396\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par56405",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The expression</p>
+    <p class="eq">
+      \\( (vx + w)(yx + z), \\)</p>
+    <p>where \\(v\\), \\(w\\), \\(y\\), and \\(z\\) are positive constants, expands to a quadratic expression whose coefficient of \\(x\\) is \\(188\\).</p>
+    <p>What is the greatest possible value of the product of the coefficient of the \\(x^2\\) term and the constant term?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(8{,}649\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(8{,}836\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(9{,}025\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(9{,}216\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par65183",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 3,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>A theater sells tickets in bundles of \\(8\\). If \\(x\\) bundles are sold, the number of standard tickets sold is \\(16\\) more than the number of bundles.</p>
+    <p>If the product of the number of tickets in the bundles and the number of standard tickets is \\(1{,}536\\), what is the value of \\(x\\)?</p>`,
+    answer: "8",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Write each quantity in terms of \\(x\\): tickets in bundles \\(= 8x\\), standard tickets \\(= x + 16\\)`,
+        note: "",
+        gif: "",
+        answer: "8",
+        video: ""
+      },
+      {
+        text: `Set up the product: \\(8x(x + 16) = 1536\\), and type it into Desmos`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Read the positive solution \\(x = 8\\) from the graph, and check: \\(8(8)(8 + 16) = 64 \\cdot 24 = 1536\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par75145",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 3,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>A company ships boxes in groups of \\(10\\). If \\(x\\) groups are shipped, the number of individual boxes shipped is \\(45\\) <strong>more</strong> than the number of groups.</p>
+    <p>If the product of these two quantities is \\(13{,}000\\), what is the value of \\(x\\)?</p>`,
+    answer: "20",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Write each quantity in terms of \\(x\\): the total number of boxes and the quantity that is \\(45\\) more than the number of groups`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set their product equal to \\(13{,}000\\) and type the equation into Desmos`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Read the positive solution from the graph",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par19517",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 3,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>A fundraiser sells coupon books in packs of \\(12\\). If \\(x\\) packs are sold, the number of raffle tickets sold is \\(60\\) <strong>more</strong> than the number of packs.</p>
+    <p>If the product of these two quantities is \\(14{,}592\\), what is the value of \\(x\\)?</p>`,
+    answer: "16",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par45089",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 3,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>A warehouse stores \\(15\\) supplies on each shelf. If there are \\(x\\) shelves, the number of shipping crates is \\(56\\) more than the number of shelves.</p>
+    <p>If the product of the total number of supplies and the number of shipping crates is \\(19{,}980\\), what is the value of \\(x\\)?</p>`,
+    answer: "18",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par57445",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>A bakery packages muffins in trays of \\(8\\). If \\(x\\) trays are prepared, the number of individual muffins prepared is \\(35\\) <strong>more than the number of trays</strong>.</p>
+    <p>If the product of these two quantities is \\(12{,}000\\), what is the value of \\(x\\)?</p>`,
+    answer: "25",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par55193",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>A school orders notebooks in cartons of \\(14\\). If \\(x\\) cartons are ordered, the number of individual notebooks ordered is \\(42\\) <strong>more than the number of cartons</strong>.</p>
+    <p>If the product of these two quantities is \\(9{,}072\\), what is the value of \\(x\\)?</p>`,
+    answer: "12",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par52808",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>A theater sells tickets in bundles of \\(9\\). If \\(x\\) bundles are sold, the number of individual tickets sold is \\(50\\) <strong>more than the number of bundles</strong>.</p>
+    <p>If the product of these two quantities is \\(11{,}016\\), what is the value of \\(x\\)?</p>`,
+    answer: "18",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par75820",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>A store packages candles in cases of \\(16\\). If \\(x\\) cases are prepared, the number of individual candles prepared is \\(33\\) <strong>more than the number of cases</strong>.</p>
+    <p>If the product of these two quantities is \\(11{,}520\\), what is the value of \\(x\\)?</p>`,
+    answer: "15",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par69768",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 4,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+    <p class="eq">
+      \\( f(x) = (x - 2)^2 - 3 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( g(x) = (x + 5)^2 - 3. \\)</p>
+    <p>The zeros of \\(f\\) are \\(a\\) and \\(b\\), where \\(a < b\\), and the zeros of \\(g\\) are \\(c\\) and \\(d\\), where \\(c < d\\).</p>
+    <p>The zeros of the quadratic function \\(h\\) are \\(a + c\\) and \\(b + d\\). If the leading coefficient of \\(h\\) is \\(1\\), what is the value of \\(h(0)\\)?</p>`,
+    answer: "-3",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Graph \\(f\\) and \\(g\\) in Desmos and click the \\(x\\)-intercepts to find the zeros: \\(a, b = 2 \\mp \\sqrt{3}\\) and \\(c, d = -5 \\mp \\sqrt{3}\\)`,
+        note: "",
+        gif: "",
+        answer: "-3",
+        video: ""
+      },
+      {
+        text: `Add them: \\(a + c = -3 - 2\\sqrt{3}\\) and \\(b + d = -3 + 2\\sqrt{3}\\). Since \\(h\\) has leading coefficient \\(1\\), \\(h(x) = (x - (a + c))(x - (b + d))\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `So \\(h(0) = (a + c)(b + d) = (-3)^2 - (2\\sqrt{3})^2 = 9 - 12 = -3\\). Confirm in Desmos by typing the product of the two sums`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par51462",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 4,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+    <p class="eq">
+      \\( f(x) = (x + 1)^2 - 5 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( g(x) = (x - 4)^2 - 5. \\)</p>
+    <p>The zeros of \\(f\\) are \\(a\\) and \\(b\\), where \\(a < b\\), and the zeros of \\(g\\) are \\(c\\) and \\(d\\), where \\(c < d\\).</p>
+    <p>The zeros of \\(h\\) are \\(a + c\\) and \\(b + d\\). If \\(h\\) has a leading coefficient of \\(1\\), what is \\(h(0)\\)?</p>`,
+    answer: "-11",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Graph \\(f\\) and \\(g\\) in Desmos and click the \\(x\\)-intercepts to find all four zeros`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Compute \\(a + c\\) and \\(b + d\\); these are the zeros of \\(h\\), so \\(h(0)\\) is their product`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Type the product into Desmos to get the exact value",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par67331",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 4,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+    <p class="eq">
+      \\( f(x) = (x - 5)^2 - 6 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( g(x) = (x + 2)^2 - 6. \\)</p>
+    <p>The zeros of \\(f\\) are \\(p\\) and \\(q\\), where \\(p < q\\), and the zeros of \\(g\\) are \\(r\\) and \\(s\\), where \\(r < s\\).</p>
+    <p>A quadratic function \\(k\\), with leading coefficient \\(1\\), has zeros \\(p + r\\) and \\(q + s\\).</p>
+    <p>What is the value of \\(k(0)\\)?</p>`,
+    answer: "-15",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par61968",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 4,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+    <p class="eq">
+      \\( f(x) = (x + 3)^2 - 2 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( g(x) = (x - 1)^2 - 2. \\)</p>
+    <p>The zeros of \\(f\\) are \\(m\\) and \\(n\\), where \\(m < n\\), and the zeros of \\(g\\) are \\(r\\) and \\(s\\), where \\(r < s\\).</p>
+    <p>The zeros of \\(h\\) are \\(m + r\\) and \\(n + s\\). If the leading coefficient of \\(h\\) is \\(1\\), what is \\(h(0)\\)?</p>`,
+    answer: "-4",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par97678",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+    <p class="eq">
+      \\( f(x) = (x - 4)^2 - 5 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( g(x) = (x + 6)^2 - 5. \\)</p>
+    <p>The zeros of \\(f\\) are \\(j\\) and \\(k\\), where \\(j < k\\), and the zeros of \\(g\\) are \\(m\\) and \\(n\\), where \\(m < n\\).</p>
+    <p>A quadratic function \\(P\\) has zeros \\(j + m\\) and \\(k + n\\) and has a leading coefficient of \\(1\\).</p>
+    <p>What is the value of \\(P(0)\\)?</p>`,
+    answer: "-16",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par99150",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+    <p class="eq">
+      \\( f(x) = (x + 2)^2 - 6 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( g(x) = (x - 3)^2 - 6. \\)</p>
+    <p>The zeros of \\(f\\) are \\(r\\) and \\(s\\), where \\(r < s\\), and the zeros of \\(g\\) are \\(t\\) and \\(u\\), where \\(t < u\\).</p>
+    <p>If a quadratic function \\(h\\) has leading coefficient \\(1\\) and zeros \\(r + t\\) and \\(s + u\\), what is the value of \\(h(0)\\)?</p>`,
+    answer: "-23",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par18618",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+    <p class="eq">
+      \\( f(x) = (x - 1)^2 - 7 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( g(x) = (x + 4)^2 - 7. \\)</p>
+    <p>The zeros of \\(f\\) are \\(c\\) and \\(d\\), where \\(c < d\\), and the zeros of \\(g\\) are \\(m\\) and \\(n\\), where \\(m < n\\).</p>
+    <p>The quadratic function \\(q\\) has zeros \\(c + m\\) and \\(d + n\\) and a leading coefficient of \\(1\\).</p>
+    <p>What is \\(q(0)\\)?</p>`,
+    answer: "-19",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par41643",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions \\(f\\) and \\(g\\) are defined by</p>
+    <p class="eq">
+      \\( f(x) = (x + 5)^2 - 3 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( g(x) = (x - 2)^2 - 3. \\)</p>
+    <p>The zeros of \\(f\\) are \\(w\\) and \\(z\\), where \\(w < z\\), and the zeros of \\(g\\) are \\(r\\) and \\(s\\), where \\(r < s\\).</p>
+    <p>A quadratic function \\(H\\) has leading coefficient \\(1\\) and zeros \\(w + r\\) and \\(z + s\\).</p>
+    <p>What is the value of \\(H(0)\\)?</p>`,
+    answer: "-3",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par14269",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 5,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + nx + k}, \\)</p>
+    <p>where \\(n\\) and \\(k\\) are constants. The graph of \\(g\\) contains the points \\((4, 0)\\) and \\((0, -\\sqrt{68})\\).</p>
+    <p>If \\(g(m - 6) = 0\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "23",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Use \\((0, -\\sqrt{68})\\): \\(g(0) = -\\sqrt{k} = -\\sqrt{68}\\), so \\(k = 68\\)`,
+        note: "",
+        gif: "",
+        answer: "23",
+        video: ""
+      },
+      {
+        text: `Use \\((4, 0)\\): \\(16 + 4n + 68 = 0\\), so \\(n = -21\\). The zeros of \\(x^2 - 21x + 68\\) are \\(4\\) and \\(17\\) (product \\(68\\), sum \\(21\\))`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `\\(g(m - 6) = 0\\) means \\(m - 6\\) is a zero, so \\(m - 6 = 17\\) gives the greatest value \\(m = 23\\). Confirm in Desmos by graphing \\(y = x^2 - 21x + 68\\) and reading the larger \\(x\\)-intercept`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par77798",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 5,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + sx + t}, \\)</p>
+    <p>where \\(s\\) and \\(t\\) are constants. The graph of \\(g\\) contains the points \\((5, 0)\\) and \\((0, -\\sqrt{95})\\).</p>
+    <p>If \\(g(m + 3) = 0\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "16",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Use the \\(y\\)-intercept to find the constant \\(t\\), then the given zero to find \\(s\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Find the other zero of \\(x^2 + sx + t\\) (graph it in Desmos or use the product of the zeros)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set \\(m + 3\\) equal to the larger zero and solve for \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par37067",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 5,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + ux + v}, \\)</p>
+    <p>where \\(u\\) and \\(v\\) are constants. The graph of \\(g\\) contains the points \\((7, 0)\\) and \\((0, -\\sqrt{161})\\).</p>
+    <p>If \\(g(m - 4) = 0\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "27",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par35947",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 5,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + px + w}, \\)</p>
+    <p>where \\(p\\) and \\(w\\) are constants. The graph of \\(g\\) contains the points \\((6, 0)\\) and \\((0, -\\sqrt{174})\\).</p>
+    <p>If \\(g(m + 8) = 0\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "21",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par33563",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + kx + t}, \\)</p>
+    <p>where \\(k\\) and \\(t\\) are constants. The graph of \\(g\\) contains the points \\((8, 0)\\) and \\((0, -\\sqrt{248})\\).</p>
+    <p>If \\(g(m - 7) = 0\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "38",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par26401",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + nx + v}, \\)</p>
+    <p>where \\(n\\) and \\(v\\) are constants. The graph of \\(g\\) contains the points \\((9, 0)\\) and \\((0, -\\sqrt{234})\\).</p>
+    <p>If \\(g(m + 6) = 0\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "20",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par97724",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + sx + w}, \\)</p>
+    <p>where \\(s\\) and \\(w\\) are constants. The graph of \\(g\\) contains the points \\((11, 0)\\) and \\((0, -\\sqrt{352})\\).</p>
+    <p>If \\(g(m - 9) = 0\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "41",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par75438",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + px + u}, \\)</p>
+    <p>where \\(p\\) and \\(u\\) are constants. The graph of \\(g\\) contains the points \\((12, 0)\\) and \\((0, -\\sqrt{444})\\).</p>
+    <p>If \\(g(m + 4) = 0\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "33",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par38299",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 6,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + nx + k}, \\)</p>
+    <p>where \\(n\\) and \\(k\\) are constants. The graph of \\(g\\) contains the points \\((4, 0)\\) and \\((0, -\\sqrt{72})\\).</p>
+    <p>If \\(g(m) = -\\sqrt{32}\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "20",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Use \\((0, -\\sqrt{72})\\) to get \\(k = 72\\), then \\((4, 0)\\): \\(16 + 4n + 72 = 0\\), so \\(n = -22\\)`,
+        note: "",
+        gif: "",
+        answer: "20",
+        video: ""
+      },
+      {
+        text: `\\(g(m) = -\\sqrt{32}\\) means \\(m^2 - 22m + 72 = 32\\), so \\(m^2 - 22m + 40 = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Factor: \\((m - 20)(m - 2) = 0\\), so the greatest value is \\(m = 20\\). Confirm in Desmos by graphing \\(y = -\\sqrt{x^2 - 22x + 72}\\) and \\(y = -\\sqrt{32}\\) and reading the right-hand intersection`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par29016",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 6,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + sx + t}, \\)</p>
+    <p>where \\(s\\) and \\(t\\) are constants. The graph of \\(g\\) contains the points \\((5, 0)\\) and \\((0, -\\sqrt{105})\\).</p>
+    <p>If \\(g(m) = -\\sqrt{57}\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "24",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Use the \\(y\\)-intercept to find \\(t\\), then the given zero to find \\(s\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set the expression under the radical equal to \\(57\\) and move everything to one side`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Solve the quadratic (graph it in Desmos) and choose the larger root",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par78770",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 6,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + ux + v}, \\)</p>
+    <p>where \\(u\\) and \\(v\\) are constants. The graph of \\(g\\) contains the points \\((7, 0)\\) and \\((0, -\\sqrt{182})\\).</p>
+    <p>If \\(g(m) = -\\sqrt{42}\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "28",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par13905",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 6,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + px + w}, \\)</p>
+    <p>where \\(p\\) and \\(w\\) are constants. The graph of \\(g\\) contains the points \\((6, 0)\\) and \\((0, -\\sqrt{180})\\).</p>
+    <p>If \\(g(m) = -\\sqrt{112}\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "34",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par43744",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + kx + t}, \\)</p>
+    <p>where \\(k\\) and \\(t\\) are constants. The graph of \\(g\\) contains the points \\((8, 0)\\) and \\((0, -\\sqrt{264})\\).</p>
+    <p>If \\(g(m) = -\\sqrt{84}\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "36",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par29040",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + nx + v}, \\)</p>
+    <p>where \\(n\\) and \\(v\\) are constants. The graph of \\(g\\) contains the points \\((9, 0)\\) and \\((0, -\\sqrt{315})\\).</p>
+    <p>If \\(g(m) = -\\sqrt{155}\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "40",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par57581",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + sx + w}, \\)</p>
+    <p>where \\(s\\) and \\(w\\) are constants. The graph of \\(g\\) contains the points \\((11, 0)\\) and \\((0, -\\sqrt{418})\\).</p>
+    <p>If \\(g(m) = -\\sqrt{124}\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "42",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par54269",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = -\\sqrt{x^2 + px + u}, \\)</p>
+    <p>where \\(p\\) and \\(u\\) are constants. The graph of \\(g\\) contains the points \\((12, 0)\\) and \\((0, -\\sqrt{516})\\).</p>
+    <p>If \\(g(m) = -\\sqrt{102}\\), what is the greatest possible value of \\(m\\)?</p>`,
+    answer: "46",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
 ];
