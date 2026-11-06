@@ -255,4 +255,152 @@ export const questions = [
         screenshot: "",
         videoId: ""
     },
+        {
+        id: "Tri50122",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 2,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(PQR\\), \\(\\angle Q\\) is a right angle and the length of \\(\\overline{QR}\\) is \\(120\\) centimeters. If \\(\\cos P = \\frac{5}{13}\\), what is the length, in centimeters, of \\(\\overline{PQ}\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\(50\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(60\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(100\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(130\\)</span>
+        </div>
+        </div>`,
+        answer: "A",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Sketch the triangle with the right angle at \\(Q\\). Relative to angle \\(P\\): \\(\\overline{PQ}\\) is adjacent, \\(\\overline{QR}\\) is opposite, and \\(\\overline{PR}\\) is the hypotenuse`,
+            note: "",
+            gif: "",
+            answer: "A",
+            video: ""
+        },
+        {
+            text: `CAH: \\(\\cos P = \\frac{\\text{adjacent}}{\\text{hypotenuse}} = \\frac{5}{13}\\), so the triangle is a \\(5\\)-\\(12\\)-\\(13\\) triangle scaled up, with the opposite side \\(QR\\) matching the \\(12\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `The scale factor is \\(120 \\div 12 = 10\\), so \\(PQ = 5 \\cdot 10 = 50\\). Confirm in Desmos by typing \\(120 \\cdot 5 / 12\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri56384",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 2,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(DEF\\), \\(\\angle E\\) is a right angle and the length of \\(\\overline{DE}\\) is \\(84\\) millimeters. If \\(\\cos D = \\frac{7}{25}\\), what is the length, in millimeters, of \\(\\overline{EF}\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(24\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(84\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(288\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(300\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Sketch the triangle with the right angle at \\(E\\) and label which side is adjacent, opposite, and the hypotenuse relative to angle \\(D\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Use \\(\\cos D = \\frac{\\text{adjacent}}{\\text{hypotenuse}}\\) with the given side to find the hypotenuse`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Use the Pythagorean theorem (or the matching Pythagorean triple) to find the opposite side",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+     {
+        id: "Tri59453",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 2,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(JKL\\), \\(\\angle K\\) is a right angle and the length of \\(\\overline{KL}\\) is \\(48\\) inches. If \\(\\cos J = \\frac{8}{17}\\), what is the length, in inches, of \\(\\overline{JK}\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\(25.6\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(40\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(48\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(102\\)</span>
+        </div>
+        </div>`,
+        answer: "A",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
 ];
