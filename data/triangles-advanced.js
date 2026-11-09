@@ -14,6 +14,9 @@ const trianglesAdvanced = {
             "Tri50122",
             "Tri56384",
             "Tri59453",
+            "Tri19253",
+            "Tri76351",
+            "Tri98266",
             
         ]
     )

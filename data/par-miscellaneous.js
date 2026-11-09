@@ -79,6 +79,14 @@ const parMiscellaneous = {
       practice: asPractice(["Par15337", "Par18088"]),
       additionalPractice: asAdditional(["Par83987", "Par63756", "Par91029", "Par68476"]),
     },
+
+    // Problem 10
+    {
+      ...asWorked("Par98171"),
+      ...asGuided("Par36824"),
+      practice: asPractice(["Par51214", "Par67011"]),
+      additionalPractice: asAdditional(["Par14224", "Par14165", "Par31688", "Par80613"]),
+    },
 ],
 };
 

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Figure from "./Figure";
-import { EMPTY_FIGURE, snap, nextPointName, sameSegment, removePoint } from "../lib/figureGeom";
+import { EMPTY_FIGURE, snap, nextPointName, sameSegment, removePoint, renamePoint } from "../lib/figureGeom";
 import { figureTemplates } from "../data/figureTemplates";
 
 const MODES = [
@@ -232,6 +232,23 @@ export default function FigureBuilder({ initial, onSave }) {
           {selected?.kind === "point" && (
             <>
               <p style={{ fontWeight: 500, margin: 0 }}>Point {selected.name}</p>
+              <label style={lbl}>Name</label>
+              <input
+                key={selected.name}
+                style={field}
+                defaultValue={selected.name}
+                maxLength={3}
+                autoFocus
+                onFocus={(e) => e.target.select()}
+                onKeyDown={(e) => { if (e.key === "Enter") e.target.blur(); }}
+                onBlur={(e) => {
+                  const to = e.target.value.trim();
+                  if (!to || to === selected.name) { e.target.value = selected.name; return; }
+                  if (fig.points[to]) { e.target.value = selected.name; setStatus(`${to} is already used`); setTimeout(() => setStatus(""), 2000); return; }
+                  setFig((f) => renamePoint(f, selected.name, to));
+                  setSelected({ kind: "point", name: to });
+                }}
+              />
               <label style={lbl}>Position</label>
               <p style={{ margin: 0 }}>({fig.points[selected.name]?.join(", ")})</p>
             </>
@@ -289,5 +306,6 @@ export default function FigureBuilder({ initial, onSave }) {
     </div>
   );
 }
+
 
 

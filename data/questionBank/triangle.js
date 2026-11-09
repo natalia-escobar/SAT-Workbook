@@ -212,7 +212,7 @@ export const questions = [
         </div>
         </div>`,
         answer: "B",
-        figure: {"size":[600,400],"points":{"A":[180,320],"B":[500,320],"C":[500,60]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"B","arms":["A","C"]}],"labels":[{"text":"28","on":["A","B"]},{"text":"x","on":["C","A"]}],"notToScale":true},
+        figure: {"size":[600,400],"points":{"P":[160,320],"Q":[500,320],"R":[500,80]},"segments":[{"from":"P","to":"Q"},{"from":"Q","to":"R"},{"from":"R","to":"P"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"Q","arms":["P","R"]}],"labels":[{"text":"28","on":["P","Q"]},{"text":"x","on":["R","P"]}],"notToScale":true},
         graph: null,
         graphChoices: null,
         steps: [],
@@ -248,7 +248,7 @@ export const questions = [
         </div>
         </div>`,
         answer: "A",
-        figure: {"size":[600,400],"points":{"A":[140,320],"B":[500,320],"C":[500,160]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"B","arms":["A","C"]}],"labels":[{"text":"85","on":["C","A"]},{"text":"x","on":["B","C"]}],"notToScale":true},
+        figure: {"size":[600,400],"points":{"D":[160,320],"F":[500,320],"E":[500,180]},"segments":[{"from":"D","to":"F"},{"from":"F","to":"E"},{"from":"E","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"F","arms":["D","E"]}],"labels":[{"text":"85","on":["E","D"]},{"text":"x","on":["F","E"]}],"notToScale":true},
         graph: null,
         graphChoices: null,
         steps: [],
@@ -397,6 +397,155 @@ export const questions = [
         </div>`,
         answer: "A",
         figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri19253",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 3,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In right triangle \\(ABC\\), \\(\\angle C\\) is a right angle. The length of \\(\\overline{AC}\\) is \\(28\\), and the length of \\(\\overline{BC}\\) is \\(x\\). If \\(\\tan A = \\frac{4}{7}\\), what is the value of \\(x\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(7\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(16\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(28\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(49\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"A":[260,320],"B":[500,320],"C":[500,180]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"B","arms":["A","C"]}],"labels":[{"text":"x","on":["B","C"]},{"text":"28","on":["A","B"]}],"notToScale":true},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Sketch the triangle with the right angle at \\(C\\). Relative to angle \\(A\\): \\(\\overline{BC}\\) is opposite and \\(\\overline{AC}\\) is adjacent`,
+            note: "",
+            gif: "",
+            answer: "B",
+            video: ""
+        },
+        {
+            text: `TOA: \\(\\tan A = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{x}{28}\\), so \\(\\frac{x}{28} = \\frac{4}{7}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Cross-multiply: \\(7x = 112\\), so \\(x = 16\\). Confirm in Desmos by typing \\(28 \\cdot 4 / 7\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri76351",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 3,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In right triangle \\(PQR\\), \\(\\angle R\\) is a right angle. The length of \\(\\overline{PR}\\) is \\(x\\), and the length of \\(\\overline{QR}\\) is \\(45\\). If \\(\\tan P = \\frac{5}{3}\\), what is the value of \\(x\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(15\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(27\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(45\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(75\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"P":[380,320],"R":[500,320],"Q":[500,100]},"segments":[{"from":"P","to":"R"},{"from":"R","to":"Q"},{"from":"Q","to":"P"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"R","arms":["P","Q"]}],"labels":[{"text":"45","on":["R","Q"]},{"text":"x","on":["P","R"]}],"notToScale":true},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Sketch the triangle with the right angle at \\(R\\) and label which side is opposite and which is adjacent to angle \\(P\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Write \\(\\tan P\\) as the ratio of those two sides and set it equal to \\(\\frac{5}{3}\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Cross-multiply and solve for \\(x\\)",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri98266",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 3,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In right triangle \\(DEF\\), \\(\\angle F\\) is a right angle. The length of \\(\\overline{DF}\\) is \\(42\\), and the length of \\(\\overline{EF}\\) is \\(x + 3\\). If \\(\\tan D = \\frac{2}{3}\\), what is the value of \\(x\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\(25\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(28\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(31\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(63\\)</span>
+        </div>
+        </div>`,
+        answer: "A",
+        figure: {"size":[600,400],"points":{"D":[220,320],"F":[500,320],"E":[500,180]},"segments":[{"from":"D","to":"F"},{"from":"F","to":"E"},{"from":"E","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"F","arms":["D","E"]}],"labels":[{"text":"x+3","on":["F","E"]},{"text":"42","on":["D","F"]}],"notToScale":true},
         graph: null,
         graphChoices: null,
         steps: [],
