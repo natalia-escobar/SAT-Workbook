@@ -51,4 +51,4 @@ const graphingTranslations = {
 ],
 };
 
-export default graphingFunctions;
+export default graphingTranslations;
