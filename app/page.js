@@ -86,7 +86,6 @@ export default function Home() {
           <Card href="/workbook/parabola/equivalent-to/evaluating-a-function" title="Evaluating a Function" />
         </Collapsible>
         <Collapsible title="Simple Graphing, X-Intercept, & Y-Intercept" defaultOpen={false}>
-          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/simple-graphing" title="Simple Graphing" />
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/graphing-functions" title="Graphing Functions" />
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/y-intercept" title="Y-Intercept" />
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/vertex" title="Vertex" />

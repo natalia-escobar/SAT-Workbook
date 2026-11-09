@@ -10159,7 +10159,7 @@ export const questions = [
     {
         id: "Par21278",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 5,
         questionType: "WE",
 
@@ -10294,7 +10294,7 @@ export const questions = [
     {
         id: "Par52136",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 5,
         questionType: "GP",
 
@@ -10430,7 +10430,7 @@ export const questions = [
     {
         id: "Par53466",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 5,
         questionType: "PR",
 
@@ -10547,7 +10547,7 @@ export const questions = [
     {
         id: "Par45308",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 5,
         questionType: "PR",
 
@@ -10664,7 +10664,7 @@ export const questions = [
     {
         id: "Par38578",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 5,
         questionType: "AQ",
 
@@ -10781,7 +10781,7 @@ export const questions = [
     {
         id: "Par83619",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 5,
         questionType: "AQ",
 
@@ -10898,7 +10898,7 @@ export const questions = [
     {
         id: "Par60221",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 5,
         questionType: "AQ",
 
@@ -11015,7 +11015,7 @@ export const questions = [
     {
         id: "Par99493",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 5,
         questionType: "AQ",
 
@@ -11132,7 +11132,7 @@ export const questions = [
     {
         id: "Par48057",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 6,
         questionType: "WE",
 
@@ -11268,7 +11268,7 @@ export const questions = [
     {
         id: "Par78959",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 6,
         questionType: "GP",
 
@@ -11404,7 +11404,7 @@ export const questions = [
     {
         id: "Par59866",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 6,
         questionType: "PR",
 
@@ -11521,7 +11521,7 @@ export const questions = [
     {
         id: "Par44798",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 6,
         questionType: "PR",
 
@@ -11638,7 +11638,7 @@ export const questions = [
     {
         id: "Par57926",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 6,
         questionType: "AQ",
 
@@ -11755,7 +11755,7 @@ export const questions = [
     {
         id: "Par63625",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 6,
         questionType: "AQ",
 
@@ -11872,7 +11872,7 @@ export const questions = [
     {
         id: "Par64365",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 6,
         questionType: "AQ",
 
@@ -11987,7 +11987,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-7-E-1",
+        id: "Par88913",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 7,
@@ -12041,7 +12041,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-7-GP-1",
+        id: "Par70428",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 7,
@@ -12095,7 +12095,7 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-7-Q-1",
+        id: "Par78487",
         topic: "parabola",
         subtopic: "simple-graphing",
         problem: 7,
@@ -12136,9 +12136,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-7-Q-2",
+        id: "Par18767",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 7,
         questionType: "PR",
         difficulty: 2,
@@ -12175,9 +12175,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-7-AQ-1",
+        id: "Par43739",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 7,
         questionType: "AQ",
         difficulty: 2,
@@ -12219,9 +12219,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-7-AQ-2",
+        id: "Par20206",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 7,
         questionType: "AQ",
         difficulty: 2,
@@ -12260,9 +12260,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-7-AQ-3",
+        id: "Par69783",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 7,
         questionType: "AQ",
         difficulty: 2,
@@ -12301,9 +12301,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-7-AQ-4",
+        id: "Par31355",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 7,
         questionType: "AQ",
         difficulty: 2,
@@ -12340,9 +12340,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-8-E-1",
+        id: "Par62335",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 8,
         questionType: "WE",
         difficulty: 2,
@@ -12397,9 +12397,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-8-GP-1",
+        id: "Par35666",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 8,
         questionType: "GP",
         difficulty: 2,
@@ -12454,9 +12454,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-8-Q-1",
+        id: "Par66898",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 8,
         questionType: "PR",
         difficulty: 2,
@@ -12498,9 +12498,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-8-Q-2",
+        id: "Par99000",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 8,
         questionType: "PR",
         difficulty: 2,
@@ -12542,9 +12542,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-8-AQ-1",
+        id: "Par12488",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 8,
         questionType: "AQ",
         difficulty: 2,
@@ -12586,9 +12586,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-8-AQ-2",
+        id: "Par73063",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 8,
         questionType: "AQ",
         difficulty: 2,
@@ -12630,9 +12630,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-8-AQ-3",
+        id: "Par32710",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 8,
         questionType: "AQ",
         difficulty: 2,
@@ -12674,9 +12674,9 @@ export const questions = [
     },
 
     {
-        id: "Par-SimGr-8-AQ-4",
+        id: "Par58354",
         topic: "parabola",
-        subtopic: "simple-graphing",
+        subtopic: "graphing-translations",
         problem: 8,
         questionType: "AQ",
         difficulty: 2,
@@ -28672,6 +28672,367 @@ export const questions = [
     <p>where \\(p\\) and \\(u\\) are constants. The graph of \\(g\\) contains the points \\((12, 0)\\) and \\((0, -\\sqrt{516})\\).</p>
     <p>If \\(g(m) = -\\sqrt{102}\\), what is the greatest possible value of \\(m\\)?</p>`,
     answer: "46",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par92026",
+    topic: "parabola",
+    subtopic: "graphing-translations",
+    problem: 11,
+    questionType: "WE",
+    difficulty: 1,
+    tags: [],
+    text: `<p class="eq">
+      \\( f(x) = 2x^2 - 3x + 5 \\)</p>
+    <p>The function \\(f\\) is defined above. If the function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = f(x) + 7, \\)</p>
+    <p>what is the value of \\(g(3)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(14\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(18\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(21\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(25\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare \\(f(x) = 2x^2 - 3x + 5\\) and \\(g(x) = f(x) + 7\\) in Desmos`,
+        note: "",
+        gif: "",
+        answer: "C",
+        video: ""
+      },
+      {
+        text: `Type \\(g(3)\\) into Desmos, or compute \\(f(3) = 18 - 9 + 5 = 14\\) first`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Add the shift: \\(g(3) = 14 + 7 = 21\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par84484",
+    topic: "parabola",
+    subtopic: "graphing-translations",
+    problem: 11,
+    questionType: "GP",
+    difficulty: 1,
+    tags: [],
+    text: `<p class="eq">
+      \\( f(x) = (x + 3)(x - 2) + 4 \\)</p>
+    <p>The function \\(f\\) is defined above. If the function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = f(x) - 5, \\)</p>
+    <p>what is the value of \\(g(4)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(11\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(13\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare \\(f(x)\\) and \\(g(x) = f(x) - 5\\) in Desmos`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Evaluate \\(f(4)\\) first, either in Desmos or by hand`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Apply the vertical shift to get \\(g(4)\\) and match it to an answer choice`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par29848",
+    topic: "parabola",
+    subtopic: "graphing-translations",
+    problem: 11,
+    questionType: "PR",
+    difficulty: 1,
+    tags: [],
+    text: `<p class="eq">
+      \\( f(x) = 3x^2 + 2x - 6 \\)</p>
+    <p>The function \\(f\\) is defined above. If the function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = 35 - f(x), \\)</p>
+    <p>what is the value of \\(g(3)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(8\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(14\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(27\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(35\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par13204",
+    topic: "parabola",
+    subtopic: "graphing-translations",
+    problem: 11,
+    questionType: "PR",
+    difficulty: 1,
+    tags: [],
+    text: `<p class="eq">
+      \\( f(x) = (x - 5)(x + 2) - 3 \\)</p>
+    <p>The function \\(f\\) is defined above. If the function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = f(x) + 9, \\)</p>
+    <p>what is the value of \\(g(7)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(15\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(18\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(24\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(27\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par18546",
+    topic: "parabola",
+    subtopic: "graphing-translations",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p class="eq">
+      \\( f(x) = 2x^2 + 5x - 4 \\)</p>
+    <p>The function \\(f\\) is defined above. If the function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = f(x) - 8, \\)</p>
+    <p>what is the value of \\(g(2)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(10\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(14\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par61889",
+    topic: "parabola",
+    subtopic: "graphing-translations",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p class="eq">
+      \\( f(x) = (x + 4)(x - 3) + 2 \\)</p>
+    <p>The function \\(f\\) is defined above. If the function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = 30 - f(x), \\)</p>
+    <p>what is the value of \\(g(5)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(10\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(12\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(14\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(16\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par30697",
+    topic: "parabola",
+    subtopic: "graphing-translations",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p class="eq">
+      \\( f(x) = 4x^2 - x + 3 \\)</p>
+    <p>The function \\(f\\) is defined above. If the function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = f(x) + 6, \\)</p>
+    <p>what is the value of \\(g(2)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(17\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(19\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(21\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(23\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par77553",
+    topic: "parabola",
+    subtopic: "graphing-translations",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p class="eq">
+      \\( f(x) = (x - 2)(x + 5) - 4 \\)</p>
+    <p>The function \\(f\\) is defined above. If the function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = f(x) - 7, \\)</p>
+    <p>what is the value of \\(g(6)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(29\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(33\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(37\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(40\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
     graph: null,
     graphChoices: null,
     steps: [],
