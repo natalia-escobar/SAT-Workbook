@@ -28,7 +28,7 @@ const graphingTranslations = {
     {
       ...asWorked("Par88913"),
       ...asGuided("Par70428"),
-      practice: asPractice(["Par78447", "Par18767"]),
+      practice: asPractice(["Par78487", "Par18767"]),
       additionalPractice: asAdditional(["Par43739", "Par20206", "Par69873", "Par31355"]),
     },
 
