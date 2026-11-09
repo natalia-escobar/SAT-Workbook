@@ -93,8 +93,9 @@ export default function Home() {
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/x-intercept" title="X-Intercept" />
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/discriminant-theory" title="Discriminant Theory" />
         </Collapsible>
-        <Collapsible title="Miscellaneous" defaultOpen={false}></Collapsible>
-        <Card href="/workbook/parabola/misc/miscellaneous" title="Miscellaneous" />
+        <Collapsible title="Miscellaneous" defaultOpen={false}>
+          <Card href="/workbook/parabola/misc/miscellaneous" title="Miscellaneous" />
+        </Collapsible>
       </Collapsible>
 
       <Collapsible title="DDCUS" defaultOpen={false}>
