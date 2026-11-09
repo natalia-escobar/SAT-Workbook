@@ -29040,4 +29040,871 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par84050",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 7,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>What is the sum of the solutions to the equation?</p>
+    <p class="eq">
+      \\( 3x^2 - 30x + 18 = 0 \\)</p>`,
+    answer: "10",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `The equation is already in standard form \\(ax^2 + bx + c = 0\\) with \\(a = 3\\) and \\(b = -30\\)`,
+        note: "",
+        gif: "",
+        answer: "10",
+        video: ""
+      },
+      {
+        text: `The sum of the solutions of a quadratic is \\(-\\frac{b}{a}\\), so the sum is \\(-\\frac{-30}{3} = 10\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Confirm in Desmos by graphing \\(y = 3x^2 - 30x + 18\\), clicking the two \\(x\\)-intercepts, and adding them`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par93336",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 7,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>What is the sum of the solutions to the equation?</p>
+    <p class="eq">
+      \\( (x - 18)^2 = 16 \\)</p>`,
+    answer: "36",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand the left side and move the \\(16\\) over to get the equation in standard form`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Identify \\(a\\) and \\(b\\), then use the sum of the solutions \\(= -\\frac{b}{a}\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Confirm in Desmos by graphing both sides and adding the \\(x\\)-coordinates of the intersections`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par44826",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>What is the sum of the solutions to the equation?</p>
+    <p class="eq">
+      \\( 2x(x - 5) + 42 = 5x(x - 1) \\)</p>`,
+    answer: "-5/3",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par43102",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>What is the sum of the solutions to the equation?</p>
+    <p class="eq">
+      \\( x^2 - 20x + 63 = 4x - 9 \\)</p>`,
+    answer: "24",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par41759",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>What is the sum of the solutions to the equation?</p>
+    <p class="eq">
+      \\( 4(x - 7)^2 - 20 = 3x^2 + 8 \\)</p>`,
+    answer: "56",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par51859",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>What is the sum of the solutions to the equation?</p>
+    <p class="eq">
+      \\( 5(x - 4)^2 - 12 = 3x^2 + 6 \\)</p>`,
+    answer: "20",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par67249",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>What is the sum of the solutions to the equation?</p>
+    <p class="eq">
+      \\( 3(x + 6)^2 - 15 = x^2 + 9 \\)</p>`,
+    answer: "-18",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par58867",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>What is the sum of the solutions to the equation?</p>
+    <p class="eq">
+      \\( 6(x - 5)^2 + 8 = 2x^2 + 14 \\)</p>`,
+    answer: "15",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par94722",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 8,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 84x^2 - (28m + 12n)x + 4mn = 0 \\)</p>
+    <p>In the given equation, \\(m\\) and \\(n\\) are positive constants. The sum of the solutions is \\(\\frac{7m + 3n}{c}\\), where \\(c\\) is a positive constant. What is the value of \\(c\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{1}{21} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(21\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(84\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `The sum of the solutions of \\(ax^2 + bx + c = 0\\) is \\(-\\frac{b}{a}\\). Here \\(a = 84\\) and \\(b = -(28m + 12n)\\), so the sum is \\(\\frac{28m + 12n}{84}\\)`,
+        note: "",
+        gif: "",
+        answer: "C",
+        video: ""
+      },
+      {
+        text: `Factor the numerator: \\(28m + 12n = 4(7m + 3n)\\), so the sum is \\(\\frac{4(7m + 3n)}{84} = \\frac{7m + 3n}{21}\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Match to the given form \\(\\frac{7m + 3n}{c}\\): \\(c = 21\\). Confirm in Desmos by picking values like \\(m = 1\\), \\(n = 1\\), graphing, and adding the \\(x\\)-intercepts`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par38276",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 8,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 90x^2 - (30s + 15t)x + 5st = 0 \\)</p>
+    <p>In the given equation, \\(s\\) and \\(t\\) are positive constants. The sum of the solutions is \\(\\frac{2s + t}{k}\\), where \\(k\\) is a positive constant. What is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{1}{6} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(15\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(30\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Write the sum of the solutions as \\(-\\frac{b}{a}\\) using the coefficients of the equation`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Factor the greatest common factor out of the numerator so it matches \\(2s + t\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Simplify the remaining fraction; the denominator is \\(k\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par29993",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 8,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 120x^2 - (40u + 30v)x + 10uv = 0 \\)</p>
+    <p>In the given equation, \\(u\\) and \\(v\\) are positive constants. The sum of the solutions is \\(\\frac{4u + 3v}{d}\\), where \\(d\\) is a positive constant. What is the value of \\(d\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(10\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{1}{12} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(30\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(12\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par89449",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 8,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 60x^2 - (10w + 6z)x + wz = 0 \\)</p>
+    <p>In the given equation, \\(w\\) and \\(z\\) are positive constants. The sum of the solutions is \\(\\frac{5w + 3z}{c}\\), where \\(c\\) is a positive constant. What is the value of \\(c\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(15\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(30\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{1}{30} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(60\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par30629",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 96x^2 - (12h + 8j)x + hj = 0 \\)</p>
+    <p>In the given equation, \\(h\\) and \\(j\\) are positive constants. The sum of the solutions is \\(\\frac{3h + 2j}{d}\\), where \\(d\\) is a positive constant. What is the value of \\(d\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(24\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(48\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{1}{24} \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par58988",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 135x^2 - (15d + 9f)x + df = 0 \\)</p>
+    <p>In the given equation, \\(d\\) and \\(f\\) are positive constants. The sum of the solutions is \\(\\frac{5d + 3f}{k}\\), where \\(k\\) is a positive constant. What is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(3\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(15\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{1}{45} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(45\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par92153",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 140x^2 - (14g + 10n)x + gn = 0 \\)</p>
+    <p>In the given equation, \\(g\\) and \\(n\\) are positive constants. The sum of the solutions is \\(\\frac{7g + 5n}{c}\\), where \\(c\\) is a positive constant. What is the value of \\(c\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{1}{70} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(140\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(70\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(35\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par66084",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 8,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( 216x^2 - (18p + 12v)x + pv = 0 \\)</p>
+    <p>In the given equation, \\(p\\) and \\(v\\) are positive constants. The sum of the solutions is \\(\\frac{3p + 2v}{d}\\), where \\(d\\) is a positive constant. What is the value of \\(d\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(6\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(36\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(72\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{1}{36} \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par10221",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 9,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x + 2p)^2 = (3p - 5q)(x + 2p) \\)</p>
+    <p>In the given equation, \\(p\\) and \\(q\\) are constants, where \\(3p > 5q\\). The sum of the solutions is \\(-p + 30\\). What is the value of \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-30\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(-6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(30\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Move everything to one side and factor out the common \\((x + 2p)\\): \\((x + 2p)\\big[(x + 2p) - (3p - 5q)\\big] = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "B",
+        video: ""
+      },
+      {
+        text: `The two solutions are \\(x = -2p\\) and \\(x = 3p - 5q - 2p = p - 5q\\). Their sum is \\(-2p + p - 5q = -p - 5q\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Set \\(-p - 5q = -p + 30\\), so \\(-5q = 30\\) and \\(q = -6\\). Confirm in Desmos by choosing a value for \\(p\\), graphing both sides, and adding the intersection \\(x\\)-values`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par78421",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 9,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x + 3k)^2 = (8k - 4m)(x + 3k) \\)</p>
+    <p>In the given equation, \\(k\\) and \\(m\\) are constants, where \\(8k > 4m\\). The sum of the solutions is \\(2k - 28\\). What is the value of \\(m\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-28\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-7\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(28\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Move everything to one side and factor out the common \\((x + 3k)\\) to get two linear factors`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Read off the two solutions and add them to get an expression in \\(k\\) and \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set that sum equal to \\(2k - 28\\) and solve for \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par15337",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 9,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x + 4a)^2 = (5a - 3b)(x + 4a) \\)</p>
+    <p>In the given equation, \\(a\\) and \\(b\\) are constants, where \\(5a > 3b\\). The sum of the solutions is \\(-3a + 27\\). What is the value of \\(b\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(-9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-3\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(3\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(9\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par18088",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 9,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x + 2c)^2 = (7c - 6d)(x + 2c) \\)</p>
+    <p>In the given equation, \\(c\\) and \\(d\\) are constants, where \\(7c > 6d\\). The sum of the solutions is \\(3c - 24\\). What is the value of \\(d\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-24\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(2\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(4\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par83987",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x + 5h)^2 = (6h - 8j)(x + 5h) \\)</p>
+    <p>In the given equation, \\(h\\) and \\(j\\) are constants, where \\(6h > 8j\\). The sum of the solutions is \\(-4h + 20\\). What is the value of \\(j\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(-2.5\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-0.4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(0.4\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(2.5\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par63756",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x + 3s)^2 = (4s - 7t)(x + 3s) \\)</p>
+    <p>In the given equation, \\(s\\) and \\(t\\) are constants, where \\(4s > 7t\\). The sum of the solutions is \\(-2s - 42\\). What is the value of \\(t\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-6\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(6\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(42\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par91029",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x + 4u)^2 = (10u - 5v)(x + 4u) \\)</p>
+    <p>In the given equation, \\(u\\) and \\(v\\) are constants, where \\(10u > 5v\\). The sum of the solutions is \\(2u - 15\\). What is the value of \\(v\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-15\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-3\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(5\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(3\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par68476",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p class="eq">
+      \\( (x + 6w)^2 = (9w - 4z)(x + 6w) \\)</p>
+    <p>In the given equation, \\(w\\) and \\(z\\) are constants, where \\(9w > 4z\\). The sum of the solutions is \\(-3w + 44\\). What is the value of \\(z\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-44\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-4\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(-11\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(11\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
 ];

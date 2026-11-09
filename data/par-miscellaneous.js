@@ -55,6 +55,30 @@ const parMiscellaneous = {
       practice: asPractice(["Par78770", "Par13905"]),
       additionalPractice: asAdditional(["Par43744", "Par29040", "Par57581", "Par54269"]),
     },
+
+    // Problem 7
+    {
+      ...asWorked("Par84050"),
+      ...asGuided("Par93336"),
+      practice: asPractice(["Par44826", "Par43102"]),
+      additionalPractice: asAdditional(["Par41759", "Par51859", "Par67249", "Par58867"]),
+    },
+
+     // Problem 8
+    {
+      ...asWorked("Par94722"),
+      ...asGuided("Par38276"),
+      practice: asPractice(["Par29993", "Par89449"]),
+      additionalPractice: asAdditional(["Par30629", "Par58988", "Par92153", "Par66084"]),
+    },
+
+    // Problem 9
+    {
+      ...asWorked("Par10221"),
+      ...asGuided("Par78421"),
+      practice: asPractice(["Par15337", "Par18088"]),
+      additionalPractice: asAdditional(["Par83987", "Par63756", "Par91029", "Par68476"]),
+    },
 ],
 };
 
