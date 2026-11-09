@@ -29907,4 +29907,349 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par98171",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 10,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( 4(x + 2)(x - 3) = 16, \\)</p>
+    <p>what is the product of the solutions to the equation?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-12\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(-10\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-8\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(10\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand and move everything to one side: \\(4(x^2 - x - 6) = 16\\) becomes \\(4x^2 - 4x - 40 = 0\\)`,
+        note: "",
+        gif: "",
+        answer: "B",
+        video: ""
+      },
+      {
+        text: `The product of the solutions of \\(ax^2 + bx + c = 0\\) is \\(\\frac{c}{a}\\), so the product is \\(\\frac{-40}{4} = -10\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Confirm in Desmos by graphing \\(y = 4(x + 2)(x - 3)\\) and \\(y = 16\\), then multiplying the \\(x\\)-coordinates of the intersections`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par36824",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 10,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( 3(x - 4)(x + 1) = 30, \\)</p>
+    <p>what is the product of the solutions to the equation?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-18\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(-16\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(-14\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(-12\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand the left side and move the constant over to write the equation in standard form`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Identify \\(a\\) and \\(c\\), then use the product of the solutions \\(= \\frac{c}{a}\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Confirm in Desmos by graphing both sides and multiplying the intersection \\(x\\)-values`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par51214",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 10,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( 5(x - 2)(x + 3) = 25, \\)</p>
+    <p>what is the product of the solutions to the equation?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-13\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(-11\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(-7\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par67011",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 10,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( 6(x + 4)(x - 1) = 72, \\)</p>
+    <p>what is the product of the solutions to the equation?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-18\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(-16\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-14\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(-12\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par14224",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( 7(x + 3)(x - 2) = 42, \\)</p>
+    <p>what is the product of the solutions to the equation?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-14\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(-12\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-10\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(-8\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par14165",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( 4(x - 5)(x + 2) = 48, \\)</p>
+    <p>what is the product of the solutions to the equation?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-24\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(-22\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-20\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(-18\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par31688",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( 8(x + 4)(x - 3) = 32, \\)</p>
+    <p>what is the product of the solutions to the equation?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-18\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(-16\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-14\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(-12\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par80613",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( 5(x - 6)(x + 1) = 45, \\)</p>
+    <p>what is the product of the solutions to the equation?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(-17\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(-15\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(-13\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(-11\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
 ];
