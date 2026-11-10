@@ -242,9 +242,16 @@ export default function Figure({
         const lp = pointLabelPos(p, center);
         const sel = isSel("point", name);
         const pend = pending.includes(name);
+        const hidden = spec.showPointLabels === false || (spec.hiddenLabels || []).includes(name);
+        if (hidden && !editable) {
+          return <circle key={"p" + name} cx={p[0]} cy={p[1]} r={3} fill={stroke} />;
+        }
         return (
           <g key={"p" + name}>
-            <text x={lp[0]} y={lp[1]} fontSize="15" textAnchor="middle" dominantBaseline="middle" fill={sel || pend ? accent : stroke} fontStyle="italic">
+            <text
+              x={lp[0]} y={lp[1]} fontSize="15" textAnchor="middle" dominantBaseline="middle"
+              fill={sel || pend ? accent : stroke} fillOpacity={hidden ? 0.3 : 1} fontStyle="italic"
+            >
               {name}
             </text>
             <circle
@@ -267,3 +274,4 @@ export default function Figure({
     </svg>
   );
 }
+

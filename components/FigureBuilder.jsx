@@ -225,6 +225,10 @@ export default function FigureBuilder({ initial, onSave }) {
                 <input type="checkbox" checked={!!fig.notToScale} onChange={(e) => setFig((f) => ({ ...f, notToScale: e.target.checked }))} />
                 Figure not drawn to scale
               </label>
+              <label style={{ ...lbl, display: "flex", alignItems: "center", gap: 6, marginTop: 8 }}>
+                <input type="checkbox" checked={fig.showPointLabels !== false} onChange={(e) => setFig((f) => ({ ...f, showPointLabels: e.target.checked }))} />
+                Show point letters
+              </label>
               <p style={{ color: "#6b7280", marginTop: 16 }}>Click something on the canvas in Select mode to edit it.</p>
             </>
           )}
@@ -249,6 +253,19 @@ export default function FigureBuilder({ initial, onSave }) {
                   setSelected({ kind: "point", name: to });
                 }}
               />
+              <label style={{ ...lbl, display: "flex", alignItems: "center", gap: 6 }}>
+                <input
+                  type="checkbox"
+                  checked={!(fig.hiddenLabels || []).includes(selected.name)}
+                  disabled={fig.showPointLabels === false}
+                  onChange={(e) => setFig((f) => {
+                    const set = new Set(f.hiddenLabels || []);
+                    e.target.checked ? set.delete(selected.name) : set.add(selected.name);
+                    return { ...f, hiddenLabels: [...set] };
+                  })}
+                />
+                Show letter{fig.showPointLabels === false ? " (all letters hidden)" : ""}
+              </label>
               <label style={lbl}>Position</label>
               <p style={{ margin: 0 }}>({fig.points[selected.name]?.join(", ")})</p>
             </>
@@ -306,6 +323,7 @@ export default function FigureBuilder({ initial, onSave }) {
     </div>
   );
 }
+
 
 
 

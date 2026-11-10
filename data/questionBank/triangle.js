@@ -552,4 +552,104 @@ export const questions = [
         screenshot: "",
         videoId: ""
     },
+
+        {
+        id: "Tri64666",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 4,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the right triangle shown, \\(d\\) is a constant. The value of \\(\\sin x^\\circ = \\frac{k}{d}\\), where \\(k\\) is a constant. What is the value of \\(k\\)?</p>
+        <p>The triangle has a horizontal leg of length \\(24\\), a vertical leg of length \\(18\\), and a hypotenuse labeled \\(d\\). Angle \\(x^\\circ\\) is at the bottom-right vertex.</p>`,
+        answer: "18",
+        figure: {"size":[600,400],"points":{"A":[100,320],"B":[340,320],"C":[100,180]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[{"at":"B","arms":["A","C"],"label":"x","arcs":1}],"ticks":[],"rightAngles":[{"at":"A","arms":["B","C"]}],"labels":[{"text":"d","on":["B","C"]},{"text":"18","on":["C","A"]},{"text":"24","on":["A","B"]}],"notToScale":true,"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Identify the sides relative to the angle \\(x^\\circ\\): the vertical leg (\\(18\\)) is opposite, the horizontal leg (\\(24\\)) is adjacent, and \\(d\\) is the hypotenuse`,
+            note: "",
+            gif: "",
+            answer: "18",
+            video: ""
+        },
+        {
+            text: `SOH: \\(\\sin x^\\circ = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{18}{d}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Compare with \\(\\frac{k}{d}\\): \\(k = 18\\). (Note that \\(d = 30\\) from the Pythagorean theorem, but it isn't needed.)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri42140",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 4,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the right triangle shown, \\(m\\) is a constant. The value of \\(\\cos y^\\circ = \\frac{k}{m}\\), where \\(k\\) is a constant. What is the value of \\(k\\)?</p>
+        <p>The triangle has a horizontal leg of length \\(40\\), a vertical leg of length \\(9\\), and a hypotenuse labeled \\(m\\). Angle \\(y^\\circ\\) is at the bottom-right vertex.</p>`,
+        answer: "40",
+        figure: {"size":[600,400],"points":{"A":[100,320],"B":[420,320],"C":[100,220]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[{"at":"B","arms":["A","C"],"label":"y","arcs":1}],"ticks":[],"rightAngles":[{"at":"A","arms":["B","C"]}],"labels":[{"text":"m","on":["B","C"]},{"text":"9","on":["C","A"]},{"text":"40","on":["A","B"]}],"notToScale":true,"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Label the sides relative to angle \\(y^\\circ\\): which leg is adjacent, which is opposite, and which side is the hypotenuse`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `CAH: write \\(\\cos y^\\circ\\) as adjacent over hypotenuse using the given lengths`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Match the numerator to \\(k\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri64264",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 4,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the right triangle shown, the value of \\(\\tan z^\\circ = \\frac{k}{35}\\), where \\(k\\) is a constant. What is the value of \\(k\\)?</p>
+        <p>The triangle has a horizontal leg of length \\(35\\) and a vertical leg of length \\(12\\). Angle \\(z^\\circ\\) is at the bottom-right vertex.</p>`,
+        answer: "12",
+        figure: {"size":[600,400],"points":{"A":[100,320],"B":[380,320],"C":[100,240]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[{"at":"B","arms":["A","C"],"label":"z","arcs":1}],"ticks":[],"rightAngles":[{"at":"A","arms":["B","C"]}],"labels":[{"text":"","on":["B","C"]},{"text":"12","on":["C","A"]},{"text":"35","on":["A","B"]}],"notToScale":true,"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+
 ];
