@@ -30252,4 +30252,1679 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par74604",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 11,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic equation</p>
+    <p class="eq">
+      \\( 8(6x^2) + (48p + 12q)x + \\left[(p + 6q)^2 - p^2 - 36q^2\\right] = 0, \\)</p>
+    <p>is defined in terms of the positive constants \\(p\\) and \\(q\\). The product of the solutions can be written as</p>
+    <p class="eq">
+      \\( kpq, \\)</p>
+    <p>where \\(k\\) is a constant.</p>
+    <p>What is the value of</p>
+    <p class="eq">
+      \\( 96k - 4? \\)</p>`,
+    answer: "20",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Simplify the constant term: \\((p + 6q)^2 - p^2 - 36q^2 = p^2 + 12pq + 36q^2 - p^2 - 36q^2 = 12pq\\). The leading coefficient is \\(8 \\cdot 6 = 48\\)`,
+        note: "",
+        gif: "",
+        answer: "20",
+        video: ""
+      },
+      {
+        text: `The product of the solutions of \\(ax^2 + bx + c = 0\\) is \\(\\frac{c}{a} = \\frac{12pq}{48} = \\frac{1}{4}pq\\), so \\(k = \\frac{1}{4}\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Evaluate: \\(96k - 4 = 96\\left(\\frac{1}{4}\\right) - 4 = 24 - 4 = 20\\). Confirm in Desmos by picking \\(p = q = 1\\), graphing, and multiplying the \\(x\\)-intercepts`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par90348",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 11,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic equation</p>
+    <p class="eq">
+      \\( 15(3x^2) + (45r + 10s)x + \\left[(r + 5s)^2 - r^2 - 25s^2\\right] = 0, \\)</p>
+    <p>is defined in terms of the positive constants \\(r\\) and \\(s\\). The product of the solutions can be written as</p>
+    <p class="eq">
+      \\( krs, \\)</p>
+    <p>where \\(k\\) is a constant.</p>
+    <p>What is the value of</p>
+    <p class="eq">
+      \\( 45k - 2? \\)</p>`,
+    answer: "8",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Expand the bracketed constant term and cancel; it should collapse to a single \\(rs\\) term`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Divide that constant by the leading coefficient to get the product of the solutions, and read off \\(k\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Substitute \\(k\\) into \\(45k - 2\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par64234",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 11,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic equation</p>
+    <p class="eq">
+      \\( 12(4x^2) + (48a + 6b)x + \\left[(a + 3b)^2 - a^2 - 9b^2\\right] = 0, \\)</p>
+    <p>is defined in terms of the positive constants \\(a\\) and \\(b\\). The product of the solutions can be written as</p>
+    <p class="eq">
+      \\( kab, \\)</p>
+    <p>where \\(k\\) is a constant.</p>
+    <p>What is the value of</p>
+    <p class="eq">
+      \\( 24k + 5? \\)</p>`,
+    answer: "8",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par56017",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 11,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic equation</p>
+    <p class="eq">
+      \\( 9(6x^2) + (54m + 14n)x + \\left[(m + 7n)^2 - m^2 - 49n^2\\right] = 0, \\)</p>
+    <p>is defined in terms of the positive constants \\(m\\) and \\(n\\). The product of the solutions can be written as</p>
+    <p class="eq">
+      \\( kmn, \\)</p>
+    <p>where \\(k\\) is a constant.</p>
+    <p>What is the value of</p>
+    <p class="eq">
+      \\( 54k + 1? \\)</p>`,
+    answer: "15",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par18564",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic equation</p>
+    <p class="eq">
+      \\( 7(8x^2) + (56u + 16v)x + \\left[(u + 8v)^2 - u^2 - 64v^2\\right] = 0, \\)</p>
+    <p>is defined in terms of the positive constants \\(u\\) and \\(v\\). The product of the solutions can be written as</p>
+    <p class="eq">
+      \\( kuv, \\)</p>
+    <p>where \\(k\\) is a constant.</p>
+    <p>What is the value of</p>
+    <p class="eq">
+      \\( 35k - 3? \\)</p>`,
+    answer: "7",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par89933",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic equation</p>
+    <p class="eq">
+      \\( 10(5x^2) + (40p + 20q)x + \\left[(p + 4q)^2 - p^2 - 16q^2\\right] = 0 \\)</p>
+    <p>is defined in terms of the positive constants \\(p\\) and \\(q\\). The product of the solutions can be written as</p>
+    <p class="eq">
+      \\( kpq, \\)</p>
+    <p>where \\(k\\) is a constant.</p>
+    <p>What is the value of</p>
+    <p class="eq">
+      \\( 25k + 2? \\)</p>`,
+    answer: "6",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par16414",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic equation</p>
+    <p class="eq">
+      \\( 6(7x^2) + (42r + 18s)x + \\left[(r + 6s)^2 - r^2 - 36s^2\\right] = 0 \\)</p>
+    <p>is defined in terms of the positive constants \\(r\\) and \\(s\\). The product of the solutions can be written as</p>
+    <p class="eq">
+      \\( krs, \\)</p>
+    <p>where \\(k\\) is a constant.</p>
+    <p>What is the value of</p>
+    <p class="eq">
+      \\( 28k - 3? \\)</p>`,
+    answer: "5",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par98127",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of the quadratic function</p>
+    <p class="eq">
+      \\( 12x^2 - px + 144 \\)</p>
+    <p>intersects the \\(x\\)-axis at two positive integers. One of the \\(x\\)-intercepts is three times the other.</p>
+    <p>What is the value of \\(p\\)?</p>`,
+    answer: "96",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Call the intercepts \\(r\\) and \\(3r\\). The product of the roots is \\(\\frac{c}{a} = \\frac{144}{12} = 12\\), so \\(3r^2 = 12\\) and \\(r = 2\\); the intercepts are \\(2\\) and \\(6\\)`,
+        note: "",
+        gif: "",
+        answer: "96",
+        video: ""
+      },
+      {
+        text: `The sum of the roots is \\(\\frac{p}{12}\\), so \\(\\frac{p}{12} = 2 + 6 = 8\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Solve: \\(p = 96\\). Confirm in Desmos by graphing \\(y = 12x^2 - 96x + 144\\) and checking the \\(x\\)-intercepts are \\(2\\) and \\(6\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par76430",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of the quadratic function</p>
+    <p class="eq">
+      \\( 14x^2 - rx + 504 \\)</p>
+    <p>intersects the \\(x\\)-axis at two positive integers. One of the \\(x\\)-intercepts is four times the other.</p>
+    <p>What is the value of \\(r\\)?</p>`,
+    answer: "210",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Let the intercepts be \\(n\\) and \\(4n\\). Use the product of the roots \\(\\frac{c}{a}\\) to find \\(n\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Add the two intercepts to get the sum of the roots, which equals \\(\\frac{r}{14}\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Solve for \\(r\\) and confirm in Desmos by graphing and reading the \\(x\\)-intercepts`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par67637",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 12,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of the quadratic function</p>
+    <p class="eq">
+      \\( 15x^2 - tx + 1200 \\)</p>
+    <p>intersects the \\(x\\)-axis at two positive integers. One of the \\(x\\)-intercepts is five times the other.</p>
+    <p>What is the value of \\(t\\)?</p>`,
+    answer: "360",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par48453",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 12,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of the quadratic function</p>
+    <p class="eq">
+      \\( 18x^2 - mx + 3150 \\)</p>
+    <p>intersects the \\(x\\)-axis at two positive integers. One of the \\(x\\)-intercepts is seven times the other.</p>
+    <p>What is the value of \\(m\\)?</p>`,
+    answer: "720",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par51065",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of the quadratic function</p>
+    <p class="eq">
+      \\( 21x^2 - qx + 2268 \\)</p>
+    <p>intersects the \\(x\\)-axis at two positive integers. One of the \\(x\\)-intercepts is three times the other.</p>
+    <p>What is the value of \\(q\\)?</p>`,
+    answer: "504",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par66590",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of the quadratic function</p>
+    <p class="eq">
+      \\( 16x^2 - px + 1152 \\)</p>
+    <p>intersects the \\(x\\)-axis at two positive integers. One of the \\(x\\)-intercepts is <strong>two times</strong> the other.</p>
+    <p>What is the value of \\(p\\)?</p>`,
+    answer: "288",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par72144",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of the quadratic function</p>
+    <p class="eq">
+      \\( 20x^2 - rx + 720 \\)</p>
+    <p>intersects the \\(x\\)-axis at two positive integers. One of the \\(x\\)-intercepts is <strong>four times</strong> the other.</p>
+    <p>What is the value of \\(r\\)?</p>`,
+    answer: "300",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par41911",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of the quadratic function</p>
+    <p class="eq">
+      \\( 24x^2 - mx + 1920 \\)</p>
+    <p>intersects the \\(x\\)-axis at two positive integers. One of the \\(x\\)-intercepts is <strong>five times</strong> the other.</p>
+    <p>What is the value of \\(m\\)?</p>`,
+    answer: "576",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par96458",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 13,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>If \\(m > 0\\), and both \\(m\\) and \\(n\\) are integers, the equation</p>
+    <p class="eq">
+      \\( n^2 + mn = 48 \\)</p>
+    <p>is true.</p>
+    <p>What is one possible value of \\(m\\)?</p>`,
+    answer: "2 or 8 or 13 or 22 or 47",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Factor the left side: \\(n(n + m) = 48\\). So \\(n\\) and \\(n + m\\) are a pair of integers whose product is \\(48\\)`,
+        note: "",
+        gif: "",
+        answer: "2",
+        video: ""
+      },
+      {
+        text: `Pick a factor pair, e.g. \\(n = 6\\) and \\(n + m = 8\\). Then \\(m = 8 - 6 = 2\\), which is positive`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Check: \\(6^2 + 2(6) = 36 + 12 = 48\\). Other factor pairs give \\(m = 8, 13, 22,\\) or \\(47\\); any of these is acceptable`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par56503",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 13,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The equation</p>
+    <p class="eq">
+      \\( p^2 - 27 = 3pq \\)</p>
+    <p>is true, where \\(q > 0\\) and both \\(p\\) and \\(q\\) are integers.</p>
+    <p>What is one possible value of \\(q\\)?</p>`,
+    answer: "2",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Solve for \\(q\\): \\(q = \\frac{p^2 - 27}{3p}\\). For \\(q\\) to be an integer, \\(p\\) must divide \\(27\\) and the quotient must be a whole number`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Test the divisors of \\(27\\) (positive and negative) in Desmos or by hand until \\(q\\) comes out as a positive integer`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Report that value of \\(q\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par63650",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 13,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>If \\(r > 0\\), and both \\(r\\) and \\(w\\) are integers, the equation</p>
+    <p class="eq">
+      \\( w(w + 2r) = 72 \\)</p>
+    <p>is true.</p>
+    <p>What is one possible value of \\(r\\)?</p>`,
+    answer: "3 or 7 or 17",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par97499",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 13,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The equation</p>
+    <p class="eq">
+      \\( x^2 = 5xy + 96 \\)</p>
+    <p>is true, where \\(y > 0\\) and both \\(x\\) and \\(y\\) are integers.</p>
+    <p>What is one possible value of \\(y\\)?</p>`,
+    answer: "2 or 4 or 19",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par19056",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The equation</p>
+    <p class="eq">
+      \\( z^2 - 4kz = 96 \\)</p>
+    <p>is true, where \\(k > 0\\) and both \\(z\\) and \\(k\\) are integers.</p>
+    <p>What is one possible value of \\(k\\)?</p>`,
+    answer: "1 or 5",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par17897",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>If \\(a > 0\\), and both \\(a\\) and \\(c\\) are integers, the equation</p>
+    <p class="eq">
+      \\( 2c^2 - 2ac = 120 \\)</p>
+    <p>is true.</p>
+    <p>What is one possible value of \\(a\\)?</p>`,
+    answer: "4 or 7 or 11 or 17 or 28 or 59",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par52887",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The equation</p>
+    <p class="eq">
+      \\( v^2 - 80 = 2uv \\)</p>
+    <p>is true, where \\(u > 0\\) and both \\(u\\) and \\(v\\) are integers.</p>
+    <p>What is one possible value of \\(u\\)?</p>`,
+    answer: "1 or 8 or 19",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par59515",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 13,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>If \\(s > 0\\), and both \\(s\\) and \\(t\\) are integers, the equation</p>
+    <p class="eq">
+      \\( 3t^2 = 6st + 120 \\)</p>
+    <p>is true.</p>
+    <p>What is one possible value of \\(s\\)?</p>`,
+    answer: "3 or 9",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par25401",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 14,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The solutions to the equation</p>
+    <p class="eq">
+      \\( 4x^2 - 27x + 35 = 0 \\)</p>
+    <p>are \\(r\\) and \\(s\\), where \\(r > s\\).</p>
+    <p>What is the <strong>positive difference</strong> between \\(r\\) and \\(s\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{11}{4} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{15}{4} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{13}{4} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{17}{4} \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Graph \\(y = 4x^2 - 27x + 35\\) in Desmos and click the two \\(x\\)-intercepts: \\(x = \\frac{7}{4}\\) and \\(x = 5\\)`,
+        note: "",
+        gif: "",
+        answer: "C",
+        video: ""
+      },
+      {
+        text: `Subtract the smaller from the larger: \\(5 - \\frac{7}{4} = \\frac{13}{4}\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Shortcut: the difference of the roots is \\(\\frac{\\sqrt{b^2 - 4ac}}{a} = \\frac{\\sqrt{729 - 560}}{4} = \\frac{13}{4}\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par62147",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 14,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The solutions to the equation</p>
+    <p class="eq">
+      \\( 5x^2 - 28x + 32 = 0 \\)</p>
+    <p>are \\(m\\) and \\(n\\), where \\(m > n\\).</p>
+    <p>What is the <strong>positive difference</strong> between \\(m\\) and \\(n\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{12}{5} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{14}{5} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{16}{5} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{8}{5} \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Graph the equation in Desmos and click the two \\(x\\)-intercepts`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Subtract the smaller intercept from the larger one",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Check with the shortcut \\(\\frac{\\sqrt{b^2 - 4ac}}{a}\\) and match to an answer choice`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par58888",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 14,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The solutions to the equation</p>
+    <p class="eq">
+      \\( 6x^2 - 29x + 33 = 0 \\)</p>
+    <p>are \\(p\\) and \\(q\\), where \\(p > q\\).</p>
+    <p>What is the <strong>positive difference</strong> between \\(p\\) and \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{11}{6} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{13}{6} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{5}{6} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{7}{6} \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par37619",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 14,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The solutions to the equation</p>
+    <p class="eq">
+      \\( 7x^2 - 43x + 60 = 0 \\)</p>
+    <p>are \\(u\\) and \\(v\\), where \\(u > v\\).</p>
+    <p>What is the <strong>positive difference</strong> between \\(u\\) and \\(v\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{11}{7} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{13}{7} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{17}{7} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{15}{7} \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par53319",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The solutions to the equation</p>
+    <p class="eq">
+      \\( 8x^2 - 43x + 44 = 0 \\)</p>
+    <p>are \\(p\\) and \\(q\\), where \\(p > q\\).</p>
+    <p>What is the <strong>positive difference</strong> between \\(p\\) and \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{21}{8} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{19}{8} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{25}{8} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{43}{8} \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par73579",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The solutions to the equation</p>
+    <p class="eq">
+      \\( 9x^2 - 59x + 70 = 0 \\)</p>
+    <p>are \\(p\\) and \\(q\\), where \\(p > q\\).</p>
+    <p>What is the <strong>positive difference</strong> between \\(p\\) and \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{59}{9} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{29}{9} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{31}{9} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{35}{9} \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par66278",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The solutions to the equation</p>
+    <p class="eq">
+      \\( 10x^2 - 57x + 68 = 0 \\)</p>
+    <p>are \\(p\\) and \\(q\\), where \\(p > q\\).</p>
+    <p>What is the <strong>positive difference</strong> between \\(p\\) and \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{27}{10} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{57}{10} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{17}{10} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{23}{10} \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par95318",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 14,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The solutions to the equation</p>
+    <p class="eq">
+      \\( 11x^2 - 74x + 95 = 0 \\)</p>
+    <p>are \\(p\\) and \\(q\\), where \\(p > q\\).</p>
+    <p>What is the <strong>positive difference</strong> between \\(p\\) and \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( \\frac{34}{11} \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( \\frac{36}{11} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( \\frac{38}{11} \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( \\frac{74}{11} \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par96083",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 15,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(f\\) has a vertex at \\((6, -3)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (2, 5m + 6), \\)</p>
+    <p>where \\(m\\) is a constant.</p>
+    <p>If</p>
+    <p class="eq">
+      \\( f(10) = 46, \\)</p>
+    <p>what is the value of</p>
+    <p class="eq">
+      \\( 2m + 1? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(15\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(17\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(19\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(21\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `The axis of symmetry is \\(x = 6\\). Since \\(2\\) and \\(10\\) are both \\(4\\) units from \\(6\\), the parabola has the same height at both: \\(f(2) = f(10)\\)`,
+        note: "",
+        gif: "",
+        answer: "B",
+        video: ""
+      },
+      {
+        text: `So \\(5m + 6 = 46\\), giving \\(m = 8\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Then \\(2m + 1 = 17\\). Confirm in Desmos by graphing \\(y = a(x - 6)^2 - 3\\) with a slider for \\(a\\) and checking the points \\((2, 46)\\) and \\((10, 46)\\) land on the curve together`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par48496",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 15,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(g\\) has a vertex at \\((8, 5)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (5, 4k + 3). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( g(11) = 39, \\)</p>
+    <p>what is the value of</p>
+    <p class="eq">
+      \\( 3k - 2? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(19\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(22\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(28\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(25\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Find the distance from each given \\(x\\)-value to the axis of symmetry \\(x = 8\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Since the two points are the same distance from the axis, set their \\(y\\)-values equal and solve for \\(k\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Substitute into \\(3k - 2\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par23861",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 15,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(p\\) has a vertex at \\((4, -6)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (1, 6a + 5). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( p(7) = 35, \\)</p>
+    <p>what is the value of</p>
+    <p class="eq">
+      \\( a + 4? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(10\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(11\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(12\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par92093",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 15,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(h\\) has a vertex at \\((10, 2)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (6, 3n + 4). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( h(14) = 43, \\)</p>
+    <p>what is the value of</p>
+    <p class="eq">
+      \\( 4n? \\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(48\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(56\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(52\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(60\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par17655",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 15,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(q\\) has a vertex at \\((9, -1)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (4, 2r + 11). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( q(14) = 31, \\)</p>
+    <p>what is the value of</p>
+    <p class="eq">
+      \\( 5r - 10? \\)</p>`,
+    answer: "40",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par13533",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 15,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(f\\) has a vertex at \\((7, -3)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (2, 3m + 8). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( f(12) = 44, \\)</p>
+    <p>what is the value of</p>
+    <p class="eq">
+      \\( 4m - 5? \\)</p>`,
+    answer: "43",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par81633",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 15,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(g\\) has a vertex at \\((6, 2)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (10, 2k + 7). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( g(2) = 35, \\)</p>
+    <p>what is the value of</p>
+    <p class="eq">
+      \\( 3k + 4? \\)</p>`,
+    answer: "46",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par20231",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 15,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(h\\) has a vertex at \\((8, -4)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (3, 4p + 9). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( h(13) = 49, \\)</p>
+    <p>what is the value of</p>
+    <p class="eq">
+      \\( 2p + 7? \\)</p>`,
+    answer: "27",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par90101",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 16,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(h\\) has a vertex at \\((6, 4)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (2, 4p + 8). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( h(10) - 12 = 36, \\)</p>
+    <p>what is the value of \\(p\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\(10\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(12\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(11\\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `First isolate the function value: \\(h(10) - 12 = 36\\) means \\(h(10) = 48\\)`,
+        note: "",
+        gif: "",
+        answer: "A",
+        video: ""
+      },
+      {
+        text: `The axis of symmetry is \\(x = 6\\), and \\(2\\) and \\(10\\) are both \\(4\\) units away, so \\(h(2) = h(10) = 48\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Set \\(4p + 8 = 48\\), so \\(p = 10\\). Confirm in Desmos by graphing \\(y = a(x - 6)^2 + 4\\) with a slider and checking \\((2, 48)\\) and \\((10, 48)\\) sit on the curve together`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par85219",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 16,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(g\\) has a vertex at \\((8, -5)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (5, 5m + 4). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( g(11) + 9 = 58, \\)</p>
+    <p>what is the value of \\(m\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(8\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(10\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Solve the given equation for \\(g(11)\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Check that \\(5\\) and \\(11\\) are the same distance from the axis of symmetry \\(x = 8\\), so \\(g(5) = g(11)\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Set \\(5m + 4\\) equal to that value and solve for \\(m\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par58035",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 16,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(f\\) has a vertex at \\((10, 6)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (7, 6n + 2). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( f(13) - 8 = 42, \\)</p>
+    <p>what is the value of \\(n\\)?</p>`,
+    answer: "8",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par71262",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 16,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(p\\) has a vertex at \\((4, -3)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (1, 3a + 8). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( p(7) + 11 = 49, \\)</p>
+    <p>what is the value of \\(a\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(7\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(8\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(9\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\(10\\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par76190",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 16,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(q\\) has a vertex at \\((9, 2)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (6, 2r + 5). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( q(12) - 7 = 30, \\)</p>
+    <p>what is the value of \\(r\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(15\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\(16\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\(17\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(18\\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par21941",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 16,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(f\\) has a vertex at \\((7, 4)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (3, 3m + 8). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( f(11) + 6 = 53, \\)</p>
+    <p>what is the value of \\(m\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(11\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(12\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(13\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(14\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par82245",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 16,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(g\\) has a vertex at \\((5, -2)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (8, 4k - 3). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( g(2) - 5 = 48, \\)</p>
+    <p>what is the value of \\(k\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(12\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(13\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(14\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(15\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par15768",
+    topic: "parabola",
+    subtopic: "miscellaneous",
+    problem: 16,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of the quadratic function \\(h\\) has a vertex at \\((10, 6)\\).</p>
+    <p>The graph passes through the point</p>
+    <p class="eq">
+      \\( (4, 5p + 7). \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( h(16) + 8 = 70, \\)</p>
+    <p>what is the value of \\(p\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\(9\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\(10\\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\(11\\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\(12\\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
 ];

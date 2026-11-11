@@ -87,6 +87,57 @@ const parMiscellaneous = {
       practice: asPractice(["Par51214", "Par67011"]),
       additionalPractice: asAdditional(["Par14224", "Par14165", "Par31688", "Par80613"]),
     },
+
+    // Problem 11
+    {
+      ...asWorked("Par74604"),
+      ...asGuided("Par90348"),
+      practice: asPractice(["Par56017", "Par18564"]),
+      additionalPractice: asAdditional(["Par64234", "Par89933", "Par16414"]),
+    },
+
+    // Problem 12
+    {
+      ...asWorked("Par98127"),
+      ...asGuided("Par76430"),
+      practice: asPractice(["Par67637", "Par48453"]),
+      additionalPractice: asAdditional(["Par51065", "Par66590", "Par72144", "Par41911"]),
+    },
+
+    // Problem 13
+    {
+      ...asWorked("Par96458"),
+      ...asGuided("Par56503"),
+      practice: asPractice(["Par63650", "Par97499"]),
+      additionalPractice: asAdditional(["Par19056", "Par17897", "Par52887", "Par59515"]),
+    },
+
+    // Problem 14
+    {
+      ...asWorked("Par25401"),
+      ...asGuided("Par62147"),
+      practice: asPractice(["Par58888", "Par37619"]),
+      additionalPractice: asAdditional(["Par53319", "Par73579", "Par66278", "Par95318"]),
+    },
+
+    // Gap for missing slides 36-40
+
+    // Problem 15
+    {
+      ...asWorked("Par96083"),
+      ...asGuided("Par48496"),
+      practice: asPractice(["Par23861", "Par92093"]),
+      additionalPractice: asAdditional(["Par17655", "Par13533", "Par81633", "Par20231"]),
+    },
+
+    // Problem 16
+    {
+      ...asWorked("Par90101"),
+      ...asGuided("Par85219"),
+      practice: asPractice(["Par58035", "Par71262"]),
+      additionalPractice: asAdditional(["Par76190", "Par21941", "Par82245", "Par15768"]),
+    },
+
 ],
 };
 
