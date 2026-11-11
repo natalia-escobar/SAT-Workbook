@@ -651,5 +651,404 @@ export const questions = [
         videoId: ""
     },
 
+        {
+        id: "Tri24657",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 5,
+        questionType: "WE",
+        difficulty: 1,
+        tags: [],
+        text: `<p>In right triangle \\(PQR\\), \\(\\angle R\\) is a right angle. The length of \\(\\overline{PR}\\) is \\(24\\), and the length of \\(\\overline{PQ}\\) is \\(25\\).</p>
+        <p>What is the value of \\(\\cos P\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{25}{24} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{7}{25} \\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( \\frac{24}{25} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{7}{24} \\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"P":[180,320],"R":[500,320],"Q":[500,180]},"segments":[{"from":"P","to":"R"},{"from":"R","to":"Q"},{"from":"Q","to":"P"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"R","arms":["P","Q"]}],"labels":[{"text":"25","on":["Q","P"]},{"text":"24","on":["P","R"]}],"notToScale":true,"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Sketch the triangle with the right angle at \\(R\\). \\(\\overline{PQ}\\) is opposite the right angle, so it is the hypotenuse; \\(\\overline{PR}\\) touches angle \\(P\\), so it is adjacent`,
+            note: "",
+            gif: "",
+            answer: "C",
+            video: ""
+        },
+        {
+            text: `CAH: \\(\\cos P = \\frac{\\text{adjacent}}{\\text{hypotenuse}} = \\frac{PR}{PQ}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Substitute: \\(\\cos P = \\frac{24}{25}\\). (The third side, \\(7\\), is a distractor; it isn't needed.)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri39614",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 5,
+        questionType: "GP",
+        difficulty: 1,
+        tags: [],
+        text: `<p>In right triangle \\(DEF\\), \\(\\angle F\\) is a right angle. The length of \\(\\overline{DF}\\) is \\(15\\), and the length of \\(\\overline{DE}\\) is \\(17\\).</p>
+        <p>What is the value of \\(\\cos D\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{8}{17} \\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{15}{17} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( \\frac{17}{15} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{8}{15} \\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"D":[200,320],"F":[500,320],"E":[500,140]},"segments":[{"from":"D","to":"F"},{"from":"F","to":"E"},{"from":"E","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"F","arms":["D","E"]}],"labels":[{"text":"17","on":["E","D"]},{"text":"15","on":["D","F"]}],"notToScale":true,"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Sketch the triangle with the right angle at \\(F\\) and identify the hypotenuse and the side adjacent to angle \\(D\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Write \\(\\cos D\\) as adjacent over hypotenuse`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Substitute the given lengths and match to an answer choice",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri41492",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 5,
+        questionType: "PR",
+        difficulty: 1,
+        tags: [],
+        text: `<p>In right triangle \\(JKL\\), \\(\\angle K\\) is a right angle. The length of \\(\\overline{KL}\\) is \\(20\\), and the length of \\(\\overline{JL}\\) is \\(29\\).</p>
+        <p>What is the value of \\(\\cos L\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{21}{29} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{29}{20} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( \\frac{21}{20} \\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{20}{29} \\)</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: {"size":[600,400],"points":{"J":[340,320],"K":[500,320],"L":[500,140]},"segments":[{"from":"J","to":"K"},{"from":"K","to":"L"},{"from":"L","to":"J"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"K","arms":["J","L"]}],"labels":[{"text":"29","on":["L","J"]},{"text":"20","on":["K","L"]}],"notToScale":true,"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri96324",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 6,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the right triangle shown, the hypotenuse has a length of \\(41\\), the horizontal leg has a length of \\(40\\), and angle \\(x^\\circ\\) is located at the top-left vertex.</p>
+        <p>What is the value of \\(\\sin x^\\circ\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{9}{41} \\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{40}{41} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( \\frac{41}{40} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{1}{41} \\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"A":[100,320],"B":[400,320],"C":[100,220]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[{"at":"C","arms":["B","A"],"label":"x","arcs":1}],"ticks":[],"rightAngles":[{"at":"A","arms":["B","C"]}],"labels":[{"text":"41","on":["B","C"]},{"text":"40","on":["A","B"]}],"notToScale":true,"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Locate the sides relative to the angle at the top-left vertex: the horizontal leg (\\(40\\)) is across from it, so it is the opposite side; \\(41\\) is the hypotenuse`,
+            note: "",
+            gif: "",
+            answer: "B",
+            video: ""
+        },
+        {
+            text: `SOH: \\(\\sin x^\\circ = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{40}{41}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `No extra computation is needed here; the third side (\\(9\\)) would only matter for \\(\\cos\\) or \\(\\tan\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri85875",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 6,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the right triangle shown, the hypotenuse has a length of \\(61\\), the horizontal leg has a length of \\(11\\), and angle \\(y^\\circ\\) is located at the bottom-right vertex.</p>
+        <p>What is the value of \\(\\sin y^\\circ\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{11}{61} \\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{60}{61} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\( \\frac{61}{60} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{60}{11} \\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"A":[100,320],"B":[200,320],"C":[100,60]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[{"at":"B","arms":["A","C"],"label":"y","arcs":1}],"ticks":[],"rightAngles":[{"at":"A","arms":["B","C"]}],"labels":[{"text":"61","on":["B","C"]},{"text":"11","on":["A","B"]}],"notToScale":true,"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Decide which leg is opposite the angle at the bottom-right vertex; notice its length isn't given`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Use the Pythagorean theorem with the hypotenuse and the known leg to find the missing leg`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Write \\(\\sin y^\\circ\\) as opposite over hypotenuse and match to an answer choice`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri77287",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 6,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the right triangle shown, the hypotenuse has a length of \\(65\\), the vertical leg has a length of \\(33\\), and angle \\(z^\\circ\\) is located at the top-left vertex.</p>
+        <p>What is the value of \\(\\sin z^\\circ\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{33}{65} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{56}{33} \\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\( \\frac{56}{65} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{65}{56} \\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"A":[100,320],"B":[340,320],"C":[100,160]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[{"at":"C","arms":["B","A"],"label":"z","arcs":1}],"ticks":[],"rightAngles":[{"at":"A","arms":["B","C"]}],"labels":[{"text":"33","on":["C","A"]},{"text":"65","on":["B","C"]}],"notToScale":true,"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri61285",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 7,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In right triangle \\(ABC\\), \\(\\angle C\\) is a right angle, and the length of \\(\\overline{AB}\\) is \\(25\\). If \\(BC = \\sqrt{49}\\), what is the value of \\(\\sin B\\)?</p>`,
+        answer: "24/25",
+        figure: {"size":[600,400],"points":{"A":[240,320],"B":[500,320],"C":[500,200]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"B","arms":["A","C"]}],"labels":[{"text":"25","on":["C","A"]}],"notToScale":true},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Simplify first: \\(BC = \\sqrt{49} = 7\\). The right angle is at \\(C\\), so \\(\\overline{AB} = 25\\) is the hypotenuse`,
+            note: "",
+            gif: "",
+            answer: "24/25",
+            video: ""
+        },
+        {
+            text: `\\(\\sin B\\) needs the side opposite \\(B\\), which is \\(\\overline{AC}\\). Use the Pythagorean theorem: \\(AC = \\sqrt{25^2 - 7^2} = \\sqrt{576} = 24\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `SOH: \\(\\sin B = \\frac{AC}{AB} = \\frac{24}{25}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri20092",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 7,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In right triangle \\(PQR\\), \\(\\angle Q\\) is a right angle, and the length of \\(\\overline{PR}\\) is \\(17\\). If \\(PQ = \\sqrt{64}\\), what is the value of \\(\\sin P\\)?</p>`,
+        answer: "15/17",
+        figure: {"size":[600,400],"points":{"P":[260,320],"Q":[340,320],"R":[340,160]},"segments":[{"from":"P","to":"Q"},{"from":"Q","to":"R"},{"from":"R","to":"P"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"Q","arms":["P","R"]}],"labels":[{"text":"17","on":["R","P"]}],"notToScale":true,"showPointLabels":true,"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Simplify the radical and identify the hypotenuse (the side opposite the right angle)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Find the side opposite angle \\(P\\) using the Pythagorean theorem`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Write \\(\\sin P\\) as opposite over hypotenuse`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri35132",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 7,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In right triangle \\(DEF\\), \\(\\angle E\\) is a right angle, and the length of \\(\\overline{DF}\\) is \\(13\\). If \\(DE = \\sqrt{144}\\), what is the value of \\(\\sin F\\)?</p>`,
+        answer: "12/13",
+        figure: {"size":[600,400],"points":{"D":[160,320],"E":[340,320],"F":[340,260]},"segments":[{"from":"D","to":"E"},{"from":"E","to":"F"},{"from":"F","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"E","arms":["D","F"]}],"labels":[{"text":"13","on":["F","D"]}],"notToScale":true,"showPointLabels":true,"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
 
 ];
