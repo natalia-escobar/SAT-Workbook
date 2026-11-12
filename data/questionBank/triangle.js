@@ -1050,5 +1050,702 @@ export const questions = [
         videoId: ""
     },
 
+        {
+        id: "Tri72820",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 8,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(ABC\\), \\(\\cos(A) = \\frac{5}{13}\\), and angle \\(C\\) is a right angle. What is the value of \\(\\cos(B)\\)?</p>`,
+        answer: "12/13",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Since \\(C\\) is the right angle, \\(A\\) and \\(B\\) are complementary, so \\(\\cos(B) = \\sin(A)\\)`,
+            note: "",
+            gif: "",
+            answer: "12/13",
+            video: ""
+        },
+        {
+            text: `\\(\\cos(A) = \\frac{5}{13}\\) means adjacent \\(= 5\\) and hypotenuse \\(= 13\\); the opposite side is \\(\\sqrt{13^2 - 5^2} = 12\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `So \\(\\sin(A) = \\frac{12}{13}\\), and therefore \\(\\cos(B) = \\frac{12}{13}\\). Confirm in Desmos by typing \\(\\cos(90^\\circ - \\arccos(5/13))\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri33810",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 8,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(PQR\\), \\(\\cos(P) = \\frac{8}{17}\\), and angle \\(Q\\) is a right angle. What is the value of \\(\\cos(R)\\)?</p>`,
+        answer: "15/17",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Identify the two acute angles; since they are complementary, the cosine of one equals the sine of the other`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Use \\(\\cos(P) = \\frac{8}{17}\\) to label the adjacent side and hypotenuse, then find the third side with the Pythagorean theorem`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Write \\(\\sin(P)\\), which is the same as \\(\\cos(R)\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri98089",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 8,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(DEF\\), \\(\\cos(D) = \\frac{7}{25}\\), and angle \\(E\\) is a right angle. What is the value of \\(\\cos(F)\\)?</p>`,
+        answer: "24/25",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri24217",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 9,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the figure shown, triangle \\(PQR\\) is a right triangle with a right angle at \\(R\\). Point \\(S\\) lies on \\(\\overline{PQ}\\), point \\(T\\) lies on \\(\\overline{QR}\\), and \\(\\overline{ST}\\) is parallel to \\(\\overline{PR}\\).</p>
+        <p>If \\(\\cos P = 0.72\\), what is the value of \\(\\sin Q\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(0.28\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(0.72\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(0.48\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(0.96\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"P":[20,340],"R":[240,340],"Q":[240,80],"S":[120,220],"T":[240,220]},"segments":[{"from":"P","to":"R"},{"from":"R","to":"Q"},{"from":"Q","to":"P"},{"from":"S","to":"T"},{"from":"T","to":"Q"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"R","arms":["P","Q"]},{"at":"T","arms":["S","Q"]}],"labels":[],"notToScale":true,"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Since \\(R\\) is the right angle, angles \\(P\\) and \\(Q\\) add to \\(90^\\circ\\): they are complementary`,
+            note: "",
+            gif: "",
+            answer: "B",
+            video: ""
+        },
+        {
+            text: `For complementary angles, the cosine of one equals the sine of the other: \\(\\sin Q = \\cos P\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `So \\(\\sin Q = 0.72\\). The parallel segment \\(\\overline{ST}\\) creates a similar triangle but doesn't change any angle, so it can be ignored`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri90638",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 9,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the figure shown, triangle \\(DEF\\) is a right triangle with a right angle at \\(F\\). Point \\(G\\) lies on \\(\\overline{DE}\\), point \\(H\\) lies on \\(\\overline{EF}\\), and \\(\\overline{GH}\\) is parallel to \\(\\overline{DF}\\).</p>
+        <p>If \\(\\sin D = 0.63\\), what is the value of \\(\\cos E\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(0.37\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(0.77\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(0.63\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(0.81\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"D":[80,340],"F":[200,340],"E":[200,180],"G":[140,260],"H":[200,260]},"segments":[{"from":"D","to":"F"},{"from":"F","to":"E"},{"from":"E","to":"D"},{"from":"G","to":"H"},{"from":"H","to":"E"},{"from":"G","to":"E"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"F","arms":["D","E"]},{"at":"H","arms":["G","E"]}],"labels":[],"notToScale":true,"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Identify the two acute angles of the right triangle and note that they are complementary`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Recall that for complementary angles, \\(\\sin\\) of one equals \\(\\cos\\) of the other`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Apply that relationship to \\(\\sin D\\) and \\(\\cos E\\), ignoring the parallel segment`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri10624",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 9,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the figure shown, triangle \\(JKL\\) is a right triangle with a right angle at \\(K\\). Point \\(M\\) lies on \\(\\overline{JL}\\), point \\(N\\) lies on \\(\\overline{KL}\\), and \\(\\overline{MN}\\) is parallel to \\(\\overline{JK}\\).</p>
+        <p>If \\(\\cos L = 0.84\\), what is the value of \\(\\sin J\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(0.16\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(0.54\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(0.70\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\(0.84\\)</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: {"size":[600,400],"points":{"J":[80,340],"K":[260,340],"L":[260,160],"M":[160,260],"N":[260,260]},"segments":[{"from":"J","to":"K"},{"from":"K","to":"L"},{"from":"L","to":"J"},{"from":"M","to":"N"},{"from":"N","to":"L"},{"from":"M","to":"L"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"K","arms":["J","L"]},{"at":"N","arms":["M","L"]}],"labels":[],"notToScale":true,"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri22902",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 10,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>For two acute angles, \\(\\angle A\\) and \\(\\angle B\\), \\(\\sin(A) = \\cos(B)\\). The measures, in degrees, of \\(\\angle A\\) and \\(\\angle B\\) are \\(3x + 12\\) and \\(2x + 18\\), respectively. What is the value of \\(x\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(10\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(12\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(15\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(18\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `For acute angles, \\(\\sin(A) = \\cos(B)\\) exactly when the angles are complementary: \\(A + B = 90^\\circ\\)`,
+            note: "",
+            gif: "",
+            answer: "B",
+            video: ""
+        },
+        {
+            text: `Substitute the expressions: \\((3x + 12) + (2x + 18) = 90\\), so \\(5x + 30 = 90\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Solve: \\(5x = 60\\), \\(x = 12\\). Check in Desmos: \\(\\sin(48^\\circ)\\) and \\(\\cos(42^\\circ)\\) both give \\(0.743\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri86931",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 10,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>For two acute angles, \\(\\angle P\\) and \\(\\angle Q\\), \\(\\cos(P) = \\sin(Q)\\). The measures, in degrees, of \\(\\angle P\\) and \\(\\angle Q\\) are \\(5x + 8\\) and \\(3x + 18\\), respectively. What is the value of \\(x\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(6\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(7\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(8\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(10\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Translate \\(\\cos(P) = \\sin(Q)\\) into a statement about the angle measures`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Set the sum of the two expressions equal to \\(90\\) and combine like terms`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Solve for \\(x\\) and match to an answer choice`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri36075",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 10,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>For two acute angles, \\(\\angle M\\) and \\(\\angle N\\), \\(\\sin(M) = \\cos(N)\\). The measures, in degrees, of \\(\\angle M\\) and \\(\\angle N\\) are \\(4x + 7\\) and \\(2x + 11\\), respectively. What is the value of \\(x\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(9\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(10\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(11\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\(12\\)</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri30695",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 11,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>Triangle \\(ABC\\) is a right triangle with a right angle at \\(C\\). Which of the following has the same value as \\(\\sin A\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(\\tan B\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(\\cos A\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(\\cos B\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(\\sin B\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"A":[100,320],"B":[360,320],"C":[100,160]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"A","arms":["B","C"]}],"labels":[{"text":"15","on":["C","A"]},{"text":"20","on":["A","B"]}],"notToScale":true},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `\\(\\sin A = \\frac{\\text{opposite } A}{\\text{hypotenuse}} = \\frac{BC}{AB}\\)`,
+            note: "",
+            gif: "",
+            answer: "C",
+            video: ""
+        },
+        {
+            text: `The side opposite \\(A\\) is the side adjacent to \\(B\\), so \\(\\cos B = \\frac{BC}{AB}\\) as well`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Since \\(A\\) and \\(B\\) are complementary, \\(\\sin A = \\cos B\\). Check in Desmos with any right triangle, e.g. a \\(3\\)-\\(4\\)-\\(5\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri15248",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 11,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>Triangle \\(PQR\\) is a right triangle with a right angle at \\(Q\\). Which of the following has the same value as \\(\\cos R\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\(\\sin P\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(\\cos P\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(\\tan R\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(\\tan P\\)</span>
+        </div>
+        </div>`,
+        answer: "A",
+        figure: {"size":[600,400],"points":{"P":[100,320],"Q":[360,320],"R":[360,220]},"segments":[{"from":"P","to":"Q"},{"from":"Q","to":"R"},{"from":"R","to":"P"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"Q","arms":["P","R"]}],"labels":[{"text":"10","on":["Q","R"]},{"text":"24","on":["P","Q"]}],"notToScale":true,"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Write \\(\\cos R\\) as a ratio of two specific sides of the triangle`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Find which trig ratio of the other acute angle uses those same two sides`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Match that ratio to an answer choice`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri56653",
+        topic: "triangle",
+        subtopic: "sohcahtoa",
+        problem: 11,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>Triangle \\(DEF\\) is a right triangle with a right angle at \\(E\\). Which of the following has the same value as \\(\\tan D\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(\\tan F\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{1}{\\tan F} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(\\sin F\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(\\cos D\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"D":[100,320],"E":[360,320],"F":[360,220]},"segments":[{"from":"D","to":"E"},{"from":"E","to":"F"},{"from":"F","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"E","arms":["D","F"]}],"labels":[{"text":"5","on":["E","F"]},{"text":"12","on":["D","E"]}],"notToScale":true,"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri17092",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 1,
+        questionType: "WE",
+        difficulty: 1,
+        tags: [],
+        text: `<p>The lengths of the legs of a right triangle are shown. Which of the following is closest to the length of the triangle's hypotenuse?</p>
+        <p>The legs measure \\(7\\) and \\(11\\) units.</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(4.0\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(12.0\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(13.0\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(18.0\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"D":[100,320],"E":[360,320],"F":[360,180]},"segments":[{"from":"D","to":"E"},{"from":"E","to":"F"},{"from":"F","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"E","arms":["D","F"]}],"labels":[{"text":"7","on":["E","F"]},{"text":"11","on":["D","E"]}],"notToScale":true,"hiddenLabels":[],"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Pythagorean theorem: \\(a^2 + b^2 = c^2\\), where \\(c\\) is the hypotenuse. Substitute the legs: \\(7^2 + 11^2 = c^2\\)`,
+            note: "",
+            gif: "",
+            answer: "C",
+            video: ""
+        },
+        {
+            text: `Compute: \\(49 + 121 = 170\\), so \\(c = \\sqrt{170}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Type \\(\\sqrt{170}\\) into Desmos to get \\(13.04\\), closest to \\(13.0\\). Watch out for choice A — subtracting instead of adding gives \\(\\sqrt{72} \\approx 8.5\\), and \\(11 - 7 = 4\\) is the leg difference, not the hypotenuse`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri67762",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 1,
+        questionType: "GP",
+        difficulty: 1,
+        tags: [],
+        text: `<p>The lengths of the legs of a right triangle are shown. Which of the following is closest to the length of the triangle's hypotenuse?</p>
+        <p>The legs measure \\(9\\) and \\(14\\) units.</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(5.0\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(15.0\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(23.0\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\(16.6\\)</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: {"size":[600,400],"points":{"D":[100,320],"E":[360,320],"F":[360,200]},"segments":[{"from":"D","to":"E"},{"from":"E","to":"F"},{"from":"F","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"E","arms":["D","F"]}],"labels":[{"text":"9","on":["E","F"]},{"text":"14","on":["D","E"]}],"notToScale":true,"hiddenLabels":[],"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Write the Pythagorean theorem with the two legs substituted in`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Square each leg and add`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Take the square root in Desmos and pick the closest answer choice`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri98765",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 1,
+        questionType: "PR",
+        difficulty: 1,
+        tags: [],
+        text: `<p>The length of one leg and the hypotenuse of a right triangle are shown. Which of the following is closest to the length of the other leg?</p>
+        <p>The hypotenuse measures \\(19\\) units, and one leg measures \\(12\\) units.</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(13.0\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(14.8\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(16.0\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(22.5\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"D":[200,320],"E":[360,320],"F":[360,160]},"segments":[{"from":"D","to":"E"},{"from":"E","to":"F"},{"from":"F","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"E","arms":["D","F"]}],"labels":[{"text":"12","on":["D","E"]},{"text":"19","on":["F","D"]}],"notToScale":true,"hiddenLabels":[],"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
 
 ];
