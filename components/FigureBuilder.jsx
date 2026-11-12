@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Figure from "./Figure";
-import { EMPTY_FIGURE, snap, nextPointName, sameSegment, removePoint, renamePoint } from "../lib/figureGeom";
+import { EMPTY_FIGURE, ICONS, snap, nextPointName, sameSegment, removePoint, renamePoint } from "../lib/figureGeom";
 import { figureTemplates } from "../data/figureTemplates";
 
 const MODES = [
@@ -13,9 +13,11 @@ const MODES = [
   { id: "tick", label: "Tick", hint: "Click a segment (click again for a double tick)" },
   { id: "right", label: "Right angle", hint: "Click the vertex (if it has more than two sides, then click the two arms)" },
   { id: "label", label: "Label", hint: "Click a segment to label it" },
+  { id: "arrow", label: "Arrow", hint: "Click the tail point, then the head point" },
+  { id: "icon", label: "Icon", hint: "Click a point to attach a pictogram to it" },
 ];
 
-const KIND_KEY = { angle: "angles", tick: "ticks", rightAngle: "rightAngles", label: "labels", segment: "segments", circle: "circles" };
+const KIND_KEY = { angle: "angles", tick: "ticks", rightAngle: "rightAngles", label: "labels", segment: "segments", circle: "circles", arrow: "arrows", icon: "icons" };
 
 /**
  * Admin-only editor. Produces a figure spec; nothing here ships to students.
@@ -87,6 +89,20 @@ export default function FigureBuilder({ initial, onSave }) {
       setPending([]);
       return;
     }
+    if (mode === "arrow" && next.length === 2) {
+      setFig((f) => ({ ...f, arrows: [...(f.arrows || []), { from: next[0], to: next[1], label: "" }] }));
+      setSelected({ kind: "arrow", index: (fig.arrows || []).length });
+      setPending([]);
+      setMode("select");
+      return;
+    }
+    if (mode === "icon") {
+      setFig((f) => ({ ...f, icons: [...(f.icons || []), { at: name, kind: "plane", place: "above", flip: false, size: 44 }] }));
+      setSelected({ kind: "icon", index: (fig.icons || []).length });
+      setPending([]);
+      setMode("select");
+      return;
+    }
     if (mode === "circle" && next.length === 2) {
       setFig((f) => ({ ...f, circles: [...f.circles, { center: next[0], through: next[1] }] }));
       setPending([]);
@@ -135,7 +151,7 @@ export default function FigureBuilder({ initial, onSave }) {
 
   const updateItem = (kind, index, patch) => {
     const key = KIND_KEY[kind];
-    setFig((f) => ({ ...f, [key]: f[key].map((it, k) => (k === index ? { ...it, ...patch } : it)) }));
+    setFig((f) => ({ ...f, [key]: (f[key] || []).map((it, k) => (k === index ? { ...it, ...patch } : it)) }));
   };
 
   const deleteSelected = React.useCallback(() => {
@@ -144,7 +160,7 @@ export default function FigureBuilder({ initial, onSave }) {
       setFig((f) => removePoint(f, selected.name));
     } else {
       const key = KIND_KEY[selected.kind];
-      setFig((f) => ({ ...f, [key]: f[key].filter((_, k) => k !== selected.index) }));
+      setFig((f) => ({ ...f, [key]: (f[key] || []).filter((_, k) => k !== selected.index) }));
     }
     setSelected(null);
   }, [selected]);
@@ -172,7 +188,7 @@ export default function FigureBuilder({ initial, onSave }) {
   };
 
   const currentMode = MODES.find((m) => m.id === mode);
-  const sel = selected && (selected.kind === "point" ? { name: selected.name } : fig[KIND_KEY[selected.kind]][selected.index]);
+  const sel = selected && (selected.kind === "point" ? { name: selected.name } : (fig[KIND_KEY[selected.kind]] || [])[selected.index]);
 
   // --- render -------------------------------------------------------------
 
@@ -291,6 +307,14 @@ export default function FigureBuilder({ initial, onSave }) {
               <p style={{ fontWeight: 500, margin: 0 }}>Label on {sel.on.join("")}</p>
               <label style={lbl}>Text</label>
               <input style={field} value={sel.text} autoFocus onChange={(e) => updateItem("label", selected.index, { text: e.target.value })} />
+              <label style={lbl}>Side</label>
+              <select style={field} value={sel.side || "auto"} onChange={(e) => updateItem("label", selected.index, { side: e.target.value })}>
+                <option value="auto">Auto (outside the figure)</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="above">Above</option>
+                <option value="below">Below</option>
+              </select>
             </>
           )}
 
@@ -304,8 +328,62 @@ export default function FigureBuilder({ initial, onSave }) {
             </>
           )}
 
-          {selected?.kind === "segment" && sel && <p style={{ fontWeight: 500, margin: 0 }}>Segment {sel.from}{sel.to}</p>}
+          {selected?.kind === "segment" && sel && (
+            <>
+              <p style={{ fontWeight: 500, margin: 0 }}>Segment {sel.from}{sel.to}</p>
+              <label style={lbl}>Line style</label>
+              <select style={field} value={sel.style || "solid"} onChange={(e) => updateItem("segment", selected.index, { style: e.target.value })}>
+                <option value="solid">Solid</option>
+                <option value="dashed">Dashed</option>
+                <option value="dotted">Dotted</option>
+              </select>
+            </>
+          )}
           {selected?.kind === "circle" && sel && <p style={{ fontWeight: 500, margin: 0 }}>Circle, center {sel.center}</p>}
+
+          {selected?.kind === "arrow" && sel && (
+            <>
+              <p style={{ fontWeight: 500, margin: 0 }}>Arrow {sel.from} → {sel.to}</p>
+              <label style={lbl}>Label</label>
+              <input style={field} value={sel.label || ""} placeholder="200 ft/s" autoFocus
+                onChange={(e) => updateItem("arrow", selected.index, { label: e.target.value })} />
+              <label style={lbl}>Label side</label>
+              <select style={field} value={sel.side || "auto"} onChange={(e) => updateItem("arrow", selected.index, { side: e.target.value })}>
+                <option value="auto">Auto</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="above">Above</option>
+                <option value="below">Below</option>
+              </select>
+              <p style={{ color: "#6b7280", marginTop: 10, fontSize: 12 }}>Drag either end point to move or turn the arrow. End points show no dot or letter unless they're also part of the shape.</p>
+            </>
+          )}
+
+          {selected?.kind === "icon" && sel && (
+            <>
+              <p style={{ fontWeight: 500, margin: 0 }}>Icon at {sel.at}</p>
+              <label style={lbl}>Picture</label>
+              <select style={field} value={sel.kind} onChange={(e) => updateItem("icon", selected.index, { kind: e.target.value })}>
+                {Object.keys(ICONS).map((k) => <option key={k} value={k}>{k[0].toUpperCase() + k.slice(1)}</option>)}
+              </select>
+              <label style={lbl}>Placed</label>
+              <select style={field} value={sel.place || "above"} onChange={(e) => updateItem("icon", selected.index, { place: e.target.value })}>
+                <option value="above">Above the point</option>
+                <option value="below">Below the point</option>
+                <option value="left">Left of the point</option>
+                <option value="right">Right of the point</option>
+                <option value="on">On the point</option>
+              </select>
+              <label style={lbl}>Size</label>
+              <select style={field} value={sel.size || 44} onChange={(e) => updateItem("icon", selected.index, { size: Number(e.target.value) })}>
+                <option value={32}>Small</option><option value={44}>Medium</option><option value={60}>Large</option>
+              </select>
+              <label style={{ ...lbl, display: "flex", alignItems: "center", gap: 6 }}>
+                <input type="checkbox" checked={!!sel.flip} onChange={(e) => updateItem("icon", selected.index, { flip: e.target.checked })} />
+                Face left
+              </label>
+            </>
+          )}
           {selected?.kind === "rightAngle" && sel && <p style={{ fontWeight: 500, margin: 0 }}>Right angle at {sel.at}</p>}
 
           {selected && (
@@ -323,6 +401,7 @@ export default function FigureBuilder({ initial, onSave }) {
     </div>
   );
 }
+
 
 
 

@@ -9,6 +9,11 @@ import {
   centroid,
   dist,
   GRID,
+  ICONS,
+  arrowHead,
+  isHelperPoint,
+  midpoint,
+  unit,
 } from "../lib/figureGeom";
 
 /**
@@ -72,6 +77,14 @@ export default function Figure({
     spec.circles.forEach((c) => {
       const O = spec.points[c.center], T = spec.points[c.through];
       if (O && T) grow(O[0], O[1], dist(O, T));
+    });
+    (spec.icons || []).forEach((ic) => {
+      const p = spec.points[ic.at];
+      if (!p) return;
+      const size = ic.size || 44, off = size * 0.6, place = ic.place || "above";
+      const cx = p[0] + (place === "left" ? -off : place === "right" ? off : 0);
+      const cy = p[1] + (place === "above" ? -off : place === "below" ? off : 0);
+      grow(cx, cy, size / 2);
     });
     const extra = spec.notToScale ? 22 : 0; // room for the note under the drawing
     return { x: minX - margin, y: minY - margin, w: maxX - minX + 2 * margin, h: maxY - minY + 2 * margin + extra };
@@ -174,7 +187,12 @@ export default function Figure({
         return (
           <g key={"s" + i} onClick={stop(() => onSegmentClick && onSegmentClick(i))}>
             {editable && <line x1={A[0]} y1={A[1]} x2={B[0]} y2={B[1]} stroke="transparent" strokeWidth="14" style={{ cursor: "pointer" }} />}
-            <line x1={A[0]} y1={A[1]} x2={B[0]} y2={B[1]} stroke={sel ? accent : stroke} strokeWidth={sel ? 2.5 : 1.8} strokeLinecap="round" />
+            <line
+              x1={A[0]} y1={A[1]} x2={B[0]} y2={B[1]}
+              stroke={sel ? accent : stroke} strokeWidth={sel ? 2.5 : 1.8}
+              strokeLinecap={s.style === "dashed" ? "butt" : "round"}
+              strokeDasharray={s.style === "dashed" ? "8 6" : s.style === "dotted" ? "2 5" : undefined}
+            />
           </g>
         );
       })}
@@ -228,7 +246,7 @@ export default function Figure({
       {spec.labels.map((l, i) => {
         const A = P(l.on[0]), B = P(l.on[1]);
         if (!A || !B) return null;
-        const pos = segmentLabelPos(A, B, center);
+        const pos = segmentLabelPos(A, B, center, l.text, l.side || "auto");
         const sel = isSel("label", i);
         return (
           <text key={"l" + i} x={pos[0]} y={pos[1]} fontSize="14" textAnchor="middle" dominantBaseline="middle" fill={sel ? accent : stroke} style={{ cursor: editable ? "pointer" : "default" }} onClick={stop(() => onItemClick && onItemClick("label", i))}>
@@ -237,14 +255,76 @@ export default function Figure({
         );
       })}
 
+      {/* arrows */}
+      {(spec.arrows || []).map((a, i) => {
+        const A = P(a.from), B = P(a.to);
+        if (!A || !B) return null;
+        const sel = isSel("arrow", i);
+        const col = sel ? accent : stroke;
+        const u = unit(A, B);
+        // shorten the shaft so it doesn't poke through the head
+        const end = [B[0] - u[0] * 8, B[1] - u[1] * 8];
+        const lp = segmentLabelPos(A, B, center, a.label || "", a.side || "auto");
+        return (
+          <g key={"ar" + i} style={{ cursor: editable ? "pointer" : "default" }} onClick={stop(() => onItemClick && onItemClick("arrow", i))}>
+            {editable && <line x1={A[0]} y1={A[1]} x2={B[0]} y2={B[1]} stroke="transparent" strokeWidth="14" />}
+            <line x1={A[0]} y1={A[1]} x2={end[0]} y2={end[1]} stroke={col} strokeWidth="1.8" />
+            <polygon points={arrowHead(A, B)} fill={col} />
+            {a.label && (
+              <text x={lp[0]} y={lp[1]} fontSize="14" textAnchor="middle" dominantBaseline="middle" fill={col}>{a.label}</text>
+            )}
+          </g>
+        );
+      })}
+
+      {/* icons */}
+      {(spec.icons || []).map((ic, i) => {
+        const p = P(ic.at);
+        const d = ICONS[ic.kind];
+        if (!p || !d) return null;
+        const sel = isSel("icon", i);
+        const size = ic.size || 44;
+        const off = size * 0.6;
+        const place = ic.place || "above";
+        const cx = p[0] + (place === "left" ? -off : place === "right" ? off : 0);
+        const cy = p[1] + (place === "above" ? -off : place === "below" ? off : 0);
+        const scale = size / 40;
+        return (
+          <g
+            key={"ic" + i}
+            transform={`translate(${cx} ${cy}) scale(${ic.flip ? -scale : scale} ${scale})`}
+            style={{ cursor: editable ? "pointer" : "default" }}
+            onClick={stop(() => onItemClick && onItemClick("icon", i))}
+          >
+            {editable && <rect x={-20} y={-20} width={40} height={40} fill="transparent" />}
+            <path d={d} fill="none" stroke={sel ? accent : stroke} strokeWidth={1.8 / scale} strokeLinejoin="round" strokeLinecap="round" />
+          </g>
+        );
+      })}
+
       {/* points */}
       {Object.entries(spec.points).map(([name, p]) => {
         const lp = pointLabelPos(p, center);
         const sel = isSel("point", name);
         const pend = pending.includes(name);
-        const hidden = spec.showPointLabels === false || (spec.hiddenLabels || []).includes(name);
+        const helper = isHelperPoint(spec, name);
+        const hidden = helper || spec.showPointLabels === false || (spec.hiddenLabels || []).includes(name);
+        if (helper && !editable) return null;
         if (hidden && !editable) {
           return <circle key={"p" + name} cx={p[0]} cy={p[1]} r={3} fill={stroke} />;
+        }
+        if (helper) {
+          // builder only: a small hollow handle, no letter, so it reads as "not part of the figure"
+          return (
+            <circle
+              key={"p" + name}
+              cx={p[0]} cy={p[1]} r={4}
+              fill="white" stroke={sel || pend ? accent : "#9ca3af"} strokeWidth="1.5"
+              style={{ cursor: "grab" }}
+              onPointerDown={startDrag(name)}
+              onClick={(e) => e.stopPropagation()}
+            />
+          );
         }
         return (
           <g key={"p" + name}>
@@ -274,4 +354,5 @@ export default function Figure({
     </svg>
   );
 }
+
 

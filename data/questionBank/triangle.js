@@ -1747,5 +1747,1136 @@ export const questions = [
         videoId: ""
     },
 
+        {
+        id: "Tri12130",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 2,
+        questionType: "WE",
+        difficulty: 1,
+        tags: [],
+        text: `<p>Which of the following sets of \\(3\\) numbers could be the side lengths, in centimeters, of a right triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(3, 5, 7\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(4, 6, 9\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(5, 12, 13\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(6, 8, 11\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(7, 9, 15\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `A set of side lengths forms a right triangle only if the two smaller numbers satisfy \\(a^2 + b^2 = c^2\\) with the largest number as \\(c\\)`,
+            note: "",
+            gif: "",
+            answer: "C",
+            video: ""
+        },
+        {
+            text: `Test each choice in Desmos: \\(3^2 + 5^2 = 34 \\neq 49\\); \\(4^2 + 6^2 = 52 \\neq 81\\); \\(5^2 + 12^2 = 169 = 13^2\\) ✓`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Choice C works. Recognizing \\(5\\)-\\(12\\)-\\(13\\) as a common Pythagorean triple saves the arithmetic`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri99156",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 2,
+        questionType: "GP",
+        difficulty: 1,
+        tags: [],
+        text: `<p>Which of the following sets of \\(3\\) numbers could be the side lengths, in meters, of a right triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\(8, 15, 17\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(5, 7, 12\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(6, 10, 14\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(9, 12, 16\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(10, 13, 18\\)</span>
+        </div>
+        </div>`,
+        answer: "A",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `For each choice, identify the largest number as the hypotenuse`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Check whether the squares of the two smaller numbers add to the square of the largest`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Select the one set that satisfies the Pythagorean theorem",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri97524",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 2,
+        questionType: "PR",
+        difficulty: 1,
+        tags: [],
+        text: `<p>Which of the following sets of \\(3\\) numbers could be the side lengths, in inches, of a right triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(4, 7, 9\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(6, 9, 12\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(8, 10, 14\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(9, 14, 19\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">E</span>
+            <span>\\(7, 24, 25\\)</span>
+        </div>
+        </div>`,
+        answer: "E",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri79981",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 3,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>Which of the following sets of three lengths, in centimeters, could be the side lengths of an obtuse triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\((5, 12, 13)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\((6, 8, 10)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\((7, 9, 11)\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\((8, 10, 15)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\((9, 12, 15)\\)</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Compare \\(a^2 + b^2\\) (the two shorter sides) with \\(c^2\\) (the longest side): equal means right, greater means acute, and <strong>less</strong> means obtuse`,
+            note: "",
+            gif: "",
+            answer: "D",
+            video: ""
+        },
+        {
+            text: `Test each choice in Desmos. A, B, and E are Pythagorean triples (right). C: \\(49 + 81 = 130 > 121\\) (acute). D: \\(64 + 100 = 164 < 225\\) (obtuse)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Choice D is obtuse. Also confirm it is a valid triangle: \\(8 + 10 = 18 > 15\\) ✓`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri87630",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 3,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>Which of the following sets of three lengths, in meters, could be the side lengths of an obtuse triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\((4, 5, 6)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\((5, 12, 13)\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\((6, 7, 12)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\((8, 15, 17)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\((9, 10, 12)\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `For each choice, square the two shorter sides and add them, then square the longest side`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `A triangle is obtuse exactly when \\(a^2 + b^2 < c^2\\); right when equal, acute when greater`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Pick the one set where the sum is smaller than the largest square",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri64734",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 3,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>Which of the following sets of three lengths, in inches, could be the side lengths of an obtuse isosceles triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\((5, 5, 7)\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\((6, 6, 10)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\((8, 8, 10)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\((9, 9, 12)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\((10, 10, 14)\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri75288",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 4,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The side lengths of a certain triangle are \\(7\\), \\(7\\), and \\(12\\) centimeters. Which of the following descriptions best classifies this triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>Scalene acute</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>Isosceles acute</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>Isosceles right</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>Isosceles obtuse</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>Scalene obtuse</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Classify by sides first: two sides are equal (\\(7\\) and \\(7\\)), so the triangle is isosceles. That rules out A and E`,
+            note: "",
+            gif: "",
+            answer: "D",
+            video: ""
+        },
+        {
+            text: `Classify by angles with the Pythagorean comparison: \\(7^2 + 7^2 = 98\\) versus \\(12^2 = 144\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Since \\(98 < 144\\), the angle opposite the \\(12\\) is greater than \\(90^\\circ\\): the triangle is obtuse. Answer: isosceles obtuse`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri94559",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 4,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The side lengths of a certain triangle are \\(9\\), \\(12\\), and \\(x\\) inches, where \\(x\\) is the longest side. If the triangle is a right triangle, which of the following describes the triangle and gives the value of \\(x\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>Scalene right; \\(x = 15\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>Isosceles right; \\(x = 15\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>Scalene acute; \\(x = 14\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>Scalene obtuse; \\(x = 16\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>Isosceles obtuse; \\(x = 18\\)</span>
+        </div>
+        </div>`,
+        answer: "A",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Since \\(x\\) is the longest side of a right triangle, it is the hypotenuse; use \\(9^2 + 12^2 = x^2\\) to find it`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Now classify by sides: are any two of \\(9\\), \\(12\\), and \\(x\\) equal?`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Combine the side classification with \"right\" and match to an answer choice",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri61719",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 4,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The side lengths of a certain triangle are \\(x + 2\\), \\(x + 2\\), and \\(2x\\) centimeters, where \\(x = 5\\). Which of the following descriptions best classifies this triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>Scalene acute</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>Isosceles right</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>Isosceles obtuse</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>Isosceles acute</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>Scalene obtuse</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri96907",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 5,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The sides of a triangle are \\(8\\), \\(15\\), and \\(17\\) centimeters long. What is the measure of the angle between the \\(2\\) shortest sides?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(30^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(45^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(60^\\circ\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\(90^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(120^\\circ\\)</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Test whether the sides satisfy the Pythagorean theorem: \\(8^2 + 15^2 = 64 + 225 = 289\\) and \\(17^2 = 289\\)`,
+            note: "",
+            gif: "",
+            answer: "D",
+            video: ""
+        },
+        {
+            text: `They match, so the triangle is a right triangle with hypotenuse \\(17\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `The right angle is always between the two legs (the two shortest sides), opposite the hypotenuse, so the angle is \\(90^\\circ\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri35695",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 5,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The sides of a triangle are \\(7\\), \\(24\\), and \\(25\\) inches long. What is the measure of the angle opposite the longest side?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(30^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(45^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(60^\\circ\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\(90^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(120^\\circ\\)</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Check whether \\(7^2 + 24^2\\) equals \\(25^2\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "If it does, the triangle is right and the longest side is the hypotenuse",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "The angle opposite the hypotenuse is the right angle",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri66778",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 5,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The sides of a triangle are \\(x + 3\\), \\(2x + 2\\), and \\(3x + 1\\) meters long, where \\(x = 3\\). What is the measure of the angle between the \\(2\\) shortest sides?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(30^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(45^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(60^\\circ\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\(90^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(120^\\circ\\)</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri60938",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 6,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(ABC\\), the length of \\(\\overline{AB}\\) is \\(\\sqrt{45}\\) centimeters, and the length of \\(\\overline{BC}\\) is \\(4\\) centimeters. If it can be determined, what is the length, in centimeters, of \\(\\overline{AC}\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(4\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(\\sqrt{29}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(\\sqrt{45}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(\\sqrt{61}\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">E</span>
+            <span>Cannot be determined from the given information</span>
+        </div>
+        </div>`,
+        answer: "E",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `The Pythagorean theorem only applies to right triangles, and nothing in the problem says triangle \\(ABC\\) has a right angle`,
+            note: "",
+            gif: "",
+            answer: "E",
+            video: ""
+        },
+        {
+            text: `Choices B and D are traps: \\(\\sqrt{45 - 16} = \\sqrt{29}\\) and \\(\\sqrt{45 + 16} = \\sqrt{61}\\) are what you'd get by assuming a right angle at \\(C\\) or at \\(B\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `With two sides and no angle, the third side can be anything between \\(\\sqrt{45} - 4\\) and \\(\\sqrt{45} + 4\\), so it cannot be determined`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri43440",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 6,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(PQR\\), \\(\\angle Q\\) is a right angle. The length of \\(\\overline{PQ}\\) is \\(\\sqrt{40}\\) inches, and the length of \\(\\overline{QR}\\) is \\(3\\) inches. What is the length, in inches, of \\(\\overline{PR}\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(\\sqrt{31}\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(7\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(\\sqrt{47}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(\\sqrt{43}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>Cannot be determined from the given information</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `The right angle is at \\(Q\\), so \\(\\overline{PR}\\) is the hypotenuse and the two given sides are the legs`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Square the legs and add: remember \\((\\sqrt{40})^2 = 40\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Take the square root and simplify if it comes out to a whole number",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri11781",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 6,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(DEF\\), \\(\\angle E\\) is a right angle. The length of \\(\\overline{DF}\\) is \\(\\sqrt{85}\\) meters, and the length of \\(\\overline{DE}\\) is \\(6\\) meters. What is the length, in meters, of \\(\\overline{EF}\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\(7\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(\\sqrt{53}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(\\sqrt{121}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(\\sqrt{79}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>Cannot be determined from the given information</span>
+        </div>
+        </div>`,
+        answer: "A",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri74589",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 7,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(ABC\\), the length of \\(\\overline{AB}\\) is \\(\\sqrt{52}\\) centimeters, and the length of \\(\\overline{BC}\\) is \\(5\\) centimeters. If it can be determined, what is the length, in centimeters, of \\(\\overline{AC}\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(5\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(\\sqrt{52}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(\\sqrt{27}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(\\sqrt{77}\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">E</span>
+            <span>Cannot be determined from the given information</span>
+        </div>
+        </div>`,
+        answer: "E",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `The Pythagorean theorem only applies to right triangles, and nothing in the problem says triangle \\(ABC\\) has a right angle`,
+            note: "",
+            gif: "",
+            answer: "E",
+            video: ""
+        },
+        {
+            text: `Choices C and D are traps: \\(\\sqrt{52 - 25} = \\sqrt{27}\\) and \\(\\sqrt{52 + 25} = \\sqrt{77}\\) are what you'd get by assuming a right angle at \\(C\\) or at \\(B\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `With two sides and no angle, the third side can be anything between \\(\\sqrt{52} - 5\\) and \\(\\sqrt{52} + 5\\), so it cannot be determined`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri28866",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 7,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(PQR\\), \\(\\angle Q\\) is a right angle. The length of \\(\\overline{PQ}\\) is \\(\\sqrt{72}\\) inches, and the length of \\(\\overline{QR}\\) is \\(4\\) inches. What is the length, in inches, of \\(\\overline{PR}\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(\\sqrt{56}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(\\sqrt{76}\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(\\sqrt{88}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(12\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>Cannot be determined from the given information</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `The right angle is at \\(Q\\), so \\(\\overline{PR}\\) is the hypotenuse and the two given sides are the legs`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Square the legs and add: remember \\((\\sqrt{72})^2 = 72\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Take the square root; it may not simplify to a whole number",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri65982",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 7,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In triangle \\(JKL\\), \\(\\angle K\\) is a right angle. The length of \\(\\overline{JL}\\) is \\(\\sqrt{130}\\) meters, and the length of \\(\\overline{JK}\\) is \\(7\\) meters. What is the length, in meters, of \\(\\overline{KL}\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\(\\sqrt{81}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(\\sqrt{179}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(\\sqrt{123}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(\\sqrt{91}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>Cannot be determined from the given information</span>
+        </div>
+        </div>`,
+        answer: "A",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri42135",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 8,
+        questionType: "WE",
+        difficulty: 3,
+        tags: [],
+        text: `<p>An airplane is flying due east at a constant altitude of \\(8{,}000\\) feet and a speed of \\(250\\) feet per second. At a certain moment, the airplane is directly above point \\(D\\), which is \\(6{,}000\\) feet east of radar station \\(A\\). The straight-line distance between the airplane and station \\(A\\) is \\(10{,}000\\) feet.</p>
+        <p>Which of the following is closest to the number of seconds it will take the airplane to reach the point directly above a radar station located \\(4{,}000\\) feet east of point \\(D\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(12\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(16\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(24\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(32\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(40\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"A":[100,320],"B":[300,320],"C":[220,140],"D":[220,320],"E":[220,100],"F":[260,80],"G":[320,80]},"segments":[{"from":"A","to":"B"},{"from":"C","to":"A"},{"from":"A","to":"D"},{"from":"C","to":"D","style":"dotted"},{"from":"B","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"D","arms":["A","C"]},{"at":"D","arms":["A","C"]}],"labels":[{"text":"8,000 ft","on":["C","D"],"side":"right"},{"text":"6,000 ft","on":["A","D"]},{"text":"4,000 ft","on":["B","D"]}],"notToScale":true,"icons":[{"at":"E","kind":"plane","place":"above","flip":false,"size":44}],"arrows":[{"from":"F","to":"G","label":"250 ft/s"}]},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Sketch it: the plane is directly above \\(D\\), and the new station is \\(4{,}000\\) feet east of \\(D\\). Since the plane flies due east at constant altitude, the horizontal distance it must cover is exactly \\(4{,}000\\) feet`,
+            note: "",
+            gif: "",
+            answer: "B",
+            video: ""
+        },
+        {
+            text: `The altitude, the \\(6{,}000\\) feet to station \\(A\\), and the \\(10{,}000\\)-foot straight-line distance are all behind the plane; they form a \\(6\\)-\\(8\\)-\\(10\\) right triangle but aren't needed`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Time \\(= \\frac{\\text{distance}}{\\text{speed}} = \\frac{4{,}000}{250} = 16\\) seconds`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri40615",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 8,
+        questionType: "GP",
+        difficulty: 3,
+        tags: [],
+        text: `<p>A helicopter is flying due west at a constant altitude of \\(5{,}000\\) feet and a speed of \\(200\\) feet per second. At a certain moment, the helicopter is directly above point \\(D\\). A radar station at point \\(A\\) is located west of \\(D\\), and the straight-line distance from the helicopter to the radar station is \\(13{,}000\\) feet.</p>
+        <p>Which of the following is closest to the number of seconds it will take the helicopter to reach the point directly above radar station \\(A\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(25\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(40\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(50\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\(60\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(65\\)</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: {"size":[600,400],"points":{"A":[100,320],"C":[340,220],"D":[340,320],"B":[340,180],"E":[300,160],"F":[240,160]},"segments":[{"from":"C","to":"A"},{"from":"A","to":"D"},{"from":"C","to":"D","style":"dotted"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"D","arms":["A","C"]},{"at":"D","arms":["A","C"]}],"labels":[{"text":"5,000 ft","on":["C","D"],"side":"right"},{"text":"13,000 ft","on":["C","A"],"side":"above"}],"notToScale":true,"icons":[{"at":"B","kind":"helicopter","place":"above","flip":true,"size":44}],"arrows":[{"from":"E","to":"F","label":"200 ft/s"}],"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Sketch a right triangle: the altitude is the vertical leg, the horizontal distance \\(AD\\) is the other leg, and the \\(13{,}000\\)-foot straight-line distance is the hypotenuse`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Use the Pythagorean theorem to find the horizontal leg \\(AD\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Divide that horizontal distance by the speed to get the time`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri55965",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 8,
+        questionType: "PR",
+        difficulty: 3,
+        tags: [],
+        text: `<p>An airplane is flying due east at a constant altitude of \\(12{,}000\\) feet and a speed of \\(300\\) feet per second. At a certain moment, the airplane is directly above point \\(D\\), which lies between two radar stations, \\(A\\) and \\(B\\), on a level east-west line, with station \\(B\\) east of \\(D\\).</p>
+        <p>The straight-line distance from the airplane to station \\(A\\) is \\(15{,}000\\) feet, and the straight-line distance to station \\(B\\) is \\(20{,}000\\) feet.</p>
+        <p>Which of the following is closest to the number of seconds it will take the airplane to fly from its current position to the point directly above station \\(B\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(30\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(40\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(48\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\(53\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(67\\)</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: {"size":[600,400],"points":{"A":[100,320],"C":[220,180],"D":[220,320],"B":[400,320],"E":[220,120],"F":[260,100],"G":[300,100]},"segments":[{"from":"C","to":"A"},{"from":"A","to":"D"},{"from":"C","to":"D","style":"dotted"},{"from":"D","to":"B"},{"from":"C","to":"B"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"D","arms":["A","C"]},{"at":"D","arms":["A","C"]}],"labels":[{"text":"12,000 ft","on":["C","D"],"side":"right"},{"text":"15,000 ft","on":["C","A"],"side":"above"},{"text":"20,000 ft","on":["C","B"]}],"notToScale":true,"icons":[{"at":"E","kind":"plane","place":"above","flip":false,"size":32}],"arrows":[{"from":"F","to":"G","label":"300 ft/s"}],"hiddenLabels":[]},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
 
 ];
