@@ -7,9 +7,11 @@ import GraphChoices from "./GraphChoices";
 import { logEvent } from "@/lib/db";
 import QuestionNote from "./QuestionNote";
 
-function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, container, savedAnswer, onAnswered, notes, onNoteSaved}) {
+function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, container, savedAnswer, onAnswered, notes, onNoteSaved, showAnswers }) {
   const [checked, setChecked] = useState(() => gp.steps.map(() => false));
   const isMultipleChoice = gp.problem.includes("mc-choice") || gp.graphChoices;
+  // bank answer without the "Answer: " prefix the adapter adds
+  const answerValue = gp.rawAnswer ?? String(gp.answer || "").replace(/^Answer:\s*/i, "");
   const leftRef = useRef(null);
 
   const toggleStep = (i) => {
@@ -76,6 +78,15 @@ function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, containe
         <div className="guided-label">Problem</div>
         <MathContent html={gp.problem} className="guided-text" onRendered={restoreSaved} />
         {gp.graphChoices && <GraphChoices choices={gp.graphChoices} />}
+        {/* write-in problems have no choice to highlight, so show the answer itself */}
+        {showAnswers && answerValue && !gp.problem.includes("mc-choice") && (
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <span className="show-answers-value">
+              <span className="label">Answer</span>
+              <span className="value">{answerValue}</span>
+            </span>
+          </div>
+        )}
       </div>
 
       <div className="guided-grid-right">
@@ -100,7 +111,7 @@ function GuidedPracticeCard({ gp, handleChoiceClick, selectedChoiceRef, containe
   );
 }
 
-export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot, guidedGraph, guidedGraphChoices, guidedProblems, guidedIds, container, savedAnswers = {}, onAnswered, notes = {}, onNoteSaved }) {
+export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswer, guidedAnswerValue, guidedScreenshot, guidedGraph, guidedGraphChoices, guidedProblems, guidedIds, container, savedAnswers = {}, onAnswered, notes = {}, onNoteSaved, showAnswers }) {
   const selectedChoiceRef = useRef(null);
 
   // Build array of guided problems
@@ -136,7 +147,7 @@ export default function GuidedPractice({ guidedProblem, guidedSteps, guidedAnswe
           </div>
         </div>
       )}
-      <GuidedPracticeCard key={currentIndex} gp={gp} handleChoiceClick={() => {}} selectedChoiceRef={selectedChoiceRef} container={container} savedAnswer={savedAnswers[gp.id]} onAnswered={onAnswered} notes={notes} onNoteSaved={onNoteSaved} />
+      <GuidedPracticeCard key={currentIndex} gp={gp} handleChoiceClick={() => {}} selectedChoiceRef={selectedChoiceRef} container={container} savedAnswer={savedAnswers[gp.id]} onAnswered={onAnswered} notes={notes} onNoteSaved={onNoteSaved} showAnswers={showAnswers} />
     </div>
   );
 }

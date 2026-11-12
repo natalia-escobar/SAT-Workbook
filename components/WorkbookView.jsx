@@ -66,11 +66,11 @@ function SectionAccordion({ icon, title, defaultOpen, children }) {
   );
 }
 
-function WorkedExampleCarousel({ problem, problemIndex, showIds, notes, onNoteSaved }) {
+function WorkedExampleCarousel({ problem, problemIndex, showIds, showAnswers, notes, onNoteSaved }) {
   // Normalize: use workedExamples array if present, otherwise wrap the single example
   const examples = problem.workedExamples && problem.workedExamples.length > 0
     ? problem.workedExamples
-    : [{ id: problem.id, problem: problem.problem, graph: problem.graph, graphChoices: problem.graphChoices, steps: problem.steps }];
+    : [{ id: problem.id, problem: problem.problem, graph: problem.graph, graphChoices: problem.graphChoices, steps: problem.steps, answer: problem.answer }];
 
   const [exampleIndex, setExampleIndex] = useState(0);
   const example = examples[exampleIndex];
@@ -123,6 +123,15 @@ function WorkedExampleCarousel({ problem, problemIndex, showIds, notes, onNoteSa
           </div>
           <ProblemStatement problem={example.problem} />
           {example.graphChoices && <GraphChoices choices={example.graphChoices} readOnly={true} />}
+          {/* write-in examples have no choice to highlight, so show the answer itself */}
+          {showAnswers && example.answer && !String(example.problem || "").includes("mc-choice") && (
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <span className="show-answers-value">
+                <span className="label">Answer</span>
+                <span className="value">{example.answer}</span>
+              </span>
+            </div>
+          )}
         </div>
         <div className="psg-right">
           {/* All step navigators stay mounted so each example remembers its step position */}
@@ -336,7 +345,7 @@ export default function WorkbookView({ topic }) {
       <ProblemNav slots={slots} slotIndex={slotIndex} setSlotIndex={setSlotIndex} showIds={showIds} />
 
       <SectionAccordion icon="ti-book" title="Worked example" defaultOpen={true} key={`we-${problemIndex}`}>
-        <WorkedExampleCarousel problem={problem} problemIndex={problemIndex} showIds={showIds} notes={notes} onNoteSaved={onNoteSaved} key={`wec-${problemIndex}`} />
+        <WorkedExampleCarousel problem={problem} problemIndex={problemIndex} showIds={showIds} showAnswers={showAnswers} notes={notes} onNoteSaved={onNoteSaved} key={`wec-${problemIndex}`} />
       </SectionAccordion>
 
       <SectionAccordion icon="ti-checkbox" title="Guided practice — follow the steps" defaultOpen={false} key={`gp-${problemIndex}`}>
@@ -352,6 +361,7 @@ export default function WorkbookView({ topic }) {
           guidedGraphChoices={problem.guidedGraphChoices}
           guidedProblems={problem.guidedProblems}
           guidedIds={problem.guidedIds}
+          showAnswers={showAnswers}
           container={topic.slug || topic.name}
           savedAnswers={saved}
           onAnswered={(qid, letter) => setSaved((s) => ({ ...s, [qid]: letter }))}
