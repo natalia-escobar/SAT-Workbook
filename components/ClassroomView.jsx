@@ -43,7 +43,7 @@ export default function ClassroomView({ topic }) {
 
   // When the problem changes: typeset, log the view, and restore the write-in box.
   useEffect(() => {
-    if (window.MathJax) window.MathJax.typesetPromise();
+    window.MathJax?.typesetPromise?.();
     logEvent({ questionId: problem.id, eventType: "viewed", context: "classroom", containerId: container });
     const prev = saved[problem.id];
     setTyped(!isMultipleChoice && prev ? prev : "");
