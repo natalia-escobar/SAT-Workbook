@@ -4242,7 +4242,7 @@ export const questions = [
         </div>
         </div>`,
         answer: "B",
-        figure: null,
+        figure: {"size":[600,400],"points":{"A":[180,280],"B":[420,40]},"segments":[{"from":"A","to":"B"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[],"labels":[],"notToScale":false,"hiddenLabels":[],"arrows":[],"icons":[],"pointText":{},"axes":{"xMin":-6,"xMax":4,"yMin":-2,"yMax":8,"labelEvery":1},"showPointLabels":false},
         graph: null,
         graphChoices: null,
         steps: [
@@ -4300,7 +4300,7 @@ export const questions = [
         </div>
         </div>`,
         answer: "C",
-        figure: null,
+        figure: {"size":[600,400],"points":{"A":[160,340],"B":[440,60]},"segments":[{"from":"A","to":"B"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[],"labels":[],"notToScale":false,"hiddenLabels":[],"arrows":[],"icons":[],"pointText":{},"axes":{"xMin":-5,"xMax":6,"yMin":-4,"yMax":7,"labelEvery":1},"showPointLabels":false},
         graph: null,
         graphChoices: null,
         steps: [
@@ -4352,6 +4352,548 @@ export const questions = [
         <div class="mc-choice">
             <span class="mc-label">D</span>
             <span>\\(15\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"A":[260,320],"B":[380,80]},"segments":[{"from":"A","to":"B"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[],"labels":[],"notToScale":false,"hiddenLabels":[],"arrows":[],"icons":[],"pointText":{},"axes":{"xMin":-4,"xMax":2,"yMin":-2,"yMax":6,"labelEvery":1},"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri50043",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 4,
+        questionType: "WE",
+        difficulty: 3,
+        tags: [],
+        text: `<p>In the figure shown, the measure of angle \\(A\\) is \\(35^\\circ\\). The length of \\(\\overline{AB}\\) is \\(30\\) units, and the length of \\(\\overline{AC}\\) is \\(18\\) units. What is the area, in square units, of triangle \\(ABC\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(270\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(540\\sin 35^\\circ\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(270\\sin 35^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(135\\sin 35^\\circ\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"Z":[260,220],"C":[260,100],"A":[140,220],"B":[400,220]},"segments":[{"from":"Z","to":"C","style":"dotted"},{"from":"C","to":"A"},{"from":"A","to":"Z"},{"from":"C","to":"B"},{"from":"A","to":"B"}],"circles":[],"angles":[{"at":"A","arms":["C","Z"],"label":"35","arcs":1}],"ticks":[],"rightAngles":[{"at":"Z","arms":["C","A"]}],"labels":[{"text":"30 Units","on":["A","B"]},{"text":"18 units","on":["C","A"]}],"notToScale":false,"hiddenLabels":["Z"],"arrows":[],"icons":[],"pointText":{},"axes":null,"showPointLabels":true},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Angle \\(A\\) sits between the two given sides \\(\\overline{AB}\\) and \\(\\overline{AC}\\), so use the SAS area formula: \\(A = \\frac{1}{2}ab\\sin C\\)`,
+            note: "",
+            gif: "",
+            answer: "C",
+            video: ""
+        },
+        {
+            text: `Why it works: drop a height from \\(C\\) to \\(\\overline{AB}\\). That height is \\(18\\sin 35^\\circ\\), and the base is \\(30\\), so area \\(= \\frac{1}{2}(30)(18\\sin 35^\\circ)\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Simplify: \\(270\\sin 35^\\circ\\). Choice A forgets the sine; B forgets the \\(\\frac{1}{2}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri80387",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 4,
+        questionType: "GP",
+        difficulty: 3,
+        tags: [],
+        text: `<p>In the figure shown, the measure of angle \\(P\\) is \\(68^\\circ\\). The length of \\(\\overline{PQ}\\) is \\(16\\) units, and the length of \\(\\overline{PR}\\) is \\(25\\) units. What is the area, in square units, of triangle \\(PQR\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\(200\\sin 68^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(400\\sin 68^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(200\\cos 68^\\circ\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(400\\)</span>
+        </div>
+        </div>`,
+        answer: "A",
+        figure: {"size":[600,400],"points":{"Z":[260,220],"R":[260,60],"P":[160,220],"Q":[320,220]},"segments":[{"from":"Z","to":"R","style":"dotted"},{"from":"R","to":"P"},{"from":"P","to":"Z"},{"from":"R","to":"Q"},{"from":"P","to":"Q"}],"circles":[],"angles":[{"at":"P","arms":["R","Z"],"label":"68","arcs":1}],"ticks":[],"rightAngles":[{"at":"Z","arms":["R","P"]}],"labels":[{"text":"16 Units","on":["P","Q"]},{"text":"25 units","on":["R","P"]}],"notToScale":false,"hiddenLabels":["Z"],"arrows":[],"icons":[],"pointText":{},"axes":null,"showPointLabels":true},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Check that the given angle is between the two given sides; if so, the SAS area formula \\(\\frac{1}{2}ab\\sin C\\) applies`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Substitute \\(a = 16\\), \\(b = 25\\), and the angle`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Simplify the coefficient and match to an answer choice",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri41779",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 4,
+        questionType: "PR",
+        difficulty: 3,
+        tags: [],
+        text: `<p>In the figure shown, the measure of angle \\(X\\) is \\(42^\\circ\\). The length of \\(\\overline{XY}\\) is \\(28\\) units, and the area of triangle \\(XYZ\\) is \\(210\\sin 42^\\circ\\) square units. What is the length, in units, of \\(\\overline{XZ}\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(7.5\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(15\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(21\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(30\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"A":[260,220],"Z":[260,80],"X":[120,220],"Y":[400,220]},"segments":[{"from":"A","to":"Z","style":"dotted"},{"from":"Z","to":"X"},{"from":"X","to":"A"},{"from":"Z","to":"Y"},{"from":"X","to":"Y"}],"circles":[],"angles":[{"at":"X","arms":["Z","A"],"label":"42","arcs":1}],"ticks":[],"rightAngles":[{"at":"A","arms":["Z","X"]}],"labels":[{"text":"28 Units","on":["X","Y"]}],"notToScale":false,"hiddenLabels":["A"],"arrows":[],"icons":[],"pointText":{},"axes":null,"showPointLabels":true},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri49792",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 5,
+        questionType: "WE",
+        difficulty: 3,
+        tags: [],
+        text: `<p>In triangle \\(ABC\\), angle \\(B\\) is a right angle, the measure of angle \\(C\\) is \\(34^\\circ\\), and the length of \\(\\overline{BC}\\) is \\(18\\) units. If the area, in square units, of triangle \\(ABC\\) can be represented by the expression \\(k\\tan 34^\\circ\\), where \\(k\\) is a constant, what is the value of \\(k\\)?</p>`,
+        answer: "162",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Sketch the triangle with the right angle at \\(B\\). Relative to angle \\(C\\), \\(\\overline{BC} = 18\\) is adjacent and \\(\\overline{AB}\\) is opposite, so \\(\\tan 34^\\circ = \\frac{AB}{18}\\) and \\(AB = 18\\tan 34^\\circ\\)`,
+            note: "",
+            gif: "",
+            answer: "162",
+            video: ""
+        },
+        {
+            text: `The two legs are the base and height: area \\(= \\frac{1}{2}(18)(18\\tan 34^\\circ) = 162\\tan 34^\\circ\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Match to \\(k\\tan 34^\\circ\\): \\(k = 162\\). Confirm in Desmos by computing \\(\\frac{1}{2} \\cdot 18 \\cdot 18\\tan(34^\\circ)\\) and \\(162\\tan(34^\\circ)\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri70262",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 5,
+        questionType: "GP",
+        difficulty: 3,
+        tags: [],
+        text: `<p>In triangle \\(DEF\\), angle \\(E\\) is a right angle, the measure of angle \\(F\\) is \\(52^\\circ\\), and the length of \\(\\overline{EF}\\) is \\(26\\) units. If the area, in square units, of triangle \\(DEF\\) can be represented by the expression \\(k\\tan 52^\\circ\\), where \\(k\\) is a constant, what is the value of \\(k\\)?</p>`,
+        answer: "338",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Use \\(\\tan F\\) to write the unknown leg \\(\\overline{DE}\\) in terms of the known leg \\(\\overline{EF}\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Write the area as \\(\\frac{1}{2}\\) times the two legs`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Simplify and read off the coefficient of \\(\\tan 52^\\circ\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri90864",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 5,
+        questionType: "PR",
+        difficulty: 3,
+        tags: [],
+        text: `<p>In triangle \\(PQR\\), angle \\(Q\\) is a right angle, the measure of angle \\(R\\) is \\(41^\\circ\\), and the length of \\(\\overline{PR}\\) is \\(30\\) units. If the area, in square units, of triangle \\(PQR\\) can be represented by the expression \\(k\\sin 41^\\circ\\cos 41^\\circ\\), where \\(k\\) is a constant, what is the value of \\(k\\)?</p>`,
+        answer: "450",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri58566",
+        topic: "triangle",
+        subtopic: "perimeter",
+        problem: 1,
+        questionType: "WE",
+        difficulty: 1,
+        tags: [],
+        text: `<p>The perimeter of an obtuse triangle is \\(35\\) centimeters. The lengths of two sides of this triangle are \\(7\\) centimeters and \\(12\\) centimeters. What is the length, in centimeters, of the third side of this triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(14\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(16\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(19\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(28\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Perimeter is the sum of all three sides: \\(7 + 12 + x = 35\\)`,
+            note: "",
+            gif: "",
+            answer: "B",
+            video: ""
+        },
+        {
+            text: `Solve: \\(x = 35 - 19 = 16\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `The word "obtuse" is extra information here; it just confirms the triangle is valid (\\(7^2 + 12^2 = 193 < 16^2 = 256\\)). Choice C is the trap of stopping at \\(7 + 12\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri65861",
+        topic: "triangle",
+        subtopic: "perimeter",
+        problem: 1,
+        questionType: "GP",
+        difficulty: 1,
+        tags: [],
+        text: `<p>The perimeter of an obtuse triangle is \\(42\\) inches. The lengths of two sides of this triangle are \\(8\\) inches and \\(15\\) inches. What is the length, in inches, of the third side of this triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(17\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(18\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(19\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(23\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Add the two known sides",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Subtract that sum from the perimeter to get the third side",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Watch for choice A: \\(8\\)-\\(15\\)-\\(17\\) is a right triangle, but this one is obtuse, so \\(17\\) can't be the answer`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri75366",
+        topic: "triangle",
+        subtopic: "perimeter",
+        problem: 1,
+        questionType: "PR",
+        difficulty: 1,
+        tags: [],
+        text: `<p>The perimeter of an obtuse triangle is \\(40\\) meters. The lengths of two sides of this triangle are \\(9\\) meters and \\(13\\) meters. What is the length, in meters, of the longest side of this triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(13\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(15\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(18\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(22\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri77048",
+        topic: "triangle",
+        subtopic: "triangle-inequality-theorem",
+        problem: 1,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The triangle inequality theorem states that the sum of any two sides of a triangle must be greater than the length of the third side. If a triangle has side lengths of \\(11\\) and \\(17\\), which inequality represents the possible lengths, \\(x\\), of the third side of the triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(x < 28\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(6 < x < 28\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(x > 6\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(11 < x < 17\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Upper bound: the third side must be less than the sum of the other two, so \\(x < 11 + 17 = 28\\)`,
+            note: "",
+            gif: "",
+            answer: "B",
+            video: ""
+        },
+        {
+            text: `Lower bound: the two known sides must add to more than \\(x\\) in every combination, so \\(11 + x > 17\\), giving \\(x > 6\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Combine: \\(6 < x < 28\\). Shortcut: the third side is always between the difference and the sum of the other two`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri39023",
+        topic: "triangle",
+        subtopic: "triangle-inequality-theorem",
+        problem: 1,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>A triangle has two sides with lengths of \\(14\\) centimeters and \\(23\\) centimeters. Which of the following inequalities represents all possible lengths, \\(x\\), in centimeters, of the third side?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\(9 < x < 37\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(x < 37\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(14 < x < 23\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(x > 9\\)</span>
+        </div>
+        </div>`,
+        answer: "A",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Find the sum of the two given sides; the third side must be less than this",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Find the difference of the two given sides; the third side must be greater than this",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Write both bounds as a single compound inequality",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri24686",
+        topic: "triangle",
+        subtopic: "triangle-inequality-theorem",
+        problem: 1,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>An isosceles triangle has two sides with lengths of \\(9\\) inches and \\(20\\) inches. If the third side has a length of \\(x\\) inches, which of the following could be the value of \\(x\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(9\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(11\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(20\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(29\\)</span>
         </div>
         </div>`,
         answer: "C",

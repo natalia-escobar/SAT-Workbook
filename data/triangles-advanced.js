@@ -95,6 +95,18 @@ const trianglesAdvanced = {
             "Tri88483",
             "Tri89275",
             "Tri50232",
+            "Tri50043",
+            "Tri80387",
+            "Tri41779",
+            "Tri49792",
+            "Tri70262",
+            "Tri90864",
+            "Tri58566",
+            "Tri65861",
+            "Tri75366",
+            "Tri77048",
+            "Tri39023",
+            "Tri24686",
 
             
         ]
