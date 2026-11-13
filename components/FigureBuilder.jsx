@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Figure from "./Figure";
-import { EMPTY_FIGURE, ICONS, snap, nextPointName, sameSegment, removePoint, renamePoint } from "../lib/figureGeom";
+import { EMPTY_FIGURE, ICONS, snapPoint, toMath, nextPointName, sameSegment, removePoint, renamePoint } from "../lib/figureGeom";
 import { figureTemplates } from "../data/figureTemplates";
 
 const MODES = [
@@ -60,7 +60,7 @@ export default function FigureBuilder({ initial, onSave }) {
     if (mode === "point") {
       setFig((f) => {
         const name = nextPointName(f.points);
-        return { ...f, points: { ...f.points, [name]: [snap(x), snap(y)] } };
+        return { ...f, points: { ...f.points, [name]: snapPoint(f, x, y) } };
       });
     } else {
       setPending([]);
@@ -144,7 +144,7 @@ export default function FigureBuilder({ initial, onSave }) {
   const onItemClick = (kind, i) => { if (mode === "select") setSelected({ kind, index: i }); };
 
   const onPointDrag = (name, x, y) => {
-    setFigRaw((f) => ({ ...f, points: { ...f.points, [name]: [snap(x), snap(y)] } }));
+    setFigRaw((f) => ({ ...f, points: { ...f.points, [name]: snapPoint(f, x, y) } }));
   };
 
   // --- edits from the properties panel -----------------------------------
@@ -245,6 +245,39 @@ export default function FigureBuilder({ initial, onSave }) {
                 <input type="checkbox" checked={fig.showPointLabels !== false} onChange={(e) => setFig((f) => ({ ...f, showPointLabels: e.target.checked }))} />
                 Show point letters
               </label>
+              <label style={{ ...lbl, display: "flex", alignItems: "center", gap: 6, marginTop: 8 }}>
+                <input
+                  type="checkbox"
+                  checked={!!fig.axes}
+                  onChange={(e) => setFig((f) => ({
+                    ...f,
+                    axes: e.target.checked ? { xMin: -4, xMax: 6, yMin: -4, yMax: 6, labelEvery: 2 } : null,
+                    notToScale: e.target.checked ? false : f.notToScale,
+                  }))}
+                />
+                Coordinate plane
+              </label>
+              {fig.axes && (
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6, marginTop: 4 }}>
+                  {[["xMin", "x min"], ["xMax", "x max"], ["yMin", "y min"], ["yMax", "y max"], ["labelEvery", "number every"]].map(([k, label]) => (
+                    <label key={k} style={{ fontSize: 12, color: "#6b7280" }}>
+                      {label}
+                      <input
+                        type="number" step={1} style={{ ...field, marginTop: 2 }}
+                        value={fig.axes[k]}
+                        onChange={(e) => {
+                          const v = Number(e.target.value);
+                          if (Number.isNaN(v)) return;
+                          setFig((f) => ({ ...f, axes: { ...f.axes, [k]: v } }));
+                        }}
+                      />
+                    </label>
+                  ))}
+                  <p style={{ gridColumn: "1 / -1", margin: "4px 0 0", fontSize: 12, color: "#6b7280" }}>
+                    Points snap to whole-number coordinates. One unit = two grid squares.
+                  </p>
+                </div>
+              )}
               <p style={{ color: "#6b7280", marginTop: 16 }}>Click something on the canvas in Select mode to edit it.</p>
             </>
           )}
@@ -282,8 +315,44 @@ export default function FigureBuilder({ initial, onSave }) {
                 />
                 Show letter{fig.showPointLabels === false ? " (all letters hidden)" : ""}
               </label>
-              <label style={lbl}>Position</label>
-              <p style={{ margin: 0 }}>({fig.points[selected.name]?.join(", ")})</p>
+              <label style={lbl}>Display text (optional)</label>
+              <input
+                style={field}
+                value={(fig.pointText || {})[selected.name]?.text || ""}
+                placeholder="e.g. Warehouse — shown instead of the letter"
+                onChange={(e) => setFig((f) => {
+                  const pointText = { ...(f.pointText || {}) };
+                  const cur = pointText[selected.name] || {};
+                  if (e.target.value) pointText[selected.name] = { ...cur, text: e.target.value };
+                  else delete pointText[selected.name];
+                  return { ...f, pointText };
+                })}
+              />
+              {(fig.pointText || {})[selected.name]?.text && (
+                <>
+                  <label style={lbl}>Text side</label>
+                  <select
+                    style={field}
+                    value={(fig.pointText || {})[selected.name]?.side || "auto"}
+                    onChange={(e) => setFig((f) => ({
+                      ...f,
+                      pointText: { ...(f.pointText || {}), [selected.name]: { ...(f.pointText || {})[selected.name], side: e.target.value } },
+                    }))}
+                  >
+                    <option value="auto">Auto (outside the figure)</option>
+                    <option value="left">Left</option>
+                    <option value="right">Right</option>
+                    <option value="above">Above</option>
+                    <option value="below">Below</option>
+                  </select>
+                </>
+              )}
+              <label style={lbl}>{fig.axes ? "Coordinates" : "Position"}</label>
+              <p style={{ margin: 0 }}>
+                ({(fig.axes && fig.points[selected.name]
+                  ? toMath(fig, fig.points[selected.name]).map((v) => Math.round(v * 100) / 100)
+                  : fig.points[selected.name] || []).join(", ")})
+              </p>
             </>
           )}
 
@@ -307,6 +376,10 @@ export default function FigureBuilder({ initial, onSave }) {
               <p style={{ fontWeight: 500, margin: 0 }}>Label on {sel.on.join("")}</p>
               <label style={lbl}>Text</label>
               <input style={field} value={sel.text} autoFocus onChange={(e) => updateItem("label", selected.index, { text: e.target.value })} />
+              <label style={{ ...lbl, display: "flex", alignItems: "center", gap: 6 }}>
+                <input type="checkbox" checked={!!sel.italic} onChange={(e) => updateItem("label", selected.index, { italic: e.target.checked })} />
+                Italic
+              </label>
               <label style={lbl}>Side</label>
               <select style={field} value={sel.side || "auto"} onChange={(e) => updateItem("label", selected.index, { side: e.target.value })}>
                 <option value="auto">Auto (outside the figure)</option>

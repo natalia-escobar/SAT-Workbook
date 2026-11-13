@@ -2878,5 +2878,1490 @@ export const questions = [
         videoId: ""
     },
 
+        {
+        id: "Tri69886",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 9,
+        questionType: "WE",
+        difficulty: 3,
+        tags: [],
+        text: `<p>Two cyclists leave the same intersection at the same time, traveling in directions that form a \\(90^\\circ\\) angle. One cyclist travels at a constant speed of \\(18\\) miles per hour, while the other travels at a constant speed of \\(24\\) miles per hour.</p>
+        <p>After approximately how many hours will the cyclists be \\(105\\) miles apart?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(2.5\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(3.0\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(3.5\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(4.2\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(5.8\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `After \\(t\\) hours the cyclists have gone \\(18t\\) and \\(24t\\) miles along perpendicular paths, so those are the legs of a right triangle and the distance between them is the hypotenuse`,
+            note: "",
+            gif: "",
+            answer: "C",
+            video: ""
+        },
+        {
+            text: `Pythagorean theorem: \\(\\sqrt{(18t)^2 + (24t)^2} = \\sqrt{900t^2} = 30t\\). (Notice \\(18\\)-\\(24\\)-\\(30\\) is a \\(3\\)-\\(4\\)-\\(5\\) triangle scaled by \\(6\\).)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Set \\(30t = 105\\), so \\(t = 3.5\\) hours. Confirm in Desmos by graphing \\(y = 30x\\) and \\(y = 105\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri86150",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 9,
+        questionType: "GP",
+        difficulty: 3,
+        tags: [],
+        text: `<p>Two boats depart from the same harbor at the same time. One travels due north at a constant speed of \\(15\\) miles per hour, while the other travels due east at a constant speed of \\(20\\) miles per hour.</p>
+        <p>After \\(4\\) hours, approximately how many miles apart will the boats be?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(80\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(90\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(100\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(120\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(140\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Find how far each boat has traveled after \\(4\\) hours (distance \\(=\\) speed \\(\\times\\) time)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "North and east are perpendicular, so those two distances are the legs of a right triangle",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Use the Pythagorean theorem to find the hypotenuse, which is the distance between the boats",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri91680",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 9,
+        questionType: "PR",
+        difficulty: 3,
+        tags: [],
+        text: `<p>Two airplanes depart from the same airport at the same time, traveling along flight paths that form a \\(90^\\circ\\) angle. The first airplane travels at a constant speed of \\(300\\) miles per hour, while the second travels at a constant speed of \\(400\\) miles per hour.</p>
+        <p>If the airplanes are \\(1{,}250\\) miles apart, how many miles has the slower airplane traveled?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(500\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(600\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(750\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(900\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(1{,}000\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri39360",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 10,
+        questionType: "WE",
+        difficulty: 3,
+        tags: [],
+        text: `<p>A delivery driver leaves a warehouse and travels \\(60\\) miles due north to the first stop. The driver then travels \\(80\\) miles due east to the second stop. From the second stop, the driver returns directly to the warehouse without stopping.</p>
+        <p>If the driver travels at a constant speed of \\(50\\) miles per hour on the return trip, how many hours does the return trip take?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\( \\frac{6}{5} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\( \\frac{8}{5} \\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(2\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\( \\frac{12}{5} \\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\( \\frac{14}{5} \\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"A":[100,320],"B":[360,140],"C":[100,140]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"C","arms":["B","A"]}],"labels":[{"text":"80 miles","on":["B","C"]},{"text":"60 miles","on":["C","A"]},{"text":"Return Trip","on":["A","B"]}],"notToScale":true,"hiddenLabels":[],"pointText":{"B":{"text":"2nd Stop"},"C":{"text":"1st Stop"},"A":{"text":"Warehouse"}}},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Sketch the route: \\(60\\) north then \\(80\\) east form the two legs of a right triangle, and the direct return path is the hypotenuse`,
+            note: "",
+            gif: "",
+            answer: "C",
+            video: ""
+        },
+        {
+            text: `Pythagorean theorem: \\(\\sqrt{60^2 + 80^2} = \\sqrt{10000} = 100\\) miles (a \\(3\\)-\\(4\\)-\\(5\\) triangle scaled by \\(20\\))`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Time \\(= \\frac{100}{50} = 2\\) hours`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri57279",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 10,
+        questionType: "GP",
+        difficulty: 3,
+        tags: [],
+        text: `<p>A delivery truck leaves its distribution center and travels \\(45\\) miles due north to the first stop. The truck then travels \\(60\\) miles due east to the second stop, followed by \\(90\\) miles due south to the final stop.</p>
+        <p>The driver returns directly from the final stop to the distribution center at a constant speed of \\(30\\) miles per hour.</p>
+        <p>Which of the following is closest to the number of hours required for the return trip?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(1.5\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(2.0\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(2.5\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(3.0\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(3.5\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"A":[100,280],"B":[260,360],"C":[100,80],"D":[260,80]},"segments":[{"from":"A","to":"B"},{"from":"C","to":"A"},{"from":"C","to":"D"},{"from":"B","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"C","arms":["A","D"]},{"at":"D","arms":["C","B"]}],"labels":[{"text":"45 miles","on":["C","A"]},{"text":"Return Trip","on":["A","B"]},{"text":"60 miles","on":["C","D"]},{"text":"90 miles","on":["B","D"]}],"notToScale":true,"hiddenLabels":[],"pointText":{"B":{"text":"2nd Stop"},"C":{"text":"1st Stop"},"A":{"text":"Distribution Center","side":"left"},"D":{"text":"2nd Stop"}}},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Find the truck's net displacement: combine the north and south legs into one vertical distance, and keep the east leg as the horizontal distance`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Those two net distances are the legs of a right triangle; use the Pythagorean theorem to find the direct return distance",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Divide the return distance by the speed to get the time",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri30457",
+        topic: "triangle",
+        subtopic: "pythagorean-theorem",
+        problem: 10,
+        questionType: "PR",
+        difficulty: 3,
+        tags: [],
+        text: `<p>A delivery driver leaves a warehouse and travels \\(72\\) miles due west to the first stop. The driver then travels \\(96\\) miles due north to the second stop, followed by \\(144\\) miles due east to the final stop.</p>
+        <p>The driver must return directly from the final stop to the warehouse in exactly \\(2\\) hours.</p>
+        <p>What constant speed, in miles per hour, must the driver maintain on the return trip?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(48\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(54\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(60\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(72\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(84\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"A":[180,240],"B":[340,240],"C":[180,80],"D":[440,80]},"segments":[{"from":"A","to":"B"},{"from":"C","to":"A"},{"from":"C","to":"D"},{"from":"B","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"C","arms":["A","D"]},{"at":"A","arms":["B","C"]}],"labels":[{"text":"96 miles","on":["C","A"]},{"text":"72 miles","on":["A","B"]},{"text":"144 miles","on":["C","D"]},{"text":"Return Trip","on":["B","D"],"italic":true}],"notToScale":true,"hiddenLabels":[],"pointText":{"B":{"text":"Warehouse"},"C":{"text":"2nd Stop"},"A":{"text":"1st Stop","side":"below"},"D":{"text":"Final Stop"}}},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri99860",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 11,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the right triangle shown, one acute angle measures \\(30^\\circ\\), and the side adjacent to this angle has a length of \\(48\\sqrt{3}\\). What is the value of \\(x\\), the length of the side opposite the \\(30^\\circ\\) angle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(16\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(24\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(48\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(48\\sqrt{3}\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"A":[180,240],"B":[340,240],"C":[180,120]},"segments":[{"from":"A","to":"B"},{"from":"C","to":"A"},{"from":"C","to":"B"}],"circles":[],"angles":[{"at":"B","arms":["A","C"],"label":"30","arcs":1}],"ticks":[],"rightAngles":[{"at":"A","arms":["B","C"]}],"labels":[{"text":"x","on":["C","A"]},{"text":"48√3","on":["A","B"]}],"notToScale":true,"hiddenLabels":["C"],"pointText":{"B":{"text":"Warehouse"},"A":{"text":"1st Stop","side":"below"}},"arrows":[],"icons":[],"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `A \\(30\\)-\\(60\\)-\\(90\\) triangle has sides in the ratio \\(x : x\\sqrt{3} : 2x\\), where \\(x\\) is opposite the \\(30^\\circ\\) angle and \\(x\\sqrt{3}\\) is the leg adjacent to it`,
+            note: "",
+            gif: "",
+            answer: "C",
+            video: ""
+        },
+        {
+            text: `The adjacent leg is \\(48\\sqrt{3}\\), so \\(x\\sqrt{3} = 48\\sqrt{3}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Divide both sides by \\(\\sqrt{3}\\): \\(x = 48\\). Confirm in Desmos by typing \\(48\\sqrt{3} \\cdot \\tan(30^\\circ)\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri93423",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 11,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the right triangle shown, one acute angle measures \\(60^\\circ\\), and the side opposite this angle has a length of \\(35\\sqrt{3}\\). What is the value of \\(x\\), the length of the hypotenuse?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(35\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(35\\sqrt{3}\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(70\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(105\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"A":[240,240],"B":[340,240],"C":[340,100]},"segments":[{"from":"A","to":"B"},{"from":"C","to":"A"},{"from":"C","to":"B"}],"circles":[],"angles":[{"at":"A","arms":["B","C"],"label":"60","arcs":1}],"ticks":[],"rightAngles":[{"at":"B","arms":["A","C"]}],"labels":[{"text":"x","on":["C","A"]},{"text":"35√3","on":["C","B"]}],"notToScale":true,"hiddenLabels":["C"],"pointText":{"B":{"text":"Warehouse"},"A":{"text":"1st Stop","side":"below"}},"arrows":[],"icons":[],"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Identify which side of the \\(30\\)-\\(60\\)-\\(90\\) ratio is given: the side opposite \\(60^\\circ\\) is the long leg, \\(x\\sqrt{3}\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Solve for the short leg \\(x\\) by dividing out the \\(\\sqrt{3}\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "The hypotenuse is twice the short leg",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri71994",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 11,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the right triangle shown, one acute angle measures \\(30^\\circ\\), and the hypotenuse has a length of \\(52\\). What is the value of \\(x\\), the length of the longer leg?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(26\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(26\\sqrt{2}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(52\\sqrt{3}\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">D</span>
+            <span>\\(26\\sqrt{3}\\)</span>
+        </div>
+        </div>`,
+        answer: "D",
+        figure: {"size":[600,400],"points":{"A":[240,240],"B":[420,240],"C":[240,140]},"segments":[{"from":"A","to":"B"},{"from":"C","to":"A"},{"from":"C","to":"B"}],"circles":[],"angles":[{"at":"B","arms":["A","C"],"label":"30","arcs":1}],"ticks":[],"rightAngles":[{"at":"A","arms":["B","C"]}],"labels":[{"text":"52","on":["C","B"]},{"text":"x","on":["A","B"]}],"notToScale":true,"hiddenLabels":["C"],"pointText":{"B":{"text":"Warehouse"},"A":{"text":"1st Stop","side":"below"}},"arrows":[],"icons":[],"showPointLabels":false},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri60647",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 2,
+        questionType: "WE",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The perimeter of an isosceles right triangle is \\(36 + 18\\sqrt{2}\\) centimeters. What is the length, in centimeters, of the hypotenuse of this triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(18\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(18\\sqrt{2}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(36\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(36\\sqrt{2}\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `An isosceles right triangle is a \\(45\\)-\\(45\\)-\\(90\\) triangle with sides \\(x\\), \\(x\\), and \\(x\\sqrt{2}\\), so its perimeter is \\(2x + x\\sqrt{2}\\)`,
+            note: "",
+            gif: "",
+            answer: "B",
+            video: ""
+        },
+        {
+            text: `Match to the given perimeter \\(36 + 18\\sqrt{2}\\): the whole-number part gives \\(2x = 36\\), so \\(x = 18\\) (and the radical part \\(18\\sqrt{2}\\) agrees)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `The hypotenuse is \\(x\\sqrt{2} = 18\\sqrt{2}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri99235",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 2,
+        questionType: "GP",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The perimeter of an isosceles right triangle is \\(48 + 24\\sqrt{2}\\) inches. What is the length, in inches, of each of the two congruent legs?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(12\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(24\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(24\\sqrt{2}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(48\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Write the perimeter of a \\(45\\)-\\(45\\)-\\(90\\) triangle with leg \\(x\\) as an expression in \\(x\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Set it equal to \\(48 + 24\\sqrt{2}\\) and match the whole-number parts`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Solve for \\(x\\), the leg length`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri27105",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 2,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>The hypotenuse of an isosceles right triangle has a length of \\(15\\sqrt{2}\\) meters. What is the perimeter, in meters, of the triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(30\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(15 + 15\\sqrt{2}\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(30 + 15\\sqrt{2}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(30\\sqrt{2}\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri79472",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 3,
+        questionType: "WE",
+        difficulty: 3,
+        tags: [],
+        text: `<p>If the height of an equilateral triangle is \\(24\\) units and its perimeter is \\(a\\sqrt{3}\\) units, what is the value of \\(a\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(24\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(36\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(48\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(72\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `The height of an equilateral triangle splits it into two \\(30\\)-\\(60\\)-\\(90\\) triangles. If the side is \\(s\\), the short leg is \\(\\frac{s}{2}\\) and the height is \\(\\frac{s}{2}\\sqrt{3}\\)`,
+            note: "",
+            gif: "",
+            answer: "C",
+            video: ""
+        },
+        {
+            text: `Set \\(\\frac{s\\sqrt{3}}{2} = 24\\), so \\(s = \\frac{48}{\\sqrt{3}} = 16\\sqrt{3}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Perimeter \\(= 3s = 48\\sqrt{3}\\), so \\(a = 48\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri32341",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 3,
+        questionType: "GP",
+        difficulty: 3,
+        tags: [],
+        text: `<p>The perimeter of an equilateral triangle is \\(54\\sqrt{3}\\) centimeters. If the height of the triangle is \\(h\\) centimeters, what is the value of \\(h\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(18\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(27\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(27\\sqrt{3}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(54\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Divide the perimeter by 3 to find the side length",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Draw the height to form a \\(30\\)-\\(60\\)-\\(90\\) triangle; the height is the long leg, \\(\\frac{s}{2}\\sqrt{3}\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Substitute the side length and simplify, remembering \\(\\sqrt{3} \\cdot \\sqrt{3} = 3\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri33244",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 3,
+        questionType: "PR",
+        difficulty: 3,
+        tags: [],
+        text: `<p>An equilateral triangle has a height of \\(18\\) centimeters. If the area of the triangle is \\(a\\sqrt{3}\\) square centimeters, what is the value of \\(a\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(54\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(72\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(108\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(162\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri60804",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 4,
+        questionType: "WE",
+        difficulty: 3,
+        tags: [],
+        text: `<p>The perimeter of an equilateral triangle is \\(450\\) centimeters. The three vertices of the triangle lie on a circle. The radius of the circle is \\(k\\sqrt{3}\\) centimeters. What is the value of \\(k\\)?</p>`,
+        answer: "50",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `The side length is \\(450 \\div 3 = 150\\). The circle's center is the triangle's center, and a segment from the center to a vertex (the radius) makes a \\(30^\\circ\\) angle with the side`,
+            note: "",
+            gif: "",
+            answer: "50",
+            video: ""
+        },
+        {
+            text: `Dropping a perpendicular from the center to a side forms a \\(30\\)-\\(60\\)-\\(90\\) triangle with long leg \\(\\frac{150}{2} = 75\\) and hypotenuse \\(R\\). Since long leg \\(= \\frac{R\\sqrt{3}}{2}\\), \\(R = \\frac{150}{\\sqrt{3}} = 50\\sqrt{3}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Match to \\(k\\sqrt{3}\\): \\(k = 50\\). Shortcut to remember: for an equilateral triangle, \\(R = \\frac{s}{\\sqrt{3}}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri21776",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 4,
+        questionType: "GP",
+        difficulty: 3,
+        tags: [],
+        text: `<p>An equilateral triangle is inscribed in a circle with a radius of \\(18\\sqrt{3}\\) inches. If the perimeter of the triangle is \\(p\\) inches, what is the value of \\(p\\)?</p>`,
+        answer: "162",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Use the relationship between an equilateral triangle's side and its circumradius: \\(R = \\frac{s}{\\sqrt{3}}\\), so \\(s = R\\sqrt{3}\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Substitute \\(R = 18\\sqrt{3}\\) and simplify to find the side length`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Multiply the side length by 3 for the perimeter",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri36770",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 4,
+        questionType: "PR",
+        difficulty: 3,
+        tags: [],
+        text: `<p>An equilateral triangle is inscribed in a circle with a radius of \\(12\\sqrt{3}\\) units. If the area of the triangle is \\(a\\sqrt{3}\\) square units, what is the value of \\(a\\)?</p>`,
+        answer: "108",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri37641",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 5,
+        questionType: "WE",
+        difficulty: 3,
+        tags: [],
+        text: `<p>A triangular garden is designed in the coordinate plane with vertices at \\(A(0, 0)\\), \\(B(16, 0)\\), and \\(C(0, 12)\\). A sprinkler will be installed at a point that is equidistant from all three vertices.</p>
+        <p>What are the coordinates of the sprinkler?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\((4, 3)\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\((8, 6)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\((8, 0)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\((6, 8)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\((16, 12)\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"A":[240,240],"R":[440,240],"C":[240,120]},"segments":[{"from":"A","to":"R"},{"from":"C","to":"A"},{"from":"C","to":"R"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"A","arms":["R","C"]}],"labels":[],"notToScale":true,"hiddenLabels":[],"pointText":{"A":{"text":"A(0,0)","side":"below"},"C":{"text":"C(0,12)","side":"right"},"R":{"text":"B(16,0)","side":"below"}},"arrows":[],"icons":[],"showPointLabels":true},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Plot the points: \\(\\overline{AB}\\) lies on the \\(x\\)-axis and \\(\\overline{AC}\\) on the \\(y\\)-axis, so the triangle has a right angle at \\(A\\) and \\(\\overline{BC}\\) is the hypotenuse`,
+            note: "",
+            gif: "",
+            answer: "B",
+            video: ""
+        },
+        {
+            text: `The point equidistant from all three vertices of a right triangle is the midpoint of the hypotenuse`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Midpoint of \\(B(16, 0)\\) and \\(C(0, 12)\\): \\(\\left(\\frac{16 + 0}{2}, \\frac{0 + 12}{2}\\right) = (8, 6)\\). Check in Desmos: its distance to each vertex is \\(10\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri50470",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 5,
+        questionType: "GP",
+        difficulty: 3,
+        tags: [],
+        text: `<p>A triangular park has vertices at \\(P(2, 3)\\), \\(Q(14, 3)\\), and \\(R(2, 19)\\). A security camera will be installed at a point that is the same distance from all three vertices.</p>
+        <p>What are the coordinates of the security camera?</p>
+        <div class="mc-choices">
+        <div class="mc-choice correct">
+            <span class="mc-label">A</span>
+            <span>\\((8, 11)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\((6, 9)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\((8, 3)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\((2, 11)\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\((14, 19)\\)</span>
+        </div>
+        </div>`,
+        answer: "A",
+        figure: {"size":[600,400],"points":{"A":[240,240],"R":[340,240],"C":[240,80]},"segments":[{"from":"A","to":"R"},{"from":"C","to":"A"},{"from":"C","to":"R"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"A","arms":["R","C"]}],"labels":[],"notToScale":true,"hiddenLabels":[],"pointText":{"A":{"text":"P(2,3)","side":"below"},"C":{"text":"R(2,19)","side":"right"},"R":{"text":"Q(14,3)","side":"below"}},"arrows":[],"icons":[],"showPointLabels":true},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Plot the vertices and look for a horizontal and a vertical side meeting at one vertex; that vertex is the right angle`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Identify the hypotenuse (the side opposite the right angle)",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Find the midpoint of the hypotenuse; that is the point equidistant from all three vertices",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri83887",
+        topic: "triangle",
+        subtopic: "special-right-triangles",
+        problem: 5,
+        questionType: "PR",
+        difficulty: 3,
+        tags: [],
+        text: `<p>A triangular recreational area has vertices at \\(D(-6, 0)\\), \\(E(18, 0)\\), and \\(F(-6, 10)\\). A water fountain will be placed at a point equidistant from all three vertices.</p>
+        <p>What is the distance, in units, from the water fountain to vertex \\(D\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(5\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(12\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(13\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(24\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">E</span>
+            <span>\\(26\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"A":[180,240],"R":[440,240],"C":[180,120],"B":[280,280],"D":[280,80],"E":[120,240],"F":[500,240]},"segments":[{"from":"A","to":"R"},{"from":"C","to":"A"},{"from":"C","to":"R"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"A","arms":["R","C"]}],"labels":[],"notToScale":true,"hiddenLabels":[],"pointText":{"A":{"text":"D(-6,0)","side":"below"},"C":{"text":"F(-6,10)","side":"left"},"R":{"text":"E(18,0)","side":"below"}},"arrows":[{"from":"B","to":"D","label":"","side":"above"},{"from":"E","to":"F","label":""}],"icons":[],"showPointLabels":true},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri82682",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 1,
+        questionType: "WE",
+        difficulty: 1,
+        tags: [],
+        text: `<p>In the triangle shown, the length of the base is \\(18\\) centimeters. The area of the triangle is \\(171\\) square centimeters. What is the height, \\(h\\), in centimeters, of the triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(9\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(18\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(19\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(38\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"A":[180,240],"C":[440,240],"B":[280,100],"F":[280,240]},"segments":[{"from":"A","to":"C"},{"from":"B","to":"A"},{"from":"B","to":"C"},{"from":"B","to":"F","style":"dotted"},{"from":"F","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"F","arms":["B","A"]}],"labels":[{"text":"h","on":["B","F"],"italic":true},{"text":"18 cm","on":["A","C"],"side":"below"}],"notToScale":true,"hiddenLabels":["F"],"pointText":{},"arrows":[],"icons":[],"showPointLabels":true},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Area of a triangle: \\(A = \\frac{1}{2}bh\\). Substitute what's known: \\(171 = \\frac{1}{2}(18)h\\)`,
+            note: "",
+            gif: "",
+            answer: "C",
+            video: ""
+        },
+        {
+            text: `Simplify: \\(171 = 9h\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Solve: \\(h = 19\\). Choice D (\\(38\\)) is the trap for forgetting the \\(\\frac{1}{2}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri24310",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 1,
+        questionType: "GP",
+        difficulty: 1,
+        tags: [],
+        text: `<p>The area of triangle \\(DEF\\) shown is \\(144\\) square inches. The perpendicular height from vertex \\(E\\) to side \\(\\overline{DF}\\) is \\(12\\) inches.</p>
+        <p>What is the length, in inches, of \\(\\overline{DF}\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(12\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(18\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(24\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(36\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: {"size":[600,400],"points":{"D":[180,240],"F":[440,240],"E":[340,100],"Z":[340,240]},"segments":[{"from":"D","to":"F"},{"from":"E","to":"D"},{"from":"E","to":"F"},{"from":"E","to":"Z","style":"dotted"},{"from":"Z","to":"D"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"Z","arms":["E","D"]}],"labels":[{"text":"12 in","on":["E","Z"],"italic":false},{"text":"x","on":["D","F"],"side":"below"}],"notToScale":true,"hiddenLabels":["Z"],"pointText":{},"arrows":[],"icons":[],"showPointLabels":true},
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Write the area formula \\(A = \\frac{1}{2}bh\\) with \\(\\overline{DF}\\) as the base and \\(12\\) as the height`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Substitute the area \\(144\\) and simplify the right side`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Solve for the base",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri75040",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 1,
+        questionType: "PR",
+        difficulty: 2,
+        tags: [],
+        text: `<p>In the figure shown, triangle \\(JKL\\) has a base \\(\\overline{JL}\\) of length \\(20\\) units. The perpendicular distance from vertex \\(K\\) to the line containing \\(\\overline{JL}\\) is \\(15\\) units. The perpendicular segment intersects the extension of \\(\\overline{JL}\\) beyond vertex \\(L\\).</p>
+        <p>What is the area, in square units, of triangle \\(JKL\\)?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(75\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(150\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(175\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(300\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: {"size":[600,400],"points":{"J":[180,240],"M":[440,240],"K":[440,120],"L":[340,240]},"segments":[{"from":"J","to":"M","style":"dotted"},{"from":"K","to":"J"},{"from":"K","to":"M","style":"dotted"},{"from":"K","to":"L","style":"solid"},{"from":"L","to":"J"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"M","arms":["J","K"]}],"labels":[{"text":"20 Units","on":["L","J"]},{"text":"15 units","on":["K","M"]}],"notToScale":true,"hiddenLabels":[],"pointText":{},"arrows":[],"icons":[],"showPointLabels":true},
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri69207",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 2,
+        questionType: "WE",
+        difficulty: 3,
+        tags: [],
+        text: `<p>The area of a triangle is \\(208\\) square centimeters. The length of the base of the triangle is \\(10\\) centimeters greater than the height of the triangle. What is the height, in centimeters, of the triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(14\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(16\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(21\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(24\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Let the height be \\(h\\); then the base is \\(h + 10\\). Area: \\(\\frac{1}{2}h(h + 10) = 208\\)`,
+            note: "",
+            gif: "",
+            answer: "B",
+            video: ""
+        },
+        {
+            text: `Multiply by \\(2\\) and expand: \\(h^2 + 10h - 416 = 0\\). Factor: \\((h + 26)(h - 16) = 0\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Height must be positive, so \\(h = 16\\). Confirm in Desmos by graphing \\(y = \\frac{1}{2}x(x + 10)\\) and \\(y = 208\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri15913",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 2,
+        questionType: "GP",
+        difficulty: 3,
+        tags: [],
+        text: `<p>The area of a triangle is \\(180\\) square inches. The height of the triangle is \\(9\\) inches less than the length of its base. What is the length, in inches, of the base?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(18\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(21\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(24\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(27\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Let the base be \\(b\\) and write the height in terms of \\(b\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Set \\(\\frac{1}{2}bh = 180\\), substitute, and rearrange into a quadratic equal to zero`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Solve (factor or graph in Desmos) and keep the positive root",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri75041",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 2,
+        questionType: "PR",
+        difficulty: 3,
+        tags: [],
+        text: `<p>The area of a triangle is \\(294\\) square meters. The length of the base is \\(3\\) times the height of the triangle. What is the height, in meters, of the triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(7\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(14\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(7\\sqrt{2}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(14\\sqrt{2}\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
+        {
+        id: "Tri88483",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 3,
+        questionType: "WE",
+        difficulty: 3,
+        tags: [],
+        text: `<p>The line segment shown in the \\(xy\\)-plane represents one of the legs of a right triangle. The area of this triangle is \\(30\\sqrt{5}\\) square units. What is the length, in units, of the other leg of the triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(5\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">B</span>
+            <span>\\(5\\sqrt{10}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">C</span>
+            <span>\\(10\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(6\\sqrt{5}\\)</span>
+        </div>
+        </div>`,
+        answer: "B",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: `Read the segment's horizontal and vertical displacement from the graph and use the Pythagorean theorem to find its length: \\(\\sqrt{6^2 + 6^2} = 6\\sqrt{2}\\)`,
+            note: "",
+            gif: "",
+            answer: "B",
+            video: ""
+        },
+        {
+            text: `The legs of a right triangle are its base and height, so \\(\\frac{1}{2}(6\\sqrt{2})(x) = 30\\sqrt{5}\\), giving \\(3\\sqrt{2}\\,x = 30\\sqrt{5}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        },
+        {
+            text: `Solve: \\(x = \\frac{10\\sqrt{5}}{\\sqrt{2}} = 5\\sqrt{10}\\). Confirm in Desmos by typing \\(30\\sqrt{5} / (3\\sqrt{2})\\) and \\(5\\sqrt{10}\\)`,
+            note: "",
+            gif: "",
+            answer: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri89275",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 3,
+        questionType: "GP",
+        difficulty: 3,
+        tags: [],
+        text: `<p>The line segment shown in the \\(xy\\)-plane represents one of the legs of a right triangle. The area of the triangle is \\(50\\sqrt{2}\\) square units. What is the length, in units, of the other leg of the triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(5\\sqrt{2}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(10\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(10\\sqrt{2}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(20\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [
+        {
+            text: "Use the horizontal and vertical displacement of the segment to find its length with the Pythagorean theorem",
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: `Set \\(\\frac{1}{2} \\times (\\text{that leg}) \\times (\\text{other leg}) = 50\\sqrt{2}\\)`,
+            note: "",
+            gif: "",
+            video: ""
+        },
+        {
+            text: "Solve for the other leg",
+            note: "",
+            gif: "",
+            video: ""
+        }
+        ],
+        screenshot: "",
+        videoId: ""
+    },
+
+    {
+        id: "Tri50232",
+        topic: "triangle",
+        subtopic: "area",
+        problem: 3,
+        questionType: "PR",
+        difficulty: 3,
+        tags: [],
+        text: `<p>The line segment shown in the \\(xy\\)-plane represents one of the legs of a right triangle. The area of this triangle is \\(45\\sqrt{13}\\) square units. What is the length, in units, of the other leg of the triangle?</p>
+        <div class="mc-choices">
+        <div class="mc-choice">
+            <span class="mc-label">A</span>
+            <span>\\(6\\sqrt{5}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">B</span>
+            <span>\\(9\\sqrt{13}\\)</span>
+        </div>
+        <div class="mc-choice correct">
+            <span class="mc-label">C</span>
+            <span>\\(6\\sqrt{65}\\)</span>
+        </div>
+        <div class="mc-choice">
+            <span class="mc-label">D</span>
+            <span>\\(15\\)</span>
+        </div>
+        </div>`,
+        answer: "C",
+        figure: null,
+        graph: null,
+        graphChoices: null,
+        steps: [],
+        screenshot: "",
+        videoId: ""
+    },
+
 
 ];

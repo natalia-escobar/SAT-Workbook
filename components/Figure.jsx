@@ -5,6 +5,7 @@ import {
   rightAnglePath,
   tickLines,
   pointLabelPos,
+  pointTextPos,
   segmentLabelPos,
   centroid,
   dist,
@@ -14,6 +15,9 @@ import {
   isHelperPoint,
   midpoint,
   unit,
+  AXIS_UNIT,
+  toPx,
+  axesBounds,
 } from "../lib/figureGeom";
 
 /**
@@ -67,13 +71,18 @@ export default function Figure({
   const box = React.useMemo(() => {
     const [cw, ch] = spec.size;
     const pts = Object.values(spec.points);
-    if (!fit || !pts.length) return { x: 0, y: 0, w: cw, h: ch };
+    if (!fit || (!pts.length && !spec.axes)) return { x: 0, y: 0, w: cw, h: ch };
     let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
     const grow = (x, y, r = 0) => {
       minX = Math.min(minX, x - r); maxX = Math.max(maxX, x + r);
       minY = Math.min(minY, y - r); maxY = Math.max(maxY, y + r);
     };
     pts.forEach((p) => grow(p[0], p[1]));
+    if (spec.axes) {
+      const b = axesBounds(spec);
+      // room for the arrowheads and the x / y labels past the ends
+      grow(b.x0 - 18, b.y0 - 26); grow(b.x1 + 30, b.y1 + 18);
+    }
     spec.circles.forEach((c) => {
       const O = spec.points[c.center], T = spec.points[c.through];
       if (O && T) grow(O[0], O[1], dist(O, T));
@@ -85,6 +94,14 @@ export default function Figure({
       const cx = p[0] + (place === "left" ? -off : place === "right" ? off : 0);
       const cy = p[1] + (place === "above" ? -off : place === "below" ? off : 0);
       grow(cx, cy, size / 2);
+    });
+    Object.entries(spec.pointText || {}).forEach(([name, pt]) => {
+      const p = spec.points[name];
+      if (!p || !pt?.text) return;
+      const pos = pointTextPos(p, centroid(spec.points), pt.side || "auto");
+      const wText = pt.text.length * 14 * 0.58;
+      const x0 = pos.anchor === "end" ? pos.x - wText : pos.anchor === "start" ? pos.x : pos.x - wText / 2;
+      grow(x0, pos.y - 8); grow(x0 + wText, pos.y + 8);
     });
     const extra = spec.notToScale ? 22 : 0; // room for the note under the drawing
     return { x: minX - margin, y: minY - margin, w: maxX - minX + 2 * margin, h: maxY - minY + 2 * margin + extra };
@@ -164,6 +181,60 @@ export default function Figure({
           <rect x={bx} y={by} width={w} height={h} fill="url(#fig-grid)" />
         </>
       )}
+
+      {/* coordinate plane */}
+      {spec.axes && (() => {
+        const a = spec.axes;
+        const every = a.labelEvery || 2;
+        const b = axesBounds(spec);
+        const [ox, oy] = toPx(spec, [0, 0]);
+        const gridCol = "#b8b8b4";
+        const lines = [];
+        for (let xi = a.xMin; xi <= a.xMax; xi++) {
+          const [x] = toPx(spec, [xi, 0]);
+          lines.push(<line key={"gx" + xi} x1={x} y1={b.y0} x2={x} y2={b.y1} stroke={gridCol} strokeWidth="0.8" />);
+        }
+        for (let yi = a.yMin; yi <= a.yMax; yi++) {
+          const [, y] = toPx(spec, [0, yi]);
+          lines.push(<line key={"gy" + yi} x1={b.x0} y1={y} x2={b.x1} y2={y} stroke={gridCol} strokeWidth="0.8" />);
+        }
+        const ticks = [];
+        for (let xi = a.xMin; xi <= a.xMax; xi++) {
+          if (xi === 0 || xi % every !== 0) continue;
+          const [x] = toPx(spec, [xi, 0]);
+          ticks.push(<text key={"tx" + xi} x={x} y={oy + 14} fontSize="12" textAnchor="middle" fill={stroke}>{xi < 0 ? "−" + -xi : xi}</text>);
+        }
+        for (let yi = a.yMin; yi <= a.yMax; yi++) {
+          if (yi === 0 || yi % every !== 0) continue;
+          const [, y] = toPx(spec, [0, yi]);
+          ticks.push(<text key={"ty" + yi} x={ox - 5} y={y + 4} fontSize="12" textAnchor="end" fill={stroke}>{yi < 0 ? "−" + -yi : yi}</text>);
+        }
+        const xAxisOn = a.yMin <= 0 && a.yMax >= 0;
+        const yAxisOn = a.xMin <= 0 && a.xMax >= 0;
+        return (
+          <g>
+            {lines}
+            {xAxisOn && (
+              <>
+                <line x1={b.x0} y1={oy} x2={b.x1 + 14} y2={oy} stroke={stroke} strokeWidth="1.6" />
+                <polygon points={arrowHead([b.x0, oy], [b.x1 + 18, oy], 9)} fill={stroke} />
+                <text x={b.x1 + 26} y={oy + 4} fontSize="15" fontStyle="italic" fill={stroke}>x</text>
+              </>
+            )}
+            {yAxisOn && (
+              <>
+                <line x1={ox} y1={b.y1} x2={ox} y2={b.y0 - 14} stroke={stroke} strokeWidth="1.6" />
+                <polygon points={arrowHead([ox, b.y1], [ox, b.y0 - 18], 9)} fill={stroke} />
+                <text x={ox} y={b.y0 - 24} fontSize="15" fontStyle="italic" textAnchor="middle" fill={stroke}>y</text>
+              </>
+            )}
+            {xAxisOn && yAxisOn && (
+              <text x={ox - 6} y={oy + 14} fontSize="12" fontStyle="italic" textAnchor="end" fill={stroke}>O</text>
+            )}
+            {ticks}
+          </g>
+        );
+      })()}
 
       {/* circles */}
       {spec.circles.map((c, i) => {
@@ -249,7 +320,7 @@ export default function Figure({
         const pos = segmentLabelPos(A, B, center, l.text, l.side || "auto");
         const sel = isSel("label", i);
         return (
-          <text key={"l" + i} x={pos[0]} y={pos[1]} fontSize="14" textAnchor="middle" dominantBaseline="middle" fill={sel ? accent : stroke} style={{ cursor: editable ? "pointer" : "default" }} onClick={stop(() => onItemClick && onItemClick("label", i))}>
+          <text key={"l" + i} x={pos[0]} y={pos[1]} fontSize="14" textAnchor="middle" dominantBaseline="middle" fill={sel ? accent : stroke} fontStyle={l.italic ? "italic" : "normal"} style={{ cursor: editable ? "pointer" : "default" }} onClick={stop(() => onItemClick && onItemClick("label", i))}>
             {l.text}
           </text>
         );
@@ -328,12 +399,28 @@ export default function Figure({
         }
         return (
           <g key={"p" + name}>
-            <text
-              x={lp[0]} y={lp[1]} fontSize="15" textAnchor="middle" dominantBaseline="middle"
-              fill={sel || pend ? accent : stroke} fillOpacity={hidden ? 0.3 : 1} fontStyle="italic"
-            >
-              {name}
-            </text>
+            {(() => {
+              const pt = (spec.pointText || {})[name];
+              if (pt && pt.text) {
+                const pos = pointTextPos(p, center, pt.side || "auto");
+                return (
+                  <text
+                    x={pos.x} y={pos.y} fontSize="14" textAnchor={pos.anchor} dominantBaseline="middle"
+                    fill={sel || pend ? accent : stroke} fillOpacity={hidden ? 0.3 : 1}
+                  >
+                    {pt.text}
+                  </text>
+                );
+              }
+              return (
+                <text
+                  x={lp[0]} y={lp[1]} fontSize="15" textAnchor="middle" dominantBaseline="middle"
+                  fill={sel || pend ? accent : stroke} fillOpacity={hidden ? 0.3 : 1} fontStyle="italic"
+                >
+                  {name}
+                </text>
+              );
+            })()}
             <circle
               cx={p[0]} cy={p[1]} r={editable ? 6 : 3}
               fill={sel || pend ? accent : stroke}
