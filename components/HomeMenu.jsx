@@ -90,7 +90,7 @@ export default function HomeMenu({ showDdcus }) {
         </Collapsible>
         <Collapsible title="Simple Graphing, X-Intercept, & Y-Intercept" defaultOpen={false}>
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/graphing-functions" title="Graphing Functions" />
-          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/graphing-functions" title="Graphing Translations" />
+          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/graphing-translations" title="Graphing Translations" />
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/y-intercept" title="Y-Intercept" />
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/vertex" title="Vertex" />
           <Card href="/workbook/parabola/simple-graphing-x-y-intercept/x-intercept" title="X-Intercept" />
