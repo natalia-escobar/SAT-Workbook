@@ -2,7 +2,7 @@ import { asClassroom } from "@/lib/questions";
 
 const trianglesAdvanced = {
     name: "Triangles",
-    slug: "amuni-lesson-4",
+    slug: "Triangles Advanced",
     problems: asClassroom(
         [
             "Tri16988",

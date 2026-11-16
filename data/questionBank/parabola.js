@@ -8273,7 +8273,7 @@ export const questions = [
         tags: [],
         text: `<p>The height, \\(y\\) meters, is modeled by the graph, where \\(y = 0\\) represents ground problem. Which table gives values of \\(x\\) and their corresponding values of \\(y\\) based on the model?</p>
                     <div class="mc-choices">
-                    <div class="mc-choice correct">
+                    <div class="mc-choice">
                         <span class="mc-label">A</span>
                         <span>
                         <table class="xy-table">
@@ -8306,7 +8306,7 @@ export const questions = [
                         </table>
                         </span>
                     </div>
-                    <div class="mc-choice">
+                    <div class="mc-choice correct">
                         <span class="mc-label">D</span>
                         <span>
                         <table class="xy-table">
@@ -8318,7 +8318,7 @@ export const questions = [
                         </span>
                     </div>
                     </div>`,
-        answer: "A",
+        answer: "D",
         graph: {
         expressions: [
             {
