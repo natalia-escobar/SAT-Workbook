@@ -176,7 +176,7 @@ export const questions = [
         </div>
         </div>`,
         answer: "C",
-        figure: {"size":[600,400],"points":{"A":[100,320],"B":[500,320],"C":[500,160]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"B","arms":["A","C"]}],"labels":[{"text":"x","on":["A","B"]},{"text":"65","on":["C","A"]}],"notToScale":true},
+        figure:{"size":[600,400],"points":{"A":[120,220],"B":[500,320],"C":[120,320]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"C","arms":["B","A"]}],"labels":[{"text":"65","on":["A","B"]}],"notToScale":true},
         graph: null,
         graphChoices: null,
         steps: [],
