@@ -432,7 +432,7 @@ export const questions = [
         </div>
         </div>`,
         answer: "B",
-        figure: {"size":[600,400],"points":{"C":[360,320],"B":[440,320],"A":[360,180]},"segments":[{"from":"C","to":"B"},{"from":"B","to":"A"},{"from":"A","to":"C"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"C","arms":["B","A"]}],"labels":[{"text":"28","on":["A","C"]},{"text":"x","on":["C","B"]}],"notToScale":true,"hiddenLabels":[],"arrows":[],"icons":[],"pointText":{}},
+        figure: {"size":[600,400],"points":{"C":[260,320],"B":[440,320],"A":[260,200]},"segments":[{"from":"C","to":"B"},{"from":"B","to":"A"},{"from":"A","to":"C"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"C","arms":["B","A"]}],"labels":[{"text":"x","on":["C","B"]},{"text":"28","on":["A","C"]}],"notToScale":true,"hiddenLabels":[],"arrows":[],"icons":[],"pointText":{}},
         graph: null,
         graphChoices: null,
         steps: [
@@ -965,7 +965,7 @@ export const questions = [
         tags: [],
         text: `<p>In right triangle \\(ABC\\), \\(\\angle C\\) is a right angle, and the length of \\(\\overline{AB}\\) is \\(25\\). If \\(BC = \\sqrt{49}\\), what is the value of \\(\\sin B\\)?</p>`,
         answer: "24/25",
-        figure: {"size":[600,400],"points":{"A":[240,320],"B":[500,320],"C":[500,200]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"B","arms":["A","C"]}],"labels":[{"text":"25","on":["C","A"]}],"notToScale":true},
+        figure: {"size":[600,400],"points":{"C":[260,320],"B":[440,320],"A":[260,200]},"segments":[{"from":"C","to":"B"},{"from":"B","to":"A"},{"from":"A","to":"C"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"C","arms":["B","A"]}],"labels":[{"text":"25","on":["B","A"]},{"text":"√49","on":["C","B"]}],"notToScale":true,"hiddenLabels":[],"arrows":[],"icons":[],"pointText":{}},
         graph: null,
         graphChoices: null,
         steps: [
@@ -1474,7 +1474,7 @@ export const questions = [
         </div>
         </div>`,
         answer: "C",
-        figure: {"size":[600,400],"points":{"A":[100,320],"B":[360,320],"C":[100,160]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"A","arms":["B","C"]}],"labels":[{"text":"15","on":["C","A"]},{"text":"20","on":["A","B"]}],"notToScale":true},
+        figure: {"size":[600,400],"points":{"C":[260,320],"B":[440,320],"A":[260,200]},"segments":[{"from":"C","to":"B"},{"from":"B","to":"A"},{"from":"A","to":"C"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"C","arms":["B","A"]}],"labels":[{"text":"15","on":["A","C"]},{"text":"20","on":["B","A"]}],"notToScale":true,"hiddenLabels":[],"arrows":[],"icons":[],"pointText":{}},
         graph: null,
         graphChoices: null,
         steps: [
@@ -4280,7 +4280,7 @@ export const questions = [
         questionType: "GP",
         difficulty: 3,
         tags: [],
-        text: `<p>The line segment shown in the \\(xy\\)-plane represents one of the legs of a right triangle. The area of the triangle is \\(50\\sqrt{2}\\) square units. What is the length, in units, of the other leg of the triangle?</p>
+        text: `<p>The line segment shown in the \\(xy\\)-plane represents one of the legs of a right triangle. The area of the triangle is \\(70\\sqrt{2}\\) square units. What is the length, in units, of the other leg of the triangle?</p>
         <div class="mc-choices">
         <div class="mc-choice">
             <span class="mc-label">A</span>
@@ -4290,16 +4290,16 @@ export const questions = [
             <span class="mc-label">B</span>
             <span>\\(10\\)</span>
         </div>
-        <div class="mc-choice correct">
+        <div class="mc-choice">
             <span class="mc-label">C</span>
             <span>\\(10\\sqrt{2}\\)</span>
         </div>
-        <div class="mc-choice">
+        <div class="mc-choice correct">
             <span class="mc-label">D</span>
             <span>\\(20\\)</span>
         </div>
         </div>`,
-        answer: "C",
+        answer: "D",
         figure: {"size":[600,400],"points":{"A":[160,340],"B":[440,60]},"segments":[{"from":"A","to":"B"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[],"labels":[],"notToScale":false,"hiddenLabels":[],"arrows":[],"icons":[],"pointText":{},"axes":{"xMin":-5,"xMax":6,"yMin":-4,"yMax":7,"labelEvery":1},"showPointLabels":false},
         graph: null,
         graphChoices: null,
