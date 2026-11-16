@@ -212,7 +212,7 @@ export const questions = [
         </div>
         </div>`,
         answer: "B",
-        figure: {"size":[600,400],"points":{"P":[160,320],"Q":[500,320],"R":[500,80]},"segments":[{"from":"P","to":"Q"},{"from":"Q","to":"R"},{"from":"R","to":"P"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"Q","arms":["P","R"]}],"labels":[{"text":"28","on":["P","Q"]},{"text":"x","on":["R","P"]}],"notToScale":true},
+        figure: {"size":[600,400],"points":{"Q":[360,320],"R":[500,320],"P":[500,160]},"segments":[{"from":"Q","to":"R"},{"from":"R","to":"P"},{"from":"P","to":"Q"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"R","arms":["Q","P"]}],"labels":[{"text":"28","on":["R","P"]}],"notToScale":true,"hiddenLabels":[],"arrows":[],"icons":[],"pointText":{}},
         graph: null,
         graphChoices: null,
         steps: [],
@@ -432,7 +432,7 @@ export const questions = [
         </div>
         </div>`,
         answer: "B",
-        figure: {"size":[600,400],"points":{"A":[260,320],"B":[500,320],"C":[500,180]},"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"B","arms":["A","C"]}],"labels":[{"text":"x","on":["B","C"]},{"text":"28","on":["A","B"]}],"notToScale":true},
+        figure: {"size":[600,400],"points":{"C":[360,320],"B":[440,320],"A":[360,180]},"segments":[{"from":"C","to":"B"},{"from":"B","to":"A"},{"from":"A","to":"C"}],"circles":[],"angles":[],"ticks":[],"rightAngles":[{"at":"C","arms":["B","A"]}],"labels":[{"text":"28","on":["A","C"]},{"text":"x","on":["C","B"]}],"notToScale":true,"hiddenLabels":[],"arrows":[],"icons":[],"pointText":{}},
         graph: null,
         graphChoices: null,
         steps: [
