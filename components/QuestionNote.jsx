@@ -21,12 +21,12 @@ export default function QuestionNote({ questionId, initialBody, onSaved }) {
   const [open, setOpen] = useState(false);   
 
   // If the parent loads the note after first render, pick it up.
-  useEffect(() => {
-    if (initialBody !== undefined) {
+    useEffect(() => {
+    if (initialBody !== undefined && !editing) {
       setBody(initialBody);
       lastSaved.current = initialBody;
     }
-  }, [initialBody]);
+  }, [initialBody, editing]);
 
   async function persist(text) {
     if (text === lastSaved.current) return;
