@@ -1,9 +1,11 @@
-// app/tutor/[studentId]/page.js — one student's quizzes and workbook progress.
+// app/tutor/[studentId]/page.js — one student's quizzes, then their lesson work as a
+// timeline split into in-class and independent work (components/StudentTimeline.jsx).
 // Click any question row to see the question, the student's answer, and the correct answer.
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getStudentReport } from "@/lib/tutor";
 import TutorQuestionRow from "@/components/TutorQuestionRow";
+import StudentTimeline from "@/components/StudentTimeline";
 
 export const dynamic = "force-dynamic";
 
@@ -25,12 +27,33 @@ const card = {
   marginTop: 8,
 };
 
+const whenPill = (when) => {
+  if (when !== "class" && when !== "independent") return null;
+  const inClass = when === "class";
+  return (
+    <span
+      style={{
+        fontSize: 12,
+        fontWeight: 600,
+        marginLeft: 10,
+        padding: "2px 10px",
+        borderRadius: 999,
+        verticalAlign: "middle",
+        border: `0.5px solid ${inClass ? "#2e7d32" : "#e0e0de"}`,
+        color: inClass ? "#2e7d32" : "#555",
+      }}
+    >
+      {inClass ? "In class" : "Independent"}
+    </span>
+  );
+};
+
 export default async function StudentPage({ params }) {
   const { studentId } = await params;
   const report = await getStudentReport(studentId);
   if (!report) notFound();
 
-  const { student, quizzes, workbook, classroom } = report;
+  const { student, quizzes, timeline } = report;
 
   return (
     <main className="page">
@@ -47,7 +70,7 @@ export default async function StudentPage({ params }) {
         <div key={q.id} style={card}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 10 }}>
             <div>
-              <div style={{ fontSize: 16, fontWeight: 600 }}>{q.title}</div>
+              <div style={{ fontSize: 16, fontWeight: 600 }}>{q.title}{whenPill(q.when)}</div>
               <div style={{ fontSize: 13, color: "#777", marginTop: 2 }}>
                 {fmtDate(q.takenAt)}
                 {q.attemptCount > 1 ? ` · attempt ${q.attemptCount} (latest shown)` : ""}
@@ -74,74 +97,8 @@ export default async function StudentPage({ params }) {
         </div>
       ))}
 
-      {/* ── Classroom ── */}
-      <h2 style={{ fontSize: 15, fontWeight: 600, margin: "32px 0 4px" }}>Classroom</h2>
-      {classroom.length === 0 && <p style={{ color: "#777", fontSize: 14 }}>No classroom activity yet.</p>}
-      {classroom.map((l) => (
-        <details key={l.lesson} style={card}>
-          <summary style={{ cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "baseline", listStyle: "none" }}>
-            <div>
-              <div style={{ fontSize: 16, fontWeight: 600 }}>{l.lesson}</div>
-              <div style={{ fontSize: 13, color: "#777", marginTop: 2 }}>last active {fmtDate(l.lastActive)}</div>
-            </div>
-            <div style={{ fontSize: 14 }}>
-              <strong>{l.correct}</strong>
-              <span style={{ color: "#777" }}> / {l.attempted} correct</span>
-            </div>
-          </summary>
-          <div style={{ marginTop: 12 }}>
-            {l.questions.map((qq, i) => (
-              <TutorQuestionRow
-                key={qq.id}
-                question={qq}
-                left={
-                  <span style={{ fontSize: 13, color: "#555" }}>
-                    <strong style={{ marginRight: 10 }}>{i + 1}.</strong>
-                    {qq.type ? `${qq.type}` : ""}
-                    <span style={{ color: "#aaa", marginLeft: 8 }}>{qq.id}</span>
-                  </span>
-                }
-                middle={qq.answer ? `answered ${qq.answer}` : fmtDate(qq.at)}
-              />
-            ))}
-          </div>
-        </details>
-      ))}
-
-      {/* ── Workbook ── */}
-      <h2 style={{ fontSize: 15, fontWeight: 600, margin: "32px 0 4px" }}>Workbook</h2>
-      {workbook.length === 0 && <p style={{ color: "#777", fontSize: 14 }}>No workbook activity yet.</p>}
-      {workbook.map((b) => (
-        <details key={b.subtopic} style={card}>
-          <summary style={{ cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "baseline", listStyle: "none" }}>
-            <div>
-              <div style={{ fontSize: 16, fontWeight: 600, textTransform: "capitalize" }}>
-                {b.subtopic.replace(/-/g, " ")}
-              </div>
-              <div style={{ fontSize: 13, color: "#777", marginTop: 2 }}>last active {fmtDate(b.lastActive)}</div>
-            </div>
-            <div style={{ fontSize: 14 }}>
-              <strong>{b.correct}</strong>
-              <span style={{ color: "#777" }}> / {b.attempted} correct</span>
-            </div>
-          </summary>
-          <div style={{ marginTop: 12 }}>
-            {b.questions.map((qq) => (
-              <TutorQuestionRow
-                key={qq.id}
-                question={qq}
-                left={
-                  <span style={{ fontSize: 13, color: "#555" }}>
-                    {qq.problem != null ? `Problem ${qq.problem}` : ""}{qq.type ? ` · ${qq.type}` : ""}
-                    <span style={{ color: "#aaa", marginLeft: 8 }}>{qq.id}</span>
-                  </span>
-                }
-                middle={fmtDate(qq.at)}
-              />
-            ))}
-          </div>
-        </details>
-      ))}
+      {/* ── Lessons: in class vs independent, newest first ── */}
+      <StudentTimeline timeline={timeline} />
     </main>
   );
 }

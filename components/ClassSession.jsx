@@ -9,7 +9,7 @@
 
 import { useEffect, useState, useTransition } from "react";
 import { startClass, updateClassStudents, endClass } from "@/lib/classSession";
-import useClassSession, { refreshClassState, openClassPicker, closeClassPicker } from "@/lib/useClassSession";
+import useClassSession, { refreshClassState, resetClassState, openClassPicker, closeClassPicker } from "@/lib/useClassSession";
 
 const GREEN = "#2e7d32";
 const smallButton = {
@@ -191,7 +191,12 @@ export default function ClassBar() {
     const poll = setInterval(refreshClassState, 60000);
     const onFocus = () => { setNow(Date.now()); refreshClassState(); };
     window.addEventListener("focus", onFocus);
-    return () => { clearInterval(tick); clearInterval(poll); window.removeEventListener("focus", onFocus); };
+    return () => {
+      clearInterval(tick);
+      clearInterval(poll);
+      window.removeEventListener("focus", onFocus);
+      resetClassState(); // signed out: don't leave a tutor's state behind for the next account
+    };
   }, []);
 
   const end = () => {
