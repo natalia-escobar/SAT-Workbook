@@ -42,7 +42,7 @@ const pill = {
 };
 
 const nameKey = (name) => String(name ?? "").trim().replace(/\s+/g, " ").toLowerCase();
-const answersLabel = (n) => (n == null ? "saved answers unknown" : `${n} saved answer${n === 1 ? "" : "s"}`);
+const attemptedLabel = (n) => `${n ?? 0} question${n === 1 ? "" : "s"} attempted`;
 
 function Switch({ on, disabled, onChange, label }) {
   return (
@@ -167,14 +167,14 @@ export default function AdminClasses({ owners, students }) {
                     {isDuplicate(s) && <span style={pill}>Possible duplicate</span>}
                   </div>
                   <div style={muted}>
-                    {s.email || "no email on file"} · {answersLabel(s.answers)}
+                    {s.email || "no email on file"} · {attemptedLabel(s.attempted)}
                   </div>
                 </div>
 
                 {confirming ? (
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
                     <span style={{ fontSize: "14px", color: "#b3261e" }}>
-                      Delete this account and its {answersLabel(s.answers)}? This can't be undone.
+                      Delete this account and all of its work ({attemptedLabel(s.attempted)})? This can't be undone.
                     </span>
                     <button type="button" style={smallButton} disabled={busy} onClick={() => setConfirmId(null)}>
                       Cancel

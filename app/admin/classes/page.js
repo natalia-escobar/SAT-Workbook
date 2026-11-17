@@ -6,6 +6,7 @@ import { createClient as createServiceClient } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/server";
 import { isAdmin } from "@/lib/access";
 import AdminClasses from "@/components/AdminClasses";
+import { fetchAllRows, countQuestionsAttempted } from "@/lib/tutor";
 
 export default async function AdminClassesPage() {
   if (!(await isAdmin())) redirect("/");
@@ -21,7 +22,7 @@ export default async function AdminClassesPage() {
   const owners = all.filter((p) => p.role === "tutor" || p.role === "admin");
   const students = all.filter((p) => p.role === "student");
 
-  // Email and saved-answer count per student, so two accounts with the same name can be
+  // Email and questions-attempted count per student (same count as My students), so two accounts with the same name can be
   // told apart before one is deleted. Uses the service-role key; this page is admin-only
   // (checked above) and the key never reaches the browser.
   const db = createServiceClient(
@@ -29,26 +30,32 @@ export default async function AdminClassesPage() {
     process.env.SUPABASE_SERVICE_ROLE_KEY,
     { auth: { persistSession: false, autoRefreshToken: false } }
   );
-  const [userList, counts] = await Promise.all([
+  const studentIds = students.map((s) => s.id);
+  const [userList, events] = await Promise.all([
     db.auth.admin.listUsers({ page: 1, perPage: 1000 }),
-    Promise.all(
-      students.map(async (s) => {
-        const { count, error: countError } = await db
-          .from("events")
-          .select("*", { count: "exact", head: true })
-          .eq("student_id", s.id);
-        return [s.id, countError ? null : count ?? 0];
-      })
-    ),
+    studentIds.length
+      ? fetchAllRows(() =>
+          db
+            .from("events")
+            .select("student_id, question_id, context")
+            .in("student_id", studentIds)
+            .eq("event_type", "answered")
+            .order("created_at", { ascending: true })
+        )
+      : [],
   ]);
   if (userList.error) console.error("admin/classes emails:", userList.error.message);
   const emailById = new Map((userList.data?.users ?? []).map((u) => [u.id, u.email]));
-  const answersById = new Map(counts);
+  const rowsById = new Map();
+  for (const e of events) {
+    if (!rowsById.has(e.student_id)) rowsById.set(e.student_id, []);
+    rowsById.get(e.student_id).push(e);
+  }
 
   const studentRows = students.map((s) => ({
     ...s,
     email: emailById.get(s.id) ?? null,
-    answers: answersById.get(s.id) ?? null,
+    attempted: countQuestionsAttempted(rowsById.get(s.id) ?? []),
   }));
 
   return (
