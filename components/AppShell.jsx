@@ -171,7 +171,7 @@ export default function AppShell({ children }) {
       <aside className={`app-sidebar ${isAdmin ? "has-tree" : ""}`}>
         <div className="app-sidebar-top">
           <Link href="/" className="app-brand" title="Beck Workbook">
-            <span className="app-brand-full">Beck Workbook</span>
+            <span className="app-brand-full">Beck College Prep</span>
             <span className="app-brand-short">B</span>
           </Link>
           <button
