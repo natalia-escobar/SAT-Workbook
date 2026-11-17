@@ -12,7 +12,8 @@ import { supabase } from "@/lib/db";
 export default function SignupForm() {
   const router = useRouter();
 
-  const [fullName, setFullName] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [classCode, setClassCode] = useState("");
@@ -30,7 +31,13 @@ export default function SignupForm() {
     const res = await fetch("/api/signup", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ fullName: fullName.trim(), email: cleanEmail, password, classCode: classCode.trim() }),
+      body: JSON.stringify({
+        firstName: firstName.trim(),
+        lastName: lastName.trim(),
+        email: cleanEmail,
+        password,
+        classCode: classCode.trim(),
+      }),
     });
     const body = await res.json().catch(() => ({}));
 
@@ -53,17 +60,31 @@ export default function SignupForm() {
 
   return (
     <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-      <label style={labelStyle}>
-        Full name
-        <input
-          type="text"
-          value={fullName}
-          onChange={(e) => setFullName(e.target.value)}
-          required
-          autoComplete="name"
-          style={inputStyle}
-        />
-      </label>
+      <div style={{ display: "flex", gap: 12 }}>
+        <label style={{ ...labelStyle, flex: 1, minWidth: 0 }}>
+          First name
+          <input
+            type="text"
+            value={firstName}
+            onChange={(e) => setFirstName(e.target.value)}
+            required
+            autoComplete="given-name"
+            style={inputStyle}
+          />
+        </label>
+
+        <label style={{ ...labelStyle, flex: 1, minWidth: 0 }}>
+          Last name
+          <input
+            type="text"
+            value={lastName}
+            onChange={(e) => setLastName(e.target.value)}
+            required
+            autoComplete="family-name"
+            style={inputStyle}
+          />
+        </label>
+      </div>
 
       <label style={labelStyle}>
         Email
@@ -126,6 +147,7 @@ const labelStyle = { fontSize: 13, color: "#555", display: "flex", flexDirection
 const inputStyle = {
   display: "block",
   width: "100%",
+  boxSizing: "border-box",
   padding: "10px 12px",
   border: "1.5px solid #e0e0de",
   borderRadius: 8,

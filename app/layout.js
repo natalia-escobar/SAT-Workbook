@@ -1,6 +1,6 @@
 import Script from "next/script";
 import "./globals.css";
-import DesmosCalculator from "@/components/DesmosCalculator";
+import CalculatorGate from "@/components/CalculatorGate";
 import AppShell from "@/components/AppShell";
 
 export const metadata = {
@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
           strategy="beforeInteractive"
         />
         <AppShell>{children}</AppShell>
-        <DesmosCalculator />
+        <CalculatorGate />
       </body>
     </html>
   );

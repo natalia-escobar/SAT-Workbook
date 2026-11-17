@@ -25,12 +25,16 @@ export async function POST(request) {
     return bad("Invalid request.");
   }
 
-  const fullName = String(body.fullName ?? "").trim();
+  const clean = (v) => String(v ?? "").trim().replace(/\s+/g, " ");
+  const firstName = clean(body.firstName);
+  const lastName = clean(body.lastName);
+  const fullName = `${firstName} ${lastName}`;
   const email = String(body.email ?? "").trim().toLowerCase();
   const password = String(body.password ?? "");
   const classCode = String(body.classCode ?? "").trim().toUpperCase();
 
-  if (fullName.length < 2) return bad("Please enter your full name.");
+  if (!firstName) return bad("Please enter your first name.");
+  if (!lastName) return bad("Please enter your last name.");
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return bad("Please enter a valid email.");
   if (password.length < 8) return bad("Password must be at least 8 characters.");
   if (!classCode) return bad("Please enter your class code.");
