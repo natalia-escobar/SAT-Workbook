@@ -704,3 +704,42 @@ details[open] > summary .tutor-chevron { transform: rotate(90deg); }
 .app-switch.inline-switch:hover { background: #fafaf8; }
 .app-switch.inline-switch.on { border-color: #2e7d32; }
 .app-switch.inline-switch .app-switch-label { flex: none; margin-right: 4px; }
+/* ── Admin sidebar: grouped menu (Curriculum / Lessons / Management) ──── */
+
+button.app-nav-group {
+  width: 100%;
+  background: none;
+  border: none;
+  font: inherit;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+}
+.app-nav-group.open { color: #1a1a1a; font-weight: 600; }
+.app-nav-group.open > .ti { color: #1a1a1a; }
+
+.app-nav-link .app-nav-chevron {
+  margin-left: auto;
+  font-size: 14px;
+  color: #bbb;
+  transition: transform .15s;
+}
+.app-nav-group.open > .app-nav-chevron { transform: rotate(90deg); color: #999; }
+
+/* children line up under the parent's label */
+.app-nav-children {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 28px;
+  margin: 2px 0 4px;
+}
+.app-nav-children.nested { padding-left: 14px; }
+.app-nav-link.app-nav-sub,
+button.app-nav-group.app-nav-sub { font-size: 13.5px; padding: 7px 12px; }
+
+/* phones: the grouped menu drops below the top bar as a full-width list */
+@media (max-width: 768px) {
+  .app-sidebar.has-tree { flex-wrap: wrap; }
+  .app-sidebar.has-tree .app-nav-tree { order: 5; width: 100%; flex-direction: column; }
+}
