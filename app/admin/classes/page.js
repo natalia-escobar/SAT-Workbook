@@ -1,5 +1,6 @@
 // app/admin/classes/page.js
-// Admin-only: turn DDCUS on/off per tutor, move students between tutors, and delete students.
+// Admin-only "Tutors" screen: turn DDCUS on/off per tutor, group each tutor's students,
+// move students between tutors, and delete students.
 
 import { redirect } from "next/navigation";
 import { createClient as createServiceClient } from "@supabase/supabase-js";
@@ -31,8 +32,9 @@ export default async function AdminClassesPage() {
     { auth: { persistSession: false, autoRefreshToken: false } }
   );
   const studentIds = students.map((s) => s.id);
-  const [userList, events] = await Promise.all([
+  const [userList, groupList, events] = await Promise.all([
     db.auth.admin.listUsers({ page: 1, perPage: 1000 }),
+    db.from("groups").select("id, name, tutor_id, group_members(student_id)").order("name"),
     studentIds.length
       ? fetchAllRows(() =>
           db
@@ -45,6 +47,13 @@ export default async function AdminClassesPage() {
       : [],
   ]);
   if (userList.error) console.error("admin/classes emails:", userList.error.message);
+  if (groupList.error) console.error("admin/classes groups:", groupList.error.message);
+  const groups = (groupList.data ?? []).map((g) => ({
+    id: g.id,
+    name: g.name,
+    tutor_id: g.tutor_id,
+    studentIds: (g.group_members ?? []).map((m) => m.student_id),
+  }));
   const emailById = new Map((userList.data?.users ?? []).map((u) => [u.id, u.email]));
   const rowsById = new Map();
   for (const e of events) {
@@ -60,8 +69,8 @@ export default async function AdminClassesPage() {
 
   return (
     <main className="page">
-      <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "20px" }}>Classes</h1>
-      <AdminClasses owners={owners} students={studentRows} />
+      <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "20px" }}>Tutors</h1>
+      <AdminClasses owners={owners} students={studentRows} groups={groups} />
     </main>
   );
 }

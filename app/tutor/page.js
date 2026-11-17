@@ -1,5 +1,6 @@
 // app/tutor/page.js — roster.
-// Tutors see their own students. Admins see every student, grouped by tutor.
+// Tutors see their own students, arranged by group. Admins see every student, by tutor
+// and then by group. Groups are created by admins on the Tutors screen.
 import Link from "next/link";
 import { getMyProfile, getMyStudents } from "@/lib/tutor";
 
@@ -62,6 +63,42 @@ function StudentCard({ s }) {
   );
 }
 
+const subhead = { fontSize: 13, fontWeight: 600, color: "#777", margin: "20px 0 0 4px" };
+
+// One tutor's students arranged by group. A student in two groups appears under both.
+// With no groups set up yet, it's the plain list.
+function GroupedStudents({ students }) {
+  const byGroup = new Map();
+  for (const s of students) {
+    for (const g of s.groups ?? []) {
+      if (!byGroup.has(g.id)) byGroup.set(g.id, { id: g.id, name: g.name, students: [] });
+      byGroup.get(g.id).students.push(s);
+    }
+  }
+  if (byGroup.size === 0) return students.map((s) => <StudentCard key={s.id} s={s} />);
+
+  const sections = [...byGroup.values()].sort((a, b) => a.name.localeCompare(b.name));
+  const ungrouped = students.filter((s) => !(s.groups ?? []).length);
+  return (
+    <>
+      {sections.map((g) => (
+        <div key={g.id}>
+          <div style={subhead}>
+            {g.name} · {g.students.length} {g.students.length === 1 ? "student" : "students"}
+          </div>
+          {g.students.map((s) => <StudentCard key={`${g.id}-${s.id}`} s={s} />)}
+        </div>
+      ))}
+      {ungrouped.length > 0 && (
+        <div>
+          <div style={subhead}>Not in a group</div>
+          {ungrouped.map((s) => <StudentCard key={s.id} s={s} />)}
+        </div>
+      )}
+    </>
+  );
+}
+
 export default async function TutorHome() {
   const me = await getMyProfile();
   const students = await getMyStudents(me);
@@ -97,7 +134,7 @@ export default async function TutorHome() {
         </p>
       )}
 
-      {!isAdmin && students.map((s) => <StudentCard key={s.id} s={s} />)}
+      {!isAdmin && <GroupedStudents students={students} />}
       
       {isAdmin &&
         groups.map((g) => (
@@ -138,7 +175,7 @@ export default async function TutorHome() {
               )}
             </summary>
             <div style={{ paddingLeft: 16 }}>
-              {g.students.map((s) => <StudentCard key={s.id} s={s} />)}
+              <GroupedStudents students={g.students} />
             </div>
           </details>
         ))}

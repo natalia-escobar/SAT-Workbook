@@ -10,6 +10,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { supabase, signOut } from "@/lib/db";
 import useShowAnswers, { setShowAnswers } from "@/lib/useShowAnswers";
+import ClassBar from "@/components/ClassSession";
 
 const STORAGE_KEY = "sidebar-collapsed";
 
@@ -236,6 +237,9 @@ export default function AppShell({ children }) {
       </aside>
 
       <div className="app-main">{children}</div>
+
+      {/* tutors/admins: Start class picker + the floating End class bar, on every page */}
+      {isTutor && <ClassBar />}
     </div>
   );
 }

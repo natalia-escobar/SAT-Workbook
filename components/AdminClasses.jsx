@@ -1,11 +1,12 @@
 "use client";
 
 // components/AdminClasses.jsx
-// The admin Classes screen: a DDCUS switch per tutor, and per student a "move to" menu
-// and a Delete button (with a confirmation step).
+// The admin Tutors screen: a DDCUS switch per tutor, groups per tutor (AdminGroups), and
+// per student a "move to" menu and a Delete button (with a confirmation step).
 
 import { useState, useTransition } from "react";
 import { setDdcusAccess, moveStudent, deleteStudent } from "@/app/admin/classes/actions";
+import AdminGroups from "@/components/AdminGroups";
 
 const row = {
   display: "flex",
@@ -83,7 +84,7 @@ function Switch({ on, disabled, onChange, label }) {
   );
 }
 
-export default function AdminClasses({ owners, students }) {
+export default function AdminClasses({ owners, students, groups: studentGroups = [] }) {
   const [pending, startTransition] = useTransition();
   const [busyId, setBusyId] = useState(null);
   const [error, setError] = useState("");
@@ -147,9 +148,12 @@ export default function AdminClasses({ owners, students }) {
         </div>
       ))}
 
+      <AdminGroups owners={owners} students={students} groups={studentGroups} />
+
       <h2 style={sectionTitle}>Students</h2>
       <p style={muted}>
-        Pick a different tutor to move a student. Their DDCUS access follows the new tutor. Deleting a student
+        Pick a different tutor to move a student. Their DDCUS access follows the new tutor, and they leave the
+        old tutor&apos;s groups. Deleting a student
         permanently removes their login, saved answers, and notes.
       </p>
       {groups.length === 0 && <div style={{ ...muted, marginTop: "8px" }}>No students yet.</div>}

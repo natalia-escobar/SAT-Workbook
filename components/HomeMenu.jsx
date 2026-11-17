@@ -5,6 +5,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { StartClassButton } from "@/components/ClassSession";
 
 function Collapsible({ title, defaultOpen, children }) {
   const [open, setOpen] = useState(defaultOpen);
@@ -78,9 +79,11 @@ function Card({ href, title, kind }) {
 export default function HomeMenu({ showDdcus }) {
   return (
     <main className="page">
-      <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: "20px" }}>
-        Practice Workbooks
-      </h1>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "16px", marginBottom: "20px" }}>
+        <h1 style={{ fontSize: "1.6rem", fontWeight: 600 }}>Practice Workbooks</h1>
+        {/* tutors and admins only; students see nothing here */}
+        <StartClassButton />
+      </div>
   
       <Collapsible title="Parabola" defaultOpen={false}>
         <Collapsible title="Equivalent Forms & Evaluating a Function" defaultOpen={false}>
