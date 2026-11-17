@@ -1,7 +1,7 @@
 "use server";
 
 // app/admin/classes/actions.js
-// The two changes an admin can make from /admin/classes. Each one re-checks that the
+// The changes an admin can make from /admin/classes. Each one re-checks that the
 // caller is an admin, then writes with the service-role key (which never reaches the browser).
 
 import { revalidatePath } from "next/cache";
@@ -49,5 +49,40 @@ export async function moveStudent(studentId, newTutorId) {
   if (error) return { ok: false, error: error.message };
 
   revalidatePath("/admin/classes");
+  return { ok: true };
+}
+/** Permanently delete one student: their saved answers, their notes, their profile, and their login. */
+export async function deleteStudent(studentId) {
+  if (!(await isAdmin())) return { ok: false, error: "Admins only." };
+  const db = serviceClient();
+
+  if ((await getRole(db, studentId)) !== "student") {
+    return { ok: false, error: "Only student accounts can be deleted here." };
+  }
+
+  // Answers and notes are stored under the student's id as text, so nothing removes
+  // them automatically. Clear them first, then the profile, then the login itself.
+  for (const table of ["events", "notes"]) {
+    const { error } = await db.from(table).delete().eq("student_id", studentId);
+    if (error) {
+      return { ok: false, error: `Couldn't clear this student's ${table}, so the account was left in place. (${error.message})` };
+    }
+  }
+
+  const { error: profileError } = await db.from("profiles").delete().eq("id", studentId);
+  if (profileError) {
+    return { ok: false, error: `Couldn't remove the profile, so the login was left in place. (${profileError.message})` };
+  }
+
+  const { error: authError } = await db.auth.admin.deleteUser(studentId);
+  if (authError) {
+    return {
+      ok: false,
+      error: `The student's work and profile were removed, but the login itself couldn't be deleted. Remove it in Supabase under Authentication > Users. (${authError.message})`,
+    };
+  }
+
+  revalidatePath("/admin/classes");
+  revalidatePath("/tutor");
   return { ok: true };
 }

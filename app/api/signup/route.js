@@ -44,7 +44,24 @@ export async function POST(request) {
     .maybeSingle();
   if (!tutor) return bad("That class code isn't valid. Check with your tutor.");
 
-  // 2. Create the auth user (auto-confirmed, no verification email).
+  // 2. Stop a second account for the same student: same name, same class.
+  const sameName = (a, b) =>
+    String(a ?? "").trim().replace(/\s+/g, " ").toLowerCase() ===
+    String(b ?? "").trim().replace(/\s+/g, " ").toLowerCase();
+  const { data: classmates, error: classError } = await admin
+    .from("profiles")
+    .select("full_name")
+    .eq("tutor_id", tutor.id)
+    .eq("role", "student");
+  if (classError) {
+    console.error("signup duplicate check failed:", classError.message);
+    return bad("Couldn't create the account. Please try again.", 500);
+  }
+  if ((classmates ?? []).some((c) => sameName(c.full_name, fullName))) {
+    return bad("It looks like you already have an account in this class. Try signing in, or ask your tutor for help.", 409);
+  }
+
+  // 3. Create the auth user (auto-confirmed, no verification email).
   const { data: created, error: createError } = await admin.auth.admin.createUser({
     email,
     password,
@@ -58,7 +75,7 @@ export async function POST(request) {
     return bad(msg, 409);
   }
 
-  // 3. Create the profile, linked to the tutor. Always a student — roles are never self-chosen.
+  // 4. Create the profile, linked to the tutor. Always a student — roles are never self-chosen.
   const { error: profileError } = await admin.from("profiles").upsert({
     id: created.user.id,
     full_name: fullName,
