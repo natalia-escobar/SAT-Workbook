@@ -120,9 +120,25 @@ export default async function TutorHome() {
 
   return (
     <main className="page">
-      <h1 style={{ fontSize: "1.6rem", fontWeight: 600, marginBottom: 4 }}>
-        {isAdmin ? "All students" : "Students"}
-      </h1>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16, marginBottom: 4 }}>
+        <h1 style={{ fontSize: "1.6rem", fontWeight: 600 }}>{isAdmin ? "All students" : "Students"}</h1>
+        <Link
+          href="/tutor/classes"
+          style={{
+            fontSize: 14,
+            padding: "6px 12px",
+            border: "0.5px solid #b0b0ae",
+            borderRadius: 8,
+            background: "#fff",
+            color: "#1a1a1a",
+            textDecoration: "none",
+            whiteSpace: "nowrap",
+          }}
+        >
+          <i className="ti ti-history" style={{ marginRight: 6 }} />
+          Class history
+        </Link>
+      </div>
       <p style={{ color: "#777", fontSize: 14, marginBottom: 24 }}>
         {students.length} {students.length === 1 ? "student" : "students"}
         {isAdmin && groups ? ` · ${groups.filter((g) => g.key !== "none").length} tutors` : ""}
