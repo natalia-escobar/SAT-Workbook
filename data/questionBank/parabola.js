@@ -822,7 +822,7 @@ export const questions = [
     text: `<p>Which of the following is equivalent to</p>
                     <p class="eq">\\((3x - \\frac{1}{2})^2 - (x + \\frac{3}{4}) + 3(x - \\frac{1}{4})\\)?</p>
                     <div class="mc-choices">
-                        <div class="mc-choice">
+                        <div class="mc-choice correct">
                           <span class="mc-label">A</span>
                           <span>\\( 9x^2 - x - \\frac{5}{4} \\)</span>
                         </div>
@@ -830,7 +830,7 @@ export const questions = [
                           <span class="mc-label">B</span>
                           <span>\\( 9x^2 - 3x - \\frac{5}{4} \\)</span>
                         </div>
-                        <div class="mc-choice correct">
+                        <div class="mc-choice">
                           <span class="mc-label">C</span>
                           <span>\\( 9x^2 - x - \\frac{3}{4} \\)</span>
                         </div>
@@ -839,7 +839,7 @@ export const questions = [
                           <span>\\( 9x^2 - 3x - \\frac{3}{4} \\)</span>
                         </div>
                       </div>`,
-    answer: "C",
+    answer: "A",
     graph: null,
     graphChoices: null,
     steps: [],
@@ -1780,7 +1780,7 @@ export const questions = [
     text: `Which of the following expressions is equivalent to
             <p class="eq">\\( 3(5x + 2)^2 - 192 \\)?</p>
             <div class="mc-choices">
-              <div class="mc-choice correct">
+              <div class="mc-choice">
                 <span class="mc-label">A</span>
                 <span>\\( 3(5x - 10)(5x + 6) \\)</span>
               </div>
@@ -1788,7 +1788,7 @@ export const questions = [
                 <span class="mc-label">B</span>
                 <span>\\( 3(5x - 6)(5x - 10) \\)</span>
               </div>
-              <div class="mc-choice">
+              <div class="mc-choice correct">
                 <span class="mc-label">C</span>
                 <span>\\( 3(5x - 6)(5x + 10) \\)</span>
               </div>
@@ -1797,7 +1797,7 @@ export const questions = [
                 <span>\\( 3(5x + 6)(5x + 10) \\)</span>
               </div>
             </div>`,
-    answer: "A",
+    answer: "C",
     graph: null,
     graphChoices: null,
     steps: [],
