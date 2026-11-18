@@ -13150,8 +13150,8 @@ export const questions = [
         bounds: {
             left: -3,
             right: 10,
-            bottom: 0,
-            top: 27
+            bottom: -1,
+            top: 16,
         }
         },
         graphChoices: null,
@@ -13202,8 +13202,8 @@ export const questions = [
         bounds: {
             left: -5,
             right: 10,
-            bottom: -20,
-            top: 5
+            bottom: -11,
+            top: 14,
         }
         },
         graphChoices: null,
@@ -13253,16 +13253,12 @@ export const questions = [
             latex: `y=-4x^2+20x-\\frac{15}{2}`,
             color: "#2563eb"
             },
-            {
-            latex: "(2,-11)",
-            color: "#2563eb"
-            }
         ],
         bounds: {
             left: -5,
             right: 10,
-            bottom: -5,
-            top: 20
+            bottom: -11,
+            top: 11
         }
         },
         graphChoices: null,
@@ -13309,7 +13305,7 @@ export const questions = [
         bounds: {
             left: -4,
             right: 10,
-            bottom: -5,
+            bottom: -2,
             top: 15
         }
         },
@@ -13356,9 +13352,9 @@ export const questions = [
         ],
         bounds: {
             left: -1,
-            right: 10,
-            bottom: -35,
-            top: 2
+            right: 9,
+            bottom: -2,
+            top: 21,
         }
         },
         graphChoices: null,
@@ -13405,8 +13401,8 @@ export const questions = [
         bounds: {
             left: -1,
             right: 5,
-            bottom: -1,
-            top: 18
+            bottom: -11,
+            top: 2,
         }
         },
         graphChoices: null,
@@ -13501,8 +13497,8 @@ export const questions = [
         bounds: {
             left: -2,
             right: 10,
-            bottom: -1,
-            top: 25
+            bottom: -26,
+            top: 2,
         }
         },
         graphChoices: null,
