@@ -12761,8 +12761,8 @@ export const questions = [
         bounds: {
             left: -8,
             right: 8,
-            bottom: 0,
-            top: 24
+            bottom: 9,
+            top: 16,
         }
         },
         graphChoices: null,
@@ -12817,8 +12817,8 @@ export const questions = [
         bounds: {
             left: -8,
             right: 8,
-            bottom: 0,
-            top: 24
+            bottom: 9,
+            top: 16,
         }
         },
         graphChoices: null,
@@ -12876,8 +12876,8 @@ export const questions = [
         bounds: {
             left: -8,
             right: 8,
-            bottom: -28,
-            top: 2
+            bottom: -21,
+            top: -9,
         }
         },
         graphChoices: null,
@@ -12928,8 +12928,8 @@ export const questions = [
         bounds: {
             left: -8,
             right: 8,
-            bottom: -28,
-            top: 2
+            bottom: -21,
+            top: -9,
         }
         },
         graphChoices: null,
@@ -13024,7 +13024,7 @@ export const questions = [
         bounds: {
             left: -3,
             right: 10,
-            bottom: -10,
+            bottom: -1,
             top: 11
         }
         },
@@ -13044,11 +13044,11 @@ export const questions = [
         tags: [],
         text: `<p>According to the graph, what is the value of \\(f(0)\\)?</p>
         <div class="mc-choices">
-            <div class="mc-choice correct">
+            <div class="mc-choice">
             <span class="mc-label">A</span>
             <span>\\( \\frac{15}{2} \\)</span>
             </div>
-            <div class="mc-choice">
+            <div class="mc-choice correct">
             <span class="mc-label">B</span>
             <span>\\( \\frac{17}{2} \\)</span>
             </div>
@@ -13061,7 +13061,7 @@ export const questions = [
             <span>\\( \\frac{21}{2} \\)</span>
             </div>
         </div>`,
-        answer: "A",
+        answer: "B",
         graph: {
         expressions: [
             {
@@ -13072,8 +13072,8 @@ export const questions = [
         bounds: {
             left: -10,
             right: 5,
-            bottom: 0,
-            top: 15
+            bottom: -1,
+            top: 11,
         }
         },
         graphChoices: null,
@@ -13120,8 +13120,8 @@ export const questions = [
         bounds: {
             left: -8,
             right: 8,
-            bottom: -28,
-            top: 2
+            bottom: -21,
+            top: -8,
         }
         },
         graphChoices: null,
