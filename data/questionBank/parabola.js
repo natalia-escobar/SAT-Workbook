@@ -32765,4 +32765,820 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par41862",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 3,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of a quadratic function is shown, and points \\(A\\), \\(B\\), and \\(C\\) lie on the graph. Which equation in standard form represents the graph?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( y = x^2 - 4x - 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = x^2 + 4x - 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = x^2 - 4x + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = -x^2 + 4x + 5 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: {
+      expressions: [
+        { latex: "y = (x-2)^2 - 9", color: "#2563eb" },
+        { latex: "(-1, 0)", color: "#2563eb", label: "A", showLabel: true },
+        { latex: "(2, -9)", color: "#2563eb", label: "B", showLabel: true },
+        { latex: "(5, 0)", color: "#2563eb", label: "C", showLabel: true }
+      ],
+      bounds: { left: -4, right: 8, bottom: -12, top: 6 }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: `Read the three marked points off the graph: \\(A(-1, 0)\\), \\(B(2, -9)\\), \\(C(5, 0)\\)`,
+        note: "",
+        gif: "",
+        answer: "A",
+        video: ""
+      },
+      {
+        text: `The parabola opens upward, so the \\(x^2\\) coefficient is positive; that rules out D. The \\(x\\)-intercepts \\(-1\\) and \\(5\\) mean the equation factors as \\(y = (x + 1)(x - 5)\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Expand: \\(y = x^2 - 4x - 5\\). Confirm in Desmos by graphing choice A and checking it passes through all three points`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par86598",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 3,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of a quadratic function is shown, and points \\(A\\), \\(B\\), and \\(C\\) lie on the graph. Which equation in standard form represents the graph?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = -2x^2 + 4x + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = 2x^2 - 4x - 6 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( y = -2x^2 - 4x + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = -2x^2 - 4x + 8 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "y = -2(x+1)^2 + 8", color: "#2563eb" },
+        { latex: "(-3, 0)", color: "#2563eb", label: "A", showLabel: true },
+        { latex: "(-1, 8)", color: "#2563eb", label: "B", showLabel: true },
+        { latex: "(1, 0)", color: "#2563eb", label: "C", showLabel: true }
+      ],
+      bounds: { left: -6, right: 4, bottom: -6, top: 12 }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: "Read the coordinates of the three marked points from the graph",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Use the direction the parabola opens and the \\(y\\)-intercept (set \\(x = 0\\) in each choice) to eliminate options`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Test the remaining choices with one of the points, or graph them in Desmos over the given points",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par94475",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 3,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of a quadratic function is shown, and points \\(A\\), \\(B\\), and \\(C\\) lie on the graph. Which equation represents the graph?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = x^2 - 6x + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = -x^2 - 6x - 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = x^2 + 6x - 5 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( y = x^2 + 6x + 5 \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 + 6x + 5", color: "#2563eb" },
+        { latex: "(-5, 0)", color: "#2563eb", label: "A", showLabel: true },
+        { latex: "(-3, -4)", color: "#2563eb", label: "B", showLabel: true },
+        { latex: "(-1, 0)", color: "#2563eb", label: "C", showLabel: true }
+      ],
+      bounds: { left: -8, right: 2, bottom: -7, top: 8 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par98613",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 3,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of a quadratic function is shown, and points \\(A\\), \\(B\\), and \\(C\\) lie on the graph. Which equation in standard form represents the graph?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( y = -3x^2 + 12x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = -3x^2 - 12x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = 3x^2 - 12x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = -3x^2 + 12x + 12 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: {
+      expressions: [
+        { latex: "y = -3(x-2)^2 + 12", color: "#2563eb" },
+        { latex: "(0, 0)", color: "#2563eb", label: "A", showLabel: true },
+        { latex: "(2, 12)", color: "#2563eb", label: "B", showLabel: true },
+        { latex: "(4, 0)", color: "#2563eb", label: "C", showLabel: true }
+      ],
+      bounds: { left: -2, right: 6, bottom: -6, top: 16 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par13595",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of a quadratic function is shown, and points \\(A\\), \\(B\\), and \\(C\\) lie on the graph. Which equation represents the graph?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = 2x^2 + 8x + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = -2x^2 + 8x - 6 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( y = 2x^2 - 8x + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = 2x^2 - 8x - 6 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "y = 2x^2 - 8x + 6", color: "#2563eb" },
+        { latex: "(1, 0)", color: "#2563eb", label: "A", showLabel: true },
+        { latex: "(2, -2)", color: "#2563eb", label: "B", showLabel: true },
+        { latex: "(3, 0)", color: "#2563eb", label: "C", showLabel: true }
+      ],
+      bounds: { left: -2, right: 6, bottom: -5, top: 8 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par38312",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of a quadratic function is shown, and points \\(A\\), \\(B\\), and \\(C\\) lie on the graph. Which equation in standard form represents the graph?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( y = 2x^2 + 8x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = 2x^2 - 8x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = -2x^2 - 8x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = 2x^2 + 8x - 8 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: {
+      expressions: [
+        { latex: "y = 2(x+2)^2 - 8", color: "#2563eb" },
+        { latex: "(-4, 0)", color: "#2563eb", label: "A", showLabel: true },
+        { latex: "(-2, -8)", color: "#2563eb", label: "B", showLabel: true },
+        { latex: "(0, 0)", color: "#2563eb", label: "C", showLabel: true }
+      ],
+      bounds: { left: -7, right: 3, bottom: -11, top: 6 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par52178",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of a quadratic function is shown, and points \\(A\\), \\(B\\), and \\(C\\) lie on the graph. Which equation represents the graph?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = x^2 + 2x - 8 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = -x^2 + 2x + 8 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = -x^2 - 2x - 8 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( y = -x^2 - 2x + 8 \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: {
+      expressions: [
+        { latex: "y = -x^2 - 2x + 8", color: "#2563eb" },
+        { latex: "(-4, 0)", color: "#2563eb", label: "A", showLabel: true },
+        { latex: "(-1, 9)", color: "#2563eb", label: "B", showLabel: true },
+        { latex: "(2, 0)", color: "#2563eb", label: "C", showLabel: true }
+      ],
+      bounds: { left: -6, right: 4, bottom: -5, top: 12 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par94677",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 3,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The graph of a quadratic function is shown, and points \\(A\\), \\(B\\), and \\(C\\) lie on the graph. Which equation in standard form represents the graph?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = 3x^2 + 6x - 9 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( y = 3x^2 - 6x - 9 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = -3x^2 + 6x + 9 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = 3x^2 - 6x + 9 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "y = 3(x-1)^2 - 12", color: "#2563eb" },
+        { latex: "(-1, 0)", color: "#2563eb", label: "A", showLabel: true },
+        { latex: "(1, -12)", color: "#2563eb", label: "B", showLabel: true },
+        { latex: "(3, 0)", color: "#2563eb", label: "C", showLabel: true }
+      ],
+      bounds: { left: -4, right: 6, bottom: -15, top: 6 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par16018",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 4,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A wildlife researcher records the number of birds observed in a protected habitat during each year of a study. The graph shows the number of birds observed, \\(B(t)\\), during year \\(t\\) of the study.</p>
+    <p>Which equation best models the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( B(t) = -t^2 + 10t + 31 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( B(t) = t^2 - 10t + 31 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( B(t) = -t^2 + 8t + 31 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( B(t) = -t^2 + 10t + 21 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: {
+      expressions: [
+        { latex: "(1, 39)", color: "#2563eb" },
+        { latex: "(2, 48)", color: "#2563eb" },
+        { latex: "(3, 51)", color: "#2563eb" },
+        { latex: "(4, 56)", color: "#2563eb" },
+        { latex: "(5, 57)", color: "#2563eb" },
+        { latex: "(6, 54)", color: "#2563eb" },
+        { latex: "(7, 53)", color: "#2563eb" },
+        { latex: "(8, 46)", color: "#2563eb" },
+        { latex: "(9, 41)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 10, bottom: 0, top: 65 }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: `Look at the shape: the points rise, peak around \\(t = 5\\), then fall, so the parabola opens downward and the \\(t^2\\) coefficient is negative. That rules out B`,
+        note: "",
+        gif: "",
+        answer: "A",
+        video: ""
+      },
+      {
+        text: `Test one point in the remaining choices. At \\(t = 5\\) the data shows \\(57\\): choice A gives \\(-25 + 50 + 31 = 56\\) ✓, C gives \\(46\\), D gives \\(46\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Confirm in Desmos by typing the points into a table and graphing choice A over them; the curve should pass through or very near every dot`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par42028",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 4,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A company records the average number of minutes required to complete a manufacturing process during the first \\(9\\) months after installing new equipment. The graph shows the time, \\(T(m)\\), in minutes, during month \\(m\\).</p>
+    <p>Which equation best models the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( T(m) = m^2 + 8m + 27 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( T(m) = m^2 - 8m + 27 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( T(m) = -m^2 + 8m + 27 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( T(m) = m^2 - 6m + 27 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "(1, 21)", color: "#2563eb" },
+        { latex: "(2, 14)", color: "#2563eb" },
+        { latex: "(3, 13)", color: "#2563eb" },
+        { latex: "(4, 10)", color: "#2563eb" },
+        { latex: "(5, 13)", color: "#2563eb" },
+        { latex: "(6, 14)", color: "#2563eb" },
+        { latex: "(7, 21)", color: "#2563eb" },
+        { latex: "(8, 26)", color: "#2563eb" },
+        { latex: "(9, 37)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 10, bottom: 0, top: 42 }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: "Decide whether the points open upward or downward and eliminate any choice with the wrong sign on the squared term",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Locate the lowest point on the graph; the vertex of the correct equation should be near it",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Plug one data point into the remaining choices, or graph them in Desmos over the dots, to find the best fit",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par87068",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 4,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A farmer records the amount of fruit, in hundreds of pounds, harvested from a group of trees over several weeks. The graph shows the amount of fruit, \\(F(w)\\), harvested in week \\(w\\).</p>
+    <p>Which equation best models the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( F(w) = -2w^2 + 10w + 25 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( F(w) = 2w^2 - 12w + 25 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( F(w) = -2w^2 + 12w + 25 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( F(w) = -w^2 + 12w + 25 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "(1, 34)", color: "#2563eb" },
+        { latex: "(2, 42)", color: "#2563eb" },
+        { latex: "(3, 42)", color: "#2563eb" },
+        { latex: "(4, 40)", color: "#2563eb" },
+        { latex: "(5, 36)", color: "#2563eb" },
+        { latex: "(6, 24)", color: "#2563eb" },
+        { latex: "(7, 12)", color: "#2563eb" },
+        { latex: "(8, -6)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 9, bottom: -10, top: 48 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par22149",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 4,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>An engineer records the amount of fuel, in gallons, used by a machine at different operating levels. The graph shows the fuel used, \\(F(x)\\), at operating level \\(x\\).</p>
+    <p>Which equation best models the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( F(x) = 2x^2 + 12x + 23 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( F(x) = -2x^2 + 12x + 23 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( F(x) = x^2 - 12x + 23 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( F(x) = 2x^2 - 12x + 23 \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: {
+      expressions: [
+        { latex: "(1, 14)", color: "#2563eb" },
+        { latex: "(2, 6)", color: "#2563eb" },
+        { latex: "(3, 6)", color: "#2563eb" },
+        { latex: "(4, 8)", color: "#2563eb" },
+        { latex: "(5, 12)", color: "#2563eb" },
+        { latex: "(6, 24)", color: "#2563eb" },
+        { latex: "(7, 36)", color: "#2563eb" },
+        { latex: "(8, 56)", color: "#2563eb" },
+        { latex: "(9, 76)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 10, bottom: 0, top: 85 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par81917",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A park manager records the number of visitors, in hundreds, during successive weeks of a seasonal festival. The graph shows the number of visitors, \\(V(w)\\), in week \\(w\\).</p>
+    <p>Which equation best models the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( V(w) = -w^2 + 8w + 45 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( V(w) = w^2 - 8w + 45 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( V(w) = -w^2 + 6w + 45 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( V(w) = -w^2 + 8w + 35 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: {
+      expressions: [
+        { latex: "(1, 51)", color: "#2563eb" },
+        { latex: "(2, 58)", color: "#2563eb" },
+        { latex: "(3, 59)", color: "#2563eb" },
+        { latex: "(4, 62)", color: "#2563eb" },
+        { latex: "(5, 59)", color: "#2563eb" },
+        { latex: "(6, 58)", color: "#2563eb" },
+        { latex: "(7, 51)", color: "#2563eb" },
+        { latex: "(8, 46)", color: "#2563eb" },
+        { latex: "(9, 35)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 10, bottom: 0, top: 70 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par22179",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A technician records the average temperature of a machine during successive hours of a cooling and reheating cycle. The graph shows the temperature, \\(T(h)\\), at hour \\(h\\).</p>
+    <p>Which equation best models the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( T(h) = h^2 + 10h + 34 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( T(h) = -h^2 + 10h + 34 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( T(h) = h^2 - 10h + 34 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( T(h) = h^2 - 8h + 34 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "(1, 26)", color: "#2563eb" },
+        { latex: "(2, 17)", color: "#2563eb" },
+        { latex: "(3, 14)", color: "#2563eb" },
+        { latex: "(4, 9)", color: "#2563eb" },
+        { latex: "(5, 10)", color: "#2563eb" },
+        { latex: "(6, 9)", color: "#2563eb" },
+        { latex: "(7, 14)", color: "#2563eb" },
+        { latex: "(8, 17)", color: "#2563eb" },
+        { latex: "(9, 26)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 10, bottom: 0, top: 32 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par16934",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A business records its weekly sales, in thousands of dollars, during an \\(8\\)-week promotional campaign. The graph shows the sales, \\(S(w)\\), in week \\(w\\).</p>
+    <p>Which equation best models the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( S(w) = -2w^2 + 14w + 19 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( S(w) = -2w^2 + 16w + 19 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( S(w) = 2w^2 - 16w + 19 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( S(w) = -w^2 + 16w + 19 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "(1, 32)", color: "#2563eb" },
+        { latex: "(2, 44)", color: "#2563eb" },
+        { latex: "(3, 48)", color: "#2563eb" },
+        { latex: "(4, 52)", color: "#2563eb" },
+        { latex: "(5, 48)", color: "#2563eb" },
+        { latex: "(6, 44)", color: "#2563eb" },
+        { latex: "(7, 32)", color: "#2563eb" },
+        { latex: "(8, 20)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 9, bottom: 0, top: 60 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par56508",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 4,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A scientist records the concentration of a substance during successive hours of an experiment. The graph shows the concentration, \\(C(h)\\), at hour \\(h\\).</p>
+    <p>Which equation best models the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( C(h) = -2h^2 + 8h + 17 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( C(h) = 2h^2 + 8h + 17 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( C(h) = h^2 - 8h + 17 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( C(h) = 2h^2 - 8h + 17 \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: {
+      expressions: [
+        { latex: "(1, 12)", color: "#2563eb" },
+        { latex: "(2, 8)", color: "#2563eb" },
+        { latex: "(3, 12)", color: "#2563eb" },
+        { latex: "(4, 16)", color: "#2563eb" },
+        { latex: "(5, 28)", color: "#2563eb" },
+        { latex: "(6, 40)", color: "#2563eb" },
+        { latex: "(7, 60)", color: "#2563eb" },
+        { latex: "(8, 80)", color: "#2563eb" },
+        { latex: "(9, 108)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 10, bottom: 0, top: 120 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
 ];
