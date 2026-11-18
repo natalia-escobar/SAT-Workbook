@@ -1,13 +1,20 @@
 "use client";
 
 // components/StudentTimeline.jsx
-// A student's lesson work, newest first, split into blocks: each class (date and time,
-// tagged "In class") and the independent work between classes. Inside a block it reads
-// Topic → Lesson with the score beside it; click a lesson for each question and answer.
-// The filter at the top shows everything, only in-class work, or only independent work.
+// A student's work, newest first, split into blocks: each class (date and time, tagged
+// "In class") and the independent work between classes. Inside a block it reads
+// Topic → Lesson with the score beside it, then any quizzes taken in that stretch.
+// Click a lesson or quiz for each question. The filter shows everything, only in-class
+// work, or only independent work.
+//
+// Used on two pages:
+//   viewer="tutor"    the tutor's page for one student — rows reveal the correct answer.
+//   viewer="student"  the student's own My progress — rows show right/wrong only; the
+//                     correct answer is never shown.
 
 import { useState } from "react";
 import TutorQuestionRow from "@/components/TutorQuestionRow";
+import ProgressQuestionRow from "@/components/ProgressQuestionRow";
 
 const GREEN = "#2e7d32";
 const FILTERS = [
@@ -17,6 +24,7 @@ const FILTERS = [
 ];
 
 const blockCard = { border: "0.5px solid #e0e0de", borderRadius: 10, padding: "14px 20px 16px", marginTop: 12 };
+const heading = { fontSize: 13, fontWeight: 600, color: "#777", textTransform: "capitalize", paddingBottom: 6 };
 const pillFor = (kind) => ({
   fontSize: 12,
   fontWeight: 600,
@@ -27,7 +35,8 @@ const pillFor = (kind) => ({
   whiteSpace: "nowrap",
 });
 
-function Lesson({ lesson }) {
+// One expandable line: title on the left, score on the right, question rows inside.
+function Expandable({ title, score, children }) {
   return (
     <details style={{ borderTop: "0.5px solid #eeeeec" }}>
       <summary
@@ -41,50 +50,99 @@ function Lesson({ lesson }) {
           padding: "10px 0 10px 16px",
         }}
       >
-        <span style={{ fontSize: 15, fontWeight: 600, textTransform: "capitalize" }}>{lesson.title}</span>
-        <span style={{ fontSize: 14, textAlign: "right" }}>
-          <strong>{lesson.correct}</strong>
-          <span style={{ color: "#777" }}> of {lesson.attempted} correct</span>
-          {lesson.total != null && (
-            <span style={{ color: "#aaa" }}> · {lesson.attempted} of {lesson.total} done</span>
-          )}
-        </span>
+        <span style={{ fontSize: 15, fontWeight: 600, textTransform: "capitalize" }}>{title}</span>
+        <span style={{ fontSize: 14, textAlign: "right" }}>{score}</span>
       </summary>
-      <div style={{ margin: "0 0 12px 16px" }}>
-        {lesson.questions.map((qq, i) => (
-          <TutorQuestionRow
-            key={qq.id}
-            question={qq}
-            left={
-              qq.source === "classroom" ? (
-                <span style={{ fontSize: 13, color: "#555" }}>
-                  <strong style={{ marginRight: 10 }}>{i + 1}.</strong>
-                  {qq.type ? `${qq.type}` : ""}
-                  <span style={{ color: "#aaa", marginLeft: 8 }}>{qq.id}</span>
-                </span>
-              ) : (
-                <span style={{ fontSize: 13, color: "#555" }}>
-                  {qq.problem != null ? `Problem ${qq.problem}` : ""}{qq.type ? ` · ${qq.type}` : ""}
-                  <span style={{ color: "#aaa", marginLeft: 8 }}>{qq.id}</span>
-                </span>
-              )
-            }
-            middle={qq.source === "classroom" && qq.answer ? `answered ${qq.answer}` : qq.atLabel}
-          />
-        ))}
-      </div>
+      <div style={{ margin: "0 0 12px 16px" }}>{children}</div>
     </details>
   );
 }
 
-export default function StudentTimeline({ timeline }) {
+function Lesson({ lesson, viewer }) {
+  const student = viewer === "student";
+  const Row = student ? ProgressQuestionRow : TutorQuestionRow;
+  return (
+    <Expandable
+      title={lesson.title}
+      score={
+        <>
+          <strong>{lesson.correct}</strong>
+          <span style={{ color: "#777" }}> of {lesson.attempted} correct</span>
+          {lesson.total != null && <span style={{ color: "#aaa" }}> · {lesson.attempted} of {lesson.total} done</span>}
+        </>
+      }
+    >
+      {lesson.questions.map((qq, i) => {
+        const classroom = qq.source === "classroom";
+        return (
+          <Row
+            key={qq.id}
+            question={qq}
+            left={
+              <span style={{ fontSize: 13, color: "#555" }}>
+                {classroom ? (
+                  <>
+                    <strong style={{ marginRight: 10 }}>{i + 1}.</strong>
+                    {qq.type ?? ""}
+                  </>
+                ) : (
+                  <>
+                    {qq.problem != null ? `Problem ${qq.problem}` : ""}
+                    {qq.type ? ` · ${qq.type}` : ""}
+                  </>
+                )}
+                {!student && <span style={{ color: "#aaa", marginLeft: 8 }}>{qq.id}</span>}
+              </span>
+            }
+            middle={classroom && qq.answer ? `${student ? "you answered" : "answered"} ${qq.answer}` : qq.atLabel}
+          />
+        );
+      })}
+    </Expandable>
+  );
+}
+
+function Quiz({ quiz, viewer }) {
+  const student = viewer === "student";
+  const Row = student ? ProgressQuestionRow : TutorQuestionRow;
+  return (
+    <Expandable
+      title={quiz.title}
+      score={
+        <>
+          <strong>{quiz.score}</strong>
+          <span style={{ color: "#777" }}> of {quiz.total} correct</span>
+          <span style={{ color: "#aaa" }}> · {quiz.takenLabel}</span>
+        </>
+      }
+    >
+      {quiz.questions.map((qq, i) => (
+        <Row
+          key={qq.id}
+          question={qq}
+          left={
+            <>
+              <strong style={{ marginRight: 10 }}>Q{i + 1}</strong>
+              {!student && <span style={{ color: "#777", fontSize: 13 }}>{qq.id}</span>}
+            </>
+          }
+          middle={qq.answered ? `${student ? "you answered" : "answered"} ${qq.answer}` : "no answer"}
+        />
+      ))}
+    </Expandable>
+  );
+}
+
+export default function StudentTimeline({ timeline, viewer = "tutor" }) {
   const [filter, setFilter] = useState("all");
-  const blocks = (timeline ?? []).filter((b) => filter === "all" || b.kind === filter);
+  const all = timeline ?? [];
+  const blocks = all.filter((b) => filter === "all" || b.kind === filter);
+  const student = viewer === "student";
 
   return (
     <section>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16, margin: "32px 0 4px", flexWrap: "wrap" }}>
-        <h2 style={{ fontSize: 15, fontWeight: 600 }}>Lessons</h2>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16, margin: "28px 0 4px", flexWrap: "wrap" }}>
+        <h2 style={{ fontSize: 15, fontWeight: 600 }}>Timeline</h2>
         <div role="group" aria-label="Show" style={{ display: "flex", gap: 6 }}>
           {FILTERS.map((f) => {
             const on = filter === f.id;
@@ -113,8 +171,12 @@ export default function StudentTimeline({ timeline }) {
         </div>
       </div>
 
-      {(timeline ?? []).length === 0 && <p style={{ color: "#777", fontSize: 14 }}>No lesson activity yet.</p>}
-      {(timeline ?? []).length > 0 && blocks.length === 0 && (
+      {all.length === 0 && (
+        <p style={{ color: "#777", fontSize: 14 }}>
+          {student ? "You haven't answered any questions yet." : "No activity yet."}
+        </p>
+      )}
+      {all.length > 0 && blocks.length === 0 && (
         <p style={{ color: "#777", fontSize: 14 }}>
           {filter === "class" ? "No in-class work recorded yet." : "No independent work recorded yet."}
         </p>
@@ -131,12 +193,17 @@ export default function StudentTimeline({ timeline }) {
 
           {block.topics.map((topic) => (
             <div key={topic.name} style={{ marginTop: 12 }}>
-              <div style={{ fontSize: 13, fontWeight: 600, color: "#777", textTransform: "capitalize", paddingBottom: 6 }}>
-                {topic.name}
-              </div>
-              {topic.lessons.map((lesson) => <Lesson key={lesson.key} lesson={lesson} />)}
+              <div style={heading}>{topic.name}</div>
+              {topic.lessons.map((lesson) => <Lesson key={lesson.key} lesson={lesson} viewer={viewer} />)}
             </div>
           ))}
+
+          {(block.quizzes ?? []).length > 0 && (
+            <div style={{ marginTop: 12 }}>
+              <div style={heading}>Quizzes</div>
+              {block.quizzes.map((quiz) => <Quiz key={quiz.key} quiz={quiz} viewer={viewer} />)}
+            </div>
+          )}
         </div>
       ))}
     </section>
