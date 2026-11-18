@@ -31923,4 +31923,846 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par78202",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 1,
+    questionType: "WE",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = x(3x - 5) + 7. \\)</p>
+    <p>Which table gives four values of \\(x\\) and their corresponding values of \\(f(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td></tr>
+          <tr><td>\\(f(x)\\)</td><td>\\(19\\)</td><td>\\(9\\)</td><td>\\(7\\)</td><td>\\(5\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td></tr>
+          <tr><td>\\(f(x)\\)</td><td>\\(29\\)</td><td>\\(15\\)</td><td>\\(7\\)</td><td>\\(5\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td></tr>
+          <tr><td>\\(f(x)\\)</td><td>\\(29\\)</td><td>\\(15\\)</td><td>\\(0\\)</td><td>\\(-2\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td></tr>
+          <tr><td>\\(f(x)\\)</td><td>\\(-29\\)</td><td>\\(-15\\)</td><td>\\(7\\)</td><td>\\(5\\)</td></tr>
+        </table>
+        </span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare \\(f(x) = x(3x - 5) + 7\\) in Desmos, then type "table" and enter the \\(x\\)-values \\(-2, -1, 0, 1\\) with \\(f(x)\\) as the second column`,
+        note: "",
+        gif: "",
+        answer: "B",
+        video: ""
+      },
+      {
+        text: `Desmos returns \\(29, 15, 7, 5\\). A quick check by hand: \\(f(0) = 7\\) rules out C, and \\(f(-2) = -2(-11) + 7 = 29\\) rules out A and D`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Match the full row to the table in choice B`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par29964",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 1,
+    questionType: "GP",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = 2x(x + 4) - 3. \\)</p>
+    <p>Which table gives four values of \\(x\\) and their corresponding values of \\(g(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(g(x)\\)</td><td>\\(-7\\)</td><td>\\(-3\\)</td><td>\\(7\\)</td><td>\\(21\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(g(x)\\)</td><td>\\(-9\\)</td><td>\\(0\\)</td><td>\\(10\\)</td><td>\\(24\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(g(x)\\)</td><td>\\(9\\)</td><td>\\(-3\\)</td><td>\\(7\\)</td><td>\\(21\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(g(x)\\)</td><td>\\(-9\\)</td><td>\\(-3\\)</td><td>\\(7\\)</td><td>\\(21\\)</td></tr>
+        </table>
+        </span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Declare \\(g(x)\\) in Desmos and open a table with the \\(x\\)-values from the answer choices`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Compare the \\(g(x)\\) column Desmos produces against each choice; start with \\(g(0)\\), the easiest value to check`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Pick the one table where all four values match",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par48675",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 1,
+    questionType: "PR",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The function \\(h\\) is defined by</p>
+    <p class="eq">
+      \\( h(x) = 3x(2x - 1) + 4. \\)</p>
+    <p>Which table gives four values of \\(x\\) and their corresponding values of \\(h(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(h(x)\\)</td><td>\\(34\\)</td><td>\\(13\\)</td><td>\\(7\\)</td><td>\\(22\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(h(x)\\)</td><td>\\(30\\)</td><td>\\(9\\)</td><td>\\(3\\)</td><td>\\(18\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(h(x)\\)</td><td>\\(-34\\)</td><td>\\(-13\\)</td><td>\\(7\\)</td><td>\\(22\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(h(x)\\)</td><td>\\(34\\)</td><td>\\(13\\)</td><td>\\(5\\)</td><td>\\(16\\)</td></tr>
+        </table>
+        </span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par13008",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 1,
+    questionType: "PR",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The function \\(p\\) is defined by</p>
+    <p class="eq">
+      \\( p(x) = 4x(x - 3) + 5. \\)</p>
+    <p>Which table gives four values of \\(x\\) and their corresponding values of \\(p(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(4\\)</td></tr>
+          <tr><td>\\(p(x)\\)</td><td>\\(16\\)</td><td>\\(5\\)</td><td>\\(-8\\)</td><td>\\(16\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(4\\)</td></tr>
+          <tr><td>\\(p(x)\\)</td><td>\\(-21\\)</td><td>\\(5\\)</td><td>\\(3\\)</td><td>\\(21\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(4\\)</td></tr>
+          <tr><td>\\(p(x)\\)</td><td>\\(21\\)</td><td>\\(5\\)</td><td>\\(-3\\)</td><td>\\(21\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(4\\)</td></tr>
+          <tr><td>\\(p(x)\\)</td><td>\\(21\\)</td><td>\\(0\\)</td><td>\\(-8\\)</td><td>\\(16\\)</td></tr>
+        </table>
+        </span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par78723",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The function \\(q\\) is defined by</p>
+    <p class="eq">
+      \\( q(x) = 2x(2x - 3) + 5. \\)</p>
+    <p>Which table gives four values of \\(x\\) and their corresponding values of \\(q(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(q(x)\\)</td><td>\\(33\\)</td><td>\\(15\\)</td><td>\\(5\\)</td><td>\\(9\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(q(x)\\)</td><td>\\(25\\)</td><td>\\(11\\)</td><td>\\(5\\)</td><td>\\(13\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(q(x)\\)</td><td>\\(-33\\)</td><td>\\(-15\\)</td><td>\\(5\\)</td><td>\\(9\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(q(x)\\)</td><td>\\(33\\)</td><td>\\(15\\)</td><td>\\(0\\)</td><td>\\(4\\)</td></tr>
+        </table>
+        </span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par35134",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The function \\(r\\) is defined by</p>
+    <p class="eq">
+      \\( r(x) = 3x(x + 2) - 4. \\)</p>
+    <p>Which table gives four values of \\(x\\) and their corresponding values of \\(r(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(3\\)</td></tr>
+          <tr><td>\\(r(x)\\)</td><td>\\(4\\)</td><td>\\(-4\\)</td><td>\\(5\\)</td><td>\\(41\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(3\\)</td></tr>
+          <tr><td>\\(r(x)\\)</td><td>\\(-4\\)</td><td>\\(0\\)</td><td>\\(9\\)</td><td>\\(45\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(3\\)</td></tr>
+          <tr><td>\\(r(x)\\)</td><td>\\(-4\\)</td><td>\\(-4\\)</td><td>\\(5\\)</td><td>\\(41\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(3\\)</td></tr>
+          <tr><td>\\(r(x)\\)</td><td>\\(-4\\)</td><td>\\(-4\\)</td><td>\\(1\\)</td><td>\\(35\\)</td></tr>
+        </table>
+        </span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par93416",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The function \\(s\\) is defined by</p>
+    <p class="eq">
+      \\( s(x) = x(4x + 1) + 6. \\)</p>
+    <p>Which table gives four values of \\(x\\) and their corresponding values of \\(s(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(3\\)</td></tr>
+          <tr><td>\\(s(x)\\)</td><td>\\(-9\\)</td><td>\\(6\\)</td><td>\\(24\\)</td><td>\\(45\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(3\\)</td></tr>
+          <tr><td>\\(s(x)\\)</td><td>\\(9\\)</td><td>\\(0\\)</td><td>\\(18\\)</td><td>\\(39\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(3\\)</td></tr>
+          <tr><td>\\(s(x)\\)</td><td>\\(9\\)</td><td>\\(6\\)</td><td>\\(22\\)</td><td>\\(42\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(3\\)</td></tr>
+          <tr><td>\\(s(x)\\)</td><td>\\(9\\)</td><td>\\(6\\)</td><td>\\(24\\)</td><td>\\(45\\)</td></tr>
+        </table>
+        </span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par73422",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p>The function \\(t\\) is defined by</p>
+    <p class="eq">
+      \\( t(x) = 2x(3x - 2) - 7. \\)</p>
+    <p>Which table gives four values of \\(x\\) and their corresponding values of \\(t(x)\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(t(x)\\)</td><td>\\(3\\)</td><td>\\(-7\\)</td><td>\\(-5\\)</td><td>\\(9\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(t(x)\\)</td><td>\\(-3\\)</td><td>\\(-7\\)</td><td>\\(5\\)</td><td>\\(9\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(t(x)\\)</td><td>\\(3\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(16\\)</td></tr>
+        </table>
+        </span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>
+        <table class="xy-table">
+          <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td></tr>
+          <tr><td>\\(t(x)\\)</td><td>\\(7\\)</td><td>\\(-7\\)</td><td>\\(-3\\)</td><td>\\(13\\)</td></tr>
+        </table>
+        </span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par34466",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 2,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Points \\(A\\), \\(B\\), and \\(C\\) lie on the graph of the same quadratic function.</p>
+    <p>Point \\(A\\) is \\((-2, 5)\\). The \\(x\\)-coordinate of Point \\(B\\) is <strong>\\(2\\) greater</strong> and the \\(y\\)-coordinate is <strong>\\(8\\) less</strong> than those of Point \\(A\\). The \\(x\\)- and \\(y\\)-coordinates of Point \\(C\\) are each <strong>\\(4\\) and \\(8\\) greater</strong>, respectively, than those of Point \\(B\\).</p>
+    <p>Which equation represents the quadratic function?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( y = x^2 - 2x - 3 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = x^2 + 2x - 3 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = 2x^2 - 2x - 3 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = -x^2 + 2x + 3 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Translate the words into points: \\(A = (-2, 5)\\), \\(B = (-2 + 2,\\ 5 - 8) = (0, -3)\\), \\(C = (0 + 4,\\ -3 + 8) = (4, 5)\\)`,
+        note: "",
+        gif: "",
+        answer: "A",
+        video: ""
+      },
+      {
+        text: `Use the easy point first: \\(B = (0, -3)\\) is the \\(y\\)-intercept, so the constant term must be \\(-3\\). That rules out D`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Test \\(A\\) in the remaining choices, or type all three points into Desmos and graph each choice to see which passes through them: \\(y = x^2 - 2x - 3\\) gives \\(4 + 4 - 3 = 5\\) at \\(x = -2\\) ✓`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par12500",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 2,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Points \\(A\\), \\(B\\), and \\(C\\) lie on the graph of the same quadratic function.</p>
+    <p>Point \\(A\\) is \\((-1, 0)\\). The \\(x\\)- and \\(y\\)-coordinates of Point \\(B\\) are <strong>\\(3\\) and \\(9\\) greater</strong>, respectively, than those of Point \\(A\\). The \\(x\\)-coordinate of Point \\(C\\) is <strong>\\(2\\) greater</strong> and the \\(y\\)-coordinate is <strong>\\(4\\) less</strong> than those of Point \\(B\\).</p>
+    <p>Which equation represents the quadratic function?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = -x^2 - 4x + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = x^2 - 4x - 5 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( y = -x^2 + 4x + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = -2x^2 + 4x + 5 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Write out the coordinates of \\(B\\) and \\(C\\) by applying each shift to the previous point`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Type the three points into Desmos as a table, then graph each answer choice",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Choose the equation whose parabola passes through all three points",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par67250",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 2,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Points \\(A\\), \\(B\\), and \\(C\\) lie on the graph of the same quadratic function.</p>
+    <p>Point \\(A\\) is \\((-2, 0)\\). Point \\(B\\) has an \\(x\\)-coordinate <strong>\\(1\\) greater</strong> and a \\(y\\)-coordinate <strong>\\(4\\) less</strong> than Point \\(A\\). Point \\(C\\) has an \\(x\\)-coordinate <strong>\\(3\\) greater</strong> and a \\(y\\)-coordinate <strong>\\(12\\) greater</strong> than Point \\(B\\).</p>
+    <p>Which equation represents the quadratic function?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = 2x^2 - 2x - 4 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( y = 2x^2 + 2x - 4 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = x^2 + 2x - 4 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = -2x^2 + 2x + 4 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par83417",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 2,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Points \\(A\\), \\(B\\), and \\(C\\) lie on the graph of the same quadratic function.</p>
+    <p>Point \\(A\\) is \\((-3, 0)\\). Point \\(B\\) is formed by increasing the \\(x\\)-coordinate of Point \\(A\\) by \\(2\\) and increasing its \\(y\\)-coordinate by \\(8\\). Point \\(C\\) is formed by increasing the \\(x\\)-coordinate of Point \\(B\\) by \\(3\\) and decreasing its \\(y\\)-coordinate by \\(18\\).</p>
+    <p>Which equation represents the quadratic function?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = -2x^2 + 4x + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = 2x^2 - 4x - 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = -x^2 - 4x + 6 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( y = -2x^2 - 4x + 6 \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par28215",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Points \\(A\\), \\(B\\), and \\(C\\) lie on the graph of the same quadratic function.</p>
+    <p>Point \\(A\\) is \\((-4, -3)\\). The \\(x\\)- and \\(y\\)-coordinates of Point \\(B\\) are each <strong>\\(3\\) greater</strong> than those of Point \\(A\\). From Point \\(B\\) to Point \\(C\\), the \\(x\\)-coordinate increases by \\(2\\) and the \\(y\\)-coordinate increases by \\(12\\).</p>
+    <p>Which equation represents the quadratic function?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( y = x^2 + 6x + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = x^2 - 6x + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = 2x^2 + 6x + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = -x^2 - 6x - 5 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par49388",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Points \\(A\\), \\(B\\), and \\(C\\) lie on the graph of the same quadratic function.</p>
+    <p>Point \\(A\\) is \\((-3, 5)\\). Point \\(B\\) has an \\(x\\)-coordinate <strong>\\(2\\) greater</strong> and a \\(y\\)-coordinate <strong>\\(4\\) greater</strong> than Point \\(A\\). Point \\(C\\) has an \\(x\\)-coordinate <strong>\\(4\\) greater</strong> and a \\(y\\)-coordinate <strong>\\(16\\) less</strong> than Point \\(B\\).</p>
+    <p>Which equation represents the quadratic function?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = -x^2 + 2x + 8 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = x^2 + 2x - 8 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( y = -x^2 - 2x + 8 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = -2x^2 - 2x + 8 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par48837",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Points \\(A\\), \\(B\\), and \\(C\\) lie on the graph of the same quadratic function.</p>
+    <p>Point \\(A\\) is \\((0, 3)\\). Point \\(B\\) is formed by increasing the \\(x\\)-coordinate of Point \\(A\\) by \\(2\\) and decreasing its \\(y\\)-coordinate by \\(8\\). Point \\(C\\) is formed by increasing the \\(x\\)-coordinate of Point \\(B\\) by \\(3\\) and increasing its \\(y\\)-coordinate by \\(18\\).</p>
+    <p>Which equation represents the quadratic function?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = 2x^2 + 8x + 3 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = -2x^2 + 8x + 3 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = x^2 - 8x + 3 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( y = 2x^2 - 8x + 3 \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par29829",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 2,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>Points \\(A\\), \\(B\\), and \\(C\\) lie on the graph of the same quadratic function.</p>
+    <p>Point \\(A\\) is \\((1, 3)\\). The \\(x\\)- and \\(y\\)-coordinates of Point \\(B\\) are <strong>\\(2\\) and \\(8\\) greater</strong>, respectively, than those of Point \\(A\\). The \\(x\\)-coordinate of Point \\(C\\) is <strong>\\(2\\) greater</strong> and the \\(y\\)-coordinate is <strong>\\(8\\) less</strong> than those of Point \\(B\\).</p>
+    <p>Which equation represents the quadratic function?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = -2x^2 - 12x - 7 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = 2x^2 - 12x + 7 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( y = -2x^2 + 12x - 7 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = -x^2 + 12x - 7 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
 ];
