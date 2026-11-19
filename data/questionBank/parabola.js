@@ -33581,4 +33581,1263 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par99508",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 5,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A researcher records the height of a plant during several weeks of growth. The graph shows the height, \\(y\\), after \\(x\\) weeks.</p>
+    <p>Which equation is the most appropriate quadratic model for the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = 0.25x^2 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( y = \\frac{1}{2}x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = 0.75x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = \\frac{5}{4}x^2 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "(1, 0.5)", color: "#2563eb" },
+        { latex: "(2, 2.2)", color: "#2563eb" },
+        { latex: "(3, 4.5)", color: "#2563eb" },
+        { latex: "(4, 7.7)", color: "#2563eb" },
+        { latex: "(5, 12.8)", color: "#2563eb" },
+        { latex: "(6, 17.6)", color: "#2563eb" },
+        { latex: "(7, 24.5)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 8, bottom: 0, top: 28 }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: `Every choice has the form \\(y = ax^2\\), so pick one clean point and solve for \\(a\\). The point \\((7, 24.5)\\) gives \\(a = \\frac{24.5}{49} = 0.5\\)`,
+        note: "",
+        gif: "",
+        answer: "B",
+        video: ""
+      },
+      {
+        text: `Check a second point to be safe: at \\(x = 4\\), \\(0.5(16) = 8\\), close to the plotted \\(7.7\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `\\(0.5 = \\frac{1}{2}\\), so the answer is B. Confirm in Desmos by graphing \\(y = \\frac{1}{2}x^2\\) over the points`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par59586",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 5,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A test vehicle accelerates from rest. The graph shows its distance, \\(y\\), from its starting position at time \\(x\\).</p>
+    <p>Which equation is the most appropriate quadratic model for the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = \\frac{1}{4}x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = 0.5x^2 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( y = \\frac{3}{4}x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = 1.5x^2 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "(1, 0.9)", color: "#2563eb" },
+        { latex: "(2, 3)", color: "#2563eb" },
+        { latex: "(3, 6.5)", color: "#2563eb" },
+        { latex: "(4, 12)", color: "#2563eb" },
+        { latex: "(5, 19.1)", color: "#2563eb" },
+        { latex: "(6, 26.7)", color: "#2563eb" },
+        { latex: "(7, 36.75)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 8, bottom: 0, top: 42 }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: `All choices are \\(y = ax^2\\); choose a point from the graph with a clean \\(x\\)-value and solve for \\(a\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Convert any fractions in the choices to decimals so they can be compared directly",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Check a second point against your choice, or graph it in Desmos over the dots",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par24256",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 5,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A scientist measures the area covered by a bacterial colony over several days. The graph shows the area, \\(y\\), on day \\(x\\).</p>
+    <p>Which equation best models the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = 0.2x^2 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( y = \\frac{2}{5}x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = 0.8x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = \\frac{6}{5}x^2 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "(1, 0.4)", color: "#2563eb" },
+        { latex: "(2, 1.8)", color: "#2563eb" },
+        { latex: "(3, 3.4)", color: "#2563eb" },
+        { latex: "(4, 6.4)", color: "#2563eb" },
+        { latex: "(5, 10.3)", color: "#2563eb" },
+        { latex: "(6, 14.1)", color: "#2563eb" },
+        { latex: "(7, 19.6)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 8, bottom: 0, top: 23 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par60519",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 5,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A machine's cumulative energy use is recorded during several hours of operation. The graph shows the energy used, \\(y\\), after \\(x\\) hours.</p>
+    <p>Which equation is the most appropriate quadratic model?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = 0.6x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = \\frac{4}{5}x^2 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( y = 1.2x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = \\frac{8}{5}x^2 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "(1, 1.4)", color: "#2563eb" },
+        { latex: "(2, 4.8)", color: "#2563eb" },
+        { latex: "(3, 10.5)", color: "#2563eb" },
+        { latex: "(4, 19.6)", color: "#2563eb" },
+        { latex: "(5, 30)", color: "#2563eb" },
+        { latex: "(6, 42.8)", color: "#2563eb" },
+        { latex: "(7, 58.8)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 8, bottom: 0, top: 65 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par20496",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A researcher records the distance traveled by a small robotic vehicle during a motion experiment. The graph shows the distance, \\(y\\), at time \\(x\\).</p>
+    <p>Which equation best models the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = 0.375x^2 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( y = \\frac{5}{8}x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = 1.25x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = \\frac{15}{8}x^2 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "(1, 0.8)", color: "#2563eb" },
+        { latex: "(2, 2.5)", color: "#2563eb" },
+        { latex: "(3, 5.4)", color: "#2563eb" },
+        { latex: "(4, 10)", color: "#2563eb" },
+        { latex: "(5, 15.9)", color: "#2563eb" },
+        { latex: "(6, 22.2)", color: "#2563eb" },
+        { latex: "(7, 30.625)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 8, bottom: 0, top: 35 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par60763",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A cyclist's distance from a starting line is recorded during an acceleration test. The graph shows the distance, \\(y\\), at time \\(x\\).</p>
+    <p>Which equation is the most appropriate quadratic model?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = 0.875x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = \\frac{5}{4}x^2 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( y = 1.75x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = \\frac{9}{4}x^2 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "(1, 1.75)", color: "#2563eb" },
+        { latex: "(2, 7.3)", color: "#2563eb" },
+        { latex: "(3, 15.75)", color: "#2563eb" },
+        { latex: "(4, 27.6)", color: "#2563eb" },
+        { latex: "(5, 44.1)", color: "#2563eb" },
+        { latex: "(6, 63)", color: "#2563eb" },
+        { latex: "(7, 85.3)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 8, bottom: 0, top: 95 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par79119",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A researcher measures the area of a circular stain as it spreads over time. The graph shows the area, \\(y\\), at time \\(x\\).</p>
+    <p>Which equation best models the data?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = \\frac{1}{8}x^2 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( y = 0.25x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( y = \\frac{1}{2}x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = 0.75x^2 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: {
+      expressions: [
+        { latex: "(1, 0.4)", color: "#2563eb" },
+        { latex: "(2, 1)", color: "#2563eb" },
+        { latex: "(3, 2.1)", color: "#2563eb" },
+        { latex: "(4, 4)", color: "#2563eb" },
+        { latex: "(5, 6.5)", color: "#2563eb" },
+        { latex: "(6, 8.7)", color: "#2563eb" },
+        { latex: "(7, 12.25)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 8, bottom: 0, top: 14 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par37177",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 5,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>A delivery drone's distance from its launch point is recorded during the first several seconds of flight. The graph shows the distance, \\(y\\), at time \\(x\\).</p>
+    <p>Which equation is the most appropriate quadratic model?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( y = 0.75x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( y = \\frac{5}{4}x^2 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( y = 1.5x^2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( y = \\frac{9}{4}x^2 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: {
+      expressions: [
+        { latex: "(1, 1.5)", color: "#2563eb" },
+        { latex: "(2, 6.3)", color: "#2563eb" },
+        { latex: "(3, 13.2)", color: "#2563eb" },
+        { latex: "(4, 24)", color: "#2563eb" },
+        { latex: "(5, 37.9)", color: "#2563eb" },
+        { latex: "(6, 53.6)", color: "#2563eb" },
+        { latex: "(7, 73.5)", color: "#2563eb" }
+      ],
+      bounds: { left: 0, right: 8, bottom: 0, top: 80 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par80534",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 6,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>For the quadratic function \\(f\\), the table shows some values of \\(x\\) and their corresponding values of \\(f(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td><td>\\(3\\)</td></tr>
+      <tr><td>\\(f(x)\\)</td><td>\\(0\\)</td><td>\\(-3\\)</td><td>\\(-4\\)</td><td>\\(-3\\)</td><td>\\(0\\)</td></tr>
+    </table>
+    <p>Which of the following graphs could be the graph of \\(y = f(x)\\)?</p>`,
+    answer: "A",
+    graph: null,
+    graphChoices: [
+      {
+        label: "A",
+        correct: true,
+        graph: {
+          expressions: [{ id: "1", latex: "y = (x-1)^2 - 4", color: "#2563eb" }],
+          bounds: { left: -6, right: 6, bottom: -6, top: 8 }
+        }
+      },
+      {
+        label: "B",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = (x+1)^2 - 4", color: "#2563eb" }],
+          bounds: { left: -6, right: 6, bottom: -6, top: 8 }
+        }
+      },
+      {
+        label: "C",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = (x-1)(x-3)", color: "#2563eb" }],
+          bounds: { left: -6, right: 6, bottom: -6, top: 8 }
+        }
+      },
+      {
+        label: "D",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -x^2 + 2x + 3", color: "#2563eb" }],
+          bounds: { left: -6, right: 6, bottom: -6, top: 8 }
+        }
+      }
+    ],
+    steps: [
+      {
+        text: `Read the key features from the table: the lowest value is \\(f(1) = -4\\), so the vertex is \\((1, -4)\\) and the parabola opens upward. The zeros are \\(x = -1\\) and \\(x = 3\\)`,
+        note: "",
+        gif: "",
+        answer: "A",
+        video: ""
+      },
+      {
+        text: `Eliminate graphs that don't match: D opens downward; B has its vertex at \\(x = -1\\); C crosses the \\(x\\)-axis at \\(1\\) and \\(3\\), not \\(-1\\) and \\(3\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Graph A has vertex \\((1, -4)\\) and zeros at \\(-1\\) and \\(3\\). Confirm in Desmos by typing the table and graphing \\(y = (x - 1)^2 - 4\\) over it`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par91871",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 6,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>For the quadratic function \\(g\\), the table shows some values of \\(x\\) and their corresponding values of \\(g(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-4\\)</td><td>\\(-3\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td></tr>
+      <tr><td>\\(g(x)\\)</td><td>\\(-3\\)</td><td>\\(3\\)</td><td>\\(5\\)</td><td>\\(3\\)</td><td>\\(-3\\)</td></tr>
+    </table>
+    <p>Which of the following graphs could be the graph of \\(y = g(x)\\)?</p>`,
+    answer: "C",
+    graph: null,
+    graphChoices: [
+      {
+        label: "A",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = 2(x+2)^2 - 5", color: "#2563eb" }],
+          bounds: { left: -7, right: 7, bottom: -7, top: 8 }
+        }
+      },
+      {
+        label: "B",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -2(x-2)^2 + 5", color: "#2563eb" }],
+          bounds: { left: -7, right: 7, bottom: -7, top: 8 }
+        }
+      },
+      {
+        label: "C",
+        correct: true,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -2x^2 - 8x - 3", color: "#2563eb" }],
+          bounds: { left: -7, right: 7, bottom: -7, top: 8 }
+        }
+      },
+      {
+        label: "D",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -(x+4)x", color: "#2563eb" }],
+          bounds: { left: -7, right: 7, bottom: -7, top: 8 }
+        }
+      }
+    ],
+    steps: [
+      {
+        text: "Find the vertex from the table (the highest or lowest value) and note whether the parabola opens up or down",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Check the \\(y\\)-intercept: the table gives \\(g(0)\\), so the correct graph must cross the \\(y\\)-axis there`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Pick the graph whose vertex, direction, and intercept all match; confirm in Desmos by plotting the table points",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par56507",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 6,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>For the quadratic function \\(h\\), the table shows some values of \\(x\\) and their corresponding values of \\(h(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(4\\)</td></tr>
+      <tr><td>\\(h(x)\\)</td><td>\\(5\\)</td><td>\\(0\\)</td><td>\\(-3\\)</td><td>\\(-3\\)</td><td>\\(5\\)</td></tr>
+    </table>
+    <p>Which of the following graphs could be the graph of \\(y = h(x)\\)?</p>`,
+    answer: "A",
+    graph: null,
+    graphChoices: [
+      {
+        label: "A",
+        correct: true,
+        graph: {
+          expressions: [{ id: "1", latex: "y = (x+1)(x-3)", color: "#2563eb" }],
+          bounds: { left: -6, right: 8, bottom: -6, top: 8 }
+        }
+      },
+      {
+        label: "B",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = (x-1)^2 - 3", color: "#2563eb" }],
+          bounds: { left: -6, right: 8, bottom: -6, top: 8 }
+        }
+      },
+      {
+        label: "C",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = x^2 - 2x - 5", color: "#2563eb" }],
+          bounds: { left: -6, right: 8, bottom: -6, top: 8 }
+        }
+      },
+      {
+        label: "D",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -(x+1)(x-3)", color: "#2563eb" }],
+          bounds: { left: -6, right: 8, bottom: -6, top: 8 }
+        }
+      }
+    ],
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par83299",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 6,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>For the quadratic function \\(p\\), the table shows some values of \\(x\\) and their corresponding values of \\(p(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td><td>\\(3\\)</td><td>\\(4\\)</td></tr>
+      <tr><td>\\(p(x)\\)</td><td>\\(5\\)</td><td>\\(-1\\)</td><td>\\(-3\\)</td><td>\\(-1\\)</td><td>\\(5\\)</td></tr>
+    </table>
+    <p>Which of the following graphs could be the graph of \\(y = p(x)\\)?</p>`,
+    answer: "D",
+    graph: null,
+    graphChoices: [
+      {
+        label: "A",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = 2(x+2)^2 - 3", color: "#2563eb" }],
+          bounds: { left: -6, right: 6, bottom: -5, top: 8 }
+        }
+      },
+      {
+        label: "B",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = x^2 - 4x + 5", color: "#2563eb" }],
+          bounds: { left: -6, right: 6, bottom: -5, top: 8 }
+        }
+      },
+      {
+        label: "C",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = 2(x-2)^2 + 3", color: "#2563eb" }],
+          bounds: { left: -6, right: 6, bottom: -5, top: 8 }
+        }
+      },
+      {
+        label: "D",
+        correct: true,
+        graph: {
+          expressions: [{ id: "1", latex: "y = 2(x-2)^2 - 3", color: "#2563eb" }],
+          bounds: { left: -6, right: 6, bottom: -5, top: 8 }
+        }
+      }
+    ],
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par62714",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>For the quadratic function \\(q\\), the table shows some values of \\(x\\) and their corresponding values of \\(q(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td><td>\\(4\\)</td><td>\\(5\\)</td></tr>
+      <tr><td>\\(q(x)\\)</td><td>\\(-5\\)</td><td>\\(0\\)</td><td>\\(3\\)</td><td>\\(3\\)</td><td>\\(0\\)</td></tr>
+    </table>
+    <p>Which of the following graphs could be the graph of \\(y = q(x)\\)?</p>`,
+    answer: "B",
+    graph: null,
+    graphChoices: [
+      {
+        label: "A",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = (x-1)(x-5)", color: "#2563eb" }],
+          bounds: { left: -4, right: 8, bottom: -8, top: 8 }
+        }
+      },
+      {
+        label: "B",
+        correct: true,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -(x-1)(x-5)", color: "#2563eb" }],
+          bounds: { left: -4, right: 8, bottom: -8, top: 8 }
+        }
+      },
+      {
+        label: "C",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -(x+1)(x-5)", color: "#2563eb" }],
+          bounds: { left: -4, right: 8, bottom: -8, top: 8 }
+        }
+      },
+      {
+        label: "D",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -x^2 + 5x - 5", color: "#2563eb" }],
+          bounds: { left: -4, right: 8, bottom: -8, top: 8 }
+        }
+      }
+    ],
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par59916",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>For the quadratic function \\(r\\), the table shows some values of \\(x\\) and their corresponding values of \\(r(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-3\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td><td>\\(1\\)</td></tr>
+      <tr><td>\\(r(x)\\)</td><td>\\(10\\)</td><td>\\(1\\)</td><td>\\(-2\\)</td><td>\\(1\\)</td><td>\\(10\\)</td></tr>
+    </table>
+    <p>Which of the following graphs could be the graph of \\(y = r(x)\\)?</p>`,
+    answer: "D",
+    graph: null,
+    graphChoices: [
+      {
+        label: "A",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = 3(x-1)^2 - 2", color: "#2563eb" }],
+          bounds: { left: -5, right: 5, bottom: -4, top: 12 }
+        }
+      },
+      {
+        label: "B",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = 3x^2 - 6x + 1", color: "#2563eb" }],
+          bounds: { left: -5, right: 5, bottom: -4, top: 12 }
+        }
+      },
+      {
+        label: "C",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = 3(x+1)^2 + 2", color: "#2563eb" }],
+          bounds: { left: -5, right: 5, bottom: -4, top: 12 }
+        }
+      },
+      {
+        label: "D",
+        correct: true,
+        graph: {
+          expressions: [{ id: "1", latex: "y = 3(x+1)^2 - 2", color: "#2563eb" }],
+          bounds: { left: -5, right: 5, bottom: -4, top: 12 }
+        }
+      }
+    ],
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par63995",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>For the quadratic function \\(s\\), the table shows some values of \\(x\\) and their corresponding values of \\(s(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-4\\)</td><td>\\(-3\\)</td><td>\\(-2\\)</td><td>\\(-1\\)</td><td>\\(0\\)</td></tr>
+      <tr><td>\\(s(x)\\)</td><td>\\(-5\\)</td><td>\\(-8\\)</td><td>\\(-9\\)</td><td>\\(-8\\)</td><td>\\(-5\\)</td></tr>
+    </table>
+    <p>Which of the following graphs could be the graph of \\(y = s(x)\\)?</p>`,
+    answer: "A",
+    graph: null,
+    graphChoices: [
+      {
+        label: "A",
+        correct: true,
+        graph: {
+          expressions: [{ id: "1", latex: "y = x^2 + 4x - 5", color: "#2563eb" }],
+          bounds: { left: -7, right: 7, bottom: -11, top: 4 }
+        }
+      },
+      {
+        label: "B",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = (x+2)^2 - 5", color: "#2563eb" }],
+          bounds: { left: -7, right: 7, bottom: -11, top: 4 }
+        }
+      },
+      {
+        label: "C",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -x^2 - 4x - 5", color: "#2563eb" }],
+          bounds: { left: -7, right: 7, bottom: -11, top: 4 }
+        }
+      },
+      {
+        label: "D",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = (x-2)^2 - 9", color: "#2563eb" }],
+          bounds: { left: -7, right: 7, bottom: -11, top: 4 }
+        }
+      }
+    ],
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par40592",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 6,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>For the quadratic function \\(t\\), the table shows some values of \\(x\\) and their corresponding values of \\(t(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(0\\)</td><td>\\(1\\)</td><td>\\(2\\)</td><td>\\(3\\)</td><td>\\(4\\)</td></tr>
+      <tr><td>\\(t(x)\\)</td><td>\\(-5\\)</td><td>\\(0\\)</td><td>\\(3\\)</td><td>\\(4\\)</td><td>\\(3\\)</td></tr>
+    </table>
+    <p>Which of the following graphs could be the graph of \\(y = t(x)\\)?</p>`,
+    answer: "C",
+    graph: null,
+    graphChoices: [
+      {
+        label: "A",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = x^2 - 6x + 5", color: "#2563eb" }],
+          bounds: { left: -3, right: 8, bottom: -7, top: 7 }
+        }
+      },
+      {
+        label: "B",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -(x-1)(x-4)", color: "#2563eb" }],
+          bounds: { left: -3, right: 8, bottom: -7, top: 7 }
+        }
+      },
+      {
+        label: "C",
+        correct: true,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -(x-3)^2 + 4", color: "#2563eb" }],
+          bounds: { left: -3, right: 8, bottom: -7, top: 7 }
+        }
+      },
+      {
+        label: "D",
+        correct: false,
+        graph: {
+          expressions: [{ id: "1", latex: "y = -x^2 + 4x - 5", color: "#2563eb" }],
+          bounds: { left: -3, right: 8, bottom: -7, top: 7 }
+        }
+      }
+    ],
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par27345",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 7,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(f(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(1\\)</td><td>\\(3\\)</td></tr>
+      <tr><td>\\(f(x)\\)</td><td>\\(6\\)</td><td>\\(2\\)</td><td>\\(6\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(f\\), which equation defines \\(f\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( f(x) = (x - 1)^2 + 2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( f(x) = (x + 1)^2 + 2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( f(x) = 2(x - 1)^2 + 2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( f(x) = (x - 1)^2 + 4 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `\\(f(-1)\\) and \\(f(3)\\) are equal, so the axis of symmetry is halfway between: \\(x = 1\\). The table gives \\(f(1) = 2\\), so the vertex is \\((1, 2)\\) and the equation has the form \\(f(x) = a(x - 1)^2 + 2\\)`,
+        note: "",
+        gif: "",
+        answer: "A",
+        video: ""
+      },
+      {
+        text: `Use another point to find \\(a\\): \\(f(3) = a(2)^2 + 2 = 6\\), so \\(4a = 4\\) and \\(a = 1\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `So \\(f(x) = (x - 1)^2 + 2\\). Confirm in Desmos by typing the table and graphing choice A over it`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par51558",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 7,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(g(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(0\\)</td><td>\\(2\\)</td></tr>
+      <tr><td>\\(g(x)\\)</td><td>\\(13\\)</td><td>\\(5\\)</td><td>\\(13\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(g\\), which equation defines \\(g\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( g(x) = 2(x + 1)^2 + 3 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( g(x) = 2(x - 1)^2 + 5 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( g(x) = 2(x - 0)^2 + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( g(x) = 3(x - 0)^2 + 5 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: "Find the vertex: the two matching outputs are symmetric about it, and the middle row gives its coordinates",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Write \\(g(x) = a(x - h)^2 + k\\) with that vertex, then substitute one of the other points to solve for \\(a\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Match to an answer choice, or graph the table and each choice in Desmos",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par66583",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(h(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(4\\)</td></tr>
+      <tr><td>\\(h(x)\\)</td><td>\\(17\\)</td><td>\\(5\\)</td><td>\\(17\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(h\\), which equation defines \\(h\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( h(x) = 3(x - 2)^2 + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( h(x) = 2(x - 2)^2 + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( h(x) = 3(x - 1)^2 + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( h(x) = 3(x - 2)^2 + 3 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par75231",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 7,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(p(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(2\\)</td><td>\\(5\\)</td></tr>
+      <tr><td>\\(p(x)\\)</td><td>\\(15\\)</td><td>\\(6\\)</td><td>\\(15\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(p\\), which equation defines \\(p\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( p(x) = 2(x - 2)^2 + 6 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( p(x) = (x - 2)^2 + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( p(x) = (x - 1)^2 + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( p(x) = (x - 2)^2 + 4 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par76544",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(q(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-2\\)</td><td>\\(1\\)</td><td>\\(4\\)</td></tr>
+      <tr><td>\\(q(x)\\)</td><td>\\(23\\)</td><td>\\(5\\)</td><td>\\(23\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(q\\), which equation defines \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( q(x) = 2(x - 1)^2 + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( q(x) = (x - 1)^2 + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( q(x) = 2(x + 1)^2 + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( q(x) = 2(x - 1)^2 + 3 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par11310",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(r(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-3\\)</td><td>\\(-1\\)</td><td>\\(1\\)</td></tr>
+      <tr><td>\\(r(x)\\)</td><td>\\(15\\)</td><td>\\(3\\)</td><td>\\(15\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(r\\), which equation defines \\(r\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( r(x) = 2(x + 1)^2 + 3 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( r(x) = 3(x - 1)^2 + 3 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( r(x) = 3(x + 1)^2 + 5 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( r(x) = 3(x + 1)^2 + 3 \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par19181",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(s(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(0\\)</td><td>\\(2\\)</td><td>\\(4\\)</td></tr>
+      <tr><td>\\(s(x)\\)</td><td>\\(14\\)</td><td>\\(6\\)</td><td>\\(14\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(s\\), which equation defines \\(s\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( s(x) = 2(x + 2)^2 + 6 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( s(x) = 2(x - 2)^2 + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( s(x) = (x - 2)^2 + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( s(x) = 2(x - 2)^2 + 4 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par55575",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 7,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(t(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(3\\)</td><td>\\(7\\)</td></tr>
+      <tr><td>\\(t(x)\\)</td><td>\\(37\\)</td><td>\\(5\\)</td><td>\\(37\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(t\\), which equation defines \\(t\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( t(x) = 2(x + 3)^2 + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( t(x) = (x - 3)^2 + 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( t(x) = 2(x - 3)^2 + 3 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( t(x) = 2(x - 3)^2 + 5 \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
 ];
