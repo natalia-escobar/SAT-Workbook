@@ -34840,4 +34840,734 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par26849",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 9,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(f(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-1\\)</td><td>\\(2\\)</td><td>\\(5\\)</td></tr>
+      <tr><td>\\(f(x)\\)</td><td>\\(12\\)</td><td>\\(3\\)</td><td>\\(12\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(f\\), which equation defines \\(f\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( f(x) = 2(x - 2)^2 + 3 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( f(x) = (x + 1)(x - 5) + 12 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( f(x) = \\frac{1}{2}\\left((x - 2)^2 - 9\\right) + 12 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( f(x) = x(x - 4) + 5 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `The choices are written in different forms, so the fastest test is plugging in the table values. Start with the vertex \\((2, 3)\\): A gives \\(3\\) ✓, B gives \\((3)(-3) + 12 = 3\\) ✓, C gives \\(-4.5 + 12 = 7.5\\) ✗, D gives \\(-4 + 5 = 1\\) ✗`,
+        note: "",
+        gif: "",
+        answer: "B",
+        video: ""
+      },
+      {
+        text: `Test a second point on A and B. At \\(x = 5\\): A gives \\(2(9) + 3 = 21\\) ✗, B gives \\((6)(0) + 12 = 12\\) ✓`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Only B matches all three rows. Confirm in Desmos by typing the table and graphing choice B over it`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par66037",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 9,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(g(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-5\\)</td><td>\\(-1\\)</td><td>\\(3\\)</td></tr>
+      <tr><td>\\(g(x)\\)</td><td>\\(6\\)</td><td>\\(-2\\)</td><td>\\(6\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(g\\), which equation defines \\(g\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( g(x) = \\frac{1}{2}(x + 5)(x - 3) + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( g(x) = \\frac{1}{2}(x + 1)^2 + 2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( g(x) = 2\\left((x + 1)^2 - 4\\right) - 2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( g(x) = \\frac{1}{2}x(x + 2) - 2 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: "Substitute the vertex (the middle row) into each choice and eliminate any that don't return the right value",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Substitute one of the outer points into the remaining choices",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "The one choice that survives both tests is the answer; confirm in Desmos",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par12650",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 9,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(h(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(1\\)</td><td>\\(4\\)</td><td>\\(7\\)</td></tr>
+      <tr><td>\\(h(x)\\)</td><td>\\(19\\)</td><td>\\(1\\)</td><td>\\(19\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(h\\), which equation defines \\(h\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( h(x) = 2(x - 4)^2 - 1 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( h(x) = \\left((x - 4)^2 - 9\\right) + 19 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( h(x) = x(x - 8) + 17 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>\\( h(x) = 2(x - 1)(x - 7) + 19 \\)</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par61944",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 9,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(p(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-6\\)</td><td>\\(-2\\)</td><td>\\(2\\)</td></tr>
+      <tr><td>\\(p(x)\\)</td><td>\\(17\\)</td><td>\\(5\\)</td><td>\\(17\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(p\\), which equation defines \\(p\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( p(x) = \\frac{3}{4}(x + 2)^2 - 5 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( p(x) = \\frac{3}{4}x(x + 4) + 5 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( p(x) = \\frac{3}{4}(x + 6)(x - 2) + 17 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( p(x) = 3\\left(\\frac{(x + 2)^2}{4} + 5\\right) \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par48724",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(f(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-3\\)</td><td>\\(1\\)</td><td>\\(5\\)</td></tr>
+      <tr><td>\\(f(x)\\)</td><td>\\(14\\)</td><td>\\(-2\\)</td><td>\\(14\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(f\\), which equation defines \\(f\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( f(x) = (x + 3)(x - 5) + 14 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( f(x) = 2(x - 1)^2 - 2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( f(x) = \\frac{1}{2}\\left((x - 1)^2 - 16\\right) + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( f(x) = x(x - 2) - 3 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par99095",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(g(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-4\\)</td><td>\\(-1\\)</td><td>\\(2\\)</td></tr>
+      <tr><td>\\(g(x)\\)</td><td>\\(13\\)</td><td>\\(4\\)</td><td>\\(13\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(g\\), which equation defines \\(g\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( g(x) = 2(x + 1)^2 + 4 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( g(x) = (x + 4)(x - 2) + 13 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( g(x) = x(x + 2) + 3 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( g(x) = \\frac{1}{2}\\left((x + 1)^2 - 9\\right) + 13 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par50459",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(h(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(0\\)</td><td>\\(3\\)</td><td>\\(6\\)</td></tr>
+      <tr><td>\\(h(x)\\)</td><td>\\(20\\)</td><td>\\(2\\)</td><td>\\(20\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(h\\), which equation defines \\(h\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( h(x) = x(x - 6) + 20 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( h(x) = 2(x - 3)^2 + 2 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( h(x) = 3\\left((x - 3)^2 - 9\\right) + 20 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( h(x) = 2x(x - 6) + 18 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par53190",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 9,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The table shows three values of \\(x\\) and their corresponding values of \\(p(x)\\).</p>
+    <table class="xy-table">
+      <tr><td>\\(x\\)</td><td>\\(-5\\)</td><td>\\(-2\\)</td><td>\\(1\\)</td></tr>
+      <tr><td>\\(p(x)\\)</td><td>\\(16\\)</td><td>\\(7\\)</td><td>\\(16\\)</td></tr>
+    </table>
+    <p>For the quadratic function \\(p\\), which equation defines \\(p\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( p(x) = 2(x + 2)^2 + 7 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( p(x) = \\frac{1}{2}(x + 5)(x - 1) + 16 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( p(x) = (x + 5)(x - 1) + 16 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( p(x) = x(x + 4) + 9 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par18644",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 10,
+    questionType: "WE",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = 2(x - 4)^2 - 7. \\)</p>
+    <p>Which of the following is (are) true?</p>
+    <p>I. \\(f(2) = f(6)\\)<br>
+    II. \\(f(3) = f(5)\\)<br>
+    III. \\(f(1) = f(7)\\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>I only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>I and II only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>II and III only</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>I, II, and III</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `The function is in vertex form, so the axis of symmetry is \\(x = 4\\). Two inputs give the same output exactly when they are the same distance from \\(4\\), i.e. when their average is \\(4\\)`,
+        note: "",
+        gif: "",
+        answer: "D",
+        video: ""
+      },
+      {
+        text: `Check each pair: I. \\(\\frac{2 + 6}{2} = 4\\) ✓; II. \\(\\frac{3 + 5}{2} = 4\\) ✓; III. \\(\\frac{1 + 7}{2} = 4\\) ✓`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `All three are true. Confirm in Desmos by declaring \\(f(x)\\) and typing \\(f(2) - f(6)\\), \\(f(3) - f(5)\\), and \\(f(1) - f(7)\\); each should return \\(0\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par36908",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 10,
+    questionType: "GP",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = 3(x - 5)^2 + 2. \\)</p>
+    <p>Which of the following is (are) true?</p>
+    <p>I. \\(f(3) = f(7)\\)<br>
+    II. \\(f(2) = f(6)\\)<br>
+    III. \\(f(4) = f(8)\\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>I only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>II only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>I and III only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>I, II, and III</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: "Read the axis of symmetry from the vertex form",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "For each statement, average the two inputs; the statement is true only if that average equals the axis of symmetry",
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Match the set of true statements to an answer choice, or verify in Desmos",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par85799",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 10,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = -(x - 6)^2 + 8. \\)</p>
+    <p>Which of the following is (are) true?</p>
+    <p>I. \\(f(2) = f(8)\\)<br>
+    II. \\(f(4) = f(8)\\)<br>
+    III. \\(f(5) = f(9)\\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>I only</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>II only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>II and III only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>I, II, and III</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par40954",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 10,
+    questionType: "PR",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = 4(x - 3)^2 - 5. \\)</p>
+    <p>Which of the following is (are) true?</p>
+    <p>I. \\(f(1) = f(4)\\)<br>
+    II. \\(f(2) = f(6)\\)<br>
+    III. \\(f(1) = f(5)\\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>I only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>II only</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>III only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>I and III only</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par31819",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = -2(x - 7)^2 + 3. \\)</p>
+    <p>Which of the following is (are) true?</p>
+    <p>I. \\(f(5) = f(9)\\)<br>
+    II. \\(f(6) = f(8)\\)<br>
+    III. \\(f(4) = f(9)\\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>I only</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>I and II only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>II and III only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>I, II, and III</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par39594",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = \\frac{1}{2}(x - 5)^2 - 6. \\)</p>
+    <p>Which of the following is (are) true?</p>
+    <p>I. \\(f(2) = f(7)\\)<br>
+    II. \\(f(3) = f(7)\\)<br>
+    III. \\(f(1) = f(9)\\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>I only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>II only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>I and III only</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>II and III only</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par70039",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = -\\frac{3}{2}(x - 4)^2 + 10. \\)</p>
+    <p>Which of the following is (are) true?</p>
+    <p>I. \\(f(2) = f(6)\\)<br>
+    II. \\(f(1) = f(7)\\)<br>
+    III. \\(f(3) = f(5)\\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>I only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>I and II only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>II and III only</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>I, II, and III</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par73925",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 10,
+    questionType: "AQ",
+    difficulty: 2,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = 5(x - 6)^2 - 4. \\)</p>
+    <p>Which of the following is (are) true?</p>
+    <p>I. \\(f(3) = f(8)\\)<br>
+    II. \\(f(4) = f(9)\\)<br>
+    III. \\(f(5) = f(8)\\)</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>I only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>II only</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>III only</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">D</span>
+        <span>Neither I, II, nor III</span>
+      </div>
+    </div>`,
+    answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
 ];
