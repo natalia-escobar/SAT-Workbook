@@ -80,6 +80,38 @@ const graphing3c = {
       additionalPractice: asAdditional(["Par31819", "Par39594", "Par70039", "Par73925"]),
     },
 
+    // Problem 10
+    {
+      ...asWorked("Par77878"),
+      ...asGuided("Par25390"),
+      practice: asPractice(["Par45818", "Par86827"]),
+      additionalPractice: asAdditional(["Par49737", "Par66245", "Par17008", "Par85207"]),
+    },
+
+    // Problem 11
+    {
+      ...asWorked("Par49238"),
+      ...asGuided("Par50266"),
+      practice: asPractice(["Par32815", "Par95521"]),
+      additionalPractice: asAdditional(["Par80659", "Par12692", "Par95758", "Par92367"]),
+    },
+
+    // Problem 12
+    {
+      ...asWorked("Par75057"),
+      ...asGuided("Par99132"),
+      practice: asPractice(["Par97143", "Par87812"]),
+      additionalPractice: asAdditional(["Par72380", "Par60590", "Par48820", "Par30801"]),
+    },
+
+    // Problem 13
+    {
+      ...asWorked("Par47467"),
+      ...asGuided("Par58993"),
+      practice: asPractice(["Par99952", "Par78945"]),
+      additionalPractice: asAdditional(["Par14495", "Par78668", "Par78424", "Par51533"]),
+    },
+
 
 
     ],

@@ -7619,7 +7619,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-25-E-1",
+    id: "Par49238",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 25,
@@ -7653,7 +7653,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-25-GP-1",
+    id: "Par50266",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 25,
@@ -7686,7 +7686,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-25-Q-1",
+    id: "Par32815",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 25,
@@ -7712,7 +7712,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-25-Q-2",
+    id: "Par95521",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 25,
@@ -7738,7 +7738,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-26-E-1",
+    id: "Par75057",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 26,
@@ -7790,7 +7790,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-26-GP-1",
+    id: "Par99132",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 26,
@@ -7840,7 +7840,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-26-Q-1",
+    id: "Par97143",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 26,
@@ -7884,7 +7884,7 @@ export const questions = [
   },
 
   {
-    id: "Par-Eq-26-Q-2",
+    id: "Par87812",
     topic: "parabola",
     subtopic: "equivalent-to",
     problem: 26,
@@ -35563,6 +35563,666 @@ export const questions = [
       </div>
     </div>`,
     answer: "D",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par77878",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 11,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of \\(y = ax^2 + bx + c\\) is shown, where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(ab\\)?</p>`,
+    answer: "-4",
+    graph: {
+      expressions: [
+        { latex: "y = 2x^2 - 2x + 2", color: "#2563eb" },
+        { latex: "(-1, 6)", color: "#2563eb" },
+        { latex: "(0, 2)", color: "#2563eb" },
+        { latex: "(1, 2)", color: "#2563eb" }
+      ],
+      bounds: { left: -3, right: 4, bottom: -2, top: 8 }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: `Read the three marked points: \\((-1, 6)\\), \\((0, 2)\\), \\((1, 2)\\). The \\(y\\)-intercept gives \\(c = 2\\) immediately`,
+        note: "",
+        gif: "",
+        answer: "-4",
+        video: ""
+      },
+      {
+        text: `Plug in the other two: \\(x = 1\\) gives \\(a + b + 2 = 2\\), so \\(a + b = 0\\); \\(x = -1\\) gives \\(a - b + 2 = 6\\), so \\(a - b = 4\\). Adding: \\(2a = 4\\), \\(a = 2\\), \\(b = -2\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `So \\(ab = (2)(-2) = -4\\). Confirm in Desmos by graphing \\(y = 2x^2 - 2x + 2\\) and checking it passes through all three points`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par25390",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 11,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of \\(y = ax^2 + bx + c\\) is shown, where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(bc\\)?</p>`,
+    answer: "-6",
+    graph: {
+      expressions: [
+        { latex: "y = -x^2 + 3x - 2", color: "#2563eb" },
+        { latex: "(-1, -6)", color: "#2563eb" },
+        { latex: "(0, -2)", color: "#2563eb" },
+        { latex: "(1, 0)", color: "#2563eb" }
+      ],
+      bounds: { left: -3, right: 4, bottom: -8, top: 3 }
+    },
+    graphChoices: null,
+    steps: [
+      {
+        text: `Read \\(c\\) from the \\(y\\)-intercept of the graph`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Substitute the points at \\(x = 1\\) and \\(x = -1\\) to get two equations in \\(a\\) and \\(b\\); add and subtract them to solve`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Multiply the values of \\(b\\) and \\(c\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par45818",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 11,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of \\(y = ax^2 + bx + c\\) is shown, where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(ac\\)?</p>`,
+    answer: "8",
+    graph: {
+      expressions: [
+        { latex: "y = 2x^2 - 3x + 4", color: "#2563eb" },
+        { latex: "(-1, 9)", color: "#2563eb" },
+        { latex: "(0, 4)", color: "#2563eb" },
+        { latex: "(1, 3)", color: "#2563eb" }
+      ],
+      bounds: { left: -3, right: 4, bottom: -1, top: 11 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par86827",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 11,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of \\(y = ax^2 + bx + c\\) is shown, where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(abc\\)?</p>`,
+    answer: "-18",
+    graph: {
+      expressions: [
+        { latex: "y = -2x^2 + 3x + 3", color: "#2563eb" },
+        { latex: "(-1, -2)", color: "#2563eb" },
+        { latex: "(0, 3)", color: "#2563eb" },
+        { latex: "(1, 4)", color: "#2563eb" }
+      ],
+      bounds: { left: -3, right: 4, bottom: -4, top: 6 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par49737",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of \\(y = ax^2 + bx + c\\) is shown, where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(a + b + c\\)?</p>`,
+    answer: "-2",
+    graph: {
+      expressions: [
+        { latex: "y = 2x^2 - x - 3", color: "#2563eb" },
+        { latex: "(-1, 0)", color: "#2563eb" },
+        { latex: "(0, -3)", color: "#2563eb" },
+        { latex: "(1, -2)", color: "#2563eb" }
+      ],
+      bounds: { left: -3, right: 4, bottom: -5, top: 4 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par66245",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of \\(y = ax^2 + bx + c\\) is shown, where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(a - b - c\\)?</p>`,
+    answer: "-7",
+    graph: {
+      expressions: [
+        { latex: "y = -2x^2 + 3x + 2", color: "#2563eb" },
+        { latex: "(-1, -3)", color: "#2563eb" },
+        { latex: "(0, 2)", color: "#2563eb" },
+        { latex: "(1, 3)", color: "#2563eb" }
+      ],
+      bounds: { left: -3, right: 4, bottom: -5, top: 5 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par17008",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of \\(y = ax^2 + bx + c\\) is shown, where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(b - a\\)?</p>`,
+    answer: "-4",
+    graph: {
+      expressions: [
+        { latex: "y = x^2 - 3x + 3", color: "#2563eb" },
+        { latex: "(-1, 7)", color: "#2563eb" },
+        { latex: "(0, 3)", color: "#2563eb" },
+        { latex: "(1, 1)", color: "#2563eb" }
+      ],
+      bounds: { left: -3, right: 5, bottom: -1, top: 9 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par85207",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 11,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The graph of \\(y = ax^2 + bx + c\\) is shown, where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(ab + bc\\)?</p>`,
+    answer: "0",
+    graph: {
+      expressions: [
+        { latex: "y = -2x^2 + 4x + 2", color: "#2563eb" },
+        { latex: "(-1, -4)", color: "#2563eb" },
+        { latex: "(0, 2)", color: "#2563eb" },
+        { latex: "(1, 4)", color: "#2563eb" }
+      ],
+      bounds: { left: -3, right: 4, bottom: -6, top: 6 }
+    },
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par80659",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 19,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions are defined by</p>
+    <p class="eq">
+      \\( f(x) = \\frac{2}{3}x - 5 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( g(x) = 9x + 4. \\)</p>
+    <p>The product \\(f(x)g(x)\\) can be written in the form</p>
+    <p class="eq">
+      \\( ax^2 + bx + c, \\)</p>
+    <p>where \\(a\\), \\(b\\), and \\(c\\) are constants.</p>
+    <p>What is the value of \\(b - c\\)?</p>`,
+    answer: "-67/3",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par12692",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 19,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions are defined by</p>
+    <p class="eq">
+      \\( p(x) = \\frac{5}{4}x + 3 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( q(x) = 8x - 6. \\)</p>
+    <p>The product \\(p(x)q(x)\\) can be written in the form</p>
+    <p class="eq">
+      \\( ax^2 + bx + c, \\)</p>
+    <p>where \\(a\\), \\(b\\), and \\(c\\) are constants.</p>
+    <p>What is the value of \\(a + b\\)?</p>`,
+    answer: "53/2",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par95758",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 19,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions are defined by</p>
+    <p class="eq">
+      \\( r(x) = \\frac{4}{5}x - 2 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( s(x) = 15x + 7. \\)</p>
+    <p>The product \\(r(x)s(x)\\) can be written in the form</p>
+    <p class="eq">
+      \\( ax^2 + bx + c, \\)</p>
+    <p>where \\(a\\), \\(b\\), and \\(c\\) are constants.</p>
+    <p>What is the value of \\(a + c\\)?</p>`,
+    answer: "-2",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par92367",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 19,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The functions are defined by</p>
+    <p class="eq">
+      \\( u(x) = \\frac{3}{7}x + 4 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( v(x) = 14x - 9. \\)</p>
+    <p>The product \\(u(x)v(x)\\) can be written in the form</p>
+    <p class="eq">
+      \\( ax^2 + bx + c, \\)</p>
+    <p>where \\(a\\), \\(b\\), and \\(c\\) are constants.</p>
+    <p>What is the value of \\(a - b\\)?</p>`,
+    answer: "-323/7",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par72380",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 20,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(f\\) is defined by</p>
+    <p class="eq">
+      \\( f(x) = uv + 2u - 4v, \\)</p>
+    <p>where</p>
+    <p class="eq">
+      \\( u = 3x - 2 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( v = x + 5. \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( f(x) = ax^2 + bx + c, \\)</p>
+    <p>where \\(a\\), \\(b\\), and \\(c\\) are constants, what is the value of \\(a + b + c\\)?</p>`,
+    answer: "-16",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par48820",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 20,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The function \\(g\\) is defined by</p>
+    <p class="eq">
+      \\( g(x) = rs - 3r + 2s, \\)</p>
+    <p>where</p>
+    <p class="eq">
+      \\( r = 2x + 3 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( s = 4x - 1. \\)</p>
+    <p>If</p>
+    <p class="eq">
+      \\( g(x) = ax^2 + bx + c, \\)</p>
+    <p>where \\(a\\), \\(b\\), and \\(c\\) are constants, what is the value of \\(a + b + c\\)?</p>`,
+    answer: "6",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par60590",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 20,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( m = 3x - 2 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( n = x + 5, \\)</p>
+    <p>the expression</p>
+    <p class="eq">
+      \\( mn + 2m - 3n \\)</p>
+    <p>is equivalent to</p>
+    <p class="eq">
+      \\( \\frac{a}{2}x^2 + \\frac{b}{2}x + \\frac{c}{2}, \\)</p>
+    <p>where \\(a\\), \\(b\\), and \\(c\\) are integers.</p>
+    <p>What is the value of \\(a + b + c\\)?</p>`,
+    answer: "-20",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par30801",
+    topic: "parabola",
+    subtopic: "equivalent-to",
+    problem: 20,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>If</p>
+    <p class="eq">
+      \\( p = 2x + 1 \\)</p>
+    <p>and</p>
+    <p class="eq">
+      \\( q = 3x - 4, \\)</p>
+    <p>the expression</p>
+    <p class="eq">
+      \\( pq - 2p + 4q \\)</p>
+    <p>is equivalent to</p>
+    <p class="eq">
+      \\( \\frac{a}{3}x^2 + \\frac{b}{3}x + \\frac{c}{3}, \\)</p>
+    <p>where \\(a\\), \\(b\\), and \\(c\\) are integers.</p>
+    <p>What is the value of \\(a + b + c\\)?</p>`,
+    answer: "-39",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+    {
+    id: "Par47467",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 12,
+    questionType: "WE",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic function \\(g\\) has a vertex at \\((2, 7)\\) and passes through the points where \\(g(-1) = -20\\) and \\(g(4) = -5\\). What is the value of</p>
+    <p class="eq">
+      \\( \\frac{|g(1)| + 2g(3)}{3}? \\)</p>`,
+    answer: "4",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Write \\(g\\) in vertex form: \\(g(x) = a(x - 2)^2 + 7\\). Use \\(g(-1) = -20\\): \\(9a + 7 = -20\\), so \\(a = -3\\). (Check: \\(g(4) = -3(4) + 7 = -5\\) ✓)`,
+        note: "",
+        gif: "",
+        answer: "4",
+        video: ""
+      },
+      {
+        text: `Evaluate: \\(g(1) = -3(1) + 7 = 4\\) and \\(g(3) = -3(1) + 7 = 4\\) (they're equal because \\(1\\) and \\(3\\) are symmetric about \\(x = 2\\))`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Substitute: \\(\\frac{|4| + 2(4)}{3} = \\frac{12}{3} = 4\\). Confirm in Desmos by declaring \\(g(x) = -3(x - 2)^2 + 7\\) and typing the expression`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par58993",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 12,
+    questionType: "GP",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic function \\(h\\) has a vertex at \\((-2, -5)\\) and passes through the points where \\(h(-4) = 3\\) and \\(h(1) = 13\\). What is the value of</p>
+    <p class="eq">
+      \\( (h(-1))^2 + |h(0)|? \\)</p>`,
+    answer: "12",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Write \\(h(x) = a(x + 2)^2 - 5\\) and use one of the given points to solve for \\(a\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Declare the finished function in Desmos and evaluate \\(h(-1)\\) and \\(h(0)\\)`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Substitute into the expression, remembering to square and take the absolute value",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par99952",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 12,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic function \\(p\\) has a vertex at \\((1, 6)\\) and passes through the points where \\(p(-2) = -12\\) and \\(p(3) = -2\\). What is the value of</p>
+    <p class="eq">
+      \\( \\frac{|p(4)| + p(0)}{2}? \\)</p>`,
+    answer: "8",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par78945",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 12,
+    questionType: "PR",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic function \\(f\\) has a vertex at \\((-1, 8)\\) and passes through the points where \\(f(-3) = 4\\) and \\(f(2) = -1\\). What is the value of</p>
+    <p class="eq">
+      \\( \\frac{f(0) \\cdot f(1)}{f(-2)}? \\)</p>`,
+    answer: "4",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par14495",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic function \\(q\\) has a vertex at \\((3, -4)\\) and passes through the points where \\(q(1) = 4\\) and \\(q(6) = 14\\). What is the value of</p>
+    <p class="eq">
+      \\( |q(2) \\cdot q(4)| + 3q(1)? \\)</p>`,
+    answer: "16",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par78668",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic function \\(r\\) has a vertex at \\((-4, 5)\\) and passes through the points where \\(r(-6) = -3\\) and \\(r(0) = -27\\). What is the value of</p>
+    <p class="eq">
+      \\( \\frac{r(-3) + 2|r(-5)| + |r(1)|}{3}? \\)</p>`,
+    answer: "18",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par78424",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic function \\(s\\) has a vertex at \\((2, -3)\\) and passes through the points where \\(s(0) = 5\\) and \\(s(5) = 15\\). What is the value of</p>
+    <p class="eq">
+      \\( |s(1) \\cdot s(3)| + |s(2)|? \\)</p>`,
+    answer: "4",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par51533",
+    topic: "parabola",
+    subtopic: "finding-the-equation-points-on-the-graph-or-graph",
+    problem: 12,
+    questionType: "AQ",
+    difficulty: 3,
+    tags: [],
+    text: `<p>The quadratic function \\(t\\) has a vertex at \\((-1, 4)\\) and passes through the points where \\(t(-3) = 0\\) and \\(t(2) = -5\\). What is the value of</p>
+    <p class="eq">
+      \\( \\frac{|t(0)| + 2|t(-2)| + |t(1)|}{3}? \\)</p>`,
+    answer: "3",
     graph: null,
     graphChoices: null,
     steps: [],
