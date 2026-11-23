@@ -112,8 +112,6 @@ const graphing3c = {
       additionalPractice: asAdditional(["Par14495", "Par78668", "Par78424", "Par51533"]),
     },
 
-
-
     ],
 };
 
