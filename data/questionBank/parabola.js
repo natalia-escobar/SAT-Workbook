@@ -36230,4 +36230,325 @@ export const questions = [
     videoId: ""
   },
 
+    {
+    id: "Par61625",
+    topic: "parabola",
+    subtopic: "writing-quadratic-equation-from-word-problem",
+    problem: 1,
+    questionType: "WE",
+    difficulty: 1,
+    tags: [],
+    text: `<p>An amount \\(p\\) is found by calculating the product of a number \\(x\\) by a number that is \\(18\\) less than four times \\(x\\). Which function defines \\(p\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( p(x) = 4x^2 - 18x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( p(x) = 4x^2 - 18 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( p(x) = x^2 - 18x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( p(x) = 4x^2 + 18x \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Translate the second number first: "\\(18\\) less than four times \\(x\\)" is \\(4x - 18\\) (not \\(18 - 4x\\))`,
+        note: "",
+        gif: "",
+        answer: "A",
+        video: ""
+      },
+      {
+        text: `"The product of \\(x\\) by that number" means multiply: \\(p(x) = x(4x - 18)\\)`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      },
+      {
+        text: `Distribute: \\(p(x) = 4x^2 - 18x\\). Check in Desmos by graphing \\(y = x(4x - 18)\\) and \\(y = 4x^2 - 18x\\); they overlap`,
+        note: "",
+        gif: "",
+        answer: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par68998",
+    topic: "parabola",
+    subtopic: "writing-quadratic-equation-from-word-problem",
+    problem: 1,
+    questionType: "GP",
+    difficulty: 1,
+    tags: [],
+    text: `<p>An amount \\(r\\) is obtained by finding the product of a number \\(x\\) by a number that is \\(5\\) more than one-half of \\(x\\). Which function defines \\(r\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( r(x) = \\frac{1}{4}x^2 + 5x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( r(x) = \\frac{1}{2}x + 5x \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( r(x) = \\frac{1}{2}x^2 + 5x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( r(x) = \\frac{1}{4}x^2 + 5 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [
+      {
+        text: `Write the second number as an expression in \\(x\\): "\\(5\\) more than one-half of \\(x\\)"`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: `Multiply \\(x\\) by that expression`,
+        note: "",
+        gif: "",
+        video: ""
+      },
+      {
+        text: "Distribute and match to an answer choice",
+        note: "",
+        gif: "",
+        video: ""
+      }
+    ],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par66721",
+    topic: "parabola",
+    subtopic: "writing-quadratic-equation-from-word-problem",
+    problem: 1,
+    questionType: "PR",
+    difficulty: 1,
+    tags: [],
+    text: `<p>A quantity \\(m\\) is calculated by finding the product of a number \\(x\\) by the sum of \\(12\\) and three times \\(x\\), then subtracting \\(8\\). Which function defines \\(m\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( m(x) = 3x^2 + 4x - 8 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( m(x) = 3x^2 + 12x - 8 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( m(x) = 3x^2 + 12x + 8 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( m(x) = 3x + 12x - 8 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par21780",
+    topic: "parabola",
+    subtopic: "writing-quadratic-equation-from-word-problem",
+    problem: 1,
+    questionType: "PR",
+    difficulty: 1,
+    tags: [],
+    text: `<p>An amount \\(g\\) is calculated by finding the product of a number \\(x\\) and a number that is \\(27\\) more than twice \\(x\\). Which function defines \\(g\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( g(x) = 2x^2 + 27 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( g(x) = 2x^2 + 27x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( g(x) = x^2 + 27x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( g(x) = 2x^2 + 27x + 27 \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par43119",
+    topic: "parabola",
+    subtopic: "writing-quadratic-equation-from-word-problem",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p>An amount \\(h\\) is calculated by finding the product of a number \\(x\\) and a number that is \\(14\\) more than five times \\(x\\). Which function defines \\(h\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( h(x) = 5x^2 + 14 \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">B</span>
+        <span>\\( h(x) = 5x^2 + 14x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( h(x) = 5x + 14x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( h(x) = x^2 + 14x \\)</span>
+      </div>
+    </div>`,
+    answer: "B",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par56165",
+    topic: "parabola",
+    subtopic: "writing-quadratic-equation-from-word-problem",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p>An amount \\(q\\) is obtained by finding the product of a number \\(x\\) and a number that is \\(9\\) less than three-fourths of \\(x\\). Which function defines \\(q\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( q(x) = \\frac{3}{4}x^2 - 9x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( q(x) = \\frac{3}{4}x^2 - 9 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( q(x) = \\frac{3}{4}x - 9x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( q(x) = \\frac{1}{4}x^2 - 9x \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par53553",
+    topic: "parabola",
+    subtopic: "writing-quadratic-equation-from-word-problem",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p>A quantity \\(w\\) is calculated by finding the product of a number \\(x\\) and the sum of \\(7\\) and four times \\(x\\), then adding \\(6\\). Which function defines \\(w\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice">
+        <span class="mc-label">A</span>
+        <span>\\( w(x) = 4x^2 + 7x - 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( w(x) = 4x^2 + 13x \\)</span>
+      </div>
+      <div class="mc-choice correct">
+        <span class="mc-label">C</span>
+        <span>\\( w(x) = 4x^2 + 7x + 6 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( w(x) = 4x + 7x + 6 \\)</span>
+      </div>
+    </div>`,
+    answer: "C",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
+  {
+    id: "Par32073",
+    topic: "parabola",
+    subtopic: "writing-quadratic-equation-from-word-problem",
+    problem: 1,
+    questionType: "AQ",
+    difficulty: 1,
+    tags: [],
+    text: `<p>An amount \\(t\\) is calculated by finding the product of a number \\(x\\) and a number that is \\(16\\) less than six times \\(x\\), then adding \\(11\\). Which function defines \\(t\\)?</p>
+    <div class="mc-choices">
+      <div class="mc-choice correct">
+        <span class="mc-label">A</span>
+        <span>\\( t(x) = 6x^2 - 16x + 11 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">B</span>
+        <span>\\( t(x) = 6x^2 - 5x \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">C</span>
+        <span>\\( t(x) = 6x^2 + 16x + 11 \\)</span>
+      </div>
+      <div class="mc-choice">
+        <span class="mc-label">D</span>
+        <span>\\( t(x) = 6x^2 - 16x - 11 \\)</span>
+      </div>
+    </div>`,
+    answer: "A",
+    graph: null,
+    graphChoices: null,
+    steps: [],
+    screenshot: "",
+    videoId: ""
+  },
+
 ];

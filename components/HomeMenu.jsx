@@ -86,20 +86,33 @@ export default function HomeMenu({ showDdcus }) {
       </div>
   
       <Collapsible title="Parabola" defaultOpen={false}>
-        <Collapsible title="Equivalent Forms & Evaluating a Function" defaultOpen={false}>
+        <Collapsible title="Equivalent Forms" defaultOpen={false}>
           <Card href="/workbook/parabola/equivalent-to/simple-equivalent-to" title="Equivalent Forms" />
           <Card href="/workbook/parabola/equivalent-to/quiz" title="Equivalent Forms Quiz" kind="quiz" />
+        </Collapsible>
+        <Collapsible title="Evaluating a Function" defaultOpen={false}>
           <Card href="/workbook/parabola/equivalent-to/evaluating-a-function" title="Evaluating a Function" />
         </Collapsible>
-        <Collapsible title="Simple Graphing, X-Intercept, & Y-Intercept" defaultOpen={false}>
-          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/graphing-functions" title="Graphing Functions" />
-          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/graphing-translations" title="Graphing Translations" />
-          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/graphing-3c" title="Finding the Equation, Points on the Graph, or Graph" />
-          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/interpretation-of-point" title="Best Interpretation of a Point" />
-          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/y-intercept" title="Y-Intercept" />
-          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/vertex" title="Vertex" />
-          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/x-intercept" title="X-Intercept" />
-          <Card href="/workbook/parabola/simple-graphing-x-y-intercept/discriminant-theory" title="Discriminant Theory" />
+        <Collapsible title="Graphs & Points" defaultOpen={false}>
+          <Card href="/workbook/parabola/quadratic-functions-graphs-and-points/graphing-functions" title="Graphing Functions" />
+          <Card href="/workbook/parabola/quadratic-functions-graphs-and-points/graphing-translations" title="Graphing Translations" />
+          <Card href="/workbook/parabola/quadratic-functions-graphs-and-points/graphing-3c" title="Finding the Equation, Points on the Graph, or Graph" />
+          <Card href="/workbook/parabola/quadratic-functions-graphs-and-points/interpretation-of-point" title="Best Interpretation of a Point" />
+          <Card href="/workbook/parabola/quadratic-functions-graphs-and-points/quadratic-from-wp" title="Writing Quadratic Equations from a Word Problem" />
+        </Collapsible>
+        <Collapsible title="Y-Intercept" defaultOpen={false}>
+          <Card href="/workbook/parabola/quadratic-functions-graphs-and-points/y-intercept" title="Y-Intercept" />
+        </Collapsible>
+        <Collapsible title="Vertex" defaultOpen={false}>
+          <Card href="/workbook/parabola/quadratic-functions-graphs-and-points/vertex" title="Vertex" />
+          <Card href="/workbook/parabola/quadratic-functions-graphs-and-points/x-intercept" title="X-Intercept" />
+          <Card href="/workbook/parabola/quadratic-functions-graphs-and-points/discriminant-theory" title="Discriminant Theory" />
+        </Collapsible>
+        <Collapsible title="X-Intercept" defaultOpen={false}>
+          <Card href="/workbook/parabola/quadratic-functions-graphs-and-points/x-intercept" title="X-Intercept" />
+          <Card href="/workbook/parabola/quadratic-functions-graphs-and-points/discriminant-theory" title="Discriminant Theory" />
+        </Collapsible>
+        <Collapsible title="Mixed Practice" defaultOpen={false}>
         </Collapsible>
         <Collapsible title="Miscellaneous" defaultOpen={false}>
           <Card href="/workbook/parabola/misc/miscellaneous" title="Miscellaneous" />
